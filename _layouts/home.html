@@ -1,0 +1,28 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+{% include header.html %}
+
+<div class="row">
+    <div class="large-9 column">
+        <div class="featured">
+        <div class="large-12">
+            {% for post in site.posts limit:1 %}
+            <h3><a href="{{ post.url }}" title="">{{ post.title }}</a></h3>
+            <div>{{ post.content }}</div>
+            {% endfor %}
+        </div>
+        </div>
+    </div>
+
+
+    <div class="large-3 column">
+        <div class="large-12">
+        <!-- <h5>Header Might Be Good Here</h5> -->
+          <p class="box-bg graf-link">Explore how Americans voted for their legislators, 1787-1825. Mapping Early American Elections is a work in-progress, and we’re blogging about the project’s process on the <blog>. Read more about us on the <a href="{{site.url}}/about" title="About">About page</a>. </p>
+        </div>
+    </div>
+
+</div>
+
+{% include footer.html %}

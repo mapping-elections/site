@@ -1,0 +1,132 @@
+---
+---
+
+@import 'foundation';
+@include add-foundation-colors;
+@include foundation-global-styles;
+@include foundation-grid;
+@include foundation-typography;
+@include foundation-forms;
+@include foundation-button;
+@include foundation-accordion;
+@include foundation-accordion-menu;
+@include foundation-badge;
+@include foundation-breadcrumbs;
+@include foundation-button-group;
+@include foundation-callout;
+@include foundation-card;
+@include foundation-close-button;
+@include foundation-menu;
+@include foundation-menu-icon;
+@include foundation-drilldown-menu;
+@include foundation-dropdown;
+@include foundation-dropdown-menu;
+@include foundation-responsive-embed;
+@include foundation-label;
+@include foundation-media-object;
+@include foundation-off-canvas;
+@include foundation-orbit;
+@include foundation-pagination;
+@include foundation-progress-bar;
+@include foundation-slider;
+@include foundation-sticky;
+@include foundation-reveal;
+@include foundation-switch;
+@include foundation-table;
+@include foundation-tabs;
+@include foundation-thumbnail;
+@include foundation-title-bar;
+@include foundation-tooltip;
+@include foundation-top-bar;
+@include foundation-visibility-classes;
+@include foundation-float-classes;
+
+
+body {font-family: 'Lora', sans-serif;}
+
+h1,h2,h3,h4,h5 {font-family: 'Share', cursive;}
+
+img {margin-bottom:1rem}
+
+.callout.primary {background:#EEE}
+
+.border-right {border-right:1px solid $border-color}
+
+.featured {/*border-bottom:1px solid $border-color;*/ overflow:hidden; margin-bottom:1rem}
+
+.border-left {border-left:1px solid $border-color}
+
+.border-top {border-top:1px solid $border-color}
+
+.map-button {width:100%}
+
+.top {margin-top:1rem; padding-top:1rem}
+
+.gray {background:#eee; padding:.75rem}
+
+.box-bg {border-top: 1px solid $secondary-header-color; margin-top:50px;/*border-left: 1px solid $secondary-header-color; margin-bottom:2rem;background-color:lighten($tertiary, 7%);*/ margin-bottom:1rem; padding:.75rem; background-color:rgba($secondary-header-color, .7)}
+
+.clear {clear:both}
+
+.blog-entry {border-top:1px solid $secondary-header-color; padding-top:1rem;}
+
+hr {border-bottom:1px solid $border-color}
+
+h1 {font-size:2rem;padding-top:.25rem}
+
+.logo {float:left; margin:0;padding-top:.45rem;padding-right:.25rem}
+
+h1 a {color:$h1-color};
+
+h1 a:hover {color:darken($h1-color,10%)}
+
+.button.success {background-color:$secondary-header-color}
+
+a {color:$secondary-header-color}
+
+a:hover {color:darken($secondary-header-color, 10%)}
+
+.graf-link {color:#fff}
+
+.graf-link a {color:#fff; border-bottom:1px dotted #fff;}
+
+.graf-link a:hover {border-bottom:1px solid #fff;}
+
+// Use these styles when we have data links on homepage. Delete ones above.
+// 
+// a.graf-link {color:#fff}
+
+// a.graf-link:hover {border-bottom:1px solid lighten($secondary-header-color,75%)}
+
+.button.success:hover {background-color:lighten($secondary-header-color, 10%)}
+
+h2, h3, h4, h5, .nav-link a {color:$secondary-header-color}
+
+.nav-link a:hover {
+    color:darken($secondary-header-color, 10%);
+   border-bottom: 2px solid darken($secondary-header-color, 10%);
+}
+
+li.inactive-link a {
+  pointer-events: none;
+  cursor: default;
+  color:#999;
+}
+
+.left-img {float:left; padding-right:0.9375rem;}
+
+.cc-img {padding:15px 5px 0 0}
+
+.blogdate, .author {
+  float:left;
+  clear:both;
+  width:100%;
+  font-style: italic;
+  font-size:0.9rem;
+}
+
+.blogdate {
+  margin-bottom:0.75rem;
+}
+
+

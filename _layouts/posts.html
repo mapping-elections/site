@@ -1,0 +1,23 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+{% include header.html %}
+
+<?php require('header.php'); ?>
+
+<div class="row">
+    <div class="large-9 column border-right">
+        {% for post in site.posts %}
+            <div class="large-12 row {% if forloop.first == false %}blog-entry{% endif %}">   
+                <div class="large-4 column">
+                    <img src="{{ site.url }}{{ post.image }}" alt="" />
+                </div>
+                <div class="large-8 column">
+                    <h4><a href="{{ post.url }}" title="">{{ post.title }}</a></h4><p>{{ post.content | strip_html | truncatewords:75}}<a href="{{ post.url }}">Read more &rarr;</a></p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% include footer.html %}
