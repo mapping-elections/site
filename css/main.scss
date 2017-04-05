@@ -42,65 +42,125 @@
 @include foundation-float-classes;
 
 
-body {font-family: 'Lora', sans-serif;}
+body {
+  font-family: 'Lora', sans-serif;
+}
 
-h1,h2,h3,h4,h5 {font-family: 'Share', cursive;}
+h1,h2,h3,h4,h5 {
+  font-family: 'Share', cursive;
+}
 
-img {margin-bottom:1rem}
+img {
+  margin-bottom:1rem
+}
 
-.callout.primary {background:#EEE}
+.callout.primary {
+  background:#EEE
+}
 
-.border-right {border-right:1px solid $border-color}
+.border-right {
+  border-right:1px solid $border-color
+}
 
-.featured {/*border-bottom:1px solid $border-color;*/ overflow:hidden; margin-bottom:1rem}
+.right {
+  float:right
+}
 
-.border-left {border-left:1px solid $border-color}
+.featured {
+  /*border-bottom:1px solid $border-color;*/ 
+  overflow:hidden; margin-bottom:1rem
+}
 
-.border-top {border-top:1px solid $border-color}
+.border-left {
+  border-left:1px solid $border-color
+}
 
-.map-button {width:100%}
+.border-top {
+  border-top:1px solid $border-color
+}
 
-.top {margin-top:1rem; padding-top:1rem}
+.map-button {
+  width:100%
+}
 
-.gray {background:#eee; padding:.75rem}
+.top {
+  margin-top:1rem;
+  padding-top:1rem;
+}
 
-.box-bg {border-top: 1px solid $secondary-header-color; margin-top:50px;/*border-left: 1px solid $secondary-header-color; margin-bottom:2rem;background-color:lighten($tertiary, 7%);*/ margin-bottom:1rem; padding:.75rem; background-color:rgba($secondary-header-color, .7)}
+.gray {
+  background:#eee; 
+  padding:.75rem;
+}
 
-.clear {clear:both}
+.box-bg {
+  border-top: 1px solid $secondary-header-color;
+  /*border-left: 1px solid $secondary-header-color;
+  margin-bottom:2rem;background-color:lighten($tertiary, 7%);*/ 
+  margin-bottom:1rem;
+  padding:.75rem;
+  background-color:rgba($secondary-header-color, .7);
+}
 
-.blog-entry {border-top:1px solid $secondary-header-color; padding-top:1rem;}
+.clear {
+  clear:both
+}
 
-hr {border-bottom:1px solid $border-color}
+.blog-entry {
+  border-top:1px solid $secondary-header-color;
+  padding-top:1rem;
+}
 
-h1 {font-size:2rem;padding-top:.25rem}
+hr {
+  border-bottom:1px solid $border-color;
+}
 
-.logo {float:left; margin:0;padding-top:.45rem;padding-right:.25rem}
+h1 {
+  font-size:2rem;padding-top:.25rem;
+}
 
-h1 a {color:$h1-color};
+.logo {
+  float:left;
+  margin:0;
+  padding-top:.45rem;
+  padding-right:.25rem;
+}
 
-h1 a:hover {color:darken($h1-color,10%)}
+h1 a {
+  color:$h1-color;
+}
 
-.button.success {background-color:$secondary-header-color}
+h1 a:hover {
+  color:darken($h1-color,10%);
+}
 
-a {color:$secondary-header-color}
+.button.success {
+  background-color:$secondary-header-color;
+}
 
-a:hover {color:darken($secondary-header-color, 10%)}
+a {
+  color:$secondary-header-color;
+}
 
-.graf-link {color:#fff}
+a:hover {
+  color:darken($secondary-header-color, 10%);
+}
 
-.graf-link a {color:#fff; border-bottom:1px dotted #fff;}
+a.graf-link {
+  color:#fff
+}
 
-.graf-link a:hover {border-bottom:1px solid #fff;}
+a.graf-link:hover {
+  border-bottom:1px solid lighten($secondary-header-color,75%);
+}
 
-// Use these styles when we have data links on homepage. Delete ones above.
-// 
-// a.graf-link {color:#fff}
+.button.success:hover {
+  background-color:lighten($secondary-header-color, 10%);
+}
 
-// a.graf-link:hover {border-bottom:1px solid lighten($secondary-header-color,75%)}
-
-.button.success:hover {background-color:lighten($secondary-header-color, 10%)}
-
-h2, h3, h4, h5, .nav-link a {color:$secondary-header-color}
+h2, h3, h4, h5, .nav-link a {
+  color:$secondary-header-color;
+}
 
 .nav-link a:hover {
     color:darken($secondary-header-color, 10%);
@@ -127,6 +187,12 @@ li.inactive-link a {
 
 .blogdate {
   margin-bottom:0.75rem;
+}
+
+a.rss-link {
+  padding:.25rem .5rem;
+  background-color:rgba($secondary-header-color, .7);
+  color:#fff;
 }
 
 
