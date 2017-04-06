@@ -3,9 +3,10 @@ title: Introducing Mapping Early American Elections
 author: Rosemarie Zagarri
 image: "/content-img/nj-women-at-polls.jpg"
 layout: post
+date: 2017-04-06
 ---
 
-![New Jersey women voting]({{site.url}}/content-img/nj-women-at-polls.jpg){: .large-4 .left-img} The Mapping Early American Elections [team]({{site.url}}/about/) is pleased to launch the project website.
+![New Jersey women voting]({{site.url}}/content-img/nj-women-at-polls.jpg){: .large-4 .left-img} The *Mapping Early American Elections* [team]({{site.url}}/about/) is pleased to launch the project website.
 
 During this three-year project, funded by the Division of Preservation and Access at the National Endowment for the Humanities, we plan to blog about our process and progress. Our project is building on the *[New Nation Votes](http://elections.lib.tufts.edu/)* (NNV) collection of electoral returns, a project that was also funded by the NEH. *Mapping Early American Elections* is turning those election returns into a dataset which has a spatial component. Our dataset will offer researchers new opportunities to visualize and map the changing character of early American democracy as revealed through the country's earliest elections, 1787 to 1825.  
 
