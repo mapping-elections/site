@@ -168,6 +168,10 @@ h2, h3, h4, h5, .nav-link a {
    border-bottom: 2px solid darken($secondary-header-color, 10%);
 }
 
+a.more-link {
+  margin-left: 0.5em;
+}
+
 li.inactive-link a {
   pointer-events: none;
   cursor: default;
