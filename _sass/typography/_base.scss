@@ -74,7 +74,7 @@ $header-styles: (
 // $header-styles map is built from $header-sizes in order to ensure downward compatibility
 // when $header-sizes is depreciated, $header-styles needs to get !default values like settings.scss
 @function build_from_header-sizes($header-sizes) {
-  @warn 'Note, that $header-sizes has been replaced with $header-styles. $header-sizes still works, but it is going to be depreciated.';
+  // @warn 'Note, that $header-sizes has been replaced with $header-styles. $header-sizes still works, but it is going to be depreciated.';
   $header-styles: ();
   @each $size, $headers in $header-sizes {
     $header-map: ();
