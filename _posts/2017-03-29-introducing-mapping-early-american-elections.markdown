@@ -5,7 +5,7 @@ image: "/content-img/nj-women-at-polls.jpg"
 layout: post
 ---
 
-![New Jersey women voting]({{site.url}}/content-img/nj-women-at-polls.jpg){: .large-4 .left-img} The Mapping Early American Elections [team]({{site.url}}/about) is pleased to launch the project website.
+![New Jersey women voting]({{site.url}}/content-img/nj-women-at-polls.jpg){: .large-4 .left-img} The Mapping Early American Elections [team]({{site.url}}/about/) is pleased to launch the project website.
 
 During this three-year project, funded by the National Endowment for the Humanities, Division of Preservation and Access, we plan to blog about our process and progress while working with the existing *New Nation Votes* (NNV) database, also funded by the NEH. *Mapping Early American Elections* will offer researchers new opportunities to visualize and map the changing character of early American democracy as revealed through the country's earliest elections, 1787 to 1826.  
 

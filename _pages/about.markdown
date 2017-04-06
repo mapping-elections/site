@@ -1,6 +1,6 @@
 ---
 title: About
-permalink: '/about'
+permalink: '/about/'
 layout: page
 ---
 
@@ -8,9 +8,7 @@ layout: page
 
 *Early American Elections* will offer a window into the formative era of American politics by producing interactive maps and visualizations of congressional and state legislative elections from 1787 to 1825. The project makes available the electoral returns and spatial data underlying those maps, along with topical essays on the political history of the period and tutorials to encourage users to use the datasets to create their own maps. 
 
-The [Roy Rosenzweig Center for History and New Media](https://rrchnm.org/) received funding from the 
-
- [National Endowment for the Humanities](http://www.neh.gov/) in 2016 to offer enhanced access to the early American election returns that are currently contained in the *[New Nation Votes](http://elections.lib.tufts.edu/)* database housed at [Tufts University](https://www.tufts.edu/). The *New Nation Votes* dataset is the only comprehensive record of elections in existence for the early American republic. Scattered in newspapers, state archives, and local repositories around the country, the election returns have been painstakingly gathered over the past forty-five years by [Philip J. Lampi](http://www.neh.gov/humanities/2008/januaryfebruary/feature/the-orphan-scholar) of the [American Antiquarian Society](http://www.americanantiquarian.org/).
+The [Roy Rosenzweig Center for History and New Media](https://rrchnm.org/) received funding from the [National Endowment for the Humanities](http://www.neh.gov/) in 2016 to offer enhanced access to the early American election returns that are currently contained in the *[New Nation Votes](http://elections.lib.tufts.edu/)* database housed at [Tufts University](https://www.tufts.edu/). The *New Nation Votes* dataset is the only comprehensive record of elections in existence for the early American republic. Scattered in newspapers, state archives, and local repositories around the country, the election returns have been painstakingly gathered over the past forty-five years by [Philip J. Lampi](http://www.neh.gov/humanities/2008/januaryfebruary/feature/the-orphan-scholar) of the [American Antiquarian Society](http://www.americanantiquarian.org/).
 
 You can find the data we have released so far in our [GitHub repository](https://github.com/mapping-elections/elections-data), along with the [other code](https://github.com/mapping-elections/) produced by the project.
 

@@ -1,6 +1,6 @@
 ---
 title: Data
-permalink: '/data'
+permalink: '/data/'
 layout: page
 ---
 
