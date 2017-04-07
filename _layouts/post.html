@@ -10,6 +10,11 @@
         <span class="blogdate">{{ page.date | date: "%B %-d, %Y" }}</span>
         {{ content }}       
     </div>
+    <div class="large-3 column">
+        <hr class="show-for-small-only">
+        <a href="{{site.url}}/feed.xml" class="left rss-link">RSS Feed</a>
+        <link rel="alternate" type="application/rss+xml" href="{{site.url}}/feed.xml" />
+    </div>
 </div>
 
 {% include footer.html %}

@@ -9,15 +9,21 @@
     <div class="large-9 column border-right">
         {% for post in site.posts %}
             <div class="large-12 row {% if forloop.first == false %}blog-entry{% endif %}">   
-                <div class="large-4 column">
+                <div class="medium-4 column">
                     <img src="{{ site.url }}{{ post.image }}" alt="" />
                 </div>
                 <div class="large-8 column">
-                    <h4><a href="{{ post.url }}" title="">{{ post.title }}</a></h4><p>{{ post.content | strip_html | truncatewords:75}}<a href="{{ post.url }}">Read more &rarr;</a></p>
+                    <h4><a href="{{ post.url }}" title="">{{ post.title }}</a></h4>
+                    <span class="blogdate">{{ post.date | date: "%B %-d, %Y" }}</span>
+                    <p>{{ post.content | strip_html | truncatewords:75}}<a href="{{ post.url }}">Read more &rarr;</a></p>
                 </div>
             </div>
         {% endfor %}
-        <a href="{{site.url}}/feed.xml" class="right rss-link">RSS Feed</a>
+    </div>
+    
+    <div class="large-3 column">
+        <hr class="show-for-small-only">
+        <a href="{{site.url}}/feed.xml" class="left rss-link">RSS Feed</a>
         <link rel="alternate" type="application/rss+xml" href="{{site.url}}/feed.xml" />
     </div>
 </div>
