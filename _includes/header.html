@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lora|Share" rel="stylesheet">
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   </head>
-  <body>
+  <body {% if page.bodyclass %} class="{{ page.bodyclass }}"{% endif %}>
 
     <div class="row">
 
