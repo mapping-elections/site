@@ -11,6 +11,7 @@
                     <img src="{{ site.url }}{{ post.image }}" alt="" />
                 </div>
                 <div class="large-8 column">
+<<<<<<< HEAD
                     <h4><a href="{{ post.url }}" title="">{{ post.title }}</a></h4>
                     <span class="blogdate">{{ post.date | date: "%B %-d, %Y" }}</span>
                     <p>{{ post.content | strip_html | truncatewords:75}}<a href="{{ post.url }}">Read more &rarr;</a></p>
@@ -23,6 +24,13 @@
         <hr class="show-for-small-only">
         <a href="{{site.url}}/feed.xml" class="left rss-link">RSS Feed</a>
         <link rel="alternate" type="application/rss+xml" href="{{site.url}}/feed.xml" />
+=======
+                    <h4><a href="{{ post.url }}" title="">{{ post.title }}</a></h4><p>{{ post.content | strip_html | truncatewords:75}} <a href="{{ post.url }}" class="more-link">Read more &rarr;</a></p>
+                </div>
+            </div>
+        {% endfor %}
+        <a href="{{site.url}}/feed.xml" class="right rss-link">Blog Feed</a>
+>>>>>>> ec7b9601215346b49a1639d79b4a440f0f8b9ba0
     </div>
 </div>
 

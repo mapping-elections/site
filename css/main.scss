@@ -44,6 +44,7 @@
 
 body {
   font-family: 'Lora', sans-serif;
+  margin-top: 1em;
 }
 
 h1,h2,h3,h4,h5 {
@@ -169,6 +170,10 @@ h2, h3, h4, h5, .nav-link a {
 .nav-link a:hover {
     color:darken($secondary-header-color, 10%);
    border-bottom: 2px solid darken($secondary-header-color, 10%);
+}
+
+a.more-link {
+  margin-left: 0.5em;
 }
 
 li.inactive-link a {

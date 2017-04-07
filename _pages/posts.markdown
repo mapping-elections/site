@@ -1,5 +1,5 @@
 ---
 title: Blog
-permalink: 'posts.html'
+permalink: '/blog/'
 layout: posts
 ---
