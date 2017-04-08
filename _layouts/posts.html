@@ -13,7 +13,7 @@
                 <div class="large-8 column">
                     <h4><a href="{{ post.url }}" title="">{{ post.title }}</a></h4>
                     <span class="blogdate">{{ post.date | date: "%B %-d, %Y" }}</span>
-                    <p>{{ post.content | strip_html | truncatewords:75}}<a href="{{ post.url }}">Read more &rarr;</a></p>
+                    <p>{{ post.content | strip_html | truncatewords:75}} <a href="{{ post.url }}" class="more-link">Read more &rarr;</a></p>
                 </div>
             </div>
         {% endfor %}

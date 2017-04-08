@@ -174,6 +174,7 @@ h2, h3, h4, h5, .nav-link a {
 
 a.more-link {
   margin-left: 0.5em;
+  font-weight: bold;
 }
 
 li.inactive-link a {
@@ -184,7 +185,10 @@ li.inactive-link a {
 
 .left-img {float:left; padding-right:0.9375rem;}
 
-.cc-img {padding:15px 5px 0 0}
+.cc-img {
+  padding: 0 5px 0 0;
+  margin-bottom: 0;
+}
 
 .blogdate, .author {
   float:left;
@@ -204,4 +208,22 @@ a.rss-link {
   color:#fff;
 }
 
+// Media queries to keep menu on single line on various screen sizes
+@media only screen and (max-width: 1024px) {
+  .menu > li > a {
+    padding: 0.7rem 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .menu > li > a {
+    padding: 0.7rem 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .menu > li > a {
+    padding: 0.7rem 0.4rem;
+  }
+}
 
