@@ -20,7 +20,7 @@ Roy Rosenzweig Center for History and New Media, George Mason University:
 
 * [Jordan Bratt](http://historyarthistory.gmu.edu/people/jbratt), Graduate Research Assistant for data and geospatial analysis
 
-* [Sheila Brennan](http://historyarthistory.gmu.edu/people/sbrennan), Project Co-Director
+* [Sheila Brennan](http://rrchnm.org/author/sheila-brennan/), Project Co-Director
 
 * [Lincoln Mullen](http://lincolnmullen.com), Project Co-Director
 
