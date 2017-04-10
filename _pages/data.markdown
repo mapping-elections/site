@@ -6,11 +6,11 @@ title: Data
 
 ### Data
 
-The data produced by this project is available while it being created. You can access the pre-release data in a GitHub repository. Currently, we are working county-level aggregates of Congressional election returns.
+The data produced by this project is available while it is created. You can access the pre-release data in a GitHub repository. Currently, we are working on county-level aggregates of Congressional election returns.
 
 -   [Mapping Elections data repository](https://github.com/mapping-elections/elections-data)
 
-Please note that the pre-release data may not yet have been fully checked for accuracy and completeness. If you use the pre-release data, consider subscribing to our [blog](%7B%7Bsite.baseurl%7D%7D/blog/) or watching the GitHub repository so that you will be notified when the data is released. Released data will be available for download from this site, and it will be tagged in the GitHub repository. If you notice problems with the pre-release data, you are welcome to [open an issue](https://github.com/mapping-elections/elections-data/issues) on the repository or to [e-mail Lincoln Mullen](mailto:lincoln@lincolnmullen.com).
+Please note that the pre-release data may not yet have been fully checked for accuracy and completeness. If you use the pre-release data, consider subscribing to our [blog](%7B%7Bsite.baseurl%7D%7D/blog/) or watching the GitHub repository so that you will be notified when final versions of the data are released. Released data will be available for download from this site, and it will be tagged in the GitHub repository. If you notice problems with the pre-release data, you are welcome to [open an issue](https://github.com/mapping-elections/elections-data/issues) on the repository or to [e-mail Lincoln Mullen](mailto:lincoln@lincolnmullen.com).
 
 ##### License
 
