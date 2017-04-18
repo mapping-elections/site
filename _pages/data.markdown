@@ -14,7 +14,18 @@ Please note that the pre-release data may not yet have been fully checked for ac
 
 ##### License
 
-The data for *Mapping Early American Elections* is made available under the Open Data Commons Attribution License, [ODC-BY 1.0](https://opendatacommons.org/licenses/by/summary/). The data is derived and modified from the *New Nation Votes* collection, which is [licensed](http://elections.lib.tufts.edu/terms.html) under a Creative Commons Zero (CC0) dedication.
+The data for *Mapping Early American Elections* is made available under the Open Data Commons Attribution License, [ODC-BY 1.0](https://opendatacommons.org/licenses/by/summary/). 
+
+
+##### New Nation Votes
+
+The dataset for *Mapping Early American Elections* is derived from the *[New Nation Votes](http://elections.lib.tufts.edu)* project:
+
+- Philip J. Lampi, et al., *A New Nation Votes: American Election Returns, 1787--1825*, American Antiquarian Society (2007): <http://elections.lib.tufts.edu>.
+
+We maintain a GitHub repository with a [mirror of the XML files](https://github.com/mapping-elections/nnv-xml#README) from the *NNV* dataset. 
+
+The *NNV* dataset is [licensed](http://elections.lib.tufts.edu/terms.html) under a [Creative Commons Zero](https://creativecommons.org/publicdomain/zero/1.0/) (CC0) dedication.
 
 ##### Spatial data
 
