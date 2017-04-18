@@ -4,6 +4,8 @@ author: Rosemarie Zagarri
 image: "/content-img/nj-women-at-polls.jpg"
 layout: post
 date: 2017-04-11
+categories:
+- frontpage
 ---
 
 ![New Jersey women voting]({{site.url}}/content-img/nj-women-at-polls.jpg){: .large-4 .medium-12 .left-img} The *Mapping Early American Elections* [team]({{site.url}}/about/) is pleased to launch the project website.

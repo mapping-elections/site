@@ -1,5 +1,5 @@
 serve :
-	bundle exec jekyll serve --watch
+	bundle exec jekyll serve --watch --future
 
 build :
 	bundle exec jekyll build
