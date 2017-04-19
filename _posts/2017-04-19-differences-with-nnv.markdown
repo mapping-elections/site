@@ -6,7 +6,7 @@ layout: post
 date: 2017-04-19
 ---
 
-*Mapping Early American Elections* is based on the records collected in an earlier project, *A New Nation Votes* (also funded by the NEH). This project has been providing scholars with access to election returns from the early republic for a number of years. So what exactly is our project adding to these election returns, and how is it making them more accessible?
+*Mapping Early American Elections* is based on the records collected in an earlier project, [*A New Nation Votes*](http://elections.lib.tufts.edu/) (also funded by the NEH). This project has been providing scholars with access to election returns from the early republic for a number of years. So what exactly is our project adding to these election returns, and how is it making them more accessible?
 
 The best way to understand the difference between the two projects is that *A New Nation Votes* is a transcription of election returns, while *Mapping Elections* is a dataset. *NNV* provides researchers with access to the details of individual elections. *Mapping Elections*, on the other hand, will give scholars a way to see American elections as a whole through maps and other kinds of analysis. In order to provide that kind of overview, we are improving these sources by turning the transcribed returns into a dataset and connecting that dataset to geographic data. 
 
@@ -14,7 +14,7 @@ Thanks to the painstaking efforts of Philip Lampi and then a team at the America
 
 ![Transcribed data from a Congressional election in *NNV*.](/content-img/nnv-table.png)
 
-That table is actually generated from an XML file, which is the most authoritative version of the transcribed records. (You can see the [XML file for that election](https://github.com/mapping-elections/nnv-xml/blob/master/Virginia/1789/va.uscongress.5.1789.xml).) That XML file keeps track of such details as the candidates and their party affiliations, citations to sources, and the votes by county, district, or town. We use export the data for *Mapping Elections* from those XML files.
+That table is actually generated from an XML file, which is the most authoritative version of the transcribed records. (You can see the [XML file for that election](https://github.com/mapping-elections/nnv-xml/blob/master/Virginia/1789/va.uscongress.5.1789.xml).) That XML file keeps track of such details as the candidates and their party affiliations, citations to sources, and the votes by county, district, or town. We export the data for *Mapping Elections* from those XML files.
 
 A sharp eye might notice, however, that the data on the *NNV* website is not immediately ready to be mapped. We can leave aside the fact that the data would have to be transformed from the XML file to some kind of table to create a map. More important are two things that we can observe about the data. 
 
