@@ -227,3 +227,37 @@ a.rss-link {
   }
 }
 
+article {
+	counter-reset: figures;
+}
+
+figure {
+	counter-increment: figures;
+  margin: 1rem 0;
+}
+
+figure img {
+  margin: 0;
+}
+
+figure figcaption:before {
+	content: 'Figure ' counter(figures) '. ';
+}
+
+figure figcaption {
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+figure figcaption em {
+  font-style: normal;
+}
+
+code {
+  background: none;
+  border: none;
+  padding: 0;
+}
+

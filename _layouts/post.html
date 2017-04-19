@@ -4,12 +4,12 @@
 {% include header.html %}
 
 <div class="row">
-    <div class="large-9 columns border-right">
+    <article class="large-9 columns border-right post">
         <h3>{{ page.title }}</h3>
         <span class="author">{{page.author}}</span>
         <span class="blogdate">{{ page.date | date: "%B %-d, %Y" }}</span>
         {{ content }}       
-    </div>
+    </article>
     <div class="large-3 column">
         <hr class="hide-for-large">
         <a href="{{site.url}}/feed.xml" class="left rss-link">RSS Feed</a>
