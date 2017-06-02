@@ -29,7 +29,14 @@ sass:
 # theme: minima
 gems:
   - jekyll-feed
+  - jekyll-pandoc
 include: ["_pages"]
 exclude:
   - Gemfile
   - Gemfile.lock
+markdown: Pandoc
+pandoc:
+  extensions:
+    - normalize
+    - smart
+
