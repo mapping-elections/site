@@ -39,4 +39,7 @@ pandoc:
   extensions:
     - normalize
     - smart
+collections:
+  maps:
+    output: true
 

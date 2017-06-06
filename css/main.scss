@@ -50,7 +50,12 @@ body {
 h1,h2,h3,h4,h5 {
   font-family: 'Share', cursive;
 }
-
+h2, h3, h4, h5, .nav-link a {
+  color:$secondary-header-color;
+}
+h5 {
+  color:#0571b0;
+}
 img {
   margin-bottom:1rem
 }
@@ -163,9 +168,6 @@ a.graf-link:hover {
   background-color:lighten($secondary-header-color, 10%);
 }
 
-h2, h3, h4, h5, .nav-link a {
-  color:$secondary-header-color;
-}
 
 .nav-link a:hover {
     color:darken($secondary-header-color, 10%);
@@ -259,5 +261,44 @@ code {
   background: none;
   border: none;
   padding: 0;
+}
+
+.maps-browse h4 {
+  color:$h1-color;
+}
+
+.map-caption {
+  color: #6d6f71;
+  font-size: 1.1rem;
+}
+
+.sidebar h5 {
+  margin:0;
+  margin-top:1rem;
+}
+
+.sidebar > h5:first-of-type {
+  margin:0;
+}
+
+.sidebar ul {
+  list-style:none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  padding: 0 1rem; 
+  text-indent: -1rem;
+}
+
+.sidebar li::before {
+  content: "• ";
+  color: $secondary-header-color;
+}
+
+.citation {
+  font-style:italic;
+  color: #6d6f71;
 }
 
