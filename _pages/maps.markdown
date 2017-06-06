@@ -44,10 +44,10 @@ bodyclass: maps-browse
 <hr>
 
 #####1st Congress (1788)
-- [National](#)
-- [Virginia](#)
-- [Maryland](#)
-- [Delaware](#)
+- [National](#) <span class="browse-caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+- [Virginia](#) <span class="browse-caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+- [Maryland](#) <span class="browse-caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+- [Delaware](#) <span class="browse-caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
 
 
 #####2nd Congress (1788)
