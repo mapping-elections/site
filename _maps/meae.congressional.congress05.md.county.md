@@ -40,6 +40,9 @@ state: maryland
 title: 'Elections for Fifth Congress in Maryland, 1796'
 type: congressional
 ---
+<div class="legend-image">
+  <img src="{{site.url}}/content-img/legendMockup.png" alt="">
+</div>
 
 <div class="map">
 

@@ -7,13 +7,23 @@ bodyclass: maps-browse
 
 ###Maps
 
-<div data-equalizer data-equalize-on="medium">
+<div data-equalizer data-equalize-on="medium" class="large-up-4">
 <div class="medium-3 columns">
 #####1st Congress (1788)
 - [National](#)
 - [Virginia](#)
 - [Maryland](#)
 - [Delaware](#)
+- [Pennsylvania](#)
+- [New Jersey](#)
+- [New York](#)
+- [Connecticut](#)
+- [Rhode Island](#)
+- [Massachusetts](#)
+- [New Hamshire](#)
+- [North Carolina](#)
+- [South Carolina](#)
+- [Georgia](#)
 </div>
 
 <div class="medium-3 columns">
@@ -22,6 +32,21 @@ bodyclass: maps-browse
 - [Virginia](#)
 - [Maryland](#)
 - [Delaware](#)
+- [Pennsylvania](#)
+- [New Jersey](#)
+- [New York](#)
+- [Connecticut](#)
+- [Rhode Island](#)
+- [Massachusetts](#)
+- [New Hamshire](#)
+- [North Carolina](#)
+- [South Carolina](#)
+- [Georgia](#)
+- [Massachusetts](#)
+- [New Hamshire](#)
+- [North Carolina](#)
+- [South Carolina](#)
+- [Georgia](#)
 </div>
 
 <div class="medium-3 columns">
@@ -30,6 +55,21 @@ bodyclass: maps-browse
 - [Virginia](#)
 - [Maryland](#)
 - [Delaware](#)
+- [National](#)
+- [Virginia](#)
+- [Maryland](#)
+- [Delaware](#)
+- [Pennsylvania](#)
+- [New Jersey](#)
+- [New York](#)
+- [Connecticut](#)
+- [Rhode Island](#)
+- [Massachusetts](#)
+- [New Hamshire](#)
+- [North Carolina](#)
+- [South Carolina](#)
+- [Georgia](#)
+
 </div>
 
 <div class="medium-3 columns">
@@ -38,37 +78,98 @@ bodyclass: maps-browse
 - [Virginia](#)
 - [Maryland](#)
 - [Delaware](#)
+- [Pennsylvania](#)
+- [New Jersey](#)
+- [New York](#)
+- [Connecticut](#)
+- [Rhode Island](#)
+- [Massachusetts](#)
+- [New Hamshire](#)
+- [North Carolina](#)
+- [South Carolina](#)
+- [Georgia](#)
+- [National](#)
+- [Virginia](#)
+- [Maryland](#)
+- [Delaware](#)
+- [Pennsylvania](#)
+- [New Jersey](#)
+- [New York](#)
+
+</div>
+
+<div class="medium-3 columns">
+#####5th Congress (1788)
+- [National](#)
+- [Virginia](#)
+- [Maryland](#)
+- [Delaware](#)
+- [Pennsylvania](#)
+- [New Jersey](#)
+- [New York](#)
+- [Connecticut](#)
+- [Rhode Island](#)
+- [Massachusetts](#)
+- [New Hamshire](#)
+- [North Carolina](#)
+- [South Carolina](#)
+- [Georgia](#)
+- [National](#)
+- [Virginia](#)
+- [Maryland](#)
+- [Delaware](#)
+- [Pennsylvania](#)
+- [New Jersey](#)
+- [New York](#)
+- [Connecticut](#)
+- [Rhode Island](#)
+- [Massachusetts](#)
+- [New Hamshire](#)
+- [North Carolina](#)
+- [South Carolina](#)
+- [Georgia](#)
+- [National](#)
+- [Virginia](#)
+- [Maryland](#)
+- [Delaware](#)
+</div>
+
+<div class="medium-3 columns">
+#####6th Congress (1788)
+- [National](#)
+- [Virginia](#)
+- [Maryland](#)
+- [Delaware](#)
+- [Pennsylvania](#)
+- [New Jersey](#)
+- [New York](#)
+- [Connecticut](#)
+- [Rhode Island](#)
+- [Massachusetts](#)
+- [New Hamshire](#)
+- [North Carolina](#)
+- [South Carolina](#)
+- [Georgia](#)
+- [National](#)
+- [Virginia](#)
+- [Maryland](#)
+- [Delaware](#)
+- [Pennsylvania](#)
+- [New Jersey](#)
+- [New York](#)
+- [Connecticut](#)
+- [Rhode Island](#)
+- [Massachusetts](#)
+- [New Hamshire](#)
+- [North Carolina](#)
+- [South Carolina](#)
+- [Georgia](#)
+- [National](#)
+- [Virginia](#)
+- [Maryland](#)
+- [Delaware](#)
 </div>
 </div>
-
-<hr>
-
-#####1st Congress (1788)
-- [National](#) <span class="browse-caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-- [Virginia](#) <span class="browse-caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-- [Maryland](#) <span class="browse-caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-- [Delaware](#) <span class="browse-caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-
-
-#####2nd Congress (1788)
-- [National](#)
-- [Virginia](#)
-- [Maryland](#)
-- [Delaware](#)
-
-
-#####3rd Congress (1788)
-- [National](#)
-- [Virginia](#)
-- [Maryland](#)
-- [Delaware](#)
-
-
-#####4th Congress (1788)
-- [National](#)
-- [Virginia](#)
-- [Maryland](#)
-- [Delaware](#)
 
 <hr>
 

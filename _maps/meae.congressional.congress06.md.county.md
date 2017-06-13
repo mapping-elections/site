@@ -1,5 +1,6 @@
 ---
 layout: maps-show
+bodyclass: map2
 always_allow_html: True
 caption: 'This is the brief description of the contents of the map.'
 congressnum: 6
@@ -27,18 +28,21 @@ output:
     variant: markdown
 related-maps:
 - id: 'meae.congressional.congress05.md.county'
-  name: MD Fifth Congress
+  name: Maryland Fifth Congress
   type: previous
 - id: 'meae.congressional.congress07.md.county'
-  name: MD Sixth Congress
+  name: Maryland Sixth Congress
   type: next
 - id: 'meae.congressional.congress06.national.district'
-  name: Sixth Congress
+  name: US Sixth Congress
   type: national
 state: maryland
 title: 'Elections for Sixth Congress in Maryland, 1798'
 type: congressional
 ---
+<div class="legend-image">
+  <img src="{{site.url}}/content-img/legendMockup.png" alt="">
+</div>
 
 <div class="map">
 
@@ -78,4 +82,6 @@ style="width:672px;height:480px;">
 About this election
 -------------------
 
-This is the longer description of the effects of the map.
+This is the longer description of the effects of the map. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam magni nemo voluptatum, ab laudantium id provident eos, ducimus accusamus ipsam dolores quibusdam voluptatibus sapiente recusandae aliquam, consequuntur hic ipsa earum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit eos doloremque a, autem commodi corporis perspiciatis inventore, reprehenderit tempore dolore. Officia voluptas deleniti itaque, quidem asperiores deserunt amet illum dignissimos.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis repellat amet ratione vero nesciunt laboriosam, voluptas impedit adipisci sint suscipit consequuntur, neque veniam laudantium nemo error soluta eaque dicta aperiam.

@@ -8,6 +8,13 @@
         <h3>{{ page.title }}</h3>
         <p class="map-caption">{{ page.caption }}</p>
             {{ content }}
+
+        <h5>New Nation Votes Data</h5>
+        <ul>
+            {% for nn in page.nnv %}
+            <li><a href="http://elections.lib.tufts.edu/catalog/tufts:{{ nn.id }}">{{ nn.name }}</a></li>
+            {% endfor %}
+        </ul>
         </div>
     </div>
 
@@ -15,18 +22,10 @@
     <div class="large-3 column sidebar">
         <h5>Related Maps</h5>
           <ul>
-              <li><a href="{{site.url}}/maps">Browse Maps</a> </li>
               {% for related in page.related-maps %}
-              <li><a href="{{site.url}}/maps/{{related.id}}">{{related.name}} ({{related.type}})</a></li>
+              <li><a href="{{site.url}}/maps/{{related.id}}">{{related.name}}</a></li>
               {% endfor %}
           </ul>
-
-        <h5>New Nation Votes Data</h5>
-            <ul>
-                {% for nn in page.nnv %}
-                <li><a href="http://elections.lib.tufts.edu/catalog/tufts:{{ nn.id }}">{{ nn.name }}</a></li>
-                {% endfor %}
-            </ul>
         
         <h5>Get the Data</h5>
         <a href="{{site.url}}/data/">Our data is available for download.</a>
