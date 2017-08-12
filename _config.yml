@@ -34,6 +34,7 @@ include: ["_pages"]
 exclude:
   - Gemfile
   - Gemfile.lock
+  - "*.Rmd"
 markdown: Pandoc
 pandoc:
   extensions:
