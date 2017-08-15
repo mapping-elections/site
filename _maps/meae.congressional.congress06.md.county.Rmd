@@ -5,13 +5,9 @@ level: state
 state: maryland
 geography: county
 congressnum: 6
-
-title: "Elections for Sixth Congress in Maryland, 1798"
-caption: |
-  This is the brief description of the contents of the map.
-  
-legend: fed-vs-repub-percentage
-
+title: Elections for the Sixth Congress in Maryland, 1798
+caption: This is the brief description of the contents of the map.
+legend_type: fed-vs-repub-percentage
 nnv:
 - id: md.uscongress1.1798
   name: MD US Congress 1798 District 1
@@ -25,106 +21,57 @@ nnv:
   name: MD US Congress 1798 District 5
 - id: md.uscongress6.1798
   name: MD US Congress 1798 District 6
-  
+- id: md.uscongress7.1798
+  name: MD US Congress 1798 District 7
+- id: md.uscongress8.1798
+  name: MD US Congress 1798 District 8
 related-maps:
 - id: meae.congressional.congress05.md.county
   name: MD Fifth Congress
   type: previous
 - id: meae.congressional.congress07.md.county
-  name: MD Sixth Congress
+  name: MD Seventh Congress
   type: next
 - id: meae.congressional.congress06.national.district
-  name: Sixth Congress 
+  name: National Sixth Congress
   type: national
-
 output:
   md_document:
     variant: markdown
   html_document:
     theme: default
-always_allow_html: true
-
+always_allow_html: yes
 layout: maps-show
+
 ---
 
-```{r setup, include= FALSE}
+```{r setup, include = FALSE}
 library(leaflet)
 library(tidyverse)
 library(USAboundaries)
 library(mappingelections)
-library(sf)
-library(formattable)
 
-md5_congress <- read_sf("histcongress.json")
-md5_counties <- read_sf("histcounties.json")
+meae_id <- "meae.congressional.congress06.md.county"
+votes <- vote_counts(meae_id)
+party_aggregates <- aggregate_party_votes(votes)
+candidate_aggregates <- aggregate_candidate_votes(votes)
+map_data <- join_to_spatial(party_aggregates)
 ```
-
-<div class="legend-image">
-  <img src="{{site.url}}/content-img/legendMockup.png" alt="">
-</div>
 
 <div class="map">
 
 ```{r election-map, echo = FALSE}
-mapid <- meae_maps %>% filter(state == "MD", congress == 5)
-
-md5_votes <- mapid$meae_id %>% 
-  vote_counts() %>% 
-  aggregate_party_votes()
-
-md5_spatial <- left_join(md5_counties, md5_votes, by = c("ID" = "county_ahcb")) %>% 
-  mutate(map_date = as.Date("1796-11-01"))
-colnames(md5_spatial) <- tolower(colnames(md5_spatial))
-
-md5_map <- md5_spatial %>% 
-  map_elections()
-
-md5_map %>% 
-  addPolygons(data = md5_congress,
-              stroke = TRUE,
-              color = "black",
-              opacity = 1,
-              weight = 3,
-              fill = NULL)
+map_elections(map_data, legend = FALSE)
 ```
 
 </div>
 
 <div class="results-table">
 
-```{r}
-results_df <- mapid$meae_id %>% vote_counts() %>% group_by(district, candidate, party) %>% summarize(vote = sum(vote, na.rm = TRUE)) %>% group_by(district) %>% mutate(percentage = vote / sum(vote)) %>% mutate(result = ifelse(percentage > 0.5, "won", "")) %>% ungroup() %>% mutate(percentage = percent(percentage, digits = 1))
-colnames(results_df) <- tools::toTitleCase(colnames(results_df))
-format_district <- formatter("span", class = x ~ ifelse(x %% 2 == 0, "district_even", "district_odd"))
-format_party <- formatter("span", class = x ~ tolower(x))
-format_row <- formatter("span", class = "oddbyarea")
-results_df %>% format_table(list(Party = format_party, District = format_district))
-is_odd <- function(x) { which(x %% 2 != 0) }
-results_df %>% format_table(list(area(row = is_odd(results_df$District)) ~ format_row)) %>% cat()
+```{r election-results, echo = FALSE, results='asis'}
+cat(results_to_table(candidate_aggregates))
 ```
-
-
-   District  Candidate              Party           Vote   Percentage  Result
-  ---------- ---------------------- ------------ ------- ------------ --------
-      1      Dent, George           Federalist       785        99.7%   won
-      1      Key, Philip Barton     NA                 2         0.3% 
-      2      Sprigg, Richard, Jr.   Republican     1,400         100%   won
-      3      Craik, William         Federalist       660          51%   won
-      3      Edwards, Benjamin      Federalist       635          49% 
-      4      Baer, George           Federalist     1,792        72.1%   won
-      4      Ringold, Samuel        Republican       695        27.9% 
-      5      Smith, Samuel          Republican       121         100%   won
-      6      Matthews, William      Federalist     1,387        51.5%   won
-      6      Christie, Gabriel      Republican     1,307        48.5% 
-      7      Hindman, William       Federalist     1,665        62.6%   won
-      7      Wright, Robert         Republican       995        37.4% 
-      8      Dennis, John           Federalist       903         100%   won
-
-  : Contenders in MD 1796 Congressional Election
 
 </div>
 
-
 ## About this election
-
-This is the longer description of the effects of the map.
