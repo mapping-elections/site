@@ -19,8 +19,9 @@ deploy-production : clean
 	@echo "Deploying to production server ..."
 	rsync --checksum --exclude dev/ --delete -avz _site/* earlyamerican:/websites/earlyamer/www/
 	@echo "Done."
-	
 
+build : clean
+	bundle exec jekyll build
 
 .PHONY: serve clean deploy deploy-production
 
