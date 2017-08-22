@@ -3,7 +3,7 @@ title: "Geolocating the Towns from <em>A New Nation Votes</em>"
 author: Jordan Bratt
 image: "/content-img/geochecker-kent.png"
 layout: post
-date: 2017-08-21
+date: 2017-08-22
 ---
 
 What do the towns of Middle Hero, Vermont, Castleton, New York, and
