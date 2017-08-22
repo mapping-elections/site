@@ -26,7 +26,7 @@ The NNV towns list, however, has required additional work to properly
 geolocate.
 
 First, the NNV towns’ data needed to be standardized and consolidated.
-As we noted in an earlier [blog post](blog/2017/04/19/differences-with-nnv.html) on the differences between the
+As we noted in an earlier [blog post]({{site.url}}/blog/2017/04/19/differences-with-nnv.html) on the differences between the
 *Mapping Early American Elections* project and the *New Nation Votes*
 project, NNV is a transcription of election returns found in various
 sources, not a ready-for-mapping dataset. Variation in spelling,
@@ -50,7 +50,7 @@ Frederickstown/Fredericktown in Stueben County actually refer to a town
 distinct from Fredericks/Kent. This town was further west in the state
 of New York, and its name was changed to [Wayne in April of 1808](https://archive.org/stream/historyofsteuben00clay#page/428/mode/2up).
 
-![Listings for the town for Fredericks, New York, under various names.](/content-img/frederick-ny.png)
+![Listings for the town for Fredericks, New York, under various names.]({{site.url}}/content-img/frederick-ny.png)
 
 Locating this information about changing place names required examining
 various county histories. The United States Geological Survey also
@@ -89,7 +89,7 @@ town list. In the end, the process created a CSV of the standardized, distinct
 towns and their latitude and longitudes, as well as a CSV of the NNV towns and 
 standardized towns.
 
-![An example of using the Geochecker app to verify a town's location.](/content-img/geochecker-kent.png)
+![An example of using the Geochecker app to verify a town's location.]({{site.url}}/content-img/geochecker-kent.png)
 
 An important secondary result of geolocating towns was the gathering of
 local and town histories. In line with RRCHNM’s goal to democratize

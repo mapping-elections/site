@@ -28,7 +28,7 @@ a result, the variation in election rules and procedures makes the task
 of generalization very difficult---and made the process of running the
 newly established federal government even more challenging.
 
-![The results of elections held in New Jersey, reported in the *National Intelligencer and Washington advertiser*, [October 26, 1801](http://chroniclingamerica.loc.gov/lccn/sn83045242/1801-10-26/ed-1/seq-2/)). Image courtesy of *Chronicling America: Historic American Newspapers*, Library of Congress.](/content-img/chronam-election-returns.png)
+![The results of elections held in New Jersey, reported in the *National Intelligencer and Washington advertiser*, [October 26, 1801](http://chroniclingamerica.loc.gov/lccn/sn83045242/1801-10-26/ed-1/seq-2/)). Image courtesy of *Chronicling America: Historic American Newspapers*, Library of Congress.]({{site.url}}/content-img/chronam-election-returns.png)
 
 There was, for example, no uniformly established day on which to hold
 elections. In New England and New York, for example, elections tended to
