@@ -3,7 +3,7 @@ title: "What Did Democracy Look Like? Voting in Early America"
 author: Rosemarie Zagarri
 image: "/content-img/chronam-election-returns.png"
 layout: post
-date: 2017-08-31
+date: 2017-09-01
 ---
 
 Early American elections subvert conventional notions that portray the
