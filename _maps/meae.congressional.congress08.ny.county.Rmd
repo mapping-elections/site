@@ -5,8 +5,9 @@ level: state
 state: new york
 geography: county
 congressnum: 8
-title: Elections for the Eighth Congress in New York, 1803
-caption: This is the brief description of the contents of the map.
+congressordinal: 8th
+title: '8th Congress: New York 1803'
+year: 1803
 legend_type: fed-vs-repub-percentage
 nnv:
 - id: ny.uscongress1.1802
@@ -91,5 +92,3 @@ cat(results_to_table(candidate_aggregates))
 ```
 
 </div>
-
-## About this election

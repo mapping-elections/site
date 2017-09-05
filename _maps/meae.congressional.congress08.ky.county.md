@@ -1,7 +1,7 @@
 ---
 always_allow_html: True
-caption: 'This is the brief description of the contents of the map.'
 congressnum: 8
+congressordinal: 8th
 geography: county
 layout: 'maps-show'
 legend_type: 'fed-vs-repub-percentage'
@@ -36,8 +36,9 @@ related-maps:
   name: National Eighth Congress
   type: national
 state: kentucky
-title: 'Elections for the Eighth Congress in Kentucky, 1803'
+title: '8th Congress: Kentucky 1803'
 type: congressional
+year: 1803
 ---
 
 <div class="map">
@@ -73,8 +74,8 @@ Vote
 <th style="text-align:right;">
 Percentage
 </th>
-<th style="text-align:left;">
-Result
+<th style="text-align:center;">
+Elected
 </th>
 </tr>
 </thead>
@@ -95,8 +96,8 @@ Republican
 <td style="text-align:right;">
 43%
 </td>
-<td class="elected" data-elected="true">
-elected
+<td style="text-align:center;">
+✔
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="even">
@@ -115,10 +116,10 @@ Republican
 <td style="text-align:right;">
 27%
 </td>
-<td style="text-align:left;">
+<td style="text-align:center;">
 </td>
 </tr>
-<tr class="district-unchanged" data-district-type="even">
+<tr class="district-changed" data-district-type="even">
 <td style="text-align:center;">
 4
 </td>
@@ -134,26 +135,7 @@ Republican
 <td style="text-align:right;">
 25%
 </td>
-<td style="text-align:left;">
-</td>
-</tr>
-<tr class="district-changed" data-district-type="even">
 <td style="text-align:center;">
-4
-</td>
-<td style="text-align:left;">
-Daveiss, Joseph Hamilton
-</td>
-<td class="party-federalist" data-party="federalist">
-Federalist
-</td>
-<td style="text-align:right;">
-238
-</td>
-<td style="text-align:right;">
-4%
-</td>
-<td style="text-align:left;">
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="even">
@@ -172,8 +154,8 @@ Republican
 <td style="text-align:right;">
 58%
 </td>
-<td class="elected" data-elected="true">
-elected
+<td style="text-align:center;">
+✔
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="even">
@@ -192,7 +174,7 @@ Republican
 <td style="text-align:right;">
 32%
 </td>
-<td style="text-align:left;">
+<td style="text-align:center;">
 </td>
 </tr>
 <tr class="district-changed" data-district-type="even">
@@ -211,13 +193,10 @@ Republican
 <td style="text-align:right;">
 10%
 </td>
-<td style="text-align:left;">
+<td style="text-align:center;">
 </td>
 </tr>
 </tbody>
 </table>
 
 </div>
-
-About this election
--------------------

@@ -5,8 +5,9 @@ level: state
 state: maryland
 geography: county
 congressnum: 5
-title: Elections for the Fifth Congress in Maryland, 1796
-caption: This is the brief description of the contents of the map.
+congressordinal: 5th
+title: '5th Congress: Maryland 1796'
+year: 1796
 legend_type: fed-vs-repub-percentage
 nnv:
 - id: md.uscongress1.1796
@@ -73,5 +74,3 @@ cat(results_to_table(candidate_aggregates))
 ```
 
 </div>
-
-## About this election

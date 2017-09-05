@@ -5,8 +5,9 @@ level: state
 state: virginia
 geography: county
 congressnum: 8
-title: Elections for the Eighth Congress in Virginia, 1803
-caption: This is the brief description of the contents of the map.
+congressordinal: 8th
+title: '8th Congress: Virginia 1803'
+year: 1803
 legend_type: fed-vs-repub-percentage
 nnv:
 - id: va.uscongress.1.1803
@@ -101,5 +102,3 @@ cat(results_to_table(candidate_aggregates))
 ```
 
 </div>
-
-## About this election

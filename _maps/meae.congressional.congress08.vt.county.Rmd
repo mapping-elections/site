@@ -5,8 +5,9 @@ level: state
 state: vermont
 geography: county
 congressnum: 8
-title: Elections for the Eighth Congress in Vermont, 1802
-caption: This is the brief description of the contents of the map.
+congressordinal: 8th
+title: '8th Congress: Vermont 1802'
+year: 1802
 legend_type: fed-vs-repub-percentage
 nnv:
 - id: vt.uscongress.southwest.1802
@@ -65,5 +66,3 @@ cat(results_to_table(candidate_aggregates))
 ```
 
 </div>
-
-## About this election

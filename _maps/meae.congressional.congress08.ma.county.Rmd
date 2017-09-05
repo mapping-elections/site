@@ -5,8 +5,9 @@ level: state
 state: massachusetts
 geography: county
 congressnum: 8
-title: Elections for the Eighth Congress in Massachusetts, 1802
-caption: This is the brief description of the contents of the map.
+congressordinal: 8th
+title: '8th Congress: Massachusetts 1802'
+year: 1802
 legend_type: fed-vs-repub-percentage
 nnv:
 - id: ma.uscongress.suffolk.1802
@@ -91,5 +92,3 @@ cat(results_to_table(candidate_aggregates))
 ```
 
 </div>
-
-## About this election

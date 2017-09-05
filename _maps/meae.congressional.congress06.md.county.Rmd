@@ -5,8 +5,9 @@ level: state
 state: maryland
 geography: county
 congressnum: 6
-title: Elections for the Sixth Congress in Maryland, 1798
-caption: This is the brief description of the contents of the map.
+congressordinal: 6th
+title: '6th Congress: Maryland 1798'
+year: 1798
 legend_type: fed-vs-repub-percentage
 nnv:
 - id: md.uscongress1.1798
@@ -73,5 +74,3 @@ cat(results_to_table(candidate_aggregates))
 ```
 
 </div>
-
-## About this election

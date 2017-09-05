@@ -5,8 +5,9 @@ level: state
 state: maryland
 geography: county
 congressnum: 7
-title: Elections for the Seventh Congress in Maryland, 1801
-caption: This is the brief description of the contents of the map.
+congressordinal: 7th
+title: '7th Congress: Maryland 1801'
+year: 1801
 legend_type: fed-vs-repub-percentage
 nnv:
 - id: md.uscongress1.1801
@@ -73,5 +74,3 @@ cat(results_to_table(candidate_aggregates))
 ```
 
 </div>
-
-## About this election

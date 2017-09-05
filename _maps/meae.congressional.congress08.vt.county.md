@@ -1,7 +1,7 @@
 ---
 always_allow_html: True
-caption: 'This is the brief description of the contents of the map.'
 congressnum: 8
+congressordinal: 8th
 geography: county
 layout: 'maps-show'
 legend_type: 'fed-vs-repub-percentage'
@@ -32,8 +32,9 @@ related-maps:
   name: National Eighth Congress
   type: national
 state: vermont
-title: 'Elections for the Eighth Congress in Vermont, 1802'
+title: '8th Congress: Vermont 1802'
 type: congressional
+year: 1802
 ---
 
 <div class="map">
@@ -69,8 +70,8 @@ Vote
 <th style="text-align:right;">
 Percentage
 </th>
-<th style="text-align:left;">
-Result
+<th style="text-align:center;">
+Elected
 </th>
 </tr>
 </thead>
@@ -91,8 +92,8 @@ Republican
 <td style="text-align:right;">
 54%
 </td>
-<td class="elected" data-elected="true">
-elected
+<td style="text-align:center;">
+✔
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="odd">
@@ -111,7 +112,7 @@ Republican
 <td style="text-align:right;">
 18%
 </td>
-<td style="text-align:left;">
+<td style="text-align:center;">
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="odd">
@@ -130,10 +131,10 @@ Federalist
 <td style="text-align:right;">
 14%
 </td>
-<td style="text-align:left;">
+<td style="text-align:center;">
 </td>
 </tr>
-<tr class="district-unchanged" data-district-type="odd">
+<tr class="district-changed" data-district-type="odd">
 <td style="text-align:center;">
 1
 </td>
@@ -149,26 +150,7 @@ Federalist
 <td style="text-align:right;">
 10%
 </td>
-<td style="text-align:left;">
-</td>
-</tr>
-<tr class="district-changed" data-district-type="odd">
 <td style="text-align:center;">
-1
-</td>
-<td style="text-align:left;">
-Fay, Daniel
-</td>
-<td style="text-align:left;">
-NA
-</td>
-<td style="text-align:right;">
-48
-</td>
-<td style="text-align:right;">
-2%
-</td>
-<td style="text-align:left;">
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="even">
@@ -187,8 +169,8 @@ Federalist
 <td style="text-align:right;">
 54%
 </td>
-<td class="elected" data-elected="true">
-elected
+<td style="text-align:center;">
+✔
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="even">
@@ -207,26 +189,7 @@ Federalist
 <td style="text-align:right;">
 38%
 </td>
-<td style="text-align:left;">
-</td>
-</tr>
-<tr class="district-unchanged" data-district-type="even">
 <td style="text-align:center;">
-2
-</td>
-<td style="text-align:left;">
-Leland, Aaron
-</td>
-<td class="party-republican" data-party="republican">
-Republican
-</td>
-<td style="text-align:right;">
-206
-</td>
-<td style="text-align:right;">
-4%
-</td>
-<td style="text-align:left;">
 </td>
 </tr>
 <tr class="district-changed" data-district-type="even">
@@ -234,18 +197,17 @@ Republican
 2
 </td>
 <td style="text-align:left;">
-NA
+Other candidates
 </td>
 <td style="text-align:left;">
-NA
 </td>
 <td style="text-align:right;">
-49
+384
 </td>
 <td style="text-align:right;">
-1%
+8%
 </td>
-<td style="text-align:left;">
+<td style="text-align:center;">
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="odd">
@@ -264,8 +226,8 @@ Federalist
 <td style="text-align:right;">
 53%
 </td>
-<td class="elected" data-elected="true">
-elected
+<td style="text-align:center;">
+✔
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="odd">
@@ -284,7 +246,7 @@ Republican
 <td style="text-align:right;">
 40%
 </td>
-<td style="text-align:left;">
+<td style="text-align:center;">
 </td>
 </tr>
 <tr class="district-changed" data-district-type="odd">
@@ -303,7 +265,7 @@ Republican
 <td style="text-align:right;">
 7%
 </td>
-<td style="text-align:left;">
+<td style="text-align:center;">
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="even">
@@ -322,8 +284,8 @@ Federalist
 <td style="text-align:right;">
 54%
 </td>
-<td class="elected" data-elected="true">
-elected
+<td style="text-align:center;">
+✔
 </td>
 </tr>
 <tr class="district-changed" data-district-type="even">
@@ -342,13 +304,10 @@ Republican
 <td style="text-align:right;">
 45%
 </td>
-<td style="text-align:left;">
+<td style="text-align:center;">
 </td>
 </tr>
 </tbody>
 </table>
 
 </div>
-
-About this election
--------------------

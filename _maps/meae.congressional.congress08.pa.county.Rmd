@@ -5,8 +5,9 @@ level: state
 state: pennsylvania
 geography: county
 congressnum: 8
-title: Elections for the Eighth Congress in Pennsylvania, 1802
-caption: This is the brief description of the contents of the map.
+congressordinal: 8th
+title: '8th Congress: Pennsylvania 1802'
+year: 1802
 legend_type: fed-vs-repub-percentage
 nnv:
 - id: pa.uscongress1.1802
@@ -79,5 +80,3 @@ cat(results_to_table(candidate_aggregates))
 ```
 
 </div>
-
-## About this election

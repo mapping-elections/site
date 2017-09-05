@@ -1,7 +1,7 @@
 ---
 always_allow_html: True
-caption: 'This is the brief description of the contents of the map.'
 congressnum: 6
+congressordinal: 6th
 geography: county
 layout: 'maps-show'
 legend_type: 'fed-vs-repub-percentage'
@@ -40,8 +40,9 @@ related-maps:
   name: National Sixth Congress
   type: national
 state: maryland
-title: 'Elections for the Sixth Congress in Maryland, 1798'
+title: '6th Congress: Maryland 1798'
 type: congressional
+year: 1798
 ---
 
 <div class="map">
@@ -77,8 +78,8 @@ Vote
 <th style="text-align:right;">
 Percentage
 </th>
-<th style="text-align:left;">
-Result
+<th style="text-align:center;">
+Elected
 </th>
 </tr>
 </thead>
@@ -99,8 +100,8 @@ Federalist
 <td style="text-align:right;">
 54%
 </td>
-<td class="elected" data-elected="true">
-elected
+<td style="text-align:center;">
+✔
 </td>
 </tr>
 <tr class="district-changed" data-district-type="odd">
@@ -119,7 +120,7 @@ Federalist
 <td style="text-align:right;">
 46%
 </td>
-<td style="text-align:left;">
+<td style="text-align:center;">
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="even">
@@ -138,8 +139,8 @@ Federalist
 <td style="text-align:right;">
 62%
 </td>
-<td class="elected" data-elected="true">
-elected
+<td style="text-align:center;">
+✔
 </td>
 </tr>
 <tr class="district-changed" data-district-type="even">
@@ -158,7 +159,7 @@ Republican
 <td style="text-align:right;">
 38%
 </td>
-<td style="text-align:left;">
+<td style="text-align:center;">
 </td>
 </tr>
 <tr class="district-changed" data-district-type="odd">
@@ -177,8 +178,8 @@ Federalist
 <td style="text-align:right;">
 100%
 </td>
-<td class="elected" data-elected="true">
-elected
+<td style="text-align:center;">
+✔
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="even">
@@ -197,8 +198,8 @@ Federalist
 <td style="text-align:right;">
 55%
 </td>
-<td class="elected" data-elected="true">
-elected
+<td style="text-align:center;">
+✔
 </td>
 </tr>
 <tr class="district-changed" data-district-type="even">
@@ -217,7 +218,7 @@ Republican
 <td style="text-align:right;">
 45%
 </td>
-<td style="text-align:left;">
+<td style="text-align:center;">
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="odd">
@@ -236,8 +237,8 @@ Republican
 <td style="text-align:right;">
 56%
 </td>
-<td class="elected" data-elected="true">
-elected
+<td style="text-align:center;">
+✔
 </td>
 </tr>
 <tr class="district-changed" data-district-type="odd">
@@ -256,7 +257,7 @@ Federalist
 <td style="text-align:right;">
 44%
 </td>
-<td style="text-align:left;">
+<td style="text-align:center;">
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="even">
@@ -275,8 +276,8 @@ Republican
 <td style="text-align:right;">
 56%
 </td>
-<td class="elected" data-elected="true">
-elected
+<td style="text-align:center;">
+✔
 </td>
 </tr>
 <tr class="district-changed" data-district-type="even">
@@ -295,7 +296,7 @@ Federalist
 <td style="text-align:right;">
 44%
 </td>
-<td style="text-align:left;">
+<td style="text-align:center;">
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="odd">
@@ -314,8 +315,8 @@ Republican
 <td style="text-align:right;">
 56%
 </td>
-<td class="elected" data-elected="true">
-elected
+<td style="text-align:center;">
+✔
 </td>
 </tr>
 <tr class="district-changed" data-district-type="odd">
@@ -334,7 +335,7 @@ Federalist
 <td style="text-align:right;">
 44%
 </td>
-<td style="text-align:left;">
+<td style="text-align:center;">
 </td>
 </tr>
 <tr class="district-changed" data-district-type="even">
@@ -353,14 +354,11 @@ Federalist
 <td style="text-align:right;">
 100%
 </td>
-<td class="elected" data-elected="true">
-elected
+<td style="text-align:center;">
+✔
 </td>
 </tr>
 </tbody>
 </table>
 
 </div>
-
-About this election
--------------------

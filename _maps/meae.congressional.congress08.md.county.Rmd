@@ -5,8 +5,9 @@ level: state
 state: maryland
 geography: county
 congressnum: 8
-title: Elections for the Eighth Congress in Maryland, 1803
-caption: This is the brief description of the contents of the map.
+congressordinal: 8th
+title: '8th Congress: Maryland 1803'
+year: 1803
 legend_type: fed-vs-repub-percentage
 nnv:
 - id: md.uscongress1.1803
@@ -73,5 +74,3 @@ cat(results_to_table(candidate_aggregates))
 ```
 
 </div>
-
-## About this election

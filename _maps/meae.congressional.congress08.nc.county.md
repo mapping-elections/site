@@ -1,7 +1,7 @@
 ---
 always_allow_html: True
-caption: 'This is the brief description of the contents of the map.'
 congressnum: 8
+congressordinal: 8th
 geography: county
 layout: 'maps-show'
 legend_type: 'fed-vs-repub-percentage'
@@ -48,8 +48,9 @@ related-maps:
   name: National Eighth Congress
   type: national
 state: north carolina
-title: 'Elections for the Eighth Congress in North Carolina, 1803'
+title: '8th Congress: North Carolina 1803'
 type: congressional
+year: 1803
 ---
 
 <div class="map">
@@ -85,8 +86,8 @@ Vote
 <th style="text-align:right;">
 Percentage
 </th>
-<th style="text-align:left;">
-Result
+<th style="text-align:center;">
+Elected
 </th>
 </tr>
 </thead>
@@ -107,8 +108,8 @@ Republican
 <td style="text-align:right;">
 100%
 </td>
-<td class="elected" data-elected="true">
-elected
+<td style="text-align:center;">
+✔
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="even">
@@ -127,8 +128,8 @@ Republican
 <td style="text-align:right;">
 63%
 </td>
-<td class="elected" data-elected="true">
-elected
+<td style="text-align:center;">
+✔
 </td>
 </tr>
 <tr class="district-changed" data-district-type="even">
@@ -147,7 +148,7 @@ Federalist
 <td style="text-align:right;">
 37%
 </td>
-<td style="text-align:left;">
+<td style="text-align:center;">
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="odd">
@@ -166,8 +167,8 @@ Republican
 <td style="text-align:right;">
 54%
 </td>
-<td class="elected" data-elected="true">
-elected
+<td style="text-align:center;">
+✔
 </td>
 </tr>
 <tr class="district-changed" data-district-type="odd">
@@ -186,7 +187,7 @@ Republican
 <td style="text-align:right;">
 46%
 </td>
-<td style="text-align:left;">
+<td style="text-align:center;">
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="even">
@@ -205,8 +206,8 @@ Republican
 <td style="text-align:right;">
 58%
 </td>
-<td class="elected" data-elected="true">
-elected
+<td style="text-align:center;">
+✔
 </td>
 </tr>
 <tr class="district-changed" data-district-type="even">
@@ -225,7 +226,7 @@ Federalist
 <td style="text-align:right;">
 42%
 </td>
-<td style="text-align:left;">
+<td style="text-align:center;">
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="odd">
@@ -244,8 +245,8 @@ Republican
 <td style="text-align:right;">
 57%
 </td>
-<td class="elected" data-elected="true">
-elected
+<td style="text-align:center;">
+✔
 </td>
 </tr>
 <tr class="district-changed" data-district-type="odd">
@@ -264,7 +265,7 @@ Federalist
 <td style="text-align:right;">
 43%
 </td>
-<td style="text-align:left;">
+<td style="text-align:center;">
 </td>
 </tr>
 <tr class="district-changed" data-district-type="even">
@@ -283,8 +284,8 @@ Republican
 <td style="text-align:right;">
 100%
 </td>
-<td class="elected" data-elected="true">
-elected
+<td style="text-align:center;">
+✔
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="odd">
@@ -303,8 +304,8 @@ Federalist
 <td style="text-align:right;">
 42%
 </td>
-<td class="elected" data-elected="true">
-elected
+<td style="text-align:center;">
+✔
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="odd">
@@ -323,10 +324,10 @@ Republican
 <td style="text-align:right;">
 33%
 </td>
-<td style="text-align:left;">
+<td style="text-align:center;">
 </td>
 </tr>
-<tr class="district-unchanged" data-district-type="odd">
+<tr class="district-changed" data-district-type="odd">
 <td style="text-align:center;">
 7
 </td>
@@ -342,26 +343,7 @@ Federalist
 <td style="text-align:right;">
 24%
 </td>
-<td style="text-align:left;">
-</td>
-</tr>
-<tr class="district-changed" data-district-type="odd">
 <td style="text-align:center;">
-7
-</td>
-<td style="text-align:left;">
-Hay, John
-</td>
-<td class="party-republican" data-party="republican">
-Republican
-</td>
-<td style="text-align:right;">
-56
-</td>
-<td style="text-align:right;">
-1%
-</td>
-<td style="text-align:left;">
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="even">
@@ -380,8 +362,8 @@ Republican
 <td style="text-align:right;">
 75%
 </td>
-<td class="elected" data-elected="true">
-elected
+<td style="text-align:center;">
+✔
 </td>
 </tr>
 <tr class="district-changed" data-district-type="even">
@@ -400,7 +382,7 @@ Federalist
 <td style="text-align:right;">
 25%
 </td>
-<td style="text-align:left;">
+<td style="text-align:center;">
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="odd">
@@ -419,8 +401,8 @@ Republican
 <td style="text-align:right;">
 54%
 </td>
-<td class="elected" data-elected="true">
-elected
+<td style="text-align:center;">
+✔
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="odd">
@@ -439,10 +421,10 @@ Republican
 <td style="text-align:right;">
 28%
 </td>
-<td style="text-align:left;">
+<td style="text-align:center;">
 </td>
 </tr>
-<tr class="district-unchanged" data-district-type="odd">
+<tr class="district-changed" data-district-type="odd">
 <td style="text-align:center;">
 9
 </td>
@@ -458,26 +440,7 @@ Republican
 <td style="text-align:right;">
 15%
 </td>
-<td style="text-align:left;">
-</td>
-</tr>
-<tr class="district-changed" data-district-type="odd">
 <td style="text-align:center;">
-9
-</td>
-<td style="text-align:left;">
-Brown, Anton
-</td>
-<td class="party-federalist" data-party="federalist">
-Federalist
-</td>
-<td style="text-align:right;">
-102
-</td>
-<td style="text-align:right;">
-2%
-</td>
-<td style="text-align:left;">
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="even">
@@ -496,8 +459,8 @@ Republican
 <td style="text-align:right;">
 56%
 </td>
-<td class="elected" data-elected="true">
-elected
+<td style="text-align:center;">
+✔
 </td>
 </tr>
 <tr class="district-changed" data-district-type="even">
@@ -516,7 +479,7 @@ Federalist
 <td style="text-align:right;">
 44%
 </td>
-<td style="text-align:left;">
+<td style="text-align:center;">
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="odd">
@@ -535,8 +498,8 @@ Republican
 <td style="text-align:right;">
 71%
 </td>
-<td class="elected" data-elected="true">
-elected
+<td style="text-align:center;">
+✔
 </td>
 </tr>
 <tr class="district-changed" data-district-type="odd">
@@ -555,7 +518,7 @@ Federalist
 <td style="text-align:right;">
 29%
 </td>
-<td style="text-align:left;">
+<td style="text-align:center;">
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="even">
@@ -574,8 +537,8 @@ Republican
 <td style="text-align:right;">
 30%
 </td>
-<td class="elected" data-elected="true">
-elected
+<td style="text-align:center;">
+✔
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="even">
@@ -594,7 +557,7 @@ Republican
 <td style="text-align:right;">
 29%
 </td>
-<td style="text-align:left;">
+<td style="text-align:center;">
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="even">
@@ -613,7 +576,7 @@ Republican
 <td style="text-align:right;">
 23%
 </td>
-<td style="text-align:left;">
+<td style="text-align:center;">
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="even">
@@ -632,7 +595,7 @@ Federalist
 <td style="text-align:right;">
 10%
 </td>
-<td style="text-align:left;">
+<td style="text-align:center;">
 </td>
 </tr>
 <tr class="district-changed" data-district-type="even">
@@ -651,13 +614,10 @@ Republican
 <td style="text-align:right;">
 9%
 </td>
-<td style="text-align:left;">
+<td style="text-align:center;">
 </td>
 </tr>
 </tbody>
 </table>
 
 </div>
-
-About this election
--------------------
