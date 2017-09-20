@@ -6,12 +6,14 @@
 <div class="row">
     <div class="large-9 column">
         <div class="featured">
-        <div class="large-12">
-            {% for post in site.categories.frontpage limit:1 %}
-            <h3><a href="{{ post.url }}" title="">{{ post.title }}</a></h3>
-            <div>{{ post.content }}</div>
+
+            {% for post in site.posts limit:3 %}
+            <div class="post-teaser {% if forloop.first == false %}blog-entry{% endif %}">
+                <h3><a href="{{ post.url }}" title="">{{ post.title }}</a></h3>
+                <div class="post-excerpt">{{ post.excerpt }}</div>
+            </div>
             {% endfor %}
-        </div>
+
         </div>
     </div>
 
