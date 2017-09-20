@@ -303,9 +303,29 @@ code {
   color: $secondary-header-color;
 }
 
+
+// Map Show
+.maps-show table {
+  border-collapse:collapse 
+}
+tbody tr.district-changed {
+  border-bottom: 1px solid #111;
+}
+
+.nnv-data {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -moz-column-gap: 2rem;
+  -webkit-column-gap: 2rem;
+  column-gap: 2rem;
+}
+
 .citation {
   font-style:italic;
   color: #6d6f71;
+  word-wrap: break-word;
+  font-size:.9rem;
 }
 
 div.leaflet svg { background: white; }
