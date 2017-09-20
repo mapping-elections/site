@@ -1,3 +1,10 @@
+---
+bodyclass: maps-show
+---
+
+<!doctype html>
+<html class="no-js" lang="en">
+
 {% include header.html %}
 {% include map-libs.html %}
 
@@ -6,11 +13,10 @@
     <div class="large-9 column">
         <div class="large-12">
         <h3>{{ page.title }}</h3>
-        <p class="map-caption">{{ page.caption }}</p>
             {{ content }}
 
         <h5>New Nation Votes Data</h5>
-        <ul>
+        <ul class="nnv-data">
             {% for nn in page.nnv %}
             <li><a href="http://elections.lib.tufts.edu/catalog/tufts:{{ nn.id }}">{{ nn.name }}</a></li>
             {% endfor %}
@@ -31,7 +37,7 @@
         <a href="{{site.url}}/data/">Our data is available for download.</a>
 
         <h5>Citation</h5>
-        <p class="citation">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quae cupiditate aliquid, harum ipsam quod, atque.</p>
+        <p class="citation">&ldquo;{{ page.title }},&rdquo; Mapping Early American Elections,&nbsp;{{site.url}}{{ page.url }}</p>
     </div>
 </div>
 
