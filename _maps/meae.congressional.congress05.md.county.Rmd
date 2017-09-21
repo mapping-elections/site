@@ -2,7 +2,7 @@
 meae-id: meae.congressional.congress05.md.county
 type: congressional
 level: state
-state: maryland
+state: Maryland
 geography: county
 congressnum: 5
 congressordinal: 5th

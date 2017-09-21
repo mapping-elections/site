@@ -2,7 +2,7 @@
 meae-id: meae.congressional.congress08.pa.county
 type: congressional
 level: state
-state: pennsylvania
+state: Pennsylvania
 geography: county
 congressnum: 8
 congressordinal: 8th
