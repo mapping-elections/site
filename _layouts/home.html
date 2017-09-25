@@ -10,7 +10,7 @@
             {% for post in site.posts limit:3 %}
             <div class="post-teaser {% if forloop.first == false %}blog-entry{% endif %}">
                 <h3><a href="{{ post.url }}" title="">{{ post.title }}</a></h3>
-                <div class="post-excerpt">{{ post.excerpt }}</div>
+                <div class="post-excerpt"><p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}&nbsp;<a href="{{ post.url }}">Read More &rarr;</a></p></div>
             </div>
             {% endfor %}
 
