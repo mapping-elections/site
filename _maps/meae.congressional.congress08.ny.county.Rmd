@@ -2,7 +2,7 @@
 meae-id: meae.congressional.congress08.ny.county
 type: congressional
 level: state
-state: new york
+state: New York
 geography: county
 congressnum: 8
 congressordinal: 8th

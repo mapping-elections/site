@@ -2,7 +2,7 @@
 meae-id: meae.congressional.congress08.nc.county
 type: congressional
 level: state
-state: north carolina
+state: North Carolina
 geography: county
 congressnum: 8
 congressordinal: 8th

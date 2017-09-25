@@ -2,7 +2,7 @@
 meae-id: meae.congressional.congress08.ma.county
 type: congressional
 level: state
-state: massachusetts
+state: Massachusetts
 geography: county
 congressnum: 8
 congressordinal: 8th

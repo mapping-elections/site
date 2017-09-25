@@ -2,7 +2,7 @@
 meae-id: meae.congressional.congress08.va.county
 type: congressional
 level: state
-state: virginia
+state: Virginia
 geography: county
 congressnum: 8
 congressordinal: 8th
