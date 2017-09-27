@@ -1,0 +1,60 @@
+---
+meae-id: meae.congressional.congress01.pa.county
+type: congressional
+level: state
+state: Pennsylvania
+geography: county
+congressnum: 1
+congressordinal: 1st
+title: '1st Congress: Pennsylvania 1788'
+year: 1788
+nnv:
+- id: pa.congress.atlarge.1788
+  name: PA US Congress 1788 At Large
+related-maps:
+- id: meae.congressional.congress02.pa.county
+  name: PA Second Congress
+  type: next
+- id: meae.congressional.congress01.national.district
+  name: National First Congress
+  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress01.pa.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "470px")
+```
+
+</div>
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>% 
+  mutate(district = 1L) %>% 
+  results_to_table() %>% 
+  cat()
+```
+
+</div>
