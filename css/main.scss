@@ -308,8 +308,22 @@ code {
 .maps-show table {
   border-collapse:collapse 
 }
+
+thead tr {
+  border-bottom: 1px solid #0a0a0a;
+}
+
 tbody tr.district-changed {
-  border-bottom: 1px solid #111;
+  border-bottom: 1px solid #0a0a0a;
+}
+
+tbody tr:last-of-type {
+  border:none;
+}
+
+.disclaimer {
+  font-style:italic;
+  font-size: .85rem;
 }
 
 .nnv-data {
