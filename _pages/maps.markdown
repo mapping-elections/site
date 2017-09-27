@@ -17,7 +17,7 @@ bodyclass: maps-browse
 <ul>
 {% assign items = group.items | sort: 'state' %}
 {% for item in items %}
-<li>[{{item.state}}]({{item.url}})</li>
+  <li>[{{item.state}}]({{site.url}}{{item.url}})</li>
 {%endfor%}
 </ul>
 </div>
