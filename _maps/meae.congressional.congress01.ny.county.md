@@ -42,7 +42,7 @@ year: 1789
 
 <!--html_preserve-->
 <div id="htmlwidget-0e777bcf5e8b2b9fe147" class="leaflet html-widget"
-style="width:100%;height:480px;">
+style="width:100%;height:800px;">
 
 </div>
 
@@ -77,6 +77,26 @@ Elected
 </tr>
 </thead>
 <tbody>
+<tr class="district-changed" data-district-type="odd">
+<td style="text-align:center;">
+1
+</td>
+<td style="text-align:left;">
+Floyd, William
+</td>
+<td style="text-align:left;">
+Anti-Federalist
+</td>
+<td style="text-align:right;">
+894
+</td>
+<td style="text-align:right;">
+100%
+</td>
+<td style="text-align:center;">
+✓
+</td>
+</tr>
 <tr class="district-unchanged" data-district-type="even">
 <td style="text-align:center;">
 2
@@ -118,6 +138,64 @@ Anti-Federalist
 </tr>
 <tr class="district-unchanged" data-district-type="odd">
 <td style="text-align:center;">
+3
+</td>
+<td style="text-align:left;">
+Benson, Egbert
+</td>
+<td class="party-federalist" data-party="federalist">
+Federalist
+</td>
+<td style="text-align:right;">
+584
+</td>
+<td style="text-align:right;">
+50%
+</td>
+<td style="text-align:center;">
+✓
+</td>
+</tr>
+<tr class="district-changed" data-district-type="odd">
+<td style="text-align:center;">
+3
+</td>
+<td style="text-align:left;">
+Bailey, Theodorus
+</td>
+<td style="text-align:left;">
+Anti-Federalist
+</td>
+<td style="text-align:right;">
+574
+</td>
+<td style="text-align:right;">
+50%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
+<tr class="district-changed" data-district-type="even">
+<td style="text-align:center;">
+4
+</td>
+<td style="text-align:left;">
+Hathorn, John
+</td>
+<td style="text-align:left;">
+Anti-Federalist
+</td>
+<td style="text-align:right;">
+</td>
+<td style="text-align:right;">
+100%
+</td>
+<td style="text-align:center;">
+✓
+</td>
+</tr>
+<tr class="district-unchanged" data-district-type="odd">
+<td style="text-align:center;">
 5
 </td>
 <td style="text-align:left;">
@@ -151,6 +229,45 @@ Anti-Federalist
 </td>
 <td style="text-align:right;">
 47%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
+<tr class="district-unchanged" data-district-type="even">
+<td style="text-align:center;">
+6
+</td>
+<td style="text-align:left;">
+Van Rensselaer, Jeremiah
+</td>
+<td style="text-align:left;">
+Anti-Federalist
+</td>
+<td style="text-align:right;">
+1,456
+</td>
+<td style="text-align:right;">
+55%
+</td>
+<td style="text-align:center;">
+✓
+</td>
+</tr>
+<tr class="district-changed" data-district-type="even">
+<td style="text-align:center;">
+6
+</td>
+<td style="text-align:left;">
+Ten Broeck, Abraham
+</td>
+<td class="party-federalist" data-party="federalist">
+Federalist
+</td>
+<td style="text-align:right;">
+1,215
+</td>
+<td style="text-align:right;">
+46%
 </td>
 <td style="text-align:center;">
 </td>

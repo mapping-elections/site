@@ -46,21 +46,14 @@ library(USAboundaries)
 library(mappingelections)
 
 map_id <- "meae.congressional.congress01.ny.county"
-meae_map <- meae_maps %>% filter(meae_id == map_id)
-elections <- meae_map %>% 
-  left_join(meae_maps_to_elections, by = "meae_id") %>% 
-  left_join(meae_elections, by = "election_id", suffix = c("_map", ""))
-
-party_votes <- meae_map %>% 
-  left_join(meae_congress_counties_parties, by = "meae_id")
-
-map_data <- join_to_spatial(party_votes, elections)
 ```
 
 <div class="map">
 
 ```{r election-map, echo = FALSE}
-map_counties(map_data)
+map_id %>% 
+  get_county_map_data() %>% 
+  map_counties()
 ```
 
 </div>
@@ -68,9 +61,10 @@ map_counties(map_data)
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
-votes <- vote_counts(map_id)
-candidate_aggregates <- aggregate_candidate_votes(votes)
-cat(results_to_table(candidate_aggregates))
+map_id %>% 
+  candidate_results() %>% 
+  results_to_table() %>% 
+  cat()
 ```
 
 </div>
