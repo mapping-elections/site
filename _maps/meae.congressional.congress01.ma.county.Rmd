@@ -64,6 +64,8 @@ map_id %>%
 
 </div>
 
+Massachusetts elected five Federalists, one Anti-Federalist, and two representatives unaffiliated with either party to the First Congress. The elections within the Congressional districts were in several instances contested within the Federalist party rather than against the Anti-Federalists. In the fourth Congressional district, Theodore Sedgwick defeated Samuel Lyman by only 17 votes out of 4,387 votes cast.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
@@ -74,5 +76,3 @@ map_id %>%
 ```
 
 </div>
-
-Massachusetts elected five Federalists, one Anti-Federalist, and two representatives unaffiliated with either party to the First Congress. The elections within the Congressional districts were in several instances contested within the Federalist party rather than against the Anti-Federalists. In the fourth Congressional district, Theodore Sedgwick defeated Samuel Lyman by only 17 votes out of 4,387 votes cast.
