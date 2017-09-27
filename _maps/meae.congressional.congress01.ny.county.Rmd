@@ -36,7 +36,6 @@ output:
     theme: default
 always_allow_html: yes
 layout: maps-show
-
 ---
 
 ```{r setup, include = FALSE}
