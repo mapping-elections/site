@@ -36,6 +36,7 @@ exclude:
   - Gemfile.lock
   - "*.Rmd"
 markdown: Pandoc
+excerpt_separator: "<!--more-->"
 pandoc:
   extensions:
     - normalize
@@ -43,4 +44,5 @@ pandoc:
 collections:
   maps:
     output: true
+    permalink: /:collection/:title.html
 
