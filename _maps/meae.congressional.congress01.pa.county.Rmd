@@ -42,7 +42,7 @@ map_id <- "meae.congressional.congress01.pa.county"
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>%
-  map_counties(height = "470px")
+  map_counties(height = "475px")
 ```
 
 </div>
