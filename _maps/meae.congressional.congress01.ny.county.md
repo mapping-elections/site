@@ -36,7 +36,7 @@ state: New York
 title: '1st Congress: New York 1789'
 type: congressional
 year: 1789
-...
+---
 
 <div class="map">
 
