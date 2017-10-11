@@ -35,6 +35,10 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - "*.Rmd"
+  - ".Rproj.user/"
+  - ".Rhistory"
+  - "site.Rproj"
+  - "Makefile"
 markdown: Pandoc
 excerpt_separator: "<!--more-->"
 pandoc:
