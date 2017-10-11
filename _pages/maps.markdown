@@ -17,7 +17,10 @@ bodyclass: maps-browse
 <ul>
 {% assign items = group.items | sort: 'state' %}
 {% for item in items %}
-  <li>[{{item.state}}]({{site.url}}{{item.url}})</li>
+{% if item.level=='national' %}
+<li>[{{'National'}}]({{site.url}}{{item.url}})</li>
+{% elsif item.level=='state' %}
+<li>[{{item.state}}{% if item.geography == 'town' %} (town){% endif %}]({{site.url}}{{item.url}}){% endif %}</li>
 {%endfor%}
 </ul>
 </div>

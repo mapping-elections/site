@@ -1,6 +1,6 @@
 serve :
 	@echo "Previewing the site locally"
-	bundle exec jekyll serve --watch --future --incremental
+	bundle exec jekyll serve --watch --future
 
 clean :
 	@echo "Cleaning _site directory ..."

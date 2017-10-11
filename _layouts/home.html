@@ -10,6 +10,7 @@
             {% for post in site.posts limit:3 %}
             <div class="post-teaser {% if forloop.first == false %}blog-entry{% endif %}">
                 <h3><a href="{{ post.url }}" title="">{{ post.title }}</a></h3>
+                <span class="blogdate">{{ post.date | date: "%B %-d, %Y" }}</span>
                 <div class="post-excerpt"><p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}&nbsp;<a href="{{ post.url }}">Read More &rarr;</a></p></div>
             </div>
             {% endfor %}
@@ -20,7 +21,7 @@
     <hr class="hide-for-large">
     <div class="large-3 column sidebar">
         <h5>Ready to Dive into the Data?</h5>
-          <p class="box-bg"><a href="{{site.url}}/data/" class="graf-link">Our data is available for download.</a></p>
+          <p class="box-bg"><a href="{{site.url}}/data/" class="graf-link">Our preliminary data is available for download.</a></p>
           <p>Explore how Americans voted for their legislators, 1787&ndash;1825. <em>Mapping Early American Elections</em> is a work in progress, and we’re writing about the project’s process on <a href="{{site.url}}/blog/">the blog</a>. Read more about us on the <a href="{{site.url}}/about/" title="About">about page</a>.</p>
     </div>
 

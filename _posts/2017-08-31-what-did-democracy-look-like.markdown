@@ -3,7 +3,7 @@ title: "What Did Democracy Look Like? Voting in Early America"
 author: Rosemarie Zagarri
 image: "/content-img/chronam-election-returns.png"
 layout: post
-date: 2017-08-31
+date: 2017-09-01
 ---
 
 Early American elections subvert conventional notions that portray the
@@ -52,9 +52,10 @@ election candidates might invite voters to picnics featuring generous
 servings of barbecue, washed down by copious amounts of liquor. Prior to
 the 1758 election for the Virginia House of Burgesses, George Washington
 reportedly served over 160 gallons of rum punch, wine, beer, and other
-spirits to potential voters. (He won.)
+spirits to potential voters. Perhaps not surprisingly, the young
+Washington triumphed over his opponent.
 
-When they occurred, elections did not necessarily take place over the
+Whenever they occurred, elections did not necessarily take place over the
 course of a single day. The sheriff, or other local election official,
 could if he so wished either extend or shorten the amount of time in
 which the polls were open. If, for example, excessive rains and flooding
@@ -100,23 +101,22 @@ individual's ballot would be set aside, for further investigation.
 Though not overt, then, the pressure to vote for a certain candidate was
 often unmistakable.
 
-As party hostilities between the Federalists and Democratic-Republicans
-intensified, tensions between participants sometimes erupted into public
-violence---an "election riot." It was not uncommon for partisans on both
-sides to march in formation to the polling site, dressed in their
-militia uniforms. Bearing guns or sticks, their intention was not only
-to display party solidarity but to intimidate voters holding opposing
-views. In 1793, the House Committee of Elections heard testimony about a
-disputed election in which one candidate's supporters threatened "to
-beat any person who voted for \[their opponent\]," who subsequently
-lost. Although no one challenged the veracity of the accusation, the
-House rejected the aggrieved candidate's petition. "Why," said one
-Congressman, "should there be such a noise about this election in
-particular, when others were just as bad, or a great deal worse\[?\]"
+As party hostilities between the Federalists and Democratic-Republicans 
+intensified, tensions between participants sometimes erupted into public 
+violence---what was called an "election riot." It was not uncommon for 
+partisans on both sides to march in formation to the polling site, dressed in 
+their militia uniforms. Bearing guns or sticks, their intention was not only to 
+display party solidarity but to intimidate voters holding opposing views. In 
+1793, the House Committee of Elections heard testimony about a disputed 
+election in which one candidate's supporters threatened "to beat any person who 
+voted for \[their opponent\]"---who subsequently lost. Although no one 
+challenged the veracity of the accusation, the House rejected the aggrieved 
+candidate's petition. "Why," said one Congressman, "should there be such a 
+noise about this election in particular, when others were just as bad, or a 
+great deal worse\[?\]"
 
 There was, then, no uniform or overt march toward democracy in the early
 United States. The diversity in electoral practices among the states
 meant that the country remained an experiment in republican government.
 Within each state, various factions battled with one another to try and
-work out what its own inhabitants meant by *democracy*.
-
+work out what its own citizens meant by the march toward *democracy*.
