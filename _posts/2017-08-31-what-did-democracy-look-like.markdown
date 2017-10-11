@@ -120,4 +120,3 @@ United States. The diversity in electoral practices among the states
 meant that the country remained an experiment in republican government.
 Within each state, various factions battled with one another to try and
 work out what its own citizens meant by the march toward *democracy*.
-

@@ -4,3 +4,4 @@ all : $(MAPPAGES)
 
 %.md : %.Rmd
 	R --slave -e "set.seed(100); rmarkdown::render('$<', output_format = 'md_document')"
+
