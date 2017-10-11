@@ -82,7 +82,8 @@ Elected
 1
 </td>
 <td style="text-align:left;">
-Floyd, William
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=F000224">Floyd,
+William</a>
 </td>
 <td style="text-align:left;">
 Anti-Federalist
@@ -102,7 +103,8 @@ Anti-Federalist
 2
 </td>
 <td style="text-align:left;">
-Laurence, John
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=L000120">Laurence,
+John</a>
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist
@@ -141,7 +143,8 @@ Anti-Federalist
 3
 </td>
 <td style="text-align:left;">
-Benson, Egbert
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=B000388">Benson,
+Egbert</a>
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist
@@ -161,7 +164,8 @@ Federalist
 3
 </td>
 <td style="text-align:left;">
-Bailey, Theodorus
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=B000049">Bailey,
+Theodorus</a>
 </td>
 <td style="text-align:left;">
 Anti-Federalist
@@ -180,7 +184,8 @@ Anti-Federalist
 4
 </td>
 <td style="text-align:left;">
-Hathorn, John
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=H000348">Hathorn,
+John</a>
 </td>
 <td style="text-align:left;">
 Anti-Federalist
@@ -199,7 +204,8 @@ Anti-Federalist
 5
 </td>
 <td style="text-align:left;">
-Sylvester, Peter
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=S000412">Sylvester,
+Peter</a>
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist
@@ -238,7 +244,8 @@ Anti-Federalist
 6
 </td>
 <td style="text-align:left;">
-Van Rensselaer, Jeremiah
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=V000053">Van
+Rensselaer, Jeremiah</a>
 </td>
 <td style="text-align:left;">
 Anti-Federalist

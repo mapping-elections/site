@@ -71,7 +71,8 @@ Elected
 1
 </td>
 <td style="text-align:left;">
-Frederick A. Muhlenberg
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=M001063">Frederick
+A. Muhlenberg</a>
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist
@@ -91,7 +92,8 @@ Federalist
 1
 </td>
 <td style="text-align:left;">
-Henry Wynkoop
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=W000783">Henry
+Wynkoop</a>
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist
@@ -111,7 +113,8 @@ Federalist
 1
 </td>
 <td style="text-align:left;">
-Thomas Hartley
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=H000299">Thomas
+Hartley</a>
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist
@@ -131,7 +134,8 @@ Federalist
 1
 </td>
 <td style="text-align:left;">
-George Clymer
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=C000538">George
+Clymer</a>
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist
@@ -151,7 +155,8 @@ Federalist
 1
 </td>
 <td style="text-align:left;">
-Thomas Fitzsimons
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=F000178">Thomas
+Fitzsimons</a>
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist
@@ -211,7 +216,8 @@ Anti-Federalist
 1
 </td>
 <td style="text-align:left;">
-Peter Muhlenberg
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=M001066">Peter
+Muhlenberg</a>
 </td>
 <td style="text-align:left;">
 Anti-Federalist
@@ -269,7 +275,8 @@ Federalist
 1
 </td>
 <td style="text-align:left;">
-William Findley
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=F000124">William
+Findley</a>
 </td>
 <td style="text-align:left;">
 Anti-Federalist
@@ -307,7 +314,8 @@ Anti-Federalist
 1
 </td>
 <td style="text-align:left;">
-William Irvine
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=I000035">William
+Irvine</a>
 </td>
 <td style="text-align:left;">
 Anti-Federalist
@@ -326,7 +334,8 @@ Anti-Federalist
 1
 </td>
 <td style="text-align:left;">
-William Montgomery
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=M000873">William
+Montgomery</a>
 </td>
 <td style="text-align:left;">
 Anti-Federalist
@@ -345,7 +354,8 @@ Anti-Federalist
 1
 </td>
 <td style="text-align:left;">
-Blair MacClenachan
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=M000336">Blair
+MacClenachan</a>
 </td>
 <td style="text-align:left;">
 Anti-Federalist
@@ -364,7 +374,8 @@ Anti-Federalist
 1
 </td>
 <td style="text-align:left;">
-Robert Whitehall
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=W000404">Robert
+Whitehall</a>
 </td>
 <td style="text-align:left;">
 Anti-Federalist

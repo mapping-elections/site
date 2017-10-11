@@ -95,7 +95,8 @@ Elected
 1
 </td>
 <td style="text-align:left;">
-Fisher Ames
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=A000174">Fisher
+Ames</a>
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist
@@ -152,7 +153,8 @@ Other candidates
 2
 </td>
 <td style="text-align:left;">
-Benjamin Goodhue
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=G000286">Benjamin
+Goodhue</a>
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist
@@ -191,7 +193,8 @@ Federalist
 3
 </td>
 <td style="text-align:left;">
-Elbridge Gerry
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=G000139">Elbridge
+Gerry</a>
 </td>
 <td style="text-align:left;">
 Anti-Federalist
@@ -211,7 +214,8 @@ Anti-Federalist
 3
 </td>
 <td style="text-align:left;">
-Joseph B. Varnum
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=V000074">Joseph
+B. Varnum</a>
 </td>
 <td style="text-align:left;">
 </td>
@@ -286,7 +290,8 @@ Federalist
 4
 </td>
 <td style="text-align:left;">
-Samuel Lyman
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=L000528">Samuel
+Lyman</a>
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist
@@ -305,7 +310,8 @@ Federalist
 5
 </td>
 <td style="text-align:left;">
-George Partridge
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=P000092">George
+Partridge</a>
 </td>
 <td style="text-align:left;">
 </td>
@@ -342,7 +348,8 @@ James Warren
 6
 </td>
 <td style="text-align:left;">
-George Thatcher
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=T000141">George
+Thatcher</a>
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist
@@ -385,7 +392,7 @@ Other candidates
 <td style="text-align:left;">
 </td>
 <td style="text-align:right;">
-105
+104
 </td>
 <td style="text-align:right;">
 11%
@@ -416,7 +423,8 @@ Nathaniel Willson
 7
 </td>
 <td style="text-align:left;">
-George Leonard
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=L000246">George
+Leonard</a>
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist
@@ -436,7 +444,8 @@ Federalist
 7
 </td>
 <td style="text-align:left;">
-Phaneul Bishop
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=B000488">Phaneul
+Bishop</a>
 </td>
 <td style="text-align:left;">
 Anti-Federalist
@@ -455,7 +464,8 @@ Anti-Federalist
 7
 </td>
 <td style="text-align:left;">
-David Cobb
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=C000545">David
+Cobb</a>
 </td>
 <td style="text-align:left;">
 </td>
@@ -473,7 +483,8 @@ David Cobb
 8
 </td>
 <td style="text-align:left;">
-Jonathan Grout
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=G000500">Jonathan
+Grout</a>
 </td>
 <td style="text-align:left;">
 </td>
@@ -510,7 +521,8 @@ Timothy Paine
 8
 </td>
 <td style="text-align:left;">
-Artemas Ward
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=W000127">Artemas
+Ward</a>
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist
