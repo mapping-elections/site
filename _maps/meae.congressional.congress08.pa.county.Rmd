@@ -1,0 +1,82 @@
+---
+meae-id: meae.congressional.congress08.pa.county
+type: congressional
+level: state
+state: Pennsylvania
+geography: county
+congressnum: 8
+congressordinal: 8th
+title: '8th Congress: Pennsylvania 1802'
+year: 1802
+legend_type: fed-vs-repub-percentage
+nnv:
+- id: pa.uscongress1.1802
+  name: PA US Congress 1802 District 1
+- id: pa.uscongress2.1802
+  name: PA US Congress 1802 District 2
+- id: pa.uscongress3.1802
+  name: PA US Congress 1802 District 3
+- id: pa.uscongress4.1802
+  name: PA US Congress 1802 District 4
+- id: pa.uscongress5.1802
+  name: PA US Congress 1802 District 5
+- id: pa.uscongress6.1802
+  name: PA US Congress 1802 District 6
+- id: pa.uscongress7.1802
+  name: PA US Congress 1802 District 7
+- id: pa.uscongress8.1802
+  name: PA US Congress 1802 District 8
+- id: pa.uscongress9.1802
+  name: PA US Congress 1802 District 9
+- id: pa.uscongress10.1802
+  name: PA US Congress 1802 District 10
+- id: pa.uscongress11.1802
+  name: PA US Congress 1802 District 11
+related-maps:
+- id: meae.congressional.congress07.pa.county
+  name: PA Seventh Congress
+  type: previous
+- id: meae.congressional.congress09.pa.county
+  name: PA Ninth Congress
+  type: next
+- id: meae.congressional.congress08.national.district
+  name: National Eighth Congress
+  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+meae_id <- "meae.congressional.congress08.pa.county"
+votes <- vote_counts(meae_id)
+party_aggregates <- aggregate_party_votes(votes)
+candidate_aggregates <- aggregate_candidate_votes(votes)
+map_data <- join_to_spatial(party_aggregates)
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_elections(map_data, legend = FALSE)
+```
+
+</div>
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+cat(results_to_table(candidate_aggregates))
+```
+
+</div>

@@ -34,9 +34,15 @@ include: ["_pages"]
 exclude:
   - Gemfile
   - Gemfile.lock
+  - "*.Rmd"
 markdown: Pandoc
+excerpt_separator: "<!--more-->"
 pandoc:
   extensions:
     - normalize
     - smart
+collections:
+  maps:
+    output: true
+    permalink: /:collection/:title.html
 

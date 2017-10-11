@@ -1,0 +1,104 @@
+---
+meae-id: meae.congressional.congress08.va.county
+type: congressional
+level: state
+state: Virginia
+geography: county
+congressnum: 8
+congressordinal: 8th
+title: '8th Congress: Virginia 1803'
+year: 1803
+legend_type: fed-vs-repub-percentage
+nnv:
+- id: va.uscongress.1.1803
+  name: VA US Congress 1803 District 1
+- id: va.uscongress.2.1803
+  name: VA US Congress 1803 District 2
+- id: va.uscongress.3.1803
+  name: VA US Congress 1803 District 3
+- id: va.uscongress.4.1803
+  name: VA US Congress 1803 District 4
+- id: va.uscongress.5.1803
+  name: VA US Congress 1803 District 5
+- id: va.uscongress.6.1803
+  name: VA US Congress 1803 District 6
+- id: va.uscongress.7.1803
+  name: VA US Congress 1803 District 7
+- id: va.uscongress.8.1803
+  name: VA US Congress 1803 District 8
+- id: va.uscongress.9.1803
+  name: VA US Congress 1803 District 9
+- id: va.uscongress.10.1803
+  name: VA US Congress 1803 District 10
+- id: va.uscongress.11.1803
+  name: VA US Congress 1803 District 11
+- id: va.uscongress.12.1803
+  name: VA US Congress 1803 District 12
+- id: va.uscongress.13.1803
+  name: VA US Congress 1803 District 13
+- id: va.uscongress.14.1803
+  name: VA US Congress 1803 District 14
+- id: va.uscongress.15.1803
+  name: VA US Congress 1803 District 15
+- id: va.uscongress.16.1803
+  name: VA US Congress 1803 District 16
+- id: va.uscongress.17.1803
+  name: VA US Congress 1803 District 17
+- id: va.uscongress.18.1803
+  name: VA US Congress 1803 District 18
+- id: va.uscongress.19.1803
+  name: VA US Congress 1803 District 19
+- id: va.uscongress.20.1803
+  name: VA US Congress 1803 District 20
+- id: va.uscongress.21.1803
+  name: VA US Congress 1803 District 21
+- id: va.uscongress.22.1803
+  name: VA US Congress 1803 District 22
+related-maps:
+- id: meae.congressional.congress07.va.county
+  name: VA Seventh Congress
+  type: previous
+- id: meae.congressional.congress09.va.county
+  name: VA Ninth Congress
+  type: next
+- id: meae.congressional.congress08.national.district
+  name: National Eighth Congress
+  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+meae_id <- "meae.congressional.congress08.va.county"
+votes <- vote_counts(meae_id)
+party_aggregates <- aggregate_party_votes(votes)
+candidate_aggregates <- aggregate_candidate_votes(votes)
+map_data <- join_to_spatial(party_aggregates)
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_elections(map_data, legend = FALSE)
+```
+
+</div>
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+cat(results_to_table(candidate_aggregates))
+```
+
+</div>
