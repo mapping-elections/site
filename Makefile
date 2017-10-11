@@ -1,4 +1,4 @@
-serve :
+serve : clean
 	@echo "Previewing the site locally"
 	bundle exec jekyll serve --watch --future
 
@@ -6,7 +6,7 @@ clean :
 	@echo "Cleaning _site directory ..."
 	rm -rf _site/*
 
-deploy : clean 
+deploy : clean
 	@echo "Building dev site ..."
 	bundle exec jekyll build --config _config.yml,_config-dev.yml --future
 	@echo "Deploying to dev server ..."
@@ -23,5 +23,10 @@ deploy-production : clean
 build : clean
 	bundle exec jekyll build
 
-.PHONY: serve clean deploy deploy-production
+MAPPAGES := $(patsubst _maps/%.Rmd, _maps/%.md, $(wildcard _maps/*.Rmd))
+maps : $(MAPPAGES)
 
+_maps/%.md : _maps/%.Rmd
+	R --slave -e "set.seed(100); rmarkdown::render('$<', output_format = 'md_document')"
+
+.PHONY: serve clean deploy deploy-production maps
