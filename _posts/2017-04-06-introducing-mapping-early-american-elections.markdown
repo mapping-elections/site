@@ -10,7 +10,9 @@ categories:
 
 <div class="large-4 medium-12 left-img">![New Jersey women voting]({{site.url}}/content-img/nj-women-at-polls.jpg)</div> The *Mapping Early American Elections* [team]({{site.url}}/about/) is pleased to launch the project website.
 
-During this three-year project, funded by the [Division of Preservation and Access](https://www.neh.gov/divisions/preservation) at the [National Endowment for the Humanities](http://neh.gov), we plan to blog about our process and progress. Our project is building on the *[New Nation Votes](http://elections.lib.tufts.edu/)* (NNV) collection of electoral returns, a project that was also funded by the NEH. *Mapping Early American Elections* is turning those election returns into a dataset which has a spatial component. Our dataset will offer researchers new opportunities to visualize and map the changing character of early American democracy as revealed through the country's earliest elections, 1787 to 1825.  
+During this three-year project, funded by the [Division of Preservation and Access](https://www.neh.gov/divisions/preservation) at the [National Endowment for the Humanities](http://neh.gov), we plan to blog about our process and progress. Our project is building on the *[New Nation Votes](http://elections.lib.tufts.edu/)* (NNV) collection of electoral returns, a project that was also funded by the NEH. *Mapping Early American Elections* is turning those election returns into a dataset which has a spatial component. Our dataset will offer researchers new opportunities to visualize and map the changing character of early American democracy as revealed through the country's earliest elections, 1787 to 1825.
+
+<!--more-->
 
 By the end of the grant, we anticipate creating 50 maps and visualizations representing Congressional and state legislative elections for 24 states. This website will include a map browser inviting users to explore early American political history in exciting new ways. Issues such as changes in voter participation, turnover in Congress and the state legislatures, the growth of party competition, and regional changes in voting patterns will appear with new clarity.
 

@@ -22,6 +22,8 @@ we have created. For both the county and Congressional districts, this
 spatial dataset is sufficient and provides the needed geographic data to
 map them.
 
+<!--more-->
+
 The NNV towns list, however, has required additional work to properly
 geolocate.
 
