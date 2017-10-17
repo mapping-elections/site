@@ -1,0 +1,73 @@
+---
+meae-id: meae.congressional.congress01.nc.county
+type: congressional
+level: state
+state: North Carolina
+geography: county
+congressnum: 1
+congressordinal: 1st
+title: '1st Congress: North Carolina 1790'
+year: 1790
+nnv:
+- id: nc.uscongress1.1790
+  name: NC US Congress 1790 District 1
+- id: nc.uscongress2.1790
+  name: NC US Congress 1790 District 2
+- id: nc.uscongress3.1790
+  name: NC US Congress 1790 District 3
+- id: nc.uscongress4.1790
+  name: NC US Congress 1790 District 4
+- id: nc.uscongress5.1790
+  name: NC US Congress 1790 District 5
+related-maps:
+- id: meae.congressional.congress02.nc.county
+  name: NC 2nd Congress
+  type: next
+- id: meae.congressional.congress01.national.district
+  name: National 1st Congress
+  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress01.nc.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>% 
+  map_counties(height = "400px") %>% 
+  setView(-80.10, 35.22, 8)
+```
+
+</div>
+
+In the first district, the Anti-Federalist John Baptist Ashe won with only 49 percent of the vote, since the majority of the vote was divided between two candidates without party affiliations, Nathaniel Macon and Stephen Moore.
+
+In the fourth district, the Anti-Federalist John Steele was elected. County level returns within that district are available only for Stokes and Surry Counties, where the majority of the vote when to Steele’s opponent, the Federalist Joseph MacDowell. The remaining counties are displayed as Anti-Federalist, though this must be interpreted cautiously since some of those counties may have voted for the Federalists. ([See NNV returns for North Carolina’s fourth district](http://elections.lib.tufts.edu/catalog/tufts:nc.uscongress4.1790).)
+
+In the fifth district, Federalist John Sevier was elected without opposition. This district became a federal territory before the Second Congress.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

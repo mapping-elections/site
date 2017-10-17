@@ -1,0 +1,80 @@
+---
+meae-id: meae.congressional.congress01.md.county
+type: congressional
+level: state
+state: Maryland
+geography: county
+congressnum: 1
+congressordinal: 1st
+title: '1st Congress: Maryland 1789'
+year: 1789
+nnv:
+- id: md.uscongress.1789
+  name: MD US Congress 1789 At Large
+related-maps:
+- id: meae.congressional.congress02.md.county
+  name: MD 2nd Congress
+  type: next
+- id: meae.congressional.congress01.national.district
+  name: National 1st Congress
+  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress01.md.county"
+cities <- tribble(
+  ~city, ~lat, ~lng, ~federalist_percentage, ~antifederalist_percentage, ~federalist_vote, ~antifederalist_vote,
+  "Annapolis", 38.97228, -76.50640, 0.538, 0.462, 731, 627,
+  "Baltimore", 39.30021, -76.61052, 0.620, 0.380, 3128, 1920
+)
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>% 
+  map_counties(height = "425px", cities = FALSE) %>% 
+  addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
+                   fillColor = mappingelections:::poli_chrome(cities),
+                   opacity = 1, fillOpacity = 0.8, radius = 8, weight = 3,
+                   popup = ~paste0("<b>City of ", city, "</b><br/>",
+                                   "Congressional District: At-large<br/>",
+                                   "Federalists: ", federalist_percentage * 100, "% (", 
+                                   prettyNum(federalist_vote, big.mark = ","), 
+                                   " votes)<br/>",
+                                   "Anti-Federalists: ", antifederalist_percentage * 100,
+                                   "% (", 
+                                   prettyNum(antifederalist_vote, big.mark = ","),
+                                   " votes)"),
+                   label = ~city) 
+```
+
+</div>
+
+Votes tallied for the cities of Baltimore and Annapolis are shown separately, and they are in addition to the votes reported for Baltimore County and Anne Arundel County.
+
+Like many states in the early republic, Maryland experimented with voting procedures that were intended to ensure democratic representation. For the first and second Congress, "candidates were elected at-large but had to be residents of a specific district with the statewide vote determining winners from each district." Both the Federalists and the Anti-Federalists advanced six candidates each who met the residency requirements. The state of Maryland was heavily Federalist, and so six Federalists received the most votes in the at-large state election and were thus elected. But one of those candidates represented a district which contained Baltimore County, and another represented a district which contained Anne Arundel County and Annapolis. Had the voting been tallied district by district, the district containing Baltimore County would have had a narrow majority for Anti-Federalists, and the district containing Anne Arundel County would have been within 50 votes of an Anti-Federalist majority. The process of at-large elections with residency requirements thus had the unintended effect of solidifying state-wide rather than more local majorities. 
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table(keep_percentage = 0.005) %>%
+  cat()
+```
+
+</div>

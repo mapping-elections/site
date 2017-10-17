@@ -1,0 +1,63 @@
+---
+meae-id: meae.congressional.congress01.ga.county
+type: congressional
+level: state
+state: Georgia
+geography: county
+congressnum: 1
+congressordinal: 1st
+title: '1st Congress: Georgia 1789'
+year: 1789
+nnv:
+- id: ga.uscongress.lowerdistrict.1789
+  name: GA US Congress 1789 District 1
+- id: ga.uscongress.middledistrict.1789
+  name: GA US Congress 1789 District 2
+- id: ga.uscongress.upperdistrict.1789
+  name: GA US Congress 1789 District 3
+related-maps:
+- id: meae.congressional.congress02.ga.county
+  name: GA 2nd Congress
+  type: next
+- id: meae.congressional.congress01.national.district
+  name: National 1st Congress
+  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress01.ga.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "450px") %>% 
+  setView(lng = -81.492, lat = 32.348, zoom = 7)
+```
+
+</div>
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>
