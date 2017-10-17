@@ -1,0 +1,51 @@
+---
+meae-id: meae.congressional.congress01.ri.county
+type: congressional
+level: state
+state: Rhode Island
+geography: county
+congressnum: 1
+congressordinal: 1st
+title: '1st Congress: Rhode Island 1790'
+year: 1790
+nnv:
+- id: ri.uscongress1.1790
+  name: RI US Congress 1790 At Large
+related-maps:
+- id: meae.congressional.congress02.ri.county
+  name: RI 2nd Congress
+  type: next
+- id: meae.congressional.congress01.national.district
+  name: National 1st Congress
+  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress01.ri.county"
+```
+
+NNV contains insufficient electoral results to make a meaningful map for the First Congress. Benjamin Bourne, a Federalist, was elected.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>
