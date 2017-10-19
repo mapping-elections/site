@@ -13,10 +13,10 @@ nnv:
   name: PA US Congress 1788 At Large
 related-maps:
 - id: meae.congressional.congress02.pa.county
-  name: PA Second Congress
+  name: PA 2nd Congress
   type: next
 - id: meae.congressional.congress01.national.district
-  name: National First Congress
+  name: National 1st Congress
   type: national
 output:
   md_document:
