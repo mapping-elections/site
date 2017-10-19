@@ -8,6 +8,7 @@ congressnum: 1
 congressordinal: 1st
 title: '1st Congress: Virginia 1789'
 year: 1789
+legend: fed-vs-anti
 nnv:
 - id: va.uscongress.1.1789
   name: VA US Congress 1789 District 1

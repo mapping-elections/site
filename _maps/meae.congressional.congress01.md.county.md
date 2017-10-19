@@ -4,6 +4,7 @@ congressnum: 1
 congressordinal: 1st
 geography: county
 layout: 'maps-show'
+legend_type: 'fed-vs-anti'
 level: state
 meae-id: 'meae.congressional.congress01.md.county'
 nnv:

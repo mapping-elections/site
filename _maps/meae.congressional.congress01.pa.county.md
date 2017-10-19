@@ -4,6 +4,7 @@ congressnum: 1
 congressordinal: 1st
 geography: county
 layout: 'maps-show'
+legend: 'fed-vs-anti'
 level: state
 meae-id: 'meae.congressional.congress01.pa.county'
 nnv:
@@ -16,10 +17,10 @@ output:
     variant: markdown
 related-maps:
 - id: 'meae.congressional.congress02.pa.county'
-  name: PA Second Congress
+  name: PA 2nd Congress
   type: next
 - id: 'meae.congressional.congress01.national.district'
-  name: National First Congress
+  name: National 1st Congress
   type: national
 state: Pennsylvania
 title: '1st Congress: Pennsylvania 1788'

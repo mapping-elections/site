@@ -8,6 +8,7 @@ congressnum: 1
 congressordinal: 1st
 title: '1st Congress: Delaware 1789'
 year: 1789
+legend: fed-vs-anti
 nnv:
 - id: de.uscongress.1789
   name: DE US Congress 1789 At Large

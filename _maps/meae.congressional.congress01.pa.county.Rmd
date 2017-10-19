@@ -8,6 +8,7 @@ congressnum: 1
 congressordinal: 1st
 title: '1st Congress: Pennsylvania 1788'
 year: 1788
+legend: fed-vs-anti
 nnv:
 - id: pa.congress.atlarge.1788
   name: PA US Congress 1788 At Large

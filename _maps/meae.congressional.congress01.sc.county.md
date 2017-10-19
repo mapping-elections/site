@@ -4,6 +4,7 @@ congressnum: 1
 congressordinal: 1st
 geography: county
 layout: 'maps-show'
+legend: 'fed-vs-anti'
 level: state
 meae-id: 'meae.congressional.congress01.sc.county'
 nnv:
@@ -34,7 +35,7 @@ state: South Carolina
 title: '1st Congress: South Carolina 1788'
 type: congressional
 year: 1788
-...
+---
 
 <div class="map">
 

@@ -4,6 +4,7 @@ congressnum: 1
 congressordinal: 1st
 geography: county
 layout: 'maps-show'
+legend: 'fed-vs-anti'
 level: state
 meae-id: 'meae.congressional.congress01.nc.county'
 nnv:

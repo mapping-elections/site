@@ -8,6 +8,7 @@ congressnum: 1
 congressordinal: 1st
 title: '1st Congress: Maryland 1789'
 year: 1789
+legend_type: fed-vs-anti
 nnv:
 - id: md.uscongress.1789
   name: MD US Congress 1789 At Large

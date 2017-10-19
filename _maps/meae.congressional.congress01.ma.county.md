@@ -6,7 +6,7 @@ editor_options:
   chunk_output_type: console
 geography: county
 layout: 'maps-show'
-legend_type: 'fed-vs-repub-percentage'
+legend: 'fed-vs-anti'
 level: state
 meae-id: 'meae.congressional.congress01.ma.county'
 nnv:

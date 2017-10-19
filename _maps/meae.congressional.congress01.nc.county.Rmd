@@ -8,6 +8,7 @@ congressnum: 1
 congressordinal: 1st
 title: '1st Congress: North Carolina 1790'
 year: 1790
+legend: fed-vs-anti
 nnv:
 - id: nc.uscongress1.1790
   name: NC US Congress 1790 District 1

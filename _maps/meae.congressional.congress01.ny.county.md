@@ -4,7 +4,7 @@ congressnum: 1
 congressordinal: 1st
 geography: county
 layout: 'maps-show'
-legend_type: 'fed-vs-repub-percentage'
+legend: 'fed-vs-anti'
 level: state
 meae-id: 'meae.congressional.congress01.ny.county'
 nnv:
@@ -27,10 +27,10 @@ output:
     variant: markdown
 related-maps:
 - id: 'meae.congressional.congress02.ny.county'
-  name: NY Second Congress
+  name: NY 2nd Congress
   type: next
 - id: 'meae.congressional.congress01.national.district'
-  name: National First Congress
+  name: National 1st Congress
   type: national
 state: New York
 title: '1st Congress: New York 1789'

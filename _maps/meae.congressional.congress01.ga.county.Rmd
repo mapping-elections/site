@@ -8,6 +8,7 @@ congressnum: 1
 congressordinal: 1st
 title: '1st Congress: Georgia 1789'
 year: 1789
+legend: fed-vs-anti
 nnv:
 - id: ga.uscongress.lowerdistrict.1789
   name: GA US Congress 1789 District 1

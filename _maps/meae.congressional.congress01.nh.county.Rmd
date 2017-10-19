@@ -8,6 +8,7 @@ congressnum: 1
 congressordinal: 1st
 title: '1st Congress: New Hampshire 1789'
 year: 1789
+legend: fed-vs-anti
 nnv:
 - id: nh.uscongress.1789
   name: NH US Congress 1789 At Large

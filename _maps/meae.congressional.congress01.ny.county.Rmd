@@ -8,7 +8,7 @@ congressnum: 1
 congressordinal: 1st
 title: '1st Congress: New York 1789'
 year: 1789
-legend_type: fed-vs-repub-percentage
+legend: fed-vs-anti
 nnv:
 - id: ny.uscongress1.1789
   name: NY US Congress 1789 District 1

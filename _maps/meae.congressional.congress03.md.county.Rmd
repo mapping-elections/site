@@ -8,6 +8,7 @@ congressnum: 3
 congressordinal: 3rd
 title: '3rd Congress: Maryland 1792'
 year: 1792
+legend: fed-vs-anti
 nnv:
 - id: md.uscongress1.1792
   name: MD US Congress 1792 District 1

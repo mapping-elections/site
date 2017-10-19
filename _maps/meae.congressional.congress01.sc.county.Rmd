@@ -8,6 +8,7 @@ congressnum: 1
 congressordinal: 1st
 title: '1st Congress: South Carolina 1788'
 year: 1788
+legend: fed-vs-anti
 nnv:
 - id: sc.uscongress.district1.1788
   name: SC US Congress 1788 District 1

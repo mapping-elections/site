@@ -4,6 +4,7 @@ congressnum: 3
 congressordinal: 3rd
 geography: county
 layout: 'maps-show'
+legend: 'fed-vs-anti'
 level: state
 meae-id: 'meae.congressional.congress03.md.county'
 nnv:
@@ -42,7 +43,7 @@ state: Maryland
 title: '3rd Congress: Maryland 1792'
 type: congressional
 year: 1792
-...
+---
 
 <div class="map">
 

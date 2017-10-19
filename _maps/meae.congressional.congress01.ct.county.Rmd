@@ -8,6 +8,7 @@ congressnum: 1
 congressordinal: 1st
 title: '1st Congress: Connecticut 1790'
 year: 1790
+legend: fed-vs-anti
 nnv:
 - id: ct.congress.1790
   name: CT US Congress 1790 At Large
