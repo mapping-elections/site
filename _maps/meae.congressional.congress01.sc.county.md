@@ -182,7 +182,7 @@ Sumter</a>
 <td style="text-align:right;">
 </td>
 <td style="text-align:right;">
-unopp.
+unopposed
 </td>
 <td style="text-align:center;">
 ✓
@@ -201,7 +201,7 @@ Tudor Tucker</a>
 <td style="text-align:right;">
 </td>
 <td style="text-align:right;">
-unopp.
+unopposed
 </td>
 <td style="text-align:center;">
 ✓

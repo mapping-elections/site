@@ -98,7 +98,7 @@ White</a>
 <td style="text-align:right;">
 </td>
 <td style="text-align:right;">
-unopp.
+unopposed
 </td>
 <td style="text-align:center;">
 ✓
@@ -117,7 +117,7 @@ Brown</a>
 <td style="text-align:right;">
 </td>
 <td style="text-align:right;">
-unopp.
+unopposed
 </td>
 <td style="text-align:center;">
 ✓
@@ -211,7 +211,7 @@ Coles</a>
 <td style="text-align:right;">
 </td>
 <td style="text-align:right;">
-unopp.
+unopposed
 </td>
 <td style="text-align:center;">
 ✓

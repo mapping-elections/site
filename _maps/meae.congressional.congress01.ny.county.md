@@ -92,7 +92,7 @@ Anti-Federalist
 894
 </td>
 <td style="text-align:right;">
-unopp.
+unopposed
 </td>
 <td style="text-align:center;">
 ✓
@@ -193,7 +193,7 @@ Anti-Federalist
 <td style="text-align:right;">
 </td>
 <td style="text-align:right;">
-unopp.
+unopposed
 </td>
 <td style="text-align:center;">
 ✓

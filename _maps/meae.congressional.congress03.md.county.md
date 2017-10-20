@@ -239,7 +239,7 @@ Federalist
 497
 </td>
 <td style="text-align:right;">
-unopp.
+unopposed
 </td>
 <td style="text-align:center;">
 ✓
