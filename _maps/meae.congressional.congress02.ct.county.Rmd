@@ -1,0 +1,63 @@
+---
+meae-id: meae.congressional.congress02.ct.county
+type: congressional
+level: state
+state: Connecticut
+geography: county
+congressnum: 2
+congressordinal: 2nd
+title: '2nd Congress: Connecticut 1792'
+year: 1792
+legend: fed-vs-anti
+nnv:
+- id: ct.congress.1792
+  name: CT US Congress 1792 At Large
+related-maps:
+- id: meae.congressional.congress01.ct.county
+  name: CT 1st Congress
+  type: previous
+- id: meae.congressional.congress03.ct.county
+  name: CT 3rd Congress
+  type: next
+- id: meae.congressional.congress02.national.district
+  name: National 2nd Congress
+  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress02.ct.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+# map_id %>%
+#   get_county_map_data() %>%
+#   map_counties()
+```
+
+</div>
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>
