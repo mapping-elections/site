@@ -27,7 +27,7 @@ nnv:
 - id: md.uscongress8.1806
   name: MD US Congress 1806 District 8
 related-maps:
-- id: meae.congressional.congress9.md.county
+- id: meae.congressional.congress09.md.county
   name: MD 9th Congress
   type: previous
 - id: meae.congressional.congress11.md.county

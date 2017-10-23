@@ -33,7 +33,7 @@ related-maps:
 - id: 'meae.congressional.congress08.md.county'
   name: MD 8th Congress
   type: previous
-- id: 'meae.congressional.congress010.md.county'
+- id: 'meae.congressional.congress10.md.county'
   name: MD 10th Congress
   type: next
 - id: 'meae.congressional.congress09.national.district'

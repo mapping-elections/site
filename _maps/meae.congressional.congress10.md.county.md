@@ -30,7 +30,7 @@ output:
   md_document:
     variant: markdown
 related-maps:
-- id: 'meae.congressional.congress9.md.county'
+- id: 'meae.congressional.congress09.md.county'
   name: MD 9th Congress
   type: previous
 - id: 'meae.congressional.congress11.md.county'
