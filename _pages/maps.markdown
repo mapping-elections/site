@@ -9,7 +9,7 @@ bodyclass: maps-browse
 
 <div data-equalizer data-equalize-on="medium" class="large-up-4">
 
-{% assign groups = site.maps | group_by: "congressordinal" | sort: "name" %}
+{% assign groups = site.maps | group_by: "congressordinal" | sort: "congressnum" %}
 
 {% for group in groups %}
 <div class="medium-3 columns">
