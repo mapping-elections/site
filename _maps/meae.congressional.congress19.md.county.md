@@ -33,7 +33,6 @@ related-maps:
 - id: 'meae.congressional.congress18.md.county'
   name: MD 18th Congress
   type: previous
-- 
 - id: 'meae.congressional.congress19.national.district'
   name: National 19th Congress
   type: national
