@@ -12,7 +12,7 @@ bodyclass: maps-browse
 {% assign groups = site.maps | group_by: "congressordinal" | sort: "congressnum" %}
 
 {% for group in groups %}
-<div class="medium-3 columns">
+<div class="medium-3 column column-block">
 <h5>{{ group.name }} Congress</h5>
 <ul>
 {% assign items = group.items | sort: 'state' %}
