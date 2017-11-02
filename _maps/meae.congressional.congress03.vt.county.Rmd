@@ -1,0 +1,65 @@
+---
+meae-id: meae.congressional.congress03.vt.county
+type: congressional
+level: state
+state: Vermont
+geography: county
+congressnum: 3
+congressordinal: 3rd
+title: '3rd Congress: Vermont 1793'
+year: 1793
+legend: fed-vs-anti
+nnv:
+- id: vt.uscongress.western.secondballot.1793
+  name: VT US Congress 1793 District 1
+- id: vt.uscongress.eastern.1793
+  name: VT US Congress 1793 District 2
+related-maps:
+- id: meae.congressional.congress02.vt.county
+  name: VT 2nd Congress
+  type: previous
+- id: meae.congressional.congress04.vt.county
+  name: VT 4th Congress
+  type: next
+- id: meae.congressional.congress03.national.district
+  name: National 3rd Congress
+  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress03.vt.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties()
+```
+
+</div>
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>
