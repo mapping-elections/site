@@ -68,7 +68,7 @@ map_id %>%
                    fillColor = mappingelections:::poli_chrome(cities),
                    opacity = 1, fillOpacity = 0.8, radius = 8, weight = 3,
                    popup = ~paste0("<b>City of ", city, "</b><br/>",
-                                   "Congressional District: At-large<br/>",
+                                   "Congressional District: 5<br/>",
                                    "Federalists: ", federalist_percentage * 100, "% (", 
                                    prettyNum(federalist_vote, big.mark = ","), 
                                    " votes)<br/>",
