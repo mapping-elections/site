@@ -1,19 +1,22 @@
 ---
-meae-id: meae.congressional.congress05.ri.county
-type: congressional
-level: state
-state: Rhode Island
-geography: county
+title: '5th Congress: Rhode Island 1796'
 congressnum: 5
 congressordinal: 5th
-title: '5th Congress: Rhode Island 1796'
-year: 1796
+output:
+  html_document:
+    theme: default
+  md_document:
+    variant: markdown
+layout: maps-show
 legend: fed-vs-anti
+level: state
+meae-id: meae.congressional.congress05.ri.county
 nnv:
 - id: ri.uscongress.secondcongressmen.1796
   name: RI US Congress 1796 District NA
 - id: ri.uscongress.specialelection.1796
   name: RI US Congress 1796 District NA
+geography: county
 related-maps:
 - id: meae.congressional.congress04.ri.county
   name: RI 4th Congress
@@ -24,14 +27,10 @@ related-maps:
 - id: meae.congressional.congress05.national.district
   name: National 5th Congress
   type: national
-output:
-  md_document:
-    variant: markdown
-  html_document:
-    theme: default
+state: Rhode Island
 always_allow_html: yes
-layout: maps-show
-
+type: congressional
+year: 1796
 ---
 
 ```{r setup, include = FALSE}
@@ -47,8 +46,8 @@ map_id <- "meae.congressional.congress05.ri.county"
 
 ```{r election-map, echo = FALSE}
 map_id %>%
-  get_county_map_data() %>%
-  map_counties()
+  get_county_map_data() %>% 
+  map_counties(height = "300px")
 ```
 
 </div>
