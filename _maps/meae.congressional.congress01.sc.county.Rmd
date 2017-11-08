@@ -70,6 +70,9 @@ map_id %>%
 ```
 
 </div>
+South Carolina voters elected five unaffiliated representatives to the First Congress. These representatives came from districts which included the state capital of Charleston and the surrounding lowcountry; many in the state's backcountry were opposed to ratifying the federal Constitution.
+
+In the first district, also known as the Charleston District, William Smith was elected, having captured most of the votes from the capital city. While specific local returns are not available for the second and third districts, Aedanus Burke and Daniel Huger were elected to represent their respective districts. In the fourth and fifth districts, Thomas Sumter and Thomas Tudor Tucker stood unopposed.
 
 <div class="results-table">
 
