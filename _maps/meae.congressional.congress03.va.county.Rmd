@@ -1,14 +1,16 @@
 ---
-meae-id: meae.congressional.congress03.va.county
-type: congressional
-level: state
-state: Virginia
-geography: county
+title: '3rd Congress: Virginia 1793'
 congressnum: 3
 congressordinal: 3rd
-title: '3rd Congress: Virginia 1793'
-year: 1793
+output:
+  html_document:
+    theme: default
+  md_document:
+    variant: markdown
+layout: maps-show
 legend: fed-vs-anti
+level: state
+meae-id: meae.congressional.congress03.va.county
 nnv:
 - id: va.uscongress.1793
   name: VA US Congress 1793 District 1
@@ -50,6 +52,7 @@ nnv:
   name: VA US Congress 1793 District 18
 - id: va.uscongress.19.1793
   name: VA US Congress 1793 District 19
+geography: county
 related-maps:
 - id: meae.congressional.congress02.va.county
   name: VA 2nd Congress
@@ -60,14 +63,10 @@ related-maps:
 - id: meae.congressional.congress03.national.district
   name: National 3rd Congress
   type: national
-output:
-  md_document:
-    variant: markdown
-  html_document:
-    theme: default
+state: Virginia
 always_allow_html: yes
-layout: maps-show
-
+type: congressional
+year: 1793
 ---
 
 ```{r setup, include = FALSE}
@@ -84,7 +83,7 @@ map_id <- "meae.congressional.congress03.va.county"
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>%
-  map_counties()
+  map_counties(height = "405px")
 ```
 
 </div>
