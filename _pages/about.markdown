@@ -25,6 +25,10 @@ Roy Rosenzweig Center for History and New Media, George Mason University:
 
 * [Lincoln Mullen](http://lincolnmullen.com), Project Co-Director
 
+* [Greta Swain](http://gretakswain.org), Graduate Research Assistant
+
+* [LaQuanda Walters Cooper](http://lwalterscooper.org), Graduate Research Assistant
+
 * [Rosemarie Zagarri](http://historyarthistory.gmu.edu/people/rzagarri), Lead Historian
 
 Project Consultants:
