@@ -47,7 +47,7 @@ state: North Carolina
 title: '3rd Congress: North Carolina 1793'
 type: congressional
 year: 1793
----
+...
 
 <div class="map">
 

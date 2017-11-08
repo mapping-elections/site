@@ -29,7 +29,7 @@ state: New Hampshire
 title: '4th Congress: New Hampshire 1794'
 type: congressional
 year: 1794
----
+...
 
 <div class="map">
 

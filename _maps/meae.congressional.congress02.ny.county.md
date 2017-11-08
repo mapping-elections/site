@@ -39,7 +39,7 @@ state: New York
 title: '2nd Congress: New York 1790'
 type: congressional
 year: 1790
----
+...
 
 <div class="map">
 

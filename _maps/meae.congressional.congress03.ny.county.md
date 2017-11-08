@@ -47,7 +47,7 @@ state: New York
 title: '3rd Congress: New York 1793'
 type: congressional
 year: 1793
----
+...
 
 <div class="map">
 

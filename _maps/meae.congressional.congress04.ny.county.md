@@ -47,7 +47,7 @@ state: New York
 title: '4th Congress: New York 1794'
 type: congressional
 year: 1794
----
+...
 
 <div class="map">
 

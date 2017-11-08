@@ -37,7 +37,7 @@ state: South Carolina
 title: '2nd Congress: South Carolina 1790'
 type: congressional
 year: 1790
----
+...
 
 <div class="map">
 

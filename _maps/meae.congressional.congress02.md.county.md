@@ -29,7 +29,7 @@ state: Maryland
 title: '2nd Congress: Maryland 1790'
 type: congressional
 year: 1790
----
+...
 
 <div class="map">
 
@@ -138,14 +138,14 @@ Chesapeake
 At-large
 </td>
 <td style="text-align:left;">
-<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=K000158">Philip
-Key</a>
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=M001119">William
+Vans Murray</a>
 </td>
 <td style="text-align:left;">
 Chesapeake
 </td>
 <td style="text-align:right;">
-9,640
+9,647
 </td>
 <td style="text-align:right;">
 9.5%
@@ -159,14 +159,14 @@ Chesapeake
 At-large
 </td>
 <td style="text-align:left;">
-<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=M001119">William
-Vans Murray</a>
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=K000158">Philip
+Key</a>
 </td>
 <td style="text-align:left;">
 Chesapeake
 </td>
 <td style="text-align:right;">
-9,647
+9,640
 </td>
 <td style="text-align:right;">
 9.5%
@@ -241,13 +241,14 @@ Potomac
 At-large
 </td>
 <td style="text-align:left;">
-James Tilghman
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=S000961">Michael
+Jenifer Stone</a>
 </td>
 <td style="text-align:left;">
 Potomac
 </td>
 <td style="text-align:right;">
-7,286
+7,318
 </td>
 <td style="text-align:right;">
 7.2%
@@ -260,14 +261,13 @@ Potomac
 At-large
 </td>
 <td style="text-align:left;">
-<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=S000961">Michael
-Jenifer Stone</a>
+James Tilghman
 </td>
 <td style="text-align:left;">
 Potomac
 </td>
 <td style="text-align:right;">
-7,318
+7,286
 </td>
 <td style="text-align:right;">
 7.2%

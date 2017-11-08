@@ -33,7 +33,7 @@ state: South Carolina
 title: '4th Congress: South Carolina 1794'
 type: congressional
 year: 1794
----
+...
 
 <div class="map">
 

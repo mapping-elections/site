@@ -26,7 +26,7 @@ state: Connecticut
 title: '1st Congress: Connecticut 1790'
 type: congressional
 year: 1790
----
+...
 
 NNV does not contain any county- or town-level data to be mapped.
 Elections for Connecticut's five seats in the First Congress were held

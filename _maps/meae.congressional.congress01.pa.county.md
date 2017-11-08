@@ -26,7 +26,7 @@ state: Pennsylvania
 title: '1st Congress: Pennsylvania 1788'
 type: congressional
 year: 1788
----
+...
 
 <div class="map">
 
@@ -212,14 +212,14 @@ Federalist
 At-large
 </td>
 <td style="text-align:left;">
-<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=H000570">Daniel
-Hiester</a>
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=M001066">Peter
+Muhlenberg</a>
 </td>
 <td style="text-align:left;">
 Anti-Federalist
 </td>
 <td style="text-align:right;">
-7,455
+7,465
 </td>
 <td style="text-align:right;">
 6.4%
@@ -233,14 +233,14 @@ Anti-Federalist
 At-large
 </td>
 <td style="text-align:left;">
-<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=M001066">Peter
-Muhlenberg</a>
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=H000570">Daniel
+Hiester</a>
 </td>
 <td style="text-align:left;">
 Anti-Federalist
 </td>
 <td style="text-align:right;">
-7,465
+7,455
 </td>
 <td style="text-align:right;">
 6.4%
@@ -312,13 +312,14 @@ Anti-Federalist
 At-large
 </td>
 <td style="text-align:left;">
-Charles Pettit
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=I000035">William
+Irvine</a>
 </td>
 <td style="text-align:left;">
 Anti-Federalist
 </td>
 <td style="text-align:right;">
-6,537
+6,546
 </td>
 <td style="text-align:right;">
 5.6%
@@ -331,14 +332,13 @@ Anti-Federalist
 At-large
 </td>
 <td style="text-align:left;">
-<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=I000035">William
-Irvine</a>
+Charles Pettit
 </td>
 <td style="text-align:left;">
 Anti-Federalist
 </td>
 <td style="text-align:right;">
-6,546
+6,537
 </td>
 <td style="text-align:right;">
 5.6%

@@ -29,7 +29,7 @@ state: New Hampshire
 title: '3rd Congress: New Hampshire 1792'
 type: congressional
 year: 1792
----
+...
 
 <div class="map">
 

@@ -31,7 +31,7 @@ state: Vermont
 title: '4th Congress: Vermont 1795'
 type: congressional
 year: 1795
----
+...
 
 <div class="map">
 

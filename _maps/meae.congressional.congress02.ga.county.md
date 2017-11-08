@@ -33,7 +33,7 @@ state: Georgia
 title: '2nd Congress: Georgia 1791'
 type: congressional
 year: 1791
----
+...
 
 <div class="map">
 

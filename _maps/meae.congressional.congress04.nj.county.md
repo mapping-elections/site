@@ -29,7 +29,7 @@ state: New Jersey
 title: '4th Congress: New Jersey 1795'
 type: congressional
 year: 1795
----
+...
 
 <div class="map">
 

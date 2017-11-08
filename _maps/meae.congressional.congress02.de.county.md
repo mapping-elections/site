@@ -29,7 +29,7 @@ state: Delaware
 title: '2nd Congress: Delaware 1790'
 type: congressional
 year: 1790
----
+...
 
 <div class="map">
 

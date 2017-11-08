@@ -43,7 +43,7 @@ state: Maryland
 title: '18th Congress: Maryland 1822'
 type: congressional
 year: 1822
----
+...
 
 <div class="map">
 

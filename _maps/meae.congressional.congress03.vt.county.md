@@ -31,7 +31,7 @@ state: Vermont
 title: '3rd Congress: Vermont 1793'
 type: congressional
 year: 1793
----
+...
 
 <div class="map">
 

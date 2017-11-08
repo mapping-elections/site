@@ -11,6 +11,10 @@ clean :
 	@echo "Cleaning _site directory ..."
 	rm -rf _site/*
 
+clobber-maps :
+	@echo "Clobbering the generated maps ..."
+	rm -f _maps/*.md
+
 deploy : clean
 	@echo "Building dev site ..."
 	bundle exec jekyll build --config _config.yml,_config-dev.yml --future
@@ -25,6 +29,7 @@ deploy-production : clean
 	rsync --checksum --exclude dev/ --delete -avz _site/* earlyamerican:/websites/earlyamer/www/
 	@echo "Done."
 
+
 build : clean $(MAPPAGES)
 	bundle exec jekyll build
 
@@ -33,4 +38,4 @@ maps : $(MAPPAGES)
 _maps/%.md : _maps/%.Rmd
 	R --slave -e "set.seed(100); rmarkdown::render('$<', output_format = 'md_document')"
 
-.PHONY: serve clean deploy deploy-production maps
+.PHONY: serve clean deploy deploy-production maps clobber-maps

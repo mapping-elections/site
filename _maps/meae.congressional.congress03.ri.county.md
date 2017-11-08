@@ -29,7 +29,7 @@ state: Rhode Island
 title: '3rd Congress: Rhode Island 1792'
 type: congressional
 year: 1792
----
+...
 
 <div class="map">
 

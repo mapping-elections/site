@@ -29,7 +29,7 @@ state: Tennessee
 title: '4th Congress: Tennessee 1796'
 type: congressional
 year: 1796
----
+...
 
 <div class="map">
 

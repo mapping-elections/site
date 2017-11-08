@@ -55,7 +55,7 @@ state: Massachusetts
 title: '4th Congress: Massachusetts 1794'
 type: congressional
 year: 1794
----
+...
 
 <div class="map">
 

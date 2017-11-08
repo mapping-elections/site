@@ -31,7 +31,7 @@ state: Rhode Island
 title: '4th Congress: Rhode Island 1794'
 type: congressional
 year: 1794
----
+...
 
 <div class="map">
 

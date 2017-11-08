@@ -29,7 +29,7 @@ state: New Jersey
 title: '2nd Congress: New Jersey 1791'
 type: congressional
 year: 1791
----
+...
 
 <div class="map">
 

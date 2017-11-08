@@ -42,7 +42,7 @@ state: Massachusetts
 title: '1st Congress: Massachusetts 1788'
 type: congressional
 year: 1788
----
+...
 
 <div class="map">
 

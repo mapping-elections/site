@@ -29,7 +29,7 @@ state: Connecticut
 title: '3rd Congress: Connecticut 1792'
 type: congressional
 year: 1792
----
+...
 
 <div class="map">
 

@@ -29,7 +29,7 @@ state: New Jersey
 title: '3rd Congress: New Jersey 1792'
 type: congressional
 year: 1792
----
+...
 
 <div class="map">
 

@@ -29,7 +29,7 @@ state: Connecticut
 title: '4th Congress: Connecticut 1794'
 type: congressional
 year: 1794
----
+...
 
 <div class="map">
 

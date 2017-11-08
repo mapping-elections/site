@@ -29,7 +29,7 @@ state: Delaware
 title: '4th Congress: Delaware 1794'
 type: congressional
 year: 1794
----
+...
 
 <div class="map">
 

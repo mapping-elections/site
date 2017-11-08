@@ -29,7 +29,7 @@ state: Pennsylvania
 title: '3rd Congress: Pennsylvania 1792'
 type: congressional
 year: 1792
----
+...
 
 <div class="map">
 

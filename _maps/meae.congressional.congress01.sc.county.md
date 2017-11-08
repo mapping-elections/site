@@ -35,7 +35,7 @@ state: South Carolina
 title: '1st Congress: South Carolina 1788'
 type: congressional
 year: 1788
----
+...
 
 <div class="map">
 

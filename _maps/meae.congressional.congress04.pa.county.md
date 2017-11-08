@@ -51,7 +51,7 @@ state: Pennsylvania
 title: '4th Congress: Pennsylvania 1794'
 type: congressional
 year: 1794
----
+...
 
 <div class="map">
 

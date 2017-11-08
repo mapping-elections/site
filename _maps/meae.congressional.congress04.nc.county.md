@@ -47,7 +47,7 @@ state: North Carolina
 title: '4th Congress: North Carolina 1795'
 type: congressional
 year: 1795
----
+...
 
 <div class="map">
 
