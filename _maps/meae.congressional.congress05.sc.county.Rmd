@@ -1,0 +1,73 @@
+---
+meae-id: meae.congressional.congress05.sc.county
+type: congressional
+level: state
+state: South Carolina
+geography: county
+congressnum: 5
+congressordinal: 5th
+title: '5th Congress: South Carolina 1796'
+year: 1796
+legend: fed-vs-anti
+nnv:
+- id: sc.uscongress.charleston.1796
+  name: SC US Congress 1796 District 1
+- id: sc.uscongress.beaufort.1796
+  name: SC US Congress 1796 District 2
+- id: sc.uscongress.georgetown.1796
+  name: SC US Congress 1796 District 3
+- id: sc.uscongress.camden.1796
+  name: SC US Congress 1796 District 4
+- id: sc.uscongress.ninety-six.1796
+  name: SC US Congress 1796 District 5
+- id: sc.uscongress.washington.1796
+  name: SC US Congress 1796 District 6
+related-maps:
+- id: meae.congressional.congress04.sc.county
+  name: SC 4th Congress
+  type: previous
+- id: meae.congressional.congress06.sc.county
+  name: SC 6th Congress
+  type: next
+- id: meae.congressional.congress05.national.district
+  name: National 5th Congress
+  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress05.sc.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties()
+```
+
+</div>
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>
