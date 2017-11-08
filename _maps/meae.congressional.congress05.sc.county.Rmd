@@ -1,14 +1,16 @@
 ---
-meae-id: meae.congressional.congress05.sc.county
-type: congressional
-level: state
-state: South Carolina
-geography: county
+title: '5th Congress: South Carolina 1796'
 congressnum: 5
 congressordinal: 5th
-title: '5th Congress: South Carolina 1796'
-year: 1796
+output:
+  html_document:
+    theme: default
+  md_document:
+    variant: markdown
+layout: maps-show
 legend: fed-vs-anti
+level: state
+meae-id: meae.congressional.congress05.sc.county
 nnv:
 - id: sc.uscongress.charleston.1796
   name: SC US Congress 1796 District 1
@@ -22,6 +24,7 @@ nnv:
   name: SC US Congress 1796 District 5
 - id: sc.uscongress.washington.1796
   name: SC US Congress 1796 District 6
+geography: county
 related-maps:
 - id: meae.congressional.congress04.sc.county
   name: SC 4th Congress
@@ -32,14 +35,10 @@ related-maps:
 - id: meae.congressional.congress05.national.district
   name: National 5th Congress
   type: national
-output:
-  md_document:
-    variant: markdown
-  html_document:
-    theme: default
+state: South Carolina
 always_allow_html: yes
-layout: maps-show
-
+type: congressional
+year: 1796
 ---
 
 ```{r setup, include = FALSE}
@@ -49,6 +48,9 @@ library(USAboundaries)
 library(mappingelections)
 
 map_id <- "meae.congressional.congress05.sc.county"
+cities <- tribble(
+  ~city, ~lat, ~lng, ~federalist_percentage, ~republican_percentage, ~federalist_vote, ~republican_vote,
+  "Charleston", 32.7765, -79.9311, 0.904, 0.096, 499, 53)
 ```
 
 <div class="map">
@@ -56,7 +58,20 @@ map_id <- "meae.congressional.congress05.sc.county"
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>%
-  map_counties()
+  map_counties(cities = FALSE,height = "600px") %>% 
+  addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
+               fillColor = mappingelections:::poli_chrome(cities),
+               opacity = 1, fillOpacity = 0.8, radius = 8, weight = 3,
+                popup = ~paste0("<b>City of ", city, "</b><br/>",
+                                 "Congressional District: 1<br/>",
+                                 "Federalists: ", federalist_percentage * 100, "% (", 
+                                 prettyNum(federalist_vote, big.mark = ","), 
+                                 " votes)<br/>",
+                                 "Republicans: ", republican_percentage * 100,
+                                 "% (", 
+                                 prettyNum(republican_vote, big.mark = ","),
+                                 " votes)"),
+                 label = ~city) 
 ```
 
 </div>

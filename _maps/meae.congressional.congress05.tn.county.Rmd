@@ -1,17 +1,20 @@
 ---
-meae-id: meae.congressional.congress05.tn.county
-type: congressional
-level: state
-state: Tennessee
-geography: county
+title: '5th Congress: Tennessee 1797'
 congressnum: 5
 congressordinal: 5th
-title: '5th Congress: Tennessee 1797'
-year: 1797
+output:
+  html_document:
+    theme: default
+  md_document:
+    variant: markdown
+layout: maps-show
 legend: fed-vs-anti
+level: state
+meae-id: meae.congressional.congress05.tn.county
 nnv:
 - id: tn.ushouserepresentatives.1797
   name: TN US Congress 1797 At Large
+geography: county
 related-maps:
 - id: meae.congressional.congress04.tn.county
   name: TN 4th Congress
@@ -22,14 +25,10 @@ related-maps:
 - id: meae.congressional.congress05.national.district
   name: National 5th Congress
   type: national
-output:
-  md_document:
-    variant: markdown
-  html_document:
-    theme: default
+state: Tennessee
 always_allow_html: yes
-layout: maps-show
-
+type: congressional
+year: 1797
 ---
 
 ```{r setup, include = FALSE}
@@ -46,7 +45,8 @@ map_id <- "meae.congressional.congress05.tn.county"
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>%
-  map_counties()
+  map_counties(height = "300px") %>% 
+  setView(lng = -84.85, lat = 36.348, zoom = 9)
 ```
 
 </div>
