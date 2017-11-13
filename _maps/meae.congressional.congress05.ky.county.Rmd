@@ -15,8 +15,8 @@ nnv:
 - id: ky.uscongressnortherndistrict.1796
   name: KY US Congress 1796 District 2
 related-maps:
-- id: meae.congressional.congress04.ky.county
-  name: KY 4th Congress
+- id: meae.congressional.congress03.ky.county
+  name: KY 3rd Congress
   type: previous
 - id: meae.congressional.congress06.ky.county
   name: KY 6th Congress
