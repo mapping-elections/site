@@ -28,10 +28,10 @@ nnv:
   name: MA US Congress 1789 District 8
 related-maps:
 - id: meae.congressional.congress02.ma.county
-  name: MA Second Congress
+  name: MA 2nd Congress
   type: next
 - id: meae.congressional.congress01.national.district
-  name: National First Congress
+  name: National 1st Congress
   type: national
 output:
   md_document:
