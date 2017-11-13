@@ -13,9 +13,6 @@ nnv:
 - id: tn.uscongress.1796
   name: TN US Congress 1796 At Large
 related-maps:
-- id: meae.congressional.congress03.tn.county
-  name: TN 3rd Congress
-  type: previous
 - id: meae.congressional.congress05.tn.county
   name: TN 5th Congress
   type: next
