@@ -26,7 +26,7 @@ state: New Jersey
 title: '1st Congress: New Jersey 1789'
 type: congressional
 year: 1789
----
+...
 
 <div class="map">
 

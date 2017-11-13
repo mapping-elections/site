@@ -42,8 +42,12 @@ state: Massachusetts
 title: '1st Congress: Massachusetts 1788'
 type: congressional
 year: 1788
+<<<<<<< HEAD
 image: /content-img/ma-first-county.png
 ---
+=======
+...
+>>>>>>> c82ffdc85d1a94d38ffa574cebcac3e8fd682191
 
 <div class="map">
 

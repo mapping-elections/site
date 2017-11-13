@@ -1,0 +1,63 @@
+---
+meae-id: meae.congressional.congress05.nh.county
+type: congressional
+level: state
+state: New Hampshire
+geography: county
+congressnum: 5
+congressordinal: 5th
+title: '5th Congress: New Hampshire 1796'
+year: 1796
+legend: fed-vs-anti
+nnv:
+- id: nh.uscongress.1796
+  name: NH US Congress 1796 At Large
+related-maps:
+- id: meae.congressional.congress04.nh.county
+  name: NH 4th Congress
+  type: previous
+- id: meae.congressional.congress06.nh.county
+  name: NH 6th Congress
+  type: next
+- id: meae.congressional.congress05.national.district
+  name: National 5th Congress
+  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress05.nh.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+# map_id %>%
+#   get_county_map_data() %>%
+#   map_counties()
+```
+
+</div>
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

@@ -29,7 +29,7 @@ state: Delaware
 title: '3rd Congress: Delaware 1792'
 type: congressional
 year: 1792
----
+...
 
 <div class="map">
 

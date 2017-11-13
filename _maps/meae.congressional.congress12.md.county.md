@@ -43,7 +43,7 @@ state: Maryland
 title: '12th Congress: Maryland 1810'
 type: congressional
 year: 1810
----
+...
 
 <div class="map">
 
@@ -161,7 +161,7 @@ Federalist
 777
 </td>
 <td style="text-align:right;">
-100%
+unopposed
 </td>
 <td style="text-align:center;">
 ✓

@@ -29,7 +29,7 @@ state: Georgia
 title: '3rd Congress: Georgia 1792'
 type: congressional
 year: 1792
----
+...
 
 <div class="map">
 

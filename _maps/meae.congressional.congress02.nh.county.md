@@ -29,7 +29,7 @@ state: New Hampshire
 title: '2nd Congress: New Hampshire 1790'
 type: congressional
 year: 1790
----
+...
 
 <div class="map">
 

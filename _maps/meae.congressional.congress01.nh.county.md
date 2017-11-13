@@ -26,7 +26,7 @@ state: New Hampshire
 title: '1st Congress: New Hampshire 1789'
 type: congressional
 year: 1789
----
+...
 
 NNV contains town- or county-level returns for less than 20 percent of
 the total votes cast in this election, so the data cannot be

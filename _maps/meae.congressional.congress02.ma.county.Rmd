@@ -59,8 +59,9 @@ map_id <- "meae.congressional.congress02.ma.county"
 
 ```{r election-map, echo = FALSE}
 map_id %>%
-  get_county_map_data() %>%
-  map_counties()
+  get_county_map_data() %>% 
+  map_counties() %>% 
+  fitBounds(-73.508, 41.186, -69.861, 43.75)
 ```
 
 </div>

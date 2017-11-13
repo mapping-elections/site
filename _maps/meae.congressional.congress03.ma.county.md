@@ -55,7 +55,7 @@ state: Massachusetts
 title: '3rd Congress: Massachusetts 1793'
 type: congressional
 year: 1793
----
+...
 
 <div class="map">
 

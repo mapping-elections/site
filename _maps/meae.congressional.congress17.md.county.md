@@ -43,7 +43,7 @@ state: Maryland
 title: '17th Congress: Maryland 1820'
 type: congressional
 year: 1820
----
+...
 
 <div class="map">
 

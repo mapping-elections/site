@@ -40,7 +40,7 @@ state: Maryland
 title: '19th Congress: Maryland 1824'
 type: congressional
 year: 1824
----
+...
 
 <div class="map">
 

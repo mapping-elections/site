@@ -26,7 +26,7 @@ state: Rhode Island
 title: '1st Congress: Rhode Island 1790'
 type: congressional
 year: 1790
----
+...
 
 NNV contains insufficient electoral results to make a meaningful map for
 the First Congress. Benjamin Bourne, a Federalist, was elected.
