@@ -14,8 +14,6 @@ bodyclass: maps-show
         <div class="large-12">
         <h3>{{ page.title }}</h3>
 
-        <img src="{{site.url}}/theme-img/congress-legend.svg" class="congress-legend">
-
             {{ content }}
         <p class="disclaimer">{% include results-table-disclaimer.html %}</p>
 
@@ -30,6 +28,8 @@ bodyclass: maps-show
 
     <hr class="hide-for-large">
     <div class="large-3 column sidebar">
+        <h5>Legend</h5>
+        <img src="{{site.url}}/theme-img/fed-vs-anti-vertical.svg">
         <h5>Related Maps</h5>
           <ul>
               {% for related in page.related-maps %}

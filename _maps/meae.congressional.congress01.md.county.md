@@ -26,7 +26,12 @@ state: Maryland
 title: '1st Congress: Maryland 1789'
 type: congressional
 year: 1789
+<<<<<<< HEAD
+image: /content-img/md-first-county.png
+---
+=======
 ...
+>>>>>>> c82ffdc85d1a94d38ffa574cebcac3e8fd682191
 
 <div class="map">
 

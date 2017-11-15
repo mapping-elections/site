@@ -34,7 +34,12 @@ state: North Carolina
 title: '1st Congress: North Carolina 1790'
 type: congressional
 year: 1790
+<<<<<<< HEAD
+image: /content-img/nc-first-county.png
+---
+=======
 ...
+>>>>>>> c82ffdc85d1a94d38ffa574cebcac3e8fd682191
 
 <div class="map">
 
