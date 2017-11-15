@@ -45,6 +45,27 @@ style="width:100%;height:450px;">
 
 </div>
 
+Georgia’s voters elected three unaffiliated representatives, one from
+each of the state’s three districts. For the First Congress, Georgia
+election law called for an at-large election in which each voter
+selected three candidates, one residing in each district. The candidate
+from each district that had the most votes statewide, won the election.
+
+The returns shown here only give the number of votes a candidate
+received in his home district, even though the election was based on the
+number of votes a candidate received overall. For example, James
+Jackson, who was elected to represent the Lower or Eastern (later First)
+District received 604 votes in his home district, but also received
+votes from at least one other district.
+
+In addition to Jackson, Abraham Baldwin was elected to represent the
+Middle or Center (later Second) District, while George Matthews was
+overwhelmingly elected to represent the Upper or Western (later Third)
+District. Candidate Henry Osborne, while not elected, was the only
+candidate to receive more than eight votes in all three districts. None
+of the candidates in this election were affiliated with a particular
+political party.
+
 <div class="results-table">
 
 <table>

@@ -59,6 +59,19 @@ style="width:100%;height:405px;">
 
 </div>
 
+Virginia’s first Congressional election utilized a district-based
+electoral system. Because the state was to seat ten representatives in
+Congress, the state was divided into ten districts, with each district
+electing a candidate from their own district. Because political parties
+had not been fully developed in Virginia at the time, all ten
+representatives elected were unaffiliated with a party. Three
+candidates, White from District 1, Brown from District 2, and Coles from
+District 3 stood unopposed. The other candidates listed did have
+opponents, but in many districts, insufficient returns make it
+impossible to report specific vote totals or percentages. In fact, out
+of all ten districts, only District 5 had full returns. Therefore, we do
+know that James Monroe lost to James Madison by 336 votes.
+
 <div class="results-table">
 
 <table>

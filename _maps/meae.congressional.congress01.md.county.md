@@ -42,8 +42,8 @@ style="width:100%;height:425px;">
 </div>
 
 Votes tallied for the cities of Baltimore and Annapolis are shown
-separately, and they are in addition to the votes reported for Baltimore
-County and Anne Arundel County.
+separately. Those votes are in addition to the votes reported for
+Baltimore County and Anne Arundel County.
 
 Like many states in the early republic, Maryland experimented with
 voting procedures that were intended to ensure democratic

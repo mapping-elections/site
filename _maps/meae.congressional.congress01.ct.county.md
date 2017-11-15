@@ -31,7 +31,7 @@ year: 1790
 NNV does not contain any county- or town-level data to be mapped.
 Elections for Connecticut's five seats in the First Congress were held
 in a state-wide at-large election. Pierpont Edwards was elected, but he
-decline to serve and was replaced by Jeremiah Wadsworth in a [special
+declined to serve and was replaced by Jeremiah Wadsworth in a [special
 election](http://elections.lib.tufts.edu/catalog/tufts:ct.special.congress.1790).
 
 <div class="results-table">

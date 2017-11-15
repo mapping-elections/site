@@ -35,7 +35,7 @@ year: 1790
 
 <!--html_preserve-->
 <div id="htmlwidget-c3ab345b5cb089b589bf" class="leaflet html-widget"
-style="width:100%;height:800px;">
+style="width:100%;height:450px;">
 
 </div>
 
