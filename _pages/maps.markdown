@@ -5,7 +5,7 @@ layout: maps-browse
 bodyclass: maps-browse
 ---
 
-###Maps
+### Maps
 
 <div data-equalizer data-equalize-on="medium" class="large-up-4">
 
