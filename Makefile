@@ -36,6 +36,6 @@ build : clean $(MAPPAGES)
 maps : $(MAPPAGES)
 
 _maps/%.md : _maps/%.Rmd
-	R --slave -e "set.seed(100); rmarkdown::render('$<', output_format = 'md_document')"
+	R --slave -e "set.seed(100); rmarkdown::render('$<', output_format = 'md_document', output_options = c(preserve_yaml = TRUE))"
 
 .PHONY: serve clean deploy deploy-production maps clobber-maps
