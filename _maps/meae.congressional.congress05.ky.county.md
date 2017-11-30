@@ -1,7 +1,40 @@
-::: {.map}
-    ## Warning in strptime(xx, f <- "%Y-%m-%d", tz = "GMT"): unknown timezone
-    ## 'zone/tz/2017c.1.0/zoneinfo/America/New_York'
+---
+meae-id: meae.congressional.congress05.ky.county
+type: congressional
+level: state
+state: Kentucky
+geography: county
+congressnum: 5
+congressordinal: 5th
+title: '5th Congress: Kentucky 1796'
+year: 1796
+legend: fed-vs-anti
+nnv:
+- id: ky.uscongresssoutherndistrict.1796
+  name: KY US Congress 1796 District 1
+- id: ky.uscongressnortherndistrict.1796
+  name: KY US Congress 1796 District 2
+related-maps:
+- id: meae.congressional.congress03.ky.county
+  name: KY 3rd Congress
+  type: previous
+- id: meae.congressional.congress06.ky.county
+  name: KY 6th Congress
+  type: next
+- id: meae.congressional.congress05.national.district
+  name: National 5th Congress
+  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
 
+---
+
+::: {.map}
 <!--html_preserve-->
 ::: {#htmlwidget-63842007c553630a5c92 .leaflet .html-widget style="width:100%;height:800px;"}
 :::

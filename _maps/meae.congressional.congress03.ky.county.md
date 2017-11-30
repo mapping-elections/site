@@ -1,7 +1,40 @@
-::: {.map}
-    ## Warning in strptime(xx, f <- "%Y-%m-%d", tz = "GMT"): unknown timezone
-    ## 'zone/tz/2017c.1.0/zoneinfo/America/New_York'
+---
+meae-id: meae.congressional.congress03.ky.county
+type: congressional
+level: state
+state: Kentucky
+geography: county
+congressnum: 3
+congressordinal: 3rd
+title: '3rd Congress: Kentucky 1792'
+year: 1792
+legend: fed-vs-anti
+nnv:
+- id: ky.uscongresssoutherndistrict.1792
+  name: KY US Congress 1792 District 1
+- id: ky.uscongressnortherndistrict.1792
+  name: KY US Congress 1792 District 2
+related-maps:
+- id: meae.congressional.congress02.ky.county
+  name: KY 2nd Congress
+  type: previous
+- id: meae.congressional.congress05.ky.county
+  name: KY 5th Congress
+  type: next
+- id: meae.congressional.congress03.national.district
+  name: National 3rd Congress
+  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
 
+---
+
+::: {.map}
 <!--html_preserve-->
 ::: {#htmlwidget-7dc7e2354e54323c4697 .leaflet .html-widget style="width:100%;height:800px;"}
 :::

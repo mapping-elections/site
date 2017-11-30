@@ -1,42 +1,41 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress04.ct.county
+type: congressional
+level: state
+state: Connecticut
+geography: county
 congressnum: 4
 congressordinal: 4th
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress04.ct.county'
+title: '4th Congress: Connecticut 1794'
+year: 1794
+legend: fed-vs-anti
 nnv:
-- id: 'ct.congress.1794'
+- id: ct.congress.1794
   name: CT US Congress 1794 At Large
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress03.ct.county'
+- id: meae.congressional.congress03.ct.county
   name: CT 3rd Congress
   type: previous
-- id: 'meae.congressional.congress05.ct.county'
+- id: meae.congressional.congress05.ct.county
   name: CT 5th Congress
   type: next
-- id: 'meae.congressional.congress04.national.district'
+- id: meae.congressional.congress04.national.district
   name: National 4th Congress
   type: national
-state: Connecticut
-title: '4th Congress: Connecticut 1794'
-type: congressional
-year: 1794
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
 
-<div class="map">
+---
 
-</div>
+::: {.map}
+:::
 
-<div class="results-table">
-
+::: {.results-table}
 <table>
 <thead>
 <tr>
@@ -212,7 +211,8 @@ Federalist
 At-large
 </td>
 <td style="text-align:left;">
-Nathaniel Smith
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=S000595">Nathaniel
+Smith</a>
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist
@@ -249,5 +249,4 @@ Federalist
 </tr>
 </tbody>
 </table>
-
-</div>
+:::

@@ -1,44 +1,43 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress02.vt.county
+type: congressional
+level: state
+state: Vermont
+geography: county
 congressnum: 2
 congressordinal: 2nd
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress02.vt.county'
+title: '2nd Congress: Vermont 1791'
+year: 1791
+legend: fed-vs-anti
 nnv:
-- id: 'vt.uscongress.western.secondballot.1791'
+- id: vt.uscongress.western.secondballot.1791
   name: VT US Congress 1791 District 1
-- id: 'vt.uscongress.eastern.1791'
+- id: vt.uscongress.eastern.1791
   name: VT US Congress 1791 District 2
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress01.vt.county'
+- id: meae.congressional.congress01.vt.county
   name: VT 1st Congress
   type: previous
-- id: 'meae.congressional.congress03.vt.county'
+- id: meae.congressional.congress03.vt.county
   name: VT 3rd Congress
   type: next
-- id: 'meae.congressional.congress02.national.district'
+- id: meae.congressional.congress02.national.district
   name: National 2nd Congress
   type: national
-state: Vermont
-title: '2nd Congress: Vermont 1791'
-type: congressional
-year: 1791
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
 
-<div class="map">
+---
 
-</div>
+::: {.map}
+:::
 
-<div class="results-table">
-
+::: {.results-table}
 <table>
 <thead>
 <tr>
@@ -122,5 +121,4 @@ Niles</a>
 </tr>
 </tbody>
 </table>
-
-</div>
+:::

@@ -1,7 +1,34 @@
-::: {.map}
-    ## Warning in strptime(xx, f <- "%Y-%m-%d", tz = "GMT"): unknown timezone
-    ## 'zone/tz/2017c.1.0/zoneinfo/America/New_York'
+---
+meae-id: meae.congressional.congress01.md.county
+type: congressional
+level: state
+state: Maryland
+geography: county
+congressnum: 1
+congressordinal: 1st
+title: '1st Congress: Maryland 1789'
+year: 1789
+legend_type: fed-vs-anti
+nnv:
+- id: md.uscongress.1789
+  name: MD US Congress 1789 At Large
+related-maps:
+- id: meae.congressional.congress02.md.county
+  name: MD 2nd Congress
+  type: next
+- id: meae.congressional.congress01.national.district
+  name: National 1st Congress
+  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+---
 
+::: {.map}
 <!--html_preserve-->
 ::: {#htmlwidget-4e418d0e777bcf5e8b2b .leaflet .html-widget style="width:100%;height:425px;"}
 :::

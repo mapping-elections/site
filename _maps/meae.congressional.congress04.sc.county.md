@@ -1,46 +1,45 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress04.sc.county
+type: congressional
+level: state
+state: South Carolina
+geography: county
 congressnum: 4
 congressordinal: 4th
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress04.sc.county'
+title: '4th Congress: South Carolina 1794'
+year: 1794
+legend: fed-vs-anti
 nnv:
-- id: 'sc.uscongress.district1.1794'
+- id: sc.uscongress.district1.1794
   name: SC US Congress 1794 District 1
-- id: 'sc.uscongress.district2.1794'
+- id: sc.uscongress.district2.1794
   name: SC US Congress 1794 District 2
-- id: 'sc.uscongress.district3.1794'
+- id: sc.uscongress.district3.1794
   name: SC US Congress 1794 District 5
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress03.sc.county'
+- id: meae.congressional.congress03.sc.county
   name: SC 3rd Congress
   type: previous
-- id: 'meae.congressional.congress05.sc.county'
+- id: meae.congressional.congress05.sc.county
   name: SC 5th Congress
   type: next
-- id: 'meae.congressional.congress04.national.district'
+- id: meae.congressional.congress04.national.district
   name: National 4th Congress
   type: national
-state: South Carolina
-title: '4th Congress: South Carolina 1794'
-type: congressional
-year: 1794
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
 
-<div class="map">
+---
 
-</div>
+::: {.map}
+:::
 
-<div class="results-table">
-
+::: {.results-table}
 <table>
 <thead>
 <tr>
@@ -122,24 +121,6 @@ Thomas Tucker
 <td style="text-align:center;">
 </td>
 </tr>
-<tr class="district-changed" data-district-type="even">
-<td style="text-align:center;">
-2
-</td>
-<td style="text-align:left;">
-<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=H000225">Robert
-G. Harper</a>
-</td>
-<td style="text-align:left;">
-</td>
-<td style="text-align:right;">
-</td>
-<td style="text-align:right;">
-</td>
-<td style="text-align:center;">
-✓
-</td>
-</tr>
 <tr class="district-unchanged" data-district-type="odd">
 <td style="text-align:center;">
 5
@@ -181,5 +162,4 @@ John Hunter
 </tr>
 </tbody>
 </table>
-
-</div>
+:::

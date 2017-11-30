@@ -1,42 +1,41 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress03.ri.county
+type: congressional
+level: state
+state: Rhode Island
+geography: county
 congressnum: 3
 congressordinal: 3rd
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress03.ri.county'
+title: '3rd Congress: Rhode Island 1792'
+year: 1792
+legend: fed-vs-anti
 nnv:
-- id: 'ri.uscongress.1792'
+- id: ri.uscongress.1792
   name: RI US Congress 1792 At Large
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress02.ri.county'
+- id: meae.congressional.congress02.ri.county
   name: RI 2nd Congress
   type: previous
-- id: 'meae.congressional.congress04.ri.county'
+- id: meae.congressional.congress04.ri.county
   name: RI 4th Congress
   type: next
-- id: 'meae.congressional.congress03.national.district'
+- id: meae.congressional.congress03.national.district
   name: National 3rd Congress
   type: national
-state: Rhode Island
-title: '3rd Congress: Rhode Island 1792'
-type: congressional
-year: 1792
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
 
-<div class="map">
+---
 
-</div>
+::: {.map}
+:::
 
-<div class="results-table">
-
+::: {.results-table}
 <table>
 <thead>
 <tr>
@@ -101,5 +100,4 @@ Federalist
 </tr>
 </tbody>
 </table>
-
-</div>
+:::

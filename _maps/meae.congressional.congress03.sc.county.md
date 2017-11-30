@@ -1,52 +1,51 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress03.sc.county
+type: congressional
+level: state
+state: South Carolina
+geography: county
 congressnum: 3
 congressordinal: 3rd
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress03.sc.county'
+title: '3rd Congress: South Carolina 1793'
+year: 1793
+legend: fed-vs-anti
 nnv:
-- id: 'sc.uscongress.district1.1793'
+- id: sc.uscongress.district1.1793
   name: SC US Congress 1793 District 1
-- id: 'sc.uscongress.district2.1793'
+- id: sc.uscongress.district2.1793
   name: SC US Congress 1793 District 2
-- id: 'sc.uscongress.district3.1793'
+- id: sc.uscongress.district3.1793
   name: SC US Congress 1793 District 3
-- id: 'sc.uscongress.district4.1793'
+- id: sc.uscongress.district4.1793
   name: SC US Congress 1793 District 4
-- id: 'sc.uscongress.district5.1793'
+- id: sc.uscongress.district5.1793
   name: SC US Congress 1793 District 5
-- id: 'sc.uscongress.district6.1793'
+- id: sc.uscongress.district6.1793
   name: SC US Congress 1793 District 6
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress02.sc.county'
+- id: meae.congressional.congress02.sc.county
   name: SC 2nd Congress
   type: previous
-- id: 'meae.congressional.congress04.sc.county'
+- id: meae.congressional.congress04.sc.county
   name: SC 4th Congress
   type: next
-- id: 'meae.congressional.congress03.national.district'
+- id: meae.congressional.congress03.national.district
   name: National 3rd Congress
   type: national
-state: South Carolina
-title: '3rd Congress: South Carolina 1793'
-type: congressional
-year: 1793
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
 
-<div class="map">
+---
 
-</div>
+::: {.map}
+:::
 
-<div class="results-table">
-
+::: {.results-table}
 <table>
 <thead>
 <tr>
@@ -75,5 +74,4 @@ Elected
 </tr>
 </tbody>
 </table>
-
-</div>
+:::

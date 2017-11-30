@@ -1,42 +1,41 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress02.nh.county
+type: congressional
+level: state
+state: New Hampshire
+geography: county
 congressnum: 2
 congressordinal: 2nd
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress02.nh.county'
+title: '2nd Congress: New Hampshire 1790'
+year: 1790
+legend: fed-vs-anti
 nnv:
-- id: 'nh.uscongress.1790'
+- id: nh.uscongress.1790
   name: NH US Congress 1790 At Large
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress01.nh.county'
+- id: meae.congressional.congress01.nh.county
   name: NH 1st Congress
   type: previous
-- id: 'meae.congressional.congress03.nh.county'
+- id: meae.congressional.congress03.nh.county
   name: NH 3rd Congress
   type: next
-- id: 'meae.congressional.congress02.national.district'
+- id: meae.congressional.congress02.national.district
   name: National 2nd Congress
   type: national
-state: New Hampshire
-title: '2nd Congress: New Hampshire 1790'
-type: congressional
-year: 1790
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
 
-<div class="map">
+---
 
-</div>
+::: {.map}
+:::
 
-<div class="results-table">
-
+::: {.results-table}
 <table>
 <thead>
 <tr>
@@ -220,5 +219,4 @@ Nathaniel Peabody
 </tr>
 </tbody>
 </table>
-
-</div>
+:::

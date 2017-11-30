@@ -1,41 +1,40 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress01.ct.county
+type: congressional
+level: state
+state: Connecticut
+geography: county
 congressnum: 1
 congressordinal: 1st
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress01.ct.county'
+title: '1st Congress: Connecticut 1790'
+year: 1790
+legend: fed-vs-anti
 nnv:
-- id: 'ct.congress.1790'
+- id: ct.congress.1790
   name: CT US Congress 1790 At Large
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress02.ct.county'
+- id: meae.congressional.congress02.ct.county
   name: CT 2nd Congress
   type: next
-- id: 'meae.congressional.congress01.national.district'
+- id: meae.congressional.congress01.national.district
   name: National 1st Congress
   type: national
-state: Connecticut
-title: '1st Congress: Connecticut 1790'
-type: congressional
-year: 1790
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+---
 
 NNV does not contain any county- or town-level data to be mapped.
 Elections for Connecticut's five seats in the First Congress were held
 in a state-wide at-large election. Pierpont Edwards was elected, but he
-decline to serve and was replaced by Jeremiah Wadsworth in a [special
+declined to serve and was replaced by Jeremiah Wadsworth in a [special
 election](http://elections.lib.tufts.edu/catalog/tufts:ct.special.congress.1790).
 
-<div class="results-table">
-
+::: {.results-table}
 <table>
 <thead>
 <tr>
@@ -258,5 +257,4 @@ Huntington</a>
 </tr>
 </tbody>
 </table>
-
-</div>
+:::

@@ -1,42 +1,38 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress04.tn.county
+type: congressional
+level: state
+state: Tennessee
+geography: county
 congressnum: 4
 congressordinal: 4th
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress04.tn.county'
+title: '4th Congress: Tennessee 1796'
+year: 1796
+legend: fed-vs-anti
 nnv:
-- id: 'tn.uscongress.1796'
+- id: tn.uscongress.1796
   name: TN US Congress 1796 At Large
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress03.tn.county'
-  name: TN 3rd Congress
-  type: previous
-- id: 'meae.congressional.congress05.tn.county'
+- id: meae.congressional.congress05.tn.county
   name: TN 5th Congress
   type: next
-- id: 'meae.congressional.congress04.national.district'
+- id: meae.congressional.congress04.national.district
   name: National 4th Congress
   type: national
-state: Tennessee
-title: '4th Congress: Tennessee 1796'
-type: congressional
-year: 1796
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
 
-<div class="map">
+---
 
-</div>
+::: {.map}
+:::
 
-<div class="results-table">
-
+::: {.results-table}
 <table>
 <thead>
 <tr>
@@ -83,5 +79,4 @@ Jackson</a>
 </tr>
 </tbody>
 </table>
-
-</div>
+:::

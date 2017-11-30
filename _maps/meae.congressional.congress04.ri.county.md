@@ -1,44 +1,43 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress04.ri.county
+type: congressional
+level: state
+state: Rhode Island
+geography: county
 congressnum: 4
 congressordinal: 4th
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress04.ri.county'
+title: '4th Congress: Rhode Island 1794'
+year: 1794
+legend: fed-vs-anti
 nnv:
-- id: 'ri.uscongress1.1794'
+- id: ri.uscongress1.1794
   name: RI US Congress 1794 District NA
-- id: 'ri.uscongress2.1794'
+- id: ri.uscongress2.1794
   name: RI US Congress 1794 District NA
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress03.ri.county'
+- id: meae.congressional.congress03.ri.county
   name: RI 3rd Congress
   type: previous
-- id: 'meae.congressional.congress05.ri.county'
+- id: meae.congressional.congress05.ri.county
   name: RI 5th Congress
   type: next
-- id: 'meae.congressional.congress04.national.district'
+- id: meae.congressional.congress04.national.district
   name: National 4th Congress
   type: national
-state: Rhode Island
-title: '4th Congress: Rhode Island 1794'
-type: congressional
-year: 1794
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
 
-<div class="map">
+---
 
-</div>
+::: {.map}
+:::
 
-<div class="results-table">
-
+::: {.results-table}
 <table>
 <thead>
 <tr>
@@ -146,5 +145,4 @@ Republican
 </tr>
 </tbody>
 </table>
-
-</div>
+:::
