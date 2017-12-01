@@ -33,9 +33,22 @@ library(leaflet)
 library(tidyverse)
 library(USAboundaries)
 library(mappingelections)
+library(sf)
 
 map_id <- "meae.congressional.congress01.ct.county"
 ```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>% 
+  filter(id != "cts_wr") %>%  # Remove the Western Reserve
+  map_counties(height = "350px", congress = 1) #%>% 
+  # setView(lng = -81.492, lat = 32.348, zoom = 7)
+```
+
+</div>
 
 NNV does not contain any county- or town-level data to be mapped. Elections for Connecticut's five seats in the First Congress were held in a state-wide at-large election. Pierpont Edwards was elected, but he declined to serve and was replaced by Jeremiah Wadsworth in a [special election](http://elections.lib.tufts.edu/catalog/tufts:ct.special.congress.1790). 
 
