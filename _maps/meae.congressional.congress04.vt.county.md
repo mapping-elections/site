@@ -1,37 +1,38 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress04.vt.county
+type: congressional
+level: state
+state: Vermont
+geography: county
 congressnum: 4
 congressordinal: 4th
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress04.vt.county'
+title: '4th Congress: Vermont 1795'
+year: 1795
+legend: fed-vs-anti
 nnv:
-- id: 'vt.uscongress.secondballot.westerndistrict.1795'
+- id: vt.uscongress.secondballot.westerndistrict.1795
   name: VT US Congress 1795 District 1
-- id: 'vt.uscongress.secondballot.easterndistrict.1795'
+- id: vt.uscongress.secondballot.easterndistrict.1795
   name: VT US Congress 1795 District 2
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress03.vt.county'
+- id: meae.congressional.congress03.vt.county
   name: VT 3rd Congress
   type: previous
-- id: 'meae.congressional.congress05.vt.county'
+- id: meae.congressional.congress05.vt.county
   name: VT 5th Congress
   type: next
-- id: 'meae.congressional.congress04.national.district'
+- id: meae.congressional.congress04.national.district
   name: National 4th Congress
   type: national
-state: Vermont
-title: '4th Congress: Vermont 1795'
-type: congressional
-year: 1795
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
 
 <div class="map">
 

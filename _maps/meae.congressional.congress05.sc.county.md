@@ -1,45 +1,45 @@
 ---
-always_allow_html: True
+title: '5th Congress: South Carolina 1796'
 congressnum: 5
 congressordinal: 5th
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress05.sc.county'
-nnv:
-- id: 'sc.uscongress.charleston.1796'
-  name: SC US Congress 1796 District 1
-- id: 'sc.uscongress.beaufort.1796'
-  name: SC US Congress 1796 District 2
-- id: 'sc.uscongress.georgetown.1796'
-  name: SC US Congress 1796 District 3
-- id: 'sc.uscongress.camden.1796'
-  name: SC US Congress 1796 District 4
-- id: 'sc.uscongress.ninety-six.1796'
-  name: SC US Congress 1796 District 5
-- id: 'sc.uscongress.washington.1796'
-  name: SC US Congress 1796 District 6
 output:
   html_document:
     theme: default
   md_document:
     variant: markdown
+layout: maps-show
+legend: fed-vs-anti
+level: state
+meae-id: meae.congressional.congress05.sc.county
+nnv:
+- id: sc.uscongress.charleston.1796
+  name: SC US Congress 1796 District 1
+- id: sc.uscongress.beaufort.1796
+  name: SC US Congress 1796 District 2
+- id: sc.uscongress.georgetown.1796
+  name: SC US Congress 1796 District 3
+- id: sc.uscongress.camden.1796
+  name: SC US Congress 1796 District 4
+- id: sc.uscongress.ninety-six.1796
+  name: SC US Congress 1796 District 5
+- id: sc.uscongress.washington.1796
+  name: SC US Congress 1796 District 6
+geography: county
 related-maps:
-- id: 'meae.congressional.congress04.sc.county'
+- id: meae.congressional.congress04.sc.county
   name: SC 4th Congress
   type: previous
-- id: 'meae.congressional.congress06.sc.county'
+- id: meae.congressional.congress06.sc.county
   name: SC 6th Congress
   type: next
-- id: 'meae.congressional.congress05.national.district'
+- id: meae.congressional.congress05.national.district
   name: National 5th Congress
   type: national
 state: South Carolina
-title: '5th Congress: South Carolina 1796'
+always_allow_html: yes
 type: congressional
 year: 1796
-...
+---
 
 <div class="map">
 

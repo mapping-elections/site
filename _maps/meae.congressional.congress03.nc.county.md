@@ -1,53 +1,54 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress03.nc.county
+type: congressional
+level: state
+state: North Carolina
+geography: county
 congressnum: 3
 congressordinal: 3rd
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress03.nc.county'
+title: '3rd Congress: North Carolina 1793'
+year: 1793
+legend: fed-vs-anti
 nnv:
-- id: 'nc.uscongress1.1793'
+- id: nc.uscongress1.1793
   name: NC US Congress 1793 District 1
-- id: 'nc.uscongress2.1793'
+- id: nc.uscongress2.1793
   name: NC US Congress 1793 District 2
-- id: 'nc.uscongress3.1793'
+- id: nc.uscongress3.1793
   name: NC US Congress 1793 District 3
-- id: 'nc.uscongress4.1793'
+- id: nc.uscongress4.1793
   name: NC US Congress 1793 District 4
-- id: 'nc.uscongress5.1793'
+- id: nc.uscongress5.1793
   name: NC US Congress 1793 District 5
-- id: 'nc.uscongress6.1793'
+- id: nc.uscongress6.1793
   name: NC US Congress 1793 District 6
-- id: 'nc.uscongress7.1793'
+- id: nc.uscongress7.1793
   name: NC US Congress 1793 District 7
-- id: 'nc.uscongress8.1793'
+- id: nc.uscongress8.1793
   name: NC US Congress 1793 District 8
-- id: 'nc.uscongress9.1793'
+- id: nc.uscongress9.1793
   name: NC US Congress 1793 District 9
-- id: 'nc.uscongress10.1793'
+- id: nc.uscongress10.1793
   name: NC US Congress 1793 District 10
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress02.nc.county'
+- id: meae.congressional.congress02.nc.county
   name: NC 2nd Congress
   type: previous
-- id: 'meae.congressional.congress04.nc.county'
+- id: meae.congressional.congress04.nc.county
   name: NC 4th Congress
   type: next
-- id: 'meae.congressional.congress03.national.district'
+- id: meae.congressional.congress03.national.district
   name: National 3rd Congress
   type: national
-state: North Carolina
-title: '3rd Congress: North Carolina 1793'
-type: congressional
-year: 1793
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
 
 <div class="map">
 

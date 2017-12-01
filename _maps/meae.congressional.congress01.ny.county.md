@@ -1,42 +1,42 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress01.ny.county
+type: congressional
+level: state
+state: New York
+geography: county
 congressnum: 1
 congressordinal: 1st
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress01.ny.county'
+title: '1st Congress: New York 1789'
+year: 1789
+legend: fed-vs-anti
 nnv:
-- id: 'ny.uscongress1.1789'
+- id: ny.uscongress1.1789
   name: NY US Congress 1789 District 1
-- id: 'ny.uscongress2.1789'
+- id: ny.uscongress2.1789
   name: NY US Congress 1789 District 2
-- id: 'ny.uscongress3.1789'
+- id: ny.uscongress3.1789
   name: NY US Congress 1789 District 3
-- id: 'ny.uscongress4.1789'
+- id: ny.uscongress4.1789
   name: NY US Congress 1789 District 4
-- id: 'ny.uscongress5.1789'
+- id: ny.uscongress5.1789
   name: NY US Congress 1789 District 5
-- id: 'ny.uscongress6.1789'
+- id: ny.uscongress6.1789
   name: NY US Congress 1789 District 6
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress02.ny.county'
+- id: meae.congressional.congress02.ny.county
   name: NY 2nd Congress
   type: next
-- id: 'meae.congressional.congress01.national.district'
+- id: meae.congressional.congress01.national.district
   name: National 1st Congress
   type: national
-state: New York
-title: '1st Congress: New York 1789'
-type: congressional
-year: 1789
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+---
 
 <div class="map">
 

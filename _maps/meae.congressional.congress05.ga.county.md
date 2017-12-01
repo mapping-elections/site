@@ -1,35 +1,36 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress05.ga.county
+type: congressional
+level: state
+state: Georgia
+geography: county
 congressnum: 5
 congressordinal: 5th
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress05.ga.county'
+title: '5th Congress: Georgia 1796'
+year: 1796
+legend: fed-vs-anti
 nnv:
-- id: 'ga.uscongress.1796'
+- id: ga.uscongress.1796
   name: GA US Congress 1796 At Large
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress04.ga.county'
+- id: meae.congressional.congress04.ga.county
   name: GA 4th Congress
   type: previous
-- id: 'meae.congressional.congress06.ga.county'
+- id: meae.congressional.congress06.ga.county
   name: GA 6th Congress
   type: next
-- id: 'meae.congressional.congress05.national.district'
+- id: meae.congressional.congress05.national.district
   name: National 5th Congress
   type: national
-state: Georgia
-title: '5th Congress: Georgia 1796'
-type: congressional
-year: 1796
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
 
 <div class="map">
 

@@ -1,35 +1,35 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress03.ga.county
+type: congressional
+level: state
+state: Georgia
+geography: county
 congressnum: 3
 congressordinal: 3rd
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress03.ga.county'
+title: '3rd Congress: Georgia 1792'
+year: 1792
+legend: fed-vs-anti
 nnv:
-- id: 'ga.uscongress.1792'
+- id: ga.uscongress.1792
   name: GA US Congress 1792 At Large
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress02.ga.county'
+- id: meae.congressional.congress02.ga.county
   name: GA 2nd Congress
   type: previous
-- id: 'meae.congressional.congress04.ga.county'
+- id: meae.congressional.congress04.ga.county
   name: GA 4th Congress
   type: next
-- id: 'meae.congressional.congress03.national.district'
+- id: meae.congressional.congress03.national.district
   name: National 3rd Congress
   type: national
-state: Georgia
-title: '3rd Congress: Georgia 1792'
-type: congressional
-year: 1792
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+---
 
 <div class="map">
 

@@ -1,45 +1,46 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress02.ny.county
+type: congressional
+level: state
+state: New York
+geography: county
 congressnum: 2
 congressordinal: 2nd
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress02.ny.county'
+title: '2nd Congress: New York 1790'
+year: 1790
+legend: fed-vs-anti
 nnv:
-- id: 'ny.uscongressspecial.1791'
+- id: ny.uscongressspecial.1791
   name: NY US Congress 1791 District 1
-- id: 'ny.uscongress2.1790'
+- id: ny.uscongress2.1790
   name: NY US Congress 1790 District 2
-- id: 'ny.uscongress3.1790'
+- id: ny.uscongress3.1790
   name: NY US Congress 1790 District 3
-- id: 'ny.uscongress4.1790'
+- id: ny.uscongress4.1790
   name: NY US Congress 1790 District 4
-- id: 'ny.uscongress5.1790'
+- id: ny.uscongress5.1790
   name: NY US Congress 1790 District 5
-- id: 'ny.uscongress6.1790'
+- id: ny.uscongress6.1790
   name: NY US Congress 1790 District 6
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress01.ny.county'
+- id: meae.congressional.congress01.ny.county
   name: NY 1st Congress
   type: previous
-- id: 'meae.congressional.congress03.ny.county'
+- id: meae.congressional.congress03.ny.county
   name: NY 3rd Congress
   type: next
-- id: 'meae.congressional.congress02.national.district'
+- id: meae.congressional.congress02.national.district
   name: National 2nd Congress
   type: national
-state: New York
-title: '2nd Congress: New York 1790'
-type: congressional
-year: 1790
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
 
 <div class="map">
 

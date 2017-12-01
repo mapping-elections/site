@@ -1,53 +1,54 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress04.nc.county
+type: congressional
+level: state
+state: North Carolina
+geography: county
 congressnum: 4
 congressordinal: 4th
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress04.nc.county'
+title: '4th Congress: North Carolina 1795'
+year: 1795
+legend: fed-vs-anti
 nnv:
-- id: 'nc.uscongress1.1795'
+- id: nc.uscongress1.1795
   name: NC US Congress 1795 District 1
-- id: 'nc.uscongress2.1795'
+- id: nc.uscongress2.1795
   name: NC US Congress 1795 District 2
-- id: 'nc.uscongress3.1795'
+- id: nc.uscongress3.1795
   name: NC US Congress 1795 District 3
-- id: 'nc.uscongress4.1795'
+- id: nc.uscongress4.1795
   name: NC US Congress 1795 District 4
-- id: 'nc.uscongress5.1795'
+- id: nc.uscongress5.1795
   name: NC US Congress 1795 District 5
-- id: 'nc.uscongress6.1795'
+- id: nc.uscongress6.1795
   name: NC US Congress 1795 District 6
-- id: 'nc.uscongress7.1795'
+- id: nc.uscongress7.1795
   name: NC US Congress 1795 District 7
-- id: 'nc.uscongress8.1795'
+- id: nc.uscongress8.1795
   name: NC US Congress 1795 District 8
-- id: 'nc.uscongress9.1795'
+- id: nc.uscongress9.1795
   name: NC US Congress 1795 District 9
-- id: 'nc.uscongress10.1795'
+- id: nc.uscongress10.1795
   name: NC US Congress 1795 District 10
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress03.nc.county'
+- id: meae.congressional.congress03.nc.county
   name: NC 3rd Congress
   type: previous
-- id: 'meae.congressional.congress05.nc.county'
+- id: meae.congressional.congress05.nc.county
   name: NC 5th Congress
   type: next
-- id: 'meae.congressional.congress04.national.district'
+- id: meae.congressional.congress04.national.district
   name: National 4th Congress
   type: national
-state: North Carolina
-title: '4th Congress: North Carolina 1795'
-type: congressional
-year: 1795
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
 
 <div class="map">
 
@@ -93,7 +94,8 @@ Elected
 1
 </td>
 <td style="text-align:left;">
-James Holland
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=H000718">James
+Holland</a>
 </td>
 <td class="party-republican" data-party="republican">
 Republican

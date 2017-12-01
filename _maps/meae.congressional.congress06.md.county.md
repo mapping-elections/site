@@ -1,49 +1,50 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress06.md.county
+type: congressional
+level: state
+state: Maryland
+geography: county
 congressnum: 6
 congressordinal: 6th
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-rep'
-level: state
-meae-id: 'meae.congressional.congress06.md.county'
+title: '6th Congress: Maryland 1798'
+year: 1798
+legend: fed-vs-rep
 nnv:
-- id: 'md.uscongress1.1798'
+- id: md.uscongress1.1798
   name: MD US Congress 1798 District 1
-- id: 'md.uscongress2.1798'
+- id: md.uscongress2.1798
   name: MD US Congress 1798 District 2
-- id: 'md.uscongress3.1798'
+- id: md.uscongress3.1798
   name: MD US Congress 1798 District 3
-- id: 'md.uscongress4.1798'
+- id: md.uscongress4.1798
   name: MD US Congress 1798 District 4
-- id: 'md.uscongress5.1798'
+- id: md.uscongress5.1798
   name: MD US Congress 1798 District 5
-- id: 'md.uscongress6.1798'
+- id: md.uscongress6.1798
   name: MD US Congress 1798 District 6
-- id: 'md.uscongress7.1798'
+- id: md.uscongress7.1798
   name: MD US Congress 1798 District 7
-- id: 'md.uscongress8.1798'
+- id: md.uscongress8.1798
   name: MD US Congress 1798 District 8
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress05.md.county'
+- id: meae.congressional.congress05.md.county
   name: MD 5th Congress
   type: previous
-- id: 'meae.congressional.congress07.md.county'
+- id: meae.congressional.congress07.md.county
   name: MD 7th Congress
   type: next
-- id: 'meae.congressional.congress06.national.district'
+- id: meae.congressional.congress06.national.district
   name: National 6th Congress
   type: national
-state: Maryland
-title: '6th Congress: Maryland 1798'
-type: congressional
-year: 1798
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
 
 <div class="map">
 

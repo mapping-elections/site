@@ -1,35 +1,36 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress05.ct.county
+type: congressional
+level: state
+state: Connecticut
+geography: county
 congressnum: 5
 congressordinal: 5th
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress05.ct.county'
+title: '5th Congress: Connecticut 1796'
+year: 1796
+legend: fed-vs-anti
 nnv:
-- id: 'ct.congress.1796'
+- id: ct.congress.1796
   name: CT US Congress 1796 At Large
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress04.ct.county'
+- id: meae.congressional.congress04.ct.county
   name: CT 4th Congress
   type: previous
-- id: 'meae.congressional.congress06.ct.county'
+- id: meae.congressional.congress06.ct.county
   name: CT 6th Congress
   type: next
-- id: 'meae.congressional.congress05.national.district'
+- id: meae.congressional.congress05.national.district
   name: National 5th Congress
   type: national
-state: Connecticut
-title: '5th Congress: Connecticut 1796'
-type: congressional
-year: 1796
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
 
 <div class="map">
 
@@ -150,7 +151,8 @@ Federalist
 At-large
 </td>
 <td style="text-align:left;">
-Nathaniel Smith
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=S000595">Nathaniel
+Smith</a>
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist

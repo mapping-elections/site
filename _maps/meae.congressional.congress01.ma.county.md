@@ -1,53 +1,48 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress01.ma.county
+type: congressional
+level: state
+state: Massachusetts
+geography: county
 congressnum: 1
 congressordinal: 1st
-editor_options:
-  chunk_output_type: console
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress01.ma.county'
+title: '1st Congress: Massachusetts 1788'
+year: 1788
+legend: fed-vs-anti
 nnv:
-- id: 'ma.uscongress.1.1788'
+- id: ma.uscongress.1.1788
   name: MA US Congress 1788 District 1
-- id: 'ma.uscongress.2.ballot2.1789'
+- id: ma.uscongress.2.ballot2.1789
   name: MA US Congress 1789 District 2
-- id: 'ma.uscongress.3.ballot2.1789'
+- id: ma.uscongress.3.ballot2.1789
   name: MA US Congress 1789 District 3
-- id: 'ma.uscongress.4.ballot5.1789'
+- id: ma.uscongress.4.ballot5.1789
   name: MA US Congress 1789 District 4
-- id: 'ma.uscongress.5.1788'
+- id: ma.uscongress.5.1788
   name: MA US Congress 1788 District 5
-- id: 'ma.uscongress.6.1788'
+- id: ma.uscongress.6.1788
   name: MA US Congress 1788 District 6
-- id: 'ma.uscongress.7.1788'
+- id: ma.uscongress.7.1788
   name: MA US Congress 1788 District 7
-- id: 'ma.uscongress.8.ballot3.1789'
+- id: ma.uscongress.8.ballot3.1789
   name: MA US Congress 1789 District 8
+related-maps:
+- id: meae.congressional.congress02.ma.county
+  name: MA 2nd Congress
+  type: next
+- id: meae.congressional.congress01.national.district
+  name: National 1st Congress
+  type: national
 output:
-  html_document:
-    theme: default
   md_document:
     variant: markdown
-related-maps:
-- id: 'meae.congressional.congress02.ma.county'
-  name: MA Second Congress
-  type: next
-- id: 'meae.congressional.congress01.national.district'
-  name: National First Congress
-  type: national
-state: Massachusetts
-title: '1st Congress: Massachusetts 1788'
-type: congressional
-year: 1788
-<<<<<<< HEAD
-image: /content-img/ma-first-county.png
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+editor_options: 
+  chunk_output_type: console
 ---
-=======
-...
->>>>>>> c82ffdc85d1a94d38ffa574cebcac3e8fd682191
 
 <div class="map">
 

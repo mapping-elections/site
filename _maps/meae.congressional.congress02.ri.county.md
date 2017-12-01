@@ -1,35 +1,36 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress02.ri.county
+type: congressional
+level: state
+state: Rhode Island
+geography: county
 congressnum: 2
 congressordinal: 2nd
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress02.ri.county'
+title: '2nd Congress: Rhode Island 1790'
+year: 1790
+legend: fed-vs-anti
 nnv:
-- id: 'ri.uscongress2.1790'
+- id: ri.uscongress2.1790
   name: RI US Congress 1790 At Large
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress01.ri.county'
+- id: meae.congressional.congress01.ri.county
   name: RI 1st Congress
   type: previous
-- id: 'meae.congressional.congress03.ri.county'
+- id: meae.congressional.congress03.ri.county
   name: RI 3rd Congress
   type: next
-- id: 'meae.congressional.congress02.national.district'
+- id: meae.congressional.congress02.national.district
   name: National 2nd Congress
   type: national
-state: Rhode Island
-title: '2nd Congress: Rhode Island 1790'
-type: congressional
-year: 1790
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
 
 <div class="map">
 

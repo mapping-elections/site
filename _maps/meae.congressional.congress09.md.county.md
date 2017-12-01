@@ -1,49 +1,50 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress09.md.county
+type: congressional
+level: state
+state: Maryland
+geography: county
 congressnum: 9
 congressordinal: 9th
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-rep'
-level: state
-meae-id: 'meae.congressional.congress09.md.county'
+title: '9th Congress: Maryland 1804'
+year: 1804
+legend: fed-vs-rep
 nnv:
-- id: 'md.uscongress1.1804'
+- id: md.uscongress1.1804
   name: MD US Congress 1804 District 1
-- id: 'md.uscongress2.1804'
+- id: md.uscongress2.1804
   name: MD US Congress 1804 District 2
-- id: 'md.uscongress3.1804'
+- id: md.uscongress3.1804
   name: MD US Congress 1804 District 3
-- id: 'md.uscongress4.1804'
+- id: md.uscongress4.1804
   name: MD US Congress 1804 District 4
-- id: 'md.uscongress5.1804'
+- id: md.uscongress5.1804
   name: MD US Congress 1804 District 5
-- id: 'md.uscongress6.1804'
+- id: md.uscongress6.1804
   name: MD US Congress 1804 District 6
-- id: 'md.uscongress7.1804'
+- id: md.uscongress7.1804
   name: MD US Congress 1804 District 7
-- id: 'md.uscongress8.1804'
+- id: md.uscongress8.1804
   name: MD US Congress 1804 District 8
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress08.md.county'
+- id: meae.congressional.congress08.md.county
   name: MD 8th Congress
   type: previous
-- id: 'meae.congressional.congress10.md.county'
+- id: meae.congressional.congress10.md.county
   name: MD 10th Congress
   type: next
-- id: 'meae.congressional.congress09.national.district'
+- id: meae.congressional.congress09.national.district
   name: National 9th Congress
   type: national
-state: Maryland
-title: '9th Congress: Maryland 1804'
-type: congressional
-year: 1804
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
 
 <div class="map">
 

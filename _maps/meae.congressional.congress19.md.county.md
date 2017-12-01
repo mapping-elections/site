@@ -1,46 +1,47 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress19.md.county
+type: congressional
+level: state
+state: Maryland
+geography: county
 congressnum: 19
 congressordinal: 19th
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-rep'
-level: state
-meae-id: 'meae.congressional.congress19.md.county'
+title: '19th Congress: Maryland 1824'
+year: 1824
+legend: fed-vs-rep
 nnv:
-- id: 'md.uscongress1.1824'
+- id: md.uscongress1.1824
   name: MD US Congress 1824 District 1
-- id: 'md.uscongress2.1824'
+- id: md.uscongress2.1824
   name: MD US Congress 1824 District 2
-- id: 'md.uscongress3.1824'
+- id: md.uscongress3.1824
   name: MD US Congress 1824 District 3
-- id: 'md.uscongress4.1824'
+- id: md.uscongress4.1824
   name: MD US Congress 1824 District 4
-- id: 'md.uscongress5.1824'
+- id: md.uscongress5.1824
   name: MD US Congress 1824 District 5
-- id: 'md.uscongress6.1824'
+- id: md.uscongress6.1824
   name: MD US Congress 1824 District 6
-- id: 'md.uscongress7.1824'
+- id: md.uscongress7.1824
   name: MD US Congress 1824 District 7
-- id: 'md.uscongress8.1824'
+- id: md.uscongress8.1824
   name: MD US Congress 1824 District 8
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress18.md.county'
+- id: meae.congressional.congress18.md.county
   name: MD 18th Congress
   type: previous
-- id: 'meae.congressional.congress19.national.district'
+- id: meae.congressional.congress19.national.district
   name: National 19th Congress
   type: national
-state: Maryland
-title: '19th Congress: Maryland 1824'
-type: congressional
-year: 1824
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
 
 <div class="map">
 

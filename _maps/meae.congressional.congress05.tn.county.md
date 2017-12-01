@@ -1,35 +1,35 @@
 ---
-always_allow_html: True
+title: '5th Congress: Tennessee 1797'
 congressnum: 5
 congressordinal: 5th
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress05.tn.county'
-nnv:
-- id: 'tn.ushouserepresentatives.1797'
-  name: TN US Congress 1797 At Large
 output:
   html_document:
     theme: default
   md_document:
     variant: markdown
+layout: maps-show
+legend: fed-vs-anti
+level: state
+meae-id: meae.congressional.congress05.tn.county
+nnv:
+- id: tn.ushouserepresentatives.1797
+  name: TN US Congress 1797 At Large
+geography: county
 related-maps:
-- id: 'meae.congressional.congress04.tn.county'
+- id: meae.congressional.congress04.tn.county
   name: TN 4th Congress
   type: previous
-- id: 'meae.congressional.congress06.tn.county'
+- id: meae.congressional.congress06.tn.county
   name: TN 6th Congress
   type: next
-- id: 'meae.congressional.congress05.national.district'
+- id: meae.congressional.congress05.national.district
   name: National 5th Congress
   type: national
 state: Tennessee
-title: '5th Congress: Tennessee 1797'
+always_allow_html: yes
 type: congressional
 year: 1797
-...
+---
 
 <div class="map">
 

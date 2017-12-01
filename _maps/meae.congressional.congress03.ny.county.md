@@ -1,53 +1,54 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress03.ny.county
+type: congressional
+level: state
+state: New York
+geography: county
 congressnum: 3
 congressordinal: 3rd
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress03.ny.county'
+title: '3rd Congress: New York 1793'
+year: 1793
+legend: fed-vs-anti
 nnv:
-- id: 'ny.uscongress1.1793'
+- id: ny.uscongress1.1793
   name: NY US Congress 1793 District 1
-- id: 'ny.uscongress2.1793'
+- id: ny.uscongress2.1793
   name: NY US Congress 1793 District 2
-- id: 'ny.uscongress3.1793'
+- id: ny.uscongress3.1793
   name: NY US Congress 1793 District 3
-- id: 'ny.uscongress4.1793'
+- id: ny.uscongress4.1793
   name: NY US Congress 1793 District 4
-- id: 'ny.uscongress5.1793'
+- id: ny.uscongress5.1793
   name: NY US Congress 1793 District 5
-- id: 'ny.uscongress6.1793'
+- id: ny.uscongress6.1793
   name: NY US Congress 1793 District 6
-- id: 'ny.uscongress7.1793'
+- id: ny.uscongress7.1793
   name: NY US Congress 1793 District 7
-- id: 'ny.uscongress8.1793'
+- id: ny.uscongress8.1793
   name: NY US Congress 1793 District 8
-- id: 'ny.uscongress9.1793'
+- id: ny.uscongress9.1793
   name: NY US Congress 1793 District 9
-- id: 'ny.uscongress10.1793'
+- id: ny.uscongress10.1793
   name: NY US Congress 1793 District 10
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress02.ny.county'
+- id: meae.congressional.congress02.ny.county
   name: NY 2nd Congress
   type: previous
-- id: 'meae.congressional.congress04.ny.county'
+- id: meae.congressional.congress04.ny.county
   name: NY 4th Congress
   type: next
-- id: 'meae.congressional.congress03.national.district'
+- id: meae.congressional.congress03.national.district
   name: National 3rd Congress
   type: national
-state: New York
-title: '3rd Congress: New York 1793'
-type: congressional
-year: 1793
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
 
 <div class="map">
 

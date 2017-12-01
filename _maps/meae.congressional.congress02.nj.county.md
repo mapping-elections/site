@@ -1,35 +1,36 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress02.nj.county
+type: congressional
+level: state
+state: New Jersey
+geography: county
 congressnum: 2
 congressordinal: 2nd
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress02.nj.county'
+title: '2nd Congress: New Jersey 1791'
+year: 1791
+legend: fed-vs-anti
 nnv:
-- id: 'nj.uscongress.1791'
+- id: nj.uscongress.1791
   name: NJ US Congress 1791 At Large
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress01.nj.county'
+- id: meae.congressional.congress01.nj.county
   name: NJ 1st Congress
   type: previous
-- id: 'meae.congressional.congress03.nj.county'
+- id: meae.congressional.congress03.nj.county
   name: NJ 3rd Congress
   type: next
-- id: 'meae.congressional.congress02.national.district'
+- id: meae.congressional.congress02.national.district
   name: National 2nd Congress
   type: national
-state: New Jersey
-title: '2nd Congress: New Jersey 1791'
-type: congressional
-year: 1791
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
 
 <div class="map">
 

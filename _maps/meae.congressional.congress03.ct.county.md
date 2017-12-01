@@ -1,35 +1,36 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress03.ct.county
+type: congressional
+level: state
+state: Connecticut
+geography: county
 congressnum: 3
 congressordinal: 3rd
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress03.ct.county'
+title: '3rd Congress: Connecticut 1792'
+year: 1792
+legend: fed-vs-anti
 nnv:
-- id: 'ct.congress.1792'
+- id: ct.congress.1792
   name: CT US Congress 1792 At Large
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress02.ct.county'
+- id: meae.congressional.congress02.ct.county
   name: CT 2nd Congress
   type: previous
-- id: 'meae.congressional.congress04.ct.county'
+- id: meae.congressional.congress04.ct.county
   name: CT 4th Congress
   type: next
-- id: 'meae.congressional.congress03.national.district'
+- id: meae.congressional.congress03.national.district
   name: National 3rd Congress
   type: national
-state: Connecticut
-title: '3rd Congress: Connecticut 1792'
-type: congressional
-year: 1792
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
 
 <div class="map">
 

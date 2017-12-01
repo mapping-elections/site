@@ -1,39 +1,40 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress02.ga.county
+type: congressional
+level: state
+state: Georgia
+geography: county
 congressnum: 2
 congressordinal: 2nd
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress02.ga.county'
+title: '2nd Congress: Georgia 1791'
+year: 1791
+legend: fed-vs-anti
 nnv:
-- id: 'ga.uscongress.SouthernDistrict.1791'
+- id: ga.uscongress.SouthernDistrict.1791
   name: GA US Congress 1791 District 1
-- id: 'ga.uscongress.MiddleDistrict.1791'
+- id: ga.uscongress.MiddleDistrict.1791
   name: GA US Congress 1791 District 2
-- id: 'ga.uscongress.NorthernDistrict.1791'
+- id: ga.uscongress.NorthernDistrict.1791
   name: GA US Congress 1791 District 3
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress01.ga.county'
+- id: meae.congressional.congress01.ga.county
   name: GA 1st Congress
   type: previous
-- id: 'meae.congressional.congress03.ga.county'
+- id: meae.congressional.congress03.ga.county
   name: GA 3rd Congress
   type: next
-- id: 'meae.congressional.congress02.national.district'
+- id: meae.congressional.congress02.national.district
   name: National 2nd Congress
   type: national
-state: Georgia
-title: '2nd Congress: Georgia 1791'
-type: congressional
-year: 1791
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
 
 <div class="map">
 

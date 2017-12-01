@@ -1,71 +1,72 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress05.va.county
+type: congressional
+level: state
+state: Virginia
+geography: county
 congressnum: 5
 congressordinal: 5th
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress05.va.county'
+title: '5th Congress: Virginia 1797'
+year: 1797
+legend: fed-vs-anti
 nnv:
-- id: 'va.uscongress.1.1797'
+- id: va.uscongress.1.1797
   name: VA US Congress 1797 District 1
-- id: 'va.uscongress.2.1797'
+- id: va.uscongress.2.1797
   name: VA US Congress 1797 District 2
-- id: 'va.uscongress.3.1797'
+- id: va.uscongress.3.1797
   name: VA US Congress 1797 District 3
-- id: 'va.uscongress.4.1797'
+- id: va.uscongress.4.1797
   name: VA US Congress 1797 District 4
-- id: 'va.uscongress.5.1797'
+- id: va.uscongress.5.1797
   name: VA US Congress 1797 District 5
-- id: 'va.uscongress.6.1797'
+- id: va.uscongress.6.1797
   name: VA US Congress 1797 District 6
-- id: 'va.uscongress.7.1797'
+- id: va.uscongress.7.1797
   name: VA US Congress 1797 District 7
-- id: 'va.uscongress.8.1797'
+- id: va.uscongress.8.1797
   name: VA US Congress 1797 District 8
-- id: 'va.uscongress.9.1797'
+- id: va.uscongress.9.1797
   name: VA US Congress 1797 District 9
-- id: 'va.uscongress.10.1797'
+- id: va.uscongress.10.1797
   name: VA US Congress 1797 District 10
-- id: 'va.uscongress.11.1797'
+- id: va.uscongress.11.1797
   name: VA US Congress 1797 District 11
-- id: 'va.uscongress.12.1797'
+- id: va.uscongress.12.1797
   name: VA US Congress 1797 District 12
-- id: 'va.uscongress.13.1797'
+- id: va.uscongress.13.1797
   name: VA US Congress 1797 District 13
-- id: 'va.uscongress.14.1797'
+- id: va.uscongress.14.1797
   name: VA US Congress 1797 District 14
-- id: 'va.uscongress.15.1797'
+- id: va.uscongress.15.1797
   name: VA US Congress 1797 District 15
-- id: 'va.uscongress.16.1797'
+- id: va.uscongress.16.1797
   name: VA US Congress 1797 District 16
-- id: 'va.uscongress.17.1797'
+- id: va.uscongress.17.1797
   name: VA US Congress 1797 District 17
-- id: 'va.uscongress.18.1797'
+- id: va.uscongress.18.1797
   name: VA US Congress 1797 District 18
-- id: 'va.uscongress.19.1797'
+- id: va.uscongress.19.1797
   name: VA US Congress 1797 District 19
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress04.va.county'
+- id: meae.congressional.congress04.va.county
   name: VA 4th Congress
   type: previous
-- id: 'meae.congressional.congress06.va.county'
+- id: meae.congressional.congress06.va.county
   name: VA 6th Congress
   type: next
-- id: 'meae.congressional.congress05.national.district'
+- id: meae.congressional.congress05.national.district
   name: National 5th Congress
   type: national
-state: Virginia
-title: '5th Congress: Virginia 1797'
-type: congressional
-year: 1797
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
 
 <div class="map">
 

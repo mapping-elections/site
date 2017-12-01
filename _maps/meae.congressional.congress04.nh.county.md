@@ -1,35 +1,36 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress04.nh.county
+type: congressional
+level: state
+state: New Hampshire
+geography: county
 congressnum: 4
 congressordinal: 4th
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress04.nh.county'
+title: '4th Congress: New Hampshire 1794'
+year: 1794
+legend: fed-vs-anti
 nnv:
-- id: 'nh.uscongress.1794'
+- id: nh.uscongress.1794
   name: NH US Congress 1794 At Large
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress03.nh.county'
+- id: meae.congressional.congress03.nh.county
   name: NH 3rd Congress
   type: previous
-- id: 'meae.congressional.congress05.nh.county'
+- id: meae.congressional.congress05.nh.county
   name: NH 5th Congress
   type: next
-- id: 'meae.congressional.congress04.national.district'
+- id: meae.congressional.congress04.national.district
   name: National 4th Congress
   type: national
-state: New Hampshire
-title: '4th Congress: New Hampshire 1794'
-type: congressional
-year: 1794
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
 
 <div class="map">
 

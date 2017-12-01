@@ -41,10 +41,6 @@ exclude:
   - "Makefile"
 markdown: Pandoc
 excerpt_separator: "<!--more-->"
-pandoc:
-  extensions:
-    - normalize
-    - smart
 collections:
   maps:
     output: true

@@ -1,37 +1,38 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress05.vt.county
+type: congressional
+level: state
+state: Vermont
+geography: county
 congressnum: 5
 congressordinal: 5th
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress05.vt.county'
+title: '5th Congress: Vermont 1797'
+year: 1797
+legend: fed-vs-anti
 nnv:
-- id: 'vt.uscongress.western.thirdballot.1797'
+- id: vt.uscongress.western.thirdballot.1797
   name: VT US Congress 1797 District 1
-- id: 'vt.uscongress.eastern.special.1797'
+- id: vt.uscongress.eastern.special.1797
   name: VT US Congress 1797 District 2
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress04.vt.county'
+- id: meae.congressional.congress04.vt.county
   name: VT 4th Congress
   type: previous
-- id: 'meae.congressional.congress06.vt.county'
+- id: meae.congressional.congress06.vt.county
   name: VT 6th Congress
   type: next
-- id: 'meae.congressional.congress05.national.district'
+- id: meae.congressional.congress05.national.district
   name: National 5th Congress
   type: national
-state: Vermont
-title: '5th Congress: Vermont 1797'
-type: congressional
-year: 1797
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
 
 <div class="map">
 
@@ -148,6 +149,27 @@ Other candidates
 6.5%
 </td>
 <td style="text-align:center;">
+</td>
+</tr>
+<tr class="district-changed" data-district-type="even">
+<td style="text-align:center;">
+2
+</td>
+<td style="text-align:left;">
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=B001014">Daniel
+Buck</a>
+</td>
+<td class="party-federalist" data-party="federalist">
+Federalist
+</td>
+<td style="text-align:right;">
+2,931
+</td>
+<td style="text-align:right;">
+99.3%
+</td>
+<td style="text-align:center;">
+✓
 </td>
 </tr>
 </tbody>

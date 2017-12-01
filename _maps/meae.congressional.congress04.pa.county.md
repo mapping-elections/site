@@ -1,57 +1,58 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress04.pa.county
+type: congressional
+level: state
+state: Pennsylvania
+geography: county
 congressnum: 4
 congressordinal: 4th
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress04.pa.county'
+title: '4th Congress: Pennsylvania 1794'
+year: 1794
+legend: fed-vs-anti
 nnv:
-- id: 'pa.uscongress1.1794'
+- id: pa.uscongress1.1794
   name: PA US Congress 1794 District 1
-- id: 'pa.uscongress2.1794'
+- id: pa.uscongress2.1794
   name: PA US Congress 1794 District 2
-- id: 'pa.uscongress3.1794'
+- id: pa.uscongress3.1794
   name: PA US Congress 1794 District 3
-- id: 'pa.uscongress4.1794'
+- id: pa.uscongress4.1794
   name: PA US Congress 1794 District 4
-- id: 'pa.uscongress5.1794'
+- id: pa.uscongress5.1794
   name: PA US Congress 1794 District 5
-- id: 'pa.uscongress6.1794'
+- id: pa.uscongress6.1794
   name: PA US Congress 1794 District 6
-- id: 'pa.uscongress7.1794'
+- id: pa.uscongress7.1794
   name: PA US Congress 1794 District 7
-- id: 'pa.uscongress8.1794'
+- id: pa.uscongress8.1794
   name: PA US Congress 1794 District 8
-- id: 'pa.uscongress9.1794'
+- id: pa.uscongress9.1794
   name: PA US Congress 1794 District 9
-- id: 'pa.uscongress10.1794'
+- id: pa.uscongress10.1794
   name: PA US Congress 1794 District 10
-- id: 'pa.uscongress11.1794'
+- id: pa.uscongress11.1794
   name: PA US Congress 1794 District 11
-- id: 'pa.uscongress12.1794'
+- id: pa.uscongress12.1794
   name: PA US Congress 1794 District 12
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress03.pa.county'
+- id: meae.congressional.congress03.pa.county
   name: PA 3rd Congress
   type: previous
-- id: 'meae.congressional.congress05.pa.county'
+- id: meae.congressional.congress05.pa.county
   name: PA 5th Congress
   type: next
-- id: 'meae.congressional.congress04.national.district'
+- id: meae.congressional.congress04.national.district
   name: National 4th Congress
   type: national
-state: Pennsylvania
-title: '4th Congress: Pennsylvania 1794'
-type: congressional
-year: 1794
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
 
 <div class="map">
 
@@ -294,7 +295,8 @@ Federalist
 6
 </td>
 <td style="text-align:left;">
-John A. Hanna
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=H000161">John
+A. Hanna</a>
 </td>
 <td class="party-republican" data-party="republican">
 Republican

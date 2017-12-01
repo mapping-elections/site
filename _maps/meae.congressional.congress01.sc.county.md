@@ -1,41 +1,42 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress01.sc.county
+type: congressional
+level: state
+state: South Carolina
+geography: county
 congressnum: 1
 congressordinal: 1st
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress01.sc.county'
+title: '1st Congress: South Carolina 1788'
+year: 1788
+legend: fed-vs-anti
 nnv:
-- id: 'sc.uscongress.district1.1788'
+- id: sc.uscongress.district1.1788
   name: SC US Congress 1788 District 1
-- id: 'sc.uscongress.district2.1788'
+- id: sc.uscongress.district2.1788
   name: SC US Congress 1788 District 2
-- id: 'sc.uscongress.district3.1788'
+- id: sc.uscongress.district3.1788
   name: SC US Congress 1788 District 3
-- id: 'sc.uscongress.district4.1788'
+- id: sc.uscongress.district4.1788
   name: SC US Congress 1788 District 4
-- id: 'sc.uscongress.district5.1788'
+- id: sc.uscongress.district5.1788
   name: SC US Congress 1788 District 5
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- 
-- id: 'meae.congressional.congress02.sc.county'
+- ''
+- id: meae.congressional.congress02.sc.county
   name: SC 2nd Congress
   type: next
-- id: 'meae.congressional.congress01.national.district'
+- id: meae.congressional.congress01.national.district
   name: National 1st Congress
   type: national
-state: South Carolina
-title: '1st Congress: South Carolina 1788'
-type: congressional
-year: 1788
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
 
 <div class="map">
 

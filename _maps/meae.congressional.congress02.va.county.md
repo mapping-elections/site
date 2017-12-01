@@ -1,53 +1,54 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress02.va.county
+type: congressional
+level: state
+state: Virginia
+geography: county
 congressnum: 2
 congressordinal: 2nd
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress02.va.county'
+title: '2nd Congress: Virginia 1790'
+year: 1790
+legend: fed-vs-anti
 nnv:
-- id: 'va.uscongress.1.1790'
+- id: va.uscongress.1.1790
   name: VA US Congress 1790 District 1
-- id: 'va.uscongress.2.1790'
+- id: va.uscongress.2.1790
   name: VA US Congress 1790 District 2
-- id: 'va.uscongress.3.1790'
+- id: va.uscongress.3.1790
   name: VA US Congress 1790 District 3
-- id: 'va.uscongress.4.1790'
+- id: va.uscongress.4.1790
   name: VA US Congress 1790 District 4
-- id: 'va.uscongress.5.1790'
+- id: va.uscongress.5.1790
   name: VA US Congress 1790 District 5
-- id: 'va.uscongress.6.1790'
+- id: va.uscongress.6.1790
   name: VA US Congress 1790 District 6
-- id: 'va.uscongress.7.1790'
+- id: va.uscongress.7.1790
   name: VA US Congress 1790 District 7
-- id: 'va.uscongress.8.1790'
+- id: va.uscongress.8.1790
   name: VA US Congress 1790 District 8
-- id: 'va.uscongress.9.1790'
+- id: va.uscongress.9.1790
   name: VA US Congress 1790 District 9
-- id: 'va.uscongress.10.1790'
+- id: va.uscongress.10.1790
   name: VA US Congress 1790 District 10
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress01.va.county'
+- id: meae.congressional.congress01.va.county
   name: VA 1st Congress
   type: previous
-- id: 'meae.congressional.congress03.va.county'
+- id: meae.congressional.congress03.va.county
   name: VA 3rd Congress
   type: next
-- id: 'meae.congressional.congress02.national.district'
+- id: meae.congressional.congress02.national.district
   name: National 2nd Congress
   type: national
-state: Virginia
-title: '2nd Congress: Virginia 1790'
-type: congressional
-year: 1790
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
 
 <div class="map">
 

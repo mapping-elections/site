@@ -1,35 +1,36 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress05.nj.county
+type: congressional
+level: state
+state: New Jersey
+geography: county
 congressnum: 5
 congressordinal: 5th
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress05.nj.county'
+title: '5th Congress: New Jersey 1797'
+year: 1797
+legend: fed-vs-anti
 nnv:
-- id: 'nj.uscongress.1797'
+- id: nj.uscongress.1797
   name: NJ US Congress 1797 At Large
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress04.nj.county'
+- id: meae.congressional.congress04.nj.county
   name: NJ 4th Congress
   type: previous
-- id: 'meae.congressional.congress06.nj.county'
+- id: meae.congressional.congress06.nj.county
   name: NJ 6th Congress
   type: next
-- id: 'meae.congressional.congress05.national.district'
+- id: meae.congressional.congress05.national.district
   name: National 5th Congress
   type: national
-state: New Jersey
-title: '5th Congress: New Jersey 1797'
-type: congressional
-year: 1797
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
 
 <div class="map">
 

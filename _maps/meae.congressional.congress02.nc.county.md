@@ -1,43 +1,44 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress02.nc.county
+type: congressional
+level: state
+state: North Carolina
+geography: county
 congressnum: 2
 congressordinal: 2nd
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress02.nc.county'
+title: '2nd Congress: North Carolina 1791'
+year: 1791
+legend: fed-vs-anti
 nnv:
-- id: 'nc.uscongress1.1791'
+- id: nc.uscongress1.1791
   name: NC US Congress 1791 District 1
-- id: 'nc.uscongress2.1791'
+- id: nc.uscongress2.1791
   name: NC US Congress 1791 District 2
-- id: 'nc.uscongress3.1791'
+- id: nc.uscongress3.1791
   name: NC US Congress 1791 District 3
-- id: 'nc.uscongress4.1791'
+- id: nc.uscongress4.1791
   name: NC US Congress 1791 District 4
-- id: 'nc.uscongress5.1791'
+- id: nc.uscongress5.1791
   name: NC US Congress 1791 District 5
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress01.nc.county'
+- id: meae.congressional.congress01.nc.county
   name: NC 1st Congress
   type: previous
-- id: 'meae.congressional.congress03.nc.county'
+- id: meae.congressional.congress03.nc.county
   name: NC 3rd Congress
   type: next
-- id: 'meae.congressional.congress02.national.district'
+- id: meae.congressional.congress02.national.district
   name: National 2nd Congress
   type: national
-state: North Carolina
-title: '2nd Congress: North Carolina 1791'
-type: congressional
-year: 1791
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
 
 <div class="map">
 

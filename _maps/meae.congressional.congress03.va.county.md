@@ -1,73 +1,73 @@
 ---
-always_allow_html: True
+title: '3rd Congress: Virginia 1793'
 congressnum: 3
 congressordinal: 3rd
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress03.va.county'
-nnv:
-- id: 'va.uscongress.1793'
-  name: VA US Congress 1793 District 1
-- id: 'va.uscongress.2.1793'
-  name: VA US Congress 1793 District 2
-- id: 'va.uscongress.3.1792'
-  name: VA US Congress 1792 District 3
-- id: 'va.uscongress.3.1793'
-  name: VA US Congress 1793 District 3
-- id: 'va.uscongress.4.1793'
-  name: VA US Congress 1793 District 4
-- id: 'va.uscongress.5.1793'
-  name: VA US Congress 1793 District 5
-- id: 'va.uscongress.6.1793'
-  name: VA US Congress 1793 District 6
-- id: 'va.uscongress.7.1793'
-  name: VA US Congress 1793 District 7
-- id: 'va.uscongress.8.1793'
-  name: VA US Congress 1793 District 8
-- id: 'va.uscongress.9.1793'
-  name: VA US Congress 1793 District 9
-- id: 'va.uscongress.10.1793'
-  name: VA US Congress 1793 District 10
-- id: 'va.uscongress.11.1793'
-  name: VA US Congress 1793 District 11
-- id: 'va.uscongress.12.1793'
-  name: VA US Congress 1793 District 12
-- id: 'va.uscongress.13.1793'
-  name: VA US Congress 1793 District 13
-- id: 'va.uscongress.14.1793'
-  name: VA US Congress 1793 District 14
-- id: 'va.uscongress.15.1793'
-  name: VA US Congress 1793 District 15
-- id: 'va.uscongress.16.1793'
-  name: VA US Congress 1793 District 16
-- id: 'va.uscongress.17.1793'
-  name: VA US Congress 1793 District 17
-- id: 'va.uscongress.18.1793'
-  name: VA US Congress 1793 District 18
-- id: 'va.uscongress.19.1793'
-  name: VA US Congress 1793 District 19
 output:
   html_document:
     theme: default
   md_document:
     variant: markdown
+layout: maps-show
+legend: fed-vs-anti
+level: state
+meae-id: meae.congressional.congress03.va.county
+nnv:
+- id: va.uscongress.1793
+  name: VA US Congress 1793 District 1
+- id: va.uscongress.2.1793
+  name: VA US Congress 1793 District 2
+- id: va.uscongress.3.1792
+  name: VA US Congress 1792 District 3
+- id: va.uscongress.3.1793
+  name: VA US Congress 1793 District 3
+- id: va.uscongress.4.1793
+  name: VA US Congress 1793 District 4
+- id: va.uscongress.5.1793
+  name: VA US Congress 1793 District 5
+- id: va.uscongress.6.1793
+  name: VA US Congress 1793 District 6
+- id: va.uscongress.7.1793
+  name: VA US Congress 1793 District 7
+- id: va.uscongress.8.1793
+  name: VA US Congress 1793 District 8
+- id: va.uscongress.9.1793
+  name: VA US Congress 1793 District 9
+- id: va.uscongress.10.1793
+  name: VA US Congress 1793 District 10
+- id: va.uscongress.11.1793
+  name: VA US Congress 1793 District 11
+- id: va.uscongress.12.1793
+  name: VA US Congress 1793 District 12
+- id: va.uscongress.13.1793
+  name: VA US Congress 1793 District 13
+- id: va.uscongress.14.1793
+  name: VA US Congress 1793 District 14
+- id: va.uscongress.15.1793
+  name: VA US Congress 1793 District 15
+- id: va.uscongress.16.1793
+  name: VA US Congress 1793 District 16
+- id: va.uscongress.17.1793
+  name: VA US Congress 1793 District 17
+- id: va.uscongress.18.1793
+  name: VA US Congress 1793 District 18
+- id: va.uscongress.19.1793
+  name: VA US Congress 1793 District 19
+geography: county
 related-maps:
-- id: 'meae.congressional.congress02.va.county'
+- id: meae.congressional.congress02.va.county
   name: VA 2nd Congress
   type: previous
-- id: 'meae.congressional.congress04.va.county'
+- id: meae.congressional.congress04.va.county
   name: VA 4th Congress
   type: next
-- id: 'meae.congressional.congress03.national.district'
+- id: meae.congressional.congress03.national.district
   name: National 3rd Congress
   type: national
 state: Virginia
-title: '3rd Congress: Virginia 1793'
+always_allow_html: yes
 type: congressional
 year: 1793
-...
+---
 
 <div class="map">
 
@@ -167,211 +167,6 @@ Federalist
 17.6%
 </td>
 <td style="text-align:center;">
-</td>
-</tr>
-<tr class="district-changed" data-district-type="even">
-<td style="text-align:center;">
-2
-</td>
-<td style="text-align:left;">
-<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=M000891">Andrew
-Moore</a>
-</td>
-<td style="text-align:left;">
-</td>
-<td style="text-align:right;">
-</td>
-<td style="text-align:right;">
-unopposed
-</td>
-<td style="text-align:center;">
-✓
-</td>
-</tr>
-<tr class="district-unchanged" data-district-type="odd">
-<td style="text-align:center;">
-3
-</td>
-<td style="text-align:left;">
-<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=P000514">Francis
-Preston</a>
-</td>
-<td style="text-align:left;">
-</td>
-<td style="text-align:right;">
-</td>
-<td style="text-align:right;">
-</td>
-<td style="text-align:center;">
-✓
-</td>
-</tr>
-<tr class="district-changed" data-district-type="odd">
-<td style="text-align:center;">
-3
-</td>
-<td style="text-align:left;">
-<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=N000055">Joseph
-Neville</a>
-</td>
-<td class="party-federalist" data-party="federalist">
-Federalist
-</td>
-<td style="text-align:right;">
-</td>
-<td style="text-align:right;">
-</td>
-<td style="text-align:center;">
-✓
-</td>
-</tr>
-<tr class="district-changed" data-district-type="even">
-<td style="text-align:center;">
-4
-</td>
-<td style="text-align:left;">
-<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=P000514">Francis
-Preston</a>
-</td>
-<td class="party-federalist" data-party="federalist">
-Federalist
-</td>
-<td style="text-align:right;">
-</td>
-<td style="text-align:right;">
-</td>
-<td style="text-align:center;">
-✓
-</td>
-</tr>
-<tr class="district-unchanged" data-district-type="odd">
-<td style="text-align:center;">
-5
-</td>
-<td style="text-align:left;">
-<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=H000148">George
-Hancock</a>
-</td>
-<td class="party-federalist" data-party="federalist">
-Federalist
-</td>
-<td style="text-align:right;">
-1,198
-</td>
-<td style="text-align:right;">
-61.1%
-</td>
-<td style="text-align:center;">
-✓
-</td>
-</tr>
-<tr class="district-unchanged" data-district-type="odd">
-<td style="text-align:center;">
-5
-</td>
-<td style="text-align:left;">
-Charles Clay
-</td>
-<td style="text-align:left;">
-</td>
-<td style="text-align:right;">
-654
-</td>
-<td style="text-align:right;">
-33.4%
-</td>
-<td style="text-align:center;">
-</td>
-</tr>
-<tr class="district-changed" data-district-type="odd">
-<td style="text-align:center;">
-5
-</td>
-<td style="text-align:left;">
-Calohill Minnis
-</td>
-<td style="text-align:left;">
-</td>
-<td style="text-align:right;">
-109
-</td>
-<td style="text-align:right;">
-5.6%
-</td>
-<td style="text-align:center;">
-</td>
-</tr>
-<tr class="district-changed" data-district-type="even">
-<td style="text-align:center;">
-6
-</td>
-<td style="text-align:left;">
-<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=C000624">Isaac
-Coles</a>
-</td>
-<td style="text-align:left;">
-</td>
-<td style="text-align:right;">
-</td>
-<td style="text-align:right;">
-unopposed
-</td>
-<td style="text-align:center;">
-✓
-</td>
-</tr>
-<tr class="district-changed" data-district-type="odd">
-<td style="text-align:center;">
-7
-</td>
-<td style="text-align:left;">
-<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=V000083">Abraham
-B. Venable</a>
-</td>
-<td style="text-align:left;">
-</td>
-<td style="text-align:right;">
-</td>
-<td style="text-align:right;">
-</td>
-<td style="text-align:center;">
-✓
-</td>
-</tr>
-<tr class="district-changed" data-district-type="even">
-<td style="text-align:center;">
-8
-</td>
-<td style="text-align:left;">
-<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=C000406">Thomas
-Claiborne</a>
-</td>
-<td style="text-align:left;">
-</td>
-<td style="text-align:right;">
-</td>
-<td style="text-align:right;">
-</td>
-<td style="text-align:center;">
-✓
-</td>
-</tr>
-<tr class="district-changed" data-district-type="odd">
-<td style="text-align:center;">
-9
-</td>
-<td style="text-align:left;">
-<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=G000183">William
-B. Giles</a>
-</td>
-<td style="text-align:left;">
-</td>
-<td style="text-align:right;">
-</td>
-<td style="text-align:right;">
-</td>
-<td style="text-align:center;">
-✓
 </td>
 </tr>
 <tr class="district-changed" data-district-type="even">
@@ -543,13 +338,200 @@ Nicholas</a>
 ✓
 </td>
 </tr>
-<tr class="district-changed" data-district-type="odd">
+<tr class="district-unchanged" data-district-type="odd">
 <td style="text-align:center;">
 19
 </td>
 <td style="text-align:left;">
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=H000431">John
 Heath</a>
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+</td>
+<td style="text-align:right;">
+</td>
+<td style="text-align:center;">
+✓
+</td>
+</tr>
+<tr class="district-changed" data-district-type="even">
+<td style="text-align:center;">
+2
+</td>
+<td style="text-align:left;">
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=M000891">Andrew
+Moore</a>
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+</td>
+<td style="text-align:right;">
+unopposed
+</td>
+<td style="text-align:center;">
+✓
+</td>
+</tr>
+<tr class="district-changed" data-district-type="odd">
+<td style="text-align:center;">
+3
+</td>
+<td style="text-align:left;">
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=N000055">Joseph
+Neville</a>
+</td>
+<td class="party-federalist" data-party="federalist">
+Federalist
+</td>
+<td style="text-align:right;">
+</td>
+<td style="text-align:right;">
+</td>
+<td style="text-align:center;">
+✓
+</td>
+</tr>
+<tr class="district-changed" data-district-type="even">
+<td style="text-align:center;">
+4
+</td>
+<td style="text-align:left;">
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=P000514">Francis
+Preston</a>
+</td>
+<td class="party-federalist" data-party="federalist">
+Federalist
+</td>
+<td style="text-align:right;">
+</td>
+<td style="text-align:right;">
+</td>
+<td style="text-align:center;">
+✓
+</td>
+</tr>
+<tr class="district-unchanged" data-district-type="odd">
+<td style="text-align:center;">
+5
+</td>
+<td style="text-align:left;">
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=H000148">George
+Hancock</a>
+</td>
+<td class="party-federalist" data-party="federalist">
+Federalist
+</td>
+<td style="text-align:right;">
+1,198
+</td>
+<td style="text-align:right;">
+61.1%
+</td>
+<td style="text-align:center;">
+✓
+</td>
+</tr>
+<tr class="district-unchanged" data-district-type="odd">
+<td style="text-align:center;">
+5
+</td>
+<td style="text-align:left;">
+Charles Clay
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+654
+</td>
+<td style="text-align:right;">
+33.4%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
+<tr class="district-changed" data-district-type="odd">
+<td style="text-align:center;">
+5
+</td>
+<td style="text-align:left;">
+Calohill Minnis
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+109
+</td>
+<td style="text-align:right;">
+5.6%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
+<tr class="district-changed" data-district-type="even">
+<td style="text-align:center;">
+6
+</td>
+<td style="text-align:left;">
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=C000624">Isaac
+Coles</a>
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+</td>
+<td style="text-align:right;">
+unopposed
+</td>
+<td style="text-align:center;">
+✓
+</td>
+</tr>
+<tr class="district-changed" data-district-type="odd">
+<td style="text-align:center;">
+7
+</td>
+<td style="text-align:left;">
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=V000083">Abraham
+B. Venable</a>
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+</td>
+<td style="text-align:right;">
+</td>
+<td style="text-align:center;">
+✓
+</td>
+</tr>
+<tr class="district-changed" data-district-type="even">
+<td style="text-align:center;">
+8
+</td>
+<td style="text-align:left;">
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=C000406">Thomas
+Claiborne</a>
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+</td>
+<td style="text-align:right;">
+</td>
+<td style="text-align:center;">
+✓
+</td>
+</tr>
+<tr class="district-changed" data-district-type="odd">
+<td style="text-align:center;">
+9
+</td>
+<td style="text-align:left;">
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=G000183">William
+B. Giles</a>
 </td>
 <td style="text-align:left;">
 </td>

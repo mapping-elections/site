@@ -1,32 +1,32 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress01.nh.county
+type: congressional
+level: state
+state: New Hampshire
+geography: county
 congressnum: 1
 congressordinal: 1st
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress01.nh.county'
+title: '1st Congress: New Hampshire 1789'
+year: 1789
+legend: fed-vs-anti
 nnv:
-- id: 'nh.uscongress.1789'
+- id: nh.uscongress.1789
   name: NH US Congress 1789 At Large
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress02.nh.county'
+- id: meae.congressional.congress02.nh.county
   name: NH 2nd Congress
   type: next
-- id: 'meae.congressional.congress01.national.district'
+- id: meae.congressional.congress01.national.district
   name: National 1st Congress
   type: national
-state: New Hampshire
-title: '1st Congress: New Hampshire 1789'
-type: congressional
-year: 1789
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+---
 
 NNV contains town- or county-level returns for less than 20 percent of
 the total votes cast in this election, so the data cannot be

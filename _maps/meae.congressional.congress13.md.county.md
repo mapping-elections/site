@@ -1,49 +1,50 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress13.md.county
+type: congressional
+level: state
+state: Maryland
+geography: county
 congressnum: 13
 congressordinal: 13th
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-rep'
-level: state
-meae-id: 'meae.congressional.congress13.md.county'
+title: '13th Congress: Maryland 1812'
+year: 1812
+legend: fed-vs-rep
 nnv:
-- id: 'md.uscongress1.1812'
+- id: md.uscongress1.1812
   name: MD US Congress 1812 District 1
-- id: 'md.uscongress2.1812'
+- id: md.uscongress2.1812
   name: MD US Congress 1812 District 2
-- id: 'md.uscongress3.1812'
+- id: md.uscongress3.1812
   name: MD US Congress 1812 District 3
-- id: 'md.uscongress4.1812'
+- id: md.uscongress4.1812
   name: MD US Congress 1812 District 4
-- id: 'md.uscongress5.1812'
+- id: md.uscongress5.1812
   name: MD US Congress 1812 District 5
-- id: 'md.uscongress6.1812'
+- id: md.uscongress6.1812
   name: MD US Congress 1812 District 6
-- id: 'md.uscongress7.1812'
+- id: md.uscongress7.1812
   name: MD US Congress 1812 District 7
-- id: 'md.uscongress8.1812'
+- id: md.uscongress8.1812
   name: MD US Congress 1812 District 8
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress12.md.county'
+- id: meae.congressional.congress12.md.county
   name: MD 12th Congress
   type: previous
-- id: 'meae.congressional.congress14.md.county'
+- id: meae.congressional.congress14.md.county
   name: MD 14th Congress
   type: next
-- id: 'meae.congressional.congress13.national.district'
+- id: meae.congressional.congress13.national.district
   name: National 13th Congress
   type: national
-state: Maryland
-title: '13th Congress: Maryland 1812'
-type: congressional
-year: 1812
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
 
 <div class="map">
 

@@ -1,49 +1,49 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress04.md.county
+type: congressional
+level: state
+state: Maryland
+geography: county
 congressnum: 4
 congressordinal: 4th
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-rep'
-level: state
-meae-id: 'meae.congressional.congress04.md.county'
+title: '4th Congress: Maryland 1794'
+year: 1794
+legend: fed-vs-rep
 nnv:
-- id: 'md.uscongress1.1794'
+- id: md.uscongress1.1794
   name: MD US Congress 1794 District 1
-- id: 'md.uscongress2.1794'
+- id: md.uscongress2.1794
   name: MD US Congress 1794 District 2
-- id: 'md.uscongress3.1794'
+- id: md.uscongress3.1794
   name: MD US Congress 1794 District 3
-- id: 'md.uscongress4.1794'
+- id: md.uscongress4.1794
   name: MD US Congress 1794 District 4
-- id: 'md.uscongress5.1794'
+- id: md.uscongress5.1794
   name: MD US Congress 1794 District 5
-- id: 'md.uscongress6.1794'
+- id: md.uscongress6.1794
   name: MD US Congress 1794 District 6
-- id: 'md.uscongress7.1794'
+- id: md.uscongress7.1794
   name: MD US Congress 1794 District 7
-- id: 'md.uscongress8.1794'
+- id: md.uscongress8.1794
   name: MD US Congress 1794 District 8
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress03.md.county'
+- id: meae.congressional.congress03.md.county
   name: MD 3rd Congress
   type: previous
-- id: 'meae.congressional.congress05.md.county'
+- id: meae.congressional.congress05.md.county
   name: MD 5th Congress
   type: next
-- id: 'meae.congressional.congress04.national.district'
+- id: meae.congressional.congress04.national.district
   name: National 4th Congress
   type: national
-state: Maryland
-title: '4th Congress: Maryland 1794'
-type: congressional
-year: 1794
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+---
 
 <div class="map">
 

@@ -1,49 +1,50 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress02.ma.county
+type: congressional
+level: state
+state: Massachusetts
+geography: county
 congressnum: 2
 congressordinal: 2nd
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress02.ma.county'
+title: '2nd Congress: Massachusetts 1790'
+year: 1790
+legend: fed-vs-anti
 nnv:
-- id: 'ma.uscongress.1.1790'
+- id: ma.uscongress.1.1790
   name: MA US Congress 1790 District 1
-- id: 'ma.uscongress.2.1790'
+- id: ma.uscongress.2.1790
   name: MA US Congress 1790 District 2
-- id: 'ma.uscongress.3.1790'
+- id: ma.uscongress.3.1790
   name: MA US Congress 1790 District 3
-- id: 'ma.uscongress.4.1790'
+- id: ma.uscongress.4.1790
   name: MA US Congress 1790 District 4
-- id: 'ma.uscongress.5.ballot2.1790'
+- id: ma.uscongress.5.ballot2.1790
   name: MA US Congress 1790 District 5
-- id: 'ma.uscongress.6.ballot9.1792'
+- id: ma.uscongress.6.ballot9.1792
   name: MA US Congress 1792 District 6
-- id: 'ma.uscongress.7.ballot2.1790'
+- id: ma.uscongress.7.ballot2.1790
   name: MA US Congress 1790 District 7
-- id: 'ma.uscongress.8.ballot4.1791'
+- id: ma.uscongress.8.ballot4.1791
   name: MA US Congress 1791 District 8
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress01.ma.county'
+- id: meae.congressional.congress01.ma.county
   name: MA 1st Congress
   type: previous
-- id: 'meae.congressional.congress03.ma.county'
+- id: meae.congressional.congress03.ma.county
   name: MA 3rd Congress
   type: next
-- id: 'meae.congressional.congress02.national.district'
+- id: meae.congressional.congress02.national.district
   name: National 2nd Congress
   type: national
-state: Massachusetts
-title: '2nd Congress: Massachusetts 1790'
-type: congressional
-year: 1790
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
 
 <div class="map">
 

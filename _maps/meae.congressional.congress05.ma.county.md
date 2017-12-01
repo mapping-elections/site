@@ -1,61 +1,62 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress05.ma.county
+type: congressional
+level: state
+state: Massachusetts
+geography: county
 congressnum: 5
 congressordinal: 5th
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress05.ma.county'
+title: '5th Congress: Massachusetts 1797'
+year: 1797
+legend: fed-vs-anti
 nnv:
-- id: 'ma.uscongress.western.1.1796'
+- id: ma.uscongress.western.1.1796
   name: MA US Congress 1796 District 1
-- id: 'ma.uscongress.western.2.ballot2.1797'
+- id: ma.uscongress.western.2.ballot2.1797
   name: MA US Congress 1797 District 2
-- id: 'ma.uscongress.western.3.1796'
+- id: ma.uscongress.western.3.1796
   name: MA US Congress 1796 District 3
-- id: 'ma.uscongress.western.4.1796'
+- id: ma.uscongress.western.4.1796
   name: MA US Congress 1796 District 4
-- id: 'ma.uscongress.southern.1.1796'
+- id: ma.uscongress.southern.1.1796
   name: MA US Congress 1796 District 5
-- id: 'ma.uscongress.southern.2.1796'
+- id: ma.uscongress.southern.2.1796
   name: MA US Congress 1796 District 6
-- id: 'ma.uscongress.southern.3.ballot3.1797'
+- id: ma.uscongress.southern.3.ballot3.1797
   name: MA US Congress 1797 District 7
-- id: 'ma.uscongress.middle.1.1796'
+- id: ma.uscongress.middle.1.1796
   name: MA US Congress 1796 District 8
-- id: 'ma.uscongress.middle.2.1796'
+- id: ma.uscongress.middle.2.1796
   name: MA US Congress 1796 District 9
-- id: 'ma.uscongress.middle.3.1796'
+- id: ma.uscongress.middle.3.1796
   name: MA US Congress 1796 District 10
-- id: 'ma.uscongress.middle.4.1796'
+- id: ma.uscongress.middle.4.1796
   name: MA US Congress 1796 District 11
-- id: 'ma.uscongress.eastern.1.ballot3.1797'
+- id: ma.uscongress.eastern.1.ballot3.1797
   name: MA US Congress 1797 District 12
-- id: 'ma.uscongress.eastern.2.1796'
+- id: ma.uscongress.eastern.2.1796
   name: MA US Congress 1796 District 13
-- id: 'ma.uscongress.eastern.3.1796'
+- id: ma.uscongress.eastern.3.1796
   name: MA US Congress 1796 District 14
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress04.ma.county'
+- id: meae.congressional.congress04.ma.county
   name: MA 4th Congress
   type: previous
-- id: 'meae.congressional.congress06.ma.county'
+- id: meae.congressional.congress06.ma.county
   name: MA 6th Congress
   type: next
-- id: 'meae.congressional.congress05.national.district'
+- id: meae.congressional.congress05.national.district
   name: National 5th Congress
   type: national
-state: Massachusetts
-title: '5th Congress: Massachusetts 1797'
-type: congressional
-year: 1797
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
 
 <div class="map">
 

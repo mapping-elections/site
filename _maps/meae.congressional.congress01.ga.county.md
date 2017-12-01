@@ -1,36 +1,36 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress01.ga.county
+type: congressional
+level: state
+state: Georgia
+geography: county
 congressnum: 1
 congressordinal: 1st
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress01.ga.county'
+title: '1st Congress: Georgia 1789'
+year: 1789
+legend: fed-vs-anti
 nnv:
-- id: 'ga.uscongress.lowerdistrict.1789'
+- id: ga.uscongress.lowerdistrict.1789
   name: GA US Congress 1789 District 1
-- id: 'ga.uscongress.middledistrict.1789'
+- id: ga.uscongress.middledistrict.1789
   name: GA US Congress 1789 District 2
-- id: 'ga.uscongress.upperdistrict.1789'
+- id: ga.uscongress.upperdistrict.1789
   name: GA US Congress 1789 District 3
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress02.ga.county'
+- id: meae.congressional.congress02.ga.county
   name: GA 2nd Congress
   type: next
-- id: 'meae.congressional.congress01.national.district'
+- id: meae.congressional.congress01.national.district
   name: National 1st Congress
   type: national
-state: Georgia
-title: '1st Congress: Georgia 1789'
-type: congressional
-year: 1789
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+---
 
 <div class="map">
 

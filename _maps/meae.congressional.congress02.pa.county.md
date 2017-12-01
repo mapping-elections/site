@@ -1,49 +1,50 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress02.pa.county
+type: congressional
+level: state
+state: Pennsylvania
+geography: county
 congressnum: 2
 congressordinal: 2nd
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress02.pa.county'
+title: '2nd Congress: Pennsylvania 1791'
+year: 1791
+legend: fed-vs-anti
 nnv:
-- id: 'pa.uscongress1.1791'
+- id: pa.uscongress1.1791
   name: PA US Congress 1791 District 1
-- id: 'pa.uscongress2.1791'
+- id: pa.uscongress2.1791
   name: PA US Congress 1791 District 2
-- id: 'pa.uscongress3.1791'
+- id: pa.uscongress3.1791
   name: PA US Congress 1791 District 3
-- id: 'pa.uscongress4.1791'
+- id: pa.uscongress4.1791
   name: PA US Congress 1791 District 4
-- id: 'pa.uscongress5.1791'
+- id: pa.uscongress5.1791
   name: PA US Congress 1791 District 5
-- id: 'pa.uscongress6.1791'
+- id: pa.uscongress6.1791
   name: PA US Congress 1791 District 6
-- id: 'pa.uscongress7.1791'
+- id: pa.uscongress7.1791
   name: PA US Congress 1791 District 7
-- id: 'pa.uscongress8.1791'
+- id: pa.uscongress8.1791
   name: PA US Congress 1791 District 8
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress01.pa.county'
+- id: meae.congressional.congress01.pa.county
   name: PA 1st Congress
   type: previous
-- id: 'meae.congressional.congress03.pa.county'
+- id: meae.congressional.congress03.pa.county
   name: PA 3rd Congress
   type: next
-- id: 'meae.congressional.congress02.national.district'
+- id: meae.congressional.congress02.national.district
   name: National 2nd Congress
   type: national
-state: Pennsylvania
-title: '2nd Congress: Pennsylvania 1791'
-type: congressional
-year: 1791
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
 
 <div class="map">
 

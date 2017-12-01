@@ -1,35 +1,35 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress02.md.county
+type: congressional
+level: state
+state: Maryland
+geography: county
 congressnum: 2
 congressordinal: 2nd
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress02.md.county'
+title: '2nd Congress: Maryland 1790'
+year: 1790
+legend: fed-vs-anti
 nnv:
-- id: 'md.uscongress.1790'
+- id: md.uscongress.1790
   name: MD US Congress 1790 At Large
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress01.md.county'
+- id: meae.congressional.congress01.md.county
   name: MD 1st Congress
   type: previous
-- id: 'meae.congressional.congress03.md.county'
+- id: meae.congressional.congress03.md.county
   name: MD 3rd Congress
   type: next
-- id: 'meae.congressional.congress02.national.district'
+- id: meae.congressional.congress02.national.district
   name: National 2nd Congress
   type: national
-state: Maryland
-title: '2nd Congress: Maryland 1790'
-type: congressional
-year: 1790
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+---
 
 <div class="map">
 

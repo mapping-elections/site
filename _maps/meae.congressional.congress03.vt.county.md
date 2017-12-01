@@ -1,37 +1,37 @@
 ---
-always_allow_html: True
+title: '3rd Congress: Vermont 1793'
 congressnum: 3
 congressordinal: 3rd
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress03.vt.county'
-nnv:
-- id: 'vt.uscongress.western.secondballot.1793'
-  name: VT US Congress 1793 District 1
-- id: 'vt.uscongress.eastern.1793'
-  name: VT US Congress 1793 District 2
 output:
   html_document:
     theme: default
   md_document:
     variant: markdown
+layout: maps-show
+legend: fed-vs-anti
+level: state
+meae-id: meae.congressional.congress03.vt.county
+nnv:
+- id: vt.uscongress.western.secondballot.1793
+  name: VT US Congress 1793 District 1
+- id: vt.uscongress.eastern.1793
+  name: VT US Congress 1793 District 2
+geography: county
 related-maps:
-- id: 'meae.congressional.congress02.vt.county'
+- id: meae.congressional.congress02.vt.county
   name: VT 2nd Congress
   type: previous
-- id: 'meae.congressional.congress04.vt.county'
+- id: meae.congressional.congress04.vt.county
   name: VT 4th Congress
   type: next
-- id: 'meae.congressional.congress03.national.district'
+- id: meae.congressional.congress03.national.district
   name: National 3rd Congress
   type: national
 state: Vermont
-title: '3rd Congress: Vermont 1793'
+always_allow_html: yes
 type: congressional
 year: 1793
-...
+---
 
 <div class="map">
 

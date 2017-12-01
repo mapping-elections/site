@@ -1,50 +1,51 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress01.va.county
+type: congressional
+level: state
+state: Virginia
+geography: county
 congressnum: 1
 congressordinal: 1st
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress01.va.county'
+title: '1st Congress: Virginia 1789'
+year: 1789
+legend: fed-vs-anti
 nnv:
-- id: 'va.uscongress.1.1789'
+- id: va.uscongress.1.1789
   name: VA US Congress 1789 District 1
-- id: 'va.uscongress.2.1789'
+- id: va.uscongress.2.1789
   name: VA US Congress 1789 District 2
-- id: 'va.uscongress.3.1789'
+- id: va.uscongress.3.1789
   name: VA US Congress 1789 District 3
-- id: 'va.uscongress.4.1789'
+- id: va.uscongress.4.1789
   name: VA US Congress 1789 District 4
-- id: 'va.uscongress.5.1789'
+- id: va.uscongress.5.1789
   name: VA US Congress 1789 District 5
-- id: 'va.uscongress.6.1789'
+- id: va.uscongress.6.1789
   name: VA US Congress 1789 District 6
-- id: 'va.uscongress.7.1789'
+- id: va.uscongress.7.1789
   name: VA US Congress 1789 District 7
-- id: 'va.uscongress.8.1789'
+- id: va.uscongress.8.1789
   name: VA US Congress 1789 District 8
-- id: 'va.uscongress.9.1789'
+- id: va.uscongress.9.1789
   name: VA US Congress 1789 District 9
-- id: 'va.uscongress.10.1789'
+- id: va.uscongress.10.1789
   name: VA US Congress 1789 District 10
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress02.va.county'
+- id: meae.congressional.congress02.va.county
   name: VA 2nd Congress
   type: next
-- id: 'meae.congressional.congress01.national.district'
+- id: meae.congressional.congress01.national.district
   name: National 1st Congress
   type: national
-state: Virginia
-title: '1st Congress: Virginia 1789'
-type: congressional
-year: 1789
-...
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
 
 <div class="map">
 

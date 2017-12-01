@@ -1,45 +1,40 @@
 ---
-always_allow_html: True
+meae-id: meae.congressional.congress01.nc.county
+type: congressional
+level: state
+state: North Carolina
+geography: county
 congressnum: 1
 congressordinal: 1st
-geography: county
-layout: 'maps-show'
-legend: 'fed-vs-anti'
-level: state
-meae-id: 'meae.congressional.congress01.nc.county'
+title: '1st Congress: North Carolina 1790'
+year: 1790
+legend: fed-vs-anti
 nnv:
-- id: 'nc.uscongress1.1790'
+- id: nc.uscongress1.1790
   name: NC US Congress 1790 District 1
-- id: 'nc.uscongress2.1790'
+- id: nc.uscongress2.1790
   name: NC US Congress 1790 District 2
-- id: 'nc.uscongress3.1790'
+- id: nc.uscongress3.1790
   name: NC US Congress 1790 District 3
-- id: 'nc.uscongress4.1790'
+- id: nc.uscongress4.1790
   name: NC US Congress 1790 District 4
-- id: 'nc.uscongress5.1790'
+- id: nc.uscongress5.1790
   name: NC US Congress 1790 District 5
-output:
-  html_document:
-    theme: default
-  md_document:
-    variant: markdown
 related-maps:
-- id: 'meae.congressional.congress02.nc.county'
+- id: meae.congressional.congress02.nc.county
   name: NC 2nd Congress
   type: next
-- id: 'meae.congressional.congress01.national.district'
+- id: meae.congressional.congress01.national.district
   name: National 1st Congress
   type: national
-state: North Carolina
-title: '1st Congress: North Carolina 1790'
-type: congressional
-year: 1790
-<<<<<<< HEAD
-image: /content-img/nc-first-county.png
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
 ---
-=======
-...
->>>>>>> c82ffdc85d1a94d38ffa574cebcac3e8fd682191
 
 <div class="map">
 
