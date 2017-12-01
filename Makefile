@@ -1,6 +1,6 @@
 MAPPAGES := $(patsubst _maps/%.Rmd, _maps/%.md, $(wildcard _maps/*.Rmd))
 
-build-preview : $(MAPPAGES)
+build : $(MAPPAGES)
 	bundle exec jekyll build --future --incremental --config _config.yml,_config-preview.yml
 
 serve : clean
@@ -29,13 +29,9 @@ deploy-production : clean
 	rsync --checksum --exclude dev/ --delete -avz _site/* earlyamerican:/websites/earlyamer/www/
 	@echo "Done."
 
-
-build : clean $(MAPPAGES)
-	bundle exec jekyll build
-
 maps : $(MAPPAGES)
 
 _maps/%.md : _maps/%.Rmd
 	R --slave -e "set.seed(100); rmarkdown::render('$<', output_format = 'md_document', output_options = c(preserve_yaml = TRUE))"
 
-.PHONY: serve clean deploy deploy-production maps clobber-maps
+.PHONY: serve clean deploy deploy-production maps clobber-maps build
