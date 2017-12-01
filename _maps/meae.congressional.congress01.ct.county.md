@@ -34,7 +34,8 @@ in a state-wide at-large election. Pierpont Edwards was elected, but he
 declined to serve and was replaced by Jeremiah Wadsworth in a [special
 election](http://elections.lib.tufts.edu/catalog/tufts:ct.special.congress.1790).
 
-::: {.results-table}
+<div class="results-table">
+
 <table>
 <thead>
 <tr>
@@ -257,4 +258,5 @@ Huntington</a>
 </tr>
 </tbody>
 </table>
-:::
+
+</div>

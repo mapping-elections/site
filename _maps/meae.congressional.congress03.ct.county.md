@@ -32,10 +32,12 @@ layout: maps-show
 
 ---
 
-::: {.map}
-:::
+<div class="map">
 
-::: {.results-table}
+</div>
+
+<div class="results-table">
+
 <table>
 <thead>
 <tr>
@@ -259,4 +261,5 @@ Jonathan Ingersoll
 </tr>
 </tbody>
 </table>
-:::
+
+</div>

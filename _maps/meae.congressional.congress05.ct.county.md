@@ -32,10 +32,12 @@ layout: maps-show
 
 ---
 
-::: {.map}
-:::
+<div class="map">
 
-::: {.results-table}
+</div>
+
+<div class="results-table">
+
 <table>
 <thead>
 <tr>
@@ -247,4 +249,5 @@ Federalist
 </tr>
 </tbody>
 </table>
-:::
+
+</div>

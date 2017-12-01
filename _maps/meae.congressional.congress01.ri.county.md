@@ -32,7 +32,8 @@ layout: maps-show
 NNV contains insufficient electoral results to make a meaningful map for
 the First Congress. Benjamin Bourne, a Federalist, was elected.
 
-::: {.results-table}
+<div class="results-table">
+
 <table>
 <thead>
 <tr>
@@ -78,4 +79,5 @@ Federalist
 </tr>
 </tbody>
 </table>
-:::
+
+</div>

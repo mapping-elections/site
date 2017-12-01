@@ -42,10 +42,12 @@ layout: maps-show
 
 ---
 
-::: {.map}
-:::
+<div class="map">
 
-::: {.results-table}
+</div>
+
+<div class="results-table">
+
 <table>
 <thead>
 <tr>
@@ -74,4 +76,5 @@ Elected
 </tr>
 </tbody>
 </table>
-:::
+
+</div>

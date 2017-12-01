@@ -37,7 +37,8 @@ Though Benjamin West received the most votes for the House of
 Representatives, he declined the election and Abiel Foster served as
 representative instead.
 
-::: {.results-table}
+<div class="results-table">
+
 <table>
 <thead>
 <tr>
@@ -164,4 +165,5 @@ John Sullivan
 </tr>
 </tbody>
 </table>
-:::
+
+</div>
