@@ -8,7 +8,7 @@ congressnum: 2
 congressordinal: 2nd
 title: '2nd Congress: Maryland 1790'
 year: 1790
-legend: fed-vs-anti
+legend: potomac-vs-chesapeake
 nnv:
 - id: md.uscongress.1790
   name: MD US Congress 1790 At Large
