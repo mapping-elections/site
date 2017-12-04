@@ -42,12 +42,10 @@ layout: maps-show
 
 ---
 
-<div class="map">
+::: {.map}
+:::
 
-</div>
-
-<div class="results-table">
-
+::: {.results-table}
 <table>
 <thead>
 <tr>
@@ -72,9 +70,118 @@ Elected
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="district-changed" data-district-type="odd">
+<td style="text-align:center;">
+1
+</td>
+<td style="text-align:left;">
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=S000633">William
+L. Smith</a>
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+</td>
+<td style="text-align:right;">
+</td>
+<td style="text-align:center;">
+✓
+</td>
+</tr>
+<tr class="district-changed" data-district-type="even">
+<td style="text-align:center;">
+2
+</td>
+<td style="text-align:left;">
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=G000211">Alexander
+Gillon</a>
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+</td>
+<td style="text-align:right;">
+unopposed
+</td>
+<td style="text-align:center;">
+✓
+</td>
+</tr>
+<tr class="district-changed" data-district-type="odd">
+<td style="text-align:center;">
+3
+</td>
+<td style="text-align:left;">
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=B000396">Lemuel
+Benton</a>
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+</td>
+<td style="text-align:right;">
+unopposed
+</td>
+<td style="text-align:center;">
+✓
+</td>
+</tr>
+<tr class="district-changed" data-district-type="even">
+<td style="text-align:center;">
+4
+</td>
+<td style="text-align:left;">
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=W000637">Richard
+Winn</a>
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+</td>
+<td style="text-align:right;">
+unopposed
+</td>
+<td style="text-align:center;">
+✓
+</td>
+</tr>
+<tr class="district-changed" data-district-type="odd">
+<td style="text-align:center;">
+5
+</td>
+<td style="text-align:left;">
+John Hunter
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+</td>
+<td style="text-align:right;">
+unopposed
+</td>
+<td style="text-align:center;">
+✓
+</td>
+</tr>
+<tr class="district-changed" data-district-type="even">
+<td style="text-align:center;">
+6
+</td>
+<td style="text-align:left;">
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=P000320">Andrew
+Pickens</a>
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+</td>
+<td style="text-align:right;">
+unopposed
+</td>
+<td style="text-align:center;">
+✓
+</td>
 </tr>
 </tbody>
 </table>
-
-</div>
+:::
