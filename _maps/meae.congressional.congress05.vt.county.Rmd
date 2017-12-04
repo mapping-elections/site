@@ -12,8 +12,8 @@ legend: fed-vs-anti
 nnv:
 - id: vt.uscongress.western.thirdballot.1797
   name: VT US Congress 1797 District 1
-- id: vt.uscongress.eastern.special.1797
-  name: VT US Congress 1797 District 2
+- id: vt.uscongress.eastern.1796
+  name: VT US Congress 1796 District 2
 related-maps:
 - id: meae.congressional.congress04.vt.county
   name: VT 4th Congress
