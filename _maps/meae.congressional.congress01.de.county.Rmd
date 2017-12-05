@@ -47,8 +47,6 @@ map_id %>%
 
 </div>
 
-In this election, Delaware voters chose their one and only representative to the first U.S. House of Representatives. Unaffiliated representative John Vining beat out four other unaffiliated candidates in an at-large election in January 1789. According to Delaware election law, voters in each of the state's three counties were required to submit "on one ticket or piece of paper,” the names of two persons they wished to elect. Of these two persons, one was required to be an inhabitant of the voter’s own county and the other needed to be from a different country. The person who received the most votes overall would win the election.
-
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

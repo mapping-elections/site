@@ -42,10 +42,12 @@ layout: maps-show
 
 ---
 
-::: {.map}
-:::
+<div class="map">
 
-::: {.results-table}
+</div>
+
+<div class="results-table">
+
 <table>
 <thead>
 <tr>
@@ -184,4 +186,5 @@ unopposed
 </tr>
 </tbody>
 </table>
-:::
+
+</div>

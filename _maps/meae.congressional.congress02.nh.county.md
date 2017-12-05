@@ -32,10 +32,12 @@ layout: maps-show
 
 ---
 
-::: {.map}
-:::
+<div class="map">
 
-::: {.results-table}
+</div>
+
+<div class="results-table">
+
 <table>
 <thead>
 <tr>
@@ -219,4 +221,5 @@ Nathaniel Peabody
 </tr>
 </tbody>
 </table>
-:::
+
+</div>
