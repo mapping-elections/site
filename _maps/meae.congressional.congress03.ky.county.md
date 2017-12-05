@@ -21,9 +21,9 @@ related-maps:
 - id: meae.congressional.congress05.ky.county
   name: KY 5th Congress
   type: next
-- id: meae.congressional.congress03.national.district
-  name: National 3rd Congress
-  type: national
+# - id: meae.congressional.congress03.national.district
+#   name: National 3rd Congress
+#   type: national
 output:
   md_document:
     variant: markdown

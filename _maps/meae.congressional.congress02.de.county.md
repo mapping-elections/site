@@ -19,9 +19,9 @@ related-maps:
 - id: meae.congressional.congress03.de.county
   name: DE 3rd Congress
   type: next
-- id: meae.congressional.congress02.national.district
-  name: National 2nd Congress
-  type: national
+# - id: meae.congressional.congress02.national.district
+#   name: National 2nd Congress
+#   type: national
 output:
   md_document:
     variant: markdown

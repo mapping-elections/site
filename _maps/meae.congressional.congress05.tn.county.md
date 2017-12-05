@@ -19,12 +19,12 @@ related-maps:
 - id: meae.congressional.congress04.tn.county
   name: TN 4th Congress
   type: previous
-- id: meae.congressional.congress06.tn.county
-  name: TN 6th Congress
-  type: next
-- id: meae.congressional.congress05.national.district
-  name: National 5th Congress
-  type: national
+# - id: meae.congressional.congress06.tn.county
+#   name: TN 6th Congress
+#   type: next
+# - id: meae.congressional.congress05.national.district
+#   name: National 5th Congress
+#   type: national
 state: Tennessee
 always_allow_html: yes
 type: congressional

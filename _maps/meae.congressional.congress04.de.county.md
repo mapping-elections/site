@@ -19,9 +19,9 @@ related-maps:
 - id: meae.congressional.congress05.de.county
   name: DE 5th Congress
   type: next
-- id: meae.congressional.congress04.national.district
-  name: National 4th Congress
-  type: national
+# - id: meae.congressional.congress04.national.district
+#   name: National 4th Congress
+#   type: national
 output:
   md_document:
     variant: markdown

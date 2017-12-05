@@ -26,9 +26,9 @@ related-maps:
 - id: meae.congressional.congress02.ny.county
   name: NY 2nd Congress
   type: next
-- id: meae.congressional.congress01.national.district
-  name: National 1st Congress
-  type: national
+# - id: meae.congressional.congress01.national.district
+#   name: National 1st Congress
+#   type: national
 output:
   md_document:
     variant: markdown
