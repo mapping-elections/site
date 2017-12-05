@@ -82,16 +82,16 @@ Jackson</a>
 <td style="text-align:left;">
 </td>
 <td style="text-align:right;">
-604
+613
 </td>
 <td style="text-align:right;">
-50.9%
+15.4%
 </td>
 <td style="text-align:center;">
 ✓
 </td>
 </tr>
-<tr class="district-unchanged" data-district-type="odd">
+<tr class="district-changed" data-district-type="odd">
 <td style="text-align:center;">
 1
 </td>
@@ -101,28 +101,10 @@ William Houston
 <td style="text-align:left;">
 </td>
 <td style="text-align:right;">
-399
+422
 </td>
 <td style="text-align:right;">
-33.6%
-</td>
-<td style="text-align:center;">
-</td>
-</tr>
-<tr class="district-changed" data-district-type="odd">
-<td style="text-align:center;">
-1
-</td>
-<td style="text-align:left;">
-Henry Osborne
-</td>
-<td style="text-align:left;">
-</td>
-<td style="text-align:right;">
-172
-</td>
-<td style="text-align:right;">
-14.5%
+10.6%
 </td>
 <td style="text-align:center;">
 </td>
@@ -141,7 +123,7 @@ Baldwin</a>
 1,096
 </td>
 <td style="text-align:right;">
-69.2%
+27.6%
 </td>
 <td style="text-align:center;">
 ✓
@@ -157,10 +139,10 @@ Henry Osborne
 <td style="text-align:left;">
 </td>
 <td style="text-align:right;">
-241
+437
 </td>
 <td style="text-align:right;">
-15.2%
+11%
 </td>
 <td style="text-align:center;">
 </td>
@@ -170,15 +152,15 @@ Henry Osborne
 2
 </td>
 <td style="text-align:left;">
-Joseph Sumner
+Other candidates
 </td>
 <td style="text-align:left;">
 </td>
 <td style="text-align:right;">
-165
+220
 </td>
 <td style="text-align:right;">
-10.4%
+5.6%
 </td>
 <td style="text-align:center;">
 </td>
@@ -197,7 +179,7 @@ Matthews</a>
 1,158
 </td>
 <td style="text-align:right;">
-96.3%
+29.1%
 </td>
 <td style="text-align:center;">
 ✓

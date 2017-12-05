@@ -41,15 +41,6 @@ style="width:100%;height:500px;">
 
 </div>
 
-NNV contains town- or county-level returns for less than 20 percent of
-the total votes cast in this election, so the data cannot be
-meaningfully mapped. The overall results of the elections are listed
-below.
-
-Though Benjamin West received the most votes for the House of
-Representatives, he declined the election and Abiel Foster served as
-representative instead.
-
 <div class="results-table">
 
 <table>

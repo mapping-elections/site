@@ -8,7 +8,7 @@ congressnum: 3
 congressordinal: 3rd
 title: '3rd Congress: Georgia 1792'
 year: 1792
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: ga.uscongress.1792
   name: GA US Congress 1792 At Large
@@ -36,6 +36,7 @@ library(leaflet)
 library(tidyverse)
 library(USAboundaries)
 library(mappingelections)
+library(sf)
 
 map_id <- "meae.congressional.congress03.ga.county"
 ```
@@ -45,7 +46,8 @@ map_id <- "meae.congressional.congress03.ga.county"
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>%
-  map_counties(height = "450px") %>% 
+  filter(id != "gas_nca") %>% 
+  map_counties(height = "500px") %>% 
   setView(lng = -81.492, lat = 32.348, zoom = 7)
 ```
 

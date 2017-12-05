@@ -89,6 +89,7 @@ Federalist
 13.1%
 </td>
 <td style="text-align:center;">
+✓
 </td>
 </tr>
 <tr>
@@ -235,7 +236,6 @@ Federalist
 5.7%
 </td>
 <td style="text-align:center;">
-✓
 </td>
 </tr>
 <tr>
