@@ -287,21 +287,20 @@ code {
   margin:0;
 }
 
-.sidebar ul {
-  list-style:none;
-  padding: 0;
-  margin: 0;
-}
+// .sidebar ul {
+//   padding: 0;
+//   margin: 0;
+// }
 
-.sidebar li {
-  padding: 0 1rem;
-  text-indent: -1rem;
-}
+// .sidebar li {
+//   padding: 0 1rem;
+//   text-indent: -1rem;
+// }
 
-.sidebar li::before {
-  content: "• ";
-  color: $secondary-header-color;
-}
+// .sidebar li::before {
+//   content: "• ";
+//   color: $secondary-header-color;
+// }
 
 .sidebar img {
   margin-bottom:0;
