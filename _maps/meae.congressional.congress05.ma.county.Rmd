@@ -42,12 +42,12 @@ related-maps:
 - id: meae.congressional.congress04.ma.county
   name: MA 4th Congress
   type: previous
-- id: meae.congressional.congress06.ma.county
-  name: MA 6th Congress
-  type: next
-- id: meae.congressional.congress05.national.district
-  name: National 5th Congress
-  type: national
+# - id: meae.congressional.congress06.ma.county
+#   name: MA 6th Congress
+#   type: next
+# - id: meae.congressional.congress05.national.district
+#   name: National 5th Congress
+#   type: national
 output:
   md_document:
     variant: markdown

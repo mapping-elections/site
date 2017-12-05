@@ -18,12 +18,12 @@ related-maps:
 - id: meae.congressional.congress03.ky.county
   name: KY 3rd Congress
   type: previous
-- id: meae.congressional.congress06.ky.county
-  name: KY 6th Congress
-  type: next
-- id: meae.congressional.congress05.national.district
-  name: National 5th Congress
-  type: national
+# - id: meae.congressional.congress06.ky.county
+#   name: KY 6th Congress
+#   type: next
+# - id: meae.congressional.congress05.national.district
+#   name: National 5th Congress
+#   type: national
 output:
   md_document:
     variant: markdown
