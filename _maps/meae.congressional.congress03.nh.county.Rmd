@@ -19,9 +19,9 @@ related-maps:
 - id: meae.congressional.congress04.nh.county
   name: NH 4th Congress
   type: next
-- id: meae.congressional.congress03.national.district
-  name: National 3rd Congress
-  type: national
+# - id: meae.congressional.congress03.national.district
+#   name: National 3rd Congress
+#   type: national
 output:
   md_document:
     variant: markdown
