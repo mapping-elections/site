@@ -6,12 +6,12 @@ state: Connecticut
 geography: county
 congressnum: 2
 congressordinal: 2nd
-title: '2nd Congress: Connecticut 1792'
-year: 1792
+title: '2nd Congress: Connecticut 1790'
+year: 1790
 legend: fed-vs-anti
 nnv:
-- id: ct.congress.1792
-  name: CT US Congress 1792 At Large
+- id: ct.congress.1790
+  name: CT US Congress 1790 At Large
 related-maps:
 - id: meae.congressional.congress01.ct.county
   name: CT 1st Congress
@@ -29,7 +29,6 @@ output:
     theme: default
 always_allow_html: yes
 layout: maps-show
-
 ---
 
 ```{r setup, include = FALSE}
@@ -37,6 +36,7 @@ library(leaflet)
 library(tidyverse)
 library(USAboundaries)
 library(mappingelections)
+library(sf)
 
 map_id <- "meae.congressional.congress02.ct.county"
 ```
@@ -44,9 +44,10 @@ map_id <- "meae.congressional.congress02.ct.county"
 <div class="map">
 
 ```{r election-map, echo = FALSE}
-# map_id %>%
-#   get_county_map_data() %>%
-#   map_counties()
+map_id %>%
+  get_county_map_data() %>% 
+  filter(id != "cts_wr") %>% 
+  map_counties(height = "350px", congress = 2)
 ```
 
 </div>

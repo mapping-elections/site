@@ -8,7 +8,7 @@ congressnum: 5
 congressordinal: 5th
 title: '5th Congress: Georgia 1796'
 year: 1796
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: ga.uscongress.1796
   name: GA US Congress 1796 At Large
@@ -37,6 +37,7 @@ library(leaflet)
 library(tidyverse)
 library(USAboundaries)
 library(mappingelections)
+library(sf)
 
 map_id <- "meae.congressional.congress05.ga.county"
 ```
@@ -46,7 +47,8 @@ map_id <- "meae.congressional.congress05.ga.county"
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>%
-  map_counties(height = "450px") %>% 
+  filter(id != "gas_nca") %>% 
+  map_counties(height = "500px") %>% 
   setView(lng = -81.492, lat = 32.348, zoom = 7)
 ```
 

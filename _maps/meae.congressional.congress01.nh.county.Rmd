@@ -37,9 +37,15 @@ library(mappingelections)
 map_id <- "meae.congressional.congress01.nh.county"
 ```
 
-NNV contains town- or county-level returns for less than 20 percent of the total votes cast in this election, so the data cannot be meaningfully mapped. The overall results of the elections are listed below.
+<div class="map">
 
-Though Benjamin West received the most votes for the House of Representatives, he declined the election and Abiel Foster served as representative instead.
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>% 
+  map_counties(height = "500px", congress = 1)
+```
+
+</div>
 
 <div class="results-table">
 

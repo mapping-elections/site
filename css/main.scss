@@ -354,7 +354,8 @@ tbody tr:last-of-type {
   font-size:.9rem;
 }
 
-div.leaflet svg { background: white; }
+// White background for Leaflet map
+div.leaflet svg, .leaflet-container { background: white !important; }
 
 .map2 .legend {display:none}
 

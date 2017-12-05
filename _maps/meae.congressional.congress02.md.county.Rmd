@@ -29,6 +29,7 @@ output:
     theme: default
 always_allow_html: yes
 layout: maps-show
+image: '/content-img/MD02-featured.png'
 ---
 
 ```{r setup, include = FALSE}

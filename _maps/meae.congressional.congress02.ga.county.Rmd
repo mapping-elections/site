@@ -41,6 +41,7 @@ library(leaflet)
 library(tidyverse)
 library(USAboundaries)
 library(mappingelections)
+library(sf)
 
 map_id <- "meae.congressional.congress02.ga.county"
 ```
@@ -50,7 +51,8 @@ map_id <- "meae.congressional.congress02.ga.county"
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>%
-  map_counties(height = "450px") %>% 
+  filter(id != "gas_nca") %>% 
+  map_counties(height = "500px") %>% 
   setView(lng = -81.492, lat = 32.348, zoom = 7)
 ```
 
