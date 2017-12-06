@@ -8,7 +8,7 @@ congressnum: 4
 congressordinal: 4th
 title: '4th Congress: Massachusetts 1794'
 year: 1794
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: ma.uscongress.western.1.1794
   name: MA US Congress 1794 District 1

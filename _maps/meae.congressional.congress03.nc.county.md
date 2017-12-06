@@ -8,7 +8,7 @@ congressnum: 3
 congressordinal: 3rd
 title: '3rd Congress: North Carolina 1793'
 year: 1793
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: nc.uscongress1.1793
   name: NC US Congress 1793 District 1

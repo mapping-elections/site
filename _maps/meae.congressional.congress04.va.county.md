@@ -8,7 +8,7 @@ congressnum: 4
 congressordinal: 4th
 title: '4th Congress: Virginia 1795'
 year: 1795
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: va.uscongress.1.1795
   name: VA US Congress 1795 District 1
@@ -72,7 +72,7 @@ layout: maps-show
 
 <!--html_preserve-->
 <div id="htmlwidget-7f759e9ac98ec4678286" class="leaflet html-widget"
-style="width:100%;height:405px;">
+style="width:100%;height:435px;">
 
 </div>
 

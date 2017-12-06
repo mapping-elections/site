@@ -84,6 +84,7 @@ Pro-Administration
 33.2%
 </td>
 <td style="text-align:center;">
+✓
 </td>
 </tr>
 <tr>
@@ -146,7 +147,6 @@ Federalist
 19.6%
 </td>
 <td style="text-align:center;">
-✓
 </td>
 </tr>
 <tr>

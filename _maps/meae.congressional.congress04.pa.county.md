@@ -8,7 +8,7 @@ congressnum: 4
 congressordinal: 4th
 title: '4th Congress: Pennsylvania 1794'
 year: 1794
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: pa.uscongress1.1794
   name: PA US Congress 1794 District 1
@@ -58,7 +58,7 @@ layout: maps-show
 
 <!--html_preserve-->
 <div id="htmlwidget-bf6b2bc5e18c477ded59" class="leaflet html-widget"
-style="width:100%;height:475px;">
+style="width:100%;height:500px;">
 
 </div>
 
@@ -179,7 +179,8 @@ Republican
 3
 </td>
 <td style="text-align:left;">
-Richard Thomas
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=T000183">Richard
+Thomas</a>
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist
@@ -277,7 +278,8 @@ Federalist
 5
 </td>
 <td style="text-align:left;">
-Daniel Hiester
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=H000570">Daniel
+Hiester</a>
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist

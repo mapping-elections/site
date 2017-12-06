@@ -94,7 +94,7 @@ Elected
 1
 </td>
 <td style="text-align:left;">
-<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=M000424">Joseph
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=M000423">Joseph
 MacDowell</a>
 </td>
 <td class="party-republican" data-party="republican">

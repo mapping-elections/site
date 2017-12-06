@@ -343,7 +343,7 @@ James Warren
 </td>
 <td style="text-align:left;">
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=T000141">George
-Thatcher</a>
+Thacher</a>
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist
@@ -438,7 +438,7 @@ Federalist
 7
 </td>
 <td style="text-align:left;">
-<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=B000488">Phaneul
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=B000488">Phanuel
 Bishop</a>
 </td>
 <td style="text-align:left;">

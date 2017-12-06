@@ -33,7 +33,7 @@ image: '/content-img/PA01-featured.png'
 
 <!--html_preserve-->
 <div id="htmlwidget-7bcf5e8b2b9fe14766c3" class="leaflet html-widget"
-style="width:100%;height:475px;">
+style="width:100%;height:500px;">
 
 </div>
 

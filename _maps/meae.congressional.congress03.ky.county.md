@@ -8,7 +8,7 @@ congressnum: 3
 congressordinal: 3rd
 title: '3rd Congress: Kentucky 1792'
 year: 1792
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: ky.uscongresssoutherndistrict.1792
   name: KY US Congress 1792 District 1

@@ -8,7 +8,7 @@ congressnum: 3
 congressordinal: 3rd
 title: '3rd Congress: New York 1793'
 year: 1793
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: ny.uscongress1.1793
   name: NY US Congress 1793 District 1

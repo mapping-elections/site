@@ -8,7 +8,7 @@ congressnum: 3
 congressordinal: 3rd
 title: '3rd Congress: Pennsylvania 1792'
 year: 1792
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: pa.uscongress.1792
   name: PA US Congress 1792 At Large
@@ -36,7 +36,7 @@ layout: maps-show
 
 <!--html_preserve-->
 <div id="htmlwidget-7bcf5e8b2b9fe14766c3" class="leaflet html-widget"
-style="width:100%;height:475px;">
+style="width:100%;height:500px;">
 
 </div>
 

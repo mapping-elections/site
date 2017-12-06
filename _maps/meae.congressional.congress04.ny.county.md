@@ -8,7 +8,7 @@ congressnum: 4
 congressordinal: 4th
 title: '4th Congress: New York 1794'
 year: 1794
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: ny.uscongress1.1794
   name: NY US Congress 1794 District 1

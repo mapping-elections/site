@@ -8,7 +8,7 @@ output:
   md_document:
     variant: markdown
 layout: maps-show
-legend: fed-vs-anti
+legend: fed-vs-rep
 level: state
 meae-id: meae.congressional.congress05.ri.county
 nnv:

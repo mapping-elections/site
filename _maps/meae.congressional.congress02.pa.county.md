@@ -8,7 +8,7 @@ congressnum: 2
 congressordinal: 2nd
 title: '2nd Congress: Pennsylvania 1791'
 year: 1791
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: pa.uscongress1.1791
   name: PA US Congress 1791 District 1
@@ -50,7 +50,7 @@ layout: maps-show
 
 <!--html_preserve-->
 <div id="htmlwidget-89b589bf6b2bc5e18c47" class="leaflet html-widget"
-style="width:100%;height:475px;">
+style="width:100%;height:500px;">
 
 </div>
 
@@ -190,7 +190,8 @@ Republican
 4
 </td>
 <td style="text-align:left;">
-Daniel Hiester
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=H000570">Daniel
+Hiester</a>
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist

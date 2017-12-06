@@ -8,7 +8,7 @@ congressnum: 5
 congressordinal: 5th
 title: '5th Congress: Pennsylvania 1796'
 year: 1796
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: pa.uscongress1.1796
   name: PA US Congress 1796 District 1
@@ -58,7 +58,7 @@ layout: maps-show
 
 <!--html_preserve-->
 <div id="htmlwidget-2bc5e18c477ded59f4b1" class="leaflet html-widget"
-style="width:100%;height:475px;">
+style="width:100%;height:500px;">
 
 </div>
 
@@ -179,7 +179,8 @@ Federalist
 3
 </td>
 <td style="text-align:left;">
-Richard Thomas
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=T000183">Richard
+Thomas</a>
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist

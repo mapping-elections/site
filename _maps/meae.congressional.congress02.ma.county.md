@@ -352,6 +352,7 @@ Leonard</a>
 54%
 </td>
 <td style="text-align:center;">
+✓
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="even">
@@ -371,7 +372,6 @@ Bishop</a>
 26.9%
 </td>
 <td style="text-align:center;">
-✓
 </td>
 </tr>
 <tr class="district-changed" data-district-type="even">

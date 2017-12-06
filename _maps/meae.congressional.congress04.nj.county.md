@@ -8,7 +8,7 @@ congressnum: 4
 congressordinal: 4th
 title: '4th Congress: New Jersey 1795'
 year: 1795
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: nj.uscongress.1795
   name: NJ US Congress 1795 At Large
