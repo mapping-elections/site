@@ -8,7 +8,7 @@ congressnum: 3
 congressordinal: 3rd
 title: '3rd Congress: Pennsylvania 1792'
 year: 1792
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: pa.uscongress.1792
   name: PA US Congress 1792 At Large
@@ -46,7 +46,7 @@ map_id <- "meae.congressional.congress03.pa.county"
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>%
-  map_counties(height = "475px")
+  map_counties(height = "500px")
 ```
 
 </div>

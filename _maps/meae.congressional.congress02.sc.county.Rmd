@@ -52,9 +52,9 @@ map_id <- "meae.congressional.congress02.sc.county"
 <div class="map">
 
 ```{r election-map, echo = FALSE}
-# map_id %>%
-#   get_county_map_data() %>%
-#   map_counties()
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "600px", congress = 2)
 ```
 
 </div>

@@ -8,7 +8,7 @@ congressnum: 4
 congressordinal: 4th
 title: '4th Congress: Virginia 1795'
 year: 1795
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: va.uscongress.1.1795
   name: VA US Congress 1795 District 1
@@ -82,7 +82,7 @@ map_id <- "meae.congressional.congress04.va.county"
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>%
-  map_counties(height = "405px")
+  map_counties(height = "435px")
 ```
 
 </div>

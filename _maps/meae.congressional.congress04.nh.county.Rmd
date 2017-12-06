@@ -8,7 +8,7 @@ congressnum: 4
 congressordinal: 4th
 title: '4th Congress: New Hampshire 1794'
 year: 1794
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: nh.uscongress.1794
   name: NH US Congress 1794 At Large

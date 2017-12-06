@@ -8,7 +8,7 @@ congressnum: 4
 congressordinal: 4th
 title: '4th Congress: Tennessee 1796'
 year: 1796
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: tn.uscongress.1796
   name: TN US Congress 1796 At Large
@@ -41,9 +41,9 @@ map_id <- "meae.congressional.congress04.tn.county"
 <div class="map">
 
 ```{r election-map, echo = FALSE}
-# map_id %>%
-#   get_county_map_data() %>%
-#   map_counties()
+map_id %>%
+  get_county_map_data() %>%
+  map_counties()
 ```
 
 </div>

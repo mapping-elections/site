@@ -21,7 +21,6 @@ nnv:
 - id: sc.uscongress.district5.1788
   name: SC US Congress 1788 District 5
 related-maps:
-- ''
 - id: meae.congressional.congress02.sc.county
   name: SC 2nd Congress
   type: next

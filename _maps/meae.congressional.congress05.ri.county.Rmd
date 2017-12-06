@@ -8,7 +8,7 @@ output:
   md_document:
     variant: markdown
 layout: maps-show
-legend: fed-vs-anti
+legend: fed-vs-rep
 level: state
 meae-id: meae.congressional.congress05.ri.county
 nnv:
@@ -47,10 +47,11 @@ map_id <- "meae.congressional.congress05.ri.county"
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>% 
-  map_counties(height = "300px")
+  map_counties(height = "300px", congress = 5)
 ```
 
 </div>
+
 
 <div class="results-table">
 

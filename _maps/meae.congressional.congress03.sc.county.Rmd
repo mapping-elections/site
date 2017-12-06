@@ -8,7 +8,7 @@ congressnum: 3
 congressordinal: 3rd
 title: '3rd Congress: South Carolina 1793'
 year: 1793
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: sc.uscongress.district1.1793
   name: SC US Congress 1793 District 1
@@ -54,9 +54,9 @@ map_id <- "meae.congressional.congress03.sc.county"
 <div class="map">
 
 ```{r election-map, echo = FALSE}
-# map_id %>%
-#   get_county_map_data() %>%
-#   map_counties()
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(congress = 3, height = "600px")
 ```
 
 </div>

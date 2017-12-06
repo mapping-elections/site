@@ -8,7 +8,7 @@ congressnum: 4
 congressordinal: 4th
 title: '4th Congress: Connecticut 1794'
 year: 1794
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: ct.congress.1794
   name: CT US Congress 1794 At Large

@@ -8,7 +8,7 @@ congressnum: 5
 congressordinal: 5th
 title: '5th Congress: Kentucky 1796'
 year: 1796
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: ky.uscongresssoutherndistrict.1796
   name: KY US Congress 1796 District 1

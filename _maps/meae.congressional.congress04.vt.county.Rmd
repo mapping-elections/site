@@ -8,7 +8,7 @@ congressnum: 4
 congressordinal: 4th
 title: '4th Congress: Vermont 1795'
 year: 1795
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: vt.uscongress.secondballot.westerndistrict.1795
   name: VT US Congress 1795 District 1

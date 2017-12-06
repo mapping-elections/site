@@ -38,6 +38,17 @@ library(mappingelections)
 map_id <- "meae.congressional.congress01.ri.county"
 ```
 
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>% 
+  map_counties(height = "300px", congress = 1)
+```
+
+</div>
+
+
 NNV contains insufficient electoral results to make a meaningful map for the First Congress. Benjamin Bourne, a Federalist, was elected.
 
 <div class="results-table">

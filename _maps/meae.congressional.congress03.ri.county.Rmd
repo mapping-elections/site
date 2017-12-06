@@ -8,7 +8,7 @@ congressnum: 3
 congressordinal: 3rd
 title: '3rd Congress: Rhode Island 1792'
 year: 1792
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: ri.uscongress.1792
   name: RI US Congress 1792 At Large
@@ -44,12 +44,13 @@ map_id <- "meae.congressional.congress03.ri.county"
 <div class="map">
 
 ```{r election-map, echo = FALSE}
-# map_id %>%
-#   get_county_map_data() %>%
-#   map_counties()
+map_id %>%
+  get_county_map_data() %>% 
+  map_counties(height = "300px", congress = 3)
 ```
 
 </div>
+
 
 <div class="results-table">
 

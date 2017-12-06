@@ -8,7 +8,7 @@ congressnum: 2
 congressordinal: 2nd
 title: '2nd Congress: Pennsylvania 1791'
 year: 1791
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: pa.uscongress1.1791
   name: PA US Congress 1791 District 1
@@ -63,7 +63,7 @@ cities <- tribble(
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>%
-  map_counties(height = "475px", cities = 0) %>% 
+  map_counties(height = "500px", cities = 0) %>% 
   addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
                  fillColor = mappingelections:::poli_chrome(cities),
                  opacity = 1, fillOpacity = 0.8, radius = 8, weight = 3,
