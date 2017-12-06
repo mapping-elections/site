@@ -12,8 +12,6 @@ legend: fed-vs-anti
 nnv:
 - id: sc.uscongress.district1.1794
   name: SC US Congress 1794 District 1
-- id: sc.uscongress.district2.1794
-  name: SC US Congress 1794 District 2
 - id: sc.uscongress.district3.1794
   name: SC US Congress 1794 District 5
 related-maps:
