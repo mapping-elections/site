@@ -15,5 +15,15 @@
     <script src="{{site.url}}/js/what-input.js"></script>
     <script src="{{site.url}}/js/foundation.js"></script>
     <script src="{{site.url}}/js/app.js"></script>
+    <script>
+      // Check whether the browser is touch enabled. If it is, hide the map labels.
+      function is_touch_device() {
+        return 'ontouchstart' in window || navigator.maxTouchPoints;
+      };
+      if (is_touch_device()) {
+        $('<style>.leaflet-label { display: none !important; } </style>')
+          .appendTo('head');
+      }
+    </script>
   </body>
 </html>
