@@ -15,9 +15,6 @@ nnv:
 - id: vt.uscongress.eastern.1791
   name: VT US Congress 1791 District 2
 related-maps:
-- id: meae.congressional.congress01.vt.county
-  name: VT 1st Congress
-  type: previous
 - id: meae.congressional.congress03.vt.county
   name: VT 3rd Congress
   type: next
