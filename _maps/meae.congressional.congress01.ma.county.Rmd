@@ -64,6 +64,10 @@ map_id %>%
 
 </div>
 
+Massachusetts elected five Federalists, one Anti-Federalist, and two representatives unaffiliated with either party to the First Congress. Of the unaffiliated representatives, George Partridge favored the administration and Jonathan Grout was anti-administration. 
+
+Massachusetts used a  district system to elect members of Congress.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
