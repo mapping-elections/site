@@ -47,6 +47,10 @@ map_id %>%
 
 </div>
 
+Delaware elected one unaffiliated candidate to the First Congress.
+
+Delaware used a state-wide at-large system to elect members of Congress. Voters cast two votes in the election. The first had to be for a candidate from their home county and the second for a candidate from a different county. 
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
