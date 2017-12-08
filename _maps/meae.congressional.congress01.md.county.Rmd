@@ -65,9 +65,11 @@ map_id %>%
 
 </div>
 
-Votes tallied for the cities of Baltimore and Annapolis are shown separately. Those votes are in addition to the votes reported for Baltimore County and Anne Arundel County.
+Maryland elected six Federalists to the First Congress. The Federalists swept the election with a large margin of victory.
 
-Like many states in the early republic, Maryland experimented with voting procedures that were intended to ensure democratic representation. For the first and second Congress, "candidates were elected at-large but had to be residents of a specific district with the statewide vote determining winners from each district." Both the Federalists and the Anti-Federalists advanced six candidates each who met the residency requirements. The state of Maryland was heavily Federalist, and so six Federalists received the most votes in the at-large state election and were thus elected. But one of those candidates represented a district which contained Baltimore County, and another represented a district which contained Anne Arundel County and Annapolis. Had the voting been tallied district by district, the district containing Baltimore County would have had a narrow majority for Anti-Federalists, and the district containing Anne Arundel County would have been within 50 votes of an Anti-Federalist majority. The process of at-large elections with residency requirements thus had the unintended effect of solidifying state-wide rather than more local majorities. 
+Maryland used a state-wide at-large system to elect members of Congress. Candidates had to be residents of a specific Congressional district. 
+
+Votes tallied for the cities of Baltimore and Annapolis are shown separately, and they are in addition to the votes reported for Baltimore County and Anne Arundel County.
 
 <div class="results-table">
 

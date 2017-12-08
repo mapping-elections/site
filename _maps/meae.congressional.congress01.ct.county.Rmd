@@ -46,6 +46,14 @@ map_id %>%
 
 </div>
 
+Connecticut elected five Federalists to the First Congress.
+
+While no county- or town-level returns survive, the map depicts the state a solidly Federalist, since only Federalists were nominated for the First Congress.
+
+Connecticut used a state-wide at-large system to elect members of Congress. Connecticut had a two-tiered system of election. A nomination election was held first to establish the congressional candidates. Then a general election was held to decide who would be seated in congress.
+
+In 1790, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ct.special.congress.1790) was held to replace Pierpont Edwards who declined to serve. Jeremiah Wadsworth was elected.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

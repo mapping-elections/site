@@ -54,6 +54,10 @@ map_id %>%
 
 </div>
 
+Georgia elected three unaffiliated candidates to the First Congress.
+
+Georgia used a modified district system to elect members of Congress. Voters selected three candidates, one residing in each of the three districts. The candidate from each district that had the most votes state-wide, won the election. 
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
