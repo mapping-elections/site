@@ -51,6 +51,12 @@ map_id %>%
 
 </div>
 
+New Jersey elected five Federalists to the Third Congress.
+
+New Jersey used a state-wide at-large system for electing members to Congress. New Jersey gained a seat in the House of Representatives following the 1790 Census.
+
+Abraham Clark died in office. In January 1795, a [special election](http://elections.lib.tufts.edu/catalog/tufts:nj.uscongress.special.1795) was held and Aaron Kitchel was elected to replace Clark.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

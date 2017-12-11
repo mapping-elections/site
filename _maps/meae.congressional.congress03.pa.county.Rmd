@@ -51,6 +51,10 @@ map_id %>%
 
 </div>
 
+Pennsylvania voters elected seven Democratic-Republicans, five Federalists, and one unaffiliated candidate to the Third Congress.
+
+Pennsylvania returned to a state-wide at-large system for electing members to Congress. Following the 1790 Census, Pennsylvania gained five seats in the House of Representatives. 
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
