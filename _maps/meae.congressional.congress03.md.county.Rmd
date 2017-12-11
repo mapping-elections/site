@@ -81,6 +81,12 @@ map_id %>%
 
 </div>
 
+Maryland elected six Federalists and two Anti-Federalists to the Third Congress.
+
+For the Third Congress, Maryland moved to a district system for electing members to Congress. Maryland gained two seats in the House of Representatives following the 1790 Census.
+
+In December 1794 a [special election](https://elections.lib.tufts.edu/catalog/tufts:md.uscongress3.special.1794) was held which elected Benjamin Edwards to replace Uriah Forrest, who resigned from office.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
