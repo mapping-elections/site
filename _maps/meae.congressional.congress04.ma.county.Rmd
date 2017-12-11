@@ -78,6 +78,24 @@ map_id %>%
 
 </div>
 
+Massachusetts elected eight Federalists and six representatives that were not officially affiliated with a political party to the Fourth Congress.  
+
+Although Massachusetts used the district system for electing members to Congress, state law required that candidates receive a majority of votes in order to win. As a result, four districts required multiple ballots to elect their members in elections November 1794 through April 1795:
+
+[Massachusetts 1795 U.S. House of Representatives, District Southern 3, Ballot 4](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.southern.3.ballot4.1795)
+[Massachusetts 1795 U.S. House of Representatives, District Middle 2, Ballot 3](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.middle.2.ballot3.1795)
+[Massachusetts 1795 U.S. House of Representatives, District Middle 4, Ballot 3](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.middle.4.ballot3.1795)
+[Massachusetts 1795 U.S. House of Representatives, District Eastern 2, Ballot 2](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.eastern.2.ballot2.1795)
+[Massachusetts 1795 U.S. House of Representatives, District Eastern 3, Ballot 2](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.eastern.3.ballot2.1795)
+
+Massachusetts held a special election in which Thompson Skinner was elected to replace Theodore Sedgwick, who resigned to serve in the US Senate:
+[Massachusetts 1796 U.S. House of Representatives, District Western 1, Special](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.western.1.special.1796)
+[Massachusetts 1796 U.S. House of Representatives, District Western 1, Special, Ballot 2](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.western.1.special2.1796)
+
+Massachusetts held a special election in which Samuel Sewall was elected to replace Benjamin Goodhue, who resigned to serve in the US Senate:
+[Massachusetts 1796 U.S. House of Representatives, District Middle 3, Special](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.middle.3.special.1796)
+[Massachusetts 1796 U.S. House of Representatives, District Middle 3, Special, Ballot 2](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.middle.3.special2.1796)
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
