@@ -40,6 +40,13 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+Georgia elected one Democratic-Republican and one Federalist to the
+Third Congress.
+
+Georgia used a state-wide at-large system for electing members to
+Congress. Its seats in Congress were decreased from three to two
+following the 1790 Census.
+
 ::: {.results-table}
 <table>
 <thead>
@@ -155,7 +162,8 @@ At-large
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=W000560">Francis
 Willis</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 824

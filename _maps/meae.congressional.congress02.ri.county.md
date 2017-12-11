@@ -41,6 +41,15 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+Rhode Island elected a Federalist to its single seat in the Second
+Congress.
+
+Mapping this election is not possible because there are insufficient
+returns at the town and county levels.
+
+Rhode Island used a state-wide at-large system for electing members to
+Congress.
+
 ::: {.results-table}
 <table>
 <thead>

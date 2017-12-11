@@ -43,6 +43,10 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+Vermont elected two Federalists to the Fourth Congress.
+
+Vermont used a district system for electing its members to Congress.
+
 ::: {.results-table}
 <table>
 <thead>

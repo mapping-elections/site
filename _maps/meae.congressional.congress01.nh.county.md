@@ -81,8 +81,8 @@ At-large
 <td style="text-align:left;">
 Benjamin West
 </td>
-<td style="text-align:left;">
-Pro-Administration
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 2,733
@@ -102,8 +102,8 @@ At-large
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=L000364">Samuel
 Livermore</a>
 </td>
-<td style="text-align:left;">
-Pro-Administration
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 2,116
@@ -123,8 +123,8 @@ At-large
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=G000215">Nicholas
 Gilman</a>
 </td>
-<td style="text-align:left;">
-Pro-Administration
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 1,619
@@ -163,7 +163,8 @@ At-large
 <td style="text-align:left;">
 John Sullivan
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 154

@@ -41,6 +41,11 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+Georgia elected two Democratic-Republicans to the Fifth Congress.
+
+Georgia used a statewide at-large method for electing members to
+Congress.
+
 ::: {.results-table}
 <table>
 <thead>

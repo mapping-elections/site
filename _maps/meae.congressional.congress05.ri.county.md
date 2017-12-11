@@ -42,6 +42,22 @@ year: 1796
 <!--/html_preserve-->
 :::
 
+Rhode Island elected two Federalists to the Fifth Congress.
+
+Rhode Island used a statewide at-large method for electing members to
+Congress, though each of the two representatives were elected on
+separate tickets.
+
+Benjamin Bourne would resign before taking his seat in Congress and a
+[special
+election](https://elections.lib.tufts.edu/catalog/tufts:ri.uscongress.specialelection.1796)
+would elect Elisha R. Potter to fill his seat.
+
+In 1797, Rhode Island held a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ri.uscongress1.1797)
+in which Thomas Tillinghast replaced Elisha R. Potter, who resigned his
+seat.
+
 ::: {.results-table}
 <table>
 <thead>

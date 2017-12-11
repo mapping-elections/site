@@ -51,6 +51,20 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+South Carolina elected one Federalist, four Anti-Federalists, and one
+candidate transitioning between parties to the Third Congress. John
+Hunter was a Federalist elector for president in 1792, but in 1796 he
+was elected a Democratic-Republican to the U.S. Senate.
+
+Many of the parish and district returns for the Third Congress are
+incomplete for South Carolina.
+
+South Carolina used a district system for electing members to Congress.
+Following the 1790 Census, South Carolina gained a seat in the House of
+Representatives. After Alexander Gillon died, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:sc.uscongress.district2.1794)
+was held in which Robert G. Harper was elected to replace him.
+
 ::: {.results-table}
 <table>
 <thead>
@@ -84,7 +98,8 @@ Elected
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=S000633">William
 L. Smith</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 </td>
@@ -103,6 +118,7 @@ L. Smith</a>
 Gillon</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 </td>
@@ -122,6 +138,7 @@ unopposed
 Benton</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 </td>
@@ -141,6 +158,7 @@ unopposed
 Winn</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 </td>
@@ -179,6 +197,7 @@ unopposed
 Pickens</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 </td>

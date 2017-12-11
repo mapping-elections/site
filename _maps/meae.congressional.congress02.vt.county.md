@@ -40,6 +40,16 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+Vermont elected two Anti-Federalists to the Second Congress.
+
+Mapping this election is not possible because there are no returns at
+the town and county levels.
+
+Vermont used a district system for electing members to Congress. Vermont
+required that candidates receive a majority of the votes in their
+districts. The first district thus required a second ballot to elect the
+candidate.
+
 ::: {.results-table}
 <table>
 <thead>
@@ -74,6 +84,7 @@ Elected
 Smith</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 2,588
@@ -114,6 +125,7 @@ Democratic-Republican
 Niles</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 </td>

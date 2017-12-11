@@ -67,6 +67,48 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+Massachusetts elected eight Federalists and six representatives that
+were not officially affiliated with a political party to the Fourth
+Congress.
+
+Although Massachusetts used the district system for electing members to
+Congress, state law required that candidates receive a majority of votes
+in order to win. As a result, four districts required multiple ballots
+to elect their members in elections November 1794 through April 1795:
+
+[Massachusetts 1795 U.S. House of Representatives, District Southern 3,
+Ballot
+4](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.southern.3.ballot4.1795)
+[Massachusetts 1795 U.S. House of Representatives, District Middle 2,
+Ballot
+3](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.middle.2.ballot3.1795)
+[Massachusetts 1795 U.S. House of Representatives, District Middle 4,
+Ballot
+3](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.middle.4.ballot3.1795)
+[Massachusetts 1795 U.S. House of Representatives, District Eastern 2,
+Ballot
+2](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.eastern.2.ballot2.1795)
+[Massachusetts 1795 U.S. House of Representatives, District Eastern 3,
+Ballot
+2](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.eastern.3.ballot2.1795)
+
+Massachusetts held a special election in which Thompson Skinner was
+elected to replace Theodore Sedgwick, who resigned to serve in the US
+Senate: [Massachusetts 1796 U.S. House of Representatives, District
+Western 1,
+Special](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.western.1.special.1796)
+[Massachusetts 1796 U.S. House of Representatives, District Western 1,
+Special, Ballot
+2](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.western.1.special2.1796)
+
+Massachusetts held a special election in which Samuel Sewall was elected
+to replace Benjamin Goodhue, who resigned to serve in the US Senate:
+[Massachusetts 1796 U.S. House of Representatives, District Middle 3,
+Special](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.middle.3.special.1796)
+[Massachusetts 1796 U.S. House of Representatives, District Middle 3,
+Special, Ballot
+2](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.middle.3.special2.1796)
+
 ::: {.results-table}
 <table>
 <thead>
@@ -121,7 +163,8 @@ Federalist
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=S000471">Tompson
 J. Skinner</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 639
@@ -140,7 +183,8 @@ J. Skinner</a>
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=L000530">William
 Lyman</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 774
@@ -160,7 +204,8 @@ Lyman</a>
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=S000330">William
 Shepard</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 713
@@ -199,7 +244,8 @@ Federalist
 <td style="text-align:left;">
 Daniel Bigelow
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 357
@@ -216,7 +262,7 @@ Daniel Bigelow
 </td>
 <td style="text-align:left;">
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=M000259">Ebenezer
-Mattson, Jr.</a>
+Mattoon, Jr.</a>
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist
@@ -277,7 +323,8 @@ Federalist
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=L000316">Levi
 Lincoln</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 575
@@ -296,7 +343,8 @@ Lincoln</a>
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=F000365">Nathaniel
 Freeman, Jr.</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 1,034
@@ -316,7 +364,8 @@ Freeman, Jr.</a>
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=C000591">Peleg
 Coffin, Jr.</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 475
@@ -356,7 +405,8 @@ Federalist
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=P000092">George
 Partridge</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 222
@@ -394,7 +444,8 @@ Davis</a>
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=L000246">George
 Leonard</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 606
@@ -413,7 +464,8 @@ Leonard</a>
 <td style="text-align:left;">
 Elisha May
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 131
@@ -432,7 +484,8 @@ Elisha May
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=B000488">Phanuel
 Bishop</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 57
@@ -471,7 +524,8 @@ Federalist
 <td style="text-align:left;">
 Charles Jarvis
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 1,668
@@ -490,7 +544,8 @@ Charles Jarvis
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=V000074">Joseph
 B. Varnum</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 1,509
@@ -551,7 +606,8 @@ Federalist
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=H000750">Samuel
 Holten</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 171
@@ -567,9 +623,10 @@ Holten</a>
 10
 </td>
 <td style="text-align:left;">
-Leammi Baldwin
+Loammi Baldwin
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 92
@@ -606,7 +663,8 @@ Other candidates
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=B000735">Theophilus
 Bradbury</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 753
@@ -644,7 +702,8 @@ Other candidates
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=D000178">Henry
 Dearborn</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 464
@@ -663,7 +722,8 @@ Dearborn</a>
 <td style="text-align:left;">
 Jonathan Bowman
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 260
@@ -697,9 +757,10 @@ Other candidates
 12
 </td>
 <td style="text-align:left;">
-Daniel Corey
+Daniel Coney
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 51
@@ -718,7 +779,8 @@ Daniel Corey
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=P000058">Isaac
 Parker</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 50
@@ -758,7 +820,8 @@ Federalist
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=W000444">William
 Wedgery</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 399
@@ -833,7 +896,8 @@ Federalist
 <td style="text-align:left;">
 Nathaniel Wells
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 92

@@ -55,6 +55,14 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+In a shift from the First Congress, Massachusetts elected seven
+Federalists and one Anti-Federalist to the Second Congress.
+
+Massachusetts used a district system for electing members to Congress.
+Massachusetts law required a majority vote for election and so
+congressional elections in districts five, six, seven, and eight
+required multiple ballots to determine a final winner.
+
 ::: {.results-table}
 <table>
 <thead>
@@ -109,6 +117,7 @@ Federalist
 Benjamin Austin, Jr.
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 397
@@ -127,6 +136,7 @@ Benjamin Austin, Jr.
 Thomas Dawes, Jr.
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 248
@@ -167,6 +177,7 @@ Federalist
 Holten</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 129
@@ -186,6 +197,7 @@ Holten</a>
 Gerry</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 1,067
@@ -204,7 +216,8 @@ Gerry</a>
 <td style="text-align:left;">
 Nathaniel Gorham
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 699
@@ -264,7 +277,8 @@ Federalist
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=B000671">Shearjashub
 Bourne</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 667
@@ -338,7 +352,8 @@ Thomas Davis
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=L000246">George
 Leonard</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 1,161
@@ -359,6 +374,7 @@ Leonard</a>
 Bishop</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 578
@@ -378,6 +394,7 @@ Bishop</a>
 Coffin, Jr.</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 348
@@ -418,6 +435,7 @@ Federalist
 Grout</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 1,119
@@ -474,7 +492,8 @@ William Lithgow, Jr.
 <td style="text-align:left;">
 Nathaniel Wells
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 347

@@ -49,6 +49,14 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+The state's voters sent three Anti-Federalists and two Federalists to
+the Second Congress.
+
+North Carolina used a district system for electing members to Congress.
+Election returns, including total votes, for this election are very
+incomplete. North Carolina's fifth district was ceded to create the
+Southwest Territory before the Second Congress began.
+
 ::: {.results-table}
 <table>
 <thead>

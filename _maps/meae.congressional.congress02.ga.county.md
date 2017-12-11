@@ -45,6 +45,20 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+Georgia elected two anti-Federalists and one Federalist to the Second
+Congress.
+
+Georgia used a state-wide at-large system for electing members to
+Congress, but candidates had to be resident in the district to which
+they were elected.
+
+The election between Anthony Wayne and James Jackson in the first
+district was contested, and the results from Effingham and Camden
+counties were ruled invalid. A [special
+election](http://elections.lib.tufts.edu/catalog/tufts:ga.uscongress.special.1792)
+was held in July, 1792, in which Republican John Millage defeated the
+Federalist Matthew McAllister.
+
 ::: {.results-table}
 <table>
 <thead>

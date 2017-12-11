@@ -42,6 +42,12 @@ year: 1793
 <!--/html_preserve-->
 :::
 
+Vermont elected two Anti-Federalists to the Third Congress.
+
+Vermont used a district system for electing members to Congress.
+Vermont's number of seats in the House of Representatives was unchanged
+following the 1790 Census.
+
 ::: {.results-table}
 <table>
 <thead>
@@ -75,7 +81,8 @@ Elected
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=S000557">Israel
 Smith</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 1,991
@@ -116,6 +123,7 @@ Democratic-Republican
 Niles</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 586

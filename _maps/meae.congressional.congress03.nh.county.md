@@ -41,6 +41,15 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+New Hampshire elected two Federalists and two Anti-Federalists to the
+Third Congress.
+
+Mapping this election is not possible because there are insufficient
+returns at the town and county levels.
+
+New Hampshire used a state-wide at-large system for electing members to
+Congress. It gained a seat following the 1790 Census.
+
 ::: {.results-table}
 <table>
 <thead>
@@ -95,7 +104,8 @@ At-large
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=G000215">Nicholas
 Gilman</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 2,912
@@ -115,7 +125,8 @@ At-large
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=S000339">John
 Samuel Sherburne</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 2,536
@@ -193,7 +204,8 @@ At-large
 <td style="text-align:left;">
 scattering
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 1,490
@@ -231,7 +243,8 @@ At-large
 <td style="text-align:left;">
 Nathaniel Peabody
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 1,370

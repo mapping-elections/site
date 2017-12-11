@@ -50,6 +50,20 @@ year: 1796
 <!--/html_preserve-->
 :::
 
+South Carolina elected three Federalists and three
+Democratic-Republicans to the Fifth Congress.
+
+Mapping this election is incomplete because of the lack of local returns
+in many areas.
+
+South Carolina used the district system for electing members to
+Congress.
+
+In September 1797, South Carolina held a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:sc.uscongress.specialelection.1797)
+in which Thomas Pickney was elected to replace William L. Smith, who
+resigned when he was appointed minister to Portugal.
+
 ::: {.results-table}
 <table>
 <thead>

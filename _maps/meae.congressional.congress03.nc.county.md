@@ -59,6 +59,16 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+North Carolina's voters elected seven Republicans and three Federalists
+to the Third Congress.
+
+Many of the electoral returns at the county and district levels are
+incomplete.
+
+North Carolina used a district system for electing members to Congress.
+After the 1790 Census, North Carolina gained five seats in the House of
+Representatives.
+
 ::: {.results-table}
 <table>
 <thead>

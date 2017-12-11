@@ -213,6 +213,7 @@ Anti-Federalist
 B. Varnum</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 366
@@ -309,7 +310,8 @@ Federalist
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=P000092">George
 Partridge</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 501
@@ -463,7 +465,8 @@ Anti-Federalist
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=C000545">David
 Cobb</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 241
@@ -483,6 +486,7 @@ Cobb</a>
 Grout</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 1,968

@@ -41,6 +41,17 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+New Hampshire elected two Federalists and two members not officially
+affiliated with a party to the Fourth Congress.
+
+Mapping this election is not possible because of insufficient returns at
+the town or county level.
+
+Although New Hampshire used a statewide at-large method for electing
+members to Congress, state law required that candidates receive a
+majority of votes in order to win. In a second runoff election, Abiel
+Foster beat the incumbent Paine Wingate.
+
 ::: {.results-table}
 <table>
 <thead>
@@ -94,7 +105,8 @@ At-large
 <td style="text-align:left;">
 scattering
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 3,733
@@ -113,7 +125,8 @@ At-large
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=S000339">John
 S. Sherburne</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 3,175
@@ -133,7 +146,8 @@ At-large
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=G000215">Nicholas
 Gilman</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 2,405

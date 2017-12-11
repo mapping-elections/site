@@ -51,6 +51,15 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+New York elected four Federalists and two Anti-Federalists to the Second
+Congress.
+
+New York used a district system for electing members to Congress.
+
+Before the Second Congress could begin, James Townsend died;
+Anti-Federalist Thomas Tredwell was elected to replace him in a special
+election held in June.
+
 ::: {.results-table}
 <table>
 <thead>

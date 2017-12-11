@@ -78,6 +78,16 @@ year: 1793
 <!--/html_preserve-->
 :::
 
+Virginia elected twelve Democratic-Republicans, six Federalists, and one
+unaffiliated candidate to the Third Congress.
+
+Returns for Virginia's elections to the Third Congress are often
+incomplete, in large part because so many elections were unopposed.
+
+Virginia used a district system for electing members to Congress.
+Following the 1790 Census, Virginia gained nine seats in the House of
+Representatives.
+
 ::: {.results-table}
 <table>
 <thead>
@@ -111,8 +121,8 @@ Elected
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=R000548">Robert
 Rutherford</a>
 </td>
-<td class="party-federalist" data-party="federalist">
-Federalist
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 886
@@ -172,7 +182,8 @@ Federalist
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=H000266">Carter
 B. Harrison</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 </td>
@@ -209,7 +220,8 @@ Democratic-Republican
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=P000018">John
 Page</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 </td>
@@ -248,7 +260,8 @@ unopposed
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=W000051">Francis
 Walker</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 </td>
@@ -267,7 +280,8 @@ unopposed
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=M000043">James
 Madison</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 </td>
@@ -286,7 +300,8 @@ unopposed
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=N000058">Anthony
 New</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 </td>
@@ -304,7 +319,8 @@ New</a>
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=L000200">Richard
 B. Lee</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 </td>
@@ -323,7 +339,8 @@ unopposed
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=N000084">John
 Nicholas</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 </td>
@@ -341,7 +358,8 @@ Nicholas</a>
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=H000431">John
 Heath</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 </td>
@@ -359,7 +377,8 @@ Heath</a>
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=M000891">Andrew
 Moore</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 </td>
@@ -397,8 +416,8 @@ Federalist
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=P000514">Francis
 Preston</a>
 </td>
-<td class="party-federalist" data-party="federalist">
-Federalist
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 </td>
@@ -436,7 +455,8 @@ Federalist
 <td style="text-align:left;">
 Charles Clay
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 654
@@ -454,7 +474,8 @@ Charles Clay
 <td style="text-align:left;">
 Calohill Minnis
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 109
@@ -473,7 +494,8 @@ Calohill Minnis
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=C000624">Isaac
 Coles</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 </td>
@@ -492,7 +514,8 @@ unopposed
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=V000083">Abraham
 B. Venable</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 </td>
@@ -510,7 +533,8 @@ B. Venable</a>
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=C000406">Thomas
 Claiborne</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 </td>
@@ -528,7 +552,8 @@ Claiborne</a>
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=G000183">William
 B. Giles</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 </td>

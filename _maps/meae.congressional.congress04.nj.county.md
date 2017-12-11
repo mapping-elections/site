@@ -41,6 +41,12 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+New Jersey elected four Federalists and one Democratic-Republican to the
+Fourth Congress.
+
+New Jersey used a statewide at-large method for electing members to
+Congress.
+
 ::: {.results-table}
 <table>
 <thead>
@@ -217,7 +223,8 @@ At-large
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=B000566">Joseph
 Bloomfield</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 2,736
@@ -256,7 +263,8 @@ At-large
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=L000336">James
 Linn</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 2,592
@@ -275,7 +283,8 @@ At-large
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=E000154">Ebenezer
 Elmer</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 2,390

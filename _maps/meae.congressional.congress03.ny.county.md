@@ -59,6 +59,13 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+New York elected seven Federalists and three Democratic-Republicans to
+the Third Congress.
+
+New York used a district system for electing members to Congress. After
+the 1790 Census, New York gained four seats in the House of
+Representatives.
+
 ::: {.results-table}
 <table>
 <thead>

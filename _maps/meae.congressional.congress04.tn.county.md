@@ -38,6 +38,15 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+In its first congressional election, Tennessee elected one
+representative to the Fourth Congress.
+
+Tennessee used a statewide at-large system for electing its members to
+Congress.
+
+Mapping this election is not possible because of the lack of election
+returns.
+
 ::: {.results-table}
 <table>
 <thead>
@@ -71,7 +80,8 @@ At-large
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=J000005">Andrew
 Jackson</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 1,113

@@ -106,6 +106,7 @@ Anti-Federalist
 Macon</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 1,133

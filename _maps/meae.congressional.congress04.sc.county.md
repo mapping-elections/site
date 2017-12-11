@@ -43,6 +43,17 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+South Carolina elected two Federalists and four members unaffiliated
+with a particular party to the Fourth Congress.
+
+Mapping this election is not possible because of lack of local election
+returns.
+
+In January 1795, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:sc.uscongress.specialelection.1795)
+was held in which Wade Hampton was elected to replace John Barnwell, who
+had been elected but declined to serve.
+
 ::: {.results-table}
 <table>
 <thead>
@@ -76,7 +87,8 @@ Elected
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=S000633">William
 Smith</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 698
@@ -96,7 +108,8 @@ Smith</a>
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=R000553">John
 Rutledge, Jr.</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 504
@@ -154,7 +167,8 @@ Federalist
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=H000982">John
 Hunter</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 992

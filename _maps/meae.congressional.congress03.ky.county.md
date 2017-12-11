@@ -40,6 +40,13 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+Kentucky elected two Democratic-Republicans to the Third Congress.
+
+Mapping this election is not possible because no returns survive at the
+county or district levels.
+
+Kentucky used a district system for electing members to Congress.
+
 ::: {.results-table}
 <table>
 <thead>
@@ -73,7 +80,8 @@ Elected
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=G000434">Christopher
 Greenup</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 </td>

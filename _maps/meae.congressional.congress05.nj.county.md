@@ -41,6 +41,11 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+New Jersey elected five Federalists to Congress.
+
+New Jersey used a statewide at-large method for electing members to
+Congress.
+
 ::: {.results-table}
 <table>
 <thead>

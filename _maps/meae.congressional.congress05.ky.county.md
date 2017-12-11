@@ -43,6 +43,13 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+Kentucky elected two representatives to the Fifth Congress.
+
+Mapping this election is not possible because of the lack of returns at
+the town or county level.
+
+Kentucky used a district system for electing members to Congress.
+
 ::: {.results-table}
 <table>
 <thead>
@@ -76,7 +83,8 @@ Elected
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=D000138">Thomas
 Terry Davis</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 </td>
@@ -95,7 +103,8 @@ unopposed
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=F000322">John
 Fowler</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 </td>

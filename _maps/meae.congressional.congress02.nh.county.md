@@ -41,6 +41,15 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+New Hampshire elected two Federalists and one Anti-Federalist to the
+Second Congress.
+
+Mapping this election is not possible because there are insufficient
+returns at the town and county levels.
+
+New Hampshire used a state-wide at-large system for electing members to
+Congress.
+
 ::: {.results-table}
 <table>
 <thead>
@@ -116,7 +125,8 @@ At-large
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=G000215">Nicholas
 Gilman</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 1,681
@@ -136,7 +146,8 @@ At-large
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=S000339">John
 Samuel Sherburne</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 1,591
@@ -154,7 +165,8 @@ At-large
 <td style="text-align:left;">
 scattering
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 1,329
@@ -212,7 +224,8 @@ At-large
 <td style="text-align:left;">
 Nathaniel Peabody
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 1,002

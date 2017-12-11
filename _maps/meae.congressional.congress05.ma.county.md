@@ -67,6 +67,16 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+Massachusetts elected six Federalists and eight members who had no
+official party affiliation to the Fifth Congress.
+
+Massachusetts used the district system for electing members to Congress.
+
+In 1797 Massachusett held a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.middle.4.special.1797)
+in which Bailey Bartlett was elected to replace Theophilus Bradley, who
+resigned from office.
+
 ::: {.results-table}
 <table>
 <thead>
@@ -100,7 +110,8 @@ Elected
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=S000471">Thompson
 J. Skinner</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 1,499
@@ -119,7 +130,8 @@ J. Skinner</a>
 <td style="text-align:left;">
 Ephraim Williams
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 1,160
@@ -138,7 +150,8 @@ Ephraim Williams
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=S000330">William
 Shepard</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 1,610
@@ -158,7 +171,8 @@ Shepard</a>
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=L000530">William
 Lyman</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 373
@@ -197,7 +211,8 @@ Federalist
 <td style="text-align:left;">
 Daniel Bigelow
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 172
@@ -237,7 +252,8 @@ Federalist
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=L000316">Levi
 Lincoln</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 263
@@ -256,7 +272,8 @@ Lincoln</a>
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=F000365">Nathaniel
 Freeman, Jr.</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 752
@@ -276,7 +293,8 @@ Freeman, Jr.</a>
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=C000591">Peleg
 Coffin, Jr.</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 164
@@ -315,7 +333,8 @@ Federalist
 <td style="text-align:left;">
 Edward H. Robbins
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 144
@@ -352,7 +371,8 @@ Other candidates
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=B001053">Stephen
 Bullock</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 1,039
@@ -372,7 +392,8 @@ Bullock</a>
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=W000329">Laban
 Wheaton</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 555
@@ -390,7 +411,8 @@ Wheaton</a>
 <td style="text-align:left;">
 Elisha May
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 208
@@ -429,7 +451,8 @@ Federalist
 <td style="text-align:left;">
 James Bowdoin
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 1,293
@@ -448,7 +471,8 @@ James Bowdoin
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=V000074">Joseph
 B. Varnum</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 1,199
@@ -467,7 +491,8 @@ B. Varnum</a>
 <td style="text-align:left;">
 Ebenezer Bridge
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 292
@@ -506,7 +531,8 @@ Federalist
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=S000259">Samuel
 Sewell</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 442
@@ -523,9 +549,10 @@ Sewell</a>
 10
 </td>
 <td style="text-align:left;">
-Leammi Baldwin
+Loammi Baldwin
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 209
@@ -563,7 +590,8 @@ Holten</a>
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=B000735">Theophilus
 Bradbury</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 527
@@ -593,7 +621,7 @@ Samuel Blanchard
 <td style="text-align:center;">
 </td>
 </tr>
-<tr class="district-unchanged" data-district-type="odd">
+<tr class="district-changed" data-district-type="odd">
 <td style="text-align:center;">
 11
 </td>
@@ -611,27 +639,6 @@ Other candidates
 <td style="text-align:center;">
 </td>
 </tr>
-<tr class="district-changed" data-district-type="odd">
-<td style="text-align:center;">
-11
-</td>
-<td style="text-align:left;">
-<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=B000198">Bailey
-Bartlett</a>
-</td>
-<td class="party-federalist" data-party="federalist">
-Federalist
-</td>
-<td style="text-align:right;">
-21
-</td>
-<td style="text-align:right;">
-3.3%
-</td>
-<td style="text-align:center;">
-✓
-</td>
-</tr>
 <tr class="district-unchanged" data-district-type="even">
 <td style="text-align:center;">
 12
@@ -640,7 +647,8 @@ Federalist
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=P000058">Isaac
 Parker</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 1,612
@@ -660,7 +668,8 @@ Parker</a>
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=D000178">Henry
 Dearborn</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 1,450
@@ -776,7 +785,8 @@ Joseph Morrill
 <td style="text-align:left;">
 Nathaniel Wells
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 54

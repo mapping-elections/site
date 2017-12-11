@@ -41,6 +41,19 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+Connecticut elected seven Federalists to the Fifth Congress.
+
+Mapping this election is not possible because of the lack of returns at
+the town or county level.
+
+Connecticut used a statewide at-large method for electing members to
+Congress.
+
+In October 1797, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ct.special.congress.1797)
+was held in which William Edmond was elected to replace James Davenport,
+who died while in office.
+
 ::: {.results-table}
 <table>
 <thead>

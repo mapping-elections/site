@@ -41,6 +41,13 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+Delaware elected a Federalist to its single seat in the Second Congress.
+
+Voting returns survive only for Kent County.
+
+Delaware used a state-wide at-large system for electing members to
+Congress.
+
 ::: {.results-table}
 <table>
 <thead>
@@ -74,7 +81,8 @@ At-large
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=V000104">John
 Vining</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 252
@@ -94,7 +102,8 @@ At-large
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=C000497">Joshua
 Clayton</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 145

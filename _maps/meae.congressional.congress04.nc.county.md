@@ -59,6 +59,16 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+North Carolina elected nine Republicans and one Federalist to the Fourth
+Congress.
+
+North Carolina used a district system for electing members to Congress.
+
+North Carolina held a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:nc.uscongress4.special.1795)
+in which Absalom Tatum was elected to replace Alexander Mebane, who died
+while in office.
+
 ::: {.results-table}
 <table>
 <thead>

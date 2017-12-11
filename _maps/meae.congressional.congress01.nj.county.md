@@ -79,7 +79,8 @@ At-large
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=S000150">James
 Schureman</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 13,871
@@ -99,7 +100,8 @@ At-large
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=C000012">Lambert
 Cadwallader</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 9,051
@@ -161,7 +163,8 @@ At-large
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=C000418">Abraham
 Clark</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 7,287
@@ -273,6 +276,7 @@ At-large
 Parker</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 1,724

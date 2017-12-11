@@ -41,6 +41,13 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+Pennsylvania voters elected seven Democratic-Republicans, five
+Federalists, and one unaffiliated candidate to the Third Congress.
+
+Pennsylvania returned to a state-wide at-large system for electing
+members to Congress. Following the 1790 Census, Pennsylvania gained five
+seats in the House of Representatives.
+
 ::: {.results-table}
 <table>
 <thead>
@@ -93,6 +100,7 @@ At-large
 Findley</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 33,314
@@ -113,6 +121,7 @@ At-large
 A. Muhlenberg</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 32,460
@@ -152,6 +161,7 @@ At-large
 Irvine</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 31,205
@@ -214,6 +224,7 @@ At-large
 Muhlenberg</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 24,971

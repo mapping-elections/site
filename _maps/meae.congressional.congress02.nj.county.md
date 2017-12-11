@@ -41,6 +41,12 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+New Jersey elected three Federalists and one Anti-Federalist to the
+Second Congress.
+
+New Jersey used a state-wide at-large method for electing members to
+Congress.
+
 ::: {.results-table}
 <table>
 <thead>
@@ -74,7 +80,8 @@ At-large
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=C000418">Abraham
 Clark</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 6,435
@@ -155,6 +162,7 @@ At-large
 Kitchel</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 2,828
@@ -195,6 +203,7 @@ At-large
 Linn</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 1,773

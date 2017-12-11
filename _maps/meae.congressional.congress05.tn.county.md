@@ -40,6 +40,17 @@ year: 1797
 <!--/html_preserve-->
 :::
 
+Tennessee elected one representative to the Fifth Congress.
+
+Mapping this election is incomplete because of the lack of returns at
+the town or county level in many areas.
+
+Tennessee re-elected Andrew Jackson to serve in the Fifth Congress. In
+September 1797, Jackson resigned from the House of Representatives in
+order to accept a seat in the US Senate. Tennessee held a special
+election which elected William Charles Cole Claiborne, which is the
+election presented here.
+
 ::: {.results-table}
 <table>
 <thead>
@@ -73,7 +84,8 @@ At-large
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=C000408">William
 Charles Cole Clairborne</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 </td>

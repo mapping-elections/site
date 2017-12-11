@@ -43,6 +43,14 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+Vermont sent one Federalist and one Democratic-Republican to the Fifth
+Congress.
+
+Mapping this election is not possible because of the lack of returns at
+the town or county levels.
+
+Vermont used the district system for electing members to Congress.
+
 ::: {.results-table}
 <table>
 <thead>

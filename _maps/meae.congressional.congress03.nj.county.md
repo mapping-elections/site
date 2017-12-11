@@ -41,6 +41,16 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+New Jersey elected five Federalists to the Third Congress.
+
+New Jersey used a state-wide at-large system for electing members to
+Congress. New Jersey gained a seat in the House of Representatives
+following the 1790 Census.
+
+Abraham Clark died in office. In January 1795, a [special
+election](http://elections.lib.tufts.edu/catalog/tufts:nj.uscongress.special.1795)
+was held and Aaron Kitchel was elected to replace Clark.
+
 ::: {.results-table}
 <table>
 <thead>
@@ -116,7 +126,8 @@ At-large
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=C000418">Abraham
 Clark</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 5,035
@@ -199,6 +210,7 @@ At-large
 Kitchel</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 3,656
@@ -236,6 +248,7 @@ At-large
 Linn</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 2,222

@@ -55,6 +55,11 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+Maryland elected six Federalists and two Democratic-Republicans to the
+Fifth Congress.
+
+Maryland used a district system for electing members to Congress.
+
 ::: {.results-table}
 <table>
 <thead>

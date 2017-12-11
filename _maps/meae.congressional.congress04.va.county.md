@@ -77,6 +77,11 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+Virginia elected nineteen representatives to the Fourth Congress, two of
+whom identified as Federalist and one as Democratic-Republican.
+
+Virginia used a district system for electing members to Congress.
+
 ::: {.results-table}
 <table>
 <thead>
@@ -110,7 +115,8 @@ Elected
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=R000548">Robert
 Rutherford</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 </td>
@@ -128,7 +134,8 @@ Rutherford</a>
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=M000891">Andrew
 Moore</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 </td>
@@ -166,8 +173,8 @@ Democratic-Republican
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=P000514">Francis
 Preston</a>
 </td>
-<td class="party-federalist" data-party="federalist">
-Federalist
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 </td>
@@ -185,7 +192,8 @@ Federalist
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=H000148">George
 Hancock</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 </td>
@@ -204,7 +212,8 @@ unopposed
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=C000624">Isaac
 Coles</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 </td>
@@ -222,7 +231,8 @@ Coles</a>
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=V000083">Abraham
 B. Venable</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 761
@@ -241,7 +251,8 @@ B. Venable</a>
 <td style="text-align:left;">
 Thomas Woodson
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 247
@@ -259,7 +270,8 @@ Thomas Woodson
 <td style="text-align:left;">
 Joseph Wyatt
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 236
@@ -278,7 +290,8 @@ Joseph Wyatt
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=C000406">Thomas
 Claiborne</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 </td>
@@ -296,8 +309,8 @@ Claiborne</a>
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=G000183">William
 B. Giles</a>
 </td>
-<td class="party-federalist" data-party="federalist">
-Federalist
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 </td>
@@ -316,7 +329,8 @@ unopposed
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=H000266">Carter
 B. Harrison</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 </td>
@@ -335,7 +349,8 @@ unopposed
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=P000065">Josiah
 Parker</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 </td>
@@ -353,7 +368,8 @@ Parker</a>
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=P000018">John
 Page</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 </td>
@@ -372,7 +388,8 @@ unopposed
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=C000531">John
 Clopton</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 432
@@ -392,7 +409,8 @@ Clopton</a>
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=B000224">Burwell
 Bassett</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 422
@@ -411,7 +429,8 @@ Bassett</a>
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=C000005">Samuel
 Jordan Cabell</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 </td>
@@ -430,7 +449,8 @@ unopposed
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=M000043">James
 Madison</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 </td>
@@ -449,7 +469,8 @@ unopposed
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=N000058">Anthony
 New</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 </td>
@@ -467,7 +488,8 @@ New</a>
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=L000200">Richard
 B. Lee</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 </td>
@@ -485,7 +507,8 @@ B. Lee</a>
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=N000084">John
 Nicholas</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 </td>
@@ -504,7 +527,8 @@ unopposed
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=H000431">John
 Heath</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 </td>

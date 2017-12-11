@@ -40,6 +40,18 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+Connecticut elected five Federalists to the second Congress.
+
+Mapping this election is not possible because there are insufficient
+returns at the town and county levels.
+
+Connecticut used a state-wide at-large system for electing members to
+Congress.
+
+Among those elected, Pierpont Edwards declined to serve and was replaced
+by Jeremiah Wadsworth in a [special
+election](http://elections.lib.tufts.edu/catalog/tufts:ct.special.congress.1790).
+
 ::: {.results-table}
 <table>
 <thead>

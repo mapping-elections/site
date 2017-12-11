@@ -55,6 +55,15 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+Pennsylvania sent six Federalists and two Democratic-Republicans to the
+Second Congress.
+
+For this election Pennsylvania changed from a state-wide at-large system
+to a district system for electing members to Congress.
+
+Votes tallied for the city of Philadelphia are shown separately, and
+they are in addition to the votes reported for Philadelphia County.
+
 ::: {.results-table}
 <table>
 <thead>

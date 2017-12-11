@@ -41,6 +41,21 @@ image: '/content-img/MD02-featured.png'
 <!--/html_preserve-->
 :::
 
+Maryland's elections to the second Congress featured the brief rise of
+two local parties, the Chesapeake and Potomac parties. Four of the
+Federalist incumbents sought re-election as part of the Potomac Party,
+while one incumbent, Joshua Seney, represented the Chesapeake Party. In
+the second congressional election, voters elected all six candidates
+from the Chesapeake Party, including Seney.
+
+Maryland used a state-wide at-large system for electing members to
+Congress. Candidates had to be residents of a specific Congressional
+district.
+
+Votes tallied for the cities of Baltimore and Annapolis are shown
+separately, and they are in addition to the votes reported for Baltimore
+County and Anne Arundel County.
+
 ::: {.results-table}
 <table>
 <thead>

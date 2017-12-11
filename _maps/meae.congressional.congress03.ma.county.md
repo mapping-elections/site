@@ -120,7 +120,8 @@ At-large
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=C000545">David
 Cobb</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 4,553
@@ -140,7 +141,8 @@ At-large
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=H000750">Samuel
 Holten</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 4,544
@@ -182,6 +184,7 @@ At-large
 Lyman</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 3,283
@@ -381,7 +384,8 @@ At-large
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=B000671">Shearjashub
 Bourne</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 1,585
@@ -422,7 +426,8 @@ At-large
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=D000117">John
 Davis</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 1,231
@@ -442,6 +447,7 @@ At-large
 J. Skinner</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 1,143
@@ -461,6 +467,7 @@ At-large
 Dearborn</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 1,107
@@ -481,6 +488,7 @@ At-large
 Coffin, Jr.</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 1,079
@@ -501,6 +509,7 @@ At-large
 Grout</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 1,054
@@ -519,6 +528,7 @@ At-large
 Charles Jarvis
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 893
@@ -536,7 +546,8 @@ At-large
 <td style="text-align:left;">
 Nathaniel Wells
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 808
@@ -556,6 +567,7 @@ At-large
 B. Varnum</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 743
@@ -592,7 +604,8 @@ At-large
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=L000246">George
 Leonard</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 691

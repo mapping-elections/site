@@ -41,6 +41,12 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+Georgia elected two representatives not officially affiliated with any
+party to the Fourth Congress.
+
+Georgia used a statewide at-large system for electing members to
+Congress.
+
 ::: {.results-table}
 <table>
 <thead>
@@ -74,7 +80,8 @@ At-large
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=M000712">John
 Milledge</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 1,487
@@ -94,7 +101,8 @@ At-large
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=B000084">Abraham
 Baldwin</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 1,391
@@ -114,7 +122,8 @@ At-large
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=C000163">Thomas
 P. Carnes</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 1,150
@@ -132,7 +141,8 @@ At-large
 <td style="text-align:left;">
 Jacob B. Waldburber
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 1,143
@@ -150,7 +160,8 @@ At-large
 <td style="text-align:left;">
 James Sims
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 941
@@ -169,7 +180,8 @@ At-large
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=W000560">Francis
 Willis</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 765

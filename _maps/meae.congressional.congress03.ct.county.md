@@ -41,6 +41,21 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+Connecticut elected seven Federalists to the Third Congress.
+
+Mapping this election is not possible because there are insufficient
+returns at the town and county levels.
+
+Connecticut used a state-wide at-large system for electing members to
+Congress.
+
+Several of Connecticut's Congressmen were replaced in two different
+special elections in
+[May](https://elections.lib.tufts.edu/catalog/tufts:ct.special.congress.1793)
+and
+[December](https://elections.lib.tufts.edu/catalog/tufts:ct.special2.congress.1793)
+1793.
+
 ::: {.results-table}
 <table>
 <thead>

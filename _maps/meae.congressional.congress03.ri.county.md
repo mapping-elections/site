@@ -41,6 +41,15 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+Rhode Island elected two Federalists to the Third Congress.
+
+Mapping this election is not possible because there are insufficient
+returns at the town and county levels.
+
+Rhode Island used a state-wide at-large system for electing members to
+Congress. After the 1790 Census, Rhode Island gained a seat in the House
+of Representatives.
+
 ::: {.results-table}
 <table>
 <thead>

@@ -41,6 +41,20 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+Connecticut elected seven Federalists to the Fourth Congress, five of
+whom were incumbents.
+
+Mapping this election is not possible because there are insufficient
+returns at the town and county levels.
+
+Connecticut used a statewide at-large system for electing members to
+Congress.
+
+In May 1795, Nathaniel Smith was elected in a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ct.special.congress.1795)
+to fill the seat vacated by Jonathan Trumbull after he was elected to
+the U.S. Senate.
+
 ::: {.results-table}
 <table>
 <thead>

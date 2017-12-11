@@ -43,6 +43,14 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+Rhode Island elected two Federalists to the Fourth Congress.
+
+Mapping this election is not possible because of the lack of returns at
+the town or county level.
+
+Rhode Island used a statewide at-large method for electing members to
+Congress. Its two representatives were elected on separate tickets.
+
 ::: {.results-table}
 <table>
 <thead>

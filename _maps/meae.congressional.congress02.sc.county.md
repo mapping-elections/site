@@ -49,6 +49,14 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+South Carolina elected three Federalists and two Anti-Federalists to the
+Second Congress.
+
+Most of South Carolina's parishes cannot be mapped because there are
+insufficient returns at the parish level.
+
+South Carolina used a district system for electing members to Congress.
+
 ::: {.results-table}
 <table>
 <thead>
@@ -82,7 +90,8 @@ Elected
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=S000633">William
 Smith</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 </td>
@@ -101,7 +110,8 @@ unopposed
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=B000167">Robert
 Barnwell</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 </td>
@@ -120,7 +130,8 @@ unopposed
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=H000916">Daniel
 Huger</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 </td>
@@ -140,6 +151,7 @@ unopposed
 Sumter</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 </td>
@@ -159,6 +171,7 @@ unopposed
 Tudor Tucker</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 </td>

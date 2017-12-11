@@ -59,6 +59,11 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+New York elected six Federalists and four Democratic-Republicans to the
+Fifth Congress.
+
+New York used the district system for electing members to Congress.
+
 ::: {.results-table}
 <table>
 <thead>

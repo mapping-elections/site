@@ -59,6 +59,16 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+North Carolina elected ten Democratic-Republicans to the Fifth Congress.
+
+North Carolina used the district system for electing members to
+Congress.
+
+In August 1798, North Carolina held a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:nc.uscongress10.special.1798)
+in which Nathan Bryan was elected to replace Richard Spraight, who died
+while in office.
+
 ::: {.results-table}
 <table>
 <thead>
@@ -358,7 +368,6 @@ Federalist
 45.9%
 </td>
 <td style="text-align:center;">
-✓
 </td>
 </tr>
 </tbody>

@@ -77,6 +77,15 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+Virginia elected fifteen Republicans and four Federalists to the Fifth
+Congress.
+
+Virginia used the district system for electing members to Congress. In
+1798, Virginia held a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:va.uscongress.9.special.1798)
+in which Joseph Eggleston was elected to replace William B. Giles, who
+resigned from office.
+
 ::: {.results-table}
 <table>
 <thead>

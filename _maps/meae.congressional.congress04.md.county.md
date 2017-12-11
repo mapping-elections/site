@@ -54,6 +54,19 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+Maryland elected five Federalists and three Democratic-Republicans to
+the Fourth Congress.
+
+Maryland used a district system for electing members to Congress.
+
+In October 1796 a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:md.uscongress2.special.1796)
+was held in which Richard Sprigg was elected to replace Gabriel Duvall,
+who resigned from office. Another [special
+election](https://elections.lib.tufts.edu/catalog/tufts:md.uscongress3.special.1796)
+was held in which William Craik was elected to replace Jeremiah Crabb,
+who resigned from office.
+
 ::: {.results-table}
 <table>
 <thead>
