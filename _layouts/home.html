@@ -14,9 +14,9 @@
                     <img src="{{ site.url }}{{ post.image }}" alt="" />
                 </div>
                 <div class="large-8 column">
-                    <h3><a href="{{ post.url }}" title="">{{ post.title }}</a></h3>
+                  <h3><a href="{{ site.url }}{{ post.url }}" title="">{{ post.title }}</a></h3>
                     <span class="blogdate">{{ post.date | date: "%B %-d, %Y" }}</span>
-                    <div class="post-excerpt"><p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}&nbsp;<a href="{{ post.url }}">Read More &rarr;</a></p></div>
+                    <div class="post-excerpt"><p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}&nbsp;<a href="{{ site.url }}{{ post.url }}">Read More &rarr;</a></p></div>
                 </div>
             </div>
             </div>
