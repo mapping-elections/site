@@ -66,6 +66,10 @@ map_id %>%
 
 </div>
 
+In a shift from the First Congress, Massachusetts elected seven Federalists and one Anti-Federalist to the Second Congress. 
+ 
+Massachusetts used a district system for electing members to Congress. Massachusetts law required a majority vote for election and so congressional elections in districts five, six, seven, and eight required multiple ballots to determine a final winner.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
