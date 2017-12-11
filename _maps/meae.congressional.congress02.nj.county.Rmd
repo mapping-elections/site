@@ -51,6 +51,10 @@ map_id %>%
 
 </div>
 
+New Jersey elected three Federalists and one Anti-Federalist to the Second Congress.
+
+New Jersey used a state-wide at-large method for electing members to Congress. 
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
