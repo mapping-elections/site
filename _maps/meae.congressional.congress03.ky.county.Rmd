@@ -50,6 +50,12 @@ map_id %>%
 
 </div>
 
+Kentucky elected two Democratic-Republicans to the Third Congress.
+
+Mapping this election is not possible because no returns survive at the county or district levels.
+
+Kentucky used a district system for electing members to Congress.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
