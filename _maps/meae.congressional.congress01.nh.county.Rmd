@@ -47,7 +47,7 @@ map_id %>%
 
 </div>
 
-New Hampshire elected four Federalists and one unaffiliated candidate to the First Congress. 
+New Hampshire elected three Federalists to the First Congress. 
 
 Mapping this election is not possible because there are insufficient returns at the town and county levels.
 
