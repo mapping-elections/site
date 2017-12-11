@@ -51,7 +51,7 @@ map_id %>%
 
 </div>
 
-New Hampshire elected two Federalists and one Anti-Federalist to the Second Congress.
+New Hampshire elected three Federalists to the Second Congress.
 
 Mapping this election is not possible because there are insufficient returns at the town and county levels.
 
