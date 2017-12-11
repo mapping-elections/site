@@ -51,7 +51,7 @@ map_id %>%
 
 </div>
 
-New Hampshire elected two Federalists and two Anti-Federalists to the Third Congress.
+New Hampshire elected four Federalists to the Third Congress.
 
 Mapping this election is not possible because there are insufficient returns at the town and county levels.
 
