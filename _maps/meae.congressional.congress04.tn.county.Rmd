@@ -48,6 +48,12 @@ map_id %>%
 
 </div>
 
+In its first congressional election, Tennessee elected one representative to the Fourth Congress.
+
+Tennessee used a statewide at-large system for electing its members to Congress.
+
+Mapping this election is not possible because of the lack of election returns.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
