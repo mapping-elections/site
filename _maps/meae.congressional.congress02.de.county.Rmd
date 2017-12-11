@@ -51,6 +51,12 @@ map_id %>%
 
 </div>
 
+Delaware elected a Federalist to its single seat in the Second Congress.
+
+Voting returns survive only for Kent County. 
+
+Delaware used a state-wide at-large system for electing members to Congress.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

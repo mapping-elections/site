@@ -69,6 +69,12 @@ map_id %>%
 
 </div>
 
+For the Second Congress, Virginia elected eight Anti-Federalists and two Federalists to the Second Congress. 
+
+Insufficient returns make it impossible to report specific vote totals or percentages in some districts. 
+
+Virginia used a district system for electing members to Congress.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

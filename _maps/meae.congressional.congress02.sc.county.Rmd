@@ -59,6 +59,12 @@ map_id %>%
 
 </div>
 
+South Carolina elected three Federalists and two Anti-Federalists to the Second Congress.
+
+Most of South Carolina’s parishes cannot be mapped because there are insufficient returns at the parish level.
+
+South Carolina used a district system for electing members to Congress.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
