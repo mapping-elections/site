@@ -37,6 +37,18 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+New Hampshire elected four Federalists and one unaffiliated candidate to
+the First Congress.
+
+Mapping this election is not possible because there are insufficient
+returns at the town and county levels.
+
+New Hampshire used a state-wide at-large system to elect members of
+Congress. These candidate were elected on the second ballot. Benjamin
+West declined his election and was replaced by Abiel Foster in a
+[special
+election](https://elections.lib.tufts.edu/catalog/tufts:nh.uscongress.special.1789).
+
 ::: {.results-table}
 <table>
 <thead>

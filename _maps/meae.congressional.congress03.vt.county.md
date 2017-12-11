@@ -95,7 +95,8 @@ Smith</a>
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=L000545">Matthew
 Lyon</a>
 </td>
-<td style="text-align:left;">
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 1,719

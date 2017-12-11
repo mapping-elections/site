@@ -56,18 +56,10 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
-Virginia's first Congressional election utilized a district-based
-electoral system. Because the state was to seat ten representatives in
-Congress, the state was divided into ten districts, with each district
-electing a candidate from their own district. Because political parties
-had not been fully developed in Virginia at the time, all ten
-representatives elected were unaffiliated with a party. Three
-candidates, White from District 1, Brown from District 2, and Coles from
-District 3 stood unopposed. The other candidates listed did have
-opponents, but in many districts, insufficient returns make it
-impossible to report specific vote totals or percentages. In fact, out
-of all ten districts, only District 5 had full returns. Therefore, we do
-know that James Monroe lost to James Madison by 336 votes.
+Virginia elected three Federalists and seven Anti-Federalists candidates
+to the First Congress.
+
+Virginia used a district system to elect members to Congress.
 
 ::: {.results-table}
 <table>
@@ -102,7 +94,8 @@ Elected
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=W000352">Alexander
 White</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 </td>
@@ -121,7 +114,8 @@ unopposed
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=B000929">John
 Brown</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 </td>
@@ -140,7 +134,8 @@ unopposed
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=M000891">Andrew
 Moore</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 </td>
@@ -158,7 +153,8 @@ Moore</a>
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=L000200">Richard
 Bland Lee</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 </td>
@@ -176,7 +172,8 @@ Bland Lee</a>
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=M000043">James
 Madison</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 1,308
@@ -197,6 +194,7 @@ Madison</a>
 Monroe</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 972
@@ -216,6 +214,7 @@ Monroe</a>
 Coles</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 </td>
@@ -234,7 +233,8 @@ unopposed
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=P000018">John
 Page</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 </td>
@@ -253,6 +253,7 @@ Page</a>
 Parker</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 976
@@ -271,7 +272,8 @@ Parker</a>
 <td style="text-align:left;">
 Thomas Mathews
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 805
@@ -289,7 +291,8 @@ Thomas Mathews
 <td style="text-align:left;">
 Isaac Avery
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 246
@@ -309,6 +312,7 @@ Isaac Avery
 Bland</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 </td>
@@ -326,7 +330,8 @@ Bland</a>
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=G000466">Samuel
 Griffin</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 </td>

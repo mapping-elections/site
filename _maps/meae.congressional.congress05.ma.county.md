@@ -6,8 +6,8 @@ state: Massachusetts
 geography: county
 congressnum: 5
 congressordinal: 5th
-title: '5th Congress: Massachusetts 1797'
-year: 1797
+title: '5th Congress: Massachusetts 1796'
+year: 1796
 legend: fed-vs-anti
 nnv:
 - id: ma.uscongress.western.1.1796

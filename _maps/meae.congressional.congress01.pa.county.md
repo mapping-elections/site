@@ -38,19 +38,11 @@ image: '/content-img/PA01-featured.png'
 <!--/html_preserve-->
 :::
 
-Elections to the First Congress from Pennsylvania were held at-large in
-the entire state, without residency requirements for the eight spots in
-the House of Representatives.
+Pennsylvania elected six Federalists and two Anti-Federalists to the
+First Congress.
 
-The primary breakdown in the election was between the heavily populated
-counties in the southeastern part of the state near Philadelphia and the
-more sparsely populated counties in the rest of the state. Philadelphia
-and its environs voted heavily for the Federalists, while the rest of
-the state voted mostly Anti-Federalist. But the larger populations of
-the southeastern counties, especially the city of Philadelphia and the
-counties of York, Chester, and Bucks, produced state-wide majorities for
-the Federalists. Cumberland County was the only heavily populated county
-to vote overwhelmingly for the Federalists.
+Pennsylvania used a state-wide at-large system to elect members to
+Congress. There were no residency requirements for the eight seats.
 
 ::: {.results-table}
 <table>

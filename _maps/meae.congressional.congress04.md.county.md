@@ -310,8 +310,7 @@ Federalist
 7
 </td>
 <td style="text-align:left;">
-<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=J000012">George
-Jackson</a>
+George Jackson
 </td>
 <td class="party-demrep" data-party="demrep">
 Democratic-Republican

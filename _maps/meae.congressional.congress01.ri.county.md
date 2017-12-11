@@ -38,8 +38,14 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
-NNV contains insufficient electoral results to make a meaningful map for
-the First Congress. Benjamin Bourne, a Federalist, was elected.
+Rhode Island elected a Federalist to its single seat in the First
+Congress.
+
+Mapping this election is not possible because there are insufficient
+returns at the town and county levels.
+
+Rhode Island used a state-wide at-large system to elect members to
+Congress.
 
 ::: {.results-table}
 <table>

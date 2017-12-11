@@ -156,7 +156,8 @@ unopposed
 5
 </td>
 <td style="text-align:left;">
-John Hunter
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=H000982">John
+Hunter</a>
 </td>
 <td style="text-align:left;">
 </td>

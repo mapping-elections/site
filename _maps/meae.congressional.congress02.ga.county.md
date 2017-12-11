@@ -157,7 +157,8 @@ Federalist
 3
 </td>
 <td style="text-align:left;">
-Francis Willis
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=W000560">Francis
+Willis</a>
 </td>
 <td style="text-align:left;">
 Anti-Federalist

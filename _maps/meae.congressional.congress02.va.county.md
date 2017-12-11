@@ -92,7 +92,8 @@ Elected
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=W000352">Alexander
 White</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 999
@@ -130,7 +131,8 @@ J.P. Duval
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=B000929">John
 Brown</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 </td>
@@ -148,7 +150,8 @@ Brown</a>
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=M000891">Andrew
 Moore</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 </td>
@@ -167,7 +170,8 @@ unopposed
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=L000200">Richard
 Bland Lee</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 954
@@ -187,6 +191,7 @@ Bland Lee</a>
 Arthur Lee
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 582
@@ -205,7 +210,8 @@ Arthur Lee
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=M000043">James
 Madison</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 </td>
@@ -224,6 +230,7 @@ Madison</a>
 B. Venable</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 </td>
@@ -241,7 +248,8 @@ B. Venable</a>
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=P000018">John
 Page</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 </td>
@@ -260,6 +268,7 @@ Page</a>
 Parker</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 </td>
@@ -278,6 +287,7 @@ Parker</a>
 B. Giles</a>
 </td>
 <td style="text-align:left;">
+Anti-Federalist
 </td>
 <td style="text-align:right;">
 2,097
@@ -296,7 +306,8 @@ B. Giles</a>
 <td style="text-align:left;">
 Thomas Edmonds
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 1,435
@@ -315,7 +326,8 @@ Thomas Edmonds
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=G000466">Samuel
 Griffin</a>
 </td>
-<td style="text-align:left;">
+<td class="party-federalist" data-party="federalist">
+Federalist
 </td>
 <td style="text-align:right;">
 </td>

@@ -37,21 +37,14 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
+New Jersey elected two Federalists and two unaffiliated candidates to
+the First Congress.
+
+New Jersey used a state-wide at-large system to elect members of
+Congress.
+
 The results from Cumberland County were included in the reports from
 Cape May County.
-
-In an at-large election, New Jersey voters chose two unaffiliated and
-two Federalist candidates. A local newspaper, *The New-Jersey Journal,
-and Political Intelligencer*, urged voters to make a "prudent choice" so
-as to "gain a representation that not only knows, but feels, the wants
-and wishes of their constituents." Over forty such men were named by New
-Jersey voters. Unaffiliated candidates James Schureman and Lambert
-Cadwallader received the most votes, while Federalist candidates Elias
-Boudinot and Thomas Sinnickson received enough votes to be elected. In
-the southern part of the state, votes were split more evenly between the
-Federalist and unaffiliated candidates. In the northern part of the
-state (with the exception of Bergen County), voters overwhelming chose
-unaffiliated candidates.
 
 ::: {.results-table}
 <table>

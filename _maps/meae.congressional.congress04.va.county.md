@@ -144,7 +144,8 @@ unopposed
 3
 </td>
 <td style="text-align:left;">
-George Jackson
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=J000012">George
+Jackson</a>
 </td>
 <td class="party-demrep" data-party="demrep">
 Democratic-Republican

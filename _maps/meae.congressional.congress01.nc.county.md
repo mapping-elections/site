@@ -45,26 +45,11 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
-In the first district, the Anti-Federalist John Baptist Ashe won with
-only 49 percent of the vote, since the majority of the vote was divided
-between two candidates without party affiliations, Nathaniel Macon and
-Stephen Moore.
+North Carolina elected three Anti-Federalists and two Federalists to the
+First Congress.
 
-The third and fourth districts elected Anti-Federalists. In the third
-district, Anti-Federalist Timothy Bloodworth was elected; however,
-returns are available only for Onslow County. In the fourth district,
-the Anti-Federalist John Steele was elected. County level returns within
-that district are available only for Stokes and Surry Counties, where
-the majority of the vote when to Steele's opponent, the Federalist
-Joseph MacDowell. The remaining counties are displayed as
-Anti-Federalist, though this must be interpreted cautiously since some
-of those counties may have voted for the Federalists. ([See NNV returns
-for North Carolina's fourth
-district](http://elections.lib.tufts.edu/catalog/tufts:nc.uscongress4.1790).)
-
-In the fifth district, Federalist John Sevier was elected without
-opposition. This district became a federal territory before the Second
-Congress.
+North Carolina used a district system to elect members of Congress. The
+fifth district became a federal territory before the Second Congress.
 
 ::: {.results-table}
 <table>
