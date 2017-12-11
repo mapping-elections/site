@@ -69,6 +69,10 @@ map_id %>%
 
 </div>
 
+New York elected six Republicans and four Federalists to the Fourth Congress.
+
+New York used a district system for electing members to Congress.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

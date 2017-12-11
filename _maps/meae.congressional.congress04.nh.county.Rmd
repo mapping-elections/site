@@ -51,6 +51,12 @@ map_id %>%
 
 </div>
 
+New Hampshire elected two Federalists and two members not officially affiliated with a party to the Fourth Congress.
+
+Mapping this election is not possible because of insufficient returns at the town or county level.
+
+Although New Hampshire used a statewide at-large method for electing members to Congress, state law required that candidates receive a majority of votes in order to win. In a second runoff election, Abiel Foster beat the incumbent Paine Wingate.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

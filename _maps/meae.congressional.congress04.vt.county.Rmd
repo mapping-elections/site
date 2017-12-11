@@ -53,6 +53,10 @@ map_id %>%
 
 </div>
 
+Vermont elected two Federalists to the Fourth Congress.
+
+Vermont used a district system for electing its members to Congress. 
+ 
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

@@ -89,6 +89,14 @@ map_id %>%
 
 </div>
 
+Pennsylvania elected seven Federalists and six Democratic-Republicans to the Fourth Congress.
+
+In this election, Pennsylvania switched from a statewide at-large method for electing members to Congress to a single-district system, except for the Fourth District which, because of its dense population, elected two members.
+
+In July 1796, Pennsylvania held a [special election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress5.specialelection.1796) which elected George Ege to replace Daniel Hiester, who resigned his seat.
+
+In 1797, Pennsylvania held a [special election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress5.specialelection.1797) which elected Daniel Hiester to replace George Ege, who resigned his seat.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
