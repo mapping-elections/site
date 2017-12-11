@@ -54,6 +54,10 @@ map_id %>%
 
 </div>
 
+Georgia elected two representatives not officially affiliated with any party to the Fourth Congress.
+
+Georgia used a statewide at-large system for electing members to Congress.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
