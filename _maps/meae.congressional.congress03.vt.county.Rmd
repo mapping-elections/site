@@ -52,6 +52,10 @@ map_id %>%
 
 </div>
 
+Vermont elected two Anti-Federalists to the Third Congress.
+
+Vermont used a district system for electing members to Congress. Vermont’s number of seats in the House of Representatives was unchanged following the 1790 Census.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
