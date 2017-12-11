@@ -88,6 +88,12 @@ map_id %>%
 
 </div>
 
+Virginia elected twelve Democratic-Republicans, six Federalists, and one unaffiliated candidate to the Third Congress.
+
+Returns for Virginia’s elections to the Third Congress are often incomplete, in large part because so many elections were unopposed.
+
+Virginia used a district system for electing members to Congress. Following the 1790 Census, Virginia gained nine seats in the House of Representatives.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
