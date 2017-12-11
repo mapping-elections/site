@@ -78,6 +78,12 @@ map_id %>%
 
 </div>
 
+Massachusetts elected six Federalists and eight members who had no official party affiliation to the Fifth Congress.
+
+Massachusetts used the district system for electing members to Congress.
+
+In 1797 Massachusett held a [special election](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.middle.4.special.1797) in which Bailey Bartlett was elected to replace Theophilus Bradley, who resigned from office.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
