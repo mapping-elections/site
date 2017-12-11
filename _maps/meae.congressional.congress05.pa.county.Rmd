@@ -89,6 +89,13 @@ map_id %>%
 
 </div>
 
+Pennsylvania elected six Federalists and seven Democratic-Republicans to the Fifth Congress. 
+
+Pennsylvania continued to use a single-district method for electing members to Congress, except for District 4, which elected two representatives. 
+
+In October 1798, Pennsylvania held a [special election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress1.special.1798) in which Robert Wain was elected to replace John Swanick, who died in office.
+In October 1798, Pennsylvania held a [special election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress4.special.1798) in which Robert Brown was elected to replace Samuel Sitgreaves, who had resigned from office.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
