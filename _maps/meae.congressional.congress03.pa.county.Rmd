@@ -1,17 +1,20 @@
 ---
-meae-id: meae.congressional.congress03.pa.county
-type: congressional
-level: state
-state: Pennsylvania
-geography: county
+title: '3rd Congress: Pennsylvania 1792'
 congressnum: 3
 congressordinal: 3rd
-title: '3rd Congress: Pennsylvania 1792'
-year: 1792
+output:
+  html_document:
+    theme: default
+  md_document:
+    variant: markdown
+layout: maps-show
 legend: fed-vs-rep
+level: state
+meae-id: meae.congressional.congress03.pa.county
 nnv:
 - id: pa.uscongress.1792
   name: PA US Congress 1792 At Large
+geography: county
 related-maps:
 - id: meae.congressional.congress02.pa.county
   name: PA 2nd Congress
@@ -19,17 +22,10 @@ related-maps:
 - id: meae.congressional.congress04.pa.county
   name: PA 4th Congress
   type: next
-# - id: meae.congressional.congress03.national.district
-#   name: National 3rd Congress
-#   type: national
-output:
-  md_document:
-    variant: markdown
-  html_document:
-    theme: default
+state: Pennsylvania
 always_allow_html: yes
-layout: maps-show
-
+type: congressional
+year: 1792
 ---
 
 ```{r setup, include = FALSE}
@@ -39,6 +35,9 @@ library(USAboundaries)
 library(mappingelections)
 
 map_id <- "meae.congressional.congress03.pa.county"
+cities <- tribble(
+  ~city, ~lat, ~lng, ~federalist_percentage, ~demrep_percentage, ~other_percentage, ~federalist_vote, ~demrep_vote, ~other_vote,
+  "Philadelphia", 39.9526, -75.1652, 0.357, 0.505, 0.138, 155568, 219911, 60230)
 ```
 
 <div class="map">
@@ -46,7 +45,23 @@ map_id <- "meae.congressional.congress03.pa.county"
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>%
-  map_counties(height = "500px")
+  map_counties(height = "500px", cities = 0) %>% 
+  addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
+                 fillColor = mappingelections:::poli_chrome(cities),
+                 opacity = 1, fillOpacity = 0.8, radius = 8, weight = 3,
+                 popup = ~paste0("<b>City of ", city, "</b><br/>",
+                                 "Congressional District: 1<br/>",
+                                 "Federalists: ", federalist_percentage * 100, "% (", 
+                                 prettyNum(federalist_vote, big.mark = ","), 
+                                 " votes)<br/>",
+                                 "Democratic-Republicans: ", demrep_percentage * 100,
+                                 "% (", 
+                                 prettyNum(demrep_vote, big.mark = ","),
+                                 " votes)<br/>",
+                                 "Unaffiliated: ", other_percentage * 100, "% (", 
+                                 prettyNum(other_vote, big.mark = ","), 
+                                 " votes)"),
+                 label = ~city) 
 ```
 
 </div>
