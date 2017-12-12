@@ -15,14 +15,14 @@ clobber-maps :
 	@echo "Clobbering the generated maps ..."
 	rm -f _maps/*.md
 
-deploy : clean
+deploy : clean $(MAPPAGES)
 	@echo "Building dev site ..."
 	bundle exec jekyll build --config _config.yml,_config-dev.yml --future
 	@echo "Deploying to dev server ..."
 	rsync --checksum --delete -avz _site/* earlyamerican:/websites/earlyamer/www/dev/
 	@echo "Done."
 
-deploy-production : clean
+deploy-production : clean $(MAPPAGES)
 	@echo "Building site ..."
 	bundle exec jekyll build
 	@echo "Deploying to production server ..."
