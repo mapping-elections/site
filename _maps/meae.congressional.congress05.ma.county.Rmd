@@ -8,7 +8,7 @@ congressnum: 5
 congressordinal: 5th
 title: '5th Congress: Massachusetts 1796'
 year: 1796
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: ma.uscongress.western.1.1796
   name: MA US Congress 1796 District 1
@@ -78,7 +78,7 @@ map_id %>%
 
 </div>
 
-Massachusetts elected six Federalists and eight members who had no official party affiliation to the Fifth Congress.
+Massachusetts elected eleven Federalists and three Democratic-Republicans to the Fifth Congress.
 
 Massachusetts used the district system for electing members to Congress.
 
