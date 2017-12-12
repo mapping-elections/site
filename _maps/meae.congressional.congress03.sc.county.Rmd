@@ -8,7 +8,7 @@ congressnum: 3
 congressordinal: 3rd
 title: '3rd Congress: South Carolina 1793'
 year: 1793
-legend: fed-vs-rep
+legend: fed-vs-anti
 nnv:
 - id: sc.uscongress.district1.1793
   name: SC US Congress 1793 District 1
