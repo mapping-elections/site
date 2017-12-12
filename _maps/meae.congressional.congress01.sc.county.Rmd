@@ -47,7 +47,7 @@ map_id <- "meae.congressional.congress01.sc.county"
 
 cities <- tribble(
   ~city, ~lat, ~lng, ~federalist_percentage, ~antifederalist_percentage, ~federalist_vote, ~antifederalist_vote, ~other_percentage, ~other_vote,
-  "Charleston", 32.7765, -79.9311, NA, NA, NA, NA, 1.0, 664)
+  "Charleston", 32.7765, -79.9311, 0.526, 0.254, 349, 169, 0.220, 146)
 
 ```
 
