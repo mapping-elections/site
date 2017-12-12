@@ -11,9 +11,9 @@ year: 1794
 legend: fed-vs-rep
 nnv:
 - id: ri.uscongress1.1794
-  name: RI US Congress 1794 District NA
+  name: RI US Congress 1794 At Large
 - id: ri.uscongress2.1794
-  name: RI US Congress 1794 District NA
+  name: RI US Congress 1794 At Large
 related-maps:
 - id: meae.congressional.congress03.ri.county
   name: RI 3rd Congress

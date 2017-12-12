@@ -59,8 +59,8 @@ image: '/content-img/NY04-featured.png'
 <!--/html_preserve-->
 :::
 
-New York elected six Republicans and four Federalists to the Fourth
-Congress.
+New York elected six Democratic-Republicans and four Federalists to the
+Fourth Congress.
 
 New York used a district system for electing members to Congress.
 

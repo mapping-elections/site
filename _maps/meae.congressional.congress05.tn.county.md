@@ -40,7 +40,7 @@ year: 1797
 <!--/html_preserve-->
 :::
 
-Tennessee elected one representative to the Fifth Congress.
+Tennessee elected one Democratic-Republican to the Fifth Congress.
 
 Mapping this election is incomplete because of the lack of returns at
 the town or county level in many areas.

@@ -8,7 +8,7 @@ output:
   md_document:
     variant: markdown
 layout: maps-show
-legend: fed-vs-anti
+legend: fed-vs-rep
 level: state
 meae-id: meae.congressional.congress03.va.county
 nnv:
@@ -78,8 +78,8 @@ year: 1793
 <!--/html_preserve-->
 :::
 
-Virginia elected twelve Democratic-Republicans, six Federalists, and one
-unaffiliated candidate to the Third Congress.
+Virginia elected fifteen Democratic-Republicans and four Federalists to
+the Third Congress.
 
 Returns for Virginia's elections to the Third Congress are often
 incomplete, in large part because so many elections were unopposed.

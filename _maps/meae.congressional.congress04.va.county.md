@@ -77,8 +77,8 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
-Virginia elected nineteen representatives to the Fourth Congress, two of
-whom identified as Federalist and one as Democratic-Republican.
+Virginia elected seventeen Democratic-Republicans and two Federalists to
+the Fourth Congress.
 
 Virginia used a district system for electing members to Congress.
 

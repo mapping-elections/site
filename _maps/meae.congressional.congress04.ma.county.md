@@ -67,9 +67,8 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
-Massachusetts elected eight Federalists and six representatives that
-were not officially affiliated with a political party to the Fourth
-Congress.
+Massachusetts elected eleven Federalists and three
+Democratic-Republicans to the Fourth Congress.
 
 Although Massachusetts used the district system for electing members to
 Congress, state law required that candidates receive a majority of votes

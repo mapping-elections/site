@@ -63,7 +63,7 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
-Pennsylvania elected six Federalists and seven Democratic-Republicans to
+Pennsylvania elected seven Democratic-Republicans and six Federalists to
 the Fifth Congress.
 
 Pennsylvania continued to use a single-district method for electing

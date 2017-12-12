@@ -39,7 +39,7 @@ layout: maps-show
 :::
 
 In its first congressional election, Tennessee elected one
-representative to the Fourth Congress.
+Democratic-Republican to the Fourth Congress.
 
 Tennessee used a statewide at-large system for electing its members to
 Congress.

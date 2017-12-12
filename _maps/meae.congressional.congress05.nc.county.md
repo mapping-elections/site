@@ -8,7 +8,7 @@ congressnum: 5
 congressordinal: 5th
 title: '5th Congress: North Carolina 1796'
 year: 1796
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: nc.uscongress1.1796
   name: NC US Congress 1796 District 1
@@ -59,7 +59,8 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
-North Carolina elected ten Democratic-Republicans to the Fifth Congress.
+North Carolina elected nine Democratic-Republicans and one Federalist to
+the Fifth Congress.
 
 North Carolina used the district system for electing members to
 Congress.

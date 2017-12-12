@@ -59,8 +59,8 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
-North Carolina elected nine Republicans and one Federalist to the Fourth
-Congress.
+North Carolina elected nine Democratic-Republicans and one Federalist to
+the Fourth Congress.
 
 North Carolina used a district system for electing members to Congress.
 

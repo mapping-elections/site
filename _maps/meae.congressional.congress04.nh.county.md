@@ -41,8 +41,7 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
-New Hampshire elected two Federalists and two members not officially
-affiliated with a party to the Fourth Congress.
+New Hampshire elected four Federalists to the Fourth Congress.
 
 Mapping this election is not possible because of insufficient returns at
 the town or county level.

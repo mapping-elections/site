@@ -8,7 +8,7 @@ congressnum: 5
 congressordinal: 5th
 title: '5th Congress: New Jersey 1797'
 year: 1797
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: nj.uscongress.1797
   name: NJ US Congress 1797 At Large

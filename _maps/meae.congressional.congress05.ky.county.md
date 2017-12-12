@@ -43,7 +43,7 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
-Kentucky elected two representatives to the Fifth Congress.
+Kentucky elected two Democratic-Republicans to the Fifth Congress.
 
 Mapping this election is not possible because of the lack of returns at
 the town or county level.

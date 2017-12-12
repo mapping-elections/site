@@ -8,7 +8,7 @@ congressnum: 5
 congressordinal: 5th
 title: '5th Congress: Vermont 1797'
 year: 1797
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: vt.uscongress.western.thirdballot.1797
   name: VT US Congress 1797 District 1

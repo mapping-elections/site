@@ -41,8 +41,7 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
-Georgia elected two representatives not officially affiliated with any
-party to the Fourth Congress.
+Georgia elected two Democratic-Republicans to the Fourth Congress.
 
 Georgia used a statewide at-large system for electing members to
 Congress.

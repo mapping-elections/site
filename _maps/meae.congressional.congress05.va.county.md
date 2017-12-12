@@ -8,7 +8,7 @@ congressnum: 5
 congressordinal: 5th
 title: '5th Congress: Virginia 1797'
 year: 1797
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: va.uscongress.1.1797
   name: VA US Congress 1797 District 1
@@ -77,8 +77,8 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
-Virginia elected fifteen Republicans and four Federalists to the Fifth
-Congress.
+Virginia elected fifteen Democratic-Republicans and four Federalists to
+the Fifth Congress.
 
 Virginia used the district system for electing members to Congress. In
 1798, Virginia held a [special
