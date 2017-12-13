@@ -167,7 +167,7 @@ Federalist
 At-large
 </td>
 <td style="text-align:left;">
-scattering
+Other candidates
 </td>
 <td style="text-align:left;">
 </td>
