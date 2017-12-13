@@ -10,8 +10,8 @@ title: '4th Congress: Kentucky 1794'
 year: 1794
 legend: fed-vs-rep
 related-maps:
-- id: meae.congressional.congress05.ky.county
-  name: KY 4th Congress
+- id: meae.congressional.congress03.ky.county
+  name: KY 3rd Congress
   type: previous
 - id: meae.congressional.congress05.ky.county
   name: KY 5th Congress
