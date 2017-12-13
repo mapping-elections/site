@@ -58,7 +58,8 @@ map_id %>%
                                  "% (", 
                                  prettyNum(demrep_vote, big.mark = ","),
                                  " votes)<br/>",
-                                 "Unaffiliated: ", other_percentage * 100, "% (", 
+                                 "Unaffiliated or other parties: ", other_percentage * 100,
+                                 "% (", 
                                  prettyNum(other_vote, big.mark = ","), 
                                  " votes)"),
                  label = ~city) 
