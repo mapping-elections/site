@@ -42,17 +42,15 @@ map_id <- "meae.congressional.congress04.tn.county"
 
 ```{r election-map, echo = FALSE}
 map_id %>%
-  get_county_map_data() %>%
-  map_counties()
+  get_county_map_data(election_date = "1796-11-01") %>%
+  map_counties(congress = 4, height = "300px")
 ```
 
 </div>
 
-In its first congressional election, Tennessee elected one Democratic-Republican to the Fourth Congress.
+In its first congressional election, Tennessee elected one Democratic-Republican to the Fourth Congress. Andrew Jackson was seated for the second session of that Congress.
 
-Tennessee used a statewide at-large system for electing its members to Congress.
-
-Mapping this election is not possible because of the lack of election returns.
+Tennessee used a statewide at-large system for electing its members to Congress. Votes were reported within administrative districts that contained several counties.
 
 <div class="results-table">
 
