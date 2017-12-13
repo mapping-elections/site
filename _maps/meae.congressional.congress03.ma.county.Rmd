@@ -37,7 +37,7 @@ nnv:
 - id: ma.uscongress.4.york.1792
   name: MA US Congress 1792 District 4
 - id: ma.uscongress.atlarge.1792
-  name: MA US Congress 1792 District NA
+  name: MA US Congress 1792 At-large
 related-maps:
 - id: meae.congressional.congress02.ma.county
   name: MA 2nd Congress
@@ -78,12 +78,20 @@ map_id %>%
 
 </div>
 
+Massachusetts elected eleven Federalists and three Anti-Federalists to the Third Congress.
+
+The election to the Third Congress in Massachusetts is almost certainly the most complicated election in the political history of the early republic. Besides the fact that 114 individuals were named in the ballots, Massachusetts had a very complex system for voting for this election:
+
+> The Massachusetts law provided for a complex method of voting. The voters of Districts One and Two each could vote for four candidates, but the votes had to be distributed as follows: one vote for a candidate from each of the three counties in the district and one additional vote for any candidate from any part of the district. In the Third District each voter had two votes; one had to be cast for a candidate from Barnstable, Dukes and Nantucket counties and the other for a candidate from Bristol and Plymouth. In addition all voters in the above three districts cast one additional vote for any candidate from anywhere in the three districts, listed in the returns as at-large. Voters of the Fourth District had three votes, one for a candidate from York, another from Cumberland and the other from any of the remaining counties of this district. (Michael J. Dubin, _United States Congressional Elections, 1788--1997: The Official Results of the Elections of the 1st through 105th Congresses_ [McFarland and Company, 1998], 9.)
+
+The maps shows votes by parties. In the table of leading candidates below, the percentage is shown based on all the votes cast in each district. A sign of how complicated this election was is that the candidate with far and away the most votes, Samuel Lyman, whose total vote approached 10 percent of all votes cast in the state, was not elected to any seat. He received many votes in a number of districts, but not enough to win in any of them. For all the complexities of the election, the state voted by and large for Federalist candidates.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
 meae_congress_candidate_totals %>% 
   filter(meae_id == map_id) %>% 
-  results_to_table() %>%
+  results_to_table(keep_percentage = 0.005) %>%
   cat()
 ```
 

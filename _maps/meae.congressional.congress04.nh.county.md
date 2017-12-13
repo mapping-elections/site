@@ -102,7 +102,7 @@ Federalist
 At-large
 </td>
 <td style="text-align:left;">
-scattering
+Other candidates
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist
