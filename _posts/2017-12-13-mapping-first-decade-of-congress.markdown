@@ -1,5 +1,5 @@
 ---
-title: "Maps Are Here"
+title: "Mapping the First Decade of Congressional Elections"
 author: Sheila Brennan    
 layout: post
 image: "/content-img/MD02-featured.png"
@@ -12,7 +12,7 @@ Districts flip, party affiliations change, and populations and geographies shift
 
 ![Shifting votes for parties in the first three Congressional elections in Maryland.]({{site.url}}/content-img/MD1-2-3Congresses.jpg)
 
-The new [Maps]({{site.url}}/maps/) section invites users to browse by Congress and state. Some states, like Maryland, saw swings in party affiliations, party competition, and regional voting patterns within the first decade of the United States. Others states, like the solidly Federalist state of Connecticut, did not. 
+The new [Maps]({{site.url}}/maps/) section invites users to browse by Congress and state. Some states, like Maryland, saw swings in party affiliations, party competition, and regional voting patterns within the first decade of the United States. Others states, like the solidly Federalist Connecticut, did not. 
 
 Each map page reveals a state map with the results for a specific Congress, with voting districts and counties outlined that are color-coded to represent the margin of victory. For example, looking at the first election in Maryland, the state elected all Federalists (green) to Congress, even with a strong showing of support for Anti-Federalist (orange) candidates in Baltimore and Anne Arundel Counties. The darker the color, the more votes received by a party in that district. It is then possible for a user to click through to the next Congress, under "Related Maps,"  to compare how voting patterns changed from election to election. 
 
@@ -22,7 +22,7 @@ While this project is based in large part on [_A New Nation Votes_](https://elec
 
 Making the maps is no easy task. Lincoln Mullen and Jordan Bratt have been working through the data for many months. We are also grateful to project advisors, especially Philip Lampi, who painstakingly reviewed the maps before launch.  
 
-The _Mapping Early American Elections_ [GitHub repository](https://github.com/mapping-elections/elections-data) includes the data we have released so far, along with the other code produced by the project. If you are interested in the data, you can follow the data preparation progress through commits and issues in GitHub.
+The _Mapping Early American Elections_ [GitHub project](https://github.com/mapping-elections) includes the data we have released so far, along with the other code produced by the project. If you are interested in the [data repository](https://github.com/mapping-elections/elections-data), you can follow the data preparation progress through commits and issues in GitHub.
 
 Please take some time browse the maps that represent early American voting returns for Congressional elections. What interesting patterns will you find?
 
