@@ -37,7 +37,7 @@ library(mappingelections)
 map_id <- "meae.congressional.congress03.pa.county"
 cities <- tribble(
   ~city, ~lat, ~lng, ~federalist_percentage, ~demrep_percentage, ~other_percentage, ~federalist_vote, ~demrep_vote, ~other_vote,
-  "Philadelphia", 39.9526, -75.1652, 0.357, 0.505, 0.138, 155568, 219911, 60230)
+  "Philadelphia", 39.9526, -75.1652, 0.457, 0.506, 0.036, 13050, 14457, 1041)
 ```
 
 <div class="map">
@@ -66,7 +66,7 @@ map_id %>%
 
 </div>
 
-Pennsylvania voters elected seven Democratic-Republicans, five Federalists, and one unaffiliated candidate to the Third Congress.
+Pennsylvania voters elected eight Democratic-Republicans and five Federalists to the Third Congress.
 
 Pennsylvania returned to a state-wide at-large system for electing members to Congress. Following the 1790 Census, Pennsylvania gained five seats in the House of Representatives. 
 
@@ -75,7 +75,7 @@ Pennsylvania returned to a state-wide at-large system for electing members to Co
 ```{r election-results, echo = FALSE, results='asis'}
 map_id %>%
   candidate_results() %>%
-  results_to_table() %>%
+  results_to_table(keep_percentage = 0.01) %>%
   cat()
 ```
 
