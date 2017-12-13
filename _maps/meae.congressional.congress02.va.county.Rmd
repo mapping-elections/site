@@ -79,7 +79,7 @@ Virginia used a district system for electing members to Congress.
 
 ```{r election-results, echo = FALSE, results='asis'}
 map_id %>%
-  candidate_results() %>%
+  candidate_results() %>% 
   results_to_table() %>%
   cat()
 ```

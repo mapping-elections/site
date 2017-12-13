@@ -16,8 +16,6 @@ nnv:
   name: VA US Congress 1793 District 1
 - id: va.uscongress.2.1793
   name: VA US Congress 1793 District 2
-- id: va.uscongress.3.1792
-  name: VA US Congress 1792 District 3
 - id: va.uscongress.3.1793
   name: VA US Congress 1793 District 3
 - id: va.uscongress.4.1793
@@ -98,7 +96,7 @@ Virginia used a district system for electing members to Congress. Following the 
 
 ```{r election-results, echo = FALSE, results='asis'}
 map_id %>%
-  candidate_results() %>%
+  candidate_results() %>% 
   results_to_table() %>%
   cat()
 ```
