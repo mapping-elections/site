@@ -52,7 +52,7 @@ cities <- tribble(
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>% 
-  map_counties(height = "600px", congress = 4) %>% 
+  map_counties(cities = FALSE, height = "600px", congress = 4) %>% 
    addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
                  fillColor = mappingelections:::poli_chrome(cities),
                  opacity = 1, fillOpacity = 0.8, radius = 8, weight = 3,
