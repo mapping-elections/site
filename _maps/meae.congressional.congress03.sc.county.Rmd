@@ -69,7 +69,7 @@ map_id %>%
                                  "Federalists: ", federalist_percentage * 100, "% (", 
                                  prettyNum(federalist_vote, big.mark = ","), 
                                  " votes)<br/>",
-                                 "Other/unaffliated: ", other_percentage * 100,
+                                 "Unaffiliated or other parties: ", other_percentage * 100,
                                  "% (", 
                                  prettyNum(other_vote, big.mark = ","),
                                  " votes)"),
