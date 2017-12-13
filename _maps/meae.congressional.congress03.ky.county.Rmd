@@ -15,8 +15,8 @@ nnv:
 - id: ky.uscongressnortherndistrict.1792
   name: KY US Congress 1792 District 2
 related-maps:
-- id: meae.congressional.congress05.ky.county
-  name: KY 5th Congress
+- id: meae.congressional.congress04.ky.county
+  name: KY 4th Congress
   type: next
 # - id: meae.congressional.congress03.national.district
 #   name: National 3rd Congress
