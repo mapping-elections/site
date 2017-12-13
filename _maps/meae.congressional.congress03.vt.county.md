@@ -48,6 +48,9 @@ Vermont used a district system for electing members to Congress.
 Vermont's number of seats in the House of Representatives was unchanged
 following the 1790 Census.
 
+Results from Franklin County were included in Chittenden County's
+returns.
+
 ::: {.results-table}
 <table>
 <thead>

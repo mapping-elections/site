@@ -43,8 +43,8 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
-South Carolina elected two Federalists and four members unaffiliated
-with a particular party to the Fourth Congress.
+South Carolina elected two Federalists and six Democratic-Republicans to
+the Fourth Congress.
 
 Mapping this election is not possible because of lack of local election
 returns.
@@ -52,7 +52,8 @@ returns.
 In January 1795, a [special
 election](https://elections.lib.tufts.edu/catalog/tufts:sc.uscongress.specialelection.1795)
 was held in which Wade Hampton was elected to replace John Barnwell, who
-had been elected but declined to serve.
+had been elected but declined to serve. Wade Hampton is included in the
+table below.
 
 ::: {.results-table}
 <table>
@@ -138,6 +139,63 @@ Thomas Tucker
 <td style="text-align:center;">
 </td>
 </tr>
+<tr class="district-changed" data-district-type="even">
+<td style="text-align:center;">
+2
+</td>
+<td style="text-align:left;">
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=H000140">Wade
+Hampton</a>
+</td>
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
+</td>
+<td style="text-align:right;">
+</td>
+<td style="text-align:right;">
+</td>
+<td style="text-align:center;">
+✓
+</td>
+</tr>
+<tr class="district-changed" data-district-type="odd">
+<td style="text-align:center;">
+3
+</td>
+<td style="text-align:left;">
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=B000396">Lemuel
+Benton</a>
+</td>
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
+</td>
+<td style="text-align:right;">
+</td>
+<td style="text-align:right;">
+</td>
+<td style="text-align:center;">
+✓
+</td>
+</tr>
+<tr class="district-changed" data-district-type="even">
+<td style="text-align:center;">
+4
+</td>
+<td style="text-align:left;">
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=W000637">Richard
+Winn</a>
+</td>
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
+</td>
+<td style="text-align:right;">
+</td>
+<td style="text-align:right;">
+</td>
+<td style="text-align:center;">
+✓
+</td>
+</tr>
 <tr class="district-unchanged" data-district-type="odd">
 <td style="text-align:center;">
 5
@@ -177,6 +235,24 @@ Democratic-Republican
 41.7%
 </td>
 <td style="text-align:center;">
+</td>
+</tr>
+<tr class="district-changed" data-district-type="even">
+<td style="text-align:center;">
+6
+</td>
+<td style="text-align:left;">
+Samuel Earle
+</td>
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
+</td>
+<td style="text-align:right;">
+</td>
+<td style="text-align:right;">
+</td>
+<td style="text-align:center;">
+✓
 </td>
 </tr>
 </tbody>

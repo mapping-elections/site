@@ -49,7 +49,9 @@ Mapping this election is not possible because of the lack of returns at
 the town or county level.
 
 Rhode Island used a statewide at-large method for electing members to
-Congress. Its two representatives were elected on separate tickets.
+Congress. Its two representatives were elected on separate tickets. The
+candidates for the two different tickets are distinguished below in the
+district column.
 
 ::: {.results-table}
 <table>
@@ -76,30 +78,9 @@ Elected
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="district-unchanged" data-district-type="odd">
 <td style="text-align:center;">
-At-large
-</td>
-<td style="text-align:left;">
-<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=M000076">Francis
-Malbone</a>
-</td>
-<td class="party-federalist" data-party="federalist">
-Federalist
-</td>
-<td style="text-align:right;">
-1,911
-</td>
-<td style="text-align:right;">
-61.9%
-</td>
-<td style="text-align:center;">
-✓
-</td>
-</tr>
-<tr>
-<td style="text-align:center;">
-At-large
+1
 </td>
 <td style="text-align:left;">
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=B000669">Benjamin
@@ -118,9 +99,49 @@ Federalist
 ✓
 </td>
 </tr>
-<tr>
+<tr class="district-changed" data-district-type="odd">
 <td style="text-align:center;">
-At-large
+1
+</td>
+<td style="text-align:left;">
+Peleg Arnold
+</td>
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
+</td>
+<td style="text-align:right;">
+1,138
+</td>
+<td style="text-align:right;">
+37.7%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
+<tr class="district-unchanged" data-district-type="even">
+<td style="text-align:center;">
+2
+</td>
+<td style="text-align:left;">
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=M000076">Francis
+Malbone</a>
+</td>
+<td class="party-federalist" data-party="federalist">
+Federalist
+</td>
+<td style="text-align:right;">
+1,911
+</td>
+<td style="text-align:right;">
+61.9%
+</td>
+<td style="text-align:center;">
+✓
+</td>
+</tr>
+<tr class="district-changed" data-district-type="even">
+<td style="text-align:center;">
+2
 </td>
 <td style="text-align:left;">
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=S000805">Joseph
@@ -134,25 +155,6 @@ Democratic-Republican
 </td>
 <td style="text-align:right;">
 38.1%
-</td>
-<td style="text-align:center;">
-</td>
-</tr>
-<tr>
-<td style="text-align:center;">
-At-large
-</td>
-<td style="text-align:left;">
-Peleg Arnold
-</td>
-<td class="party-demrep" data-party="demrep">
-Democratic-Republican
-</td>
-<td style="text-align:right;">
-1,138
-</td>
-<td style="text-align:right;">
-37.7%
 </td>
 <td style="text-align:center;">
 </td>

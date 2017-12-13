@@ -53,17 +53,17 @@ map_id %>%
 
 </div>
 
-South Carolina elected two Federalists and four members unaffiliated with a particular party to the Fourth Congress.
+South Carolina elected two Federalists and six Democratic-Republicans to the Fourth Congress.
 
 Mapping this election is not possible because of lack of local election returns.
 
-In January 1795, a [special election](https://elections.lib.tufts.edu/catalog/tufts:sc.uscongress.specialelection.1795) was held in which Wade Hampton was elected to replace John Barnwell, who had been elected but declined to serve.
+In January 1795, a [special election](https://elections.lib.tufts.edu/catalog/tufts:sc.uscongress.specialelection.1795) was held in which Wade Hampton was elected to replace John Barnwell, who had been elected but declined to serve. Wade Hampton is included in the table below.
 
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
-map_id %>%
-  candidate_results() %>%
+meae_congress_candidate_totals %>% 
+  filter(meae_id == map_id) %>% 
   results_to_table() %>%
   cat()
 ```
