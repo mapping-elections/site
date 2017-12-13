@@ -49,21 +49,37 @@ library(USAboundaries)
 library(mappingelections)
 
 map_id <- "meae.congressional.congress03.sc.county"
+cities <- tribble(
+  ~city, ~lat, ~lng, ~federalist_percentage, ~other_percentage, ~federalist_vote, ~other_vote,
+  "Charleston", 32.7765, -79.9311, 0.754, 0.246, 362, 118)
+
 ```
 
 <div class="map">
 
 ```{r election-map, echo = FALSE}
 map_id %>%
-  get_county_map_data() %>%
-  map_counties(congress = 3, height = "600px")
+  get_county_map_data() %>% 
+  map_counties(congress = 3, height = "600px", cities = FALSE) %>% 
+ addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
+                 fillColor = mappingelections:::poli_chrome(cities),
+                 opacity = 1, fillOpacity = 0.8, radius = 8, weight = 3,
+                 popup = ~paste0("<b>City of ", city, "</b><br/>",
+                                 "Congressional District: 1<br/>",
+                                 "Federalists: ", federalist_percentage * 100, "% (", 
+                                 prettyNum(federalist_vote, big.mark = ","), 
+                                 " votes)<br/>",
+                                 "Other/unaffliated: ", other_percentage * 100,
+                                 "% (", 
+                                 prettyNum(other_vote, big.mark = ","),
+                                 " votes)"),
+                 label = ~city) 
+
 ```
 
 </div>
 
-South Carolina elected one Federalist, four Anti-Federalists, and one candidate transitioning between parties to the Third Congress. John Hunter was a Federalist elector for president in 1792, but in 1796 he was elected a Democratic-Republican to the U.S. Senate.
-
-Many of the parish and district returns for the Third Congress are incomplete for South Carolina.
+South Carolina elected one Federalist and five Anti-Federalists to the Third Congress. John Hunter was a Federalist elector for president in 1792, but in 1796 he was elected a Democratic-Republican to the U.S. Senate.
 
 South Carolina used a district system for electing members to Congress. Following the 1790 Census, South Carolina gained a seat in the House of Representatives. After Alexander Gillon died, a [special election](https://elections.lib.tufts.edu/catalog/tufts:sc.uscongress.district2.1794) was held in which Robert G. Harper was elected to replace him.
 
