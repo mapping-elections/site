@@ -1,0 +1,66 @@
+---
+meae-id: meae.congressional.congress02.vt.county
+type: congressional
+level: state
+state: Vermont
+geography: county
+congressnum: 2
+congressordinal: 2nd
+title: '2nd Congress: Vermont 1791'
+year: 1791
+legend: fed-vs-anti
+nnv:
+- id: vt.uscongress.western.secondballot.1791
+  name: VT US Congress 1791 District 1
+- id: vt.uscongress.eastern.1791
+  name: VT US Congress 1791 District 2
+related-maps:
+- id: meae.congressional.congress03.vt.county
+  name: VT 3rd Congress
+  type: next
+# - id: meae.congressional.congress02.national.district
+#   name: National 2nd Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress02.vt.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>% 
+  map_counties()
+```
+
+</div>
+
+Vermont elected two Anti-Federalists to the Second Congress.
+
+Vermont used a district system for electing members to Congress. Vermont required that candidates receive a majority of the votes in their districts. The first district thus required a second ballot to elect the candidate.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

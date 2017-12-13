@@ -1,0 +1,79 @@
+---
+meae-id: meae.congressional.congress02.ny.county
+type: congressional
+level: state
+state: New York
+geography: county
+congressnum: 2
+congressordinal: 2nd
+title: '2nd Congress: New York 1790'
+year: 1790
+legend: fed-vs-anti
+nnv:
+- id: ny.uscongressspecial.1791
+  name: NY US Congress 1791 District 1
+- id: ny.uscongress2.1790
+  name: NY US Congress 1790 District 2
+- id: ny.uscongress3.1790
+  name: NY US Congress 1790 District 3
+- id: ny.uscongress4.1790
+  name: NY US Congress 1790 District 4
+- id: ny.uscongress5.1790
+  name: NY US Congress 1790 District 5
+- id: ny.uscongress6.1790
+  name: NY US Congress 1790 District 6
+related-maps:
+- id: meae.congressional.congress01.ny.county
+  name: NY 1st Congress
+  type: previous
+- id: meae.congressional.congress03.ny.county
+  name: NY 3rd Congress
+  type: next
+# - id: meae.congressional.congress02.national.district
+#   name: National 2nd Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress02.ny.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>% 
+  get_county_map_data() %>% 
+  map_counties(height = "550px")
+```
+
+</div>
+
+New York elected four Federalists and two Anti-Federalists to the Second Congress. 
+
+New York used a district system for electing members to Congress.
+
+Before the Second Congress could begin, James Townsend died; Anti-Federalist Thomas Tredwell was elected to replace him in a special election held in June.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

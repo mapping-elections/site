@@ -1,0 +1,98 @@
+---
+meae-id: meae.congressional.congress03.ma.county
+type: congressional
+level: state
+state: Massachusetts
+geography: county
+congressnum: 3
+congressordinal: 3rd
+title: '3rd Congress: Massachusetts 1793'
+year: 1793
+legend: fed-vs-anti
+nnv:
+- id: ma.uscongress.1.ballot3.1793
+  name: MA US Congress 1793 District 1
+- id: ma.uscongress.1.essex.1792
+  name: MA US Congress 1792 District 1
+- id: ma.uscongress.1.middlesex.1792
+  name: MA US Congress 1792 District 1
+- id: ma.uscongress.1.suffolk.1792
+  name: MA US Congress 1792 District 1
+- id: ma.uscongress.2.ballot3.1793
+  name: MA US Congress 1793 District 2
+- id: ma.uscongress.2.berkshire.1792
+  name: MA US Congress 1792 District 2
+- id: ma.uscongress.2.hampshire.ballot3.1793
+  name: MA US Congress 1793 District 2
+- id: ma.uscongress.2.worcester.1792
+  name: MA US Congress 1792 District 2
+- id: ma.uscongress.3.barnstableplymouth.ballot2.1793
+  name: MA US Congress 1793 District 3
+- id: ma.uscongress.3.bristoldukesnantucket.1792
+  name: MA US Congress 1792 District 3
+- id: ma.uscongress.4.cumberland.ballot3.1793
+  name: MA US Congress 1793 District 4
+- id: ma.uscongress.4.lincolnhancockwashington.ballot2.1793
+  name: MA US Congress 1793 District 4
+- id: ma.uscongress.4.york.1792
+  name: MA US Congress 1792 District 4
+- id: ma.uscongress.atlarge.1792
+  name: MA US Congress 1792 At-large
+related-maps:
+- id: meae.congressional.congress02.ma.county
+  name: MA 2nd Congress
+  type: previous
+- id: meae.congressional.congress04.ma.county
+  name: MA 4th Congress
+  type: next
+# - id: meae.congressional.congress03.national.district
+#   name: National 3rd Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress03.ma.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(cities = 2) %>% 
+  fitBounds(-73.508, 41.186, -69.861, 44.25)
+```
+
+</div>
+
+Massachusetts elected eleven Federalists and three Anti-Federalists to the Third Congress.
+
+The election to the Third Congress in Massachusetts is almost certainly the most complicated election in the political history of the early republic. Besides the fact that 114 individuals were named in the ballots, Massachusetts had a very complex system for voting for this election:
+
+> The Massachusetts law provided for a complex method of voting. The voters of Districts One and Two each could vote for four candidates, but the votes had to be distributed as follows: one vote for a candidate from each of the three counties in the district and one additional vote for any candidate from any part of the district. In the Third District each voter had two votes; one had to be cast for a candidate from Barnstable, Dukes and Nantucket counties and the other for a candidate from Bristol and Plymouth. In addition all voters in the above three districts cast one additional vote for any candidate from anywhere in the three districts, listed in the returns as at-large. Voters of the Fourth District had three votes, one for a candidate from York, another from Cumberland and the other from any of the remaining counties of this district. (Michael J. Dubin, _United States Congressional Elections, 1788--1997: The Official Results of the Elections of the 1st through 105th Congresses_ [McFarland and Company, 1998], 9.)
+
+The maps shows votes by parties. In the table of leading candidates below, the percentage is shown based on all the votes cast in each district. A sign of how complicated this election was is that the candidate with far and away the most votes, Samuel Lyman, whose total vote approached 10 percent of all votes cast in the state, was not elected to any seat. He received many votes in a number of districts, but not enough to win in any of them. For all the complexities of the election, the state voted by and large for Federalist candidates.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+meae_congress_candidate_totals %>% 
+  filter(meae_id == map_id) %>% 
+  results_to_table(keep_percentage = 0.005) %>%
+  cat()
+```
+
+</div>

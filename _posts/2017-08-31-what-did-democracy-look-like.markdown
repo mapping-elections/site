@@ -19,6 +19,8 @@ riots. Democracy, then, evolved less by design and more from a constant
 push-and-pull between those seeking to cast their ballots and those who
 made the rules about when, where, and how the ballots were to be cast.
 
+<!--more-->
+
 Article I, Section 4 of the US Constitution gave state legislatures the
 power to determine "the Times, Places and Manner" of federal elections,
 along with the power they already possessed to determine rules for state
@@ -101,18 +103,18 @@ individual's ballot would be set aside, for further investigation.
 Though not overt, then, the pressure to vote for a certain candidate was
 often unmistakable.
 
-As party hostilities between the Federalists and Democratic-Republicans 
-intensified, tensions between participants sometimes erupted into public 
-violence---what was called an "election riot." It was not uncommon for 
-partisans on both sides to march in formation to the polling site, dressed in 
-their militia uniforms. Bearing guns or sticks, their intention was not only to 
-display party solidarity but to intimidate voters holding opposing views. In 
-1793, the House Committee of Elections heard testimony about a disputed 
-election in which one candidate's supporters threatened "to beat any person who 
-voted for \[their opponent\]"---who subsequently lost. Although no one 
-challenged the veracity of the accusation, the House rejected the aggrieved 
-candidate's petition. "Why," said one Congressman, "should there be such a 
-noise about this election in particular, when others were just as bad, or a 
+As party hostilities between the Federalists and Democratic-Republicans
+intensified, tensions between participants sometimes erupted into public
+violence---what was called an "election riot." It was not uncommon for
+partisans on both sides to march in formation to the polling site, dressed in
+their militia uniforms. Bearing guns or sticks, their intention was not only to
+display party solidarity but to intimidate voters holding opposing views. In
+1793, the House Committee of Elections heard testimony about a disputed
+election in which one candidate's supporters threatened "to beat any person who
+voted for \[their opponent\]"---who subsequently lost. Although no one
+challenged the veracity of the accusation, the House rejected the aggrieved
+candidate's petition. "Why," said one Congressman, "should there be such a
+noise about this election in particular, when others were just as bad, or a
 great deal worse\[?\]"
 
 There was, then, no uniform or overt march toward democracy in the early
@@ -120,4 +122,3 @@ United States. The diversity in electoral practices among the states
 meant that the country remained an experiment in republican government.
 Within each state, various factions battled with one another to try and
 work out what its own citizens meant by the march toward *democracy*.
-

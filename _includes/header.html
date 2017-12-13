@@ -7,7 +7,7 @@
     <meta name="description" content="{{site.description}}">
     <link rel="shortcut icon" href="{{site.url}}/theme-img/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Lora%7CShare" rel="stylesheet">
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.url }}">
     <!-- Piwik -->
     <script type="text/javascript">
       var _paq = _paq || [];
@@ -25,7 +25,7 @@
     <noscript><p><img src="//chnmdev.gmu.edu/piwik/piwik.php?idsite=139" style="border:0;" alt="" /></p></noscript>
     <!-- End Piwik Code -->
   </head>
-  <body {% if page.bodyclass %} class="{{ page.bodyclass }}"{% endif %}>
+  <body {% if page.bodyclass %} class="{{ page.bodyclass }}"{% endif %} {% if layout.bodyclass %} class="{{ layout.bodyclass }}"{% endif %}>
 
     <div class="row">
 
@@ -39,8 +39,7 @@
           <li class="nav-link"><a href="{{site.url}}/about/">About</a></li>
           <li class="nav-link"><a href="{{site.url}}/data/">Data</a></li>
           <li class="nav-link"><a href="{{site.url}}/blog/">Blog</a></li>
-          <li class="nav-link inactive-link"><a href="">Maps</a></li>
-          <li class="nav-link inactive-link"><a href="">Essays</a></li>
+          <li class="nav-link"><a href="{{site.url}}/maps/">Maps</a></li>
         </ul>
       </div>
       <hr>

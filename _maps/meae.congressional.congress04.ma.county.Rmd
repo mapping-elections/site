@@ -1,0 +1,98 @@
+---
+meae-id: meae.congressional.congress04.ma.county
+type: congressional
+level: state
+state: Massachusetts
+geography: county
+congressnum: 4
+congressordinal: 4th
+title: '4th Congress: Massachusetts 1794'
+year: 1794
+legend: fed-vs-rep
+nnv:
+- id: ma.uscongress.western.1.1794
+  name: MA US Congress 1794 District 1
+- id: ma.uscongress.western.2.1794
+  name: MA US Congress 1794 District 2
+- id: ma.uscongress.western.3.1794
+  name: MA US Congress 1794 District 3
+- id: ma.uscongress.western.4.1794
+  name: MA US Congress 1794 District 4
+- id: ma.uscongress.southern.1.1794
+  name: MA US Congress 1794 District 5
+- id: ma.uscongress.southern.2.1794
+  name: MA US Congress 1794 District 6
+- id: ma.uscongress.southern.3.ballot4.1795
+  name: MA US Congress 1795 District 7
+- id: ma.uscongress.middle.1.1794
+  name: MA US Congress 1794 District 8
+- id: ma.uscongress.middle.2.ballot3.1795
+  name: MA US Congress 1795 District 9
+- id: ma.uscongress.middle.3.1794
+  name: MA US Congress 1794 District 10
+- id: ma.uscongress.middle.4.ballot3.1795
+  name: MA US Congress 1795 District 11
+- id: ma.uscongress.eastern.1.1794
+  name: MA US Congress 1794 District 12
+- id: ma.uscongress.eastern.2.ballot2.1795
+  name: MA US Congress 1795 District 13
+- id: ma.uscongress.eastern.3.ballot2.1795
+  name: MA US Congress 1795 District 14
+related-maps:
+- id: meae.congressional.congress03.ma.county
+  name: MA 3rd Congress
+  type: previous
+- id: meae.congressional.congress05.ma.county
+  name: MA 5th Congress
+  type: next
+# - id: meae.congressional.congress04.national.district
+#   name: National 4th Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress04.ma.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>% 
+  map_counties() %>% 
+  fitBounds(-73.508, 41.186, -69.861, 43.75)
+```
+
+</div>
+
+Massachusetts elected eleven Federalists and three Democratic-Republicans to the Fourth Congress.  
+
+Although Massachusetts used the district system for electing members to Congress, state law required that candidates receive a majority of votes in order to win. As a result, four districts required multiple ballots to elect their members in elections November 1794 through April 1795:
+
+Massachusetts held a [special election]((https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.western.1.special.1796)), which went to [two ballots](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.western.1.special2.1796), in which Thompson Skinner was elected to replace Theodore Sedgwick, who resigned to serve in the US Senate.
+
+Massachusetts held a [special election](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.middle.3.special.1796), which went to [two ballots](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.middle.3.special2.1796), in which Samuel Sewall was elected to replace Benjamin Goodhue, who resigned to serve in the US Senate.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

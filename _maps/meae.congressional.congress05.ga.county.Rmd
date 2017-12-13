@@ -1,0 +1,69 @@
+---
+meae-id: meae.congressional.congress05.ga.county
+type: congressional
+level: state
+state: Georgia
+geography: county
+congressnum: 5
+congressordinal: 5th
+title: '5th Congress: Georgia 1796'
+year: 1796
+legend: fed-vs-rep
+nnv:
+- id: ga.uscongress.1796
+  name: GA US Congress 1796 At Large
+related-maps:
+- id: meae.congressional.congress04.ga.county
+  name: GA 4th Congress
+  type: previous
+# - id: meae.congressional.congress06.ga.county
+#   name: GA 6th Congress
+#   type: next
+# - id: meae.congressional.congress05.national.district
+#   name: National 5th Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+library(sf)
+
+map_id <- "meae.congressional.congress05.ga.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  filter(id != "gas_nca") %>% 
+  map_counties(height = "500px")
+```
+
+</div>
+
+Georgia elected two Democratic-Republicans to the Fifth Congress.
+
+Georgia used a statewide at-large method for electing members to Congress. 
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

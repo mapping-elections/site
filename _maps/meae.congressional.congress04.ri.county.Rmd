@@ -1,0 +1,71 @@
+---
+meae-id: meae.congressional.congress04.ri.county
+type: congressional
+level: state
+state: Rhode Island
+geography: county
+congressnum: 4
+congressordinal: 4th
+title: '4th Congress: Rhode Island 1794'
+year: 1794
+legend: fed-vs-rep
+nnv:
+- id: ri.uscongress1.1794
+  name: RI US Congress 1794 At Large
+- id: ri.uscongress2.1794
+  name: RI US Congress 1794 At Large
+related-maps:
+- id: meae.congressional.congress03.ri.county
+  name: RI 3rd Congress
+  type: previous
+- id: meae.congressional.congress05.ri.county
+  name: RI 5th Congress
+  type: next
+# - id: meae.congressional.congress04.national.district
+#   name: National 4th Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress04.ri.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>% 
+  map_counties(height = "300px", congress = 4)
+```
+
+</div>
+
+Rhode Island elected two Federalists to the Fourth Congress. 
+
+Mapping this election is not possible because of the lack of returns at the town or county level. 
+
+Rhode Island used a statewide at-large method for electing members to Congress. Its two representatives were elected on separate tickets. The candidates for the two different tickets are distinguished below in the district column.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

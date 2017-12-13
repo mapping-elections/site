@@ -1,0 +1,69 @@
+---
+meae-id: meae.congressional.congress02.nh.county
+type: congressional
+level: state
+state: New Hampshire
+geography: county
+congressnum: 2
+congressordinal: 2nd
+title: '2nd Congress: New Hampshire 1790'
+year: 1790
+legend: fed-vs-anti
+nnv:
+- id: nh.uscongress.1790
+  name: NH US Congress 1790 At Large
+related-maps:
+- id: meae.congressional.congress01.nh.county
+  name: NH 1st Congress
+  type: previous
+- id: meae.congressional.congress03.nh.county
+  name: NH 3rd Congress
+  type: next
+# - id: meae.congressional.congress02.national.district
+#   name: National 2nd Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress02.nh.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>% 
+  map_counties(height = "500px", congress = 2)
+```
+
+</div>
+
+New Hampshire elected three Federalists to the Second Congress.
+
+Mapping this election is not possible because there are insufficient returns at the town and county levels.
+
+New Hampshire used a state-wide at-large system for electing members to Congress.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

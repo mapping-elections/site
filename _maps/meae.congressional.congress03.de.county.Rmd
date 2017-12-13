@@ -1,0 +1,66 @@
+---
+meae-id: meae.congressional.congress03.de.county
+type: congressional
+level: state
+state: Delaware
+geography: county
+congressnum: 3
+congressordinal: 3rd
+title: '3rd Congress: Delaware 1792'
+year: 1792
+legend: fed-vs-anti
+nnv:
+- id: de.uscongress.1792
+  name: DE US Congress 1792 At Large
+related-maps:
+- id: meae.congressional.congress02.de.county
+  name: DE 2nd Congress
+  type: previous
+- id: meae.congressional.congress04.de.county
+  name: DE 4th Congress
+  type: next
+# - id: meae.congressional.congress03.national.district
+#   name: National 3rd Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress03.de.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "450px")
+```
+
+</div>
+
+After initial returns were counted, Delaware elected John Patten, an Anti-Federalist, to Congress. But the U.S. House of Representatives threw out some irregular votes and seated Henry Lattimer, a Federalist. This map depicts the initial count of votes.
+
+Delaware’s election law required that voters select two candidates, with one residing in the voter’s own county, and the other residing in one of the state's other two counties. The at-large winner was then declared the winner.  
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

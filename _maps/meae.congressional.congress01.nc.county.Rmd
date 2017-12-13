@@ -1,0 +1,72 @@
+---
+meae-id: meae.congressional.congress01.nc.county
+type: congressional
+level: state
+state: North Carolina
+geography: county
+congressnum: 1
+congressordinal: 1st
+title: '1st Congress: North Carolina 1790'
+year: 1790
+legend: fed-vs-anti
+nnv:
+- id: nc.uscongress1.1790
+  name: NC US Congress 1790 District 1
+- id: nc.uscongress2.1790
+  name: NC US Congress 1790 District 2
+- id: nc.uscongress3.1790
+  name: NC US Congress 1790 District 3
+- id: nc.uscongress4.1790
+  name: NC US Congress 1790 District 4
+- id: nc.uscongress5.1790
+  name: NC US Congress 1790 District 5
+related-maps:
+- id: meae.congressional.congress02.nc.county
+  name: NC 2nd Congress
+  type: next
+# - id: meae.congressional.congress01.national.district
+#   name: National 1st Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress01.nc.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>% 
+  map_counties(height = "450px") %>% 
+  setView(-80.10, 35.22, 7)
+```
+
+</div>
+
+North Carolina elected three Anti-Federalists and two Federalists to the First Congress. 
+
+North Carolina used a district system to elect members of Congress. The fifth district became a federal territory before the Second Congress.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

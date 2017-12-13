@@ -1,0 +1,75 @@
+---
+meae-id: meae.congressional.congress02.nc.county
+type: congressional
+level: state
+state: North Carolina
+geography: county
+congressnum: 2
+congressordinal: 2nd
+title: '2nd Congress: North Carolina 1791'
+year: 1791
+legend: fed-vs-anti
+nnv:
+- id: nc.uscongress1.1791
+  name: NC US Congress 1791 District 1
+- id: nc.uscongress2.1791
+  name: NC US Congress 1791 District 2
+- id: nc.uscongress3.1791
+  name: NC US Congress 1791 District 3
+- id: nc.uscongress4.1791
+  name: NC US Congress 1791 District 4
+- id: nc.uscongress5.1791
+  name: NC US Congress 1791 District 5
+related-maps:
+- id: meae.congressional.congress01.nc.county
+  name: NC 1st Congress
+  type: previous
+- id: meae.congressional.congress03.nc.county
+  name: NC 3rd Congress
+  type: next
+# - id: meae.congressional.congress02.national.district
+#   name: National 2nd Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress02.nc.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>% 
+  map_counties(height = "400px")
+```
+
+</div>
+
+The state's voters sent three Anti-Federalists and two Federalists to the Second Congress. 
+
+North Carolina used a district system for electing members to Congress. Election returns, including total votes, for this election are very incomplete. North Carolina's fifth district was ceded to create the Southwest Territory before the Second Congress began.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

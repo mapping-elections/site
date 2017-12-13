@@ -1,0 +1,65 @@
+---
+meae-id: meae.congressional.congress04.ky.county
+type: congressional
+level: state
+state: Kentucky
+geography: county
+congressnum: 4
+congressordinal: 4th
+title: '4th Congress: Kentucky 1794'
+year: 1794
+legend: fed-vs-rep
+related-maps:
+- id: meae.congressional.congress03.ky.county
+  name: KY 3rd Congress
+  type: previous
+- id: meae.congressional.congress05.ky.county
+  name: KY 5th Congress
+  type: next
+# - id: meae.congressional.congress03.national.district
+#   name: National 3rd Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress04.ky.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data(election_date = "1794-11-01") %>%
+  map_counties(state = "Kentucky", height = "400px", congress = 4)
+```
+
+</div>
+
+Kentucky elected two Democratic-Republicans to the Fourth Congress.
+
+Mapping this election is not possible because no returns survive at the county or district levels.
+
+Kentucky used a district system for electing members to Congress.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

@@ -1,0 +1,89 @@
+---
+meae-id: meae.congressional.congress01.sc.county
+type: congressional
+level: state
+state: South Carolina
+geography: county
+congressnum: 1
+congressordinal: 1st
+title: '1st Congress: South Carolina 1788'
+year: 1788
+legend: fed-vs-anti
+nnv:
+- id: sc.uscongress.district1.1788
+  name: SC US Congress 1788 District 1
+- id: sc.uscongress.district2.1788
+  name: SC US Congress 1788 District 2
+- id: sc.uscongress.district3.1788
+  name: SC US Congress 1788 District 3
+- id: sc.uscongress.district4.1788
+  name: SC US Congress 1788 District 4
+- id: sc.uscongress.district5.1788
+  name: SC US Congress 1788 District 5
+related-maps:
+- id: meae.congressional.congress02.sc.county
+  name: SC 2nd Congress
+  type: next
+# - id: meae.congressional.congress01.national.district
+#   name: National 1st Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress01.sc.county"
+
+cities <- tribble(
+  ~city, ~lat, ~lng, ~federalist_percentage, ~antifederalist_percentage, ~federalist_vote, ~antifederalist_vote, ~other_percentage, ~other_vote,
+  "Charleston", 32.7765, -79.9311, 0.526, 0.254, 349, 169, 0.220, 146)
+
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(cities = FALSE,height = "600px") %>% 
+  addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
+               fillColor = mappingelections:::poli_chrome(cities),
+               opacity = 1, fillOpacity = 0.8, radius = 8, weight = 3,
+               popup = ~paste0("<b>City of ", city, "</b><br/>",
+                               "Congressional District: 1<br/>",
+                               "Unaffiliated or other parties: ", other_percentage * 100,
+                               "% (", 
+                               prettyNum(other_vote, big.mark = ","), 
+                               " votes)"),
+               label = ~city) 
+```
+
+</div>
+
+South Carolina voters elected three Anti-Federalists and two Federalists to the First Congress. 
+
+Much of this election cannot be mapped because there are insufficient returns at the parish level.
+
+South Carolina used a district system to elect members to Congress.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

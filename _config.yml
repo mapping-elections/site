@@ -34,9 +34,15 @@ include: ["_pages"]
 exclude:
   - Gemfile
   - Gemfile.lock
+  - "*.Rmd"
+  - ".Rproj.user/"
+  - ".Rhistory"
+  - "site.Rproj"
+  - "Makefile"
 markdown: Pandoc
-pandoc:
-  extensions:
-    - normalize
-    - smart
+excerpt_separator: "<!--more-->"
+collections:
+  maps:
+    output: true
+    permalink: /:collection/:title.html
 

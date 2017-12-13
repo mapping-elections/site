@@ -1,0 +1,66 @@
+---
+meae-id: meae.congressional.congress01.ct.county
+type: congressional
+level: state
+state: Connecticut
+geography: county
+congressnum: 1
+congressordinal: 1st
+title: '1st Congress: Connecticut 1788'
+year: 1788
+legend: fed-vs-anti
+related-maps:
+- id: meae.congressional.congress02.ct.county
+  name: CT 2nd Congress
+  type: next
+# - id: meae.congressional.congress01.national.district
+#   name: National 1st Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+library(sf)
+
+map_id <- "meae.congressional.congress01.ct.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>% 
+  filter(id != "cts_wr") %>% 
+  map_counties(height = "350px", congress = 1)
+```
+
+</div>
+
+Connecticut elected five Federalists to the First Congress.
+
+It is not possible to map this election because no town, county, or district level returns survive.
+
+Connecticut used a state-wide at-large system to elect members of Congress. Connecticut had a two-tiered system of election. A nomination election was held first to establish the congressional candidates. Then a general election was held to decide who would be seated in congress.
+
+In 1790, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ct.special.congress.1790) was held to replace Pierpont Edwards who declined to serve. Jeremiah Wadsworth was elected.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

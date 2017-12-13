@@ -1,0 +1,67 @@
+---
+meae-id: meae.congressional.congress02.nj.county
+type: congressional
+level: state
+state: New Jersey
+geography: county
+congressnum: 2
+congressordinal: 2nd
+title: '2nd Congress: New Jersey 1791'
+year: 1791
+legend: fed-vs-anti
+nnv:
+- id: nj.uscongress.1791
+  name: NJ US Congress 1791 At Large
+related-maps:
+- id: meae.congressional.congress01.nj.county
+  name: NJ 1st Congress
+  type: previous
+- id: meae.congressional.congress03.nj.county
+  name: NJ 3rd Congress
+  type: next
+# - id: meae.congressional.congress02.national.district
+#   name: National 2nd Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress02.nj.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "700px")
+```
+
+</div>
+
+New Jersey elected three Federalists and one Anti-Federalist to the Second Congress.
+
+New Jersey used a state-wide at-large method for electing members to Congress. 
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

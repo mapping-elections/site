@@ -1,0 +1,70 @@
+---
+title: '3rd Congress: Vermont 1793'
+congressnum: 3
+congressordinal: 3rd
+output:
+  html_document:
+    theme: default
+  md_document:
+    variant: markdown
+layout: maps-show
+legend: fed-vs-rep
+level: state
+meae-id: meae.congressional.congress03.vt.county
+nnv:
+- id: vt.uscongress.western.secondballot.1793
+  name: VT US Congress 1793 District 1
+- id: vt.uscongress.eastern.1793
+  name: VT US Congress 1793 District 2
+geography: county
+related-maps:
+- id: meae.congressional.congress02.vt.county
+  name: VT 2nd Congress
+  type: previous
+- id: meae.congressional.congress04.vt.county
+  name: VT 4th Congress
+  type: next
+# - id: meae.congressional.congress03.national.district
+#   name: National 3rd Congress
+#   type: national
+state: Vermont
+always_allow_html: yes
+type: congressional
+year: 1793
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress03.vt.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>% 
+  map_counties(height = "600px")
+```
+
+</div>
+
+Vermont elected two Democratic-Republicans to the Third Congress.
+
+Vermont used a district system for electing members to Congress. Vermont’s number of seats in the House of Representatives was unchanged following the 1790 Census.
+
+Results from Franklin County were included in Chittenden County's returns.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

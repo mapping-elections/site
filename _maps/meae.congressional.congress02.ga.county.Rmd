@@ -1,0 +1,76 @@
+---
+meae-id: meae.congressional.congress02.ga.county
+type: congressional
+level: state
+state: Georgia
+geography: county
+congressnum: 2
+congressordinal: 2nd
+title: '2nd Congress: Georgia 1791'
+year: 1791
+legend: fed-vs-anti
+nnv:
+- id: ga.uscongress.SouthernDistrict.1791
+  name: GA US Congress 1791 District 1
+- id: ga.uscongress.MiddleDistrict.1791
+  name: GA US Congress 1791 District 2
+- id: ga.uscongress.NorthernDistrict.1791
+  name: GA US Congress 1791 District 3
+related-maps:
+- id: meae.congressional.congress01.ga.county
+  name: GA 1st Congress
+  type: previous
+- id: meae.congressional.congress03.ga.county
+  name: GA 3rd Congress
+  type: next
+# - id: meae.congressional.congress02.national.district
+#   name: National 2nd Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+library(sf)
+
+map_id <- "meae.congressional.congress02.ga.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  filter(id != "gas_nca") %>% 
+  map_counties(height = "500px") %>% 
+  setView(lng = -81.492, lat = 32.348, zoom = 8)
+```
+
+</div>
+
+Georgia elected two Anti-Federalists and one Federalist to the Second Congress. 
+
+Georgia used a state-wide at-large system for electing members to Congress, but candidates had to be resident in the district to which they were elected.
+
+The election between Anthony Wayne and James Jackson in the first district was contested, and the results from Effingham and Camden counties were ruled invalid. A [special election](http://elections.lib.tufts.edu/catalog/tufts:ga.uscongress.special.1792) was held in July, 1792, in which Republican John Millage defeated the Federalist Matthew McAllister.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

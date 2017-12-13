@@ -1,0 +1,69 @@
+---
+title: '5th Congress: Tennessee 1797'
+congressnum: 5
+congressordinal: 5th
+output:
+  html_document:
+    theme: default
+  md_document:
+    variant: markdown
+layout: maps-show
+legend: fed-vs-rep
+level: state
+meae-id: meae.congressional.congress05.tn.county
+nnv:
+- id: tn.ushouserepresentatives.1797
+  name: TN US Congress 1797 At Large
+geography: county
+related-maps:
+- id: meae.congressional.congress04.tn.county
+  name: TN 4th Congress
+  type: previous
+# - id: meae.congressional.congress06.tn.county
+#   name: TN 6th Congress
+#   type: next
+# - id: meae.congressional.congress05.national.district
+#   name: National 5th Congress
+#   type: national
+state: Tennessee
+always_allow_html: yes
+type: congressional
+year: 1797
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress05.tn.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "300px") %>% 
+  setView(lng = -84.85, lat = 36.348, zoom = 8)
+```
+
+</div>
+
+Tennessee elected one Democratic-Republican to the Fifth Congress.
+
+Mapping this election is incomplete because of the lack of returns at the town or county level in many areas. 
+
+Tennessee re-elected Andrew Jackson to serve in the Fifth Congress. In September 1797, Jackson resigned from the House of Representatives in order to accept a seat in the US Senate. Tennessee held a special election which elected William Charles Cole Claiborne, which is the election presented here. 
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

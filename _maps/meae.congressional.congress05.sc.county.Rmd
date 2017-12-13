@@ -1,0 +1,96 @@
+---
+title: '5th Congress: South Carolina 1796'
+congressnum: 5
+congressordinal: 5th
+output:
+  html_document:
+    theme: default
+  md_document:
+    variant: markdown
+layout: maps-show
+legend: fed-vs-rep
+level: state
+meae-id: meae.congressional.congress05.sc.county
+nnv:
+- id: sc.uscongress.charleston.1796
+  name: SC US Congress 1796 District 1
+- id: sc.uscongress.beaufort.1796
+  name: SC US Congress 1796 District 2
+- id: sc.uscongress.georgetown.1796
+  name: SC US Congress 1796 District 3
+- id: sc.uscongress.camden.1796
+  name: SC US Congress 1796 District 4
+- id: sc.uscongress.ninety-six.1796
+  name: SC US Congress 1796 District 5
+- id: sc.uscongress.washington.1796
+  name: SC US Congress 1796 District 6
+geography: county
+related-maps:
+- id: meae.congressional.congress04.sc.county
+  name: SC 4th Congress
+  type: previous
+# - id: meae.congressional.congress06.sc.county
+#   name: SC 6th Congress
+#   type: next
+# - id: meae.congressional.congress05.national.district
+#   name: National 5th Congress
+#   type: national
+state: South Carolina
+always_allow_html: yes
+type: congressional
+year: 1796
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress05.sc.county"
+cities <- tribble(
+  ~city, ~lat, ~lng, ~federalist_percentage, ~demrep_percentage, ~federalist_vote, ~demrep_vote,
+  "Charleston", 32.7765, -79.9311, 0.904, 0.096, 499, 53)
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(cities = FALSE,height = "600px") %>% 
+  addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
+               fillColor = mappingelections:::poli_chrome(cities),
+               opacity = 1, fillOpacity = 0.8, radius = 8, weight = 3,
+                popup = ~paste0("<b>City of ", city, "</b><br/>",
+                                 "Congressional District: 1<br/>",
+                                 "Federalists: ", federalist_percentage * 100, "% (", 
+                                 prettyNum(federalist_vote, big.mark = ","), 
+                                 " votes)<br/>",
+                                 "Democratic-Republicans: ", demrep_percentage * 100,
+                                 "% (", 
+                                 prettyNum(demrep_vote, big.mark = ","),
+                                 " votes)"),
+                 label = ~city) 
+```
+
+</div>
+
+South Carolina elected three Federalists and three Democratic-Republicans to the Fifth Congress.
+
+Mapping this election is incomplete because of the lack of local returns in many areas. 
+
+South Carolina used the district system for electing members to Congress. 
+
+In September 1797, South Carolina held a [special election](https://elections.lib.tufts.edu/catalog/tufts:sc.uscongress.specialelection.1797) in which Thomas Pickney was elected to replace William L. Smith, who resigned when he was appointed minister to Portugal.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

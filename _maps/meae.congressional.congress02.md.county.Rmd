@@ -1,0 +1,87 @@
+---
+meae-id: meae.congressional.congress02.md.county
+type: congressional
+level: state
+state: Maryland
+geography: county
+congressnum: 2
+congressordinal: 2nd
+title: '2nd Congress: Maryland 1790'
+year: 1790
+legend: potomac-vs-chesapeake
+nnv:
+- id: md.uscongress.1790
+  name: MD US Congress 1790 At Large
+related-maps:
+- id: meae.congressional.congress01.md.county
+  name: MD 1st Congress
+  type: previous
+- id: meae.congressional.congress03.md.county
+  name: MD 3rd Congress
+  type: next
+# - id: meae.congressional.congress02.national.district
+#   name: National 2nd Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+image: '/content-img/MD02-featured.png'
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress02.md.county"
+cities <- tribble(
+  ~city, ~lat, ~lng, ~chesapeake_vote, ~chesapeake_percentage, ~potomac_vote, ~potomac_percentage, ~other_vote, ~other_percentage,
+  "Annapolis", 38.97228, -76.50640, 325,	0.491,337, 0.509,	0, 0,
+  "Baltimore", 39.30021, -76.61052, 18273, 0.999,	12,	0.001, 1, 0) 
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(cities = FALSE, height = "425px") %>% 
+  addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
+                 fillColor = mappingelections:::poli_chrome(cities),
+                 opacity = 1, fillOpacity = 0.8, radius = 8, weight = 3,
+                 popup = ~paste0("<b>City of ", city, "</b><br/>",
+                                 "Congressional District: At-large<br/>",
+                                 "Chesapeake party: ", chesapeake_percentage * 100, "% (", 
+                                 prettyNum(chesapeake_vote, big.mark = ","), 
+                                 " votes)<br/>",
+                                 "Potomac party: ", potomac_percentage * 100,
+                                 "% (", 
+                                 prettyNum(potomac_vote, big.mark = ","),
+                                 " votes)"),
+                 label = ~city) 
+
+```
+
+</div>
+
+Maryland’s elections to the second Congress featured the brief rise of two local parties, the Chesapeake and Potomac parties. Four of the Federalist incumbents sought re-election as part of the Potomac Party, while one incumbent, Joshua Seney, represented the Chesapeake Party. In the second congressional election, voters elected all six candidates from the Chesapeake Party, including Seney. 
+
+Maryland used a state-wide at-large system for electing members to Congress. Candidates had to be residents of a specific Congressional district. 
+
+Votes tallied for the cities of Baltimore and Annapolis are shown separately, and they are in addition to the votes reported for Baltimore County and Anne Arundel County.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

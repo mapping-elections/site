@@ -1,0 +1,65 @@
+---
+meae-id: meae.congressional.congress01.nh.county
+type: congressional
+level: state
+state: New Hampshire
+geography: county
+congressnum: 1
+congressordinal: 1st
+title: '1st Congress: New Hampshire 1789'
+year: 1789
+legend: fed-vs-anti
+nnv:
+- id: nh.uscongress.1789
+  name: NH US Congress 1789 At Large
+related-maps:
+- id: meae.congressional.congress02.nh.county
+  name: NH 2nd Congress
+  type: next
+# - id: meae.congressional.congress01.national.district
+#   name: National 1st Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress01.nh.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>% 
+  map_counties(height = "500px", congress = 1)
+```
+
+</div>
+
+New Hampshire elected three Federalists to the First Congress. 
+
+Mapping this election is not possible because there are insufficient returns at the town and county levels.
+
+New Hampshire used a state-wide at-large system to elect members of Congress. These candidate were elected on the second ballot. Benjamin West declined his election and was replaced by Abiel Foster in a [special election](https://elections.lib.tufts.edu/catalog/tufts:nh.uscongress.special.1789).
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table(keep_percentage = 0.01) %>%
+  cat()
+```
+
+</div>

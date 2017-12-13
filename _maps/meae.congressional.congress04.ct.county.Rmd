@@ -1,0 +1,73 @@
+---
+meae-id: meae.congressional.congress04.ct.county
+type: congressional
+level: state
+state: Connecticut
+geography: county
+congressnum: 4
+congressordinal: 4th
+title: '4th Congress: Connecticut 1794'
+year: 1794
+legend: fed-vs-rep
+nnv:
+- id: ct.congress.1794
+  name: CT US Congress 1794 At Large
+related-maps:
+- id: meae.congressional.congress03.ct.county
+  name: CT 3rd Congress
+  type: previous
+- id: meae.congressional.congress05.ct.county
+  name: CT 5th Congress
+  type: next
+# - id: meae.congressional.congress04.national.district
+#   name: National 4th Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+library(sf)
+
+map_id <- "meae.congressional.congress04.ct.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  filter(id != "cts_wr") %>% 
+  map_counties(height = "350px", congress = 4)
+```
+
+</div>
+
+Connecticut elected seven Federalists to the Fourth Congress, five of whom were incumbents. 
+
+Mapping this election is not possible because there are insufficient returns at the town and county levels. 
+
+Connecticut used a statewide at-large system for electing members to Congress. 
+
+In May 1795, Nathaniel Smith was elected in a [special election](https://elections.lib.tufts.edu/catalog/tufts:ct.special.congress.1795) to fill the seat vacated by Jonathan Trumbull after he was elected to the U.S. Senate.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>
