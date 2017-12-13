@@ -19,7 +19,7 @@ Roy Rosenzweig Center for History and New Media, George Mason University:
 
 * [Ken Albers](https://rrchnm.org/author/ken-albers/), Web designer and developer
 
-* [Jordan Bratt](http://historyarthistory.gmu.edu/people/jbratt), Graduate Research Assistant for data and geospatial analysis
+* [Jordan Bratt](http://jfbratt.org), Graduate Research Assistant for data and geospatial analysis
 
 * [Sheila Brennan](http://rrchnm.org/author/sheila-brennan/), Project Co-Director
 
