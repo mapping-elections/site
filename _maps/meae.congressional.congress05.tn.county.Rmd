@@ -46,7 +46,7 @@ map_id <- "meae.congressional.congress05.tn.county"
 map_id %>%
   get_county_map_data() %>%
   map_counties(height = "300px") %>% 
-  setView(lng = -84.85, lat = 36.348, zoom = 9)
+  setView(lng = -84.85, lat = 36.348, zoom = 8)
 ```
 
 </div>

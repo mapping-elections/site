@@ -29,7 +29,6 @@ output:
     theme: default
 always_allow_html: yes
 layout: maps-show
-
 ---
 
 ::: {.map}
@@ -49,12 +48,12 @@ the town or county level.
 New Hampshire used a statewide at-large method for electing members to
 Congress.
 
-In November 1797, New Hampshire held a special election in which Peleg
-Sprague was elected to replace Jeremiah Smith, who resigned: [New
-Hampshire 1797 U.S. House of Representatives,
-Special](https://elections.lib.tufts.edu/catalog/tufts:nh.uscongress.special.1797)
-[New Hampshire 1797 U.S. House of Representatives, Special, Ballot
-2](https://elections.lib.tufts.edu/catalog/tufts:nh.uscongress.special.2.1797)
+In November 1797, New Hampshire held a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:nh.uscongress.special.1797),
+which went to a [second
+ballot](https://elections.lib.tufts.edu/catalog/tufts:nh.uscongress.special.2.1797),
+in which Peleg Sprague was elected to replace Jeremiah Smith, who
+resigned.
 
 ::: {.results-table}
 <table>

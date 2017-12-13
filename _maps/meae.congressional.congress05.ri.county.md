@@ -12,10 +12,10 @@ legend: fed-vs-rep
 level: state
 meae-id: meae.congressional.congress05.ri.county
 nnv:
+- id: ri.uscongress.firstcongressmen.1796
+  name: RI US Congress 1796 Ticket 1
 - id: ri.uscongress.secondcongressmen.1796
-  name: RI US Congress 1796 District NA
-- id: ri.uscongress.specialelection.1796
-  name: RI US Congress 1796 District NA
+  name: RI US Congress 1796 Ticket 2
 geography: county
 related-maps:
 - id: meae.congressional.congress04.ri.county
@@ -46,7 +46,8 @@ Rhode Island elected two Federalists to the Fifth Congress.
 
 Rhode Island used a statewide at-large method for electing members to
 Congress, though each of the two representatives were elected on
-separate tickets.
+separate tickets. The candidates for the two different tickets are
+distinguished below in the district column.
 
 Benjamin Bourne would resign before taking his seat in Congress and a
 [special
@@ -83,9 +84,9 @@ Elected
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="district-changed" data-district-type="odd">
 <td style="text-align:center;">
-At-large
+1
 </td>
 <td style="text-align:left;">
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=B000669">Benjamin
@@ -104,9 +105,9 @@ Federalist
 ✓
 </td>
 </tr>
-<tr>
+<tr class="district-unchanged" data-district-type="even">
 <td style="text-align:center;">
-At-large
+2
 </td>
 <td style="text-align:left;">
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=C000289">Christopher
@@ -125,9 +126,9 @@ Federalist
 ✓
 </td>
 </tr>
-<tr>
+<tr class="district-changed" data-district-type="even">
 <td style="text-align:center;">
-At-large
+2
 </td>
 <td style="text-align:left;">
 William Greene
