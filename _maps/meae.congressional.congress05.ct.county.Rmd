@@ -8,7 +8,7 @@ congressnum: 5
 congressordinal: 5th
 title: '5th Congress: Connecticut 1796'
 year: 1796
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: ct.congress.1796
   name: CT US Congress 1796 At Large

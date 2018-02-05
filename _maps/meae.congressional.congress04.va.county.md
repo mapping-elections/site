@@ -77,7 +77,7 @@ layout: maps-show
 <!--/html_preserve-->
 :::
 
-Virginia elected seventeen Democratic-Republicans and two Federalists to
+Virginia elected eighteen Democratic-Republicans and one Federalist to
 the Fourth Congress.
 
 Virginia used a district system for electing members to Congress.
@@ -485,11 +485,11 @@ Democratic-Republican
 17
 </td>
 <td style="text-align:left;">
-<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=L000200">Richard
-B. Lee</a>
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=B000802">Richard
+Brent</a>
 </td>
-<td class="party-federalist" data-party="federalist">
-Federalist
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
 </td>
 <td style="text-align:right;">
 </td>

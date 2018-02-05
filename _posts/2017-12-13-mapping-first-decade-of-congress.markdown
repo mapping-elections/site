@@ -26,5 +26,5 @@ Making the maps is no easy task. Lincoln Mullen and Jordan Bratt have been worki
 
 The _Mapping Early American Elections_ [GitHub project](https://github.com/mapping-elections) includes the data we have released so far, along with the other code produced by the project. If you are interested in the [data repository](https://github.com/mapping-elections/elections-data), you can follow the data preparation progress through commits and issues in GitHub.
 
-Please take some time browse the maps that represent early American voting returns for Congressional elections. What interesting patterns will you find?
+Please take some time [browse the maps]({{site.url}}/maps/) that represent early American voting returns for Congressional elections. What interesting patterns will you find?
 
