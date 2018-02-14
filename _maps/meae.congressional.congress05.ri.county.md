@@ -21,9 +21,9 @@ related-maps:
 - id: meae.congressional.congress04.ri.county
   name: RI 4th Congress
   type: previous
-# - id: meae.congressional.congress06.ri.county
-#   name: RI 6th Congress
-#   type: next
+- id: meae.congressional.congress06.ri.county
+  name: RI 6th Congress
+  type: next
 # - id: meae.congressional.congress05.national.district
 #   name: National 5th Congress
 #   type: national

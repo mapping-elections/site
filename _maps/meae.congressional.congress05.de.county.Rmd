@@ -16,9 +16,9 @@ related-maps:
 - id: meae.congressional.congress04.de.county
   name: DE 4th Congress
   type: previous
-# - id: meae.congressional.congress06.de.county
-#   name: DE 6th Congress
-#   type: next
+- id: meae.congressional.congress06.de.county
+  name: DE 6th Congress
+  type: next
 # - id: meae.congressional.congress05.national.district
 #   name: National 5th Congress
 #   type: national

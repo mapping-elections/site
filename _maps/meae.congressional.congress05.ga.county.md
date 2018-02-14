@@ -16,9 +16,9 @@ related-maps:
 - id: meae.congressional.congress04.ga.county
   name: GA 4th Congress
   type: previous
-# - id: meae.congressional.congress06.ga.county
-#   name: GA 6th Congress
-#   type: next
+- id: meae.congressional.congress06.ga.county
+  name: GA 6th Congress
+  type: next
 # - id: meae.congressional.congress05.national.district
 #   name: National 5th Congress
 #   type: national
