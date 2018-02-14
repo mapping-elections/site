@@ -1,0 +1,63 @@
+---
+meae-id: meae.congressional.congress06.nh.county
+type: congressional
+level: state
+state: New Hampshire
+geography: county
+congressnum: 6
+congressordinal: 6th
+title: '6th Congress: New Hampshire 1798'
+year: 1798
+legend: fed-vs-anti
+nnv:
+- id: nh.uscongress.1798
+  name: NH US Congress 1798 At Large
+related-maps:
+- id: meae.congressional.congress05.nh.county
+  name: NH 5th Congress
+  type: previous
+- id: meae.congressional.congress07.nh.county
+  name: NH 7th Congress
+  type: next
+# - id: meae.congressional.congress06.national.district
+#   name: National 6th Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress06.nh.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "500px", congress = 6)
+```
+
+</div>
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

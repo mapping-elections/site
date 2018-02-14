@@ -1,0 +1,63 @@
+---
+meae-id: meae.congressional.congress06.de.county
+type: congressional
+level: state
+state: Delaware
+geography: county
+congressnum: 6
+congressordinal: 6th
+title: '6th Congress: Delaware 1798'
+year: 1798
+legend: fed-vs-anti
+nnv:
+- id: de.uscongress.1798
+  name: DE US Congress 1798 At Large
+related-maps:
+- id: meae.congressional.congress05.de.county
+  name: DE 5th Congress
+  type: previous
+- id: meae.congressional.congress07.de.county
+  name: DE 7th Congress
+  type: next
+# - id: meae.congressional.congress06.national.district
+#   name: National 6th Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress06.de.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "450px")
+```
+
+</div>
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>
