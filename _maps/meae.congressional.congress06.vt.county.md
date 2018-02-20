@@ -8,7 +8,7 @@ congressnum: 6
 congressordinal: 6th
 title: '6th Congress: Vermont 1798'
 year: 1798
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: vt.uscongress.runoff.western.1798
   name: VT US Congress 1798 District 1

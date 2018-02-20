@@ -8,7 +8,7 @@ congressnum: 6
 congressordinal: 6th
 title: '6th Congress: Georgia 1798'
 year: 1798
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: ga.uscongress.1798
   name: GA US Congress 1798 At Large

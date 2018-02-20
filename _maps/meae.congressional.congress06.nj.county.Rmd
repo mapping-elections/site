@@ -8,7 +8,7 @@ congressnum: 6
 congressordinal: 6th
 title: '6th Congress: New Jersey 1798'
 year: 1798
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: nj.uscongress.eastern.1798
   name: NJ US Congress 1798 District 1

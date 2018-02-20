@@ -8,7 +8,7 @@ congressnum: 6
 congressordinal: 6th
 title: '6th Congress: Rhode Island 1798'
 year: 1798
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: ri.uscongress.1strep.1798
   name: RI US Congress 1798 District NA

@@ -8,7 +8,7 @@ congressnum: 6
 congressordinal: 6th
 title: '6th Congress: Kentucky 1799'
 year: 1799
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: ky.uscongresssoutherndistrict.1799
   name: KY US Congress 1799 District 1

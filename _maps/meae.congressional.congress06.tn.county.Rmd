@@ -8,7 +8,7 @@ congressnum: 6
 congressordinal: 6th
 title: '6th Congress: Tennessee 1799'
 year: 1799
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: tn.congress.1799
   name: TN US Congress 1799 At Large

@@ -8,7 +8,7 @@ congressnum: 6
 congressordinal: 6th
 title: '6th Congress: Virginia 1799'
 year: 1799
-legend: fed-vs-anti
+legend: fed-vs-rep
 nnv:
 - id: va.uscongress.1.1799
   name: VA US Congress 1799 District 1
