@@ -134,7 +134,8 @@ Federalist
 At-large
 </td>
 <td style="text-align:left;">
-Joseph Peirce
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=P000190">Joseph
+Peirce</a>
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist
