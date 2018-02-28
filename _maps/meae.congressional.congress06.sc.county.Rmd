@@ -59,8 +59,8 @@ cities <- tribble(
 
 ```{r election-map, echo = FALSE}
 map_id %>%
-  get_county_map_data() %>% 
-  filter(cnty_type != "District") %>% 
+  get_county_map_data() %>%
+  arrange(!is.na(federalist_percentage), !is.na(demrep_percentage)) %>% 
   map_counties(cities = FALSE, height = "600px", congress = 6) %>% 
    addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
                  fillColor = mappingelections:::poli_chrome(cities),
