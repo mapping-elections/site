@@ -32,6 +32,36 @@ layout: maps-show
 
 ---
 
+---
+always_allow_html: True
+congressnum: 7
+congressordinal: 7th
+geography: county
+layout: 'maps-show'
+legend: 'fed-vs-rep'
+level: state
+meae-id: 'meae.congressional.congress07.nj.county'
+nnv:
+- id: 'nj.congress.1800'
+  name: NJ US Congress 1800 At Large
+output:
+  html_document:
+    theme: default
+  md_document:
+    variant: markdown
+related-maps:
+- id: 'meae.congressional.congress06.nj.county'
+  name: NJ 6th Congress
+  type: previous
+- id: 'meae.congressional.congress08.nj.county'
+  name: NJ 8th Congress
+  type: next
+state: New Jersey
+title: '7th Congress: New Jersey 1800'
+type: congressional
+year: 1800
+---
+
 ::: {.map}
 <!--html_preserve-->
 ::: {#htmlwidget-4e418d0e777bcf5e8b2b .leaflet .html-widget style="width:100%;height:700px;"}

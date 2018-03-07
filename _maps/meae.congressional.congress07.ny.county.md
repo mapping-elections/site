@@ -50,6 +50,54 @@ layout: maps-show
 
 ---
 
+---
+always_allow_html: True
+congressnum: 7
+congressordinal: 7th
+geography: county
+layout: 'maps-show'
+legend: 'fed-vs-rep'
+level: state
+meae-id: 'meae.congressional.congress07.ny.county'
+nnv:
+- id: 'ny.uscongress1.1800'
+  name: NY US Congress 1800 District 1
+- id: 'ny.uscongress2.1800'
+  name: NY US Congress 1800 District 2
+- id: 'ny.uscongress3.1800'
+  name: NY US Congress 1800 District 3
+- id: 'ny.uscongress4.1800'
+  name: NY US Congress 1800 District 4
+- id: 'ny.uscongress5.1800'
+  name: NY US Congress 1800 District 5
+- id: 'ny.uscongress6.1800'
+  name: NY US Congress 1800 District 6
+- id: 'ny.uscongress7.1800'
+  name: NY US Congress 1800 District 7
+- id: 'ny.uscongress8.1800'
+  name: NY US Congress 1800 District 8
+- id: 'ny.uscongress9.1800'
+  name: NY US Congress 1800 District 9
+- id: 'ny.uscongress10.1800'
+  name: NY US Congress 1800 District 10
+output:
+  html_document:
+    theme: default
+  md_document:
+    variant: markdown
+related-maps:
+- id: 'meae.congressional.congress06.ny.county'
+  name: NY 6th Congress
+  type: previous
+- id: 'meae.congressional.congress08.ny.county'
+  name: NY 8th Congress
+  type: next
+state: New York
+title: '7th Congress: New York 1800'
+type: congressional
+year: 1800
+---
+
 ::: {.map}
 <!--html_preserve-->
 ::: {#htmlwidget-4e418d0e777bcf5e8b2b .leaflet .html-widget style="width:100%;height:550px;"}

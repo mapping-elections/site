@@ -34,6 +34,38 @@ layout: maps-show
 
 ---
 
+---
+always_allow_html: True
+congressnum: 7
+congressordinal: 7th
+geography: county
+layout: 'maps-show'
+legend: 'fed-vs-rep'
+level: state
+meae-id: 'meae.congressional.congress07.vt.county'
+nnv:
+- id: 'vt.uscongress.western.1800'
+  name: VT US Congress 1800 District 1
+- id: 'vt.uscongress.eastern.2.1800'
+  name: VT US Congress 1800 District 2
+output:
+  html_document:
+    theme: default
+  md_document:
+    variant: markdown
+related-maps:
+- id: 'meae.congressional.congress06.vt.county'
+  name: VT 6th Congress
+  type: previous
+- id: 'meae.congressional.congress08.vt.county'
+  name: VT 8th Congress
+  type: next
+state: Vermont
+title: '7th Congress: Vermont 1800'
+type: congressional
+year: 1800
+---
+
 ::: {.map}
 <!--html_preserve-->
 ::: {#htmlwidget-4e418d0e777bcf5e8b2b .leaflet .html-widget style="width:100%;height:600px;"}
