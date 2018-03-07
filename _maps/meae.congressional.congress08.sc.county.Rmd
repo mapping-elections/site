@@ -51,6 +51,7 @@ library(leaflet)
 library(tidyverse)
 library(USAboundaries)
 library(mappingelections)
+library(sf)
 
 map_id <- "meae.congressional.congress08.sc.county"
 
@@ -64,6 +65,7 @@ cities <- tribble(
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>%
+  arrange(!is.na(federalist_percentage), !is.na(demrep_percentage)) %>%
   map_counties(cities = FALSE, height = "600px") %>% 
   addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
                fillColor = mappingelections:::poli_chrome(cities),
