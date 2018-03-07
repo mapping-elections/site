@@ -1,35 +1,31 @@
 ---
-meae-id: meae.congressional.congress06.de.county
-type: congressional
-level: state
-state: Delaware
-geography: county
+always_allow_html: True
 congressnum: 6
 congressordinal: 6th
-title: '6th Congress: Delaware 1798'
-year: 1798
-legend: fed-vs-rep
+geography: county
+layout: 'maps-show'
+legend: 'fed-vs-rep'
+level: state
+meae-id: 'meae.congressional.congress06.de.county'
 nnv:
-- id: de.uscongress.1798
+- id: 'de.uscongress.1798'
   name: DE US Congress 1798 At Large
-related-maps:
-- id: meae.congressional.congress05.de.county
-  name: DE 5th Congress
-  type: previous
-- id: meae.congressional.congress07.de.county
-  name: DE 7th Congress
-  type: next
-# - id: meae.congressional.congress06.national.district
-#   name: National 6th Congress
-#   type: national
 output:
-  md_document:
-    variant: markdown
   html_document:
     theme: default
-always_allow_html: yes
-layout: maps-show
-
+  md_document:
+    variant: markdown
+related-maps:
+- id: 'meae.congressional.congress05.de.county'
+  name: DE 5th Congress
+  type: previous
+- id: 'meae.congressional.congress07.de.county'
+  name: DE 7th Congress
+  type: next
+state: Delaware
+title: '6th Congress: Delaware 1798'
+type: congressional
+year: 1798
 ---
 
 ::: {.map}

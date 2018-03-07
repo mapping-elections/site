@@ -1,61 +1,57 @@
 ---
-meae-id: meae.congressional.congress03.ma.county
-type: congressional
-level: state
-state: Massachusetts
-geography: county
+always_allow_html: True
 congressnum: 3
 congressordinal: 3rd
-title: '3rd Congress: Massachusetts 1793'
-year: 1793
-legend: fed-vs-anti
+geography: county
+layout: 'maps-show'
+legend: 'fed-vs-anti'
+level: state
+meae-id: 'meae.congressional.congress03.ma.county'
 nnv:
-- id: ma.uscongress.1.ballot3.1793
+- id: 'ma.uscongress.1.ballot3.1793'
   name: MA US Congress 1793 District 1
-- id: ma.uscongress.1.essex.1792
+- id: 'ma.uscongress.1.essex.1792'
   name: MA US Congress 1792 District 1
-- id: ma.uscongress.1.middlesex.1792
+- id: 'ma.uscongress.1.middlesex.1792'
   name: MA US Congress 1792 District 1
-- id: ma.uscongress.1.suffolk.1792
+- id: 'ma.uscongress.1.suffolk.1792'
   name: MA US Congress 1792 District 1
-- id: ma.uscongress.2.ballot3.1793
+- id: 'ma.uscongress.2.ballot3.1793'
   name: MA US Congress 1793 District 2
-- id: ma.uscongress.2.berkshire.1792
+- id: 'ma.uscongress.2.berkshire.1792'
   name: MA US Congress 1792 District 2
-- id: ma.uscongress.2.hampshire.ballot3.1793
+- id: 'ma.uscongress.2.hampshire.ballot3.1793'
   name: MA US Congress 1793 District 2
-- id: ma.uscongress.2.worcester.1792
+- id: 'ma.uscongress.2.worcester.1792'
   name: MA US Congress 1792 District 2
-- id: ma.uscongress.3.barnstableplymouth.ballot2.1793
+- id: 'ma.uscongress.3.barnstableplymouth.ballot2.1793'
   name: MA US Congress 1793 District 3
-- id: ma.uscongress.3.bristoldukesnantucket.1792
+- id: 'ma.uscongress.3.bristoldukesnantucket.1792'
   name: MA US Congress 1792 District 3
-- id: ma.uscongress.4.cumberland.ballot3.1793
+- id: 'ma.uscongress.4.cumberland.ballot3.1793'
   name: MA US Congress 1793 District 4
-- id: ma.uscongress.4.lincolnhancockwashington.ballot2.1793
+- id: 'ma.uscongress.4.lincolnhancockwashington.ballot2.1793'
   name: MA US Congress 1793 District 4
-- id: ma.uscongress.4.york.1792
+- id: 'ma.uscongress.4.york.1792'
   name: MA US Congress 1792 District 4
-- id: ma.uscongress.atlarge.1792
-  name: MA US Congress 1792 At-large
-related-maps:
-- id: meae.congressional.congress02.ma.county
-  name: MA 2nd Congress
-  type: previous
-- id: meae.congressional.congress04.ma.county
-  name: MA 4th Congress
-  type: next
-# - id: meae.congressional.congress03.national.district
-#   name: National 3rd Congress
-#   type: national
+- id: 'ma.uscongress.atlarge.1792'
+  name: 'MA US Congress 1792 At-large'
 output:
-  md_document:
-    variant: markdown
   html_document:
     theme: default
-always_allow_html: yes
-layout: maps-show
-
+  md_document:
+    variant: markdown
+related-maps:
+- id: 'meae.congressional.congress02.ma.county'
+  name: MA 2nd Congress
+  type: previous
+- id: 'meae.congressional.congress04.ma.county'
+  name: MA 4th Congress
+  type: next
+state: Massachusetts
+title: '3rd Congress: Massachusetts 1793'
+type: congressional
+year: 1793
 ---
 
 ::: {.map}

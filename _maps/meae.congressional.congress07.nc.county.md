@@ -1,56 +1,4 @@
 ---
-meae-id: meae.congressional.congress07.nc.county
-type: congressional
-level: state
-state: North Carolina
-geography: county
-congressnum: 7
-congressordinal: 7th
-title: '7th Congress: North Carolina 1800'
-year: 1800
-legend: fed-vs-rep
-nnv:
-- id: nc.uscongress1.1800
-  name: NC US Congress 1800 District 1
-- id: nc.uscongress2.1800
-  name: NC US Congress 1800 District 2
-- id: nc.uscongress3.1800
-  name: NC US Congress 1800 District 3
-- id: nc.uscongress4.1800
-  name: NC US Congress 1800 District 4
-- id: nc.uscongress5.1800
-  name: NC US Congress 1800 District 5
-- id: nc.uscongress6.1800
-  name: NC US Congress 1800 District 6
-- id: nc.uscongress7.1800
-  name: NC US Congress 1800 District 7
-- id: nc.uscongress8.1800
-  name: NC US Congress 1800 District 8
-- id: nc.uscongress9.1800
-  name: NC US Congress 1800 District 9
-- id: nc.uscongress10.1800
-  name: NC US Congress 1800 District 10
-related-maps:
-- id: meae.congressional.congress06.nc.county
-  name: NC 6th Congress
-  type: previous
-- id: meae.congressional.congress08.nc.county
-  name: NC 8th Congress
-  type: next
-# - id: meae.congressional.congress07.national.district
-#   name: National 7th Congress
-#   type: national
-output:
-  md_document:
-    variant: markdown
-  html_document:
-    theme: default
-always_allow_html: yes
-layout: maps-show
-
----
-
----
 always_allow_html: True
 congressnum: 7
 congressordinal: 7th
@@ -259,8 +207,7 @@ Democratic-Republican
 3
 </td>
 <td style="text-align:left;">
-<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=H000111">John
-Hamilton</a>
+John Hamilton
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist

@@ -1,35 +1,31 @@
 ---
-meae-id: meae.congressional.congress07.ri.county
-type: congressional
-level: state
-state: Rhode Island
-geography: county
+always_allow_html: True
 congressnum: 7
 congressordinal: 7th
-title: '7th Congress: Rhode Island 1800'
-year: 1800
-legend: fed-vs-rep
+geography: county
+layout: 'maps-show'
+legend: 'fed-vs-rep'
+level: state
+meae-id: 'meae.congressional.congress07.ri.county'
 nnv:
-- id: ri.uscongress.1800
+- id: 'ri.uscongress.1800'
   name: RI US Congress 1800 At Large
-related-maps:
-- id: meae.congressional.congress06.ri.county
-  name: RI 6th Congress
-  type: previous
-- id: meae.congressional.congress08.ri.county
-  name: RI 8th Congress
-  type: next
-# - id: meae.congressional.congress07.national.district
-#   name: National 7th Congress
-#   type: national
 output:
-  md_document:
-    variant: markdown
   html_document:
     theme: default
-always_allow_html: yes
-layout: maps-show
-
+  md_document:
+    variant: markdown
+related-maps:
+- id: 'meae.congressional.congress06.ri.county'
+  name: RI 6th Congress
+  type: previous
+- id: 'meae.congressional.congress08.ri.county'
+  name: RI 8th Congress
+  type: next
+state: Rhode Island
+title: '7th Congress: Rhode Island 1800'
+type: congressional
+year: 1800
 ---
 
 ::: {.map}

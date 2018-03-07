@@ -1,53 +1,49 @@
 ---
-meae-id: meae.congressional.congress06.ny.county
-type: congressional
-level: state
-state: New York
-geography: county
+always_allow_html: True
 congressnum: 6
 congressordinal: 6th
-title: '6th Congress: New York 1798'
-year: 1798
-legend: fed-vs-rep
+geography: county
+layout: 'maps-show'
+legend: 'fed-vs-rep'
+level: state
+meae-id: 'meae.congressional.congress06.ny.county'
 nnv:
-- id: ny.uscongress1.1798
+- id: 'ny.uscongress1.1798'
   name: NY US Congress 1798 District 1
-- id: ny.uscongress2.1798
+- id: 'ny.uscongress2.1798'
   name: NY US Congress 1798 District 2
-- id: ny.uscongress3.1798
+- id: 'ny.uscongress3.1798'
   name: NY US Congress 1798 District 3
-- id: ny.uscongress4.1798
+- id: 'ny.uscongress4.1798'
   name: NY US Congress 1798 District 4
-- id: ny.uscongress5.1798
+- id: 'ny.uscongress5.1798'
   name: NY US Congress 1798 District 5
-- id: ny.uscongress6.1798
+- id: 'ny.uscongress6.1798'
   name: NY US Congress 1798 District 6
-- id: ny.uscongress7.1798
+- id: 'ny.uscongress7.1798'
   name: NY US Congress 1798 District 7
-- id: ny.uscongress8.1798
+- id: 'ny.uscongress8.1798'
   name: NY US Congress 1798 District 8
-- id: ny.uscongress9.1798
+- id: 'ny.uscongress9.1798'
   name: NY US Congress 1798 District 9
-- id: ny.uscongress10.1798
+- id: 'ny.uscongress10.1798'
   name: NY US Congress 1798 District 10
-related-maps:
-- id: meae.congressional.congress05.ny.county
-  name: NY 5th Congress
-  type: previous
-- id: meae.congressional.congress07.ny.county
-  name: NY 7th Congress
-  type: next
-# - id: meae.congressional.congress06.national.district
-#   name: National 6th Congress
-#   type: national
 output:
-  md_document:
-    variant: markdown
   html_document:
     theme: default
-always_allow_html: yes
-layout: maps-show
-
+  md_document:
+    variant: markdown
+related-maps:
+- id: 'meae.congressional.congress05.ny.county'
+  name: NY 5th Congress
+  type: previous
+- id: 'meae.congressional.congress07.ny.county'
+  name: NY 7th Congress
+  type: next
+state: New York
+title: '6th Congress: New York 1798'
+type: congressional
+year: 1798
 ---
 
 ::: {.map}

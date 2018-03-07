@@ -1,67 +1,63 @@
 ---
-meae-id: meae.congressional.congress08.ny.county
-type: congressional
-level: state
-state: New York
-geography: county
+always_allow_html: True
 congressnum: 8
 congressordinal: 8th
-title: '8th Congress: New York 1803'
-year: 1803
-legend: fed-vs-rep
+geography: county
+layout: 'maps-show'
+legend: 'fed-vs-rep'
+level: state
+meae-id: 'meae.congressional.congress08.ny.county'
 nnv:
-- id: ny.uscongress1.1802
+- id: 'ny.uscongress1.1802'
   name: NY US Congress 1802 District 1
-- id: ny.uscongress2.1802
+- id: 'ny.uscongress2.1802'
   name: NY US Congress 1802 District 2
-- id: ny.uscongress3.1802
+- id: 'ny.uscongress3.1802'
   name: NY US Congress 1802 District 3
-- id: ny.uscongress4.1802
+- id: 'ny.uscongress4.1802'
   name: NY US Congress 1802 District 4
-- id: ny.uscongress5.1802
+- id: 'ny.uscongress5.1802'
   name: NY US Congress 1802 District 5
-- id: ny.uscongress6.1802
+- id: 'ny.uscongress6.1802'
   name: NY US Congress 1802 District 6
-- id: ny.specialuscongress7.1803
+- id: 'ny.specialuscongress7.1803'
   name: NY US Congress 1803 District 7
-- id: ny.uscongress8.1802
+- id: 'ny.uscongress8.1802'
   name: NY US Congress 1802 District 8
-- id: ny.uscongress9.1802
+- id: 'ny.uscongress9.1802'
   name: NY US Congress 1802 District 9
-- id: ny.uscongress10.1802
+- id: 'ny.uscongress10.1802'
   name: NY US Congress 1802 District 10
-- id: ny.uscongress11.1802
+- id: 'ny.uscongress11.1802'
   name: NY US Congress 1802 District 11
-- id: ny.uscongress12.1802
+- id: 'ny.uscongress12.1802'
   name: NY US Congress 1802 District 12
-- id: ny.uscongress13.1802
+- id: 'ny.uscongress13.1802'
   name: NY US Congress 1802 District 13
-- id: ny.uscongress14.1802
+- id: 'ny.uscongress14.1802'
   name: NY US Congress 1802 District 14
-- id: ny.uscongress15.1802
+- id: 'ny.uscongress15.1802'
   name: NY US Congress 1802 District 15
-- id: ny.uscongress16.1802
+- id: 'ny.uscongress16.1802'
   name: NY US Congress 1802 District 16
-- id: ny.uscongress17.1802
+- id: 'ny.uscongress17.1802'
   name: NY US Congress 1802 District 17
-related-maps:
-- id: meae.congressional.congress07.ny.county
-  name: NY 7th Congress
-  type: previous
-- id: meae.congressional.congress09.ny.county
-  name: NY 9th Congress
-  type: next
-# - id: meae.congressional.congress08.national.district
-#   name: National 8th Congress
-#   type: national
 output:
-  md_document:
-    variant: markdown
   html_document:
     theme: default
-always_allow_html: yes
-layout: maps-show
-
+  md_document:
+    variant: markdown
+related-maps:
+- id: 'meae.congressional.congress07.ny.county'
+  name: NY 7th Congress
+  type: previous
+- id: 'meae.congressional.congress09.ny.county'
+  name: NY 9th Congress
+  type: next
+state: New York
+title: '8th Congress: New York 1803'
+type: congressional
+year: 1803
 ---
 
 ::: {.map}

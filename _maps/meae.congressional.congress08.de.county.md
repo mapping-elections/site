@@ -1,35 +1,31 @@
 ---
-meae-id: meae.congressional.congress08.de.county
-type: congressional
-level: state
-state: Delaware
-geography: county
+always_allow_html: True
 congressnum: 8
 congressordinal: 8th
-title: '8th Congress: Delaware 1802'
-year: 1802
-legend: fed-vs-rep
+geography: county
+layout: 'maps-show'
+legend: 'fed-vs-rep'
+level: state
+meae-id: 'meae.congressional.congress08.de.county'
 nnv:
-- id: de.uscongress.1802
+- id: 'de.uscongress.1802'
   name: DE US Congress 1802 At Large
-related-maps:
-- id: meae.congressional.congress07.de.county
-  name: DE 7th Congress
-  type: previous
-- id: meae.congressional.congress09.de.county
-  name: DE 9th Congress
-  type: next
-# - id: meae.congressional.congress08.national.district
-#   name: National 8th Congress
-#   type: national
 output:
-  md_document:
-    variant: markdown
   html_document:
     theme: default
-always_allow_html: yes
-layout: maps-show
-
+  md_document:
+    variant: markdown
+related-maps:
+- id: 'meae.congressional.congress07.de.county'
+  name: DE 7th Congress
+  type: previous
+- id: 'meae.congressional.congress09.de.county'
+  name: DE 9th Congress
+  type: next
+state: Delaware
+title: '8th Congress: Delaware 1802'
+type: congressional
+year: 1802
 ---
 
 ::: {.map}

@@ -1,61 +1,57 @@
 ---
-meae-id: meae.congressional.congress04.ma.county
-type: congressional
-level: state
-state: Massachusetts
-geography: county
+always_allow_html: True
 congressnum: 4
 congressordinal: 4th
-title: '4th Congress: Massachusetts 1794'
-year: 1794
-legend: fed-vs-rep
+geography: county
+layout: 'maps-show'
+legend: 'fed-vs-rep'
+level: state
+meae-id: 'meae.congressional.congress04.ma.county'
 nnv:
-- id: ma.uscongress.western.1.1794
+- id: 'ma.uscongress.western.1.1794'
   name: MA US Congress 1794 District 1
-- id: ma.uscongress.western.2.1794
+- id: 'ma.uscongress.western.2.1794'
   name: MA US Congress 1794 District 2
-- id: ma.uscongress.western.3.1794
+- id: 'ma.uscongress.western.3.1794'
   name: MA US Congress 1794 District 3
-- id: ma.uscongress.western.4.1794
+- id: 'ma.uscongress.western.4.1794'
   name: MA US Congress 1794 District 4
-- id: ma.uscongress.southern.1.1794
+- id: 'ma.uscongress.southern.1.1794'
   name: MA US Congress 1794 District 5
-- id: ma.uscongress.southern.2.1794
+- id: 'ma.uscongress.southern.2.1794'
   name: MA US Congress 1794 District 6
-- id: ma.uscongress.southern.3.ballot4.1795
+- id: 'ma.uscongress.southern.3.ballot4.1795'
   name: MA US Congress 1795 District 7
-- id: ma.uscongress.middle.1.1794
+- id: 'ma.uscongress.middle.1.1794'
   name: MA US Congress 1794 District 8
-- id: ma.uscongress.middle.2.ballot3.1795
+- id: 'ma.uscongress.middle.2.ballot3.1795'
   name: MA US Congress 1795 District 9
-- id: ma.uscongress.middle.3.1794
+- id: 'ma.uscongress.middle.3.1794'
   name: MA US Congress 1794 District 10
-- id: ma.uscongress.middle.4.ballot3.1795
+- id: 'ma.uscongress.middle.4.ballot3.1795'
   name: MA US Congress 1795 District 11
-- id: ma.uscongress.eastern.1.1794
+- id: 'ma.uscongress.eastern.1.1794'
   name: MA US Congress 1794 District 12
-- id: ma.uscongress.eastern.2.ballot2.1795
+- id: 'ma.uscongress.eastern.2.ballot2.1795'
   name: MA US Congress 1795 District 13
-- id: ma.uscongress.eastern.3.ballot2.1795
+- id: 'ma.uscongress.eastern.3.ballot2.1795'
   name: MA US Congress 1795 District 14
-related-maps:
-- id: meae.congressional.congress03.ma.county
-  name: MA 3rd Congress
-  type: previous
-- id: meae.congressional.congress05.ma.county
-  name: MA 5th Congress
-  type: next
-# - id: meae.congressional.congress04.national.district
-#   name: National 4th Congress
-#   type: national
 output:
-  md_document:
-    variant: markdown
   html_document:
     theme: default
-always_allow_html: yes
-layout: maps-show
-
+  md_document:
+    variant: markdown
+related-maps:
+- id: 'meae.congressional.congress03.ma.county'
+  name: MA 3rd Congress
+  type: previous
+- id: 'meae.congressional.congress05.ma.county'
+  name: MA 5th Congress
+  type: next
+state: Massachusetts
+title: '4th Congress: Massachusetts 1794'
+type: congressional
+year: 1794
 ---
 
 ::: {.map}

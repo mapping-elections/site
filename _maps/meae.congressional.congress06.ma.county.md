@@ -1,61 +1,57 @@
 ---
-meae-id: meae.congressional.congress06.ma.county
-type: congressional
-level: state
-state: Massachusetts
-geography: county
+always_allow_html: True
 congressnum: 6
 congressordinal: 6th
-title: '6th Congress: Massachusetts 1798'
-year: 1798
-legend: fed-vs-rep
+geography: county
+layout: 'maps-show'
+legend: 'fed-vs-rep'
+level: state
+meae-id: 'meae.congressional.congress06.ma.county'
 nnv:
-- id: ma.uscongress.western.1.1798
+- id: 'ma.uscongress.western.1.1798'
   name: MA US Congress 1798 District 1
-- id: ma.uscongress.western.2.1798
+- id: 'ma.uscongress.western.2.1798'
   name: MA US Congress 1798 District 2
-- id: ma.uscongress.western.3.1798
+- id: 'ma.uscongress.western.3.1798'
   name: MA US Congress 1798 District 3
-- id: ma.uscongress.western.4.1798
+- id: 'ma.uscongress.western.4.1798'
   name: MA US Congress 1798 District 4
-- id: ma.uscongress.southern.1.ballot5.1799
+- id: 'ma.uscongress.southern.1.ballot5.1799'
   name: MA US Congress 1799 District 5
-- id: ma.uscongress.southern.2.1798
+- id: 'ma.uscongress.southern.2.1798'
   name: MA US Congress 1798 District 6
-- id: ma.uscongress.southern.3.ballot4.1799
+- id: 'ma.uscongress.southern.3.ballot4.1799'
   name: MA US Congress 1799 District 7
-- id: ma.uscongress.middle.1.1798
+- id: 'ma.uscongress.middle.1.1798'
   name: MA US Congress 1798 District 8
-- id: ma.uscongress.middle.2.1798
+- id: 'ma.uscongress.middle.2.1798'
   name: MA US Congress 1798 District 9
-- id: ma.uscongress.middle.3.1798
+- id: 'ma.uscongress.middle.3.1798'
   name: MA US Congress 1798 District 10
-- id: ma.uscongress.middle.4.1798
+- id: 'ma.uscongress.middle.4.1798'
   name: MA US Congress 1798 District 11
-- id: ma.uscongress.eastern.1.1798
+- id: 'ma.uscongress.eastern.1.1798'
   name: MA US Congress 1798 District 12
-- id: ma.uscongress.eastern.2.1798
+- id: 'ma.uscongress.eastern.2.1798'
   name: MA US Congress 1798 District 13
-- id: ma.uscongress.eastern.3.1798
+- id: 'ma.uscongress.eastern.3.1798'
   name: MA US Congress 1798 District 14
-related-maps:
-- id: meae.congressional.congress05.ma.county
-  name: MA 5th Congress
-  type: previous
-- id: meae.congressional.congress07.ma.county
-  name: MA 7th Congress
-  type: next
-# - id: meae.congressional.congress06.national.district
-#   name: National 6th Congress
-#   type: national
 output:
-  md_document:
-    variant: markdown
   html_document:
     theme: default
-always_allow_html: yes
-layout: maps-show
-
+  md_document:
+    variant: markdown
+related-maps:
+- id: 'meae.congressional.congress05.ma.county'
+  name: MA 5th Congress
+  type: previous
+- id: 'meae.congressional.congress07.ma.county'
+  name: MA 7th Congress
+  type: next
+state: Massachusetts
+title: '6th Congress: Massachusetts 1798'
+type: congressional
+year: 1798
 ---
 
 ::: {.map}

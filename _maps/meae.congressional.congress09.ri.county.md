@@ -1,38 +1,4 @@
 ---
-meae-id: meae.congressional.congress09.ri.county
-type: congressional
-level: state
-state: Rhode Island
-geography: county
-congressnum: 9
-congressordinal: 9th
-title: '9th Congress: Rhode Island 1804'
-year: 1804
-legend: fed-vs-rep
-nnv:
-- id: ri.uscongress.1804
-  name: RI US Congress 1804 At Large
-related-maps:
-- id: meae.congressional.congress08.ri.county
-  name: RI 8th Congress
-  type: previous
-- id: meae.congressional.congress010.ri.county
-  name: RI 10th Congress
-  type: next
-# - id: meae.congressional.congress09.national.district
-#   name: National 9th Congress
-#   type: national
-output:
-  md_document:
-    variant: markdown
-  html_document:
-    theme: default
-always_allow_html: yes
-layout: maps-show
-
----
-
----
 always_allow_html: True
 congressnum: 9
 congressordinal: 9th

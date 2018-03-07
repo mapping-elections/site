@@ -1,41 +1,37 @@
 ---
-meae-id: meae.congressional.congress08.vt.county
-type: congressional
-level: state
-state: Vermont
-geography: county
+always_allow_html: True
 congressnum: 8
 congressordinal: 8th
-title: '8th Congress: Vermont 1802'
-year: 1802
-legend: fed-vs-rep
+geography: county
+layout: 'maps-show'
+legend: 'fed-vs-rep'
+level: state
+meae-id: 'meae.congressional.congress08.vt.county'
 nnv:
-- id: vt.uscongress.southwest.1802
+- id: 'vt.uscongress.southwest.1802'
   name: VT US Congress 1802 District 1
-- id: vt.uscongress.southeast.secondballot.1803
+- id: 'vt.uscongress.southeast.secondballot.1803'
   name: VT US Congress 1803 District 2
-- id: vt.uscongress.northeast.1802
+- id: 'vt.uscongress.northeast.1802'
   name: VT US Congress 1802 District 3
-- id: vt.uscongress.northwest.thirdballot.1803
+- id: 'vt.uscongress.northwest.thirdballot.1803'
   name: VT US Congress 1803 District 4
-related-maps:
-- id: meae.congressional.congress07.vt.county
-  name: VT 7th Congress
-  type: previous
-- id: meae.congressional.congress09.vt.county
-  name: VT 9th Congress
-  type: next
-# - id: meae.congressional.congress08.national.district
-#   name: National 8th Congress
-#   type: national
 output:
-  md_document:
-    variant: markdown
   html_document:
     theme: default
-always_allow_html: yes
-layout: maps-show
-
+  md_document:
+    variant: markdown
+related-maps:
+- id: 'meae.congressional.congress07.vt.county'
+  name: VT 7th Congress
+  type: previous
+- id: 'meae.congressional.congress09.vt.county'
+  name: VT 9th Congress
+  type: next
+state: Vermont
+title: '8th Congress: Vermont 1802'
+type: congressional
+year: 1802
 ---
 
 ::: {.map}

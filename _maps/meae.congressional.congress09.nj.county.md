@@ -1,38 +1,4 @@
 ---
-meae-id: meae.congressional.congress09.nj.county
-type: congressional
-level: state
-state: New Jersey
-geography: county
-congressnum: 9
-congressordinal: 9th
-title: '9th Congress: New Jersey 1804'
-year: 1804
-legend: fed-vs-rep
-nnv:
-- id: nj.uscongress.1804
-  name: NJ US Congress 1804 At Large
-related-maps:
-- id: meae.congressional.congress08.nj.county
-  name: NJ 8th Congress
-  type: previous
-- id: meae.congressional.congress010.nj.county
-  name: NJ 10th Congress
-  type: next
-# - id: meae.congressional.congress09.national.district
-#   name: National 9th Congress
-#   type: national
-output:
-  md_document:
-    variant: markdown
-  html_document:
-    theme: default
-always_allow_html: yes
-layout: maps-show
-
----
-
----
 always_allow_html: True
 congressnum: 9
 congressordinal: 9th

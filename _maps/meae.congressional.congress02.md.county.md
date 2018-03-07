@@ -1,35 +1,32 @@
 ---
-meae-id: meae.congressional.congress02.md.county
-type: congressional
-level: state
-state: Maryland
-geography: county
+always_allow_html: True
 congressnum: 2
 congressordinal: 2nd
-title: '2nd Congress: Maryland 1790'
-year: 1790
-legend: potomac-vs-chesapeake
+geography: county
+image: '/content-img/MD02-featured.png'
+layout: 'maps-show'
+legend: 'potomac-vs-chesapeake'
+level: state
+meae-id: 'meae.congressional.congress02.md.county'
 nnv:
-- id: md.uscongress.1790
+- id: 'md.uscongress.1790'
   name: MD US Congress 1790 At Large
-related-maps:
-- id: meae.congressional.congress01.md.county
-  name: MD 1st Congress
-  type: previous
-- id: meae.congressional.congress03.md.county
-  name: MD 3rd Congress
-  type: next
-# - id: meae.congressional.congress02.national.district
-#   name: National 2nd Congress
-#   type: national
 output:
-  md_document:
-    variant: markdown
   html_document:
     theme: default
-always_allow_html: yes
-layout: maps-show
-image: '/content-img/MD02-featured.png'
+  md_document:
+    variant: markdown
+related-maps:
+- id: 'meae.congressional.congress01.md.county'
+  name: MD 1st Congress
+  type: previous
+- id: 'meae.congressional.congress03.md.county'
+  name: MD 3rd Congress
+  type: next
+state: Maryland
+title: '2nd Congress: Maryland 1790'
+type: congressional
+year: 1790
 ---
 
 ::: {.map}

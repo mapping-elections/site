@@ -1,35 +1,31 @@
 ---
-meae-id: meae.congressional.congress07.de.county
-type: congressional
-level: state
-state: Delaware
-geography: county
+always_allow_html: True
 congressnum: 7
 congressordinal: 7th
-title: '7th Congress: Delaware 1800'
-year: 1800
-legend: fed-vs-rep
+geography: county
+layout: 'maps-show'
+legend: 'fed-vs-rep'
+level: state
+meae-id: 'meae.congressional.congress07.de.county'
 nnv:
-- id: de.uscongress.1800
+- id: 'de.uscongress.1800'
   name: DE US Congress 1800 At Large
-related-maps:
-- id: meae.congressional.congress06.de.county
-  name: DE 6th Congress
-  type: previous
-- id: meae.congressional.congress08.de.county
-  name: DE 8th Congress
-  type: next
-# - id: meae.congressional.congress07.national.district
-#   name: National 7th Congress
-#   type: national
 output:
-  md_document:
-    variant: markdown
   html_document:
     theme: default
-always_allow_html: yes
-layout: maps-show
-
+  md_document:
+    variant: markdown
+related-maps:
+- id: 'meae.congressional.congress06.de.county'
+  name: DE 6th Congress
+  type: previous
+- id: 'meae.congressional.congress08.de.county'
+  name: DE 8th Congress
+  type: next
+state: Delaware
+title: '7th Congress: Delaware 1800'
+type: congressional
+year: 1800
 ---
 
 ::: {.map}

@@ -1,34 +1,31 @@
 ---
-meae-id: meae.congressional.congress03.de.county
-type: congressional
-level: state
-state: Delaware
-geography: county
+always_allow_html: True
 congressnum: 3
 congressordinal: 3rd
-title: '3rd Congress: Delaware 1792'
-year: 1792
-legend: fed-vs-anti
+geography: county
+layout: 'maps-show'
+legend: 'fed-vs-anti'
+level: state
+meae-id: 'meae.congressional.congress03.de.county'
 nnv:
-- id: de.uscongress.1792
+- id: 'de.uscongress.1792'
   name: DE US Congress 1792 At Large
-related-maps:
-- id: meae.congressional.congress02.de.county
-  name: DE 2nd Congress
-  type: previous
-- id: meae.congressional.congress04.de.county
-  name: DE 4th Congress
-  type: next
-# - id: meae.congressional.congress03.national.district
-#   name: National 3rd Congress
-#   type: national
 output:
-  md_document:
-    variant: markdown
   html_document:
     theme: default
-always_allow_html: yes
-layout: maps-show
+  md_document:
+    variant: markdown
+related-maps:
+- id: 'meae.congressional.congress02.de.county'
+  name: DE 2nd Congress
+  type: previous
+- id: 'meae.congressional.congress04.de.county'
+  name: DE 4th Congress
+  type: next
+state: Delaware
+title: '3rd Congress: Delaware 1792'
+type: congressional
+year: 1792
 ---
 
 ::: {.map}

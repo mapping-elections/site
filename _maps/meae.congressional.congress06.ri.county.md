@@ -1,37 +1,33 @@
 ---
-meae-id: meae.congressional.congress06.ri.county
-type: congressional
-level: state
-state: Rhode Island
-geography: county
+always_allow_html: True
 congressnum: 6
 congressordinal: 6th
-title: '6th Congress: Rhode Island 1798'
-year: 1798
-legend: fed-vs-rep
+geography: county
+layout: 'maps-show'
+legend: 'fed-vs-rep'
+level: state
+meae-id: 'meae.congressional.congress06.ri.county'
 nnv:
-- id: ri.uscongress.1strep.1798
+- id: 'ri.uscongress.1strep.1798'
   name: RI US Congress 1798 District NA
-- id: ri.uscongress.2ndrep.1798
+- id: 'ri.uscongress.2ndrep.1798'
   name: RI US Congress 1798 District NA
-related-maps:
-- id: meae.congressional.congress05.ri.county
-  name: RI 5th Congress
-  type: previous
-- id: meae.congressional.congress07.ri.county
-  name: RI 7th Congress
-  type: next
-# - id: meae.congressional.congress06.national.district
-#   name: National 6th Congress
-#   type: national
 output:
-  md_document:
-    variant: markdown
   html_document:
     theme: default
-always_allow_html: yes
-layout: maps-show
-
+  md_document:
+    variant: markdown
+related-maps:
+- id: 'meae.congressional.congress05.ri.county'
+  name: RI 5th Congress
+  type: previous
+- id: 'meae.congressional.congress07.ri.county'
+  name: RI 7th Congress
+  type: next
+state: Rhode Island
+title: '6th Congress: Rhode Island 1798'
+type: congressional
+year: 1798
 ---
 
 ::: {.map}

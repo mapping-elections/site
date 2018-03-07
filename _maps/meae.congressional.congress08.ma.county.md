@@ -1,67 +1,63 @@
 ---
-meae-id: meae.congressional.congress08.ma.county
-type: congressional
-level: state
-state: Massachusetts
-geography: county
+always_allow_html: True
 congressnum: 8
 congressordinal: 8th
-title: '8th Congress: Massachusetts 1802'
-year: 1802
-legend: fed-vs-rep
+geography: county
+layout: 'maps-show'
+legend: 'fed-vs-rep'
+level: state
+meae-id: 'meae.congressional.congress08.ma.county'
 nnv:
-- id: ma.uscongress.suffolk.1802
+- id: 'ma.uscongress.suffolk.1802'
   name: MA US Congress 1802 District 1
-- id: ma.uscongress.essexsouth.1802
+- id: 'ma.uscongress.essexsouth.1802'
   name: MA US Congress 1802 District 2
-- id: ma.uscongress.essexnorth.1802
+- id: 'ma.uscongress.essexnorth.1802'
   name: MA US Congress 1802 District 3
-- id: ma.uscongress.middlesex.1802
+- id: 'ma.uscongress.middlesex.1802'
   name: MA US Congress 1802 District 4
-- id: ma.uscongress.hampshiresouth.1802
+- id: 'ma.uscongress.hampshiresouth.1802'
   name: MA US Congress 1802 District 5
-- id: ma.uscongress.hampshirenorth.ballot3.1803
+- id: 'ma.uscongress.hampshirenorth.ballot3.1803'
   name: MA US Congress 1803 District 6
-- id: ma.uscongress.plymouth.1802
+- id: 'ma.uscongress.plymouth.1802'
   name: MA US Congress 1802 District 7
-- id: ma.uscongress.barnstable.1802
+- id: 'ma.uscongress.barnstable.1802'
   name: MA US Congress 1802 District 8
-- id: ma.uscongress.bristol.1802
+- id: 'ma.uscongress.bristol.1802'
   name: MA US Congress 1802 District 9
-- id: ma.uscongress.worcestersouth.1802
+- id: 'ma.uscongress.worcestersouth.1802'
   name: MA US Congress 1802 District 10
-- id: ma.uscongress.worcesternorth.1802
+- id: 'ma.uscongress.worcesternorth.1802'
   name: MA US Congress 1802 District 11
-- id: ma.uscongress.berkshire.1802
+- id: 'ma.uscongress.berkshire.1802'
   name: MA US Congress 1802 District 12
-- id: ma.uscongress.norfolk.1802
+- id: 'ma.uscongress.norfolk.1802'
   name: MA US Congress 1802 District 13
-- id: ma.uscongress.york.1802
+- id: 'ma.uscongress.york.1802'
   name: MA US Congress 1802 District 14
-- id: ma.uscongress.cumberland.1802
+- id: 'ma.uscongress.cumberland.1802'
   name: MA US Congress 1802 District 15
-- id: ma.uscongress.lincoln.1802
+- id: 'ma.uscongress.lincoln.1802'
   name: MA US Congress 1802 District 16
-- id: ma.uscongress.kennebec.1802
+- id: 'ma.uscongress.kennebec.1802'
   name: MA US Congress 1802 District 17
-related-maps:
-- id: meae.congressional.congress07.ma.county
-  name: MA 7th Congress
-  type: previous
-- id: meae.congressional.congress09.ma.county
-  name: MA 9th Congress
-  type: next
-# - id: meae.congressional.congress08.national.district
-#   name: National 8th Congress
-#   type: national
 output:
-  md_document:
-    variant: markdown
   html_document:
     theme: default
-always_allow_html: yes
-layout: maps-show
-
+  md_document:
+    variant: markdown
+related-maps:
+- id: 'meae.congressional.congress07.ma.county'
+  name: MA 7th Congress
+  type: previous
+- id: 'meae.congressional.congress09.ma.county'
+  name: MA 9th Congress
+  type: next
+state: Massachusetts
+title: '8th Congress: Massachusetts 1802'
+type: congressional
+year: 1802
 ---
 
 ::: {.map}

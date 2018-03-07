@@ -1,38 +1,4 @@
 ---
-meae-id: meae.congressional.congress07.ct.county
-type: congressional
-level: state
-state: Connecticut
-geography: county
-congressnum: 7
-congressordinal: 7th
-title: '7th Congress: Connecticut 1800'
-year: 1800
-legend: fed-vs-rep
-nnv:
-- id: ct.congress.1800
-  name: CT US Congress 1800 At Large
-related-maps:
-- id: meae.congressional.congress06.ct.county
-  name: CT 6th Congress
-  type: previous
-- id: meae.congressional.congress08.ct.county
-  name: CT 8th Congress
-  type: next
-# - id: meae.congressional.congress07.national.district
-#   name: National 7th Congress
-#   type: national
-output:
-  md_document:
-    variant: markdown
-  html_document:
-    theme: default
-always_allow_html: yes
-layout: maps-show
-
----
-
----
 always_allow_html: True
 congressnum: 7
 congressordinal: 7th

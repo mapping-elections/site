@@ -1,35 +1,31 @@
 ---
-meae-id: meae.congressional.congress08.nh.county
-type: congressional
-level: state
-state: New Hampshire
-geography: county
+always_allow_html: True
 congressnum: 8
 congressordinal: 8th
-title: '8th Congress: New Hampshire 1802'
-year: 1802
-legend: fed-vs-rep
+geography: county
+layout: 'maps-show'
+legend: 'fed-vs-rep'
+level: state
+meae-id: 'meae.congressional.congress08.nh.county'
 nnv:
-- id: nh.uscongress.1802
+- id: 'nh.uscongress.1802'
   name: NH US Congress 1802 At Large
-related-maps:
-- id: meae.congressional.congress07.nh.county
-  name: NH 7th Congress
-  type: previous
-- id: meae.congressional.congress09.nh.county
-  name: NH 9th Congress
-  type: next
-# - id: meae.congressional.congress08.national.district
-#   name: National 8th Congress
-#   type: national
 output:
-  md_document:
-    variant: markdown
   html_document:
     theme: default
-always_allow_html: yes
-layout: maps-show
-
+  md_document:
+    variant: markdown
+related-maps:
+- id: 'meae.congressional.congress07.nh.county'
+  name: NH 7th Congress
+  type: previous
+- id: 'meae.congressional.congress09.nh.county'
+  name: NH 9th Congress
+  type: next
+state: New Hampshire
+title: '8th Congress: New Hampshire 1802'
+type: congressional
+year: 1802
 ---
 
 ::: {.map}

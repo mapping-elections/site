@@ -1,35 +1,31 @@
 ---
-meae-id: meae.congressional.congress05.de.county
-type: congressional
-level: state
-state: Delaware
-geography: county
+always_allow_html: True
 congressnum: 5
 congressordinal: 5th
-title: '5th Congress: Delaware 1796'
-year: 1796
-legend: fed-vs-rep
+geography: county
+layout: 'maps-show'
+legend: 'fed-vs-rep'
+level: state
+meae-id: 'meae.congressional.congress05.de.county'
 nnv:
-- id: de.uscongress.1796
+- id: 'de.uscongress.1796'
   name: DE US Congress 1796 At Large
-related-maps:
-- id: meae.congressional.congress04.de.county
-  name: DE 4th Congress
-  type: previous
-- id: meae.congressional.congress06.de.county
-  name: DE 6th Congress
-  type: next
-# - id: meae.congressional.congress05.national.district
-#   name: National 5th Congress
-#   type: national
 output:
-  md_document:
-    variant: markdown
   html_document:
     theme: default
-always_allow_html: yes
-layout: maps-show
-
+  md_document:
+    variant: markdown
+related-maps:
+- id: 'meae.congressional.congress04.de.county'
+  name: DE 4th Congress
+  type: previous
+- id: 'meae.congressional.congress06.de.county'
+  name: DE 6th Congress
+  type: next
+state: Delaware
+title: '5th Congress: Delaware 1796'
+type: congressional
+year: 1796
 ---
 
 ::: {.map}

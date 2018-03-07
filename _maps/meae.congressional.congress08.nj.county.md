@@ -1,35 +1,31 @@
 ---
-meae-id: meae.congressional.congress08.nj.county
-type: congressional
-level: state
-state: New Jersey
-geography: county
+always_allow_html: True
 congressnum: 8
 congressordinal: 8th
-title: '8th Congress: New Jersey 1803'
-year: 1803
-legend: fed-vs-rep
+geography: county
+layout: 'maps-show'
+legend: 'fed-vs-rep'
+level: state
+meae-id: 'meae.congressional.congress08.nj.county'
 nnv:
-- id: nj.uscongress.1803
+- id: 'nj.uscongress.1803'
   name: NJ US Congress 1803 At Large
-related-maps:
-- id: meae.congressional.congress07.nj.county
-  name: NJ 7th Congress
-  type: previous
-- id: meae.congressional.congress09.nj.county
-  name: NJ 9th Congress
-  type: next
-# - id: meae.congressional.congress08.national.district
-#   name: National 8th Congress
-#   type: national
 output:
-  md_document:
-    variant: markdown
   html_document:
     theme: default
-always_allow_html: yes
-layout: maps-show
-
+  md_document:
+    variant: markdown
+related-maps:
+- id: 'meae.congressional.congress07.nj.county'
+  name: NJ 7th Congress
+  type: previous
+- id: 'meae.congressional.congress09.nj.county'
+  name: NJ 9th Congress
+  type: next
+state: New Jersey
+title: '8th Congress: New Jersey 1803'
+type: congressional
+year: 1803
 ---
 
 ::: {.map}
