@@ -1,0 +1,96 @@
+---
+meae-id: meae.congressional.congress09.ma.county
+type: congressional
+level: state
+state: Massachusetts
+geography: county
+congressnum: 9
+congressordinal: 9th
+title: '9th Congress: Massachusetts 1804'
+year: 1804
+legend: fed-vs-rep
+nnv:
+- id: ma.uscongress.suffolk.1804
+  name: MA US Congress 1804 District 1
+- id: ma.uscongress.essexsouth.1804
+  name: MA US Congress 1804 District 2
+- id: ma.uscongress.essexnorth.1804
+  name: MA US Congress 1804 District 3
+- id: ma.uscongress.middlesex.1804
+  name: MA US Congress 1804 District 4
+- id: ma.uscongress.hampshiresouth.1804
+  name: MA US Congress 1804 District 5
+- id: ma.uscongress.hampshirenorth.1804
+  name: MA US Congress 1804 District 6
+- id: ma.uscongress.plymouth.1804
+  name: MA US Congress 1804 District 7
+- id: ma.uscongress.barnstable.1804
+  name: MA US Congress 1804 District 8
+- id: ma.uscongress.bristol.1804
+  name: MA US Congress 1804 District 9
+- id: ma.uscongress.worcestersouth.1804
+  name: MA US Congress 1804 District 10
+- id: ma.uscongress.worcesternorth.1804
+  name: MA US Congress 1804 District 11
+- id: ma.uscongress.berkshire.1804
+  name: MA US Congress 1804 District 12
+- id: ma.uscongress.norfolk.1804
+  name: MA US Congress 1804 District 13
+- id: ma.uscongress.york.1804
+  name: MA US Congress 1804 District 14
+- id: ma.uscongress.cumberland.1804
+  name: MA US Congress 1804 District 15
+- id: ma.uscongress.lincoln.1804
+  name: MA US Congress 1804 District 16
+- id: ma.uscongress.kennebec.1804
+  name: MA US Congress 1804 District 17
+related-maps:
+- id: meae.congressional.congress08.ma.county
+  name: MA 8th Congress
+  type: previous
+- id: meae.congressional.congress010.ma.county
+  name: MA 10th Congress
+  type: next
+# - id: meae.congressional.congress09.national.district
+#   name: National 9th Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress09.ma.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties() %>% 
+  fitBounds(-73.508, 41.186, -69.861, 43.75)
+```
+
+</div>
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

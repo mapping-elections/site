@@ -1,0 +1,85 @@
+---
+meae-id: meae.congressional.congress09.nc.county
+type: congressional
+level: state
+state: North Carolina
+geography: county
+congressnum: 9
+congressordinal: 9th
+title: '9th Congress: North Carolina 1804'
+year: 1804
+legend: fed-vs-rep
+nnv:
+- id: nc.uscongress1.1804
+  name: NC US Congress 1804 District 1
+- id: nc.uscongress2.1804
+  name: NC US Congress 1804 District 2
+- id: nc.uscongress3.1804
+  name: NC US Congress 1804 District 3
+- id: nc.uscongress4.1804
+  name: NC US Congress 1804 District 4
+- id: nc.uscongress5.specialelection.1805
+  name: NC US Congress 1805 District 5
+- id: nc.uscongress6.1804
+  name: NC US Congress 1804 District 6
+- id: nc.uscongress7.1804
+  name: NC US Congress 1804 District 7
+- id: nc.uscongress8.1804
+  name: NC US Congress 1804 District 8
+- id: nc.uscongress9.1804
+  name: NC US Congress 1804 District 9
+- id: nc.uscongress10.1804
+  name: NC US Congress 1804 District 10
+- id: nc.uscongress11.1804
+  name: NC US Congress 1804 District 11
+- id: nc.uscongress12.1804
+  name: NC US Congress 1804 District 12
+related-maps:
+- id: meae.congressional.congress08.nc.county
+  name: NC 8th Congress
+  type: previous
+- id: meae.congressional.congress010.nc.county
+  name: NC 10th Congress
+  type: next
+# - id: meae.congressional.congress09.national.district
+#   name: National 9th Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress09.nc.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "500px", congress = 9)
+```
+
+</div>
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

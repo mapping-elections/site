@@ -1,0 +1,100 @@
+---
+meae-id: meae.congressional.congress09.pa.county
+type: congressional
+level: state
+state: Pennsylvania
+geography: county
+congressnum: 9
+congressordinal: 9th
+title: '9th Congress: Pennsylvania 1804'
+year: 1804
+legend: fed-vs-rep
+nnv:
+- id: pa.uscongress1.1804
+  name: PA US Congress 1804 District 1
+- id: pa.uscongress2.1804
+  name: PA US Congress 1804 District 2
+- id: pa.uscongress3.1804
+  name: PA US Congress 1804 District 3
+- id: pa.uscongress4.1804
+  name: PA US Congress 1804 District 4
+- id: pa.uscongress5.1804
+  name: PA US Congress 1804 District 5
+- id: pa.uscongress6.1804
+  name: PA US Congress 1804 District 6
+- id: pa.uscongress7.1804
+  name: PA US Congress 1804 District 7
+- id: pa.uscongress8.1804
+  name: PA US Congress 1804 District 8
+- id: pa.uscongress9.1804
+  name: PA US Congress 1804 District 9
+- id: pa.uscongress10.1804
+  name: PA US Congress 1804 District 10
+- id: pa.uscongress11.1804
+  name: PA US Congress 1804 District 11
+related-maps:
+- id: meae.congressional.congress08.pa.county
+  name: PA 8th Congress
+  type: previous
+- id: meae.congressional.congress010.pa.county
+  name: PA 10th Congress
+  type: next
+# - id: meae.congressional.congress09.national.district
+#   name: National 9th Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress09.pa.county"
+
+cities <- tribble(
+  ~city, ~lat, ~lng, ~federalist_percentage, ~demrep_percentage, ~federalist_vote, ~demrep_vote,
+    "Philadelphia", 39.9526, -75.1652, 0.170, 0.830, 1535, 7507)
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "500px", cities = 0, congress = 9) %>% 
+  addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
+                 fillColor = mappingelections:::poli_chrome(cities),
+                 opacity = 1, fillOpacity = 0.8, radius = 8, weight = 3,
+                 popup = ~paste0("<b>City of ", city, "</b><br/>",
+                                 "Congressional District: 1<br/>",
+                                 "Federalists: ", federalist_percentage * 100, "% (", 
+                                 prettyNum(federalist_vote, big.mark = ","), 
+                                 " votes)<br/>",
+                                 "Democratic-Republicans: ", demrep_percentage * 100,
+                                 "% (", 
+                                 prettyNum(demrep_vote, big.mark = ","),
+                                 " votes)"),
+                 label = ~city) 
+```
+
+</div>
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>
