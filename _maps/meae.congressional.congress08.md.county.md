@@ -46,6 +46,50 @@ layout: maps-show
 
 ---
 
+---
+always_allow_html: True
+congressnum: 8
+congressordinal: 8th
+geography: county
+layout: 'maps-show'
+legend: 'fed-vs-rep'
+level: state
+meae-id: 'meae.congressional.congress08.md.county'
+nnv:
+- id: 'md.uscongress1.1803'
+  name: MD US Congress 1803 District 1
+- id: 'md.uscongress2.1803'
+  name: MD US Congress 1803 District 2
+- id: 'md.uscongress3.1803'
+  name: MD US Congress 1803 District 3
+- id: 'md.uscongress4.1803'
+  name: MD US Congress 1803 District 4
+- id: 'md.uscongress5.1803'
+  name: MD US Congress 1803 District 5
+- id: 'md.uscongress6.1803'
+  name: MD US Congress 1803 District 6
+- id: 'md.uscongress7.1803'
+  name: MD US Congress 1803 District 7
+- id: 'md.uscongress8.1803'
+  name: MD US Congress 1803 District 8
+output:
+  html_document:
+    theme: default
+  md_document:
+    variant: markdown
+related-maps:
+- id: 'meae.congressional.congress07.md.county'
+  name: MD 7th Congress
+  type: previous
+- id: 'meae.congressional.congress09.md.county'
+  name: MD 9th Congress
+  type: next
+state: Maryland
+title: '8th Congress: Maryland 1803'
+type: congressional
+year: 1803
+---
+
 ::: {.map}
 <!--html_preserve-->
 ::: {#htmlwidget-cf5e8b2b9fe14766c3ab .leaflet .html-widget style="width:100%;height:425px;"}
