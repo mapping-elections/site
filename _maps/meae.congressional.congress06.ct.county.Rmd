@@ -53,6 +53,8 @@ map_id %>%
 
 </div>
 
+At some point, John Allen was elected in a special election to the 5th Congress. Allen was then reelected to the 6th Congress but declined to serve.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
