@@ -1,4 +1,70 @@
 ---
+meae-id: meae.congressional.congress09.ma.county
+type: congressional
+level: state
+state: Massachusetts
+geography: county
+congressnum: 9
+congressordinal: 9th
+title: '9th Congress: Massachusetts 1804'
+year: 1804
+legend: fed-vs-rep
+nnv:
+- id: ma.uscongress.suffolk.1804
+  name: MA US Congress 1804 District 1
+- id: ma.uscongress.essexsouth.1804
+  name: MA US Congress 1804 District 2
+- id: ma.uscongress.essexnorth.1804
+  name: MA US Congress 1804 District 3
+- id: ma.uscongress.middlesex.1804
+  name: MA US Congress 1804 District 4
+- id: ma.uscongress.hampshiresouth.1804
+  name: MA US Congress 1804 District 5
+- id: ma.uscongress.hampshirenorth.1804
+  name: MA US Congress 1804 District 6
+- id: ma.uscongress.plymouth.1804
+  name: MA US Congress 1804 District 7
+- id: ma.uscongress.barnstable.1804
+  name: MA US Congress 1804 District 8
+- id: ma.uscongress.bristol.1804
+  name: MA US Congress 1804 District 9
+- id: ma.uscongress.worcestersouth.1804
+  name: MA US Congress 1804 District 10
+- id: ma.uscongress.worcesternorth.1804
+  name: MA US Congress 1804 District 11
+- id: ma.uscongress.berkshire.1804
+  name: MA US Congress 1804 District 12
+- id: ma.uscongress.norfolk.1804
+  name: MA US Congress 1804 District 13
+- id: ma.uscongress.york.1804
+  name: MA US Congress 1804 District 14
+- id: ma.uscongress.cumberland.1804
+  name: MA US Congress 1804 District 15
+- id: ma.uscongress.lincoln.1804
+  name: MA US Congress 1804 District 16
+- id: ma.uscongress.kennebec.1804
+  name: MA US Congress 1804 District 17
+related-maps:
+- id: meae.congressional.congress08.ma.county
+  name: MA 8th Congress
+  type: previous
+- id: meae.congressional.congress10.ma.county
+  name: MA 10th Congress
+  type: next
+# - id: meae.congressional.congress09.national.district
+#   name: National 9th Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+---
 always_allow_html: True
 congressnum: 9
 congressordinal: 9th
@@ -51,7 +117,7 @@ related-maps:
 - id: 'meae.congressional.congress08.ma.county'
   name: MA 8th Congress
   type: previous
-- id: 'meae.congressional.congress010.ma.county'
+- id: 'meae.congressional.congress10.ma.county'
   name: MA 10th Congress
   type: next
 state: Massachusetts
@@ -439,7 +505,7 @@ Democratic-Republican
 ✓
 </td>
 </tr>
-<tr class="district-changed" data-district-type="odd">
+<tr class="district-unchanged" data-district-type="odd">
 <td style="text-align:center;">
 9
 </td>
@@ -454,6 +520,24 @@ Federalist
 </td>
 <td style="text-align:right;">
 30.8%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
+<tr class="district-changed" data-district-type="odd">
+<td style="text-align:center;">
+9
+</td>
+<td style="text-align:left;">
+Other candidates
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+169
+</td>
+<td style="text-align:right;">
+7%
 </td>
 <td style="text-align:center;">
 </td>

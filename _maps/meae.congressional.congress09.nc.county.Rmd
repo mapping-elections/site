@@ -38,7 +38,7 @@ related-maps:
 - id: meae.congressional.congress08.nc.county
   name: NC 8th Congress
   type: previous
-- id: meae.congressional.congress010.nc.county
+- id: meae.congressional.congress10.nc.county
   name: NC 10th Congress
   type: next
 # - id: meae.congressional.congress09.national.district

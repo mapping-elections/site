@@ -26,7 +26,7 @@ related-maps:
 - id: meae.congressional.congress08.ky.county
   name: KY 8th Congress
   type: previous
-- id: meae.congressional.congress010.ky.county
+- id: meae.congressional.congress10.ky.county
   name: KY 10th Congress
   type: next
 # - id: meae.congressional.congress09.national.district

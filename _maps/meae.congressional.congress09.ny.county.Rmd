@@ -46,7 +46,7 @@ related-maps:
 - id: meae.congressional.congress08.ny.county
   name: NY 8th Congress
   type: previous
-- id: meae.congressional.congress010.ny.county
+- id: meae.congressional.congress10.ny.county
   name: NY 10th Congress
   type: next
 # - id: meae.congressional.congress09.national.district

@@ -16,7 +16,7 @@ related-maps:
 - id: meae.congressional.congress08.oh.county
   name: OH 8th Congress
   type: previous
-- id: meae.congressional.congress010.oh.county
+- id: meae.congressional.congress10.oh.county
   name: OH 10th Congress
   type: next
 # - id: meae.congressional.congress09.national.district

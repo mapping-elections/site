@@ -36,7 +36,7 @@ related-maps:
 - id: meae.congressional.congress08.pa.county
   name: PA 8th Congress
   type: previous
-- id: meae.congressional.congress010.pa.county
+- id: meae.congressional.congress10.pa.county
   name: PA 10th Congress
   type: next
 # - id: meae.congressional.congress09.national.district

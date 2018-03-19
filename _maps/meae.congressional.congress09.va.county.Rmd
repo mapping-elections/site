@@ -58,7 +58,7 @@ related-maps:
 - id: meae.congressional.congress08.va.county
   name: VA 8th Congress
   type: previous
-- id: meae.congressional.congress010.va.county
+- id: meae.congressional.congress10.va.county
   name: VA 10th Congress
   type: next
 # - id: meae.congressional.congress09.national.district

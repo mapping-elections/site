@@ -1,4 +1,48 @@
 ---
+meae-id: meae.congressional.congress09.ky.county
+type: congressional
+level: state
+state: Kentucky
+geography: county
+congressnum: 9
+congressordinal: 9th
+title: '9th Congress: Kentucky 1804'
+year: 1804
+legend: fed-vs-rep
+nnv:
+- id: ky.uscongress1.1804
+  name: KY US Congress 1804 District 1
+- id: ky.uscongress2.1804
+  name: KY US Congress 1804 District 2
+- id: ky.uscongress3.1804
+  name: KY US Congress 1804 District 3
+- id: ky.uscongress4.1804
+  name: KY US Congress 1804 District 4
+- id: ky.uscongress5.1804
+  name: KY US Congress 1804 District 5
+- id: ky.uscongress6.1804
+  name: KY US Congress 1804 District 6
+related-maps:
+- id: meae.congressional.congress08.ky.county
+  name: KY 8th Congress
+  type: previous
+- id: meae.congressional.congress10.ky.county
+  name: KY 10th Congress
+  type: next
+# - id: meae.congressional.congress09.national.district
+#   name: National 9th Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+---
 always_allow_html: True
 congressnum: 9
 congressordinal: 9th
@@ -29,7 +73,7 @@ related-maps:
 - id: 'meae.congressional.congress08.ky.county'
   name: KY 8th Congress
   type: previous
-- id: 'meae.congressional.congress010.ky.county'
+- id: 'meae.congressional.congress10.ky.county'
   name: KY 10th Congress
   type: next
 state: Kentucky

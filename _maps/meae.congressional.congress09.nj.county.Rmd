@@ -16,7 +16,7 @@ related-maps:
 - id: meae.congressional.congress08.nj.county
   name: NJ 8th Congress
   type: previous
-- id: meae.congressional.congress010.nj.county
+- id: meae.congressional.congress10.nj.county
   name: NJ 10th Congress
   type: next
 # - id: meae.congressional.congress09.national.district
