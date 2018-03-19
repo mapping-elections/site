@@ -42,7 +42,7 @@ map_id <- "meae.congressional.congress08.oh.county"
 
 ```{r election-map, echo = FALSE}
 map_id %>%
-  get_county_map_data() %>%
+  get_county_map_data("1803-07-01") %>%
   map_counties()
 ```
 
