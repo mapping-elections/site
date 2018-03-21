@@ -1,4 +1,38 @@
 ---
+meae-id: meae.congressional.congress06.ct.county
+type: congressional
+level: state
+state: Connecticut
+geography: county
+congressnum: 6
+congressordinal: 6th
+title: '6th Congress: Connecticut 1798'
+year: 1798
+legend: fed-vs-rep
+nnv:
+- id: ct.congress.1798
+  name: CT US Congress 1798 At Large
+related-maps:
+- id: meae.congressional.congress05.ct.county
+  name: CT 5th Congress
+  type: previous
+- id: meae.congressional.congress07.ct.county
+  name: CT 7th Congress
+  type: next
+# - id: meae.congressional.congress06.national.district
+#   name: National 6th Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+---
 always_allow_html: True
 congressnum: 6
 congressordinal: 6th
@@ -37,6 +71,10 @@ year: 1798
 <!--/html_preserve-->
 :::
 
+At some point, John Allen was elected in a special election to the 5th
+Congress. Allen was then reelected to the 6th Congress but declined to
+serve.
+
 ::: {.results-table}
 <table>
 <thead>
@@ -62,6 +100,24 @@ Elected
 </tr>
 </thead>
 <tbody>
+<tr>
+<td style="text-align:center;">
+At-large
+</td>
+<td style="text-align:left;">
+Other candidates
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+8,566
+</td>
+<td style="text-align:right;">
+23.2%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
 <tr>
 <td style="text-align:center;">
 At-large
