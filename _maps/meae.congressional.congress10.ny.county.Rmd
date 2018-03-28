@@ -8,7 +8,7 @@ congressnum: 10
 congressordinal: 10th
 title: '10th Congress: New York 1806'
 year: 1806
-legend: fed-vs-rep
+legend: dissrep
 nnv:
 - id: ny.uscongress1.1806
   name: NY US Congress 1806 District 1

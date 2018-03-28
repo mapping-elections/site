@@ -8,7 +8,7 @@ congressnum: 9
 congressordinal: 9th
 title: '9th Congress: Pennsylvania 1804'
 year: 1804
-legend: fed-vs-rep
+legend: dissrep
 nnv:
 - id: pa.uscongress1.1804
   name: PA US Congress 1804 District 1

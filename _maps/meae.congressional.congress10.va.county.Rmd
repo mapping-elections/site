@@ -8,7 +8,7 @@ congressnum: 10
 congressordinal: 10th
 title: '10th Congress: Virginia 1807'
 year: 1807
-legend: fed-vs-rep
+legend: dissrep
 nnv:
 - id: va.uscongress.1.1807
   name: VA US Congress 1807 District 1

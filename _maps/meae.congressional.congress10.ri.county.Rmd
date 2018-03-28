@@ -8,7 +8,7 @@ congressnum: 10
 congressordinal: 10th
 title: '10th Congress: Rhode Island 1806'
 year: 1806
-legend: fed-vs-rep
+legend: dissrep
 nnv:
 - id: ri.uscongress.1806
   name: RI US Congress 1806 At Large

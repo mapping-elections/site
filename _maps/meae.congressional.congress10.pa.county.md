@@ -4,7 +4,7 @@ congressnum: 10
 congressordinal: 10th
 geography: county
 layout: 'maps-show'
-legend: 'fed-vs-rep'
+legend: dissrep
 level: state
 meae-id: 'meae.congressional.congress10.pa.county'
 nnv:
