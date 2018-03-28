@@ -301,6 +301,24 @@ Democratic-Republican
 5
 </td>
 <td style="text-align:left;">
+Other candidates
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+113
+</td>
+<td style="text-align:right;">
+6.9%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
+<tr class="district-changed" data-district-type="odd">
+<td style="text-align:center;">
+5
+</td>
+<td style="text-align:left;">
 Jonathan Smith, Jr.
 </td>
 <td class="party-demrep" data-party="demrep">
@@ -311,24 +329,6 @@ Democratic-Republican
 </td>
 <td style="text-align:right;">
 5.8%
-</td>
-<td style="text-align:center;">
-</td>
-</tr>
-<tr class="district-changed" data-district-type="odd">
-<td style="text-align:center;">
-5
-</td>
-<td style="text-align:left;">
-Other candidates
-</td>
-<td style="text-align:left;">
-</td>
-<td style="text-align:right;">
-85
-</td>
-<td style="text-align:right;">
-5.2%
 </td>
 <td style="text-align:center;">
 </td>
@@ -637,7 +637,7 @@ Democratic-Republican
 ✓
 </td>
 </tr>
-<tr class="district-changed" data-district-type="odd">
+<tr class="district-unchanged" data-district-type="odd">
 <td style="text-align:center;">
 13
 </td>
@@ -652,6 +652,24 @@ Federalist
 </td>
 <td style="text-align:right;">
 28.8%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
+<tr class="district-changed" data-district-type="odd">
+<td style="text-align:center;">
+13
+</td>
+<td style="text-align:left;">
+Other candidates
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+161
+</td>
+<td style="text-align:right;">
+7.2%
 </td>
 <td style="text-align:center;">
 </td>
@@ -776,7 +794,7 @@ Federalist
 <td style="text-align:center;">
 </td>
 </tr>
-<tr class="district-changed" data-district-type="even">
+<tr class="district-unchanged" data-district-type="even">
 <td style="text-align:center;">
 16
 </td>
@@ -791,6 +809,24 @@ Federalist
 </td>
 <td style="text-align:right;">
 12.2%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
+<tr class="district-changed" data-district-type="even">
+<td style="text-align:center;">
+16
+</td>
+<td style="text-align:left;">
+Other candidates
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+37
+</td>
+<td style="text-align:right;">
+5.3%
 </td>
 <td style="text-align:center;">
 </td>

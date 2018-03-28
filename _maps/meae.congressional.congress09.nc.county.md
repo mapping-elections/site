@@ -1,60 +1,4 @@
 ---
-meae-id: meae.congressional.congress09.nc.county
-type: congressional
-level: state
-state: North Carolina
-geography: county
-congressnum: 9
-congressordinal: 9th
-title: '9th Congress: North Carolina 1804'
-year: 1804
-legend: fed-vs-rep
-nnv:
-- id: nc.uscongress1.1804
-  name: NC US Congress 1804 District 1
-- id: nc.uscongress2.1804
-  name: NC US Congress 1804 District 2
-- id: nc.uscongress3.1804
-  name: NC US Congress 1804 District 3
-- id: nc.uscongress4.1804
-  name: NC US Congress 1804 District 4
-- id: nc.uscongress5.specialelection.1805
-  name: NC US Congress 1805 District 5
-- id: nc.uscongress6.1804
-  name: NC US Congress 1804 District 6
-- id: nc.uscongress7.1804
-  name: NC US Congress 1804 District 7
-- id: nc.uscongress8.1804
-  name: NC US Congress 1804 District 8
-- id: nc.uscongress9.1804
-  name: NC US Congress 1804 District 9
-- id: nc.uscongress10.1804
-  name: NC US Congress 1804 District 10
-- id: nc.uscongress11.1804
-  name: NC US Congress 1804 District 11
-- id: nc.uscongress12.1804
-  name: NC US Congress 1804 District 12
-related-maps:
-- id: meae.congressional.congress08.nc.county
-  name: NC 8th Congress
-  type: previous
-- id: meae.congressional.congress10.nc.county
-  name: NC 10th Congress
-  type: next
-# - id: meae.congressional.congress09.national.district
-#   name: National 9th Congress
-#   type: national
-output:
-  md_document:
-    variant: markdown
-  html_document:
-    theme: default
-always_allow_html: yes
-layout: maps-show
-
----
-
----
 always_allow_html: True
 congressnum: 9
 congressordinal: 9th
@@ -454,6 +398,27 @@ Democratic-Republican
 <td style="text-align:right;">
 </td>
 <td style="text-align:right;">
+unopposed
+</td>
+<td style="text-align:center;">
+✓
+</td>
+</tr>
+<tr class="district-changed" data-district-type="odd">
+<td style="text-align:center;">
+11
+</td>
+<td style="text-align:left;">
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=H000718">James
+Holland</a>
+</td>
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
+</td>
+<td style="text-align:right;">
+</td>
+<td style="text-align:right;">
+unopposed
 </td>
 <td style="text-align:center;">
 ✓

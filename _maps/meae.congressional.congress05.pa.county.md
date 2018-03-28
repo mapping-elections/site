@@ -405,7 +405,7 @@ Federalist
 <td style="text-align:center;">
 </td>
 </tr>
-<tr class="district-changed" data-district-type="odd">
+<tr class="district-unchanged" data-district-type="odd">
 <td style="text-align:center;">
 9
 </td>
@@ -420,6 +420,24 @@ Federalist
 </td>
 <td style="text-align:right;">
 7.9%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
+<tr class="district-changed" data-district-type="odd">
+<td style="text-align:center;">
+9
+</td>
+<td style="text-align:left;">
+Other candidates
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+135
+</td>
+<td style="text-align:right;">
+6.4%
 </td>
 <td style="text-align:center;">
 </td>

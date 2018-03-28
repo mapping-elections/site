@@ -160,10 +160,10 @@ Other candidates
 <td style="text-align:left;">
 </td>
 <td style="text-align:right;">
-114
+123
 </td>
 <td style="text-align:right;">
-5.2%
+5.6%
 </td>
 <td style="text-align:center;">
 </td>

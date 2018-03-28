@@ -237,6 +237,24 @@ Democratic-Republican
 3
 </td>
 <td style="text-align:left;">
+Other candidates
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+103
+</td>
+<td style="text-align:right;">
+8.6%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
+<tr class="district-changed" data-district-type="odd">
+<td style="text-align:center;">
+3
+</td>
+<td style="text-align:left;">
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=M000259">Ebenezer
 Mattoon, Jr.</a>
 </td>
@@ -248,24 +266,6 @@ Federalist
 </td>
 <td style="text-align:right;">
 5.5%
-</td>
-<td style="text-align:center;">
-</td>
-</tr>
-<tr class="district-changed" data-district-type="odd">
-<td style="text-align:center;">
-3
-</td>
-<td style="text-align:left;">
-Other candidates
-</td>
-<td style="text-align:left;">
-</td>
-<td style="text-align:right;">
-63
-</td>
-<td style="text-align:right;">
-5.3%
 </td>
 <td style="text-align:center;">
 </td>
@@ -452,6 +452,24 @@ Federalist
 <td style="text-align:center;">
 </td>
 </tr>
+<tr class="district-unchanged" data-district-type="odd">
+<td style="text-align:center;">
+7
+</td>
+<td style="text-align:left;">
+Other candidates
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+65
+</td>
+<td style="text-align:right;">
+7.4%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
 <tr class="district-changed" data-district-type="odd">
 <td style="text-align:center;">
 7
@@ -623,10 +641,10 @@ Other candidates
 <td style="text-align:left;">
 </td>
 <td style="text-align:right;">
-67
+68
 </td>
 <td style="text-align:right;">
-9.5%
+9.6%
 </td>
 <td style="text-align:center;">
 </td>
@@ -720,10 +738,10 @@ Other candidates
 <td style="text-align:left;">
 </td>
 <td style="text-align:right;">
-79
+81
 </td>
 <td style="text-align:right;">
-8.7%
+8.9%
 </td>
 <td style="text-align:center;">
 </td>
@@ -818,10 +836,10 @@ Other candidates
 <td style="text-align:left;">
 </td>
 <td style="text-align:right;">
-72
+92
 </td>
 <td style="text-align:right;">
-6.2%
+7.9%
 </td>
 <td style="text-align:center;">
 </td>

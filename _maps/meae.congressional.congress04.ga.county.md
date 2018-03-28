@@ -197,7 +197,7 @@ Other candidates
 <td style="text-align:left;">
 </td>
 <td style="text-align:right;">
-397
+399
 </td>
 <td style="text-align:right;">
 5.3%

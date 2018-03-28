@@ -82,6 +82,24 @@ Elected
 At-large
 </td>
 <td style="text-align:left;">
+Other candidates
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+7,905
+</td>
+<td style="text-align:right;">
+31.7%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+At-large
+</td>
+<td style="text-align:left;">
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=S000563">Jeremiah
 Smith</a>
 </td>
@@ -124,24 +142,6 @@ Federalist
 At-large
 </td>
 <td style="text-align:left;">
-Other candidates
-</td>
-<td style="text-align:left;">
-</td>
-<td style="text-align:right;">
-4,656
-</td>
-<td style="text-align:right;">
-18.7%
-</td>
-<td style="text-align:center;">
-</td>
-</tr>
-<tr>
-<td style="text-align:center;">
-At-large
-</td>
-<td style="text-align:left;">
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=G000318">William
 Gordon</a>
 </td>
@@ -156,24 +156,6 @@ Federalist
 </td>
 <td style="text-align:center;">
 ✓
-</td>
-</tr>
-<tr>
-<td style="text-align:center;">
-At-large
-</td>
-<td style="text-align:left;">
-Other candidates
-</td>
-<td style="text-align:left;">
-</td>
-<td style="text-align:right;">
-2,230
-</td>
-<td style="text-align:right;">
-8.9%
-</td>
-<td style="text-align:center;">
 </td>
 </tr>
 <tr>

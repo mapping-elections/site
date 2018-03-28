@@ -222,6 +222,24 @@ Federalist
 At-large
 </td>
 <td style="text-align:left;">
+Other candidates
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+1,597
+</td>
+<td style="text-align:right;">
+8.1%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+At-large
+</td>
+<td style="text-align:left;">
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=L000178">Amasa
 Learned</a>
 </td>

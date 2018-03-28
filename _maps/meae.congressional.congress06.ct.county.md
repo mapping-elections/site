@@ -1,38 +1,4 @@
 ---
-meae-id: meae.congressional.congress06.ct.county
-type: congressional
-level: state
-state: Connecticut
-geography: county
-congressnum: 6
-congressordinal: 6th
-title: '6th Congress: Connecticut 1798'
-year: 1798
-legend: fed-vs-rep
-nnv:
-- id: ct.congress.1798
-  name: CT US Congress 1798 At Large
-related-maps:
-- id: meae.congressional.congress05.ct.county
-  name: CT 5th Congress
-  type: previous
-- id: meae.congressional.congress07.ct.county
-  name: CT 7th Congress
-  type: next
-# - id: meae.congressional.congress06.national.district
-#   name: National 6th Congress
-#   type: national
-output:
-  md_document:
-    variant: markdown
-  html_document:
-    theme: default
-always_allow_html: yes
-layout: maps-show
-
----
-
----
 always_allow_html: True
 congressnum: 6
 congressordinal: 6th

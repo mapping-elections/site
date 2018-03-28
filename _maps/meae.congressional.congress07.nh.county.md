@@ -1,38 +1,4 @@
 ---
-meae-id: meae.congressional.congress07.nh.county
-type: congressional
-level: state
-state: New Hampshire
-geography: county
-congressnum: 7
-congressordinal: 7th
-title: '7th Congress: New Hampshire 1800'
-year: 1800
-legend: fed-vs-rep
-nnv:
-- id: nh.uscongress.1800
-  name: NH US Congress 1800 At Large
-related-maps:
-- id: meae.congressional.congress06.nh.county
-  name: NH 6th Congress
-  type: previous
-- id: meae.congressional.congress08.nh.county
-  name: NH 8th Congress
-  type: next
-# - id: meae.congressional.congress07.national.district
-#   name: National 7th Congress
-#   type: national
-output:
-  md_document:
-    variant: markdown
-  html_document:
-    theme: default
-always_allow_html: yes
-layout: maps-show
-
----
-
----
 always_allow_html: True
 congressnum: 7
 congressordinal: 7th

@@ -295,7 +295,7 @@ Other candidates
 <td style="text-align:left;">
 </td>
 <td style="text-align:right;">
-2,393
+2,396
 </td>
 <td style="text-align:right;">
 6.9%
@@ -645,7 +645,7 @@ Democratic-Republican
 2,300
 </td>
 <td style="text-align:right;">
-100%
+unopposed
 </td>
 <td style="text-align:center;">
 ✓

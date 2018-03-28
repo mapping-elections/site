@@ -140,6 +140,24 @@ Democratic-Republican
 2
 </td>
 <td style="text-align:left;">
+Other candidates
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+175
+</td>
+<td style="text-align:right;">
+17.9%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
+<tr class="district-unchanged" data-district-type="even">
+<td style="text-align:center;">
+2
+</td>
+<td style="text-align:left;">
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=P000026">Elijah
 Paine</a>
 </td>
@@ -151,24 +169,6 @@ Federalist
 </td>
 <td style="text-align:right;">
 14%
-</td>
-<td style="text-align:center;">
-</td>
-</tr>
-<tr class="district-unchanged" data-district-type="even">
-<td style="text-align:center;">
-2
-</td>
-<td style="text-align:left;">
-Other candidates
-</td>
-<td style="text-align:left;">
-</td>
-<td style="text-align:right;">
-120
-</td>
-<td style="text-align:right;">
-12.2%
 </td>
 <td style="text-align:center;">
 </td>

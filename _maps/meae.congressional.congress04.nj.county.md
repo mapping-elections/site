@@ -73,6 +73,24 @@ Elected
 At-large
 </td>
 <td style="text-align:left;">
+Other candidates
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+7,304
+</td>
+<td style="text-align:right;">
+17.7%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+At-large
+</td>
+<td style="text-align:left;">
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=D000165">Jonathan
 Dayton</a>
 </td>
@@ -171,24 +189,6 @@ Federalist
 </td>
 <td style="text-align:center;">
 ✓
-</td>
-</tr>
-<tr>
-<td style="text-align:center;">
-At-large
-</td>
-<td style="text-align:left;">
-Other candidates
-</td>
-<td style="text-align:left;">
-</td>
-<td style="text-align:right;">
-3,129
-</td>
-<td style="text-align:right;">
-7.5%
-</td>
-<td style="text-align:center;">
 </td>
 </tr>
 <tr>

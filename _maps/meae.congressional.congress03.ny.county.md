@@ -248,7 +248,7 @@ Federalist
 ✓
 </td>
 </tr>
-<tr class="district-changed" data-district-type="even">
+<tr class="district-unchanged" data-district-type="even">
 <td style="text-align:center;">
 4
 </td>
@@ -264,6 +264,24 @@ Democratic-Republican
 </td>
 <td style="text-align:right;">
 46.8%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
+<tr class="district-changed" data-district-type="even">
+<td style="text-align:center;">
+4
+</td>
+<td style="text-align:left;">
+Other candidates
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+184
+</td>
+<td style="text-align:right;">
+5.9%
 </td>
 <td style="text-align:center;">
 </td>

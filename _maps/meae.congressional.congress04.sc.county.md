@@ -149,6 +149,7 @@ Democratic-Republican
 <td style="text-align:right;">
 </td>
 <td style="text-align:right;">
+unopposed
 </td>
 <td style="text-align:center;">
 ✓
@@ -168,6 +169,7 @@ Democratic-Republican
 <td style="text-align:right;">
 </td>
 <td style="text-align:right;">
+unopposed
 </td>
 <td style="text-align:center;">
 ✓
@@ -187,6 +189,7 @@ Democratic-Republican
 <td style="text-align:right;">
 </td>
 <td style="text-align:right;">
+unopposed
 </td>
 <td style="text-align:center;">
 ✓
@@ -246,6 +249,7 @@ Democratic-Republican
 <td style="text-align:right;">
 </td>
 <td style="text-align:right;">
+unopposed
 </td>
 <td style="text-align:center;">
 ✓

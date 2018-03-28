@@ -351,10 +351,10 @@ Other candidates
 <td style="text-align:left;">
 </td>
 <td style="text-align:right;">
-98
+130
 </td>
 <td style="text-align:right;">
-12%
+15.9%
 </td>
 <td style="text-align:center;">
 </td>
@@ -400,7 +400,7 @@ Federalist
 <td style="text-align:center;">
 </td>
 </tr>
-<tr class="district-changed" data-district-type="odd">
+<tr class="district-unchanged" data-district-type="odd">
 <td style="text-align:center;">
 7
 </td>
@@ -415,6 +415,24 @@ Federalist
 </td>
 <td style="text-align:right;">
 10.6%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
+<tr class="district-changed" data-district-type="odd">
+<td style="text-align:center;">
+7
+</td>
+<td style="text-align:left;">
+Other candidates
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+157
+</td>
+<td style="text-align:right;">
+8.2%
 </td>
 <td style="text-align:center;">
 </td>
@@ -604,15 +622,15 @@ Federalist
 11
 </td>
 <td style="text-align:left;">
-Samuel Blanchard
+Other candidates
 </td>
 <td style="text-align:left;">
 </td>
 <td style="text-align:right;">
-48
+58
 </td>
 <td style="text-align:right;">
-7.6%
+9.2%
 </td>
 <td style="text-align:center;">
 </td>
@@ -622,15 +640,15 @@ Samuel Blanchard
 11
 </td>
 <td style="text-align:left;">
-Other candidates
+Samuel Blanchard
 </td>
 <td style="text-align:left;">
 </td>
 <td style="text-align:right;">
-37
+48
 </td>
 <td style="text-align:right;">
-5.9%
+7.6%
 </td>
 <td style="text-align:center;">
 </td>
@@ -727,10 +745,10 @@ Other candidates
 <td style="text-align:left;">
 </td>
 <td style="text-align:right;">
-43
+51
 </td>
 <td style="text-align:right;">
-7.4%
+8.8%
 </td>
 <td style="text-align:center;">
 </td>

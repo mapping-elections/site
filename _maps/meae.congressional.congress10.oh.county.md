@@ -1,38 +1,4 @@
 ---
-meae-id: meae.congressional.congress10.oh.county
-type: congressional
-level: state
-state: Ohio
-geography: county
-congressnum: 10
-congressordinal: 10th
-title: '10th Congress: Ohio 1806'
-year: 1806
-legend: fed-vs-rep
-nnv:
-- id: oh.us.houseofrepresentatives.1806
-  name: OH US Congress 1806 At Large
-related-maps:
-- id: meae.congressional.congress09.oh.county
-  name: OH 9th Congress
-  type: previous
-# - id: meae.congressional.congress11.oh.county
-#   name: OH 11th Congress
-#   type: next
-# - id: meae.congressional.congress10.national.district
-#   name: National 10th Congress
-#   type: national
-output:
-  md_document:
-    variant: markdown
-  html_document:
-    theme: default
-always_allow_html: yes
-layout: maps-show
-
----
-
----
 always_allow_html: True
 congressnum: 10
 congressordinal: 10th

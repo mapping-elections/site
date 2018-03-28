@@ -67,6 +67,24 @@ Elected
 At-large
 </td>
 <td style="text-align:left;">
+Other candidates
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+7,195
+</td>
+<td style="text-align:right;">
+12.7%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+At-large
+</td>
+<td style="text-align:left;">
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=D000024">Samuel
 W. Dana</a>
 </td>

@@ -156,10 +156,10 @@ Other candidates
 <td style="text-align:left;">
 </td>
 <td style="text-align:right;">
-2,784
+2,984
 </td>
 <td style="text-align:right;">
-11.8%
+12.6%
 </td>
 <td style="text-align:center;">
 </td>

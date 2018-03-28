@@ -109,7 +109,7 @@ Federalist
 ✓
 </td>
 </tr>
-<tr class="district-changed" data-district-type="odd">
+<tr class="district-unchanged" data-district-type="odd">
 <td style="text-align:center;">
 1
 </td>
@@ -124,6 +124,24 @@ Federalist
 </td>
 <td style="text-align:right;">
 18.8%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
+<tr class="district-changed" data-district-type="odd">
+<td style="text-align:center;">
+1
+</td>
+<td style="text-align:left;">
+Other candidates
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+122
+</td>
+<td style="text-align:right;">
+5.1%
 </td>
 <td style="text-align:center;">
 </td>
@@ -190,7 +208,7 @@ Federalist
 ✓
 </td>
 </tr>
-<tr class="district-changed" data-district-type="odd">
+<tr class="district-unchanged" data-district-type="odd">
 <td style="text-align:center;">
 3
 </td>
@@ -205,6 +223,24 @@ Federalist
 </td>
 <td style="text-align:right;">
 6.4%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
+<tr class="district-changed" data-district-type="odd">
+<td style="text-align:center;">
+3
+</td>
+<td style="text-align:left;">
+Other candidates
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+71
+</td>
+<td style="text-align:right;">
+5.4%
 </td>
 <td style="text-align:center;">
 </td>
@@ -358,10 +394,10 @@ Other candidates
 <td style="text-align:left;">
 </td>
 <td style="text-align:right;">
-222
+225
 </td>
 <td style="text-align:right;">
-9.2%
+9.3%
 </td>
 <td style="text-align:center;">
 </td>
@@ -468,7 +504,7 @@ Democratic-Republican
 ✓
 </td>
 </tr>
-<tr class="district-changed" data-district-type="odd">
+<tr class="district-unchanged" data-district-type="odd">
 <td style="text-align:center;">
 9
 </td>
@@ -483,6 +519,24 @@ Federalist
 </td>
 <td style="text-align:right;">
 30.2%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
+<tr class="district-changed" data-district-type="odd">
+<td style="text-align:center;">
+9
+</td>
+<td style="text-align:left;">
+Other candidates
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+176
+</td>
+<td style="text-align:right;">
+6.3%
 </td>
 <td style="text-align:center;">
 </td>

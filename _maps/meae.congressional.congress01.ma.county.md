@@ -385,10 +385,10 @@ Other candidates
 <td style="text-align:left;">
 </td>
 <td style="text-align:right;">
-104
+105
 </td>
 <td style="text-align:right;">
-10.9%
+11%
 </td>
 <td style="text-align:center;">
 </td>

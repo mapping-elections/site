@@ -1,60 +1,4 @@
 ---
-meae-id: meae.congressional.congress10.nc.county
-type: congressional
-level: state
-state: North Carolina
-geography: county
-congressnum: 10
-congressordinal: 10th
-title: '10th Congress: North Carolina 1806'
-year: 1806
-legend: fed-vs-rep
-nnv:
-- id: nc.uscongress1.1806
-  name: NC US Congress 1806 District 1
-- id: nc.uscongress2.1806
-  name: NC US Congress 1806 District 2
-- id: nc.uscongress3.1806
-  name: NC US Congress 1806 District 3
-- id: nc.uscongress4.1806
-  name: NC US Congress 1806 District 4
-- id: nc.uscongress5.1806
-  name: NC US Congress 1806 District 5
-- id: nc.uscongress6.1806
-  name: NC US Congress 1806 District 6
-- id: nc.uscongress7.1806
-  name: NC US Congress 1806 District 7
-- id: nc.uscongress8.1806
-  name: NC US Congress 1806 District 8
-- id: nc.uscongress9.1806
-  name: NC US Congress 1806 District 9
-- id: nc.uscongress10.1806
-  name: NC US Congress 1806 District 10
-- id: nc.uscongress11.1806
-  name: NC US Congress 1806 District 11
-- id: nc.uscongress12.1806
-  name: NC US Congress 1806 District 12
-related-maps:
-- id: meae.congressional.congress09.nc.county
-  name: NC 9th Congress
-  type: previous
-# - id: meae.congressional.congress11.nc.county
-#   name: NC 11th Congress
-#   type: next
-# - id: meae.congressional.congress10.national.district
-#   name: National 10th Congress
-#   type: national
-output:
-  md_document:
-    variant: markdown
-  html_document:
-    theme: default
-always_allow_html: yes
-layout: maps-show
-
----
-
----
 always_allow_html: True
 congressnum: 10
 congressordinal: 10th
@@ -193,7 +137,7 @@ Democratic-Republican
 1,442
 </td>
 <td style="text-align:right;">
-100%
+unopposed
 </td>
 <td style="text-align:center;">
 ✓
@@ -254,6 +198,7 @@ Democratic-Republican
 <td style="text-align:right;">
 </td>
 <td style="text-align:right;">
+unopposed
 </td>
 <td style="text-align:center;">
 ✓

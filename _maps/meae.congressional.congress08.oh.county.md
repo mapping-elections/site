@@ -1,35 +1,4 @@
 ---
-meae-id: meae.congressional.congress08.oh.county
-type: congressional
-level: state
-state: Ohio
-geography: county
-congressnum: 8
-congressordinal: 8th
-title: '8th Congress: Ohio 1803'
-year: 1803
-legend: fed-vs-rep
-nnv:
-- id: oh.uscongress.1803
-  name: OH US Congress 1803 At Large
-related-maps:
-- id: meae.congressional.congress09.oh.county
-  name: OH 9th Congress
-  type: next
-# - id: meae.congressional.congress08.national.district
-#   name: National 8th Congress
-#   type: national
-output:
-  md_document:
-    variant: markdown
-  html_document:
-    theme: default
-always_allow_html: yes
-layout: maps-show
-
----
-
----
 always_allow_html: True
 congressnum: 8
 congressordinal: 8th

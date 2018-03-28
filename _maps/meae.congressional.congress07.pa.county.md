@@ -542,7 +542,7 @@ Democratic-Republican
 2,182
 </td>
 <td style="text-align:right;">
-100%
+unopposed
 </td>
 <td style="text-align:center;">
 ✓

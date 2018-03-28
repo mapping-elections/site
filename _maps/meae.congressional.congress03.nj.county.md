@@ -98,6 +98,24 @@ Federalist
 At-large
 </td>
 <td style="text-align:left;">
+Other candidates
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+6,601
+</td>
+<td style="text-align:right;">
+15.5%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+At-large
+</td>
+<td style="text-align:left;">
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=D000165">Jonathan
 Dayton</a>
 </td>
@@ -213,24 +231,6 @@ Anti-Federalist
 </td>
 <td style="text-align:right;">
 8.5%
-</td>
-<td style="text-align:center;">
-</td>
-</tr>
-<tr>
-<td style="text-align:center;">
-At-large
-</td>
-<td style="text-align:left;">
-Other candidates
-</td>
-<td style="text-align:left;">
-</td>
-<td style="text-align:right;">
-3,361
-</td>
-<td style="text-align:right;">
-8%
 </td>
 <td style="text-align:center;">
 </td>

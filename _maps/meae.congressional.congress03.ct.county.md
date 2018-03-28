@@ -124,6 +124,24 @@ Federalist
 At-large
 </td>
 <td style="text-align:left;">
+Other candidates
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+2,693
+</td>
+<td style="text-align:right;">
+11.6%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+At-large
+</td>
+<td style="text-align:left;">
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=S001047">Jonathan
 Sturgis</a>
 </td>
@@ -222,24 +240,6 @@ Federalist
 </td>
 <td style="text-align:center;">
 ✓
-</td>
-</tr>
-<tr>
-<td style="text-align:center;">
-At-large
-</td>
-<td style="text-align:left;">
-Other candidates
-</td>
-<td style="text-align:left;">
-</td>
-<td style="text-align:right;">
-1,696
-</td>
-<td style="text-align:right;">
-7.3%
-</td>
-<td style="text-align:center;">
 </td>
 </tr>
 <tr>
