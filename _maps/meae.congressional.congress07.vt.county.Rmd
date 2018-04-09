@@ -53,6 +53,10 @@ map_id %>%
 
 </div>
 
+Vermont sent one Federalist and one Democratic-Republican to the Seventh Congress.
+
+Vermont used the district system for electing members to Congress.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
