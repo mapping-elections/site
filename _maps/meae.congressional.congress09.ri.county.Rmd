@@ -51,6 +51,10 @@ map_id %>%
 
 </div>
 
+Rhode Island elected two Democratic-Republicans to the Ninth Congress.
+
+Rhode Island used a statewide at-large method for electing a member to Congress.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
