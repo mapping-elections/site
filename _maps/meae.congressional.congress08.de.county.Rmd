@@ -51,6 +51,10 @@ map_id %>%
 
 </div>
 
+Delaware elected one Democratic-Republican to the Eighth Congress.
+
+Delaware used a statewide at-large method for electing a member to Congress. Delaware’s election law required that voters select two candidates, with one residing in the voter’s own county, and the other residing in one of the state's other two counties. The at-large winner was then declared the winner. This map depicts the initial winners.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
