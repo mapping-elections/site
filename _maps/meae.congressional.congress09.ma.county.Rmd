@@ -84,6 +84,10 @@ map_id %>%
 
 </div>
 
+Massachusetts elected seven Federalists and ten Democratic-Republicans to the Ninth Congress.
+
+Massachusetts used the district system for electing members to Congress.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
