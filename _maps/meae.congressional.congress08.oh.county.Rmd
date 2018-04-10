@@ -50,6 +50,10 @@ map_id %>%
 
 </div>
 
+Ohio elected one Democratic-Republican to the Eighth Congress.
+
+Ohio used a statewide at-large method for electing a member to Congress.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

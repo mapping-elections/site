@@ -83,6 +83,10 @@ map_id %>%
 
 </div>
 
+New Hampshire elected five Federalists to the Eighth Congress.
+
+New Hampshire used a statewide at-large method for electing members to Congress. New Hampshire was apportioned one more seat in the House of Representatives.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

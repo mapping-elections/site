@@ -93,6 +93,10 @@ map_id %>%
 
 </div>
 
+Virginia elected three Federalists and nineteen Democratic-Republicans to the Eighth Congress.
+
+Virginia used the district system for electing members to Congress. Virginia was apportioned three more seats in the House of Representatives.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
