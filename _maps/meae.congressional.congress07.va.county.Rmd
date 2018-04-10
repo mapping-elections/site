@@ -87,6 +87,10 @@ map_id %>%
 
 </div>
 
+Virginia elected two Federalists and seventeen Democratic-Republicans to the Seventh Congress.
+
+Virginia used the district system for electing members to Congress.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

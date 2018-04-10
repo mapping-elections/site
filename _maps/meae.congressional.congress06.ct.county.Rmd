@@ -53,7 +53,15 @@ map_id %>%
 
 </div>
 
-At some point, John Allen was elected in a special election to the 5th Congress. Allen was then reelected to the 6th Congress but declined to serve.
+Connecticut elected seven Federalists to the Sixth Congress.
+
+Mapping this election is not possible because of the lack of returns at the town or county level.
+
+Connecticut used a statewide at-large method for electing members to Congress.
+
+In October 1799, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ct.special.congress.1799) was held in which Federalist Elizur Goodrich was elected to replace Federalist John Allen, who declined to serve.
+
+In October 1800, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ct.special.congress.1800) was held in which John Smith was elected to replace Federalist Jonathan Brace, who had resigned from office.
 
 <div class="results-table">
 

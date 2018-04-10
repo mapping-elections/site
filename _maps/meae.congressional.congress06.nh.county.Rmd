@@ -51,6 +51,16 @@ map_id %>%
 
 </div>
 
+New Hampshire elected four Federalists to the Sixth Congress.
+
+New Hampshire used a statewide at-large method for electing members to Congress.
+
+In November 1799, a [special election](https://elections.lib.tufts.edu/catalog/tufts:nh.uscongress.special.1799) was held in which Federalist James Sheafe was elected to replace Federalist Peleg Sprague, who had resigned from office.
+
+In August 1800 and October 1800, two special elections were held in which Federalist Samuel Tenney was elected to replace Federalist William Gordon, who had resigned from office.
+[Election 1](https://elections.lib.tufts.edu/catalog/tufts:nh.uscongress.special.1800)
+[Election 2](https://elections.lib.tufts.edu/catalog/tufts:nh.uscongress.special.2.1800)
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

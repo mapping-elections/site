@@ -51,6 +51,12 @@ map_id %>%
 
 </div>
 
+New Hampshire elected four Federalists to the Seventh Congress.
+
+New Hampshire used a statewide at-large method for electing members to Congress.
+
+In 1802, a [special election](https://elections.lib.tufts.edu/catalog/tufts:nh.uscongress.special.1802) was held in which Samuel Hunt was elected to replace Joseph Pierce, who had resigned from office.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

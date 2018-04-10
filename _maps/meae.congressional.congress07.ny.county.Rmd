@@ -69,6 +69,14 @@ map_id %>%
 
 </div>
 
+New York elected four Federalists and six Democratic-Republicans to the Seventh Congress.
+
+New York used the district system for electing members to Congress.
+
+In November 1801, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ny.uscongress.5.special.1801) was held in which Democratic-Republican Theodorus Bailey was elected to replace Thomas Tillotson, who had resigned from office.
+
+In November 1801, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ny.specialuscongress.1801) was held in which Democratic-Republican John P. Van Ness was elected to replace John Bird, who had resigned from office.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
