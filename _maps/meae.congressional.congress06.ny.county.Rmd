@@ -63,7 +63,7 @@ map_id <- "meae.congressional.congress06.ny.county"
 
 ```{r election-map, echo = FALSE}
 map_id %>%
-  get_county_map_data() %>%
+  get_county_map_data(election_date = "1798-11-01") %>% 
   map_counties(height = "550px")
 ```
 
