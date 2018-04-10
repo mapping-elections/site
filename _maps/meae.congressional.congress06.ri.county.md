@@ -9,9 +9,9 @@ level: state
 meae-id: 'meae.congressional.congress06.ri.county'
 nnv:
 - id: 'ri.uscongress.1strep.1798'
-  name: RI US Congress 1798 District NA
+  name: RI US Congress 1798 Ticket 1
 - id: 'ri.uscongress.2ndrep.1798'
-  name: RI US Congress 1798 District NA
+  name: RI US Congress 1798 Ticket 2
 output:
   html_document:
     theme: default
@@ -43,7 +43,9 @@ Rhode Island elected two Federalists to the Sixth Congress.
 
 Rhode Island used a statewide at-large method for electing members to
 Congress, though each of the two representatives was elected on separate
-tickets.
+tickets. This map shows returns for the contested election between John
+Brown and Thomas Tillinghast. Christopher Champlin won the other ticket
+virtually unopposed.
 
 ::: {.results-table}
 <table>

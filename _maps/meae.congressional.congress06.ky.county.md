@@ -41,8 +41,7 @@ year: 1799
 
 Kentucky elected two Democratic-Republicans to the Sixth Congress.
 
-Mapping this election is incomplete because of the lack of local returns
-in many areas.
+The county level returns for this election are very incomplete.
 
 Kentucky used a district system for electing members to Congress.
 

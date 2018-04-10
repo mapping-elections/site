@@ -62,9 +62,8 @@ year: 1798
 Pennsylvania elected five Federalists and eight Democratic-Republicans
 to the Sixth Congress.
 
-Pennsylvania continued to use a single-district method for electing
-members to Congress, except for District 4, which elected two
-representatives.
+Pennsylvania continued to use districts to elect representatives to
+Congress. District 4 was alloted two representatives.
 
 ::: {.results-table}
 <table>

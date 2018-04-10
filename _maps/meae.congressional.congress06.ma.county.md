@@ -68,12 +68,13 @@ to the Sixth Congress.
 
 Massachusetts used the district system for electing members to Congress.
 
-On August 25, 1800, and October 20, 1800, two special elections were
-held in which Federalist Nathan Read was elected to replace Samuel
-Sewall, who had resigned from office on January 10, 1800. [Election
-1](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.middle.3.special.1800)
-[Election
-2](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.middle.3.special.ballot2.1800)
+On [August 25,
+1800](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.middle.3.special.1800),
+and [October 20,
+1800](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.middle.3.special.ballot2.1800),
+two special elections were held in which Federalist Nathan Read was
+elected to replace Samuel Sewall, who had resigned from office on
+January 10, 1800.
 
 In 1800, a [special
 election](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.western.3.special.1800)
@@ -83,14 +84,14 @@ Federalist Samuel Lyman, who had resigned from office on November 6,
 
 Starting in August 1800, three special elections were held after which
 Democratic-Republican Levi Lincoln replaced Federalist Dwight Foster
-(Listed as "Samuel Foster" in the special election records in A New
-Nation Votes), who had resigned from the House of Representatives to
-replace Federalist Samuel Dexter in the Senate. [Election
-1](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.western.4.special.1800)
-[Election
-2](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.western.4.special.ballot2.1800)
-[Election
-3](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.western.4.special.ballot3.1800)
+(listed as "Samuel Foster" in *A New Nation Votes*), who had resigned
+from the House of Representatives to replace Federalist Samuel Dexter in
+the Senate: [special election
+1](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.western.4.special.1800),
+[special election
+2](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.western.4.special.ballot2.1800),
+[special election
+3](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.western.4.special.ballot3.1800).
 
 ::: {.results-table}
 <table>

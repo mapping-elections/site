@@ -11,9 +11,9 @@ year: 1798
 legend: fed-vs-rep
 nnv:
 - id: ri.uscongress.1strep.1798
-  name: RI US Congress 1798 District NA
+  name: RI US Congress 1798 Ticket 1
 - id: ri.uscongress.2ndrep.1798
-  name: RI US Congress 1798 District NA
+  name: RI US Congress 1798 Ticket 2
 related-maps:
 - id: meae.congressional.congress05.ri.county
   name: RI 5th Congress
@@ -55,7 +55,7 @@ map_id %>%
 
 Rhode Island elected two Federalists to the Sixth Congress.
 
-Rhode Island used a statewide at-large method for electing members to Congress, though each of the two representatives was elected on separate tickets.
+Rhode Island used a statewide at-large method for electing members to Congress, though each of the two representatives was elected on separate tickets. This map shows returns for the contested election between John Brown and Thomas Tillinghast. Christopher Champlin won the other ticket virtually unopposed.
 
 <div class="results-table">
 

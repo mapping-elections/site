@@ -58,8 +58,7 @@ year: 1798
 North Carolina elected seven Federalists and three
 Democratic-Republicans to the Sixth Congress.
 
-North Carolina used the district system for electing members to
-Congress.
+North Carolina used a district system for electing members to Congress.
 
 ::: {.results-table}
 <table>
