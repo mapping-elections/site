@@ -37,6 +37,16 @@ year: 1801
 <!--/html_preserve-->
 :::
 
+Tennessee elected one Democratic-Republican to the Seventh Congress.
+
+Mapping this election is not possible because of the lack of returns at
+the town or county level.
+
+In November 1801, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:tn.ushouserepresentativespecial.1801)
+was held in which William Dickson was elected to replace William C. C.
+Claiborne, who was appointed Governor of Mississippi Territory.
+
 ::: {.results-table}
 <table>
 <thead>

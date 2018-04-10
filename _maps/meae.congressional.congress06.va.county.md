@@ -73,6 +73,18 @@ year: 1799
 <!--/html_preserve-->
 :::
 
+Virginia elected eight Federalists and eleven Democratic-Republicans to
+the Sixth Congress.
+
+Virginia used the district system for electing members to Congress.
+
+In August 1800, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:va.special.uscongress.13.1800)
+was held in which Democratic-Republican Littleton Waller Tazewell was
+elected to replace Federalist John Marshall, who had resigned from
+office to replace Federalist Timothy Pickering as the Secretary of
+State.
+
 ::: {.results-table}
 <table>
 <thead>

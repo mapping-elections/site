@@ -37,6 +37,25 @@ year: 1804
 <!--/html_preserve-->
 :::
 
+Connecticut elected seven Federalists to the Ninth Congress.
+
+Mapping this election is not possible because of the lack of returns at
+the town or county level.
+
+Connecticut used a statewide at-large method for electing members to
+Congress.
+
+In 1805, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ct.congress.special.1805)
+was held in which Federalist Timothy Pitkin, Jr. and Federalist Lewis B.
+Sturges were elected to replace Calvin Goddard and Roger Griswold, who
+both had resigned before the 9th Congress convened.
+
+In 1806, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ct.congress.special.1806)
+was held in which Theodore Dwight was elected to replace John C. Smith,
+who had resigned from office.
+
 ::: {.results-table}
 <table>
 <thead>

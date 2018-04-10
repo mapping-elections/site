@@ -57,6 +57,19 @@ year: 1802
 <!--/html_preserve-->
 :::
 
+Pennsylvania elected eighteen Democratic-Republicans to the Eighth
+Congress.
+
+Pennsylvania used the district system for electing members to Congress.
+Districts 1, 2, and 3 each elected three representatives. District 4
+elected two representatives. Pennsylvania was apportioned five more
+seats in the House of Representatives.
+
+In 1804, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress10.specialelection.1804)
+was held in which John Hoge was elected to replace William Hoge, who had
+resigned from office.
+
 ::: {.results-table}
 <table>
 <thead>

@@ -59,6 +59,24 @@ year: 1800
 <!--/html_preserve-->
 :::
 
+Pennsylvania elected three Federalists and ten Democratic-Republicans to
+the Seventh Congress.
+
+Pennsylvania continued to use a single-district method for electing
+members to Congress, except for District 4, which elected two
+representatives.
+
+In 1801, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress4.1801)
+was held in which Democratic-Republican Issac Van Horne was elected to
+replace Peter Muhlenberg, who had resigned from office after his
+election to the U.S. Senate.
+
+In 1801, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress8.specialelection.1801)
+was held in which Democratic-Republican John Steward was elected to
+replace Thomas Hartley, who died while in office.
+
 ::: {.results-table}
 <table>
 <thead>

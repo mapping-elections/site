@@ -41,6 +41,11 @@ year: 1805
 <!--/html_preserve-->
 :::
 
+Tennessee elected three Democratic-Republicans to the Ninth Congress.
+
+Tennessee started using the district system for electing members to
+Congress.
+
 ::: {.results-table}
 <table>
 <thead>

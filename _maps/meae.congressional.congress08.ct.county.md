@@ -37,6 +37,19 @@ year: 1802
 <!--/html_preserve-->
 :::
 
+Connecticut elected seven Federalists to the Eighth Congress.
+
+Mapping this election is not possible because of the lack of returns at
+the town or county level.
+
+Connecticut used a statewide at-large method for electing members to
+Congress.
+
+In 1803, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ct.uscongress.1803)
+was held in which Federalist Simeon Baldwin was elected to replace Elias
+Perkins, who had resigned before the 8th Congress convened.
+
 ::: {.results-table}
 <table>
 <thead>

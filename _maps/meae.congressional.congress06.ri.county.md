@@ -39,6 +39,12 @@ year: 1798
 <!--/html_preserve-->
 :::
 
+Rhode Island elected two Federalists to the Sixth Congress.
+
+Rhode Island used a statewide at-large method for electing members to
+Congress, though each of the two representatives was elected on separate
+tickets.
+
 ::: {.results-table}
 <table>
 <thead>

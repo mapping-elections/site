@@ -37,6 +37,11 @@ year: 1804
 <!--/html_preserve-->
 :::
 
+Rhode Island elected two Democratic-Republicans to the Ninth Congress.
+
+Rhode Island used a statewide at-large method for electing a member to
+Congress.
+
 ::: {.results-table}
 <table>
 <thead>

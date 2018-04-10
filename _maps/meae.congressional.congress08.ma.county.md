@@ -69,6 +69,18 @@ year: 1802
 <!--/html_preserve-->
 :::
 
+Massachusetts elected ten Federalists and seven Democratic-Republicans
+to the Eighth Congress.
+
+Massachusetts used the district system for electing members to Congress.
+Massachusetts was apportioned three more seats in the House of
+Representatives.
+
+In 1804, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.berkshire.special.1804)
+was held in which Simon Larned was elected to replace Thompson J.
+Skinner, who had resigned from office on August 10th, 1804.
+
 ::: {.results-table}
 <table>
 <thead>

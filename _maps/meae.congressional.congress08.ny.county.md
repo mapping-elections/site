@@ -69,6 +69,23 @@ year: 1803
 <!--/html_preserve-->
 :::
 
+New York elected five Federalists and twelve Democratic-Republicans to
+the Eighth Congress.
+
+New York used the district system for electing members to Congress. New
+York was apportioned seven more seats in the House of Representatives.
+
+In 1803, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ny.specialuscongress6.1803)
+was held in which Daniel C. Verplanck was elected to replace Isaac
+Bloom, who died while in office.
+
+In 1804, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ny.uscongress1.special.1804)
+was held in which Samuel Riker was elected to replace
+Democratic-Republican John Smith, who had resigned from office on
+February 23, 1804.
+
 ::: {.results-table}
 <table>
 <thead>

@@ -37,6 +37,12 @@ year: 1800
 <!--/html_preserve-->
 :::
 
+Rhode Island elected one Democratic-Republican to the Seventh Congress.
+
+Rhode Island used a statewide at-large method for electing a member to
+Congress. Rhode Island was apportioned one less seat in the House of
+Representatives.
+
 ::: {.results-table}
 <table>
 <thead>

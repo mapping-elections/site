@@ -37,6 +37,15 @@ year: 1803
 <!--/html_preserve-->
 :::
 
+Tennessee elected three Democratic-Republicans to the Eighth Congress.
+
+Mapping this election is incomplete because of the lack of returns at
+the town or county level.
+
+Tennessee used a statewide at-large method for electing members to
+Congress. Tennessee was apportioned two more seats in the House of
+Representatives.
+
 ::: {.results-table}
 <table>
 <thead>

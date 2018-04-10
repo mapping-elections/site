@@ -37,6 +37,24 @@ year: 1804
 <!--/html_preserve-->
 :::
 
+Georgia elected four Democratic-Republicans to the Ninth Congress.
+
+Mapping this election is incomplete because of the lack of local returns
+in many areas.
+
+Georgia used a statewide at-large method for electing members to
+Congress.
+
+In 1806, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ga.specialuscongress2.1806)
+was held in which William W. Bibb was elected to replace Thomas
+Spalding, who had resigned from office.
+
+In 1806, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ga.specialuscongress1.1806)
+was held in which Dennis Smelt was elected to replace Joseph Bryan, who
+had resigned from office.
+
 ::: {.results-table}
 <table>
 <thead>

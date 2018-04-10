@@ -63,6 +63,39 @@ year: 1800
 <!--/html_preserve-->
 :::
 
+Massachusetts elected seven Federalists and seven Democratic-Republicans
+to the Seventh Congress.
+
+Massachusetts used the district system for electing members to Congress.
+
+In July 1801, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.eastern.3.special.1801)
+was held in which Democratic-Republican Richard Cutts was elected to
+replace George Thatcher, who had resigned before the 7th Congress
+convened.
+
+On June 22, 1801, and August 24, 1801, two special elections were held
+in which Federalist Seth Hastings was elected to replace Levi Lincoln,
+who had resigned on March 5, 1801, before the 7th Congress convened.
+[Election
+1](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.western.4.special.1801)
+[Election
+2](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.western.4.special.ballot2.1801)
+
+Between September 25, 1801, and July 29, 1802, five special elections
+were held in which Federalist Samuel Thacher was elected to replace
+Silas Lee, who had resigned on August 20, 1801, before the 7th congress
+convened. [Election
+1](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.eastern.1.special.1801)
+[Election
+2](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.eastern.1.special.ballot2.1801)
+[Election
+3](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.eastern.1.special.ballot3.1802)
+[Election
+4](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.eastern.1.special.ballot4.1802)
+[Election
+5](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.eastern.1.special.ballot5.1802)
+
 ::: {.results-table}
 <table>
 <thead>

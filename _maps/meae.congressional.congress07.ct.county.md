@@ -37,6 +37,24 @@ year: 1800
 <!--/html_preserve-->
 :::
 
+Connecticut elected seven Federalists to the Seventh Congress.
+
+Mapping this election is not possible because of the lack of returns at
+the town or county level.
+
+Connecticut used a statewide at-large method for electing members to
+Congress.
+
+In April 1801, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ct.uscongress.special.1801)
+was held in which Federalist Calvin Goddard was elected to replace
+Elizur Goodrich, who had resigned from office.
+
+In September 1801, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ct.uscongress.special.1.1801)
+was held in which Benjamin Talmadge was elected to replace William
+Edmond, who had resigned from office.
+
 ::: {.results-table}
 <table>
 <thead>

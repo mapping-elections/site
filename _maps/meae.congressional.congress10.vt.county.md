@@ -71,7 +71,7 @@ Elected
 </td>
 <td style="text-align:left;">
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=W000657">James
-Witherill</a>
+Witherell</a>
 </td>
 <td class="party-demrep" data-party="demrep">
 Democratic-Republican

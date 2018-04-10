@@ -37,6 +37,11 @@ year: 1800
 <!--/html_preserve-->
 :::
 
+New Jersey elected five Democratic-Republicans to the Seventh Congress.
+
+New Jersey switched back to an at-large system for electing members to
+Congress.
+
 ::: {.results-table}
 <table>
 <thead>

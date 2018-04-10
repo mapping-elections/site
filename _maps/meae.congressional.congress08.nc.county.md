@@ -59,6 +59,13 @@ year: 1803
 <!--/html_preserve-->
 :::
 
+North Carolina elected one Federalist and eleven Democratic-Republicans
+to the Eighth Congress.
+
+North Carolina used the district system for electing members to
+Congress. North Carolina was apportioned two more seats in the House of
+Representatives.
+
 ::: {.results-table}
 <table>
 <thead>

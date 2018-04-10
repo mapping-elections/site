@@ -55,6 +55,17 @@ year: 1800
 <!--/html_preserve-->
 :::
 
+North Carolina elected five Federalists and five Democratic-Republicans
+to the Seventh Congress.
+
+North Carolina used the district system for electing members to
+Congress.
+
+In 1801, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:nc.uscongress8.specialelection.1801)
+was held in which Democratic-Republican Charles Johnson was elected to
+replace David Stone, who was selected to the U.S. Senate.
+
 ::: {.results-table}
 <table>
 <thead>

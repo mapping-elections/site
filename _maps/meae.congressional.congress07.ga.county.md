@@ -37,6 +37,11 @@ year: 1800
 <!--/html_preserve-->
 :::
 
+Georgia elected two Federalists to the Seventh Congress.
+
+Georgia used a statewide at-large method for electing members to
+Congress.
+
 ::: {.results-table}
 <table>
 <thead>

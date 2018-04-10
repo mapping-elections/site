@@ -37,6 +37,14 @@ year: 1804
 <!--/html_preserve-->
 :::
 
+New Jersey elected six Democratic-Republicans to the Ninth Congress.
+
+Mapping this election is incomplete because of the lack of local returns
+in many areas.
+
+New Jersey used a statewide at-large method for electing members to
+Congress.
+
 ::: {.results-table}
 <table>
 <thead>

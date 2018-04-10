@@ -37,6 +37,12 @@ year: 1803
 <!--/html_preserve-->
 :::
 
+New Jersey elected six Democratic-Republicans to the Eighth Congress.
+
+New Jersey switched back to an at-large system for electing members to
+Congress. New Jersey was apportioned one more seat in the House of
+Representatives.
+
 ::: {.results-table}
 <table>
 <thead>

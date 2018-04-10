@@ -39,6 +39,13 @@ year: 1801
 <!--/html_preserve-->
 :::
 
+Kentucky elected two Democratic-Republicans to the Seventh Congress.
+
+Mapping this election is incomplete because of the lack of local returns
+in many areas.
+
+Kentucky used a district system for electing members to Congress.
+
 ::: {.results-table}
 <table>
 <thead>

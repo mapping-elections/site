@@ -37,6 +37,12 @@ year: 1802
 <!--/html_preserve-->
 :::
 
+New Hampshire elected five Federalists to the Eighth Congress.
+
+New Hampshire used a statewide at-large method for electing members to
+Congress. New Hampshire was apportioned one more seat in the House of
+Representatives.
+
 ::: {.results-table}
 <table>
 <thead>

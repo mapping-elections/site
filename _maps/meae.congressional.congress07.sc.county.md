@@ -47,6 +47,22 @@ year: 1800
 <!--/html_preserve-->
 :::
 
+South Carolina elected four Federalists and two Democratic-Republicans
+to the Seventh Congress.
+
+Mapping this election is incomplete because of the lack of local returns
+in many areas.
+
+South Carolina used the district system for electing members to
+Congress.
+
+In 1802, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:sc.uscongress.camden.special.1802)
+was held in which Richard Winn was elected to replace
+Democratic-Republican Thomas Sumter. Richard Winn ran as a Federalist
+against Thomas Sumter in 1800 but ran as a Democratic-Republican for his
+successful reelection in 1803.
+
 ::: {.results-table}
 <table>
 <thead>

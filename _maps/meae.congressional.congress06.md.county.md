@@ -51,6 +51,11 @@ year: 1798
 <!--/html_preserve-->
 :::
 
+Maryland elected five Federalists and three Democratic-Republicans to
+the Sixth Congress.
+
+Maryland used a district system for electing members to Congress.
+
 ::: {.results-table}
 <table>
 <thead>

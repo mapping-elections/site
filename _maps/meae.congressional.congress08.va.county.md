@@ -79,6 +79,13 @@ year: 1803
 <!--/html_preserve-->
 :::
 
+Virginia elected three Federalists and nineteen Democratic-Republicans
+to the Eighth Congress.
+
+Virginia used the district system for electing members to Congress.
+Virginia was apportioned three more seats in the House of
+Representatives.
+
 ::: {.results-table}
 <table>
 <thead>

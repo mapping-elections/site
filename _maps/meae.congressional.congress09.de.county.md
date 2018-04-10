@@ -37,6 +37,20 @@ year: 1804
 <!--/html_preserve-->
 :::
 
+Delaware elected one Federalist to the Ninth Congress.
+
+Delaware used a statewide at-large method for electing a member to
+Congress. Delaware's election law required that voters select two
+candidates, with one residing in the voter's own county, and the other
+residing in one of the state's other two counties. The at-large winner
+was then declared the winner. This map depicts the initial winner.
+
+In 1805, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:de.uscongress.1805)
+was held in which Federalist James M. Broom was elected to replace James
+A. Bayard, who had resigned from office after his election to the
+Senate.
+
 ::: {.results-table}
 <table>
 <thead>

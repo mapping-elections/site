@@ -69,6 +69,11 @@ year: 1804
 <!--/html_preserve-->
 :::
 
+Massachusetts elected seven Federalists and ten Democratic-Republicans
+to the Ninth Congress.
+
+Massachusetts used the district system for electing members to Congress.
+
 ::: {.results-table}
 <table>
 <thead>

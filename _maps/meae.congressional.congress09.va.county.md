@@ -79,6 +79,19 @@ year: 1805
 <!--/html_preserve-->
 :::
 
+Virginia elected one Federalist, nineteen Democratic-Republicans, and
+two Dissenting Republicans to the Ninth Congress.
+
+Mapping this election is incomplete because of the lack of local returns
+in many areas.
+
+Virginia used the district system for electing members to Congress.
+
+In 1806, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:va.uscongress.13.special.1806)
+was held in which Democrat William A. Burwell was elected to replace
+Christopher Clark, who had resigned from office to practice law.
+
 ::: {.results-table}
 <table>
 <thead>

@@ -37,6 +37,11 @@ year: 1799
 <!--/html_preserve-->
 :::
 
+Tennessee elected one Democratic-Republican to the Sixth Congress.
+
+Mapping this election is incomplete because of the lack of returns at
+the town or county level in many areas.
+
 ::: {.results-table}
 <table>
 <thead>

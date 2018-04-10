@@ -57,6 +57,28 @@ year: 1804
 <!--/html_preserve-->
 :::
 
+Pennsylvania elected one Federalist and seventeen Democratic-Republicans
+to the Ninth Congress.
+
+Pennsylvania used the district system for electing members to Congress.
+Districts 1, 2, and 3 each elected three representatives. District 4
+elected two representatives.
+
+In 1805, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress4.specialelection.1805)
+was held in which Democratic-Republican Robert Whitehill was elected to
+replace J. A. Hanna, who died while in office.
+
+In 1805, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress11.specialelection.1805)
+was held in which Democratic-Republican Samuel Smith was elected to
+replace John B. C. Lucas, who had resigned from office.
+
+In 1806, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress1.specialelection.1806)
+was held in which Democratic-Republican John Porter was elected to
+replace Michael Leib, who had resigned from office.
+
 ::: {.results-table}
 <table>
 <thead>

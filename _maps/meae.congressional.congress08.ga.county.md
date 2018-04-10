@@ -37,6 +37,12 @@ year: 1802
 <!--/html_preserve-->
 :::
 
+Georgia elected one Federalist and three Democratic-Republicans to the
+Eighth Congress.
+
+Georgia used a statewide at-large method for electing members to
+Congress.
+
 ::: {.results-table}
 <table>
 <thead>

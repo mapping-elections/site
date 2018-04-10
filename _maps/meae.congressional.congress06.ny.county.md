@@ -55,6 +55,16 @@ year: 1798
 <!--/html_preserve-->
 :::
 
+New York elected four Federalists and six Democratic-Republicans to the
+Sixth Congress.
+
+New York used the district system for electing members to Congress.
+
+In December 1799, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ny.specialuscongress1.1799)
+was held in which Democratic-Republican John Smith was elected to
+replace Jonathan N. Havens, who died in office.
+
 ::: {.results-table}
 <table>
 <thead>

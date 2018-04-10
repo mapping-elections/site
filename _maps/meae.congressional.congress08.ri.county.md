@@ -37,6 +37,12 @@ year: 1802
 <!--/html_preserve-->
 :::
 
+Rhode Island elected two Democratic-Republicans to the Eighth Congress.
+
+Rhode Island used a statewide at-large method for electing a member to
+Congress. Rhode Island was apportioned one more seat in the House of
+Representatives.
+
 ::: {.results-table}
 <table>
 <thead>

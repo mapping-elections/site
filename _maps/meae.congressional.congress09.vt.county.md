@@ -43,6 +43,11 @@ year: 1805
 <!--/html_preserve-->
 :::
 
+Vermont elected two Federalists and two Democratic-Republicans to the
+Ninth Congress.
+
+Vermont used the district system for electing members to Congress.
+
 ::: {.results-table}
 <table>
 <thead>

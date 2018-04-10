@@ -45,6 +45,12 @@ year: 1798
 <!--/html_preserve-->
 :::
 
+New Jersey elected two Federalists and three Democratic-Republicans to
+the Sixth Congress.
+
+New Jersey switched to a district system for electing members to
+Congress.
+
 ::: {.results-table}
 <table>
 <thead>

@@ -34,6 +34,10 @@ year: 1803
 <!--/html_preserve-->
 :::
 
+Ohio elected one Democratic-Republican to the Eighth Congress.
+
+Ohio used a statewide at-large method for electing a member to Congress.
+
 ::: {.results-table}
 <table>
 <thead>

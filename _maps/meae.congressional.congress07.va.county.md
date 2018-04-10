@@ -73,6 +73,11 @@ year: 1801
 <!--/html_preserve-->
 :::
 
+Virginia elected two Federalists and seventeen Democratic-Republicans to
+the Seventh Congress.
+
+Virginia used the district system for electing members to Congress.
+
 ::: {.results-table}
 <table>
 <thead>

@@ -51,6 +51,17 @@ year: 1804
 <!--/html_preserve-->
 :::
 
+Maryland elected three Federalists and six Democratic-Republicans to the
+Ninth Congress.
+
+Maryland used a district system for electing members to Congress.
+District 5 elected two members.
+
+In 1806, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:md.uscongress7.special.1806)
+was held in which Edward Lloyd was elected to replace Joseph H.
+Nicholson, who had resigned from office.
+
 ::: {.results-table}
 <table>
 <thead>
@@ -156,6 +167,7 @@ Federalist
 56%
 </td>
 <td style="text-align:center;">
+✓
 </td>
 </tr>
 <tr class="district-changed" data-district-type="odd">
@@ -176,7 +188,6 @@ Democratic-Republican
 44%
 </td>
 <td style="text-align:center;">
-✓
 </td>
 </tr>
 <tr class="district-changed" data-district-type="even">

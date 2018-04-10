@@ -39,6 +39,14 @@ year: 1798
 <!--/html_preserve-->
 :::
 
+Vermont sent one Federalist and one Democratic-Republican to the Sixth
+Congress.
+
+Mapping this election is incomplete because of the lack of returns at
+the town or county level in many areas.
+
+Vermont used the district system for electing members to Congress.
+
 ::: {.results-table}
 <table>
 <thead>

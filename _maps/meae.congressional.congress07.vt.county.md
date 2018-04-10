@@ -39,6 +39,11 @@ year: 1800
 <!--/html_preserve-->
 :::
 
+Vermont sent one Federalist and one Democratic-Republican to the Seventh
+Congress.
+
+Vermont used the district system for electing members to Congress.
+
 ::: {.results-table}
 <table>
 <thead>

@@ -51,6 +51,16 @@ year: 1801
 <!--/html_preserve-->
 :::
 
+Maryland elected three Federalists and five Democratic-Republicans to
+the Seventh Congress.
+
+Maryland used a district system for electing members to Congress.
+
+In 1802, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:md.uscongress2.special.1802)
+was held in which Walter Bowie was elected to replace Richard Sprigg,
+who had resigned from office.
+
 ::: {.results-table}
 <table>
 <thead>
