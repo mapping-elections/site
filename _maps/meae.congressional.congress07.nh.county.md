@@ -98,24 +98,6 @@ Federalist
 At-large
 </td>
 <td style="text-align:left;">
-Other candidates
-</td>
-<td style="text-align:left;">
-</td>
-<td style="text-align:right;">
-5,235
-</td>
-<td style="text-align:right;">
-18.8%
-</td>
-<td style="text-align:center;">
-</td>
-</tr>
-<tr>
-<td style="text-align:center;">
-At-large
-</td>
-<td style="text-align:left;">
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=T000127">Samuel
 Tenney</a>
 </td>
@@ -209,6 +191,99 @@ Democratic-Republican
 </td>
 <td style="text-align:right;">
 5.5%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+At-large
+</td>
+<td style="text-align:left;">
+Other candidates
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+1,498
+</td>
+<td style="text-align:right;">
+5.4%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+At-large
+</td>
+<td style="text-align:left;">
+Joseph Badger, Jr.
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+1,392
+</td>
+<td style="text-align:right;">
+5%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+At-large
+</td>
+<td style="text-align:left;">
+Levi Bartlett
+</td>
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
+</td>
+<td style="text-align:right;">
+1,149
+</td>
+<td style="text-align:right;">
+4.1%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+At-large
+</td>
+<td style="text-align:left;">
+Michael MacClary
+</td>
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
+</td>
+<td style="text-align:right;">
+701
+</td>
+<td style="text-align:right;">
+2.5%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+At-large
+</td>
+<td style="text-align:left;">
+Thomas Cogswell
+</td>
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
+</td>
+<td style="text-align:right;">
+495
+</td>
+<td style="text-align:right;">
+1.8%
 </td>
 <td style="text-align:center;">
 </td>

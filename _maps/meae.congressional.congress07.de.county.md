@@ -42,8 +42,8 @@ Delaware elected one Federalist to the Seventh Congress.
 Delaware used a statewide at-large method for electing members to
 Congress. Delaware's election law required that voters select two
 candidates, with one residing in the voter's own county, and the other
-residing in one of the state's other two counties. The at-large winner
-was then declared the winner. This map depicts the initial winners.
+residing in one of the state's other two counties. The candidate with
+the most votes was then declared the winner.
 
 ::: {.results-table}
 <table>
