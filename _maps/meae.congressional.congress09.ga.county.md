@@ -207,15 +207,34 @@ Thomas Carr
 At-large
 </td>
 <td style="text-align:left;">
-Other candidates
+Obadiah Jones
 </td>
 <td style="text-align:left;">
 </td>
 <td style="text-align:right;">
-2,618
+2,079
 </td>
 <td style="text-align:right;">
-6%
+4.8%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+At-large
+</td>
+<td style="text-align:left;">
+Thomas U.P. Charlton
+</td>
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
+</td>
+<td style="text-align:right;">
+517
+</td>
+<td style="text-align:right;">
+1.2%
 </td>
 <td style="text-align:center;">
 </td>

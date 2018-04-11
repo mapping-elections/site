@@ -80,7 +80,10 @@ year: 1805
 :::
 
 Virginia elected one Federalist, nineteen Democratic-Republicans, and
-two Dissenting Republicans to the Ninth Congress.
+two dissenting Republicans to the Ninth Congress. The dissenting
+Republicans were Tertium Quids (or just Quids), a coalition of
+Federalists and moderate Democratic-Republicans. The Quids were led by
+John Randolph of Roanoke, who won election from the Fifteenth District.
 
 Mapping this election is incomplete because of the lack of local returns
 in many areas.

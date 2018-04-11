@@ -68,7 +68,7 @@ In 1806, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ga.s
 ```{r election-results, echo = FALSE, results='asis'}
 map_id %>%
   candidate_results() %>%
-  results_to_table() %>%
+  results_to_table(keep_percentage = 0.01) %>%
   cat()
 ```
 

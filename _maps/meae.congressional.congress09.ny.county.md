@@ -67,7 +67,7 @@ year: 1804
 <!--/html_preserve-->
 :::
 
-New York elected five Federalists and twelve Democratic-Republicans to
+New York elected two Federalists and fifteen Democratic-Republicans to
 the Ninth Congress.
 
 New York used the district system for electing members to Congress.

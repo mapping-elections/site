@@ -81,7 +81,7 @@ map_id %>%
 
 </div>
 
-New York elected five Federalists and twelve Democratic-Republicans to the Ninth Congress.
+New York elected two Federalists and fifteen Democratic-Republicans to the Ninth Congress.
 
 New York used the district system for electing members to Congress. Districts 2 and 3 (New York City and Brooklyn) voted together as a single district and elected two members to Congress.
 
