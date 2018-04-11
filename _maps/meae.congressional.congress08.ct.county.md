@@ -242,6 +242,44 @@ Federalist
 <td style="text-align:center;">
 </td>
 </tr>
+<tr>
+<td style="text-align:center;">
+At-large
+</td>
+<td style="text-align:left;">
+Other candidates
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+1,491
+</td>
+<td style="text-align:right;">
+2.8%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+At-large
+</td>
+<td style="text-align:left;">
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=P000368">Timothy
+Pitkin, Jr.</a>
+</td>
+<td class="party-federalist" data-party="federalist">
+Federalist
+</td>
+<td style="text-align:right;">
+806
+</td>
+<td style="text-align:right;">
+1.4%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
 </tbody>
 </table>
 :::

@@ -60,7 +60,7 @@ New Jersey switched back to an at-large system for electing members to Congress.
 ```{r election-results, echo = FALSE, results='asis'}
 map_id %>%
   candidate_results() %>%
-  results_to_table() %>%
+  results_to_table(keep_percentage = 0.01) %>%
   cat()
 ```
 

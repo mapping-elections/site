@@ -194,6 +194,24 @@ Democratic-Republican
 ✓
 </td>
 </tr>
+<tr>
+<td style="text-align:center;">
+At-large
+</td>
+<td style="text-align:left;">
+Other candidates
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+2,075
+</td>
+<td style="text-align:right;">
+2.2%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
 </tbody>
 </table>
 :::
