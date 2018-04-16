@@ -9,7 +9,9 @@ level: state
 meae-id: 'meae.congressional.congress07.ri.county'
 nnv:
 - id: 'ri.uscongress.1800'
-  name: RI US Congress 1800 At Large
+  name: RI US Congress 1800 At Large 1st Ballot
+- id: 'ri.uscongress.1801'
+  name: RI US Congress 1801 At Large 2nd Ballot
 output:
   html_document:
     theme: default
@@ -37,11 +39,12 @@ year: 1800
 <!--/html_preserve-->
 :::
 
-Rhode Island elected one Democratic-Republican to the Seventh Congress.
+Rhode Island elected two Democratic-Republicans to the Seventh Congress.
 
 Rhode Island used a statewide at-large method for electing a member to
-Congress. Rhode Island was apportioned one less seat in the House of
-Representatives.
+Congress. State law required a majority to elect. Joseph Stanton Jr. did
+not meet this requirement and a 2nd ballot was held resulting in his
+election.
 
 ::: {.results-table}
 <table>
@@ -107,6 +110,7 @@ Democratic-Republican
 24%
 </td>
 <td style="text-align:center;">
+✓
 </td>
 </tr>
 <tr>
