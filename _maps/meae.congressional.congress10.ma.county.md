@@ -66,6 +66,21 @@ year: 1806
 <!--/html_preserve-->
 :::
 
+Massachusetts elected six Federalists and eleven Democratic-Republicans
+to the Tenth Congress.
+
+Massachusetts used the district system for electing members to Congress.
+
+In 1807, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.berkshire.special.1807)
+was held in which Ezekiel Bacon was elected to replace Barnabas Bidwell,
+who had resigned from office.
+
+In 1808, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.essexsouth.special.1808)
+was held in which Joseph Story was elected to replace Jacob
+Crowninshield, who died while in office.
+
 ::: {.results-table}
 <table>
 <thead>

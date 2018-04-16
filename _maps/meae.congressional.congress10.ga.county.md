@@ -34,6 +34,14 @@ year: 1806
 <!--/html_preserve-->
 :::
 
+Georgia elected four Federalists to the Tenth Congress.
+
+Mapping this election is incomplete because of the lack of local returns
+in many areas.
+
+Georgia used a statewide at-large method for electing members to
+Congress.
+
 ::: {.results-table}
 <table>
 <thead>

@@ -64,6 +64,20 @@ year: 1806
 <!--/html_preserve-->
 :::
 
+New York elected two Federalists, fourteen Democratic-Republicans, and
+one Dissenting Republican to the Tenth Congress. The dissenting
+Republicans in this election were Tertium Quids (or just Quids), a
+coalition of Federalists and moderate Democratic-Republicans.
+
+New York used the district system for electing members to Congress.
+Districts 2 and 3 (New York City and Brooklyn) voted together as a
+single district and elected two members to Congress.
+
+In 1808, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ny.uscongress12.special.1808)
+was held in which Democratic-Republican Nathan Wilson was elected to
+replace David Thomas, who had resigned from office.
+
 ::: {.results-table}
 <table>
 <thead>

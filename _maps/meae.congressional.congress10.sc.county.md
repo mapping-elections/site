@@ -48,6 +48,17 @@ year: 1806
 <!--/html_preserve-->
 :::
 
+South Carolina elected eight Democratic-Republicans to the Tenth
+Congress.
+
+South Carolina used the district system for electing members to
+Congress.
+
+In 1807, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:sc.uscongress.newberry.specialelection.1807)
+was held in which Joseph C. Colhoun was elected to replace Levi Casey,
+who died while in office.
+
 ::: {.results-table}
 <table>
 <thead>

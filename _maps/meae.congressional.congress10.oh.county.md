@@ -34,6 +34,13 @@ year: 1806
 <!--/html_preserve-->
 :::
 
+Ohio elected one Democratic-Republican to the Tenth Congress.
+
+Mapping this election is incomplete because of the lack of local returns
+in many areas.
+
+Ohio used a statewide at-large method for electing a member to Congress.
+
 ::: {.results-table}
 <table>
 <thead>

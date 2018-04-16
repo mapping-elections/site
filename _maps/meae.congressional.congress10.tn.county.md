@@ -38,6 +38,13 @@ year: 1807
 <!--/html_preserve-->
 :::
 
+Tennessee elected three Democratic-Republicans to the Tenth Congress.
+
+Mapping this election is incomplete because of the lack of local returns
+in many areas.
+
+Tennessee used the district system for electing members to Congress.
+
 ::: {.results-table}
 <table>
 <thead>

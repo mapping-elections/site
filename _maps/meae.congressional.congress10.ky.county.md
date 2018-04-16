@@ -44,6 +44,10 @@ year: 1806
 <!--/html_preserve-->
 :::
 
+Kentucky elected six Democratic-Republicans to the Tenth Congress.
+
+Kentucky used a district system for electing members to Congress.
+
 ::: {.results-table}
 <table>
 <thead>

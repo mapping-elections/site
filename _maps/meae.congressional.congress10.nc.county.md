@@ -56,6 +56,23 @@ year: 1806
 <!--/html_preserve-->
 :::
 
+North Carolina elected one Federalist and eleven Democratic-Republicans
+to the Tenth Congress.
+
+Mapping this election is incomplete because of the lack of local returns
+in many areas.
+
+North Carolina used the district system for electing members to
+Congress.
+
+The election results in District 7 were contested and Congress ordered
+the seat vacated.
+
+In 1808, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.essexsouth.special.1808)
+was held in which Federalist John Culpeper was elected to fill the seat
+in District 7.
+
 ::: {.results-table}
 <table>
 <thead>

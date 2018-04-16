@@ -48,6 +48,13 @@ year: 1806
 <!--/html_preserve-->
 :::
 
+Maryland elected three Federalists and six Democratic-Republicans to the
+Tenth Congress. The dissenting Republicans who ran in districts 5 and 8
+were Tertium Quids.
+
+Maryland used a district system for electing members to Congress.
+District 5 elected two members.
+
 ::: {.results-table}
 <table>
 <thead>

@@ -40,6 +40,19 @@ year: 1806
 <!--/html_preserve-->
 :::
 
+Vermont elected two Federalists and two Democratic-Republicans to the
+Tenth Congress.
+
+Mapping this election is incomplete because of the lack of county-level
+returns in many areas.
+
+Vermont used the district system for electing members to Congress.
+
+In 1808, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:vt.uscongress.southwest.special.1808)
+was held in which Democrat Samuel Shaw was elected to replace James
+Witherell, who had resigned from office.
+
 ::: {.results-table}
 <table>
 <thead>
