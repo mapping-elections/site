@@ -29,9 +29,9 @@ related-maps:
 - id: meae.congressional.congress04.sc.county
   name: SC 4th Congress
   type: previous
-# - id: meae.congressional.congress06.sc.county
-#   name: SC 6th Congress
-#   type: next
+- id: meae.congressional.congress06.sc.county
+  name: SC 6th Congress
+  type: next
 # - id: meae.congressional.congress05.national.district
 #   name: National 5th Congress
 #   type: national
@@ -46,6 +46,7 @@ library(leaflet)
 library(tidyverse)
 library(USAboundaries)
 library(mappingelections)
+library(sf)
 
 map_id <- "meae.congressional.congress05.sc.county"
 cities <- tribble(
@@ -58,6 +59,7 @@ cities <- tribble(
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>%
+  arrange(!is.na(federalist_percentage), !is.na(demrep_percentage)) %>%
   map_counties(cities = FALSE,height = "600px") %>% 
   addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
                fillColor = mappingelections:::poli_chrome(cities),

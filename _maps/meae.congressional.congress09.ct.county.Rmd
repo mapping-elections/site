@@ -1,0 +1,75 @@
+---
+meae-id: meae.congressional.congress09.ct.county
+type: congressional
+level: state
+state: Connecticut
+geography: county
+congressnum: 9
+congressordinal: 9th
+title: '9th Congress: Connecticut 1804'
+year: 1804
+legend: fed-vs-rep
+nnv:
+- id: ct.congress.1804
+  name: CT US Congress 1804 At Large
+related-maps:
+- id: meae.congressional.congress08.ct.county
+  name: CT 8th Congress
+  type: previous
+- id: meae.congressional.congress10.ct.county
+  name: CT 10th Congress
+  type: next
+# - id: meae.congressional.congress09.national.district
+#   name: National 9th Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+library(sf)
+
+map_id <- "meae.congressional.congress09.ct.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  filter(id != "cts_wr") %>% 
+  map_counties(height = "350px", congress = 9)
+```
+
+</div>
+
+Connecticut elected seven Federalists to the Ninth Congress.
+
+Mapping this election is not possible because of the lack of returns at the town or county level.
+
+Connecticut used a statewide at-large method for electing members to Congress.
+
+In 1805, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ct.congress.special.1805) was held in which Federalist Timothy Pitkin, Jr. and Federalist Lewis B. Sturges were elected to replace Calvin Goddard and Roger Griswold, who both had resigned before the 9th Congress convened.
+
+In 1806, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ct.congress.special.1806) was held in which Theodore Dwight was elected to replace John C. Smith, who had resigned from office.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

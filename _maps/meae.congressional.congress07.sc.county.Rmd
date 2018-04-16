@@ -1,0 +1,83 @@
+---
+meae-id: meae.congressional.congress07.sc.county
+type: congressional
+level: state
+state: South Carolina
+geography: county
+congressnum: 7
+congressordinal: 7th
+title: '7th Congress: South Carolina 1800'
+year: 1800
+legend: fed-vs-rep
+nnv:
+- id: sc.uscongress.charleston.1800
+  name: SC US Congress 1800 District 1
+- id: sc.uscongress.beaufort.1800
+  name: SC US Congress 1800 District 2
+- id: sc.uscongress.georgetown.1800
+  name: SC US Congress 1800 District 3
+- id: sc.uscongress.camden.1800
+  name: SC US Congress 1800 District 4
+- id: sc.uscongress.ninety-six.1800
+  name: SC US Congress 1800 District 5
+- id: sc.uscongress.washington.1800
+  name: SC US Congress 1800 District 6
+related-maps:
+- id: meae.congressional.congress06.sc.county
+  name: SC 6th Congress
+  type: previous
+- id: meae.congressional.congress08.sc.county
+  name: SC 8th Congress
+  type: next
+# - id: meae.congressional.congress07.national.district
+#   name: National 7th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+library(sf)
+
+map_id <- "meae.congressional.congress07.sc.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  arrange(!is.na(federalist_percentage), !is.na(demrep_percentage)) %>%
+  map_counties(height = "600px")
+```
+
+</div>
+
+South Carolina elected four Federalists and two Democratic-Republicans to the Seventh Congress.
+
+Mapping this election is incomplete because of the lack of local returns in many areas.
+
+South Carolina used the district system for electing members to Congress.
+
+In 1802, a [special election](https://elections.lib.tufts.edu/catalog/tufts:sc.uscongress.camden.special.1802) was held in which Richard Winn was elected to replace Democratic-Republican Thomas Sumter. Richard Winn ran as a Federalist against Thomas Sumter in 1800 but ran as a Democratic-Republican for his successful reelection in 1803.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

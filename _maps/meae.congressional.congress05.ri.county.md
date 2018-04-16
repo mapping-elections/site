@@ -1,34 +1,31 @@
 ---
-title: '5th Congress: Rhode Island 1796'
+always_allow_html: True
 congressnum: 5
 congressordinal: 5th
+geography: county
+layout: 'maps-show'
+legend: 'fed-vs-rep'
+level: state
+meae-id: 'meae.congressional.congress05.ri.county'
+nnv:
+- id: 'ri.uscongress.firstcongressmen.1796'
+  name: RI US Congress 1796 Ticket 1
+- id: 'ri.uscongress.secondcongressmen.1796'
+  name: RI US Congress 1796 Ticket 2
 output:
   html_document:
     theme: default
   md_document:
     variant: markdown
-layout: maps-show
-legend: fed-vs-rep
-level: state
-meae-id: meae.congressional.congress05.ri.county
-nnv:
-- id: ri.uscongress.firstcongressmen.1796
-  name: RI US Congress 1796 Ticket 1
-- id: ri.uscongress.secondcongressmen.1796
-  name: RI US Congress 1796 Ticket 2
-geography: county
 related-maps:
-- id: meae.congressional.congress04.ri.county
+- id: 'meae.congressional.congress04.ri.county'
   name: RI 4th Congress
   type: previous
-# - id: meae.congressional.congress06.ri.county
-#   name: RI 6th Congress
-#   type: next
-# - id: meae.congressional.congress05.national.district
-#   name: National 5th Congress
-#   type: national
+- id: 'meae.congressional.congress06.ri.county'
+  name: RI 6th Congress
+  type: next
 state: Rhode Island
-always_allow_html: yes
+title: '5th Congress: Rhode Island 1796'
 type: congressional
 year: 1796
 ---

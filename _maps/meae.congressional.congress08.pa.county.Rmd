@@ -1,0 +1,106 @@
+---
+meae-id: meae.congressional.congress08.pa.county
+type: congressional
+level: state
+state: Pennsylvania
+geography: county
+congressnum: 8
+congressordinal: 8th
+title: '8th Congress: Pennsylvania 1802'
+year: 1802
+legend: fed-vs-rep
+nnv:
+- id: pa.uscongress1.1802
+  name: PA US Congress 1802 District 1
+- id: pa.uscongress2.1802
+  name: PA US Congress 1802 District 2
+- id: pa.uscongress3.1802
+  name: PA US Congress 1802 District 3
+- id: pa.uscongress4.1802
+  name: PA US Congress 1802 District 4
+- id: pa.uscongress5.1802
+  name: PA US Congress 1802 District 5
+- id: pa.uscongress6.1802
+  name: PA US Congress 1802 District 6
+- id: pa.uscongress7.1802
+  name: PA US Congress 1802 District 7
+- id: pa.uscongress8.1802
+  name: PA US Congress 1802 District 8
+- id: pa.uscongress9.1802
+  name: PA US Congress 1802 District 9
+- id: pa.uscongress10.1802
+  name: PA US Congress 1802 District 10
+- id: pa.uscongress11.1802
+  name: PA US Congress 1802 District 11
+related-maps:
+- id: meae.congressional.congress07.pa.county
+  name: PA 7th Congress
+  type: previous
+- id: meae.congressional.congress09.pa.county
+  name: PA 9th Congress
+  type: next
+# - id: meae.congressional.congress08.national.district
+#   name: National 8th Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress08.pa.county"
+
+cities <- tribble(
+  ~city, ~lat, ~lng, ~federalist_percentage, ~demrep_percentage, ~federalist_vote, ~demrep_vote,
+    "Philadelphia", 39.9526, -75.1652, 0.454, 0.546, 4735, 5705)
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "500px", cities = 0, congress = 8) %>% 
+  addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
+                 fillColor = mappingelections:::poli_chrome(cities),
+                 opacity = 1, fillOpacity = 0.8, radius = 8, weight = 3,
+                 popup = ~paste0("<b>City of ", city, "</b><br/>",
+                                 "Congressional District: 1<br/>",
+                                 "Federalists: ", federalist_percentage * 100, "% (", 
+                                 prettyNum(federalist_vote, big.mark = ","), 
+                                 " votes)<br/>",
+                                 "Democratic-Republicans: ", demrep_percentage * 100,
+                                 "% (", 
+                                 prettyNum(demrep_vote, big.mark = ","),
+                                 " votes)"),
+                 label = ~city) 
+```
+
+</div>
+
+Pennsylvania elected eighteen Democratic-Republicans to the Eighth Congress.
+
+Pennsylvania used the district system for electing members to Congress. Districts 1, 2, and 3 each elected three representatives. District 4 elected two representatives. Pennsylvania was apportioned five more seats in the House of Representatives.
+
+In 1804, a [special election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress10.specialelection.1804) was held in which John Hoge was elected to replace William Hoge, who had resigned from office.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

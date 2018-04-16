@@ -1,35 +1,31 @@
 ---
-meae-id: meae.congressional.congress04.de.county
-type: congressional
-level: state
-state: Delaware
-geography: county
+always_allow_html: True
 congressnum: 4
 congressordinal: 4th
-title: '4th Congress: Delaware 1794'
-year: 1794
-legend: fed-vs-rep
+geography: county
+layout: 'maps-show'
+legend: 'fed-vs-rep'
+level: state
+meae-id: 'meae.congressional.congress04.de.county'
 nnv:
-- id: de.uscongress.1794
+- id: 'de.uscongress.1794'
   name: DE US Congress 1794 At Large
-related-maps:
-- id: meae.congressional.congress03.de.county
-  name: DE 3rd Congress
-  type: previous
-- id: meae.congressional.congress05.de.county
-  name: DE 5th Congress
-  type: next
-# - id: meae.congressional.congress04.national.district
-#   name: National 4th Congress
-#   type: national
 output:
-  md_document:
-    variant: markdown
   html_document:
     theme: default
-always_allow_html: yes
-layout: maps-show
-
+  md_document:
+    variant: markdown
+related-maps:
+- id: 'meae.congressional.congress03.de.county'
+  name: DE 3rd Congress
+  type: previous
+- id: 'meae.congressional.congress05.de.county'
+  name: DE 5th Congress
+  type: next
+state: Delaware
+title: '4th Congress: Delaware 1794'
+type: congressional
+year: 1794
 ---
 
 ::: {.map}

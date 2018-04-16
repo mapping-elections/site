@@ -1,0 +1,67 @@
+---
+meae-id: meae.congressional.congress08.ri.county
+type: congressional
+level: state
+state: Rhode Island
+geography: county
+congressnum: 8
+congressordinal: 8th
+title: '8th Congress: Rhode Island 1802'
+year: 1802
+legend: fed-vs-rep
+nnv:
+- id: ri.uscongress.1802
+  name: RI US Congress 1802 At Large
+related-maps:
+- id: meae.congressional.congress07.ri.county
+  name: RI 7th Congress
+  type: previous
+- id: meae.congressional.congress09.ri.county
+  name: RI 9th Congress
+  type: next
+# - id: meae.congressional.congress08.national.district
+#   name: National 8th Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress08.ri.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "300px", congress = 8)
+```
+
+</div>
+
+Rhode Island elected two Democratic-Republicans to the Eighth Congress.
+
+Rhode Island used a statewide at-large method for electing a member to Congress.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

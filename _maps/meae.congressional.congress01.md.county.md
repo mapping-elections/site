@@ -1,31 +1,28 @@
 ---
-meae-id: meae.congressional.congress01.md.county
-type: congressional
-level: state
-state: Maryland
-geography: county
+always_allow_html: True
 congressnum: 1
 congressordinal: 1st
-title: '1st Congress: Maryland 1789'
-year: 1789
-legend: fed-vs-anti
+geography: county
+layout: 'maps-show'
+legend: 'fed-vs-anti'
+level: state
+meae-id: 'meae.congressional.congress01.md.county'
 nnv:
-- id: md.uscongress.1789
+- id: 'md.uscongress.1789'
   name: MD US Congress 1789 At Large
-related-maps:
-- id: meae.congressional.congress02.md.county
-  name: MD 2nd Congress
-  type: next
-# - id: meae.congressional.congress01.national.district
-#   name: National 1st Congress
-#   type: national
 output:
-  md_document:
-    variant: markdown
   html_document:
     theme: default
-always_allow_html: yes
-layout: maps-show
+  md_document:
+    variant: markdown
+related-maps:
+- id: 'meae.congressional.congress02.md.county'
+  name: MD 2nd Congress
+  type: next
+state: Maryland
+title: '1st Congress: Maryland 1789'
+type: congressional
+year: 1789
 ---
 
 ::: {.map}

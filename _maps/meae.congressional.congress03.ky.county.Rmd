@@ -44,7 +44,7 @@ map_id <- "meae.congressional.congress03.ky.county"
 
 ```{r election-map, echo = FALSE}
 map_id %>%
-  get_county_map_data() %>%
+  get_county_map_data("1792-06-01") %>%
   map_counties(state = "Kentucky", height = "400px")
 ```
 

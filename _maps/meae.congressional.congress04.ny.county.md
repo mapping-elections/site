@@ -1,53 +1,50 @@
 ---
-meae-id: meae.congressional.congress04.ny.county
-type: congressional
-level: state
-state: New York
-geography: county
+always_allow_html: True
 congressnum: 4
 congressordinal: 4th
-title: '4th Congress: New York 1794'
-year: 1794
-legend: fed-vs-rep
+geography: county
+image: '/content-img/NY04-featured.png'
+layout: 'maps-show'
+legend: 'fed-vs-rep'
+level: state
+meae-id: 'meae.congressional.congress04.ny.county'
 nnv:
-- id: ny.uscongress1.1794
+- id: 'ny.uscongress1.1794'
   name: NY US Congress 1794 District 1
-- id: ny.uscongress2.1794
+- id: 'ny.uscongress2.1794'
   name: NY US Congress 1794 District 2
-- id: ny.uscongress3.1794
+- id: 'ny.uscongress3.1794'
   name: NY US Congress 1794 District 3
-- id: ny.uscongress4.1794
+- id: 'ny.uscongress4.1794'
   name: NY US Congress 1794 District 4
-- id: ny.uscongress5.1794
+- id: 'ny.uscongress5.1794'
   name: NY US Congress 1794 District 5
-- id: ny.uscongress6.1794
+- id: 'ny.uscongress6.1794'
   name: NY US Congress 1794 District 6
-- id: ny.uscongress7.1794
+- id: 'ny.uscongress7.1794'
   name: NY US Congress 1794 District 7
-- id: ny.uscongress8.1794
+- id: 'ny.uscongress8.1794'
   name: NY US Congress 1794 District 8
-- id: ny.uscongress9.1794
+- id: 'ny.uscongress9.1794'
   name: NY US Congress 1794 District 9
-- id: ny.uscongress10.1794
+- id: 'ny.uscongress10.1794'
   name: NY US Congress 1794 District 10
-related-maps:
-- id: meae.congressional.congress03.ny.county
-  name: NY 3rd Congress
-  type: previous
-- id: meae.congressional.congress05.ny.county
-  name: NY 5th Congress
-  type: next
-# - id: meae.congressional.congress04.national.district
-#   name: National 4th Congress
-#   type: national
 output:
-  md_document:
-    variant: markdown
   html_document:
     theme: default
-always_allow_html: yes
-layout: maps-show
-image: '/content-img/NY04-featured.png'
+  md_document:
+    variant: markdown
+related-maps:
+- id: 'meae.congressional.congress03.ny.county'
+  name: NY 3rd Congress
+  type: previous
+- id: 'meae.congressional.congress05.ny.county'
+  name: NY 5th Congress
+  type: next
+state: New York
+title: '4th Congress: New York 1794'
+type: congressional
+year: 1794
 ---
 
 ::: {.map}

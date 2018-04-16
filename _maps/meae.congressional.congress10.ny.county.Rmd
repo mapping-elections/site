@@ -1,0 +1,99 @@
+---
+meae-id: meae.congressional.congress10.ny.county
+type: congressional
+level: state
+state: New York
+geography: county
+congressnum: 10
+congressordinal: 10th
+title: '10th Congress: New York 1806'
+year: 1806
+legend: dissrep
+nnv:
+- id: ny.uscongress1.1806
+  name: NY US Congress 1806 District 1
+- id: ny.uscongress2and3.1806
+  name: NY US Congress 1806 District 2
+- id: ny.uscongress4.1806
+  name: NY US Congress 1806 District 4
+- id: ny.uscongress5.1806
+  name: NY US Congress 1806 District 5
+- id: ny.uscongress6.1806
+  name: NY US Congress 1806 District 6
+- id: ny.uscongress7.1806
+  name: NY US Congress 1806 District 7
+- id: ny.uscongress8.1806
+  name: NY US Congress 1806 District 8
+- id: ny.uscongress9.1806
+  name: NY US Congress 1806 District 9
+- id: ny.uscongress10.1806
+  name: NY US Congress 1806 District 10
+- id: ny.uscongress11.1806
+  name: NY US Congress 1806 District 11
+- id: ny.uscongress12.1806
+  name: NY US Congress 1806 District 12
+- id: ny.uscongress13.1806
+  name: NY US Congress 1806 District 13
+- id: ny.uscongress14.1806
+  name: NY US Congress 1806 District 14
+- id: ny.uscongress15.1806
+  name: NY US Congress 1806 District 15
+- id: ny.uscongress16.1806
+  name: NY US Congress 1806 District 16
+- id: ny.uscongress17.1806
+  name: NY US Congress 1806 District 17
+related-maps:
+- id: meae.congressional.congress09.ny.county
+  name: NY 9th Congress
+  type: previous
+# - id: meae.congressional.congress11.ny.county
+#   name: NY 11th Congress
+#   type: next
+# - id: meae.congressional.congress10.national.district
+#   name: National 10th Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress10.ny.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "550px", congress = 10)
+```
+
+</div>
+
+New York elected two Federalists, fourteen Democratic-Republicans, and one Dissenting Republican to the Tenth Congress. The dissenting Republicans in this election were Tertium Quids (or just Quids), a coalition of Federalists and moderate Democratic-Republicans.
+
+New York used the district system for electing members to Congress. Districts 2 and 3 (New York City and Brooklyn) voted together as a single district and elected two members to Congress.
+
+In 1808, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ny.uscongress12.special.1808) was held in which Democratic-Republican Nathan Wilson was elected to replace David Thomas, who had resigned from office.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

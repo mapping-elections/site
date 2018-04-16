@@ -1,0 +1,69 @@
+---
+meae-id: meae.congressional.congress09.de.county
+type: congressional
+level: state
+state: Delaware
+geography: county
+congressnum: 9
+congressordinal: 9th
+title: '9th Congress: Delaware 1804'
+year: 1804
+legend: fed-vs-rep
+nnv:
+- id: de.uscongress.1804
+  name: DE US Congress 1804 At Large
+related-maps:
+- id: meae.congressional.congress08.de.county
+  name: DE 8th Congress
+  type: previous
+- id: meae.congressional.congress10.de.county
+  name: DE 10th Congress
+  type: next
+# - id: meae.congressional.congress09.national.district
+#   name: National 9th Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress09.de.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "450px")
+```
+
+</div>
+
+Delaware elected one Federalist to the Ninth Congress.
+
+Delaware used a statewide at-large method for electing a member to Congress. Delaware’s election law required that voters select two candidates, with one residing in the voter’s own county, and the other residing in one of the state's other two counties. The at-large winner was then declared the winner.  This map depicts the initial winner.
+
+In 1805, a [special election](https://elections.lib.tufts.edu/catalog/tufts:de.uscongress.1805) was held in which Federalist James M. Broom was elected to replace James A. Bayard, who had resigned from office after his election to the Senate.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

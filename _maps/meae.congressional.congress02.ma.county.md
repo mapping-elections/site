@@ -1,49 +1,45 @@
 ---
-meae-id: meae.congressional.congress02.ma.county
-type: congressional
-level: state
-state: Massachusetts
-geography: county
+always_allow_html: True
 congressnum: 2
 congressordinal: 2nd
-title: '2nd Congress: Massachusetts 1790'
-year: 1790
-legend: fed-vs-anti
+geography: county
+layout: 'maps-show'
+legend: 'fed-vs-anti'
+level: state
+meae-id: 'meae.congressional.congress02.ma.county'
 nnv:
-- id: ma.uscongress.1.1790
+- id: 'ma.uscongress.1.1790'
   name: MA US Congress 1790 District 1
-- id: ma.uscongress.2.1790
+- id: 'ma.uscongress.2.1790'
   name: MA US Congress 1790 District 2
-- id: ma.uscongress.3.1790
+- id: 'ma.uscongress.3.1790'
   name: MA US Congress 1790 District 3
-- id: ma.uscongress.4.1790
+- id: 'ma.uscongress.4.1790'
   name: MA US Congress 1790 District 4
-- id: ma.uscongress.5.ballot2.1790
+- id: 'ma.uscongress.5.ballot2.1790'
   name: MA US Congress 1790 District 5
-- id: ma.uscongress.6.ballot9.1792
+- id: 'ma.uscongress.6.ballot9.1792'
   name: MA US Congress 1792 District 6
-- id: ma.uscongress.7.ballot2.1790
+- id: 'ma.uscongress.7.ballot2.1790'
   name: MA US Congress 1790 District 7
-- id: ma.uscongress.8.ballot4.1791
+- id: 'ma.uscongress.8.ballot4.1791'
   name: MA US Congress 1791 District 8
-related-maps:
-- id: meae.congressional.congress01.ma.county
-  name: MA 1st Congress
-  type: previous
-- id: meae.congressional.congress03.ma.county
-  name: MA 3rd Congress
-  type: next
-# - id: meae.congressional.congress02.national.district
-#   name: National 2nd Congress
-#   type: national
 output:
-  md_document:
-    variant: markdown
   html_document:
     theme: default
-always_allow_html: yes
-layout: maps-show
-
+  md_document:
+    variant: markdown
+related-maps:
+- id: 'meae.congressional.congress01.ma.county'
+  name: MA 1st Congress
+  type: previous
+- id: 'meae.congressional.congress03.ma.county'
+  name: MA 3rd Congress
+  type: next
+state: Massachusetts
+title: '2nd Congress: Massachusetts 1790'
+type: congressional
+year: 1790
 ---
 
 ::: {.map}
@@ -249,7 +245,7 @@ Federalist
 ✓
 </td>
 </tr>
-<tr class="district-changed" data-district-type="even">
+<tr class="district-unchanged" data-district-type="even">
 <td style="text-align:center;">
 4
 </td>
@@ -265,6 +261,24 @@ Federalist
 </td>
 <td style="text-align:right;">
 16.3%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
+<tr class="district-changed" data-district-type="even">
+<td style="text-align:center;">
+4
+</td>
+<td style="text-align:left;">
+Other candidates
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+259
+</td>
+<td style="text-align:right;">
+8.6%
 </td>
 <td style="text-align:center;">
 </td>

@@ -16,9 +16,9 @@ related-maps:
 - id: meae.congressional.congress04.nh.county
   name: NH 4th Congress
   type: previous
-# - id: meae.congressional.congress06.nh.county
-#   name: NH 6th Congress
-#   type: next
+- id: meae.congressional.congress06.nh.county
+  name: NH 6th Congress
+  type: next
 # - id: meae.congressional.congress05.national.district
 #   name: National 5th Congress
 #   type: national

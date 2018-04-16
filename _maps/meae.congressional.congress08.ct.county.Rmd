@@ -1,0 +1,73 @@
+---
+meae-id: meae.congressional.congress08.ct.county
+type: congressional
+level: state
+state: Connecticut
+geography: county
+congressnum: 8
+congressordinal: 8th
+title: '8th Congress: Connecticut 1802'
+year: 1802
+legend: fed-vs-rep
+nnv:
+- id: ct.congress.1802
+  name: CT US Congress 1802 At Large
+related-maps:
+- id: meae.congressional.congress07.ct.county
+  name: CT 7th Congress
+  type: previous
+- id: meae.congressional.congress09.ct.county
+  name: CT 9th Congress
+  type: next
+# - id: meae.congressional.congress08.national.district
+#   name: National 8th Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+library(sf)
+
+map_id <- "meae.congressional.congress08.ct.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  filter(id != "cts_wr") %>% 
+  map_counties(height = "350px", congress = 8)
+```
+
+</div>
+
+Connecticut elected seven Federalists to the Eighth Congress.
+
+Mapping this election is not possible because of the lack of returns at the town or county level.
+
+Connecticut used a statewide at-large method for electing members to Congress.
+
+In 1803, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ct.uscongress.1803) was held in which Federalist Simeon Baldwin was elected to replace Elias Perkins, who had resigned before the 8th Congress convened.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table(keep_percentage = 0.01) %>%
+  cat()
+```
+
+</div>

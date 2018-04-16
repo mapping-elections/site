@@ -1,0 +1,75 @@
+---
+meae-id: meae.congressional.congress06.ct.county
+type: congressional
+level: state
+state: Connecticut
+geography: county
+congressnum: 6
+congressordinal: 6th
+title: '6th Congress: Connecticut 1798'
+year: 1798
+legend: fed-vs-rep
+nnv:
+- id: ct.congress.1798
+  name: CT US Congress 1798 At Large
+related-maps:
+- id: meae.congressional.congress05.ct.county
+  name: CT 5th Congress
+  type: previous
+- id: meae.congressional.congress07.ct.county
+  name: CT 7th Congress
+  type: next
+# - id: meae.congressional.congress06.national.district
+#   name: National 6th Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+library(sf)
+
+map_id <- "meae.congressional.congress06.ct.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  filter(id != "cts_wr") %>% 
+  map_counties(height = "350px", congress = 6)
+```
+
+</div>
+
+Connecticut elected seven Federalists to the Sixth Congress.
+
+Mapping this election is not possible because of the lack of returns at the town or county level.
+
+Connecticut used a statewide at-large method for electing members to Congress.
+
+In October 1799, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ct.special.congress.1799) was held in which Federalist Elizur Goodrich was elected to replace Federalist John Allen, who declined to serve.
+
+In October 1800, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ct.special.congress.1800) was held in which John Smith was elected to replace Federalist Jonathan Brace, who had resigned from office.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

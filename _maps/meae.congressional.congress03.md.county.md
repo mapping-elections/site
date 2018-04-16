@@ -1,48 +1,45 @@
 ---
-meae-id: meae.congressional.congress03.md.county
-type: congressional
-level: state
-state: Maryland
-geography: county
+always_allow_html: True
 congressnum: 3
 congressordinal: 3rd
-title: '3rd Congress: Maryland 1792'
-year: 1792
-legend: fed-vs-anti
+geography: county
+layout: 'maps-show'
+legend: 'fed-vs-anti'
+level: state
+meae-id: 'meae.congressional.congress03.md.county'
 nnv:
-- id: md.uscongress1.1792
+- id: 'md.uscongress1.1792'
   name: MD US Congress 1792 District 1
-- id: md.uscongress2.1792
+- id: 'md.uscongress2.1792'
   name: MD US Congress 1792 District 2
-- id: md.uscongress3.1792
+- id: 'md.uscongress3.1792'
   name: MD US Congress 1792 District 3
-- id: md.uscongress4.1792
+- id: 'md.uscongress4.1792'
   name: MD US Congress 1792 District 4
-- id: md.uscongress5.1792
+- id: 'md.uscongress5.1792'
   name: MD US Congress 1792 District 5
-- id: md.uscongress6.1792
+- id: 'md.uscongress6.1792'
   name: MD US Congress 1792 District 6
-- id: md.uscongress7.1792
+- id: 'md.uscongress7.1792'
   name: MD US Congress 1792 District 7
-- id: md.uscongress8.1792
+- id: 'md.uscongress8.1792'
   name: MD US Congress 1792 District 8
-related-maps:
-- id: meae.congressional.congress02.md.county
-  name: MD 2nd Congress
-  type: previous
-- id: meae.congressional.congress04.md.county
-  name: MD 4th Congress
-  type: next
-# - id: meae.congressional.congress03.national.district
-#   name: National 3rd Congress
-#   type: national
 output:
-  md_document:
-    variant: markdown
   html_document:
     theme: default
-always_allow_html: yes
-layout: maps-show
+  md_document:
+    variant: markdown
+related-maps:
+- id: 'meae.congressional.congress02.md.county'
+  name: MD 2nd Congress
+  type: previous
+- id: 'meae.congressional.congress04.md.county'
+  name: MD 4th Congress
+  type: next
+state: Maryland
+title: '3rd Congress: Maryland 1792'
+type: congressional
+year: 1792
 ---
 
 ::: {.map}

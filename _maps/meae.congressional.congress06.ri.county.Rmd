@@ -1,0 +1,69 @@
+---
+meae-id: meae.congressional.congress06.ri.county
+type: congressional
+level: state
+state: Rhode Island
+geography: county
+congressnum: 6
+congressordinal: 6th
+title: '6th Congress: Rhode Island 1798'
+year: 1798
+legend: fed-vs-rep
+nnv:
+- id: ri.uscongress.1strep.1798
+  name: RI US Congress 1798 Ticket 1
+- id: ri.uscongress.2ndrep.1798
+  name: RI US Congress 1798 Ticket 2
+related-maps:
+- id: meae.congressional.congress05.ri.county
+  name: RI 5th Congress
+  type: previous
+- id: meae.congressional.congress07.ri.county
+  name: RI 7th Congress
+  type: next
+# - id: meae.congressional.congress06.national.district
+#   name: National 6th Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress06.ri.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "300px", congress = 6)
+```
+
+</div>
+
+Rhode Island elected two Federalists to the Sixth Congress.
+
+Rhode Island used a statewide at-large method for electing members to Congress, though each of the two representatives was elected on separate tickets. This map shows returns for the contested election between John Brown and Thomas Tillinghast. Christopher Champlin won the other ticket virtually unopposed.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

@@ -1,0 +1,66 @@
+---
+meae-id: meae.congressional.congress08.oh.county
+type: congressional
+level: state
+state: Ohio
+geography: county
+congressnum: 8
+congressordinal: 8th
+title: '8th Congress: Ohio 1803'
+year: 1803
+legend: fed-vs-rep
+nnv:
+- id: oh.uscongress.1803
+  name: OH US Congress 1803 At Large
+related-maps:
+- id: meae.congressional.congress09.oh.county
+  name: OH 9th Congress
+  type: next
+# - id: meae.congressional.congress08.national.district
+#   name: National 8th Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress08.oh.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data(election_date = "1803-07-01") %>%
+  map_counties(height = "450px", congress = 8,
+               congressional_boundaries = FALSE,
+               state_boundaries = TRUE)
+```
+
+</div>
+
+Ohio elected one Democratic-Republican to the Eighth Congress.
+
+Ohio used a statewide at-large method for electing a member to Congress.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

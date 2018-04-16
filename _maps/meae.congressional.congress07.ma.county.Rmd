@@ -1,0 +1,107 @@
+---
+meae-id: meae.congressional.congress07.ma.county
+type: congressional
+level: state
+state: Massachusetts
+geography: county
+congressnum: 7
+congressordinal: 7th
+title: '7th Congress: Massachusetts 1800'
+year: 1800
+legend: fed-vs-rep
+nnv:
+- id: ma.uscongress.western.1.ballot2.1801
+  name: MA US Congress 1801 District 1
+- id: ma.uscongress.western.2.1800
+  name: MA US Congress 1800 District 2
+- id: ma.uscongress.western.3.1800
+  name: MA US Congress 1800 District 3
+- id: ma.uscongress.western.4.1800
+  name: MA US Congress 1800 District 4
+- id: ma.uscongress.southern.1.1800
+  name: MA US Congress 1800 District 5
+- id: ma.uscongress.southern.2.ballot2.1801
+  name: MA US Congress 1801 District 6
+- id: ma.uscongress.southern.3.1800
+  name: MA US Congress 1800 District 7
+- id: ma.uscongress.middle.1.1800
+  name: MA US Congress 1800 District 8
+- id: ma.uscongress.middle.2.1800
+  name: MA US Congress 1800 District 9
+- id: ma.uscongress.middle.3.1800
+  name: MA US Congress 1800 District 10
+- id: ma.uscongress.middle.4.1800
+  name: MA US Congress 1800 District 11
+- id: ma.uscongress.eastern.1.1800
+  name: MA US Congress 1800 District 12
+- id: ma.uscongress.eastern.2.1800
+  name: MA US Congress 1800 District 13
+- id: ma.uscongress.eastern.3.special.1801
+  name: MA US Congress 1801 District 14
+related-maps:
+- id: meae.congressional.congress06.ma.county
+  name: MA 6th Congress
+  type: previous
+- id: meae.congressional.congress08.ma.county
+  name: MA 8th Congress
+  type: next
+# - id: meae.congressional.congress07.national.district
+#   name: National 7th Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress07.ma.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties() %>% 
+  fitBounds(-73.508, 41.186, -69.861, 43.75)
+```
+
+</div>
+
+Massachusetts elected seven Federalists and seven Democratic-Republicans to the Seventh Congress.
+
+Massachusetts used the district system for electing members to Congress.
+
+In July 1801, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.eastern.3.special.1801) was held in which Democratic-Republican Richard Cutts was elected to replace George Thatcher, who had resigned before the 7th Congress convened.
+
+On June 22, 1801, and August 24, 1801, two special elections were held in which Federalist Seth Hastings was elected to replace Levi Lincoln, who had resigned on March 5, 1801, before the 7th Congress convened.
+[Election 1](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.western.4.special.1801)
+[Election 2](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.western.4.special.ballot2.1801)
+
+Between September 25, 1801, and July 29, 1802, five special elections were held in which Federalist Samuel Thacher was elected to replace Silas Lee, who had resigned on August 20, 1801, before the 7th congress convened.
+[Election 1](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.eastern.1.special.1801)
+[Election 2](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.eastern.1.special.ballot2.1801)
+[Election 3](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.eastern.1.special.ballot3.1802)
+[Election 4](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.eastern.1.special.ballot4.1802)
+[Election 5](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.eastern.1.special.ballot5.1802)
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

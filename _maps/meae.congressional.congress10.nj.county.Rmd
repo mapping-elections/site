@@ -1,0 +1,71 @@
+---
+meae-id: meae.congressional.congress10.nj.county
+type: congressional
+level: state
+state: New Jersey
+geography: county
+congressnum: 10
+congressordinal: 10th
+title: '10th Congress: New Jersey 1806'
+year: 1806
+legend: fed-vs-rep
+nnv:
+- id: nj.uscongress.1806
+  name: NJ US Congress 1806 At Large
+related-maps:
+- id: meae.congressional.congress09.nj.county
+  name: NJ 9th Congress
+  type: previous
+# - id: meae.congressional.congress11.nj.county
+#   name: NJ 11th Congress
+#   type: next
+# - id: meae.congressional.congress10.national.district
+#   name: National 10th Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress10.nj.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "700px", congress = 10)
+```
+
+</div>
+
+New Jersey elected six Democratic-Republicans to the Tenth Congress.
+
+Mapping this election is incomplete because of the lack of local returns in many areas.
+
+New Jersey used a statewide at-large method for electing members to Congress.
+
+In 1808, a [special election](http://earlyamericanelections.org/dev/maps/meae.congressional.congress10.nj.county.html) was held in which Democratic-Republican Adam Boyd was elected to replace Ezra Darby, who died while in office.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

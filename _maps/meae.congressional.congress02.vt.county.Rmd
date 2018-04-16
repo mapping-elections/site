@@ -44,7 +44,7 @@ map_id <- "meae.congressional.congress02.vt.county"
 
 ```{r election-map, echo = FALSE}
 map_id %>%
-  get_county_map_data() %>% 
+  get_county_map_data(election_date = "1791-03-05") %>%  
   map_counties()
 ```
 

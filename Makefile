@@ -5,7 +5,7 @@ build : $(MAPPAGES)
 
 serve : clean
 	@echo "Previewing the site locally"
-	bundle exec jekyll serve --watch --future
+	bundle exec jekyll serve --watch --future --incremental
 
 clean :
 	@echo "Cleaning _site directory ..."

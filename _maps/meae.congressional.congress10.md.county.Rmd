@@ -1,0 +1,103 @@
+---
+meae-id: meae.congressional.congress10.md.county
+type: congressional
+level: state
+state: Maryland
+geography: county
+congressnum: 10
+congressordinal: 10th
+title: '10th Congress: Maryland 1806'
+year: 1806
+legend: dissrep
+nnv:
+- id: md.uscongress1.1806
+  name: MD US Congress 1806 District 1
+- id: md.uscongress2.1806
+  name: MD US Congress 1806 District 2
+- id: md.uscongress3.1806
+  name: MD US Congress 1806 District 3
+- id: md.uscongress4.1806
+  name: MD US Congress 1806 District 4
+- id: md.uscongress5.1806
+  name: MD US Congress 1806 District 5
+- id: md.uscongress6.1806
+  name: MD US Congress 1806 District 6
+- id: md.uscongress7.1806
+  name: MD US Congress 1806 District 7
+- id: md.uscongress8.1806
+  name: MD US Congress 1806 District 8
+related-maps:
+- id: meae.congressional.congress09.md.county
+  name: MD 9th Congress
+  type: previous
+# - id: meae.congressional.congress11.md.county
+#   name: MD 11th Congress
+#   type: next
+# - id: meae.congressional.congress10.national.district
+#   name: National 10th Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress10.md.county"
+
+cities <- tribble(
+  ~city, ~lat, ~lng, ~federalist_percentage, ~demrep_percentage, ~dissrep_percentage, ~federalist_vote, ~demrep_vote, ~dissrep_vote,
+  "Baltimore", 39.30021, -76.61052, 0.039, 0.78, 0.181, 245, 4935, 1143
+)
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "425px", cities = FALSE) %>% 
+  addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
+                   fillColor = mappingelections:::poli_chrome(cities),
+                   opacity = 1, fillOpacity = 0.8, radius = 8, weight = 3,
+                   popup = ~paste0("<b>City of ", city, "</b><br/>",
+                                   "Congressional District: 5<br/>",
+                                   "Federalists: ", federalist_percentage * 100, "% (", 
+                                   prettyNum(federalist_vote, big.mark = ","), 
+                                   " votes)<br/>",
+                                   "Democratic-Republicans: ", demrep_percentage * 100,
+                                   "% (", 
+                                   prettyNum(demrep_vote, big.mark = ","),
+                                   " votes)<br/>",
+                                   "Dissenting Republicans: ", dissrep_percentage * 100,
+                                   "% (", 
+                                   prettyNum(dissrep_vote, big.mark = ","),
+                                   " votes)"),
+                   label = ~city)
+```
+
+</div>
+
+Maryland elected three Federalists and six Democratic-Republicans to the Tenth Congress. The dissenting Republicans who ran in districts 5 and 8 were Tertium Quids.
+
+Maryland used a district system for electing members to Congress. District 5 elected two members.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

@@ -1,0 +1,69 @@
+---
+meae-id: meae.congressional.congress10.ri.county
+type: congressional
+level: state
+state: Rhode Island
+geography: county
+congressnum: 10
+congressordinal: 10th
+title: '10th Congress: Rhode Island 1806'
+year: 1806
+legend: dissrep
+nnv:
+- id: ri.uscongress.1806
+  name: RI US Congress 1806 At Large
+related-maps:
+- id: meae.congressional.congress09.ri.county
+  name: RI 9th Congress
+  type: previous
+# - id: meae.congressional.congress11.ri.county
+#   name: RI 11th Congress
+#   type: next
+# - id: meae.congressional.congress10.national.district
+#   name: National 10th Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress10.ri.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "300px", congress = 10)
+```
+
+</div>
+
+Rhode Island elected two Democratic-Republicans to the Tenth Congress.
+
+Rhode Island used a statewide at-large method for electing a member to Congress.
+
+In 1806, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ri.uscongress.special.1808) was held in which Federalist Richard Jackson, Jr. was elected to replace Nehemiah Knight, who died while in office.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

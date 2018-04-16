@@ -1,0 +1,72 @@
+---
+meae-id: meae.congressional.congress09.tn.county
+type: congressional
+level: state
+state: Tennessee
+geography: county
+congressnum: 9
+congressordinal: 9th
+title: '9th Congress: Tennessee 1805'
+year: 1805
+legend: fed-vs-rep
+nnv:
+- id: tn.congressdistrict1.1805
+  name: TN US Congress 1805 District 1
+- id: tn.congress.hamilton.1805
+  name: TN US Congress 1805 District 2
+- id: tn.uscongressdistrict3.1805
+  name: TN US Congress 1805 District 3
+related-maps:
+- id: meae.congressional.congress08.tn.county
+  name: TN 8th Congress
+  type: previous
+- id: meae.congressional.congress10.tn.county
+  name: TN 10th Congress
+  type: next
+# - id: meae.congressional.congress09.national.district
+#   name: National 9th Congress
+#   type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress09.tn.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "300px", congress = 9) %>% 
+  setView(lng = -84.85, lat = 36.348, zoom = 8)
+```
+
+</div>
+
+Tennessee elected three Democratic-Republicans to the Ninth Congress.
+
+Tennessee started using the district system for electing members to Congress.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>
