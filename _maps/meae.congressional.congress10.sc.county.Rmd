@@ -30,9 +30,9 @@ related-maps:
 - id: meae.congressional.congress09.sc.county
   name: SC 9th Congress
   type: previous
-# - id: meae.congressional.congress11.sc.county
-#   name: SC 11th Congress
-#   type: next
+- id: meae.congressional.congress11.sc.county
+  name: SC 11th Congress
+  type: next
 # - id: meae.congressional.congress10.national.district
 #   name: National 10th Congress
 #   type: national

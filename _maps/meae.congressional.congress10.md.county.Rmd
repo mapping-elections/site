@@ -30,9 +30,9 @@ related-maps:
 - id: meae.congressional.congress09.md.county
   name: MD 9th Congress
   type: previous
-# - id: meae.congressional.congress11.md.county
-#   name: MD 11th Congress
-#   type: next
+- id: meae.congressional.congress11.md.county
+  name: MD 11th Congress
+  type: next
 # - id: meae.congressional.congress10.national.district
 #   name: National 10th Congress
 #   type: national

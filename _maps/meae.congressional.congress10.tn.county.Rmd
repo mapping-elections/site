@@ -20,9 +20,9 @@ related-maps:
 - id: meae.congressional.congress09.tn.county
   name: TN 9th Congress
   type: previous
-# - id: meae.congressional.congress11.tn.county
-#   name: TN 11th Congress
-#   type: next
+- id: meae.congressional.congress11.tn.county
+  name: TN 11th Congress
+  type: next
 # - id: meae.congressional.congress10.national.district
 #   name: National 10th Congress
 #   type: national

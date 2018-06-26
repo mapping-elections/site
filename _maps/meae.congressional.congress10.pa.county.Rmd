@@ -36,9 +36,9 @@ related-maps:
 - id: meae.congressional.congress09.pa.county
   name: PA 9th Congress
   type: previous
-# - id: meae.congressional.congress11.pa.county
-#   name: PA 11th Congress
-#   type: next
+- id: meae.congressional.congress11.pa.county
+  name: PA 11th Congress
+  type: next
 # - id: meae.congressional.congress10.national.district
 #   name: National 10th Congress
 #   type: national
@@ -70,7 +70,7 @@ cities <- tribble(
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>%
-  map_counties(height = "500px", cities = 0, congress = 9) %>% 
+  map_counties(height = "500px", cities = 0, congress = 10) %>% 
   addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
                  fillColor = mappingelections:::poli_chrome(cities),
                  opacity = 1, fillOpacity = 0.8, radius = 8, weight = 3,
