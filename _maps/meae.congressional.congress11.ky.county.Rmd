@@ -1,0 +1,73 @@
+---
+meae-id: meae.congressional.congress11.ky.county
+type: congressional
+level: state
+state: Kentucky
+geography: county
+congressnum: 11
+congressordinal: 11th
+title: '11th Congress: Kentucky 1808'
+year: 1808
+legend: dissrep
+nnv:
+- id: ky.uscongress1.1808
+  name: KY US Congress 1808 District 1
+- id: ky.uscongress2.1808
+  name: KY US Congress 1808 District 2
+- id: ky.uscongress3.1808
+  name: KY US Congress 1808 District 3
+- id: ky.uscongress4.1808
+  name: KY US Congress 1808 District 4
+- id: ky.uscongress5.1808
+  name: KY US Congress 1808 District 5
+- id: ky.uscongress6.1808
+  name: KY US Congress 1808 District 6
+related-maps:
+- id: meae.congressional.congress10.ky.county
+  name: KY 10th Congress
+  type: previous
+- id: meae.congressional.congress12.ky.county
+  name: KY 12th Congress
+  type: next
+#- id: meae.congressional.congress11.national.district
+#  name: National 11th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress11.ky.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties()
+```
+
+</div>
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

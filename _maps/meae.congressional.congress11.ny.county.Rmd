@@ -1,0 +1,91 @@
+---
+meae-id: meae.congressional.congress11.ny.county
+type: congressional
+level: state
+state: New York
+geography: county
+congressnum: 11
+congressordinal: 11th
+title: '11th Congress: New York 1808'
+year: 1808
+legend: dissrep
+nnv:
+- id: ny.uscongress1.1808
+  name: NY US Congress 1808 District 1
+- id: ny.uscongress2.1808
+  name: NY US Congress 1808 District 2
+- id: ny.uscongress3.1808
+  name: NY US Congress 1808 District 3
+- id: ny.uscongress4.1808
+  name: NY US Congress 1808 District 4
+- id: ny.uscongress5.1808
+  name: NY US Congress 1808 District 5
+- id: ny.uscongress6.1808
+  name: NY US Congress 1808 District 6
+- id: ny.uscongress7.1808
+  name: NY US Congress 1808 District 7
+- id: ny.uscongress8.1808
+  name: NY US Congress 1808 District 8
+- id: ny.uscongress9.1808
+  name: NY US Congress 1808 District 9
+- id: ny.uscongress10.1808
+  name: NY US Congress 1808 District 10
+- id: ny.uscongress11.1808
+  name: NY US Congress 1808 District 11
+- id: ny.uscongress12.1808
+  name: NY US Congress 1808 District 12
+- id: ny.uscongress13.1808
+  name: NY US Congress 1808 District 13
+- id: ny.uscongress14.1808
+  name: NY US Congress 1808 District 14
+- id: ny.uscongress15.1808
+  name: NY US Congress 1808 District 15
+related-maps:
+- id: meae.congressional.congress10.ny.county
+  name: NY 10th Congress
+  type: previous
+- id: meae.congressional.congress12.ny.county
+  name: NY 12th Congress
+  type: next
+#- id: meae.congressional.congress11.national.district
+#  name: National 11th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress11.ny.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "550px", congress = 11)
+```
+
+</div>
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>
