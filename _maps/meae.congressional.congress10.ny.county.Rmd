@@ -81,7 +81,7 @@ map_id %>%
 
 </div>
 
-New York elected two Federalists, fourteen Democratic-Republicans, and one Dissenting Republican to the Tenth Congress. The dissenting Republicans in this election were Tertium Quids (or just Quids), a coalition of Federalists and moderate Democratic-Republicans.
+New York elected two Federalists, fourteen Democratic-Republicans, and one Republican Factionalist to the Tenth Congress. The Republican faction in this election was the Tertium Quids (or just Quids), a coalition of Federalists and moderate Democratic-Republicans.
 
 New York used the district system for electing members to Congress. Districts 2 and 3 (New York City and Brooklyn) voted together as a single district and elected two members to Congress.
 
