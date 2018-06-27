@@ -3,7 +3,7 @@ MAPPAGES := $(patsubst _maps/%.Rmd, _maps/%.md, $(wildcard _maps/*.Rmd))
 build : $(MAPPAGES)
 	bundle exec jekyll build --future --incremental --config _config.yml,_config-preview.yml
 
-serve : clean
+serve : 
 	@echo "Previewing the site locally"
 	bundle exec jekyll serve --watch --future --incremental
 
