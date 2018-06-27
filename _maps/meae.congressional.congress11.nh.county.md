@@ -109,7 +109,8 @@ Federalist
 At-large
 </td>
 <td style="text-align:left;">
-John C. Chamberlain
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=C000279">John
+C. Chamberlain</a>
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist
