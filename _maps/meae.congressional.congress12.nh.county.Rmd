@@ -1,0 +1,63 @@
+---
+meae-id: meae.congressional.congress12.nh.county
+type: congressional
+level: state
+state: New Hampshire
+geography: county
+congressnum: 12
+congressordinal: 12th
+title: '12th Congress: New Hampshire 1810'
+year: 1810
+legend: fed-vs-rep
+nnv:
+- id: nh.uscongress.1810
+  name: NH US Congress 1810 At Large
+related-maps:
+- id: meae.congressional.congress11.nh.county
+  name: NH 11th Congress
+  type: previous
+- id: meae.congressional.congress13.nh.county
+  name: NH 13th Congress
+  type: next
+#- id: meae.congressional.congress12.national.district
+#  name: National 12th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress12.nh.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "500px", congress = 12)
+```
+
+</div>
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>
