@@ -541,7 +541,8 @@ Democratic-Republican
 12
 </td>
 <td style="text-align:left;">
-Ezekiel Bacon
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=B000015">Ezekiel
+Bacon</a>
 </td>
 <td class="party-demrep" data-party="demrep">
 Democratic-Republican
