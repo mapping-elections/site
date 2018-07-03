@@ -51,8 +51,7 @@ map_id <- "meae.congressional.congress11.tn.county"
 map_id %>%
   get_county_map_data() %>%
   filter(id != "tns_nca") %>% 
-  map_counties(height = "300px", congress = 11) %>% 
-  setView(lng = -84.85, lat = 36.348, zoom = 8)
+  map_counties(height = "300px", congress = 11)
 ```
 
 </div>

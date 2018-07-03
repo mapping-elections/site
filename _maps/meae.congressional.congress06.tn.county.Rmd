@@ -46,8 +46,7 @@ map_id <- "meae.congressional.congress06.tn.county"
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>%
-  map_counties(height = "300px") %>% 
-  setView(lng = -84.85, lat = 36.348, zoom = 8)
+  map_counties(height = "300px")
 ```
 
 </div>
