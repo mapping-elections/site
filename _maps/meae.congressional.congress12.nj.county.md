@@ -22,9 +22,6 @@ related-maps:
 - id: 'meae.congressional.congress13.nj.county'
   name: NJ 13th Congress
   type: next
-- id: 'meae.congressional.congress12.national.district'
-  name: National 12th Congress
-  type: national
 state: New Jersey
 title: '12th Congress: New Jersey 1810'
 type: congressional

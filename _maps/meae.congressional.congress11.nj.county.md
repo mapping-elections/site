@@ -22,9 +22,6 @@ related-maps:
 - id: 'meae.congressional.congress12.nj.county'
   name: NJ 12th Congress
   type: next
-- id: 'meae.congressional.congress11.national.district'
-  name: National 11th Congress
-  type: national
 state: New Jersey
 title: '11th Congress: New Jersey 1808'
 type: congressional
