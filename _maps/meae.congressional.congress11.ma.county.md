@@ -4,7 +4,7 @@ congressnum: 11
 congressordinal: 11th
 geography: county
 layout: 'maps-show'
-legend: dissrep
+legend: 'fed-vs-rep'
 level: state
 meae-id: 'meae.congressional.congress11.ma.county'
 nnv:

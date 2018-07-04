@@ -8,7 +8,7 @@ congressnum: 11
 congressordinal: 11th
 title: '11th Congress: Georgia 1808'
 year: 1808
-legend: dissrep
+legend: fed-vs-rep
 nnv:
 - id: ga.uscongress.1808
   name: GA US Congress 1808 At Large

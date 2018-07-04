@@ -8,7 +8,7 @@ congressnum: 11
 congressordinal: 11th
 title: '11th Congress: New Hampshire 1808'
 year: 1808
-legend: dissrep
+legend: fed-vs-rep
 nnv:
 - id: nh.uscongress.1808
   name: NH US Congress 1808 At Large
