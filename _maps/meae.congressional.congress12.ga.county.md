@@ -22,9 +22,6 @@ related-maps:
 - id: 'meae.congressional.congress13.ga.county'
   name: GA 13th Congress
   type: next
-- id: 'meae.congressional.congress12.national.district'
-  name: National 12th Congress
-  type: national
 state: Georgia
 title: '12th Congress: Georgia 1810'
 type: congressional
