@@ -1,0 +1,103 @@
+---
+meae-id: meae.congressional.congress13.ny.county
+type: congressional
+level: state
+state: New York
+geography: county
+congressnum: 13
+congressordinal: 13th
+title: '13th Congress: New York 1812'
+year: 1812
+legend: fed-vs-rep
+nnv:
+- id: ny.uscongress1.1812
+  name: NY US Congress 1812 District 1
+- id: ny.uscongress2.1812
+  name: NY US Congress 1812 District 2
+- id: ny.uscongress3.1812
+  name: NY US Congress 1812 District 3
+- id: ny.uscongress4.1812
+  name: NY US Congress 1812 District 4
+- id: ny.uscongress5.1812
+  name: NY US Congress 1812 District 5
+- id: ny.uscongress6.1812
+  name: NY US Congress 1812 District 6
+- id: ny.uscongress7.1812
+  name: NY US Congress 1812 District 7
+- id: ny.uscongress8.1812
+  name: NY US Congress 1812 District 8
+- id: ny.uscongress9.1812
+  name: NY US Congress 1812 District 9
+- id: ny.uscongress10.1812
+  name: NY US Congress 1812 District 10
+- id: ny.uscongress11.1812
+  name: NY US Congress 1812 District 11
+- id: ny.uscongress12.1812
+  name: NY US Congress 1812 District 12
+- id: ny.uscongress13.1812
+  name: NY US Congress 1812 District 13
+- id: ny.uscongress14.1812
+  name: NY US Congress 1812 District 14
+- id: ny.uscongress15.1812
+  name: NY US Congress 1812 District 15
+- id: ny.uscongress16.1812
+  name: NY US Congress 1812 District 16
+- id: ny.uscongress17.1812
+  name: NY US Congress 1812 District 17
+- id: ny.uscongress18.1812
+  name: NY US Congress 1812 District 18
+- id: ny.uscongress19.1812
+  name: NY US Congress 1812 District 19
+- id: ny.uscongress20.1812
+  name: NY US Congress 1812 District 20
+- id: ny.uscongress21.1812
+  name: NY US Congress 1812 District 21
+related-maps:
+- id: meae.congressional.congress12.ny.county
+  name: NY 12th Congress
+  type: previous
+- id: meae.congressional.congress14.ny.county
+  name: NY 14th Congress
+  type: next
+#- id: meae.congressional.congress13.national.district
+#  name: National 13th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress13.ny.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "700px", congress = 13)
+```
+
+</div>
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

@@ -1,0 +1,64 @@
+---
+meae-id: meae.congressional.congress13.ga.county
+type: congressional
+level: state
+state: Georgia
+geography: county
+congressnum: 13
+congressordinal: 13th
+title: '13th Congress: Georgia 1812'
+year: 1812
+legend: fed-vs-rep
+nnv:
+- id: ga.uscongress.1812
+  name: GA US Congress 1812 At Large
+related-maps:
+- id: meae.congressional.congress12.ga.county
+  name: GA 12th Congress
+  type: previous
+- id: meae.congressional.congress14.ga.county
+  name: GA 14th Congress
+  type: next
+#- id: meae.congressional.congress13.national.district
+#  name: National 13th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress13.ga.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  filter(id != "gas_nca") %>% 
+  map_counties(height = "500px")
+```
+
+</div>
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>
