@@ -46,6 +46,8 @@ map_id <- "meae.congressional.congress13.la.county"
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data(election_date = "1812-05-01") %>%
+  arrange(!is.na(federalist_percentage), !is.na(demrep_percentage), 
+          cnty_type == "County") %>% 
   map_counties()
 ```
 
