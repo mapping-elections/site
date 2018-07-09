@@ -76,7 +76,7 @@ map_id <- "meae.congressional.congress10.ny.county"
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>%
-  map_counties(height = "700px", congress = 10)
+  map_counties(height = "725px", congress = 10)
 ```
 
 </div>
