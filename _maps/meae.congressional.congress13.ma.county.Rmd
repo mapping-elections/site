@@ -1,0 +1,102 @@
+---
+meae-id: meae.congressional.congress13.ma.county
+type: congressional
+level: state
+state: Massachusetts
+geography: county
+congressnum: 13
+congressordinal: 13th
+title: '13th Congress: Massachusetts 1812'
+year: 1812
+legend: fed-vs-rep
+nnv:
+- id: ma.uscongress.suffolk.1812
+  name: MA US Congress 1812 District 1
+- id: ma.uscongress.essexsouth.1812
+  name: MA US Congress 1812 District 2
+- id: ma.uscongress.essexnorth.1812
+  name: MA US Congress 1812 District 3
+- id: ma.uscongress.middlesex.1812
+  name: MA US Congress 1812 District 4
+- id: ma.uscongress.hampshiresouth.1812
+  name: MA US Congress 1812 District 5
+- id: ma.uscongress.hampshirenorth.1812
+  name: MA US Congress 1812 District 6
+- id: ma.uscongress.plymouth.1812
+  name: MA US Congress 1812 District 7
+- id: ma.uscongress.barnstable.1812
+  name: MA US Congress 1812 District 8
+- id: ma.uscongress.bristol.1812
+  name: MA US Congress 1812 District 9
+- id: ma.uscongress.worcestersouth.1812
+  name: MA US Congress 1812 District 10
+- id: ma.uscongress.worcesternorth.1812
+  name: MA US Congress 1812 District 11
+- id: ma.uscongress.berkshire.1812
+  name: MA US Congress 1812 District 12
+- id: ma.uscongress.norfolk.1812
+  name: MA US Congress 1812 District 13
+- id: ma.uscongress.eastern1.1812
+  name: MA US Congress 1812 District 14
+- id: ma.uscongress.eastern2.1812
+  name: MA US Congress 1812 District 15
+- id: ma.uscongress.eastern3.1812
+  name: MA US Congress 1812 District 16
+- id: ma.uscongress.eastern4.1812
+  name: MA US Congress 1812 District 17
+- id: ma.uscongress.eastern5.1812
+  name: MA US Congress 1812 District 18
+- id: ma.uscongress.eastern6.ballot2.1813
+  name: MA US Congress 1813 District 19
+- id: ma.uscongress.eastern7.1812
+  name: MA US Congress 1812 District 20
+related-maps:
+- id: meae.congressional.congress12.ma.county
+  name: MA 12th Congress
+  type: previous
+- id: meae.congressional.congress14.ma.county
+  name: MA 14th Congress
+  type: next
+#- id: meae.congressional.congress13.national.district
+#  name: National 13th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress13.ma.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties() %>% 
+  fitBounds(-73.508, 41.186, -69.861, 43.75)
+```
+
+</div>
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>
