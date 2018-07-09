@@ -179,7 +179,8 @@ Democratic-Republican
 1
 </td>
 <td style="text-align:left;">
-Joseph Hopkinson
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=H000784">Joseph
+Hopkinson</a>
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist
