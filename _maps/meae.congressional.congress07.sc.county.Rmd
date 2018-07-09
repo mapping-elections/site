@@ -57,6 +57,7 @@ map_id <- "meae.congressional.congress07.sc.county"
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>%
+  filter(id != "scs_nca5") %>% 
   arrange(!is.na(federalist_percentage), !is.na(demrep_percentage)) %>%
   map_counties(height = "600px")
 ```

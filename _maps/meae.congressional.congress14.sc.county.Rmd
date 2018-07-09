@@ -66,6 +66,7 @@ cities <- tribble(
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>%
+  filter(id != "scs_nca5") %>% 
   arrange(!is.na(federalist_percentage), !is.na(demrep_percentage), 
           cnty_type == "District") %>%
   map_counties(cities = FALSE, height = "600px") %>% 
