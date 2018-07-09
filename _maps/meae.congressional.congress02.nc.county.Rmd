@@ -53,7 +53,8 @@ map_id <- "meae.congressional.congress02.nc.county"
 
 ```{r election-map, echo = FALSE}
 map_id %>%
-  get_county_map_data() %>% 
+  get_county_map_data() %>%
+  filter(id != "ncs_nca5") %>% 
   map_counties(height = "400px")
 ```
 
