@@ -46,6 +46,7 @@ map_id <- "meae.congressional.congress09.oh.county"
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>%
+  filter(id != "ohs_nca2") %>% 
   map_counties(height = "450px", congress = 9)
 ```
 
