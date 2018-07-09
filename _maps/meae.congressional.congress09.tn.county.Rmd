@@ -50,6 +50,8 @@ map_id <- "meae.congressional.congress09.tn.county"
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>%
+      filter(id != "tns_nca3",
+             id != "tns_nca4") %>% 
   map_counties(height = "300px", congress = 9)
 ```
 
