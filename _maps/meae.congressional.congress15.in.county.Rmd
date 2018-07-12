@@ -1,0 +1,66 @@
+---
+meae-id: meae.congressional.congress15.in.county
+type: congressional
+level: state
+state: Indiana
+geography: county
+congressnum: 15
+congressordinal: 15th
+title: '15th Congress: Indiana 1817'
+year: 1817
+legend: fed-vs-rep
+nnv:
+- id: in.uscongress.1817
+  name: IN US Congress 1817 At Large
+related-maps:
+- id: meae.congressional.congress14.in.county
+  name: IN 14th Congress
+  type: previous
+- id: meae.congressional.congress16.in.county
+  name: IN 16th Congress
+  type: next
+#- id: meae.congressional.congress15.national.district
+#  name: National 15th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress15.in.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+    filter(id != "ins_nca1",
+           id != "ins_nca2",
+           id != "ins_nca3") %>%
+  map_counties()
+```
+
+</div>
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>
