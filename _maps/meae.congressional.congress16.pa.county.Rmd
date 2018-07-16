@@ -1,0 +1,108 @@
+---
+meae-id: meae.congressional.congress16.pa.county
+type: congressional
+level: state
+state: Pennsylvania
+geography: county
+congressnum: 16
+congressordinal: 16th
+title: '16th Congress: Pennsylvania 1818'
+year: 1818
+legend: fed-vs-rep
+nnv:
+- id: pa.congress.1.1818
+  name: PA US Congress 1818 District 1
+- id: pa.congress.2.1818
+  name: PA US Congress 1818 District 2
+- id: pa.congress.3.1818
+  name: PA US Congress 1818 District 3
+- id: pa.congress.4.1818
+  name: PA US Congress 1818 District 4
+- id: pa.congress.5.1818
+  name: PA US Congress 1818 District 5
+- id: pa.congress.6.1818
+  name: PA US Congress 1818 District 6
+- id: pa.congress.7.1818
+  name: PA US Congress 1818 District 7
+- id: pa.congress.8.1818
+  name: PA US Congress 1818 District 8
+- id: pa.congress.9.1818
+  name: PA US Congress 1818 District 9
+- id: pa.congress.10.1818
+  name: PA US Congress 1818 District 10
+- id: pa.congress.11.1818
+  name: PA US Congress 1818 District 11
+- id: pa.congress.12.1818
+  name: PA US Congress 1818 District 12
+- id: pa.congress.13.1818
+  name: PA US Congress 1818 District 13
+- id: pa.congress.14.1818
+  name: PA US Congress 1818 District 14
+- id: pa.congress.15.1818
+  name: PA US Congress 1818 District 15
+related-maps:
+- id: meae.congressional.congress15.pa.county
+  name: PA 15th Congress
+  type: previous
+- id: meae.congressional.congress17.pa.county
+  name: PA 17th Congress
+  type: next
+#- id: meae.congressional.congress16.national.district
+#  name: National 16th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress16.pa.county"
+
+cities <- tribble(
+  ~city, ~lat, ~lng, ~federalist_percentage, ~demrep_percentage, ~federalist_vote, ~demrep_vote,
+    "Philadelphia", 39.9526, -75.1652, 0.643, 0.357, 10552, 5871)
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "500px", cities = 0, congress = 16) %>% 
+  addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
+                 fillColor = mappingelections:::poli_chrome(cities),
+                 opacity = 1, fillOpacity = 0.8, radius = 8, weight = 3,
+                 popup = ~paste0("<b>City of ", city, "</b><br/>",
+                                 "Congressional District: 1<br/>",
+                                 "Federalists: ", federalist_percentage * 100, "% (", 
+                                 prettyNum(federalist_vote, big.mark = ","), 
+                                 " votes)<br/>",
+                                 "Democratic-Republicans: ", demrep_percentage * 100,
+                                 "% (", 
+                                 prettyNum(demrep_vote, big.mark = ","),
+                                 " votes)"),
+                 label = ~city) 
+```
+
+</div>
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>
