@@ -1,0 +1,64 @@
+---
+meae-id: meae.congressional.congress16.ga.county
+type: congressional
+level: state
+state: Georgia
+geography: county
+congressnum: 16
+congressordinal: 16th
+title: '16th Congress: Georgia 1818'
+year: 1818
+legend: fed-vs-rep
+nnv:
+- id: ga.uscongress.1818
+  name: GA US Congress 1818 At Large
+related-maps:
+- id: meae.congressional.congress15.ga.county
+  name: GA 15th Congress
+  type: previous
+- id: meae.congressional.congress17.ga.county
+  name: GA 17th Congress
+  type: next
+#- id: meae.congressional.congress16.national.district
+#  name: National 16th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress16.ga.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  filter(id != "gas_nca") %>% 
+  map_counties(height = "500px")
+```
+
+</div>
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>
