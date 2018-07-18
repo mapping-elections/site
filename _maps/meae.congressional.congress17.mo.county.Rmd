@@ -1,0 +1,71 @@
+---
+meae-id: meae.congressional.congress17.mo.county
+type: congressional
+level: state
+state: Missouri
+geography: county
+congressnum: 17
+congressordinal: 17th
+title: '17th Congress: Missouri 1820'
+year: 1820
+legend: fed-vs-rep
+nnv:
+- id: mo.uscongress.1820
+  name: MO US Congress 1820 At Large
+related-maps:
+- id: meae.congressional.congress16.mo.county
+  name: MO 16th Congress
+  type: previous
+- id: meae.congressional.congress18.mo.county
+  name: MO 18th Congress
+  type: next
+#- id: meae.congressional.congress17.national.district
+#  name: National 17th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress17.mo.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data(election_date = "1821-08-11") %>%
+  filter(id != "mos_nca1",
+         id != "mos_nca3",
+         id != "mos_nca4",
+         id != "mos_nca5",
+         id != "mos_nca6",
+         id != "mos_nca7",
+         id != "mos_nca8",
+         id != "mos_nca19") %>% 
+  map_counties()
+```
+
+</div>
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>
