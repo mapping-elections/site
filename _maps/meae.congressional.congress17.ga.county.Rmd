@@ -1,0 +1,64 @@
+---
+meae-id: meae.congressional.congress17.ga.county
+type: congressional
+level: state
+state: Georgia
+geography: county
+congressnum: 17
+congressordinal: 17th
+title: '17th Congress: Georgia 1820'
+year: 1820
+legend: dissrep
+nnv:
+- id: ga.uscongress.1820
+  name: GA US Congress 1820 At Large
+related-maps:
+- id: meae.congressional.congress16.ga.county
+  name: GA 16th Congress
+  type: previous
+- id: meae.congressional.congress18.ga.county
+  name: GA 18th Congress
+  type: next
+#- id: meae.congressional.congress17.national.district
+#  name: National 17th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress17.ga.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  filter(id != "gas_nca") %>% 
+  map_counties(height = "525px")
+```
+
+</div>
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>
