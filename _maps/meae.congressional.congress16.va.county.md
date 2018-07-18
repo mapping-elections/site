@@ -484,6 +484,7 @@ Democratic-Republican
 72.2%
 </td>
 <td style="text-align:center;">
+✓
 </td>
 </tr>
 <tr class="district-changed" data-district-type="odd">
