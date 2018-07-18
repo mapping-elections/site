@@ -57,7 +57,9 @@ map_id <- "meae.congressional.congress17.tn.county"
 map_id %>%
   get_county_map_data() %>%
     filter(id != "tns_nca4",
-           id != "tns_nca9") %>% 
+           id != "tns_nca9",
+           id != "tns_hardin",
+           id != "tns_shelby") %>% 
   map_counties()
 ```
 
