@@ -1,0 +1,107 @@
+---
+meae-id: meae.congressional.congress17.va.county
+type: congressional
+level: state
+state: Virginia
+geography: county
+congressnum: 17
+congressordinal: 17th
+title: '17th Congress: Virginia 1821'
+year: 1821
+legend: fed-vs-rep
+nnv:
+- id: va.uscongress.1.1821
+  name: VA US Congress 1821 District 1
+- id: va.uscongress.2.1821
+  name: VA US Congress 1821 District 2
+- id: va.uscongress.3.1821
+  name: VA US Congress 1821 District 3
+- id: va.uscongress.4.1821
+  name: VA US Congress 1821 District 4
+- id: va.uscongress.5.1821
+  name: VA US Congress 1821 District 5
+- id: va.uscongress.6.1821
+  name: VA US Congress 1821 District 6
+- id: va.uscongress.7.1821
+  name: VA US Congress 1821 District 7
+- id: va.uscongress.8.1821
+  name: VA US Congress 1821 District 8
+- id: va.uscongress.9.1821
+  name: VA US Congress 1821 District 9
+- id: va.uscongress.10.1821
+  name: VA US Congress 1821 District 10
+- id: va.uscongress.11.1821
+  name: VA US Congress 1821 District 11
+- id: va.uscongress.12.1821
+  name: VA US Congress 1821 District 12
+- id: va.uscongress.13.1821
+  name: VA US Congress 1821 District 13
+- id: va.uscongress.14.1821
+  name: VA US Congress 1821 District 14
+- id: va.uscongress.15.1821
+  name: VA US Congress 1821 District 15
+- id: va.uscongress.16.1821
+  name: VA US Congress 1821 District 16
+- id: va.uscongress.17.1821
+  name: VA US Congress 1821 District 17
+- id: va.uscongress.18.1821
+  name: VA US Congress 1821 District 18
+- id: va.uscongress.19.1821
+  name: VA US Congress 1821 District 19
+- id: va.uscongress.20.1821
+  name: VA US Congress 1821 District 20
+- id: va.uscongress.21.1821
+  name: VA US Congress 1821 District 21
+- id: va.uscongress.22.1821
+  name: VA US Congress 1821 District 22
+- id: va.uscongress.23.1821
+  name: VA US Congress 1821 District 23
+related-maps:
+- id: meae.congressional.congress16.va.county
+  name: VA 16th Congress
+  type: previous
+- id: meae.congressional.congress18.va.county
+  name: VA 18th Congress
+  type: next
+#- id: meae.congressional.congress17.national.district
+#  name: National 17th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress17.va.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "550px", congress = 17)
+```
+
+</div>
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>
