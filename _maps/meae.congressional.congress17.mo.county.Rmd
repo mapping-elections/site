@@ -53,7 +53,7 @@ map_id %>%
          id != "mos_nca6",
          id != "mos_nca7",
          id != "mos_nca8",
-         id != "mos_nca19") %>% 
+         id != "mos_nca9") %>% 
   map_counties()
 ```
 
