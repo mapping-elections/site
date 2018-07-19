@@ -1,0 +1,75 @@
+---
+meae-id: meae.congressional.congress18.me.county
+type: congressional
+level: state
+state: Maine
+geography: county
+congressnum: 18
+congressordinal: 18th
+title: '18th Congress: Maine 1823'
+year: 1823
+legend: congress-18-19
+nnv:
+- id: me.uscongress1.fourth.1823
+  name: ME US Congress 1823 District 1
+- id: me.uscongress2.1823
+  name: ME US Congress 1823 District 2
+- id: me.uscongress3.third.1823
+  name: ME US Congress 1823 District 3
+- id: me.uscongress4.second.1823
+  name: ME US Congress 1823 District 4
+- id: me.uscongress5.1823
+  name: ME US Congress 1823 District 5
+- id: me.uscongress6.third.1823
+  name: ME US Congress 1823 District 6
+- id: me.uscongress7.1823
+  name: ME US Congress 1823 District 7
+related-maps:
+- id: meae.congressional.congress17.me.county
+  name: ME 17th Congress
+  type: previous
+- id: meae.congressional.congress19.me.county
+  name: ME 19th Congress
+  type: next
+#- id: meae.congressional.congress18.national.district
+#  name: National 18th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress18.me.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties()
+```
+
+</div>
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>
