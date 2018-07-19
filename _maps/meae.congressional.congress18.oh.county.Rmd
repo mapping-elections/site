@@ -1,0 +1,89 @@
+---
+meae-id: meae.congressional.congress18.oh.county
+type: congressional
+level: state
+state: Ohio
+geography: county
+congressnum: 18
+congressordinal: 18th
+title: '18th Congress: Ohio 1822'
+year: 1822
+legend: congress-18-19
+nnv:
+- id: oh.uscongress1.1822
+  name: OH US Congress 1822 District 1
+- id: oh.uscongress2.1822
+  name: OH US Congress 1822 District 2
+- id: oh.uscongress3.1822
+  name: OH US Congress 1822 District 3
+- id: oh.uscongress4.1822
+  name: OH US Congress 1822 District 4
+- id: oh.uscongress5.1822
+  name: OH US Congress 1822 District 5
+- id: oh.uscongress6.1822
+  name: OH US Congress 1822 District 6
+- id: oh.uscongress7.1822
+  name: OH US Congress 1822 District 7
+- id: oh.uscongress8.1822
+  name: OH US Congress 1822 District 8
+- id: oh.uscongress9.1822
+  name: OH US Congress 1822 District 9
+- id: oh.uscongress10.1822
+  name: OH US Congress 1822 District 10
+- id: oh.uscongress11.1822
+  name: OH US Congress 1822 District 11
+- id: oh.uscongress12.1822
+  name: OH US Congress 1822 District 12
+- id: oh.uscongress13.1822
+  name: OH US Congress 1822 District 13
+- id: oh.uscongress14.1822
+  name: OH US Congress 1822 District 14
+related-maps:
+- id: meae.congressional.congress17.oh.county
+  name: OH 17th Congress
+  type: previous
+- id: meae.congressional.congress19.oh.county
+  name: OH 19th Congress
+  type: next
+#- id: meae.congressional.congress18.national.district
+#  name: National 18th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress18.oh.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "450px", congress = 18)
+```
+
+</div>
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>
