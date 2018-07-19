@@ -1,0 +1,105 @@
+---
+meae-id: meae.congressional.congress18.va.county
+type: congressional
+level: state
+state: Virginia
+geography: county
+congressnum: 18
+congressordinal: 18th
+title: '18th Congress: Virginia 1823'
+year: 1823
+legend: fed-vs-rep
+nnv:
+- id: va.congress.1.1823
+  name: VA US Congress 1823 District 1
+- id: va.congress.2.1823
+  name: VA US Congress 1823 District 2
+- id: va.congress.3.1823
+  name: VA US Congress 1823 District 3
+- id: va.congress.4.1823
+  name: VA US Congress 1823 District 4
+- id: va.congress.5.1823
+  name: VA US Congress 1823 District 5
+- id: va.congress.6.1823
+  name: VA US Congress 1823 District 6
+- id: va.congress.7.1823
+  name: VA US Congress 1823 District 7
+- id: va.congress.8.1823
+  name: VA US Congress 1823 District 8
+- id: va.congress.9.1823
+  name: VA US Congress 1823 District 9
+- id: va.congress.10.1823
+  name: VA US Congress 1823 District 10
+- id: va.congress.11.1823
+  name: VA US Congress 1823 District 11
+- id: va.congress.12.1823
+  name: VA US Congress 1823 District 12
+- id: va.congress.13.1823
+  name: VA US Congress 1823 District 13
+- id: va.congress.14.1823
+  name: VA US Congress 1823 District 14
+- id: va.congress.15.1823
+  name: VA US Congress 1823 District 15
+- id: va.congress.16.1823
+  name: VA US Congress 1823 District 16
+- id: va.congress.17.1823
+  name: VA US Congress 1823 District 17
+- id: va.congress.18.1823
+  name: VA US Congress 1823 District 18
+- id: va.congress.19.1823
+  name: VA US Congress 1823 District 19
+- id: va.congress.20.1823
+  name: VA US Congress 1823 District 20
+- id: va.congress.21.1823
+  name: VA US Congress 1823 District 21
+- id: va.congress.22.1823
+  name: VA US Congress 1823 District 22
+related-maps:
+- id: meae.congressional.congress17.va.county
+  name: VA 17th Congress
+  type: previous
+- id: meae.congressional.congress19.va.county
+  name: VA 19th Congress
+  type: next
+#- id: meae.congressional.congress18.national.district
+#  name: National 18th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress18.va.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "550px", congress = 18)
+```
+
+</div>
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>
