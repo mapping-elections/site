@@ -1,0 +1,100 @@
+---
+meae-id: meae.congressional.congress18.sc.county
+type: congressional
+level: state
+state: South Carolina
+geography: county
+congressnum: 18
+congressordinal: 18th
+title: '18th Congress: South Carolina 1823'
+year: 1823
+legend: congress-18-19
+nnv:
+- id: sc.uscongress.charleston.1823
+  name: SC US Congress 1823 District 1
+- id: sc.uscongress.beaufort.1823
+  name: SC US Congress 1823 District 2
+- id: sc.uscongress.georgetown.1823
+  name: SC US Congress 1823 District 3
+- id: sc.uscongress.orange.1823
+  name: SC US Congress 1823 District 4
+- id: sc.uscongress.chester.1823
+  name: SC US Congress 1823 District NA
+- id: sc.uscongress.edgefield.1823
+  name: SC US Congress 1823 District NA
+- id: sc.uscongress.kershaw.1823
+  name: SC US Congress 1823 District NA
+- id: sc.uscongress.newberry.1823
+  name: SC US Congress 1823 District NA
+- id: sc.uscongress.pendleton.1823
+  name: SC US Congress 1823 District NA
+related-maps:
+- id: meae.congressional.congress17.sc.county
+  name: SC 17th Congress
+  type: previous
+- id: meae.congressional.congress19.sc.county
+  name: SC 19th Congress
+  type: next
+#- id: meae.congressional.congress18.national.district
+#  name: National 18th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress18.sc.county"
+
+cities <- tribble(
+  ~city, ~lat, ~lng, ~federalist_percentage, ~jacksonian_percentage, ~federalist_vote, ~jacksonian_vote, 
+  "Charleston", 32.7765, -79.9311, 0.401, 0.599, 545, 814)
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  filter(id != "scs_nca5") %>% 
+  arrange(!is.na(federalist_percentage), !is.na(demrep_percentage), 
+          !is.na(jacksonian_percentage), cnty_type == "District") %>%
+  map_counties(cities = FALSE, height = "600px") %>% 
+  addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
+               fillColor = mappingelections:::poli_chrome(cities),
+               opacity = 1, fillOpacity = 0.8, radius = 8, weight = 3,
+                popup = ~paste0("<b>City of ", city, "</b><br/>",
+                                 "Congressional District: 1<br/>",
+                                "Federalists: ", federalist_percentage * 100,
+                                 "% (", 
+                                 prettyNum(federalist_vote, big.mark = ","),
+                                 " votes)<br/>",
+                                "Jacksonians: ", jacksonian_percentage * 100,
+                                 "% (", 
+                                 prettyNum(jacksonian_vote, big.mark = ","),
+                                 " votes)"),
+                 label = ~city)
+```
+
+</div>
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>
