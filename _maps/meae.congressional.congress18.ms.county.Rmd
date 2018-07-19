@@ -1,0 +1,64 @@
+---
+meae-id: meae.congressional.congress18.ms.county
+type: congressional
+level: state
+state: Mississippi
+geography: county
+congressnum: 18
+congressordinal: 18th
+title: '18th Congress: Mississippi 1822'
+year: 1822
+legend: congress-18-19
+nnv:
+- id: ms.uscongress.1822
+  name: MS US Congress 1822 At Large
+related-maps:
+- id: meae.congressional.congress17.ms.county
+  name: MS 17th Congress
+  type: previous
+- id: meae.congressional.congress19.ms.county
+  name: MS 19th Congress
+  type: next
+#- id: meae.congressional.congress18.national.district
+#  name: National 18th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress18.ms.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  filter(id != "mss_nca1") %>% 
+  map_counties()
+```
+
+</div>
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>
