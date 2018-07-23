@@ -1,0 +1,85 @@
+---
+meae-id: meae.congressional.congress18.tn.county
+type: congressional
+level: state
+state: Tennessee
+geography: county
+congressnum: 18
+congressordinal: 18th
+title: '18th Congress: Tennessee 1823'
+year: 1823
+legend: congress-18-19
+nnv:
+- id: tn.congress.1st.1823
+  name: TN US Congress 1823 District 1
+- id: tn.congress.2nd.1823
+  name: TN US Congress 1823 District 2
+- id: tn.congress.3rd.1823
+  name: TN US Congress 1823 District 3
+- id: tn.congress.4th.1823
+  name: TN US Congress 1823 District 4
+- id: tn.congress.5th.1823
+  name: TN US Congress 1823 District 5
+- id: tn.congress.6th.1823
+  name: TN US Congress 1823 District 6
+- id: tn.congress.7th.1823
+  name: TN US Congress 1823 District 7
+- id: tn.congress.8th.1823
+  name: TN US Congress 1823 District 8
+- id: tn.congress.9th.1823
+  name: TN US Congress 1823 District 9
+related-maps:
+- id: meae.congressional.congress17.tn.county
+  name: TN 17th Congress
+  type: previous
+- id: meae.congressional.congress19.tn.county
+  name: TN 19th Congress
+  type: next
+#- id: meae.congressional.congress18.national.district
+#  name: National 18th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress18.tn.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  filter(id != "tns_nca9",
+         id != "tns_nca10",
+         id != "tns_nca11",
+         id != "tns_nca12",
+         id != "tns_nca13",
+         id != "tns_nca14") %>%
+  map_counties()
+```
+
+</div>
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>
