@@ -231,8 +231,7 @@ Federalist
 At-large
 </td>
 <td style="text-align:left;">
-<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=P000060">James
-Parker</a>
+James Parker
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist

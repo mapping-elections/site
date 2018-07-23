@@ -472,7 +472,8 @@ unopposed
 15
 </td>
 <td style="text-align:left;">
-George Tucker
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=T000397">George
+Tucker</a>
 </td>
 <td class="party-demrep" data-party="demrep">
 Democratic-Republican

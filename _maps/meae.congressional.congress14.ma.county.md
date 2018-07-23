@@ -812,7 +812,8 @@ Federalist
 18
 </td>
 <td style="text-align:left;">
-James Parker
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=P000060">James
+Parker</a>
 </td>
 <td class="party-demrep" data-party="demrep">
 Democratic-Republican
