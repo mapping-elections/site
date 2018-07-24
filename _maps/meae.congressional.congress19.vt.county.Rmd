@@ -1,0 +1,68 @@
+---
+meae-id: meae.congressional.congress19.vt.county
+type: congressional
+level: state
+state: Vermont
+geography: county
+congressnum: 19
+congressordinal: 19th
+title: '19th Congress: Vermont 1824'
+year: 1824
+legend: fed-vs-rep
+nnv:
+- id: vt.uscongress1.2.1824
+  name: VT US Congress 1824 District 1
+- id: vt.uscongress2.1824
+  name: VT US Congress 1824 District 2
+- id: vt.uscongress3.1824
+  name: VT US Congress 1824 District 3
+- id: vt.uscongress4.1824
+  name: VT US Congress 1824 District 4
+- id: vt.uscongress5.1824
+  name: VT US Congress 1824 District 5
+related-maps:
+- id: meae.congressional.congress18.vt.county
+  name: VT 18th Congress
+  type: previous
+#- id: meae.congressional.congress19.national.district
+#  name: National 19th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress19.vt.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "600px", congress = 19)
+```
+
+</div>
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>
