@@ -17,15 +17,15 @@ nnv:
 - id: 'sc.uscongress.orange.1823'
   name: SC US Congress 1823 District 4
 - id: 'sc.uscongress.chester.1823'
-  name: SC US Congress 1823 District NA
+  name: SC US Congress 1823 District 5
 - id: 'sc.uscongress.edgefield.1823'
-  name: SC US Congress 1823 District NA
+  name: SC US Congress 1823 District 6
 - id: 'sc.uscongress.kershaw.1823'
-  name: SC US Congress 1823 District NA
+  name: SC US Congress 1823 District 7
 - id: 'sc.uscongress.newberry.1823'
-  name: SC US Congress 1823 District NA
+  name: SC US Congress 1823 District 8
 - id: 'sc.uscongress.pendleton.1823'
-  name: SC US Congress 1823 District NA
+  name: SC US Congress 1823 District 9
 output:
   html_document:
     theme: default
