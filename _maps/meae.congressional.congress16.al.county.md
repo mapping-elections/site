@@ -16,9 +16,6 @@ output:
   md_document:
     variant: markdown
 related-maps:
-- id: 'meae.congressional.congress15.al.county'
-  name: AL 15th Congress
-  type: previous
 - id: 'meae.congressional.congress17.al.county'
   name: AL 17th Congress
   type: next

@@ -13,9 +13,6 @@ nnv:
 - id: al.congress.1819
   name: AL US Congress 1819 At Large
 related-maps:
-- id: meae.congressional.congress15.al.county
-  name: AL 15th Congress
-  type: previous
 - id: meae.congressional.congress17.al.county
   name: AL 17th Congress
   type: next
