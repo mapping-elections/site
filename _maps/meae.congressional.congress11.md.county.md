@@ -51,6 +51,18 @@ year: 1808
 <!--/html_preserve-->
 :::
 
+Maryland elected three Federalists and six Democratic-Republicans to the
+Eleventh Congress.
+
+Maryland used a district system for electing members to Congress.
+District 5 elected two members.
+
+In 1810, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:md.uscongress7.special.1810)
+was held in which Robert Wright was elected to replace John Brown, who
+resigned. Additionally, this election replaced John Brown in the Twelfth
+Congress, which general election had already taken place.
+
 ::: {.results-table}
 <table>
 <thead>

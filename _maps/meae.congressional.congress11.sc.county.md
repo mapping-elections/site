@@ -51,6 +51,20 @@ year: 1808
 <!--/html_preserve-->
 :::
 
+South Carolina elected eight Democratic-Republicans to the Eleventh
+Congress.
+
+Mapping this election is incomplete because of the lack of local returns
+in many areas.
+
+South Carolina used the district system for electing members to
+Congress.
+
+In 1811, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:sc.uscongress.charleston.specialelection.1811)
+was held in which Langdon Cheves was elected to replace Robert Marion,
+who had resigned from office.
+
 ::: {.results-table}
 <table>
 <thead>

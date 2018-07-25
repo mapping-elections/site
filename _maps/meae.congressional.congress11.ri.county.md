@@ -37,6 +37,11 @@ year: 1808
 <!--/html_preserve-->
 :::
 
+Rhode Island elected two Federalists to the Eleventh Congress.
+
+Rhode Island used a statewide at-large method for electing a member to
+Congress.
+
 ::: {.results-table}
 <table>
 <thead>

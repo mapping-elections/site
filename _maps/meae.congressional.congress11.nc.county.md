@@ -59,6 +59,12 @@ year: 1808
 <!--/html_preserve-->
 :::
 
+North Carolina elected four Federalists and eight Democratic-Republicans
+to the Eleventh Congress.
+
+North Carolina used the district system for electing members to
+Congress.
+
 ::: {.results-table}
 <table>
 <thead>

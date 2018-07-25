@@ -52,6 +52,10 @@ map_id %>%
 
 </div>
 
+Georgia elected four Democratic-Republicans to the Eleventh Congress.
+
+Georgia used a statewide at-large method for electing members to Congress.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

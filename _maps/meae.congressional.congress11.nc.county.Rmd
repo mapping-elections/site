@@ -73,6 +73,10 @@ map_id %>%
 
 </div>
 
+North Carolina elected four Federalists and eight Democratic-Republicans to the Eleventh Congress.
+
+North Carolina used the district system for electing members to Congress.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

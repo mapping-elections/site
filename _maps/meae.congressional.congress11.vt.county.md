@@ -43,6 +43,14 @@ year: 1808
 <!--/html_preserve-->
 :::
 
+Vermont elected three Federalists and one Democratic-Republican to the
+Eleventh Congress.
+
+Mapping this election is incomplete because of the lack of county-level
+returns in many areas.
+
+Vermont used the district system for electing members to Congress.
+
 ::: {.results-table}
 <table>
 <thead>

@@ -37,6 +37,16 @@ year: 1808
 <!--/html_preserve-->
 :::
 
+Ohio elected a Republican who was part of a faction within the party to
+the Eleventh Congress. The Republican faction in this election was the
+Tertium Quids (or just Quids), a coalition of Federalists and moderate
+Democratic-Republicans.
+
+Mapping this election is incomplete because of the lack of local returns
+in many areas.
+
+Ohio used a statewide at-large method for electing a member to Congress.
+
 ::: {.results-table}
 <table>
 <thead>

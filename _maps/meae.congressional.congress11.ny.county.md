@@ -65,6 +65,17 @@ year: 1808
 <!--/html_preserve-->
 :::
 
+New York elected eight Federalists and nine Democratic-Republicans to
+the Eleventh Congress.
+
+New York used a district system for electing members to Congress.
+Districts 2 and 6 elected 2 representatives each.
+
+In 1810, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ny.specialuscongress.2.1810)
+was held in which Democratic-Republican Samuel L. Mitchell was elected
+to replace William Denning, who had resigned from office.
+
 ::: {.results-table}
 <table>
 <thead>

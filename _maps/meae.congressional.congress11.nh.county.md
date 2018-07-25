@@ -37,6 +37,11 @@ year: 1808
 <!--/html_preserve-->
 :::
 
+New Hampshire elected five Federalists to the Eleventh Congress.
+
+New Hampshire used a statewide at-large method for electing members to
+Congress.
+
 ::: {.results-table}
 <table>
 <thead>
