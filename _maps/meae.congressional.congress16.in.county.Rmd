@@ -47,7 +47,7 @@ map_id <- "meae.congressional.congress16.in.county"
 map_id %>%
   get_county_map_data() %>%
   filter(id != "ins_nca4") %>%
-  map_counties()
+  map_counties(height = "700px")
 ```
 
 </div>

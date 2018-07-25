@@ -49,7 +49,7 @@ map_id %>%
   get_county_map_data() %>%
   filter(id != "ins_nca4",
          id != "ins_nca6") %>%
-  map_counties(height = "450px")
+  map_counties(height = "775px")
 ```
 
 </div>
