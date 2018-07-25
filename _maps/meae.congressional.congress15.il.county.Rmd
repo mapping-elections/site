@@ -13,9 +13,6 @@ nnv:
 - id: il.uscongress.1818
   name: IL US Congress 1818 At Large
 related-maps:
-- id: meae.congressional.congress14.il.county
-  name: IL 14th Congress
-  type: previous
 - id: meae.congressional.congress16.il.county
   name: IL 16th Congress
   type: next
@@ -47,7 +44,7 @@ map_id <- "meae.congressional.congress15.il.county"
 map_id %>%
   get_county_map_data(election_date = "1818-12-04") %>%
   filter(id != "ils_nca1") %>% 
-  map_counties()
+  map_counties(height = "650px")
 ```
 
 </div>
