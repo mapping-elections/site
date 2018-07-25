@@ -45,6 +45,11 @@ the town or county level.
 Connecticut used a statewide at-large method for electing members to
 Congress.
 
+In 1810, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ct.special.congress.1810)
+was held in which Ebenezer Huntington was elected to replace Samuel
+Dana, who was appointed a U.S. Senator.
+
 ::: {.results-table}
 <table>
 <thead>
