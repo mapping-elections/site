@@ -37,6 +37,11 @@ year: 1808
 <!--/html_preserve-->
 :::
 
+Georgia elected four Democratic-Republicans to the Eleventh Congress.
+
+Georgia used a statewide at-large method for electing members to
+Congress.
+
 ::: {.results-table}
 <table>
 <thead>

@@ -84,6 +84,15 @@ map_id %>%
 
 </div>
 
+Massachusetts elected nine Federalists and eight Democratic-Republicans to the Eleventh Congress.
+
+Massachusetts used the district system for electing members to Congress.
+
+
+In 1810, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.worcesternorth.special.1810) was held in which Abijah Bigelow was elected to replace William Stedman, who had resigned from office. 
+
+In 1810, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.worcestersouth.special.1810) was held in which Joseph Allen was elected to replace Jabez Upham, who had resigned from office. 
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

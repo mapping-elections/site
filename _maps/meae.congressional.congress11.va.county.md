@@ -79,6 +79,17 @@ year: 1809
 <!--/html_preserve-->
 :::
 
+Virginia elected six Federalist, fifteen Democratic-Republicans, and one
+Republican who was part of a faction within the party to the Eleventh
+Congress. The dissenting Republican in this election was a Tertium Quid
+(or just Quid), a coalition of Federalists and moderate
+Democratic-Republicans.
+
+Mapping this election is incomplete because of the lack of local returns
+in many areas.
+
+Virginia used the district system for electing members to Congress.
+
 ::: {.results-table}
 <table>
 <thead>

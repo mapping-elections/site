@@ -47,6 +47,10 @@ year: 1808
 <!--/html_preserve-->
 :::
 
+Kentucky elected six Democratic-Republicans to the Eleventh Congress.
+
+Kentucky used a district system for electing members to Congress.
+
 ::: {.results-table}
 <table>
 <thead>
