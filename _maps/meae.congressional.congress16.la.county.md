@@ -22,9 +22,6 @@ related-maps:
 - id: 'meae.congressional.congress17.la.county'
   name: LA 17th Congress
   type: next
-- id: 'meae.congressional.congress16.national.district'
-  name: National 16th Congress
-  type: national
 state: Louisiana
 title: '16th Congress: Louisiana 1818'
 type: congressional
