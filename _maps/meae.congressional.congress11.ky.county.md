@@ -51,6 +51,11 @@ Kentucky elected six Democratic-Republicans to the Eleventh Congress.
 
 Kentucky used a district system for electing members to Congress.
 
+In 1810, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ky.uscongress5.special.1810)
+was held in which W. T. Barry was elected to replace Benjamin Howard,
+who had resigned his office.
+
 ::: {.results-table}
 <table>
 <thead>
