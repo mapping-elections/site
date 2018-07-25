@@ -42,7 +42,7 @@ Rhode Island elected two Democratic-Republicans to the Tenth Congress.
 Rhode Island used a statewide at-large method for electing a member to
 Congress.
 
-In 1806, a [special
+In 1808, a [special
 election](https://elections.lib.tufts.edu/catalog/tufts:ri.uscongress.special.1808)
 was held in which Federalist Richard Jackson, Jr. was elected to replace
 Nehemiah Knight, who died while in office.
