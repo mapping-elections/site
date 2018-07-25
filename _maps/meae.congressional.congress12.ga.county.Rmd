@@ -47,7 +47,7 @@ map_id <- "meae.congressional.congress12.ga.county"
 map_id %>%
   get_county_map_data()  %>% 
   filter(id != "gas_nca") %>% 
-  map_counties(height = "500px")
+  map_counties(height = "525px")
 ```
 
 </div>
