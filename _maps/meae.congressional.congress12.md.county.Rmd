@@ -64,20 +64,20 @@ cities <- tribble(
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>%
-  map_counties() %>% 
- addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
-                 fillColor = mappingelections:::poli_chrome(cities),
-                 opacity = 1, fillOpacity = 0.8, radius = 8, weight = 3,
-                 popup = ~paste0("<b>City of ", city, "</b><br/>",
-                                 "Congressional District: 1<br/>",
-                                 "Federalists: ", federalist_percentage * 100, "% (", 
-                                 prettyNum(federalist_vote, big.mark = ","), 
-                                 " votes)<br/>",
-                                 "Democratic-Republicans: ", demrep_percentage * 100,
+  map_counties(height = "450px", cities = FALSE) %>%
+  addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
+                   fillColor = mappingelections:::poli_chrome(cities),
+                   opacity = 1, fillOpacity = 0.8, radius = 8, weight = 3,
+                   popup = ~paste0("<b>City of ", city, "</b><br/>",
+                                   "Congressional District: 1<br/>",
+                                   "Federalists: ", federalist_percentage * 100, "% (", 
+                                   prettyNum(federalist_vote, big.mark = ","), 
+                                   " votes)<br/>",
+                                   "Democratic-Republicans: ", demrep_percentage * 100,
                                  "% (", 
                                  prettyNum(demrep_vote, big.mark = ","),
                                  " votes)"),
-                 label = ~city) 
+                   label = ~city) 
 ```
 
 </div>
