@@ -13,9 +13,6 @@ nnv:
 - id: mo.uscongress.1820
   name: MO US Congress 1820 At Large
 related-maps:
-- id: meae.congressional.congress16.mo.county
-  name: MO 16th Congress
-  type: previous
 - id: meae.congressional.congress18.mo.county
   name: MO 18th Congress
   type: next
@@ -54,7 +51,7 @@ map_id %>%
          id != "mos_nca7",
          id != "mos_nca8",
          id != "mos_nca9") %>% 
-  map_counties()
+  map_counties(height = "650px")
 ```
 
 </div>
