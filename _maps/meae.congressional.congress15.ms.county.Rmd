@@ -13,9 +13,6 @@ nnv:
 - id: ms.congress.1817
   name: MS US Congress 1817 At Large
 related-maps:
-- id: meae.congressional.congress14.ms.county
-  name: MS 14th Congress
-  type: previous
 - id: meae.congressional.congress16.ms.county
   name: MS 16th Congress
   type: next
