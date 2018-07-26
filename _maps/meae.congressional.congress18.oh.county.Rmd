@@ -72,7 +72,7 @@ map_id <- "meae.congressional.congress18.oh.county"
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>%
-  map_counties(height = "450px", congress = 18)
+  map_counties(height = "650px", congress = 18)
 ```
 
 </div>

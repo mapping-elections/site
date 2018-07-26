@@ -58,7 +58,7 @@ map_id %>%
   get_county_map_data() %>% 
   filter(id != "ohs_nca4",
          id != "ohs_nca5") %>% 
-  map_counties(height = "450px", congress = 14)
+  map_counties(height = "650px", congress = 14)
 ```
 
 </div>

@@ -61,7 +61,7 @@ map_id %>%
            id != "ohs_nca7",
            id != "ohs_nca8",
            id != "ohs_nca9") %>% 
-  map_counties(height = "450px", congress = 17)
+  map_counties(height = "650px", congress = 17)
 ```
 
 </div>

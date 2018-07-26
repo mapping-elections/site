@@ -52,7 +52,7 @@ map_id %>%
   get_county_map_data() %>%
   filter(id != "tns_nca1",
          id != "tns_nca2") %>% 
-  map_counties(height = "450px") %>% 
+  map_counties(height = "550px") %>% 
   setView(-80.10, 35.22, 7)
 ```
 
