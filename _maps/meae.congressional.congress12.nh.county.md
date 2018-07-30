@@ -37,8 +37,8 @@ year: 1810
 <!--/html_preserve-->
 :::
 
-New Hampshire elected 3 Federalists and 2 Democratic-Republicans to the
-Twelfth Congress.
+New Hampshire elected three Federalists and two Democratic-Republicans
+to the Twelfth Congress.
 
 New Hampshire used a statewide at-large method for electing members to
 Congress. New Hampshire law required a majority to elect for the U.S.
