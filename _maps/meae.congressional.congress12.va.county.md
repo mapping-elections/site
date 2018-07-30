@@ -79,6 +79,17 @@ year: 1811
 <!--/html_preserve-->
 :::
 
+Virginia elected six Federalist, fifteen Democratic-Republicans, and one
+Republican who was part of a faction within the party to the Twelfth
+Congress. The dissenting Republican in this election was a Tertium Quid
+(or just Quid), a coalition of Federalists and moderate
+Democratic-Republicans.
+
+Mapping this election is incomplete because of the lack of local returns
+in many areas.
+
+Virginia used the district system for electing members to Congress.
+
 ::: {.results-table}
 <table>
 <thead>
@@ -141,6 +152,7 @@ Federalist
 56.5%
 </td>
 <td style="text-align:center;">
+✓
 </td>
 </tr>
 <tr class="district-changed" data-district-type="even">
@@ -160,7 +172,6 @@ Democratic-Republican
 43.5%
 </td>
 <td style="text-align:center;">
-✓
 </td>
 </tr>
 <tr class="district-changed" data-district-type="odd">

@@ -69,6 +69,21 @@ year: 1810
 <!--/html_preserve-->
 :::
 
+Massachusetts elected eight Federalists and nine Democratic-Republicans
+to the Twelfth Congress.
+
+Massachusetts used the district system for electing members to Congress.
+
+In 1811, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.middlesex.special.ballot2.1811)
+was held in which William M. Richardson was elected to replace Joseph B.
+Varnum, who resigned.
+
+In 1812, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.kennebec.special.1812)
+was held in which Joseph Allen was elected to replace Barzillai Gannett,
+who resigned.
+
 ::: {.results-table}
 <table>
 <thead>

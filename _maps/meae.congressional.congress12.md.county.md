@@ -51,6 +51,17 @@ year: 1810
 <!--/html_preserve-->
 :::
 
+Maryland elected three Federalists and six Democratic-Republicans to the
+Twelfth Congress.
+
+Maryland used a district system for electing members to Congress.
+District 5 elected two members.
+
+In 1811, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:md.congress.1811)
+was held in which Stevenson Archer was elected to replace John
+Montgomery, who resigned.
+
 ::: {.results-table}
 <table>
 <thead>

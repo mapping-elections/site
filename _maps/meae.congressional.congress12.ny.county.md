@@ -65,6 +65,17 @@ year: 1810
 <!--/html_preserve-->
 :::
 
+New York elected five Federalists and twelve Democratic-Republicans to
+the Twelfth Congress.
+
+New York used a district system for electing members to Congress.
+Districts 2 and 6 elected 2 representatives each.
+
+In 1812, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ny.uscongress6.special.1812)
+was held in which Thomas P. Grosvenor was elected to replace Robert
+LeRoy Livingston, who had resigned.
+
 ::: {.results-table}
 <table>
 <thead>
@@ -392,7 +403,7 @@ Democratic-Republican
 <td style="text-align:center;">
 </td>
 </tr>
-<tr class="district-unchanged" data-district-type="even">
+<tr class="district-changed" data-district-type="even">
 <td style="text-align:center;">
 6
 </td>
@@ -410,27 +421,6 @@ Democratic-Republican
 24.4%
 </td>
 <td style="text-align:center;">
-</td>
-</tr>
-<tr class="district-changed" data-district-type="even">
-<td style="text-align:center;">
-6
-</td>
-<td style="text-align:left;">
-<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=B000555">Hermanus
-Bleecker</a>
-</td>
-<td class="party-federalist" data-party="federalist">
-Federalist
-</td>
-<td style="text-align:right;">
-1
-</td>
-<td style="text-align:right;">
-0%
-</td>
-<td style="text-align:center;">
-✓
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="odd">
