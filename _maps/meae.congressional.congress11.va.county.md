@@ -90,6 +90,16 @@ in many areas.
 
 Virginia used the district system for electing members to Congress.
 
+In 1809, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:va.uscongress.21.special.1809)
+was held in which David S. Garland was elected to replace Wilson C.
+Nicholas, who had resigned from office.
+
+In 1810, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:va.uscongress.1.special.1810)
+was held in which William MacKinley was elected to replace John G.
+Jackson, who had resigned from office.
+
 ::: {.results-table}
 <table>
 <thead>
