@@ -51,6 +51,10 @@ map_id %>%
 
 </div>
 
+New Hampshire elected six Federalists to the Thirteenth Congress.
+
+New Hampshire used a statewide at-large system for electing members to Congress. New Hampshire was apportioned one more seat in the House of Representatives.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

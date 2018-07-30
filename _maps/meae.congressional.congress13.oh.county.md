@@ -47,6 +47,30 @@ year: 1812
 <!--/html_preserve-->
 :::
 
+Ohio elected one Federalist and five Democratic-Republican to the
+Thirteenth Congress.
+
+Mapping this election is incomplete because of the lack of local returns
+in many areas.
+
+Ohio used a district system for electing members to Congress. Ohio was
+apportioned five more seats in the House of Representatives.
+
+In 1813, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:oh.ushouseofrepresentatives.3.special.1813)
+was held in which William Creighton was elected to replace Duncan
+MacArthur, who had resigned.
+
+In 1813, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:oh.ushouseofrepresentatives.6.special.1813)
+was held in which Reasin Beall was elected to replace John S. Edward,
+who had died.
+
+In 1814, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:oh.uscongress6.special.1814)
+was held in which David Clendenanl was elected to replace Reasin Beall,
+who had resigned.
+
 ::: {.results-table}
 <table>
 <thead>

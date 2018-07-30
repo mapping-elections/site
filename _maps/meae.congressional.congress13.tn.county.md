@@ -47,6 +47,20 @@ year: 1813
 <!--/html_preserve-->
 :::
 
+Tennessee elected six Democratic-Republicans to the Thirteenth Congress.
+
+Mapping this election is incomplete because of the lack of local returns
+in many areas.
+
+Tennessee used a district system for electing members to Congress.
+Tennessee was apportioned three more seats in the House of
+Representatives.
+
+In 1814, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:tn.special.congress.5.1814)
+was held in which Newton Cannon was elected to replace Felix Grundy, who
+had resigned.
+
 ::: {.results-table}
 <table>
 <thead>

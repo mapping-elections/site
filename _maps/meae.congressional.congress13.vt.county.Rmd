@@ -51,6 +51,10 @@ map_id %>%
 
 </div>
 
+Vermont elected six Democratic-Republican to the Thirteenth Congress.
+
+Vermont used a statewide at-large system for electing members to Congress. Vermont was apportioned two more seats in the House of Representatives. 
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

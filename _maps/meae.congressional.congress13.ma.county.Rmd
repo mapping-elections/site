@@ -90,6 +90,14 @@ map_id %>%
 
 </div>
 
+Massachusetts elected sixteen Federalists and four Democratic-Republicans to the Thirteenth Congress.
+
+Massachusetts used a district system for electing members to Congress. Massachusetts was apportioned three more seats in the House of Representatives.
+
+In 1814, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.berkshire.special.1814) was held in which John W. Hulbert was elected to replace Daniel Dewey, who had resigned. 
+
+In 1814, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.middlesex.special.1814) was held in which Samuel Dana was elected to replace William M. Richardson, who had resigned.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

@@ -77,6 +77,23 @@ year: 1812
 <!--/html_preserve-->
 :::
 
+New York elected nineteen Federalists and seven Democratic-Republicans
+to the Thirteenth Congress.
+
+New York used a district system for electing members to Congress.
+Districts 1, 2, 12, 15, and 21 elected two representatives each. New
+York was apportioned nine more seats in the House of Representatives.
+
+In 1813, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ny.uscongress15.special.1813)
+was held in which Isaac Williams, Jr. was elected to replace John M.
+Bowers, who had died.
+
+In 1813, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ny.uscongress2.special.1813)
+was held in which William Irving was elected to replace Egbert Benson,
+who had resigned.
+
 ::: {.results-table}
 <table>
 <thead>
@@ -781,6 +798,85 @@ Democratic-Republican
 </td>
 <td style="text-align:right;">
 44.4%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
+<tr class="district-unchanged" data-district-type="odd">
+<td style="text-align:center;">
+15
+</td>
+<td style="text-align:left;">
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=T000205">Joel
+Thompson</a>
+</td>
+<td class="party-federalist" data-party="federalist">
+Federalist
+</td>
+<td style="text-align:right;">
+4,479
+</td>
+<td style="text-align:right;">
+26.7%
+</td>
+<td style="text-align:center;">
+✓
+</td>
+</tr>
+<tr class="district-unchanged" data-district-type="odd">
+<td style="text-align:center;">
+15
+</td>
+<td style="text-align:left;">
+William Dowse
+</td>
+<td class="party-federalist" data-party="federalist">
+Federalist
+</td>
+<td style="text-align:right;">
+4,417
+</td>
+<td style="text-align:right;">
+26.3%
+</td>
+<td style="text-align:center;">
+✓
+</td>
+</tr>
+<tr class="district-unchanged" data-district-type="odd">
+<td style="text-align:center;">
+15
+</td>
+<td style="text-align:left;">
+Robert Rosebloom
+</td>
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
+</td>
+<td style="text-align:right;">
+3,943
+</td>
+<td style="text-align:right;">
+23.5%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
+<tr class="district-changed" data-district-type="odd">
+<td style="text-align:center;">
+15
+</td>
+<td style="text-align:left;">
+Amos Patterson
+</td>
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
+</td>
+<td style="text-align:right;">
+3,917
+</td>
+<td style="text-align:right;">
+23.4%
 </td>
 <td style="text-align:center;">
 </td>

@@ -75,6 +75,23 @@ year: 1812
 <!--/html_preserve-->
 :::
 
+Massachusetts elected sixteen Federalists and four
+Democratic-Republicans to the Thirteenth Congress.
+
+Massachusetts used a district system for electing members to Congress.
+Massachusetts was apportioned three more seats in the House of
+Representatives.
+
+In 1814, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.berkshire.special.1814)
+was held in which John W. Hulbert was elected to replace Daniel Dewey,
+who had resigned.
+
+In 1814, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.middlesex.special.1814)
+was held in which Samuel Dana was elected to replace William M.
+Richardson, who had resigned.
+
 ::: {.results-table}
 <table>
 <thead>
@@ -279,6 +296,46 @@ Federalist
 </td>
 <td style="text-align:right;">
 11.2%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
+<tr class="district-unchanged" data-district-type="even">
+<td style="text-align:center;">
+6
+</td>
+<td style="text-align:left;">
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=T000012">Samuel
+Taggart</a>
+</td>
+<td class="party-federalist" data-party="federalist">
+Federalist
+</td>
+<td style="text-align:right;">
+2,434
+</td>
+<td style="text-align:right;">
+86.9%
+</td>
+<td style="text-align:center;">
+✓
+</td>
+</tr>
+<tr class="district-changed" data-district-type="even">
+<td style="text-align:center;">
+6
+</td>
+<td style="text-align:left;">
+Solomon Smead
+</td>
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
+</td>
+<td style="text-align:right;">
+259
+</td>
+<td style="text-align:right;">
+9.2%
 </td>
 <td style="text-align:center;">
 </td>

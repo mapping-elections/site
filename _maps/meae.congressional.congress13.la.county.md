@@ -34,6 +34,14 @@ year: 1812
 <!--/html_preserve-->
 :::
 
+Louisiana elected one Democratic-Republican to the Thirteenth Congress.
+
+Mapping this election is not possible because of the lack of returns at
+the town or county level.
+
+Louisiana used a statewide at-large system for electing members to
+Congress.
+
 ::: {.results-table}
 <table>
 <thead>
