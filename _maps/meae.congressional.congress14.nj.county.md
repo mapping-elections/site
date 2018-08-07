@@ -37,6 +37,12 @@ year: 1814
 <!--/html_preserve-->
 :::
 
+New Jersey elected six Democratic-Republicans to the Fourteenth
+Congress.
+
+New Jersey switched back to a statewide at-large system for electing
+members to Congress.
+
 ::: {.results-table}
 <table>
 <thead>

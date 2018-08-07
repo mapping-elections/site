@@ -77,6 +77,32 @@ year: 1815
 <!--/html_preserve-->
 :::
 
+New York elected six Federalists and twenty Democratic-Republicans to
+the Fourteenth Congress.
+
+New York used a district system for electing members to Congress.
+Districts 1, 2, 15, 20, and 21 elected two representatives each.
+
+In 1815, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ny.uscongress12.special.1815)
+was held in which Asa Adgate was elected to replace Benjamin Bond, who
+had died.
+
+In 1815, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ny.uscongress6.special.1815)
+was held in which James W. Wilkin was elected to replace Jonathan Fisk,
+who had resigned.
+
+In 1816, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ny.uscongress20.special.1816)
+was held in which Daniel Avery was elected to replace Enos T. Throo, who
+had resigned.
+
+In 1816, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ny.uscongress21.special.1816)
+was held in which Archibald S. Clark was elected to replace Peter B.
+Porter, who had resigned.
+
 ::: {.results-table}
 <table>
 <thead>
@@ -500,6 +526,7 @@ Democratic-Republican
 52.9%
 </td>
 <td style="text-align:center;">
+✓
 </td>
 </tr>
 <tr class="district-changed" data-district-type="even">
@@ -520,7 +547,6 @@ Federalist
 47%
 </td>
 <td style="text-align:center;">
-✓
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="odd">
@@ -907,7 +933,7 @@ Democratic-Republican
 ✓
 </td>
 </tr>
-<tr class="district-unchanged" data-district-type="odd">
+<tr class="district-changed" data-district-type="odd">
 <td style="text-align:center;">
 17
 </td>
@@ -925,27 +951,6 @@ Federalist
 47.4%
 </td>
 <td style="text-align:center;">
-</td>
-</tr>
-<tr class="district-changed" data-district-type="odd">
-<td style="text-align:center;">
-17
-</td>
-<td style="text-align:left;">
-<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=G000257">Thomas
-R. Gould</a>
-</td>
-<td class="party-federalist" data-party="federalist">
-Federalist
-</td>
-<td style="text-align:right;">
-1
-</td>
-<td style="text-align:right;">
-0%
-</td>
-<td style="text-align:center;">
-✓
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="even">

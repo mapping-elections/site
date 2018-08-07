@@ -53,6 +53,19 @@ year: 1814
 <!--/html_preserve-->
 :::
 
+South Carolina elected one Federalist and eight Democratic-Republicans
+to the Fourteenth Congress.
+
+Mapping this election is incomplete because of the lack of local returns
+in many areas.
+
+South Carolina used a district system for electing members to Congress.
+
+In 1816, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:sc.uscongress.camden.special.1816)
+was held in which Stephen D. Miller was elected to replace William
+Mayrant, who had resigned his office.
+
 ::: {.results-table}
 <table>
 <thead>

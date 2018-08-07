@@ -37,6 +37,11 @@ year: 1814
 <!--/html_preserve-->
 :::
 
+New Hampshire elected six Federalists to the Fourteenth Congress.
+
+New Hampshire used a statewide at-large system for electing members to
+Congress.
+
 ::: {.results-table}
 <table>
 <thead>

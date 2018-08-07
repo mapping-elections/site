@@ -75,6 +75,21 @@ year: 1814
 <!--/html_preserve-->
 :::
 
+Massachusetts elected eighteen Federalists and two
+Democratic-Republicans to the Fourteenth Congress.
+
+Massachusetts used a district system for electing members to Congress.
+
+In 1815, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.essexnorth.special.1815)
+was held in which Jeremiah Nelson was elected to replace Daniel A White,
+who had resigned his office.
+
+In 1816, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.worcestersouth.special.1816)
+was held in which Benjamin Adams was elected to replace Elijah Brigham,
+who died.
+
 ::: {.results-table}
 <table>
 <thead>

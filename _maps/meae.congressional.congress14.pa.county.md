@@ -65,6 +65,36 @@ year: 1814
 <!--/html_preserve-->
 :::
 
+Pennsylvania elected seven Federalist and sixteen Democratic-Republicans
+to the Fourteenth Congress.
+
+Mapping this election is incomplete because of the lack of local returns
+in many areas.
+
+Pennsylvania used a district system for electing members to Congress.
+District 1 elected four representatives. Districts 2, 3, 5, 6, and 10
+each elected two representatives.
+
+In 1815, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress1.specialelection.1815)
+was held in which John Sergeant was elected to replace Jonathan
+Williams, who died.
+
+In 1815, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress3.specialelection.1815)
+was held in which James Wallace was elected to replace Amos Ellmaker,
+who had resigned his office.
+
+In 1815, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress9.specialelection.1815)
+was held in which Thomas Burnside was elected to replace David bard, who
+died.
+
+In 1816, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress9.specialelection.1816)
+was held in which William P. Maclay was elected to replace Thomas
+Burnside, who had resigned his office.
+
 ::: {.results-table}
 <table>
 <thead>

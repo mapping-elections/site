@@ -37,6 +37,11 @@ year: 1814
 <!--/html_preserve-->
 :::
 
+Vermont elected six Federalists to the Fourteenth Congress.
+
+Vermont used a statewide at-large system for electing members to
+Congress.
+
 ::: {.results-table}
 <table>
 <thead>

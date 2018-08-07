@@ -47,6 +47,18 @@ year: 1815
 <!--/html_preserve-->
 :::
 
+Tennessee elected six Democratic-Republicans to the Fourteenth Congress.
+
+Mapping this election is incomplete because of the lack of local returns
+in many areas.
+
+Tennessee used a district system for electing members to Congress.
+
+In 1816, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:tn.special.congress.2.1815)
+was held in which William G. Blount was elected to replace John Sevier,
+who died
+
 ::: {.results-table}
 <table>
 <thead>

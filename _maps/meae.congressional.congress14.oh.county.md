@@ -47,6 +47,18 @@ year: 1814
 <!--/html_preserve-->
 :::
 
+Ohio elected six Democratic-Republican to the Fourteenth Congress.
+
+Mapping this election is incomplete because of the lack of local returns
+in many areas.
+
+Ohio used a district system for electing members to Congress.
+
+In 1816, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:oh.uscongress1.vacancy.1816)
+was held in which William H. Harrison was elected to replace John
+Mclean, who had resigned.
+
 ::: {.results-table}
 <table>
 <thead>

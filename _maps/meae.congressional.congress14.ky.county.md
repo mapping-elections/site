@@ -55,6 +55,18 @@ year: 1814
 <!--/html_preserve-->
 :::
 
+Kentucky elected ten Democratic-Republicans to the Fourteenth Congress.
+
+Mapping this election is not possible because of the lack of returns at
+the town or county level.
+
+Kentucky used a district system for electing members to Congress.
+
+In 1816, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ky.specialuscongress1.1816)
+was held in which Thomas Fletcher was elected to replace James Clarke,
+who had resigned.
+
 ::: {.results-table}
 <table>
 <thead>

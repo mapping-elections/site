@@ -61,6 +61,26 @@ year: 1815
 <!--/html_preserve-->
 :::
 
+North Carolina elected four Federalists and nine Democratic-Republicans
+to the Fourteenth Congress.
+
+North Carolina used a district system for electing members to Congress.
+
+In 1816, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:nc.uscongress5.specialelection.1816)
+was held in which Charles Hooks was elected to replace William R. King,
+who had resigned his office.
+
+In 1816, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:nc.uscongress6.specialelection.1816)
+was held in which Weldon N. Edwards was elected to replace Nathaniel
+Macon, who had resigned.
+
+In 1816, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ny.uscongress20.special.1816)
+was held in which Samuel Dickens was elected to replace Richard
+Stanford, who died.
+
 ::: {.results-table}
 <table>
 <thead>
