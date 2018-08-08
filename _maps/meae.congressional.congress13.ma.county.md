@@ -283,6 +283,46 @@ Federalist
 <td style="text-align:center;">
 </td>
 </tr>
+<tr class="district-unchanged" data-district-type="even">
+<td style="text-align:center;">
+6
+</td>
+<td style="text-align:left;">
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=T000012">Samuel
+Taggart</a>
+</td>
+<td class="party-federalist" data-party="federalist">
+Federalist
+</td>
+<td style="text-align:right;">
+2,434
+</td>
+<td style="text-align:right;">
+86.9%
+</td>
+<td style="text-align:center;">
+✓
+</td>
+</tr>
+<tr class="district-changed" data-district-type="even">
+<td style="text-align:center;">
+6
+</td>
+<td style="text-align:left;">
+Solomon Smead
+</td>
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
+</td>
+<td style="text-align:right;">
+259
+</td>
+<td style="text-align:right;">
+9.2%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
 <tr class="district-unchanged" data-district-type="odd">
 <td style="text-align:center;">
 7

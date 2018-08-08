@@ -141,6 +141,7 @@ Federalist
 56.5%
 </td>
 <td style="text-align:center;">
+✓
 </td>
 </tr>
 <tr class="district-changed" data-district-type="even">
@@ -160,7 +161,6 @@ Democratic-Republican
 43.5%
 </td>
 <td style="text-align:center;">
-✓
 </td>
 </tr>
 <tr class="district-changed" data-district-type="odd">

@@ -392,7 +392,7 @@ Democratic-Republican
 <td style="text-align:center;">
 </td>
 </tr>
-<tr class="district-unchanged" data-district-type="even">
+<tr class="district-changed" data-district-type="even">
 <td style="text-align:center;">
 6
 </td>
@@ -410,27 +410,6 @@ Democratic-Republican
 24.4%
 </td>
 <td style="text-align:center;">
-</td>
-</tr>
-<tr class="district-changed" data-district-type="even">
-<td style="text-align:center;">
-6
-</td>
-<td style="text-align:left;">
-<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=B000555">Hermanus
-Bleecker</a>
-</td>
-<td class="party-federalist" data-party="federalist">
-Federalist
-</td>
-<td style="text-align:right;">
-1
-</td>
-<td style="text-align:right;">
-0%
-</td>
-<td style="text-align:center;">
-✓
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="odd">

@@ -785,6 +785,85 @@ Democratic-Republican
 <td style="text-align:center;">
 </td>
 </tr>
+<tr class="district-unchanged" data-district-type="odd">
+<td style="text-align:center;">
+15
+</td>
+<td style="text-align:left;">
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=T000205">Joel
+Thompson</a>
+</td>
+<td class="party-federalist" data-party="federalist">
+Federalist
+</td>
+<td style="text-align:right;">
+4,479
+</td>
+<td style="text-align:right;">
+26.7%
+</td>
+<td style="text-align:center;">
+✓
+</td>
+</tr>
+<tr class="district-unchanged" data-district-type="odd">
+<td style="text-align:center;">
+15
+</td>
+<td style="text-align:left;">
+William Dowse
+</td>
+<td class="party-federalist" data-party="federalist">
+Federalist
+</td>
+<td style="text-align:right;">
+4,417
+</td>
+<td style="text-align:right;">
+26.3%
+</td>
+<td style="text-align:center;">
+✓
+</td>
+</tr>
+<tr class="district-unchanged" data-district-type="odd">
+<td style="text-align:center;">
+15
+</td>
+<td style="text-align:left;">
+Robert Rosebloom
+</td>
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
+</td>
+<td style="text-align:right;">
+3,943
+</td>
+<td style="text-align:right;">
+23.5%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
+<tr class="district-changed" data-district-type="odd">
+<td style="text-align:center;">
+15
+</td>
+<td style="text-align:left;">
+Amos Patterson
+</td>
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
+</td>
+<td style="text-align:right;">
+3,917
+</td>
+<td style="text-align:right;">
+23.4%
+</td>
+<td style="text-align:center;">
+</td>
+</tr>
 <tr class="district-unchanged" data-district-type="even">
 <td style="text-align:center;">
 16

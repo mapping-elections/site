@@ -500,6 +500,7 @@ Democratic-Republican
 52.9%
 </td>
 <td style="text-align:center;">
+✓
 </td>
 </tr>
 <tr class="district-changed" data-district-type="even">
@@ -520,7 +521,6 @@ Federalist
 47%
 </td>
 <td style="text-align:center;">
-✓
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="odd">
@@ -907,7 +907,7 @@ Democratic-Republican
 ✓
 </td>
 </tr>
-<tr class="district-unchanged" data-district-type="odd">
+<tr class="district-changed" data-district-type="odd">
 <td style="text-align:center;">
 17
 </td>
@@ -925,27 +925,6 @@ Federalist
 47.4%
 </td>
 <td style="text-align:center;">
-</td>
-</tr>
-<tr class="district-changed" data-district-type="odd">
-<td style="text-align:center;">
-17
-</td>
-<td style="text-align:left;">
-<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=G000257">Thomas
-R. Gould</a>
-</td>
-<td class="party-federalist" data-party="federalist">
-Federalist
-</td>
-<td style="text-align:right;">
-1
-</td>
-<td style="text-align:right;">
-0%
-</td>
-<td style="text-align:center;">
-✓
 </td>
 </tr>
 <tr class="district-unchanged" data-district-type="even">
