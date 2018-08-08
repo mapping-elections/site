@@ -21,7 +21,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -41,7 +41,7 @@
      id="namedview67"
      showgrid="false"
      inkscape:zoom="4.4319249"
-     inkscape:cx="273.82348"
+     inkscape:cx="233.32189"
      inkscape:cy="115.73396"
      inkscape:window-x="1914"
      inkscape:window-y="296"
@@ -60,19 +60,19 @@
      style="fill:#bae4b3;stroke:#888888"
      id="circle4" />
   <circle
-     cx="236"
+     cx="236.03381"
      cy="14"
      r="8"
      style="fill:#74c476;stroke:#888888"
      id="circle6" />
   <circle
-     cx="284"
+     cx="284.03381"
      cy="14"
      r="8"
      style="fill:#31a354;stroke:#888888"
      id="circle8" />
   <circle
-     cx="332"
+     cx="332.03381"
      cy="14"
      r="8"
      style="fill:#006d2c;stroke:#888888"
@@ -81,7 +81,7 @@
      alignment-baseline="middle"
      x="165"
      y="39"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end;white-space:nowrap;display:block"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end;white-space:nowrap;display:block"
      id="text12">
     <tspan
        sodipodi:role="line"
@@ -96,19 +96,19 @@
      style="fill:#cbc9e2;stroke:#888888"
      id="circle14" />
   <circle
-     cx="236"
+     cx="236.03381"
      cy="36"
      r="8"
      style="fill:#9e9ac8;stroke:#888888"
      id="circle16" />
   <circle
-     cx="284"
+     cx="284.03381"
      cy="36"
      r="8"
      style="fill:#756bb1;stroke:#888888"
      id="circle18" />
   <circle
-     cx="332"
+     cx="332.03381"
      cy="36"
      r="8"
      style="fill:#54278f;stroke:#888888"
@@ -132,19 +132,19 @@
      style="fill:#fcae91;stroke:#888888"
      id="circle24" />
   <circle
-     cx="236"
+     cx="236.03381"
      cy="58"
      r="8"
      style="fill:#fb6a4a;stroke:#888888"
      id="circle26" />
   <circle
-     cx="284"
+     cx="284.03381"
      cy="58"
      r="8"
      style="fill:#de2d26;stroke:#888888"
      id="circle28" />
   <circle
-     cx="332"
+     cx="332.03381"
      cy="58"
      r="8"
      style="fill:#a50f15;stroke:#888888"
@@ -162,19 +162,19 @@
      style="fill:#fbb4b9;fill-opacity:1;stroke:#888888"
      id="circle34" />
   <circle
-     cx="236"
+     cx="236.03381"
      cy="124"
      r="8"
      style="fill:#f768a1;fill-opacity:1;stroke:#888888"
      id="circle36" />
   <circle
-     cx="284"
+     cx="284.03381"
      cy="124"
      r="8"
      style="fill:#c51b8a;fill-opacity:1;stroke:#888888"
      id="circle38" />
   <circle
-     cx="332"
+     cx="332.03381"
      cy="124"
      r="8"
      style="fill:#7a0177;fill-opacity:1;stroke:#888888"
@@ -253,7 +253,7 @@
      alignment-baseline="middle"
      x="165.05496"
      y="104.88136"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end;white-space:nowrap;display:block"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end;white-space:nowrap;display:block"
      id="text22-3">
     <tspan
        sodipodi:role="line"
@@ -262,25 +262,25 @@
        y="104.88136">Adams/Clay Rep.</tspan>
   </text>
   <circle
-     cx="188.05493"
+     cx="188"
      cy="101.88136"
      r="8"
      style="fill:#fcae91;fill-opacity:1;stroke:#888888"
      id="circle24-7" />
   <circle
-     cx="236.05493"
+     cx="236.03381"
      cy="101.88136"
      r="8"
      style="fill:#fb6a4a;fill-opacity:1;stroke:#888888"
      id="circle26-5" />
   <circle
-     cx="284.05493"
+     cx="284.03381"
      cy="101.88136"
      r="8"
      style="fill:#de2d26;fill-opacity:1;stroke:#888888"
      id="circle28-3" />
   <circle
-     cx="332.05493"
+     cx="332.03381"
      cy="101.88136"
      r="8"
      style="fill:#a50f15;fill-opacity:1;stroke:#888888"
@@ -289,7 +289,7 @@
      alignment-baseline="middle"
      x="165.06767"
      y="83.013779"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end;white-space:nowrap;display:block"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end;white-space:nowrap;display:block"
      id="text22-3-6">
     <tspan
        sodipodi:role="line"
@@ -298,25 +298,25 @@
        y="83.013779">Jacksonian Rep.</tspan>
   </text>
   <circle
-     cx="188.06764"
+     cx="188"
      cy="80.013779"
      r="8"
      style="fill:#bdd7e7;fill-opacity:1;stroke:#888888"
      id="circle24-7-9" />
   <circle
-     cx="236.06764"
+     cx="236.03381"
      cy="80.013779"
      r="8"
      style="fill:#6baed6;fill-opacity:1;stroke:#888888"
      id="circle26-5-1" />
   <circle
-     cx="284.06766"
+     cx="284.03381"
      cy="80.013779"
      r="8"
      style="fill:#3182bd;fill-opacity:1;stroke:#888888"
      id="circle28-3-2" />
   <circle
-     cx="332.06766"
+     cx="332.03381"
      cy="80.013779"
      r="8"
      style="fill:#08519c;fill-opacity:1;stroke:#888888"
