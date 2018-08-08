@@ -37,6 +37,11 @@ year: 1814
 <!--/html_preserve-->
 :::
 
+Rhode Island elected two Federalists to the Fourteenth Congress.
+
+Rhode Island used a statewide at-large system for electing a member to
+Congress.
+
 ::: {.results-table}
 <table>
 <thead>

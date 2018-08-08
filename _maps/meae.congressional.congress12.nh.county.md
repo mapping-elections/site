@@ -37,6 +37,16 @@ year: 1810
 <!--/html_preserve-->
 :::
 
+New Hampshire elected three Federalists and two Democratic-Republicans
+to the Twelfth Congress.
+
+New Hampshire used a statewide at-large method for electing members to
+Congress. New Hampshire law required a majority to elect for the U.S.
+House of Representatives. The first ballot resulted in only two
+representatives elected. Therefore, a [second
+ballot](https://elections.lib.tufts.edu/catalog/tufts:nh.uscongress.2.1811)
+was held to elect the other three.
+
 ::: {.results-table}
 <table>
 <thead>

@@ -51,6 +51,15 @@ year: 1810
 <!--/html_preserve-->
 :::
 
+South Carolina elected eight Democratic-Republicans to the Twelfth
+Congress.
+
+Mapping this election is incomplete because of the lack of local returns
+in many areas.
+
+South Carolina used the district system for electing members to
+Congress.
+
 ::: {.results-table}
 <table>
 <thead>

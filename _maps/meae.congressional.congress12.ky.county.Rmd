@@ -61,6 +61,10 @@ map_id %>%
 
 </div>
 
+Kentucky elected six Democratic-Republicans to the Twelfth Congress.
+
+Kentucky used a district system for electing members to Congress.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

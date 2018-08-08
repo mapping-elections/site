@@ -73,6 +73,12 @@ map_id %>%
 
 </div>
 
+North Carolina elected two Federalists and ten Democratic-Republicans to the Twelfth Congress.
+
+North Carolina used the district system for electing members to Congress.
+
+In 1813, a [special election](https://elections.lib.tufts.edu/catalog/tufts:nc.uscongress3.specialelection.1813) was held in which William Kennedy was elected to replace Thomas Blount, who had died. 
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

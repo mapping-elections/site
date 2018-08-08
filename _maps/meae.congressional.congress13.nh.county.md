@@ -37,6 +37,12 @@ year: 1812
 <!--/html_preserve-->
 :::
 
+New Hampshire elected six Federalists to the Thirteenth Congress.
+
+New Hampshire used a statewide at-large system for electing members to
+Congress. New Hampshire was apportioned one more seat in the House of
+Representatives.
+
 ::: {.results-table}
 <table>
 <thead>

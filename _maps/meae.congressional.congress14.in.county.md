@@ -34,6 +34,14 @@ year: 1816
 <!--/html_preserve-->
 :::
 
+Indiana elected one Democratic-Republican to the Fourteenth Congress
+
+Mapping this election is not possible because of the lack of returns at
+the town or county level.
+
+Indiana used a statewide at-large system for electing members to
+Congress.
+
 ::: {.results-table}
 <table>
 <thead>

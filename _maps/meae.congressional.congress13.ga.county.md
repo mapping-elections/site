@@ -37,6 +37,20 @@ year: 1812
 <!--/html_preserve-->
 :::
 
+Georgia elected six Democratic-Republicans to the Thirteenth Congress.
+
+Mapping this election is not possible because of the lack of returns at
+the town or county level.
+
+Georgia used a statewide at-large system for electing members to
+Congress. Georgia was apportioned two more seats in the House of
+Representatives.
+
+In 1813, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ga.uscongress.special.1813)
+was held in which Alfred Cuthbert was elected to replace William W.
+Bibb, who had resigned from office.
+
 ::: {.results-table}
 <table>
 <thead>

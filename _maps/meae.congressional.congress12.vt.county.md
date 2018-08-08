@@ -43,6 +43,14 @@ year: 1810
 <!--/html_preserve-->
 :::
 
+Vermont elected one Federalists and three Democratic-Republican to the
+Twelfth Congress.
+
+Mapping this election is incomplete because of the lack of county-level
+returns in many areas.
+
+Vermont used the district system for electing members to Congress.
+
 ::: {.results-table}
 <table>
 <thead>

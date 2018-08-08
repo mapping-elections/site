@@ -53,6 +53,16 @@ year: 1812
 <!--/html_preserve-->
 :::
 
+South Carolina elected one Federalist and eight Democratic-Republicans
+to the Thirteenth Congress.
+
+Mapping this election is incomplete because of the lack of local returns
+in many areas.
+
+South Carolina used a district system for electing members to Congress.
+South Carolina was apportioned one more seat in the House of
+Representatives.
+
 ::: {.results-table}
 <table>
 <thead>

@@ -47,6 +47,10 @@ year: 1810
 <!--/html_preserve-->
 :::
 
+Kentucky elected six Democratic-Republicans to the Twelfth Congress.
+
+Kentucky used a district system for electing members to Congress.
+
 ::: {.results-table}
 <table>
 <thead>

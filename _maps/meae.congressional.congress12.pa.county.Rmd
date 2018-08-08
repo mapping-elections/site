@@ -92,6 +92,12 @@ map_id %>%
 
 </div>
 
+Pennsylvania elected two Federalists and sixteen Democratic-Republicans to the Twelfth Congress.
+
+Mapping this election is incomplete because of the lack of local returns in many areas.
+
+Pennsylvania used the district system for electing members to Congress. Districts 1, 2, and 3 each elected three representatives. District 4 elected two representatives.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

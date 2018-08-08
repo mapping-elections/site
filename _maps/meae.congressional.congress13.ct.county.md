@@ -37,6 +37,14 @@ year: 1812
 <!--/html_preserve-->
 :::
 
+Connecticut elected seven Federalists to the Thirteenth Congress.
+
+Mapping this election is not possible because of the lack of returns at
+the town or county level.
+
+Connecticut used a statewide at-large system for electing members to
+Congress.
+
 ::: {.results-table}
 <table>
 <thead>

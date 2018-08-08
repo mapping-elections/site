@@ -37,6 +37,11 @@ year: 1810
 <!--/html_preserve-->
 :::
 
+New Jersey elected six Democratic-Republicans to the Twelfth Congress.
+
+New Jersey used a statewide at-large method for electing members to
+Congress.
+
 ::: {.results-table}
 <table>
 <thead>

@@ -51,6 +51,12 @@ map_id %>%
 
 </div>
 
+Connecticut elected seven Federalists to the Fourteenth Congress.
+
+Mapping this election is not possible because of the lack of returns at the town or county level.
+
+Connecticut used a statewide at-large system for electing members to Congress.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

@@ -82,6 +82,16 @@ map_id %>%
 
 </div>
 
+Maryland elected five Federalists and three Democratic-Republicans to the Fourteenth Congress. 
+
+Maryland used a district system for electing members to Congress. District 5 elected two members.
+
+In 1816, a [special election](https://elections.lib.tufts.edu/catalog/tufts:md.uscongress3.specialelection.1816) was held in which George Peter was elected to replace Alexander C. Hanson, who resigned from office. 
+
+In 1816, a [special election](https://elections.lib.tufts.edu/catalog/tufts:md.uscongress5.specialelection1.1816) was held in which Samuel Smith was elected to replace Nicholas R. Moore Clarke, who had resigned from office. 
+
+In 1816, a [special election](https://elections.lib.tufts.edu/catalog/tufts:md.uscongress5.specialelection2.1816) was held in which Peter Little was elected to replace William Pinkney, who had resigned from office. 
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

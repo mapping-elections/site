@@ -55,6 +55,25 @@ year: 1812
 <!--/html_preserve-->
 :::
 
+Kentucky elected ten Democratic-Republicans to the Thirteenth Congress.
+
+Mapping this election is not possible because of the lack of returns at
+the town or county level.
+
+Kentucky used a district system for electing members to Congress.
+Kentucky was apportioned four more seats in the House of
+Representatives.
+
+In 1813, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ky.uscongress8.special.1813)
+was held in which Stephen Ormsby was elected to replace John Simpson,
+who had died.
+
+In 1814, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ky.uscongress8.special.1813)
+was held in which Joseph H. Hawkins was elected to replace H. Clay, who
+resigned.
+
 ::: {.results-table}
 <table>
 <thead>

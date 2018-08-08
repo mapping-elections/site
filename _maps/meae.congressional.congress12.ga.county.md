@@ -37,6 +37,16 @@ year: 1810
 <!--/html_preserve-->
 :::
 
+Georgia elected four Democratic-Republicans to the Twelfth Congress.
+
+Georgia used a statewide at-large method for electing members to
+Congress.
+
+In 1812, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ga.uscongress.special.1812)
+was held in which William Barnett was elected to replace Howell Cobb,
+who had resigned from office.
+
 ::: {.results-table}
 <table>
 <thead>

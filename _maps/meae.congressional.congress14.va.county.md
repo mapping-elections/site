@@ -81,6 +81,29 @@ year: 1815
 <!--/html_preserve-->
 :::
 
+Virginia elected six Federalist and seventeen Democratic-Republicans to
+the Fourteenth Congress.
+
+Mapping this election is incomplete because of the lack of local returns
+in many areas.
+
+Virginia used a district system for electing members to Congress.
+
+In 1815, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:va.uscongress.15.special.1815)
+was held in which John W. Kerr was elected to replace Mathew Clay, who
+died.
+
+In 1816, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:va.special.uscongress.18.1816)
+was held in which Thomas M. Nelson was elected to replace Thomas
+Gholson, who died.
+
+In 1816, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:va.uscongress.23.special.1816)
+was held in which John Tyler was elected to replaceJohn Clopton, Sr.,
+who died.
+
 ::: {.results-table}
 <table>
 <thead>

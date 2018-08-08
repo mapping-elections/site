@@ -37,6 +37,14 @@ year: 1814
 <!--/html_preserve-->
 :::
 
+Delaware elected two Federalist to the Fourteenth Congress.
+
+Delaware used a statewide at-large system for electing members to
+Congress. Delaware's election law required that voters select two
+candidates, with one residing in the voter's own county, and the other
+residing in one of the state's other two counties. The at-large winner
+was then declared the winner. This map depicts the initial winner.
+
 ::: {.results-table}
 <table>
 <thead>

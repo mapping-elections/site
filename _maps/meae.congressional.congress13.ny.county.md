@@ -77,6 +77,23 @@ year: 1812
 <!--/html_preserve-->
 :::
 
+New York elected nineteen Federalists and seven Democratic-Republicans
+to the Thirteenth Congress.
+
+New York used a district system for electing members to Congress.
+Districts 1, 2, 12, 15, and 21 elected two representatives each. New
+York was apportioned nine more seats in the House of Representatives.
+
+In 1813, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ny.uscongress15.special.1813)
+was held in which Isaac Williams, Jr. was elected to replace John M.
+Bowers, who had died.
+
+In 1813, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:ny.uscongress2.special.1813)
+was held in which William Irving was elected to replace Egbert Benson,
+who had resigned.
+
 ::: {.results-table}
 <table>
 <thead>

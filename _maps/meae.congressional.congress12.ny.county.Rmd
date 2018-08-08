@@ -79,6 +79,12 @@ map_id %>%
 
 </div>
 
+New York elected five Federalists and twelve Democratic-Republicans to the Twelfth Congress.
+
+New York used a district system for electing members to Congress. Districts 2 and 6 elected  2 representatives each.
+
+In 1812, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ny.uscongress6.special.1812) was held in which Thomas P. Grosvenor was elected to replace Robert LeRoy Livingston, who had resigned. 
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

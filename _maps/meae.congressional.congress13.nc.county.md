@@ -61,6 +61,13 @@ year: 1813
 <!--/html_preserve-->
 :::
 
+North Carolina elected four Federalists and nine Democratic-Republicans
+to the Thirteenth Congress.
+
+North Carolina used a district system for electing members to Congress.
+North Carolina was apportioned one more seat in the House of
+Representatives.
+
 ::: {.results-table}
 <table>
 <thead>

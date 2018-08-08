@@ -41,6 +41,17 @@ year: 1813
 <!--/html_preserve-->
 :::
 
+New Jersey elected four Federalists and two Democratic-Republicans to
+the Thirteenth Congress.
+
+New Jersey switched to a district system for electing members to
+Congress.
+
+In 1814, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:nj.uscongress.special.1814)
+was held in which Thomas Bines was elected to replace Jacob Hufty, who
+had died.
+
 ::: {.results-table}
 <table>
 <thead>

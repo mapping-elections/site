@@ -51,6 +51,12 @@ year: 1812
 <!--/html_preserve-->
 :::
 
+Maryland elected three Federalists and six Democratic-Republicans to the
+Thirteenth Congress.
+
+Maryland used a district system for electing members to Congress.
+District 5 elected two members.
+
 ::: {.results-table}
 <table>
 <thead>
