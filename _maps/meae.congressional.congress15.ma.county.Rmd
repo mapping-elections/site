@@ -90,6 +90,12 @@ map_id %>%
 
 </div>
 
+Massachusetts elected eleven Federalists and nine Democratic-Republicans to the Fifteenth Congress.
+
+Massachusetts used a district system for electing members to Congress. 
+
+In 1818, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.eastern7.special.1818) was held in which Enoch Lincoln was elected to replace Albion K. Parris, who had resigned his office. 
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

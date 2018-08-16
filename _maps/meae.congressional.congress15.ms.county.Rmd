@@ -49,6 +49,10 @@ map_id %>%
 
 </div>
 
+Mississippi elected one Democratic-Republican to the Fifteenth Congress.
+
+Mississippi used a statewide at-large system for electing members to Congress. 
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

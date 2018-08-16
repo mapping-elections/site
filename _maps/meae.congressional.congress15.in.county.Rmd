@@ -54,6 +54,12 @@ map_id %>%
 
 </div>
 
+Indiana elected one Democratic-Republican to the Fifteenth Congress 
+
+Mapping this election is not possible because of the lack of returns at the town or county level.
+
+Indiana used a statewide at-large system for electing members to Congress.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
