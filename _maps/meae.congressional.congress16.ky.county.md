@@ -62,15 +62,11 @@ the town or county level.
 
 Kentucky used a district system for electing members to Congress.
 
-In 1821, a [special
-election](https://elections.lib.tufts.edu/catalog/tufts:ky.uscongress7.1821)
-was held in which Johnb Speed Smith was elected to replace George
-Robertson, who had resigned from office.
+In 1820, a special election was held in which Francis Johnson was
+elected to replace David Walker, who had died.
 
-In 1821, a [special
-election](https://elections.lib.tufts.edu/catalog/tufts:ky.uscongress8.1821)
-was held in which James D. Breckenridge was elected to replace Wingfield
-Bullock, who had died.
+In 1820, a special election was held in which Thomas Montgomery was
+elected to replace Tunstall Quarles, who had resigned from office.
 
 ::: {.results-table}
 <table>
@@ -163,7 +159,8 @@ unopposed
 3
 </td>
 <td style="text-align:left;">
-William Brown
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=B000947">William
+Brown</a>
 </td>
 <td class="party-demrep" data-party="demrep">
 Democratic-Republican
