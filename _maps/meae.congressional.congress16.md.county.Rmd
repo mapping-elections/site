@@ -79,6 +79,10 @@ map_id %>%
 
 </div>
 
+Maryland elected three Federalists and five Democratic-Republicans to the Sixteenth Congress. 
+
+Maryland used a district system for electing members to Congress. District 5 elected two members.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

@@ -90,6 +90,16 @@ map_id %>%
 
 </div>
 
+Massachusetts elected six Federalists and fourteen Democratic-Republicans to the Sixteenth Congress.
+
+Massachusetts used a district system for electing members to Congress. 
+
+In 1820, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.norfolk.special.1820) was held in which William Eustis was elected to replace Edward Dowse, who had resigned from office. 
+
+In 1820, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.plymouth.special.ballot2.1820) was held in which Aaron Hobart was elected to replace Zabdiel Sampson, who had resigned from office. 
+
+In 1820, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.suffolk.special.ballot2.1820) was held in which Benjamin Gorham was elected to replace Jonathan Mason, who had died. 
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

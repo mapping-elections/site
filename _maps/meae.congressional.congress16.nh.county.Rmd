@@ -51,6 +51,10 @@ map_id %>%
 
 </div>
 
+New Hampshire elected six Democratic-Republicans to the Sixteenth Congress.
+
+New Hampshire used a statewide at-large system for electing members to Congress. 
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

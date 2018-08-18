@@ -51,6 +51,14 @@ map_id %>%
 
 </div>
 
+New Jersey elected six Democratic-Republicans to the Sixteenth Congress.
+
+Mapping this election is not possible because of the lack of returns at the town or county level.
+
+New Jersey used a statewide at-large system for electing members to Congress. 
+
+In 1820, a [special election](https://elections.lib.tufts.edu/catalog/tufts:nj.congress.special.1820) was held in which Charkes Kinsey was elected to replace John Condit, who had resigned from office.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

@@ -75,6 +75,14 @@ map_id %>%
 
 </div>
 
+North Carolina elected four Federalists and nine Democratic-Republicans to the Sixteenth Congress.
+
+Mapping this election is not possible because of the lack of returns at the town or county level.
+
+North Carolina used a district system for electing members to Congress. 
+
+In 1821, a [special election](https://elections.lib.tufts.edu/catalog/tufts:nc.uscongress4.special.1821) was held in which William S. Blackledge was elected to replace Jesse Slocumb, who had died. 
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
