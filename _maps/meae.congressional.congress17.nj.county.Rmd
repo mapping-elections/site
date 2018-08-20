@@ -51,6 +51,12 @@ map_id %>%
 
 </div>
 
+New Jersey elected six Democratic-Republicans to the Seventeenth Congress.
+
+New Jersey used a statewide at-large system for electing members to Congress. 
+
+In 1821, a [special election](https://elections.lib.tufts.edu/catalog/tufts:nj.uscongress.special.1821) was held in which Lewis Condict was elected to replace John Linn, who had died. 
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

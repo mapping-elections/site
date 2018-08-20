@@ -69,6 +69,12 @@ map_id %>%
 
 </div>
 
+Louisiana elected one Democratic-Republican to the Seventeenth Congress.
+
+Mapping this election is not possible because of the lack of returns at the town or county level.
+
+Louisiana used a statewide at-large system for electing members to Congress. 
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

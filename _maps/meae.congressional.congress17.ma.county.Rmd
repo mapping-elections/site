@@ -75,6 +75,12 @@ map_id %>%
 
 </div>
 
+Massachusetts elected eight Federalists and five Democratic-Republicans to the Seventeenth Congress.
+
+Massachusetts used a district system for electing members to Congress. 
+
+In 1823, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.norfolk.special.1823) was held in which John Baily was elected to replace William Eustis, who had resigned from office. 
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

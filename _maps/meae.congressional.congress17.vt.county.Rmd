@@ -61,6 +61,10 @@ map_id %>%
 
 </div>
 
+Vermont elected two Federalists and four Democratic-Republicans to the Seventeenth Congress.
+
+Vermont switched to a district system for electing members to Congress.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

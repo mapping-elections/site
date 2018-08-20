@@ -63,6 +63,16 @@ map_id %>%
 
 </div>
 
+Maine elected two Federalists and five Democratic-Republican to the Seventeenth Congress.
+
+Mapping this election is not possible because of the lack of returns at the town or county level.
+
+Maine used a district system for electing members to Congress. 
+
+In 1820, a [special election](https://elections.lib.tufts.edu/catalog/tufts:me.uscongress1.special.1820) was held in which Joseph Dane was elected to replace John Holmes, who had resigned from office.
+
+In 1821, a [special election](https://elections.lib.tufts.edu/catalog/tufts:me.uscongress2.1822) was held in which Mark Harris was elected to replace Ezekial Whitman, who had resigned from office.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

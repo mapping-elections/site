@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 17
 congressordinal: 17th
 geography: county
@@ -164,6 +164,7 @@ Democratic-Republican
 13%
 </td>
 <td style="text-align:center;">
+✓
 </td>
 </tr>
 <tr>

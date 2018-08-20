@@ -51,6 +51,10 @@ map_id %>%
 
 </div>
 
+Illinois elected one Democratic-Republican to the Seventeenth Congress.
+
+Illinois used a statewide at-large system for electing members to Congress. 
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
