@@ -37,6 +37,15 @@ year: 1820
 <!--/html_preserve-->
 :::
 
+Mississippi elected one Democratic-Republican to the Seventeenth
+Congress.
+
+Mapping this election is not possible because of the lack of returns at
+the town or county level.
+
+Mississippi used a statewide at-large system for electing members to
+Congress.
+
 ::: {.results-table}
 <table>
 <thead>

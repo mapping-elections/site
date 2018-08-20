@@ -53,6 +53,34 @@ year: 1820
 <!--/html_preserve-->
 :::
 
+South Carolina elected one Federalist and eight Democratic-Republicans
+to the Seventeenth Congress.
+
+Mapping this election is incomplete because of the lack of local returns
+in many areas.
+
+South Carolina used a district system for electing members to Congress.
+
+In 1821, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:sc.uscongress.kershaw.specialelection.1821)
+was held in which James Blair was elected to replace John S. Richardson,
+who had declined to serve.
+
+In 1822, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:sc.uscongress.beaufort.specialelection.1822)
+was held in which James Hamilton was elected to replace William Lowndes,
+who had resigned from office.
+
+In 1822, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:sc.uscongress.orangeburg.specialelection.1822)
+was held in which Andrew R. Govan was elected to replace James
+Overstreet, who had died.
+
+In 1822, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:sc.uscongress.kershaw.specialelection.1822)
+was held in which John W. Carter was elected to replace James Blair, who
+had resigned from office.
+
 ::: {.results-table}
 <table>
 <thead>

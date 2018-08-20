@@ -51,6 +51,18 @@ year: 1820
 <!--/html_preserve-->
 :::
 
+Maryland elected four Federalists and five Democratic-Republicans to the
+Seventeenth Congress. In the 8th district, Thomas Bayly received support
+from both parties.
+
+Maryland used a district system for electing members to Congress.
+District 5 elected two members.
+
+In 1823, a [special
+election](https://elections.lib.tufts.edu/catalog/tufts:md.uscongress5.special.17thcongress.1823)
+was held in which Isaac MacKim was elected to replace Samuel Smith, who
+had resigned from office.
+
 ::: {.results-table}
 <table>
 <thead>

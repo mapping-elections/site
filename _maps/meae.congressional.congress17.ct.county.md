@@ -37,6 +37,12 @@ year: 1821
 <!--/html_preserve-->
 :::
 
+Connecticut elected seven Democratic-Republicans to the Seventeenth
+Congress.
+
+Connecticut used a statewide at-large system for electing members to
+Congress.
+
 ::: {.results-table}
 <table>
 <thead>
