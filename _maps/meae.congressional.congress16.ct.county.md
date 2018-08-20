@@ -38,7 +38,7 @@ year: 1818
 :::
 
 Connecticut elected seven Democratic-Republicans to the Sixteenth
-Congress.
+Congress. James Stevens received support from both parties.
 
 Connecticut used a statewide at-large system for electing members to
 Congress.

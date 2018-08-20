@@ -77,7 +77,7 @@ each elected two representatives.
 
 In 1820, a [special
 election](https://elections.lib.tufts.edu/catalog/tufts:pa.congress5.special.1820)
-was held in which Thomas G.MacCullough was elected to replace David
+was held in which Thomas G. MacCullough was elected to replace David
 Fullerton, who had resigned from office.
 
 In 1820, a [special

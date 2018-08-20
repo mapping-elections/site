@@ -47,7 +47,7 @@ Congress.
 
 In 1820, a [special
 election](https://elections.lib.tufts.edu/catalog/tufts:nj.congress.special.1820)
-was held in which Charkes Kinsey was elected to replace John Condit, who
+was held in which Charles Kinsey was elected to replace John Condit, who
 had resigned from office.
 
 ::: {.results-table}
