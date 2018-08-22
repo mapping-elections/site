@@ -51,6 +51,12 @@ map_id %>%
 
 </div>
 
+New Jersey elected six Democratic-Republicans to the Eighteenth Congress. Five of those Democratic-Republicans were part of a faction led by Andrew Jackson, and one was part of a faction led by John Quincy Adams and Henry Clay.
+
+Mapping this election is not possible because of the lack of returns at the town or county level.
+
+New Jersey used a statewide at-large system for electing members to Congress. 
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

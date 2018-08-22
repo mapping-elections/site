@@ -73,6 +73,10 @@ map_id %>%
 
 </div>
 
+Louisiana elected three Democratic-Republicans to the Eighteenth Congress. Two of those Democratic-Republicans were part of a faction led by John Quincy Adams and Henry Clay, and the other Democratic-Republican was part of a faction led by Andrew Jackson.
+
+Louisiana used a statewide at-large system for electing members to Congress. Louisiana was apportioned two more seats in the House of Representatives.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

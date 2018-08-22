@@ -62,6 +62,12 @@ map_id %>%
 
 </div>
 
+Alabama elected three Democratic-Republicans to the Eighteenth Congress. All three of the Democratic-Republicans were part of a faction led by Andrew Jackson.
+
+Mapping this election is incomplete because of the lack of local returns in many areas.
+
+Alabama used a statewide at-large system for electing members to Congress. Alabama was apportioned two more seats in the House of Representatives. 
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

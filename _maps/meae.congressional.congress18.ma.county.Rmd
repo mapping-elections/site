@@ -75,6 +75,12 @@ map_id %>%
 
 </div>
 
+Massachusetts elected eight Federalists and five Democratic-Republicans to the Eighteenth Congress. One of those Democratic-Republicans was part of a faction led by John Quincy Adams and Henry Clay. 
+
+Massachusetts used a district system for electing members to Congress. 
+
+In 1824, a [special election](In 1823, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.norfolk.special.ballot3.1824) was held in which John Baily was elected to replace William Eustis, who had resigned from office.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

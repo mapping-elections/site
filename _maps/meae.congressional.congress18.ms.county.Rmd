@@ -52,6 +52,10 @@ map_id %>%
 
 </div>
 
+Mississippi elected one Democratic-Republican to the Eighteenth Congress. The Democratic-Republican was part of a faction led by Andrew Jackson.
+
+Mississippi used a statewide at-large system for electing members to Congress. 
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

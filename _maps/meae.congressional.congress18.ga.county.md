@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 18
 congressordinal: 18th
 geography: county
@@ -37,7 +37,6 @@ year: 1822
 <!--/html_preserve-->
 :::
 
-::: {.results-table}
 <table>
 <thead>
 <tr>
@@ -249,4 +248,4 @@ Republican Faction
 </tr>
 </tbody>
 </table>
-:::
+</div>

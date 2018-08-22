@@ -73,6 +73,12 @@ map_id %>%
 
 </div>
 
+Kentucky elected twelve Democratic-Republicans to the Eighteenth Congress. Eight of those Democratic-Republicans were part of a faction led by John Quincy Adams and Henry Clay.
+
+Mapping this election is not possible because of the lack of returns at the town or county level.
+
+Kentucky used a district system for electing members to Congress. Kentucky was apportioned two more seats in the House of Representatives.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

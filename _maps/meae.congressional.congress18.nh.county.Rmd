@@ -51,6 +51,10 @@ map_id %>%
 
 </div>
 
+New Hampshire elected five Democratic-Republicans to the Eighteenth Congress. All five of those Democratic-Republicans were part of a faction led by John Quincy Adams and Henry Clay.
+
+New Hampshire used a statewide at-large system for electing members to Congress. New Hampshire was apportioned one less seat in the House of Representatives.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
