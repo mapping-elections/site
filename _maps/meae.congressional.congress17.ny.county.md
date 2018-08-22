@@ -97,11 +97,6 @@ election](https://elections.lib.tufts.edu/catalog/tufts:ny.specialelectioncongre
 was held in which Stephen Van Rensselaer was elected to replace Solomon
 Van Rensselaer, who had resigned from office.
 
-In 1823, a [special
-election](https://elections.lib.tufts.edu/catalog/tufts:ny.congress.1823)
-was held in which William Woods was elected to replace William B.
-Rochester, who had resigned from office.
-
 ::: {.results-table}
 <table>
 <thead>
