@@ -37,6 +37,18 @@ year: 1822
 <!--/html_preserve-->
 :::
 
+Georgia elected seven Democratic-Republicans to the Eighteenth Congress.
+Five of those Democratic-Republicans were part of a faction led by
+William Crawford.
+
+Mapping this election is incomplete because of the lack of local returns
+in many areas.
+
+Georgia used a statewide at-large system for electing members to
+Congress. Georgia was apportioned one more seat in the House of
+Representatives.
+
+::: {.results-table}
 <table>
 <thead>
 <tr>
@@ -248,4 +260,4 @@ Republican Faction
 </tr>
 </tbody>
 </table>
-</div>
+:::
