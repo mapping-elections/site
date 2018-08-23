@@ -52,6 +52,10 @@ map_id %>%
 
 </div>
 
+Illinois elected one Democratic-Republican to the Nineteenth Congress. The Democratic-Republican was part of a faction led by John Quincy Adams and Henry Clay.
+
+Illinois used a statewide at-large system for electing members to Congress. 
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

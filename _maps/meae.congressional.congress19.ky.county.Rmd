@@ -70,6 +70,18 @@ map_id %>%
 
 </div>
 
+Kentucky elected twelve Democratic-Republicans to the Nineteenth Congress. Seven of those Democratic-Republicans were part of a faction led by John Quincy Adams and Henry Clay, and five of those Democratic-Republicans were part of a faction led by Andrew Jackson.
+
+Mapping this election is not possible because of the lack of returns at the town or county level.
+
+Kentucky used a district system for electing members to Congress.
+
+In 1825, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ky.specialcongress3.1825) was held in which James Clarke was elected to replace Henry Clay, who had resigned from office.
+
+In 1826, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ky.uscongress5.1826) was held in which Robert L. MacHatton was elected to replace James Johnson, who had died.
+
+In 1826, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ky.uscongress12.1826) was held in which John F. Henry was elected to replace Robert P. Henry, who had died.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

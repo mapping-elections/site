@@ -72,6 +72,14 @@ map_id %>%
 
 </div>
 
+North Carolina elected thirteen Democratic-Republicans to the Nineteenth Congress. All thirteen of those Democratic-Republicans were part of an identifiable faction within the party. Anti-Caucus and Caucus...
+
+Mapping this election is not possible because of the lack of returns at the town or county level.
+
+North Carolina used a district system for electing members to Congress. 
+
+In 1826, a [special election](https://elections.lib.tufts.edu/catalog/tufts:nc.uscongress8.special.1826) was held in which Daniel L. Barringer was elected to replace Willie P. Mangum, who had resigned from office. 
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

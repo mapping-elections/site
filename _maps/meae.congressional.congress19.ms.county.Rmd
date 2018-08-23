@@ -49,6 +49,12 @@ map_id %>%
 
 </div>
 
+Mississippi elected one Democratic-Republican to the Nineteenth Congress. The Democratic-Republican was part of a faction led by Andrew Jackson.
+
+Mississippi used a statewide at-large system for electing members to Congress. 
+
+In 1826, a [special election](In 1823, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ms.uscongress.special.1826) was held in which William Haile was elected to replace Christopher Rankin, who had died. 
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

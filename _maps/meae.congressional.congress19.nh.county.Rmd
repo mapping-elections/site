@@ -48,6 +48,10 @@ map_id %>%
 
 </div>
 
+New Hampshire elected five Democratic-Republicans to the Nineteenth Congress. 
+
+New Hampshire used a statewide at-large system for electing members to Congress. 
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
