@@ -58,6 +58,8 @@ Mapping this election is incomplete because of the lack of local returns in many
 
 Georgia used a statewide at-large system for electing members to Congress. Georgia was apportioned one more seat in the House of Representatives.
 
+In 1824, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ga.uscongress.special.1824) was held in which Richard H. Wilde was elected to replace Tomas W. Cobb, who had resigned from office.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}

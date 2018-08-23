@@ -72,7 +72,7 @@ year: 1822
 :::
 
 Pennsylvania elected eight Federalists and seventeen
-Democratic-Republicans to the Seventeenth Congress.
+Democratic-Republicans to the Eighteenth Congress.
 
 Mapping this election is incomplete because of the lack of local returns
 in many areas. Pennsylvania was apportioned three more seats in the

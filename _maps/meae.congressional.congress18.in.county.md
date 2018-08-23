@@ -49,7 +49,7 @@ Indiana used a statewide at-large system for electing members to
 Congress. Indiana was apportioned two more seats in the House of
 Representatives.
 
-In 1823, a [special
+In 1824, a [special
 election](https://elections.lib.tufts.edu/catalog/tufts:in.usrepresentative.1st.special.1824)
 was held in which Jacob Call was elected to replace William Prince, who
 had died.
