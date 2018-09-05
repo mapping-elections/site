@@ -83,9 +83,11 @@ map_id %>%
 
 </div>
 
-New Hampshire elected five Federalists to the Eighth Congress.
+Maryland elected three Federalists and five Democratic-Republicans to the Eighth Congress.
 
-New Hampshire used a statewide at-large method for electing members to Congress. New Hampshire was apportioned one more seat in the House of Representatives.
+Maryland used a district system for electing members to Congress. District 5 elected two members.
+
+In 1804, a [special election](https://elections.lib.tufts.edu/catalog/tufts:md.uscongress4.special.1804) was held in which Roger Nelson was elected to replace Daniel Hiester, who had died.
 
 <div class="results-table">
 
