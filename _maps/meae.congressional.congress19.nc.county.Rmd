@@ -72,9 +72,7 @@ map_id %>%
 
 </div>
 
-North Carolina elected thirteen Democratic-Republicans to the Nineteenth Congress. All thirteen of those Democratic-Republicans were part of an identifiable faction within the party. Anti-Caucus and Caucus...
-
-Mapping this election is not possible because of the lack of returns at the town or county level.
+North Carolina’s elections to the nineteenth Congress featured the brief rise of two regional factions within the Democratic-Republican party, the Caucus and Anti-Caucus factions. Some Democratic Republicans dissented from their party’s nomination process of closed meetings, conventions, and caucuses and ran against incumbents as part of the Anti-Caucus faction. With a few exceptions, in the nineteenth congress, supporters of William Crawford became Caucus candidates, while Andrew Jackson’s supporters ran for the Anti-Caucus faction. In the nineteenth congressional election, voters elected five Caucus and eight Anti-Caucus congressmen.
 
 North Carolina used a district system for electing members to Congress. 
 
