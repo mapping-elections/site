@@ -8,7 +8,7 @@ congressnum: 19
 congressordinal: 19th
 title: '19th Congress: North Carolina 1825'
 year: 1825
-legend: dissrep
+legend: caucus
 nnv:
 - id: nc.uscongress1.1825
   name: NC US Congress 1825 District 1
