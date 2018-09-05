@@ -25,8 +25,8 @@ nnv:
 - id: me.uscongress7.1820
   name: ME US Congress 1820 District 7
 related-maps:
-- id: meae.congressional.congress16.me.county
-  name: ME 16th Congress
+- id: meae.congressional.congress16.ma.county
+  name: MA 16th Congress
   type: previous
 - id: meae.congressional.congress18.me.county
   name: ME 18th Congress
