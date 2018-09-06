@@ -54,8 +54,6 @@ map_id %>%
 
 Georgia elected six Democratic-Republicans to the Fourteenth Congress.
 
-Mapping this election is not possible because of the lack of returns at the town or county level.
-
 Georgia used a statewide at-large system for electing members to Congress.
 
 In 1816, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ga.specialuscongress.1816) was held in which Zadock Cook was elected to replace Alfred Cuthbert, who had resigned from office.
