@@ -8,7 +8,7 @@ congressnum: 17
 congressordinal: 17th
 title: '17th Congress: Illinois 1820'
 year: 1820
-legend: fed-vs-rep
+legend: congress-18-19
 nnv:
 - id: il.uscongress.1820
   name: IL US Congress 1820 At Large
