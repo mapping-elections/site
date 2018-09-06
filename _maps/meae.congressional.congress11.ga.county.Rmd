@@ -54,6 +54,8 @@ map_id %>%
 
 Georgia elected four Democratic-Republicans to the Eleventh Congress.
 
+Mapping for this election is incomplete because of a lack of returns in several counties.
+
 Georgia used a statewide at-large method for electing members to Congress.
 
 <div class="results-table">
