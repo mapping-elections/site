@@ -8,7 +8,7 @@ congressnum: 18
 congressordinal: 18th
 title: '18th Congress: Georgia 1822'
 year: 1822
-legend: fed-vs-rep
+legend: dissrep
 nnv:
 - id: ga.uscongress.1822
   name: GA US Congress 1822 At Large
@@ -54,11 +54,9 @@ map_id %>%
 
 Georgia elected seven Democratic-Republicans to the Eighteenth Congress. Five of those Democratic-Republicans were part of a faction led by William Crawford.
 
-Mapping this election is incomplete because of the lack of local returns in many areas.
-
 Georgia used a statewide at-large system for electing members to Congress. Georgia was apportioned one more seat in the House of Representatives.
 
-In 1824, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ga.uscongress.special.1824) was held in which Richard H. Wilde was elected to replace Tomas W. Cobb, who had resigned from office.
+In 1824, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ga.uscongress.special.1824) was held in which Richard H. Wilde was elected to replace Thomas W. Cobb, who had resigned from office after being elected as a Senator.
 
 <div class="results-table">
 
