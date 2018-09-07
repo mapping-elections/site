@@ -72,9 +72,11 @@ map_id %>%
 
 Louisiana elected one Democratic-Republican to the Thirteenth Congress.
 
-Mapping this election is not possible because of the lack of returns at the town or county level.
+The map for this election is incomplete due to the lack of returns at the town or parish level.
 
 Louisiana used a statewide at-large system for electing members to Congress. 
+
+In an October 1812 [special election](<https://elections.lib.tufts.edu/catalog/tufts:la.uscongress12thspecial.1812>), Thomas B. Robertson was also elected to serve in the lame duck 12th Congress.
 
 <div class="results-table">
 
