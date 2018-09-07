@@ -8,7 +8,7 @@ congressnum: 15
 congressordinal: 15th
 title: '15th Congress: Illinois 1818'
 year: 1818
-legend: dissrep
+legend: fed-vs-rep
 nnv:
 - id: il.uscongress.1818
   name: IL US Congress 1818 At Large
@@ -49,7 +49,7 @@ map_id %>%
 
 </div>
 
-illinois elected one Democratic-Republican to the Fifteenth Congress.
+Illinois elected one Democratic-Republican to the Fifteenth Congress.
 
 Illinois used a statewide at-large system for electing members to Congress. 
 
