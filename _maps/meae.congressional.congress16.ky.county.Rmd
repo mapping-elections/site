@@ -71,7 +71,7 @@ map_id %>%
 
 Kentucky elected ten Democratic-Republicans to the Sixteenth Congress.
 
-Mapping this election is not possible because of the lack of returns at the town or county level.
+The map for this election is incomplete due to the lack of returns in some counties.
 
 Kentucky used a district system for electing members to Congress. 
 
