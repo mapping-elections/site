@@ -52,7 +52,7 @@ map_id %>%
 
 </div>
 
-Indiana elected one Democratic-Republican to the Sixteenth Congress 
+Indiana elected one Democratic-Republican to the Sixteenth Congress. 
 
 Indiana used a statewide at-large system for electing members to Congress.
 
