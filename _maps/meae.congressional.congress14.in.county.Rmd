@@ -53,7 +53,7 @@ map_id %>%
 
 Indiana elected one Democratic-Republican to the Fourteenth Congress 
 
-Mapping this election is not possible because of the lack of returns at the town or county level.
+The map for this election is incomplete due to the lack of returns in many counties.
 
 Indiana used a statewide at-large system for electing members to Congress.
 
