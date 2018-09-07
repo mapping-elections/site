@@ -69,14 +69,15 @@ map_id %>%
 
 </div>
 
+Kentucky elected ten Democratic-Republicans to the Seventeenth Congress.
 
-Mapping this election is not possible because of the lack of returns at the town or county level.
+The map for this election is incomplete due to the lack of returns at the town or county level.
 
 Kentucky used a district system for electing members to Congress. 
 
-In 1821, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ky.uscongress7.1821) was held in which John Speed Smith was elected to replace George Robertson, who had resigned from office.
+In 1821, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ky.uscongress7.1821) was held in which John Speed Smith was elected to replace George C. Robertson, who had resigned before Congress convened.
 
-In 1821, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ky.uscongress8.1821) was held in which James D. Breckenridge was elected to replace Wingfield Bullock, who had died.
+In 1821, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ky.uscongress8.1821) was held in which James D. Breckenridge was elected to replace Wingfield Bullock, who had died before Congress convened.
 
 <div class="results-table">
 
