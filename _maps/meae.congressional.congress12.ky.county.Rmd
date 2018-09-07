@@ -63,6 +63,8 @@ map_id %>%
 
 Kentucky elected six Democratic-Republicans to the Twelfth Congress.
 
+The map for this election is incomplete due to the lack of returns at the town or county level.
+
 Kentucky used a district system for electing members to Congress.
 
 <div class="results-table">
