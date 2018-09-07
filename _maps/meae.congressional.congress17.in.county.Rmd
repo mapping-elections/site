@@ -52,11 +52,11 @@ map_id %>%
 
 </div>
 
-Indiana elected one Democratic-Republican to the Seventeenth Congress 
+Indiana elected one Democratic-Republican to the Seventeenth Congress. 
 
 Indiana used a statewide at-large system for electing members to Congress.
 
-In 1822, a [special election](https://elections.lib.tufts.edu/catalog/tufts:in.uscongress.special.1822) was held in which Jonathan Jennings was elected to replace William Hendricks, who had resigned from office.
+In 1822, a [special election](https://elections.lib.tufts.edu/catalog/tufts:in.uscongress.special.1822) was held in which Jonathan Jennings was elected to replace William Hendricks, who had resigned from office to become Indiana's Governor.
 
 <div class="results-table">
 
