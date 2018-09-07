@@ -73,9 +73,9 @@ map_id %>%
 
 Louisiana elected three Democratic-Republicans to the Nineteenth Congress. Two of those Democratic-Republicans were part of a faction led by John Quincy Adams and Henry Clay, and the other was part of a faction led by Andrew Jackson.
 
-Mapping this election is not possible because of the lack of returns at the town or county level.
+The map for this election is incomplete due to the lack of returns at the town or parish level.
 
-Louisiana used a statewide at-large system for electing members to Congress. 
+Louisiana used a district system for electing members to Congress. 
 
 <div class="results-table">
 
