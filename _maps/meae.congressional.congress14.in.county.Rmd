@@ -51,7 +51,7 @@ map_id %>%
 
 </div>
 
-Indiana elected one Democratic-Republican to the Fourteenth Congress 
+Indiana elected one Democratic-Republican to the Fourteenth Congress. 
 
 The map for this election is incomplete due to the lack of returns in many counties.
 
