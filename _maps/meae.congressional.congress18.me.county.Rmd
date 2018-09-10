@@ -67,8 +67,6 @@ Maine elected two Federalists and five Democratic-Republicans to the Eighteenth 
 
 Maine used a district system for electing members to Congress. 
 
-In 1822, a [special election](https://elections.lib.tufts.edu/catalog/tufts:me.uscongress2.1822) was held in which Mark Harris was elected to replace Ezekiel Whitman, who had resigned from office.
-
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
