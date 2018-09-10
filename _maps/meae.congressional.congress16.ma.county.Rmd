@@ -100,6 +100,8 @@ In 1820, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ma.u
 
 In 1820, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.suffolk.special.ballot2.1820) was held in which Benjamin Gorham was elected to replace Jonathan Mason, who had died. 
 
+In 1820, a [special election](https://elections.lib.tufts.edu/catalog/tufts:me.uscongress1.special.1820) was held in which Joseph Dane was elected to replace John Holmes, who had resigned from office.
+
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
