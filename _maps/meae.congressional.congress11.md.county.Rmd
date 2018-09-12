@@ -87,9 +87,9 @@ Maryland elected three Federalists and six Democratic-Republicans to the Elevent
 
 Maryland used a district system for electing members to Congress. District 5 elected two members.
 
-In 1810, a [special election](https://elections.lib.tufts.edu/catalog/tufts:md.uscongress7.special.1810) was held in which Robert Wright was elected to replace John Brown, who resigned. Additionally, this election replaced John Brown in the Twelfth Congress, which general election had already taken place. 
-
 In 1810, a [special election](https://elections.lib.tufts.edu/catalog/tufts:md.uscongress4.special.1810) was held in which Samuel Ringgold was elected to replace Roger Nelson, who had resigned. 
+
+In November 1810, a [special election](https://elections.lib.tufts.edu/catalog/tufts:md.uscongress7.special.1810) was held in which Robert Wright was elected to replace John Brown, who had resigned. Since Brown had already been re-elected to the Twelfth Congress, this single ballot elected Wright to serve in Brown’s place for the remainder of the Eleventh Congress, and for the Twelfth Congress.
 
 <div class="results-table">
 
