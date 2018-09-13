@@ -53,8 +53,9 @@ map_id <- "meae.congressional.congress02.sc.county"
 
 ```{r election-map, echo = FALSE}
 map_id %>%
-  get_county_map_data() %>%
-  filter(id != "scs_nca5") %>% 
+  get_county_map_data() %>%   
+  filter(id != "scs_nca5",
+         is.na(demrep_vote)) %>% 
   map_counties(height = "600px", congress = 2)
 ```
 
