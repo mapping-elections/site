@@ -51,6 +51,8 @@ map_id %>%
 
 Mississippi elected one Democratic-Republican to the Fifteenth Congress.
 
+The map for this election is incomplete due to the lack of returns in Wilkinson County.
+
 Mississippi used a statewide at-large system for electing members to Congress. 
 
 <div class="results-table">
