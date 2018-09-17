@@ -8,7 +8,7 @@ congressnum: 19
 congressordinal: 19th
 title: '19th Congress: Massachusetts 1824'
 year: 1824
-legend: fed-vs-rep
+legend: congress-18-19
 nnv:
 - id: ma.uscongress.suffolk.1824
   name: MA US Congress 1824 District 1
