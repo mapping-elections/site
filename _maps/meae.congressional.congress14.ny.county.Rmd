@@ -32,7 +32,7 @@ nnv:
   name: NY US Congress 1814 District 10
 - id: ny.uscongress11.1814
   name: NY US Congress 1814 District 11
-- id: ny.uscongress12.special.1815
+- id: ny.uscongress12.1814
   name: NY US Congress 1815 District 12
 - id: ny.uscongress13.1814
   name: NY US Congress 1814 District 13
@@ -91,7 +91,7 @@ map_id %>%
 
 </div>
 
-New York elected six Federalists and twenty Democratic-Republicans to the Fourteenth Congress. 
+New York elected six Federalists and twenty-one Democratic-Republicans to the Fourteenth Congress. 
 
 New York used a district system for electing members to Congress. Districts 1, 2, 15, 20, and 21 elected two representatives each. 
 
