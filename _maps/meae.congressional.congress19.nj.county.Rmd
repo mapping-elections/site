@@ -48,9 +48,7 @@ map_id %>%
 
 </div>
 
-New Jersey elected six Democratic-Republicans to the Nineteenth Congress. 
-
-Mapping this election is not possible because of the lack of returns at the town or county level.
+New Jersey elected six Democratic-Republicans to the Nineteenth Congress. Three of those Democratic-Republicans were part of a faction led by Andrew Jackson, and two were part of a faction led by John Quincy Adams and Henry Clay. 
 
 New Jersey used a statewide at-large system for electing members to Congress. 
 
