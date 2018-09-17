@@ -57,7 +57,7 @@ map_id %>%
 
 New Jersey elected four Federalists and two Democratic-Republicans to the Thirteenth Congress.
 
-New Jersey switched to a district system for electing members to Congress. 
+New Jersey switched to a district system for electing members to Congress. Each district elected two members. 
 
 In 1814, a [special election](https://elections.lib.tufts.edu/catalog/tufts:nj.uscongress.special.1814) was held in which Thomas Bines was elected to replace Jacob Hufty, who had died. 
 <div class="results-table">
