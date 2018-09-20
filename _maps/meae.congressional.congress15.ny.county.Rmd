@@ -91,9 +91,9 @@ map_id %>%
 
 </div>
 
-New York elected five Federalists and twenty-one Democratic-Republicans to the Fifteenth Congress. 
+New York elected five Federalists and twenty-two Democratic-Republicans to the Fifteenth Congress. 
 
-New York used a district system for electing members to Congress. Districts 1, 2, 15, 20, and 21 elected two representatives each. 
+New York used a district system for electing members to Congress. Districts 1, 2, 12, 15, 20, and 21 elected two representatives each. 
 
 In 1817, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ny.uscongress4.special.1817) was held in which James Tallmadge, Jr. was elected to replace Henry B. Lee, who had died. 
 
