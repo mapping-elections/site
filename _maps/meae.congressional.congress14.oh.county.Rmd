@@ -65,11 +65,11 @@ map_id %>%
 
 Ohio elected six Democratic-Republican to the Fourteenth Congress. 
 
-Mapping this election is incomplete because of the lack of local returns in many areas.
+The map for this election is incomplete due to the lack of returns in many areas.
 
 Ohio used a district system for electing members to Congress. 
 
-In 1816, a [special election](https://elections.lib.tufts.edu/catalog/tufts:oh.uscongress1.vacancy.1816) was held in which William H. Harrison was elected to replace John Mclean, who had resigned. 
+In 1816, a [special election](https://elections.lib.tufts.edu/catalog/tufts:oh.uscongress1.vacancy.1816) was held in which William H. Harrison was elected to replace John McLean, who had resigned. 
 
 <div class="results-table">
 
