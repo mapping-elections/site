@@ -77,11 +77,13 @@ map_id %>%
 
 North Carolina elected three Federalists and ten Democratic-Republicans to the Fifteenth Congress.
 
+The map for this election is incomplete due to the lack of returns at the county level.
+
 North Carolina used a district system for electing members to Congress. 
 
 In 1818, a [special election](https://elections.lib.tufts.edu/catalog/tufts:nc.uscongress11.specialelection.1818) was held in which William Davidson was elected to replace Daniel M. Forney, who had resigned from office. 
 
-In 1818, a [special election](https://elections.lib.tufts.edu/catalog/tufts:nc.uscongress7.specialelection.1818) was held in which James Stewart was elected to replace Alexander Mcmillan. Who had died.
+In 1818, a [special election](https://elections.lib.tufts.edu/catalog/tufts:nc.uscongress7.specialelection.1818) was held in which James Stewart was elected to replace Alexander MacMillan, who had died.
 
 In 1819, a [special election](https://elections.lib.tufts.edu/catalog/tufts:nc.uscongress.10.special.1819) was held in which Charles Fisher was elected to replace George Mumford, who had died.
 
