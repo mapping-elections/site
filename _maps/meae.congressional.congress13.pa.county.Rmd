@@ -98,21 +98,21 @@ map_id %>%
 
 Pennsylvania elected one Federalist and twenty-two Democratic-Republicans to the Thirteenth Congress.
 
-Mapping this election is incomplete because of the lack of local returns in many areas.
+The map for this election is incomplete due to the lack of returns in a few counties.
 
-Pennsylvania used a district system for electing members to Congress. District 1 elected four representatives. Districts 2, 3, 5, 6, and 10 each elected two representatives. Pennsylvania was apportioned 5 more seats in the House of Representatives. 
-
-In 1813, a [special election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress13.specialelection.1813) was held in which Isaac Griffin was elected to replace John Smiie, who had died. 
-
-In 1813, a [special election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress15.specialelection.1813) was held in which Thomas Wilson was elected to replace Abner Lacock, who had resigned. 
+Pennsylvania used a district system for electing members to Congress. District 1 elected four representatives. Districts 2, 3, 5, 6, and 10 each elected two representatives. Pennsylvania was apportioned 5 more seats in the House of Representatives.
 
 In 1813, a [special election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress3.specialelection.1813) was held in which Edward Crouch was elected to replace John Gloninger, who had resigned. 
 
-In 1813, a [special election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress5.specialelection.1813) was held in which John Rhea was elected to replace Robert Whitehalll, who had resigned. 
+In 1813, a [special election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress5.specialelection.1813) was held in which John Rhea was elected to replace Robert Whitehalll, who had died.
 
-In 1813, a [special election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress7.specialelection.1813) was held in which Daniel Udtree was elected to replace John M. Hyneman, who had resigned. 
+In 1813, a [special election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress7.specialelection.1813) was held in which Daniel Udree was elected to replace John M. Hyneman, who had resigned. 
 
-In 1814, a [special election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress2.special.1814) was held in which Samuel Henderson was elected to replace Johnathan Roberts, who had resigned. 
+In 1813, a [special election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress13.specialelection.1813) was held in which Isaac Griffin was elected to replace John Smiie, who had died. 
+
+In 1813, a [special election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress15.specialelection.1813) was held in which Thomas Wilson was elected to replace Abner Lacock, who had resigned after being elected to the United States Senate.
+
+In 1814, a [special election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress2.special.1814) was held in which Samuel Henderson was elected to replace Jonathan Roberts, who had resigned. 
 
 In 1814, a [special election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress3.special.1814) was held in which Amos Slaymaker was elected to replace James Whitehill, who had resigned.
 
