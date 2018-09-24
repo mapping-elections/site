@@ -63,9 +63,9 @@ related-maps:
   name: NY 15th Congress
   type: next
 state: New York
-title: '14th Congress: New York 1815'
+title: '14th Congress: New York 1814'
 type: congressional
-year: 1815
+year: 1814
 ---
 
 ::: {.map}
@@ -81,12 +81,12 @@ New York elected six Federalists and twenty-one Democratic-Republicans
 to the Fourteenth Congress.
 
 New York used a district system for electing members to Congress.
-Districts 1, 2, 15, 20, and 21 elected two representatives each.
+Districts 1, 2, 12, 15, 20, and 21 elected two representatives each.
 
 In 1815, a [special
 election](https://elections.lib.tufts.edu/catalog/tufts:ny.uscongress12.special.1815)
-was held in which Asa Adgate was elected to replace Benjamin Bond, who
-had died.
+was held in which Asa Adgate was elected to replace Benjamin Pond, who
+had died before the 14th Congress began.
 
 In 1815, a [special
 election](https://elections.lib.tufts.edu/catalog/tufts:ny.uscongress6.special.1815)
@@ -95,8 +95,8 @@ who had resigned.
 
 In 1816, a [special
 election](https://elections.lib.tufts.edu/catalog/tufts:ny.uscongress20.special.1816)
-was held in which Daniel Avery was elected to replace Enos T. Throo, who
-had resigned.
+was held in which Daniel Avery was elected to replace Enos T. Throop,
+who had resigned.
 
 In 1816, a [special
 election](https://elections.lib.tufts.edu/catalog/tufts:ny.uscongress21.special.1816)

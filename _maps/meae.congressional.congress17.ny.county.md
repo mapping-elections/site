@@ -79,7 +79,7 @@ year: 1821
 <!--/html_preserve-->
 :::
 
-New York elected twenty-six Democratic-Republicans to the Seventeenth
+New York elected twenty-seven Democratic-Republicans to the Seventeenth
 Congress. Thirteen of the Republicans elected were members of an
 identifiable faction within the party. In New York, some candidates ran
 as Clintonians who supported internal improvements and soft money.
