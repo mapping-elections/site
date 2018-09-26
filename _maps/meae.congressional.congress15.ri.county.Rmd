@@ -53,7 +53,7 @@ map_id %>%
 
 Rhode Island elected two Federalists to the Fifteenth Congress.
 
-Rhode Island used a statewide at-large system for electing a member to Congress.
+Rhode Island used a statewide at-large system for electing members to Congress.
 
 <div class="results-table">
 
