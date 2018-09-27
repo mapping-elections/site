@@ -65,7 +65,8 @@ several counties.
 
 Pennsylvania used the district system for electing members to Congress.
 Districts 1, 2, and 3 each elected three representatives. District 4
-elected two representatives.
+elected two representatives. The votes cast in Warren County are
+included in the Venango County totals.
 
 ::: {.results-table}
 <table>

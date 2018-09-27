@@ -72,8 +72,8 @@ party. In Pennsylvania some candidates ran as Old School or New School
 Republicans, and were divided by disputes over banking, credit, and
 paper currency.
 
-Mapping this election is incomplete because of the lack of local returns
-in many areas.
+The map for this election is incomplete due to the lack of returns for
+several counties.
 
 Pennsylvania used a district system for electing members to Congress.
 District 1 elected four representatives. Districts 2, 3, 5, 6, and 10
@@ -87,7 +87,7 @@ had resigned his office.
 
 In 1818, a [special
 election](https://elections.lib.tufts.edu/catalog/tufts:pa.congress.4.special.1818)
-was held in which Jacob Hostetterwas elected to replace Jacob Spengler,
+was held in which Jacob Hostetter was elected to replace Jacob Spengler,
 who had resigned from office.
 
 In 1818, a [special

@@ -71,10 +71,13 @@ Democratic-Republicans to the Thirteenth Congress.
 The map for this election is incomplete due to the lack of returns in a
 few counties.
 
+Pennsylvania was apportioned 5 more seats in the House of
+Representatives.
+
 Pennsylvania used a district system for electing members to Congress.
 District 1 elected four representatives. Districts 2, 3, 5, 6, and 10
-each elected two representatives. Pennsylvania was apportioned 5 more
-seats in the House of Representatives.
+each elected two representatives. The votes cast in Warren County are
+included in the Venango County totals.
 
 In 1813, a [special
 election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress3.specialelection.1813)
