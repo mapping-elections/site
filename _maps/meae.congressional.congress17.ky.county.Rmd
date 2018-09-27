@@ -22,8 +22,8 @@ nnv:
   name: KY US Congress 1820 District 5
 - id: ky.uscongress6.1820
   name: KY US Congress 1820 District 6
-- id: ky.uscongress7.1821
-  name: KY US Congress 1821 District 7
+- id: ky.uscongress7.1820
+  name: KY US Congress 1820 District 7
 - id: ky.uscongress8.1820
   name: KY US Congress 1820 District 8
 - id: ky.uscongress9.1820
