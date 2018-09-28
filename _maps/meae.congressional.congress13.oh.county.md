@@ -103,7 +103,7 @@ Elected
 </td>
 <td style="text-align:left;">
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=M000549">John
-MacLean</a>
+McLean</a>
 </td>
 <td class="party-demrep" data-party="demrep">
 Democratic-Republican
