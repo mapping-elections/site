@@ -8,7 +8,7 @@ congressnum: 19
 congressordinal: 19th
 title: '19th Congress: Rhode Island 1825'
 year: 1825
-legend: fed-vs-rep
+legend: congress-18-19
 nnv:
 - id: ri.uscongress.1825
   name: RI US Congress 1825 At Large
@@ -48,9 +48,11 @@ map_id %>%
 
 </div>
 
-Rhode Island elected two Democratic-Republicans to the Nineteenth Congress.
+Rhode Island elected two Democratic-Republicans to the Nineteenth Congress. Both of those Democratic-Republicans were part of a faction led by John Quincy Adams and Henry Clay.
 
-Rhode Island used a statewide at-large system for electing a member to Congress.
+Rhode Island used a statewide at-large system for electing members to Congress.
+
+Rhode Island’s election law allowed voters to cast two ballots, and required candidates to receive a majority of votes to be elected. Since two candidates did not receive the required majority in the general election, on November 25, 1825 a [runoff ballot](https://elections.lib.tufts.edu/catalog/tufts:ri.uscongress1.1825) elected Dutee J. Pearce to Rhode Island’s second seat.
 
 <div class="results-table">
 
