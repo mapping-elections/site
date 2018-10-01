@@ -8,7 +8,7 @@ congressnum: 19
 congressordinal: 19th
 title: '19th Congress: Maryland 1824'
 year: 1824
-legend: fed-vs-rep
+legend: congress-18-19
 nnv:
 - id: md.uscongress1.1824
   name: MD US Congress 1824 District 1
@@ -77,7 +77,7 @@ map_id %>%
 
 </div>
 
-Maryland elected three Federalists and six Democratic-Republicans to the Nineteenth Congress. 
+Maryland elected six Democratic-Republicans, one Federalist, and two dissenting Federalists to the Nineteenth Congress. Two of those Democratic-Republicans were part of a faction led by Andrew Jackson, and two of those Democratic-Republicans were part of a faction led by John Quincy Adams and Henry Clay. Both dissenting Federalists supported Adams and Clay. As the Federalist Party declined, many Federalists distanced themselves from the main party. Instead, their political affiliation more closely aligned with their choice of candidate for the 1824 presidential election. 
 
 Maryland used a district system for electing members to Congress. District 5 elected two members.
 
