@@ -8,7 +8,7 @@ congressnum: 19
 congressordinal: 19th
 title: '19th Congress: Connecticut 1825'
 year: 1825
-legend: fed-vs-rep
+legend: congress-18-19
 nnv:
 - id: ct.uscongress.1825
   name: CT US Congress 1825 At Large
@@ -48,7 +48,7 @@ map_id %>%
 
 </div>
 
-Connecticut elected six Democratic-Republicans to the Nineteenth Congress.
+Connecticut elected six Democratic-Republicans to the Nineteenth Congress. Five of those Democratic-Republicans was part of a faction led by John Quincy Adams and Henry Clay.
 
 Connecticut used a statewide at-large system for electing members to Congress.
 
