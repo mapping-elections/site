@@ -72,8 +72,8 @@ library(mappingelections)
 map_id <- "meae.congressional.congress19.pa.county"
 
 cities <- tribble(
-  ~city, ~lat, ~lng, ~federalist_percentage, ~demrep_percentage, ~federalist_vote, ~demrep_vote,
-    "Philadelphia", 39.9526, -75.1652, 0.621, 0.379, 472, 288)
+  ~city, ~lat, ~lng, ~federalist_percentage, ~demrep_percentage, ~jacksonian_percentage,  ~federalist_vote, ~demrep_vote, ~jacksonian_vote,
+    "Philadelphia", 39.9526, -75.1652, 0.103, 0.417, 0.480, 472, 1908, 2196)
 ```
 
 <div class="map">
@@ -86,13 +86,17 @@ map_id %>%
                  fillColor = mappingelections:::poli_chrome(cities),
                  opacity = 1, fillOpacity = 0.8, radius = 8, weight = 3,
                  popup = ~paste0("<b>City of ", city, "</b><br/>",
-                                 "Congressional District: 1<br/>",
+                                 "Congressional District: 1, 2<br/>",
                                  "Federalists: ", federalist_percentage * 100, "% (", 
                                  prettyNum(federalist_vote, big.mark = ","), 
                                  " votes)<br/>",
                                  "Democratic-Republicans: ", demrep_percentage * 100,
                                  "% (", 
                                  prettyNum(demrep_vote, big.mark = ","),
+                                 " votes)<br/>",
+                                  "Jacksonian supporters: ", jacksonian_percentage * 100,
+                                 "% (",
+                                  prettyNum(jacksonian_vote, big.mark = ","),
                                  " votes)"),
                  label = ~city)
 ```
