@@ -79,8 +79,9 @@ North Carolina elected four Federalists and nine Democratic-Republicans to the T
 
 The map for this election is incomplete due to the lack of returns at the county level.
 
-North Carolina used a district system for electing members to Congress. North Carolina was apportioned one more seat in the House of Representatives.
+Following the 1810 Census, North Carolina gained one more seat in the House of Representatives.
 
+North Carolina used a district system for electing members to Congress.
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
