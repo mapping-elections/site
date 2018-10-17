@@ -54,7 +54,9 @@ map_id %>%
 
 Georgia elected seven Democratic-Republicans to the Eighteenth Congress. Five of those Democratic-Republicans were part of a faction led by William Crawford.
 
-Georgia used a statewide at-large system for electing members to Congress. Georgia was apportioned one more seat in the House of Representatives.
+Following the 1820 Census, Georgia gained 1 seat in the House of Representatives.
+
+Georgia used a statewide at-large system for electing members to Congress.
 
 In 1824, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ga.uscongress.special.1824) was held in which Richard H. Wilde was elected to replace Thomas W. Cobb, who had resigned from office after being elected as a Senator.
 
