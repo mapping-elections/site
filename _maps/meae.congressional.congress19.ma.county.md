@@ -58,8 +58,15 @@ year: 1824
 <!--/html_preserve-->
 :::
 
-Massachusetts elected nine Federalists and four Democratic-Republicans
-to the Nineteenth Congress.
+Massachusetts elected three Federalists and four Democratic-Republicans
+to the Nineteenth Congress. Three of those Democratic-Republicans were
+part of a faction led by John Quincy Adams and Henry Clay. In addition,
+five dissenting Federalists supported Adams and Clay, while one
+dissenting Federalist supported Andrew Jackson. As the Federalist Party
+declined in Massachusetts, many Federalists distanced themselves from
+the main party. Instead, their political affiliation more closely
+aligned with their choice of candidate for the 1824 presidential
+election.
 
 Massachusetts used a district system for electing members to Congress.
 

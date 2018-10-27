@@ -87,8 +87,10 @@ the Thirteenth Congress.
 The map for this election is incomplete due to the lack of returns in a
 few counties.
 
+Following the 1810 Census, Virginia gained one more seat in the House of
+Representatives.
+
 Virginia used a district system for electing members to Congress.
-Virginia was apportioned one more seat in the House of Representatives.
 
 In 1814, a [special
 election](https://elections.lib.tufts.edu/catalog/tufts:va.uscongress.11.special.1814)

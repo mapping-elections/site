@@ -39,7 +39,8 @@ year: 1822
 
 Delaware elected one Federalist to the Eighteenth Congress.
 
-Delaware was apportioned one less seat in the House of Representatives.
+Following the 1820 Census, Delaware lost 1 seat in the House of
+Representatives.
 
 Delaware used a statewide at-large system for electing members to
 Congress. Delaware's election law required that voters select two
@@ -78,7 +79,7 @@ At-large
 </td>
 <td style="text-align:left;">
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=M000535">Louis
-MacLane</a>
+McLane</a>
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist

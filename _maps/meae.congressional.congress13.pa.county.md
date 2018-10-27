@@ -71,8 +71,8 @@ Democratic-Republicans to the Thirteenth Congress.
 The map for this election is incomplete due to the lack of returns in a
 few counties.
 
-Pennsylvania was apportioned 5 more seats in the House of
-Representatives.
+Following the 1810 Census, Pennsylvania gained five more seats in the
+House of Representatives.
 
 Pennsylvania used a district system for electing members to Congress.
 District 1 elected four representatives. Districts 2, 3, 5, 6, and 10

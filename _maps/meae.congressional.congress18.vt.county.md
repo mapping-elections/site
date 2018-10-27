@@ -39,7 +39,9 @@ year: 1822
 
 Vermont elected five Democratic-Republicans to the Eighteenth Congress.
 
-Vermont was apportioned one less seat in the House of Representatives.
+Following the 1820 Census, Vermont lost one seat in the House of
+Representatives.
+
 Vermont again switched to a statewide at-large system for electing
 members to Congress.
 

@@ -39,7 +39,8 @@ year: 1812
 
 Delaware elected two Federalist to the Thirteenth Congress.
 
-Delaware was apportioned one more seat in the House of Representatives.
+Following the 1810 Census, Delaware gained one more seat in the House of
+Representatives.
 
 Delaware used a statewide at-large system for electing members to
 Congress. Delaware's election law required that voters select two

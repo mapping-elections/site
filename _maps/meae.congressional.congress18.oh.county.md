@@ -74,8 +74,10 @@ several counties. Sandusky and Seneca counties were reported as one
 unit. The map reports the vote counts for both counties in Sandusky
 county.
 
-Ohio used a district system for electing members to Congress. Ohio was
-apportioned eight more seats in the House of Representatives.
+Following the 1820 Census, Ohio gained eight seats in the House of
+Representatives.
+
+Ohio used a district system for electing members to Congress.
 
 ::: {.results-table}
 <table>

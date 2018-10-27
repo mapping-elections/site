@@ -53,7 +53,9 @@ Thirteenth Congress.
 The map for this election is incomplete due to the lack of returns at
 the town or county level.
 
-Ohio was apportioned five more seats in the House of Representatives.
+Following the 1810 Census, Ohio gained five more seats in the House of
+Representatives.
+
 For the first time, Ohio used a district system for electing members to
 Congress.
 

@@ -80,9 +80,11 @@ year: 1812
 New York elected nineteen Federalists and eight Democratic-Republicans
 to the Thirteenth Congress.
 
+Following the 1810 Census, New York gained ten more seats in the House
+of Representatives.
+
 New York used a district system for electing members to Congress.
-Districts 1, 2, 12, 15, 20, and 21 elected two representatives each. New
-York was apportioned ten more seats in the House of Representatives.
+Districts 1, 2, 12, 15, 20, and 21 elected two representatives each.
 
 In 1813, a [special
 election](https://elections.lib.tufts.edu/catalog/tufts:ny.uscongress15.special.1813)

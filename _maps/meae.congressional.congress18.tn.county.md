@@ -60,9 +60,10 @@ faction led by Andrew Jackson.
 The map for this election is incomplete due to the lack of returns in a
 few areas.
 
-Tennessee used a district system for electing members to Congress.
-Tennessee was apportioned three more seats in the House of
+Following the 1820 Census, Tennessee gained three seats in the House of
 Representatives.
+
+Tennessee used a district system for electing members to Congress.
 
 ::: {.results-table}
 <table>

@@ -39,9 +39,11 @@ year: 1812
 
 Vermont elected six Democratic-Republican to the Thirteenth Congress.
 
+Following the 1810 Census, Vermont gained two more seats in the House of
+Representatives.
+
 For the first time, Vermont used a statewide at-large system for
-electing members to Congress. Vermont was apportioned two more seats in
-the House of Representatives.
+electing members to Congress.
 
 ::: {.results-table}
 <table>

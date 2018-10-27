@@ -67,9 +67,10 @@ to the Thirteenth Congress.
 The map for this election is incomplete due to the lack of returns at
 the county level.
 
+Following the 1810 Census, North Carolina gained one more seat in the
+House of Representatives.
+
 North Carolina used a district system for electing members to Congress.
-North Carolina was apportioned one more seat in the House of
-Representatives.
 
 ::: {.results-table}
 <table>

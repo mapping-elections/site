@@ -77,9 +77,6 @@ Quincy Adams and Henry Clay.
 The map for this election is incomplete due to the lack of returns for
 some counties.
 
-Pennsylvania was apportioned three more seats in the House of
-Representatives.
-
 Pennsylvania used a district system for electing members to Congress.
 Districts 4 and 9 elected three representatives. Districts 7, 8, 11, and
 16 each elected two representatives.

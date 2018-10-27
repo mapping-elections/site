@@ -89,8 +89,10 @@ William Crawford.
 The map for this election is incomplete due to the lack of returns in
 several counties.
 
+Following the 1820 Census, Virginia lost one seat in the House of
+Representatives.
+
 Virginia used a district system for electing members to Congress.
-Virginia was apportioned one less seat in the House of Representatives.
 
 In 1824, a [special
 election](https://elections.lib.tufts.edu/catalog/tufts:va.special.uscongress.13.1824)
