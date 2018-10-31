@@ -81,7 +81,7 @@ map_id %>%
 
 Maryland elected three Federalists and six Democratic-Republicans to the Sixteenth Congress. In the 8th district, Thomas Bayly, although listed as a Federalist, received support from both parties.
 
-Maryland used a district system for electing members to Congress. District 5 elected two members.
+Maryland used a district system for electing members to Congress. Each district elected one member of Congress except District 5, which elected two members.
 
 <div class="results-table">
 
