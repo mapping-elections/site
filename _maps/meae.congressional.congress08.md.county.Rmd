@@ -85,7 +85,7 @@ map_id %>%
 
 Maryland elected three Federalists and five Democratic-Republicans to the Eighth Congress.
 
-Maryland used a district system for electing members to Congress. District 5 elected two members.
+Maryland used a district system for electing members to Congress. Each district elected one member of Congress except District 5, which elected two members.
 
 In 1804, a [special election](https://elections.lib.tufts.edu/catalog/tufts:md.uscongress4.special.1804) was held in which Roger Nelson was elected to replace Daniel Hiester, who had died.
 
