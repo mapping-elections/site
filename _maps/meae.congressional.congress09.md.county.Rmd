@@ -85,7 +85,7 @@ map_id %>%
 
 Maryland elected three Federalists and six Democratic-Republicans to the Ninth Congress.
 
-Maryland used a district system for electing members to Congress. District 5 elected two members.
+Maryland used a district system for electing members to Congress. Each district elected one member of Congress except District 5, which elected two members.
 
 In 1806, a [special election](https://elections.lib.tufts.edu/catalog/tufts:md.uscongress7.special.1806) was held in which Edward Lloyd was elected to replace Joseph H. Nicholson, who had resigned from office.
 
