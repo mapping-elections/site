@@ -80,7 +80,7 @@ map_id %>%
 
 Maryland elected three Federalists and six Democratic-Republicans to the Eighteenth Congress.
 
-Maryland used a district system for electing members to Congress. District 5 elected two members.
+Maryland used a district system for electing members to Congress. Each district elected one member of Congress except District 5, which elected two members.
 
 In 1823, a [special election](https://elections.lib.tufts.edu/catalog/tufts:md.uscongress5.special.18thcongress.1823) was held in which Isaac MacKim was elected to replace Samuel Smith, who had been elected to the U.S. Senate.
 
