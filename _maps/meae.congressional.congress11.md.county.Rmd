@@ -85,7 +85,7 @@ map_id %>%
 
 Maryland elected three Federalists and six Democratic-Republicans to the Eleventh Congress. 
 
-Maryland used a district system for electing members to Congress. District 5 elected two members.
+Maryland used a district system for electing members to Congress. Each district elected one member of Congress except District 5, which elected two members.
 
 In 1810, a [special election](https://elections.lib.tufts.edu/catalog/tufts:md.uscongress4.special.1810) was held in which Samuel Ringgold was elected to replace Roger Nelson, who had resigned. 
 
