@@ -91,7 +91,7 @@ map_id %>%
 
 Pennsylvania elected three Federalists and ten Democratic-Republicans to the Seventh Congress.
 
-Pennsylvania continued to use a single-district method for electing members to Congress, except for District 4, which elected two representatives.
+Pennsylvania continued to use a district system for electing members to Congress. Each district elected one member of Congress except District 4, which elected two members.
 
 In 1801, a [special election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress4.1801) was held in which Democratic-Republican Issac Van Horne was elected to replace Peter Muhlenberg, who had resigned from office after his election to the U.S. Senate.
 
