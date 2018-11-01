@@ -95,7 +95,7 @@ map_id %>%
 
 New York elected twenty-seven Democratic-Republicans to the Seventeenth Congress. Thirteen of the Republicans elected were members of an identifiable faction within the party. In New York, some candidates ran as Clintonians who supported internal improvements and soft money. 
 
-New York used a district system for electing members to Congress. Districts 1, 2, 12, 15, and 20 elected two representatives each. 
+New York used a district system for electing members to Congress. Each district elected one member of Congress, except Districts 1, 2, 12, 15, and 20, which each elected two members.
 
 In 1821, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ny.specialcongress6.1821) was held in which Charles Borland, Jr. was elected to replace Selah Tuthill, who had died. 
 
