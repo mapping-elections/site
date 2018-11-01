@@ -54,7 +54,7 @@ map_id %>%
 
 Tennessee elected one Democratic-Republican to the Fifth Congress.
 
-Mapping this election is incomplete because of the lack of returns at the town or county level in many areas. 
+The map for this election is incomplete due to the lack of returns at the town or county level.
 
 Tennessee re-elected Andrew Jackson to serve in the Fifth Congress. In September 1797, Jackson resigned from the House of Representatives in order to accept a seat in the US Senate. Tennessee held a special election which elected William Charles Cole Claiborne, which is the election presented here. 
 
