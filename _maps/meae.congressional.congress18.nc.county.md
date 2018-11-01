@@ -1,5 +1,5 @@
 ---
-always_allow_html: yes
+always_allow_html: True
 congressnum: 18
 congressordinal: 18th
 geography: county
@@ -61,22 +61,21 @@ year: 1823
 <!--/html_preserve-->
 :::
 
-North Carolina elected one Federalists and twelve Democratic-Republicans
-to the Eighteenth Congress. Three of those Democratic-Republicans were
-part of a faction led by Andrew Jackson, one of the
-Democratic-Republicans was part of a faction led by John Quincy Adams
-and Henry Clay, and five of the Democratic-Republicans were part of a
-faction led by William Crawford.
+North Carolina elected thirteen Democratic-Republicans to the Eighteenth
+Congress. Two of those Democratic-Republicans were part of a faction led
+by Andrew Jackson, one of the Democratic-Republicans was part of a
+faction led by John Quincy Adams and Henry Clay, and nine of the
+Democratic-Republicans were part of a faction led by William Crawford.
 
-Mapping this election is not possible because of the lack of returns at
-the town or county level.
+The map for this election is incomplete due to the lack of returns in
+many counties.
 
 North Carolina used a district system for electing members to Congress.
 
 In 1825, a [special
 election](https://elections.lib.tufts.edu/catalog/tufts:nc.uscongress2.specialelection.1825)
 was held in which George Outlaw was elected to replace Hutchins G.
-Burton, who had resigned from office.
+Burton, who had resigned after being elected Governor.
 
 ::: {.results-table}
 <table>

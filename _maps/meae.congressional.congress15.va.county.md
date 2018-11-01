@@ -1,5 +1,5 @@
 ---
-always_allow_html: yes
+always_allow_html: True
 congressnum: 15
 congressordinal: 15th
 geography: county
@@ -757,7 +757,7 @@ Democratic-Republican
 <td style="text-align:center;">
 </td>
 </tr>
-<tr class="district-changed" data-district-type="odd">
+<tr class="district-unchanged" data-district-type="odd">
 <td style="text-align:center;">
 23
 </td>
@@ -769,13 +769,33 @@ Tyler</a>
 Democratic-Republican
 </td>
 <td style="text-align:right;">
-1,389
+746
 </td>
 <td style="text-align:right;">
-100%
+53.7%
 </td>
 <td style="text-align:center;">
 ✓
+</td>
+</tr>
+<tr class="district-changed" data-district-type="odd">
+<td style="text-align:center;">
+23
+</td>
+<td style="text-align:left;">
+<a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=S000891">Andrew
+Stevenson</a>
+</td>
+<td class="party-demrep" data-party="demrep">
+Democratic-Republican
+</td>
+<td style="text-align:right;">
+643
+</td>
+<td style="text-align:right;">
+46.3%
+</td>
+<td style="text-align:center;">
 </td>
 </tr>
 </tbody>

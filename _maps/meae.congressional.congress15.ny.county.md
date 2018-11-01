@@ -1,5 +1,5 @@
 ---
-always_allow_html: yes
+always_allow_html: True
 congressnum: 15
 congressordinal: 15th
 geography: county
@@ -80,8 +80,9 @@ year: 1816
 New York elected five Federalists and twenty-two Democratic-Republicans
 to the Fifteenth Congress.
 
-New York used a district system for electing members to Congress.
-Districts 1, 2, 12, 15, 20, and 21 elected two representatives each.
+New York used a district system for electing members to Congress. Each
+district elected one member of Congress, except Districts 1, 2, 12, 15,
+20, and 21, which each elected two members.
 
 In 1817, a [special
 election](https://elections.lib.tufts.edu/catalog/tufts:ny.uscongress4.special.1817)

@@ -1,5 +1,5 @@
 ---
-always_allow_html: yes
+always_allow_html: True
 congressnum: 19
 congressordinal: 19th
 geography: county
@@ -73,7 +73,7 @@ At-large
 </td>
 <td style="text-align:left;">
 <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=M000535">Louis
-MacLane</a>
+McLane</a>
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist

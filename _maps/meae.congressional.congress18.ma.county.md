@@ -1,5 +1,5 @@
 ---
-always_allow_html: yes
+always_allow_html: True
 congressnum: 18
 congressordinal: 18th
 geography: county
@@ -61,9 +61,14 @@ year: 1822
 <!--/html_preserve-->
 :::
 
-Massachusetts elected eight Federalists and five Democratic-Republicans
-to the Eighteenth Congress. One of those Democratic-Republicans was part
-of a faction led by John Quincy Adams and Henry Clay.
+Massachusetts elected one Federalist and six Democratic-Republicans to
+the Eighteenth Congress. Five of those Democratic-Republicans was part
+of a faction led by John Quincy Adams and Henry Clay. In addition, five
+dissenting Federalists supported Adams and Clay, while one dissenting
+Federalist supported Andrew Jackson. As the Federalist Party declined in
+Massachusetts, many Federalists distanced themselves from the main
+party. Instead, their political affiliation more closely aligned with
+their choice of candidate for the 1824 presidential election.
 
 Massachusetts used a district system for electing members to Congress.
 

@@ -1,5 +1,5 @@
 ---
-always_allow_html: yes
+always_allow_html: True
 congressnum: 19
 congressordinal: 19th
 geography: county
@@ -58,8 +58,9 @@ themselves from the main party. Instead, their political affiliation
 more closely aligned with their choice of candidate for the 1824
 presidential election.
 
-Maryland used a district system for electing members to Congress.
-District 5 elected two members.
+Maryland used a district system for electing members to Congress. Each
+district elected one member of Congress except District 5, which elected
+two members.
 
 ::: {.results-table}
 <table>

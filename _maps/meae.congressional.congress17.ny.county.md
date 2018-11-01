@@ -1,5 +1,5 @@
 ---
-always_allow_html: yes
+always_allow_html: True
 congressnum: 17
 congressordinal: 17th
 geography: county
@@ -84,8 +84,9 @@ Congress. Thirteen of the Republicans elected were members of an
 identifiable faction within the party. In New York, some candidates ran
 as Clintonians who supported internal improvements and soft money.
 
-New York used a district system for electing members to Congress.
-Districts 1, 2, 12, 15, and 20 elected two representatives each.
+New York used a district system for electing members to Congress. Each
+district elected one member of Congress, except Districts 1, 2, 12, 15,
+and 20, which each elected two members.
 
 In 1821, a [special
 election](https://elections.lib.tufts.edu/catalog/tufts:ny.specialcongress6.1821)

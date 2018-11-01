@@ -1,5 +1,5 @@
 ---
-always_allow_html: yes
+always_allow_html: True
 congressnum: 14
 congressordinal: 14th
 geography: county
@@ -80,8 +80,9 @@ year: 1814
 New York elected six Federalists and twenty-one Democratic-Republicans
 to the Fourteenth Congress.
 
-New York used a district system for electing members to Congress.
-Districts 1, 2, 12, 15, 20, and 21 elected two representatives each.
+New York used a district system for electing members to Congress. Each
+district elected one member of Congress, except Districts 1, 2, 12, 15,
+20, and 21, which each elected two members.
 
 In 1815, a [special
 election](https://elections.lib.tufts.edu/catalog/tufts:ny.uscongress12.special.1815)
