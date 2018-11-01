@@ -83,7 +83,7 @@ map_id %>%
 
 New York elected two Federalists, fourteen Democratic-Republicans, and one other Republican who was part of a faction within the party to the Tenth Congress. The Republican faction in this election was the Tertium Quids (or just Quids), a coalition of Federalists and moderate Democratic-Republicans.
 
-New York used the district system for electing members to Congress. Districts 2 and 3 (New York City and Brooklyn) voted together as a single district and elected two members to Congress.
+New York used a district system for electing members to Congress. Each district elected one member of Congress, except Districts 2 and 3 (New York City and Brooklyn), which voted together as a single district and elected two members of Congress.
 
 In 1808, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ny.uscongress12.special.1808) was held in which Democratic-Republican Nathan Wilson was elected to replace David Thomas, who had resigned from office.
 
