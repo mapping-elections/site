@@ -81,7 +81,7 @@ map_id %>%
 
 South Carolina elected three Federalists and three Democratic-Republicans to the Fifth Congress.
 
-The map for this election is incomplete due to the lack of returns at the parish or distirct level.
+The map for this election is incomplete due to the lack of returns at the parish or district level.
 
 South Carolina used the district system for electing members to Congress. 
 
