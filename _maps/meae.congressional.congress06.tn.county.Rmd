@@ -55,7 +55,7 @@ map_id %>%
 
 Tennessee elected one Democratic-Republican to the Sixth Congress.
 
-Mapping this election is incomplete because of the lack of returns at the town or county level in many areas.
+The map for this election is incomplete due to the lack of returns in a few counties. 
 
 <div class="results-table">
 
