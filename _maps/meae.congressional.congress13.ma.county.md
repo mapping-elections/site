@@ -1,5 +1,5 @@
 ---
-always_allow_html: yes
+always_allow_html: True
 congressnum: 13
 congressordinal: 13th
 geography: county
@@ -67,9 +67,6 @@ year: 1812
 ---
 
 ::: {.map}
-    ## Warning in if (is.na(state_to_filter)) {: the condition has length > 1 and
-    ## only the first element will be used
-
 <!--html_preserve-->
 ::: {#htmlwidget-4e418d0e777bcf5e8b2b .leaflet .html-widget style="width:100%;height:600px;"}
 :::

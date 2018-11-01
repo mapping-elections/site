@@ -67,9 +67,6 @@ year: 1818
 ---
 
 ::: {.map}
-    ## Warning in if (is.na(state_to_filter)) {: the condition has length > 1 and
-    ## only the first element will be used
-
 <!--html_preserve-->
 ::: {#htmlwidget-8d0e777bcf5e8b2b9fe1 .leaflet .html-widget style="width:100%;height:600px;"}
 :::
