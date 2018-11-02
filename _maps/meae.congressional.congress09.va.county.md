@@ -86,8 +86,8 @@ Quids (or just Quids), a coalition of Federalists and moderate
 Democratic-Republicans. The Quids were led by John Randolph of Roanoke,
 who won election from the Fifteenth District.
 
-Mapping this election is incomplete because of the lack of local returns
-in many areas.
+The map for this election is incomplete due to the lack of returns at
+the county level.
 
 Virginia used the district system for electing members to Congress.
 
