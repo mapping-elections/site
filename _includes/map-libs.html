@@ -15,3 +15,18 @@
 <script src="{{site.url}}/lib/Proj4Leaflet-1.0.1/proj4-compressed.js"></script>
 <script src="{{site.url}}/lib/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
 <script src="{{site.url}}/lib/leaflet-binding-2.0.1/leaflet.js"></script>
+
+<!-- Temporarily deal with the broken URL structure at NNV -->
+<script>
+$( document ).ready(function() {
+  console.log("hasta la vista, NNV links");
+  $("a[href*='elections.lib.tufts.edu/catalog/tufts']").removeAttr("href");
+});
+</script>
+<style>
+a:not([href]) {
+  color: #0a0a0a;
+  pointer-events: none;
+  cursor: default;
+}
+</style>

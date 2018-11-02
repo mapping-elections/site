@@ -17,14 +17,16 @@ bodyclass: maps-show
             {{ content }}
         <p class="disclaimer">{% include results-table-disclaimer.html %}</p>
 
+        {% comment %}
         {% if page.nnv %}
         <h5>New Nation Votes Data</h5>
         <ul class="nnv-data">
             {% for nn in page.nnv %}
             <li><a href="http://elections.lib.tufts.edu/catalog/tufts:{{ nn.id }}">{{ nn.name }}</a></li>
             {% endfor %}
-        </ul>       
+        </ul>
         {% endif %}
+        {% endcomment %}
         </div>
     </div>
 
