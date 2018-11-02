@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 16
 congressordinal: 16th
 geography: county
@@ -59,6 +59,9 @@ related-maps:
   type: previous
 - id: 'meae.congressional.congress17.ma.county'
   name: MA 17th Congress
+  type: next
+- id: 'meae.congressional.congress17.me.county'
+  name: ME 17th Congress
   type: next
 state: Massachusetts
 title: '16th Congress: Massachusetts 1818'

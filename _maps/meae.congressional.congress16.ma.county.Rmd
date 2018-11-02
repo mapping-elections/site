@@ -57,6 +57,9 @@ related-maps:
 - id: meae.congressional.congress17.ma.county
   name: MA 17th Congress
   type: next
+- id: meae.congressional.congress17.me.county
+  name: ME 17th Congress
+  type: next
 #- id: meae.congressional.congress16.national.district
 #  name: National 16th Congress
 #  type: national
