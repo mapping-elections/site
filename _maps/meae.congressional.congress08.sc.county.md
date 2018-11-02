@@ -54,12 +54,14 @@ year: 1803
 South Carolina elected two Federalists and six Democratic-Republicans to
 the Eighth Congress.
 
-Mapping this election is incomplete because of the lack of local returns
-in many areas.
+The map for this election is incomplete due to the lack of returns at
+the parish or district level.
+
+Following the 1800 Census, South Carolina gained two seats in the House
+of Representatives.
 
 South Carolina used the district system for electing members to
-Congress. South Carolina was apportioned two more seats in the House of
-Representatives.
+Congress.
 
 ::: {.results-table}
 <table>

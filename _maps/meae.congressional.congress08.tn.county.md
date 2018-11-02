@@ -39,12 +39,14 @@ year: 1803
 
 Tennessee elected three Democratic-Republicans to the Eighth Congress.
 
-Mapping this election is incomplete because of the lack of returns at
-the town or county level.
+The map for this election is incomplete due to the lack of returns at
+the county level.
+
+Following the 1800 Census, South Carolina gained two seats in the House
+of Representatives.
 
 Tennessee used a statewide at-large method for electing members to
-Congress. Tennessee was apportioned two more seats in the House of
-Representatives.
+Congress.
 
 ::: {.results-table}
 <table>

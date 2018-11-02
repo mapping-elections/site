@@ -50,8 +50,8 @@ year: 1798
 South Carolina elected five Federalists and one Democratic-Republican to
 the Sixth Congress.
 
-Mapping this election is incomplete because of the lack of local returns
-in many areas.
+The map for this election is incomplete due to the lack of returns at
+the parish or district level.
 
 South Carolina used the district system for electing members to
 Congress.

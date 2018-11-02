@@ -46,8 +46,8 @@ year: 1806
 Vermont elected two Federalists and two Democratic-Republicans to the
 Tenth Congress.
 
-Mapping this election is incomplete because of the lack of county-level
-returns in many areas.
+The map for this election is incomplete due to the lack of returns at
+the town or county level.
 
 Vermont used the district system for electing members to Congress.
 
