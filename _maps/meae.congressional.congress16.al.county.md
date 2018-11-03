@@ -1,5 +1,5 @@
 ---
-always_allow_html: yes
+always_allow_html: True
 congressnum: 16
 congressordinal: 16th
 geography: county

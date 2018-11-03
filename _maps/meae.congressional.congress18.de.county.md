@@ -1,5 +1,5 @@
 ---
-always_allow_html: yes
+always_allow_html: True
 congressnum: 18
 congressordinal: 18th
 geography: county

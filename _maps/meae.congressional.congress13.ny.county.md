@@ -1,5 +1,5 @@
 ---
-always_allow_html: yes
+always_allow_html: True
 congressnum: 13
 congressordinal: 13th
 geography: county
@@ -83,8 +83,9 @@ to the Thirteenth Congress.
 Following the 1810 Census, New York gained ten more seats in the House
 of Representatives.
 
-New York used a district system for electing members to Congress.
-Districts 1, 2, 12, 15, 20, and 21 elected two representatives each.
+New York used a district system for electing members to Congress. Each
+district elected one member of Congress, except Districts 1, 2, 12, 15,
+20, and 21, which each elected two members.
 
 In 1813, a [special
 election](https://elections.lib.tufts.edu/catalog/tufts:ny.uscongress15.special.1813)

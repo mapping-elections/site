@@ -1,5 +1,5 @@
 ---
-always_allow_html: yes
+always_allow_html: True
 congressnum: 18
 congressordinal: 18th
 geography: county
@@ -103,9 +103,10 @@ as Clintonians who supported internal improvements and soft money.
 Following the 1820 Census, New York gained seven seats in the House of
 Representatives.
 
-New York used a district system for electing members to Congress.
-Districts 20 and 26 elected two representatives each. District 3 elected
-three representatives.
+New York used a district system for electing members to Congress. Each
+district elected one member of Congress, except Districts 20 and 26,
+which each elected two members, and District 3, which elected three
+members.
 
 In 1823, a [special
 election](https://elections.lib.tufts.edu/catalog/tufts:ny.congress.1823)

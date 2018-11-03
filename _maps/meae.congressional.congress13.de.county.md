@@ -1,5 +1,5 @@
 ---
-always_allow_html: yes
+always_allow_html: True
 congressnum: 13
 congressordinal: 13th
 geography: county
