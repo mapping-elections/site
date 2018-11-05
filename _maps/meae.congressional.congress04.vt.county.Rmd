@@ -6,8 +6,8 @@ state: Vermont
 geography: county
 congressnum: 4
 congressordinal: 4th
-title: '4th Congress: Vermont 1795'
-year: 1795
+title: '4th Congress: Vermont 1794'
+year: 1794
 legend: fed-vs-rep
 nnv:
 - id: vt.uscongress.secondballot.westerndistrict.1795
