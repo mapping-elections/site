@@ -72,8 +72,9 @@ The map for this election is incomplete due to the lack of returns at
 the town or county level.
 
 Pennsylvania used a district system for electing members to Congress.
-District 1 elected four representatives. Districts 2, 3, 5, 6, and 10
-each elected two representatives.
+Each district elected one member of Congress except District 1, which
+elected four members, and Districts 2, 3, 5, 6, and 10, which each
+elected two members.
 
 In 1821, a [special
 election](https://elections.lib.tufts.edu/catalog/tufts:pa.congress.5.1821)

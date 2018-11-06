@@ -42,8 +42,8 @@ Tennessee elected three Democratic-Republicans to the Eighth Congress.
 The map for this election is incomplete due to the lack of returns at
 the county level.
 
-Following the 1800 Census, South Carolina gained two seats in the House
-of Representatives.
+Following the 1800 Census, Tennessee gained two seats in the House of
+Representatives.
 
 Tennessee used a statewide at-large method for electing members to
 Congress.

@@ -49,9 +49,10 @@ year: 1803
 
 Kentucky elected six Democratic-Republicans to the Eighth Congress.
 
-Kentucky used a district system for electing members to Congress.
-Kentucky was apportioned four more seats in the House of
+Following the 1800 Census, Kentucky gained four seats in the House of
 Representatives.
+
+Kentucky used a district system for electing members to Congress.
 
 ::: {.results-table}
 <table>

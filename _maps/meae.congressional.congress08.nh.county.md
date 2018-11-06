@@ -39,9 +39,11 @@ year: 1802
 
 New Hampshire elected five Federalists to the Eighth Congress.
 
+Following the 1800 Census, South Carolina gained one seat in the House
+of Representatives.
+
 New Hampshire used a statewide at-large method for electing members to
-Congress. New Hampshire was apportioned one more seat in the House of
-Representatives.
+Congress.
 
 ::: {.results-table}
 <table>

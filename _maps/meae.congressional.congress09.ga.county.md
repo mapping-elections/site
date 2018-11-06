@@ -39,8 +39,8 @@ year: 1804
 
 Georgia elected four Democratic-Republicans to the Ninth Congress.
 
-Mapping this election is incomplete because of the lack of local returns
-in many areas.
+The map for this election is incomplete due to the lack of returns in
+some areas.
 
 Georgia used a statewide at-large method for electing members to
 Congress.

@@ -78,8 +78,9 @@ The map for this election is incomplete due to the lack of returns for
 some counties.
 
 Pennsylvania used a district system for electing members to Congress.
-Districts 4 and 9 elected three representatives. Districts 7, 8, 11, and
-16 each elected two representatives.
+Each district elected one member of Congress except Districts 4 and 9,
+which each elected three members, and Districts 7, 8, 11, and 16, which
+each elected two members.
 
 In 1825, a [special
 election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress16.special.1825)

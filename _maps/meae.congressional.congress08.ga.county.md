@@ -40,6 +40,9 @@ year: 1802
 Georgia elected one Federalist and three Democratic-Republicans to the
 Eighth Congress.
 
+Following the 1800 Census, Georgia gained two seats in the House of
+Representatives.
+
 Georgia used a statewide at-large method for electing members to
 Congress.
 

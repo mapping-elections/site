@@ -63,10 +63,11 @@ to the Twelfth Congress.
 The map for this election is incomplete due to the lack of returns in
 several counties.
 
-Pennsylvania used the district system for electing members to Congress.
-Districts 1, 2, and 3 each elected three representatives. District 4
-elected two representatives. The votes cast in Warren County are
-included in the Venango County totals.
+Pennsylvania used a district system for electing members to Congress.
+Each district elected one member of Congress except District 4, which
+elected two members, and Districts 1, 2, and 3, which each elected three
+members. The votes cast in Warren County are included in the Venango
+County totals.
 
 ::: {.results-table}
 <table>

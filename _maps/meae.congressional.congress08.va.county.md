@@ -82,9 +82,10 @@ year: 1803
 Virginia elected three Federalists and nineteen Democratic-Republicans
 to the Eighth Congress.
 
-Virginia used the district system for electing members to Congress.
-Virginia was apportioned three more seats in the House of
+Following the 1800 Census, Virginia gained three seats in the House of
 Representatives.
+
+Virginia used the district system for electing members to Congress.
 
 ::: {.results-table}
 <table>

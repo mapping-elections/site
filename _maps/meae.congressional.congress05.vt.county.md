@@ -25,9 +25,9 @@ related-maps:
   name: VT 6th Congress
   type: next
 state: Vermont
-title: '5th Congress: Vermont 1797'
+title: '5th Congress: Vermont 1796'
 type: congressional
-year: 1797
+year: 1796
 ---
 
 ::: {.map}
@@ -42,8 +42,8 @@ year: 1797
 Vermont sent one Federalist and one Democratic-Republican to the Fifth
 Congress.
 
-Mapping this election is not possible because of the lack of returns at
-the town or county levels.
+The map for this election is incomplete due to the lack of returns at
+the county level.
 
 Vermont used the district system for electing members to Congress.
 

@@ -60,10 +60,13 @@ year: 1802
 Pennsylvania elected eighteen Democratic-Republicans to the Eighth
 Congress.
 
-Pennsylvania used the district system for electing members to Congress.
-Districts 1, 2, and 3 each elected three representatives. District 4
-elected two representatives. Pennsylvania was apportioned five more
-seats in the House of Representatives.
+Following the 1800 Census, Pennsylvania gained five seats in the House
+of Representatives.
+
+Pennsylvania used a district system for electing members to Congress.
+Each district elected one member of Congress except District 4, which
+elected two members, and Districts 1, 2, and 3, which each elected three
+members.
 
 In 1804, a [special
 election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress10.specialelection.1804)

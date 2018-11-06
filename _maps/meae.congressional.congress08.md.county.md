@@ -51,8 +51,11 @@ year: 1803
 <!--/html_preserve-->
 :::
 
-Maryland elected three Federalists and five Democratic-Republicans to
-the Eighth Congress.
+Maryland elected three Federalists and six Democratic-Republicans to the
+Eighth Congress.
+
+Following the 1800 Census, Maryland gained one seat in the House of
+Representatives.
 
 Maryland used a district system for electing members to Congress. Each
 district elected one member of Congress except District 5, which elected

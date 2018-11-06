@@ -75,9 +75,10 @@ Following the 1810 Census, Pennsylvania gained five more seats in the
 House of Representatives.
 
 Pennsylvania used a district system for electing members to Congress.
-District 1 elected four representatives. Districts 2, 3, 5, 6, and 10
-each elected two representatives. The votes cast in Warren County are
-included in the Venango County totals.
+Each district elected one member of Congress except District 1, which
+elected four members, and Districts 2, 3, 5, 6, and 10, which each
+elected two members. The votes cast in Warren County are included in the
+Venango County totals.
 
 In 1813, a [special
 election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress3.specialelection.1813)

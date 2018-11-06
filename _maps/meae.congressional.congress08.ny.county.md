@@ -72,8 +72,10 @@ year: 1803
 New York elected five Federalists and twelve Democratic-Republicans to
 the Eighth Congress.
 
-New York used the district system for electing members to Congress. New
-York was apportioned seven more seats in the House of Representatives.
+Following the 1800 Census, New York gained seven seats in the House of
+Representatives.
+
+New York used the district system for electing members to Congress.
 
 In 1803, a [special
 election](https://elections.lib.tufts.edu/catalog/tufts:ny.specialuscongress6.1803)

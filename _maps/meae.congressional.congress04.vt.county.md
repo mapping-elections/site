@@ -25,9 +25,9 @@ related-maps:
   name: VT 5th Congress
   type: next
 state: Vermont
-title: '4th Congress: Vermont 1795'
+title: '4th Congress: Vermont 1794'
 type: congressional
-year: 1795
+year: 1794
 ---
 
 ::: {.map}

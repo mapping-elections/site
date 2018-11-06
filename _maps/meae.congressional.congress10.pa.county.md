@@ -63,12 +63,10 @@ the Tenth Congress. The Republican faction in this election was the
 Tertium Quids (or just Quids), a coalition of Federalists and moderate
 Democratic-Republicans.
 
-Mapping this election is incomplete because of the lack of local returns
-in many areas.
-
-Pennsylvania used the district system for electing members to Congress.
-Districts 1, 2, and 3 each elected three representatives. District 4
-elected two representatives.
+Pennsylvania used a district system for electing members to Congress.
+Each district elected one member of Congress except District 4, which
+elected two members, and Districts 1, 2, and 3, which each elected three
+members.
 
 In 1808, a [special
 election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress1.specialelection.1808)

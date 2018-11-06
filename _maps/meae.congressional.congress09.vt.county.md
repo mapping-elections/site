@@ -29,9 +29,9 @@ related-maps:
   name: VT 10th Congress
   type: next
 state: Vermont
-title: '9th Congress: Vermont 1805'
+title: '9th Congress: Vermont 1804'
 type: congressional
-year: 1805
+year: 1804
 ---
 
 ::: {.map}

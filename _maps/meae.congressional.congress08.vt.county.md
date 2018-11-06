@@ -46,8 +46,10 @@ year: 1802
 Vermont elected three Federalists and one Democratic-Republican to the
 Eighth Congress.
 
+Following the 1800 Census, Vermont gained two seats in the House of
+Representatives.
+
 Vermont used the district system for electing members to Congress.
-Vermont was apportioned two more seats in the House of Representatives.
 
 ::: {.results-table}
 <table>
