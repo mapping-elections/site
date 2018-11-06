@@ -36,9 +36,9 @@ related-maps:
 - id: meae.congressional.congress09.pa.county
   name: PA 9th Congress
   type: previous
-# - id: meae.congressional.congress11.pa.county
-#   name: PA 11th Congress
-#   type: next
+- id: meae.congressional.congress11.pa.county
+  name: PA 11th Congress
+  type: next
 # - id: meae.congressional.congress10.national.district
 #   name: National 10th Congress
 #   type: national
@@ -70,7 +70,7 @@ cities <- tribble(
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>%
-  map_counties(height = "500px", cities = 0, congress = 9) %>% 
+  map_counties(height = "500px", cities = 0, congress = 10) %>% 
   addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
                  fillColor = mappingelections:::poli_chrome(cities),
                  opacity = 1, fillOpacity = 0.8, radius = 8, weight = 3,
@@ -88,11 +88,9 @@ map_id %>%
 
 </div>
 
-Pennsylvania elected four Federalists, twelve Democratic-Republicans, and two Dissenting Republicans to the Tenth Congress. The dissenting Republicans in this election were Tertium Quids (or just Quids), a coalition of Federalists and moderate Democratic-Republicans.
+Pennsylvania elected four Federalists, twelve Democratic-Republicans, and two other Republicans who were part of a faction within the party to the Tenth Congress. The Republican faction in this election was the Tertium Quids (or just Quids), a coalition of Federalists and moderate Democratic-Republicans.
 
-Mapping this election is incomplete because of the lack of local returns in many areas.
-
-Pennsylvania used the district system for electing members to Congress. Districts 1, 2, and 3 each elected three representatives. District 4 elected two representatives.
+Pennsylvania used a district system for electing members to Congress. Each district elected one member of Congress except District 4, which elected two members, and Districts 1, 2, and 3, which each elected three members.
 
 In 1808, a [special election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress1.specialelection.1808) was held in which Democratic-Republican Benjamin Say was elected to replace Joseph Clay, who had resigned from office.
 

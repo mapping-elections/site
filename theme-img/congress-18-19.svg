@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="legend"
+   width="360"
+   height="250"
+   version="1.1"
+   sodipodi:docname="congress-18-19.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata71">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs69" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="3064"
+     inkscape:window-height="1632"
+     id="namedview67"
+     showgrid="false"
+     inkscape:zoom="4.4319249"
+     inkscape:cx="233.32189"
+     inkscape:cy="115.73396"
+     inkscape:window-x="1914"
+     inkscape:window-y="296"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="legend" />
+  <text
+     alignment-baseline="middle"
+     x="165"
+     y="17"
+     style="text-anchor:end;white-space:nowrap;display:block"
+     id="text2">Federalists</text>
+  <circle
+     cx="188"
+     cy="14"
+     r="8"
+     style="fill:#bae4b3;stroke:#888888"
+     id="circle4" />
+  <circle
+     cx="236.03381"
+     cy="14"
+     r="8"
+     style="fill:#74c476;stroke:#888888"
+     id="circle6" />
+  <circle
+     cx="284.03381"
+     cy="14"
+     r="8"
+     style="fill:#31a354;stroke:#888888"
+     id="circle8" />
+  <circle
+     cx="332.03381"
+     cy="14"
+     r="8"
+     style="fill:#006d2c;stroke:#888888"
+     id="circle10" />
+  <text
+     alignment-baseline="middle"
+     x="165"
+     y="39"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end;white-space:nowrap;display:block"
+     id="text12">
+    <tspan
+       sodipodi:role="line"
+       id="tspan4581"
+       x="165"
+       y="39">Democratic-Rep.</tspan>
+  </text>
+  <circle
+     cx="188"
+     cy="36"
+     r="8"
+     style="fill:#cbc9e2;stroke:#888888"
+     id="circle14" />
+  <circle
+     cx="236.03381"
+     cy="36"
+     r="8"
+     style="fill:#9e9ac8;stroke:#888888"
+     id="circle16" />
+  <circle
+     cx="284.03381"
+     cy="36"
+     r="8"
+     style="fill:#756bb1;stroke:#888888"
+     id="circle18" />
+  <circle
+     cx="332.03381"
+     cy="36"
+     r="8"
+     style="fill:#54278f;stroke:#888888"
+     id="circle20" />
+  <text
+     alignment-baseline="middle"
+     x="165"
+     y="61"
+     style="text-anchor:end;white-space:nowrap;display:block"
+     id="text22">
+    <tspan
+       sodipodi:role="line"
+       id="tspan4585"
+       x="165"
+       y="61">Republican faction</tspan>
+  </text>
+  <circle
+     cx="188"
+     cy="58"
+     r="8"
+     style="fill:#fcae91;stroke:#888888"
+     id="circle24" />
+  <circle
+     cx="236.03381"
+     cy="58"
+     r="8"
+     style="fill:#fb6a4a;stroke:#888888"
+     id="circle26" />
+  <circle
+     cx="284.03381"
+     cy="58"
+     r="8"
+     style="fill:#de2d26;stroke:#888888"
+     id="circle28" />
+  <circle
+     cx="332.03381"
+     cy="58"
+     r="8"
+     style="fill:#a50f15;stroke:#888888"
+     id="circle30" />
+  <text
+     alignment-baseline="middle"
+     x="165"
+     y="127"
+     style="text-anchor:end;white-space:nowrap;display:block"
+     id="text32">Unaffiliated or other</text>
+  <circle
+     cx="188"
+     cy="124"
+     r="8"
+     style="fill:#fbb4b9;fill-opacity:1;stroke:#888888"
+     id="circle34" />
+  <circle
+     cx="236.03381"
+     cy="124"
+     r="8"
+     style="fill:#f768a1;fill-opacity:1;stroke:#888888"
+     id="circle36" />
+  <circle
+     cx="284.03381"
+     cy="124"
+     r="8"
+     style="fill:#c51b8a;fill-opacity:1;stroke:#888888"
+     id="circle38" />
+  <circle
+     cx="332.03381"
+     cy="124"
+     r="8"
+     style="fill:#7a0177;fill-opacity:1;stroke:#888888"
+     id="circle40" />
+  <text
+     x="188"
+     y="151"
+     style="text-anchor:middle;white-space:nowrap;display:block"
+     id="text42">≤40%</text>
+  <text
+     x="236"
+     y="151"
+     style="text-anchor:middle;white-space:nowrap;display:block"
+     id="text44">≤60%</text>
+  <text
+     x="284"
+     y="151"
+     style="text-anchor:middle;white-space:nowrap;display:block"
+     id="text46">≤80%</text>
+  <text
+     x="332"
+     y="151"
+     style="text-anchor:middle;white-space:nowrap;display:block"
+     id="text48">≤100%</text>
+  <line
+     x1="181"
+     x2="255"
+     y1="172"
+     y2="172"
+     style="stroke:#bbbbbb;stroke-width:2px;stroke-dasharray:5"
+     id="line50" />
+  <text
+     alignment-baseline="middle"
+     x="165"
+     y="176"
+     style="text-anchor:end;white-space:nowrap;display:block"
+     id="text52">County</text>
+  <line
+     x1="181"
+     x2="255"
+     y1="194"
+     y2="194"
+     style="stroke:#222222;stroke-width:3px"
+     id="line54" />
+  <text
+     alignment-baseline="middle"
+     x="165"
+     y="198"
+     style="text-anchor:end;white-space:nowrap;display:block"
+     id="text56">Congressional district</text>
+  <circle
+     cx="188"
+     cy="216"
+     r="5"
+     style="fill:#eaf945;stroke:#333333;stroke-width:1.5px"
+     id="circle58" />
+  <text
+     alignment-baseline="middle"
+     x="165"
+     y="220"
+     style="text-anchor:end;white-space:nowrap;display:block"
+     id="text60">Major city or town</text>
+  <circle
+     cx="188"
+     cy="238"
+     r="8"
+     style="fill:#c7c7c7;stroke:#888888"
+     id="circle62" />
+  <text
+     alignment-baseline="middle"
+     x="165"
+     y="242"
+     style="text-anchor:end;white-space:nowrap;display:block"
+     id="text64">No data available</text>
+  <text
+     alignment-baseline="middle"
+     x="165.05496"
+     y="104.88136"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end;white-space:nowrap;display:block"
+     id="text22-3">
+    <tspan
+       sodipodi:role="line"
+       id="tspan915"
+       x="165.05496"
+       y="104.88136">Adams/Clay Rep.</tspan>
+  </text>
+  <circle
+     cx="188"
+     cy="101.88136"
+     r="8"
+     style="fill:#fcae91;fill-opacity:1;stroke:#888888"
+     id="circle24-7" />
+  <circle
+     cx="236.03381"
+     cy="101.88136"
+     r="8"
+     style="fill:#fb6a4a;fill-opacity:1;stroke:#888888"
+     id="circle26-5" />
+  <circle
+     cx="284.03381"
+     cy="101.88136"
+     r="8"
+     style="fill:#de2d26;fill-opacity:1;stroke:#888888"
+     id="circle28-3" />
+  <circle
+     cx="332.03381"
+     cy="101.88136"
+     r="8"
+     style="fill:#a50f15;fill-opacity:1;stroke:#888888"
+     id="circle30-5" />
+  <text
+     alignment-baseline="middle"
+     x="165.06767"
+     y="83.013779"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end;white-space:nowrap;display:block"
+     id="text22-3-6">
+    <tspan
+       sodipodi:role="line"
+       id="tspan913"
+       x="165.06767"
+       y="83.013779">Jacksonian Rep.</tspan>
+  </text>
+  <circle
+     cx="188"
+     cy="80.013779"
+     r="8"
+     style="fill:#bdd7e7;fill-opacity:1;stroke:#888888"
+     id="circle24-7-9" />
+  <circle
+     cx="236.03381"
+     cy="80.013779"
+     r="8"
+     style="fill:#6baed6;fill-opacity:1;stroke:#888888"
+     id="circle26-5-1" />
+  <circle
+     cx="284.03381"
+     cy="80.013779"
+     r="8"
+     style="fill:#3182bd;fill-opacity:1;stroke:#888888"
+     id="circle28-3-2" />
+  <circle
+     cx="332.03381"
+     cy="80.013779"
+     r="8"
+     style="fill:#08519c;fill-opacity:1;stroke:#888888"
+     id="circle30-5-7" />
+</svg>

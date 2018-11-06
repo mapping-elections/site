@@ -42,7 +42,7 @@ map_id <- "meae.congressional.congress04.ky.county"
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data(election_date = "1794-11-01") %>%
-  map_counties(state = "Kentucky", height = "400px", congress = 4)
+  map_counties(state = "Kentucky", height = "450px", congress = 4)
 ```
 
 </div>

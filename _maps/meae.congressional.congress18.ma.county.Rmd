@@ -1,0 +1,93 @@
+---
+meae-id: meae.congressional.congress18.ma.county
+type: congressional
+level: state
+state: Massachusetts
+geography: county
+congressnum: 18
+congressordinal: 18th
+title: '18th Congress: Massachusetts 1822'
+year: 1822
+legend: congress-18-19
+nnv:
+- id: ma.uscongress.suffolk.1822
+  name: MA US Congress 1822 District 1
+- id: ma.uscongress.essexsouth.ballot2.1823
+  name: MA US Congress 1823 District 2
+- id: ma.uscongress.essexnorth.1822
+  name: MA US Congress 1822 District 3
+- id: ma.uscongress.middlesex.1822
+  name: MA US Congress 1822 District 4
+- id: ma.uscongress.worcestersouth.ballot2.1823
+  name: MA US Congress 1823 District 5
+- id: ma.uscongress.worcesternorth.ballot3.1823
+  name: MA US Congress 1823 District 6
+- id: ma.uscongress.franklin.1822
+  name: MA US Congress 1822 District 7
+- id: ma.uscongress.hampden.1822
+  name: MA US Congress 1822 District 8
+- id: ma.uscongress.berkshire.1822
+  name: MA US Congress 1822 District 9
+- id: ma.uscongress.norfolk.1822
+  name: MA US Congress 1822 District 10
+- id: ma.uscongress.plymouth.1822
+  name: MA US Congress 1822 District 11
+- id: ma.uscongress.bristol.1822
+  name: MA US Congress 1822 District 12
+- id: ma.uscongress.barnstable.1822
+  name: MA US Congress 1822 District 13
+related-maps:
+- id: meae.congressional.congress17.ma.county
+  name: MA 17th Congress
+  type: previous
+- id: meae.congressional.congress19.ma.county
+  name: MA 19th Congress
+  type: next
+#- id: meae.congressional.congress18.national.district
+#  name: National 18th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress18.ma.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "450px")
+```
+
+</div>
+
+Massachusetts elected one Federalist and six Democratic-Republicans to the Eighteenth Congress. Five of those Democratic-Republicans was part of a faction led by John Quincy Adams and Henry Clay. In addition, five dissenting Federalists supported Adams and Clay, while one dissenting Federalist supported Andrew Jackson. As the Federalist Party declined in Massachusetts, many Federalists distanced themselves from the main party. Instead, their political affiliation more closely aligned with their choice of candidate for the 1824 presidential election.
+
+Massachusetts used a district system for electing members to Congress. 
+
+Between September 1823 and November 1824, a series of [special elections](https://elections.lib.tufts.edu/catalog/BJ0321) were held to elect a replacement for William Eustis, who had resigned from office after being elected Governor of Massachusetts. Ultimately, John Baily was elected to replace him.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

@@ -1,0 +1,83 @@
+---
+meae-id: meae.congressional.congress17.me.county
+type: congressional
+level: state
+state: Maine
+geography: county
+congressnum: 17
+congressordinal: 17th
+title: '17th Congress: Maine 1820'
+year: 1820
+legend: fed-vs-rep
+nnv:
+- id: me.uscongress1.1820
+  name: ME US Congress 1820 District 1
+- id: me.uscongress2.1820
+  name: ME US Congress 1820 District 2
+- id: me.uscongress3.1820
+  name: ME US Congress 1820 District 3
+- id: me.uscongress4.thirdrunoff.1821
+  name: ME US Congress 1821 District 4
+- id: me.uscongress5.second.1821
+  name: ME US Congress 1821 District 5
+- id: me.uscongress6.1820
+  name: ME US Congress 1820 District 6
+- id: me.uscongress7.1820
+  name: ME US Congress 1820 District 7
+related-maps:
+- id: meae.congressional.congress16.ma.county
+  name: MA 16th Congress
+  type: previous
+- id: meae.congressional.congress18.me.county
+  name: ME 18th Congress
+  type: next
+#- id: meae.congressional.congress17.national.district
+#  name: National 17th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress17.me.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data(election_date = "1820-03-16") %>%
+  map_counties()
+```
+
+</div>
+
+Maine elected two Federalists and five Democratic-Republican to the Seventeenth Congress.
+
+The map for this election is incomplete due to the lack of returns at the town or county level.
+
+Maine used a district system for electing members to Congress. 
+
+In 1822, a [special election](https://elections.lib.tufts.edu/catalog/tufts:me.uscongress2.1822) was held in which Mark Harris was elected to replace Ezekial Whitman, who had resigned from office.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

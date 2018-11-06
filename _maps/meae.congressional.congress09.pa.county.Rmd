@@ -90,7 +90,7 @@ map_id %>%
 
 Pennsylvania elected one Federalist and seventeen Democratic-Republicans to the Ninth Congress.
 
-Pennsylvania used the district system for electing members to Congress. Districts 1, 2, and 3 each elected three representatives. District 4 elected two representatives.
+Pennsylvania used a district system for electing members to Congress. Each district elected one member of Congress except District 4, which elected two members, and Districts 1, 2, and 3, which each elected three members.
 
 In 1805, a [special election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress4.specialelection.1805) was held in which Democratic-Republican Robert Whitehill was elected to replace J. A. Hanna, who died while in office.
 

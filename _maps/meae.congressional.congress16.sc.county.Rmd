@@ -1,0 +1,106 @@
+---
+meae-id: meae.congressional.congress16.sc.county
+type: congressional
+level: state
+state: South Carolina
+geography: county
+congressnum: 16
+congressordinal: 16th
+title: '16th Congress: South Carolina 1818'
+year: 1818
+legend: fed-vs-rep
+nnv:
+- id: sc.uscongress.charleston.1818
+  name: SC US Congress 1818 District 1
+- id: sc.uscongress.beaufort.1818
+  name: SC US Congress 1818 District 2
+- id: sc.uscongress.georgetown.1818
+  name: SC US Congress 1818 District 3
+- id: sc.uscongress.orangeburg.1818
+  name: SC US Congress 1818 District 4
+- id: sc.uscongress.newberry.1818
+  name: SC US Congress 1818 District 5
+- id: sc.uscongress.edgefield.1818
+  name: SC US Congress 1818 District 6
+- id: sc.uscongress.pendleton.1818
+  name: SC US Congress 1818 District 7
+- id: sc.uscongress.chester.1818
+  name: SC US Congress 1818 District 8
+- id: sc.uscongress.sumpter.1818
+  name: SC US Congress 1818 District 9
+related-maps:
+- id: meae.congressional.congress15.sc.county
+  name: SC 15th Congress
+  type: previous
+- id: meae.congressional.congress17.sc.county
+  name: SC 17th Congress
+  type: next
+#- id: meae.congressional.congress16.national.district
+#  name: National 16th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress16.sc.county"
+
+cities <- tribble(
+  ~city, ~lat, ~lng, ~federalist_percentage, ~demrep_percentage, ~federalist_vote, ~demrep_vote, 
+  "Charleston", 32.7765, -79.9311, 0.542, 0.458, 1041, 881)
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  filter(id != "scs_nca5") %>% 
+  arrange(!is.na(federalist_percentage), !is.na(demrep_percentage), 
+          cnty_type == "District") %>%
+  map_counties(cities = FALSE, height = "600px") %>% 
+  addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
+               fillColor = mappingelections:::poli_chrome(cities),
+               opacity = 1, fillOpacity = 0.8, radius = 8, weight = 3,
+                popup = ~paste0("<b>City of ", city, "</b><br/>",
+                                 "Congressional District: 1<br/>",
+                                "Federalists: ", federalist_percentage * 100,
+                                 "% (", 
+                                 prettyNum(federalist_vote, big.mark = ","),
+                                " votes)<br/>",
+                                 "Democratic-Republicans: ", demrep_percentage * 100,
+                                 "% (", 
+                                 prettyNum(demrep_vote, big.mark = ","),
+                                 " votes)"),
+                 label = ~city)
+```
+
+</div>
+
+South Carolina elected nine Democratic-Republicans to the Sixteenth Congress.
+
+The map for this election is incomplete due to the lack of returns in many areas.
+
+South Carolina used a district system for electing members to Congress. 
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

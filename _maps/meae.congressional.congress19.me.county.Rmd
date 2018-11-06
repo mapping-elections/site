@@ -1,0 +1,78 @@
+---
+meae-id: meae.congressional.congress19.me.county
+type: congressional
+level: state
+state: Maine
+geography: county
+congressnum: 19
+congressordinal: 19th
+title: '19th Congress: Maine 1824'
+year: 1824
+legend: congress-18-19
+nnv:
+- id: me.uscongress1.1824
+  name: ME US Congress 1824 District 1
+- id: me.uscongress2.1824
+  name: ME US Congress 1824 District 2
+- id: me.uscongress3.fourth.1825
+  name: ME US Congress 1825 District 3
+- id: me.uscongress4.second.1825
+  name: ME US Congress 1825 District 4
+- id: me.uscongress5.1824
+  name: ME US Congress 1824 District 5
+- id: me.uscongress6.1824
+  name: ME US Congress 1824 District 6
+- id: me.uscongress7.1824
+  name: ME US Congress 1824 District 7
+related-maps:
+- id: meae.congressional.congress18.me.county
+  name: ME 18th Congress
+  type: previous
+#- id: meae.congressional.congress19.national.district
+#  name: National 19th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress19.me.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties()
+```
+
+</div>
+
+Maine elected seven Democratic-Republicans to the Nineteenth Congress. Five of those Democratic-Republicans were part of a faction led by John Quincy Adams and Henry Clay. 
+
+Maine used a district system for electing members to Congress. 
+
+In 1826, a [special election](https://elections.lib.tufts.edu/catalog/tufts:me.uscongress5.second.1826) was held in which James W. Ripley was elected to replace Enoch Lincoln, who had been elected Governor of Maine.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

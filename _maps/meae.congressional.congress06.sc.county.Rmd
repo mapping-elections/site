@@ -60,6 +60,7 @@ cities <- tribble(
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>%
+  filter(id != "scs_nca5") %>% 
   arrange(!is.na(federalist_percentage), !is.na(demrep_percentage)) %>% 
   map_counties(cities = FALSE, height = "600px", congress = 6) %>% 
    addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
@@ -77,7 +78,7 @@ map_id %>%
 
 South Carolina elected five Federalists and one Democratic-Republican to the Sixth Congress.
 
-Mapping this election is incomplete because of the lack of local returns in many areas.
+The map for this election is incomplete due to the lack of returns at the parish or district level.
 
 South Carolina used the district system for electing members to Congress.
 

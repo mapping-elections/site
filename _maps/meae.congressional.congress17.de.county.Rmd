@@ -1,0 +1,69 @@
+---
+meae-id: meae.congressional.congress17.de.county
+type: congressional
+level: state
+state: Delaware
+geography: county
+congressnum: 17
+congressordinal: 17th
+title: '17th Congress: Delaware 1820'
+year: 1820
+legend: fed-vs-rep
+nnv:
+- id: de.uscongress.1820
+  name: DE US Congress 1820 At Large
+related-maps:
+- id: meae.congressional.congress16.de.county
+  name: DE 16th Congress
+  type: previous
+- id: meae.congressional.congress18.de.county
+  name: DE 18th Congress
+  type: next
+#- id: meae.congressional.congress17.national.district
+#  name: National 17th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress17.de.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "450px")
+```
+
+</div>
+
+Delaware elected one Federalist and one Democratic-Republican to the Seventeenth Congress.
+
+Delaware used a statewide at-large system for electing members to Congress. Delaware’s election law required that voters select two candidates, with one residing in the voter’s own county, and the other residing in one of the state's other two counties. Two at-large winners were elected.
+
+In 1822, a [special election](https://elections.lib.tufts.edu/catalog/tufts:de.uscongressspecial.1822) was held in which Daniel Rodney was elected to replace Caesar A. Rodney, who had resigned after being elected to the United States Senate.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

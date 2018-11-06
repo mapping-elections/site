@@ -26,9 +26,9 @@ related-maps:
 - id: meae.congressional.congress09.ky.county
   name: KY 9th Congress
   type: previous
-# - id: meae.congressional.congress11.ky.county
-#   name: KY 11th Congress
-#   type: next
+- id: meae.congressional.congress11.ky.county
+  name: KY 11th Congress
+  type: next
 # - id: meae.congressional.congress10.national.district
 #   name: National 10th Congress
 #   type: national
@@ -56,7 +56,7 @@ map_id <- "meae.congressional.congress10.ky.county"
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>%
-  map_counties()
+  map_counties(height = "450px")
 ```
 
 </div>

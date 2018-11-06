@@ -48,12 +48,14 @@ map_id <- "meae.congressional.congress08.ga.county"
 map_id %>%
   get_county_map_data() %>%
   filter(id != "gas_nca") %>% 
-  map_counties(height = "500px")
+  map_counties(height = "525px")
 ```
 
 </div>
 
 Georgia elected one Federalist and three Democratic-Republicans to the Eighth Congress.
+
+Following the 1800 Census, Georgia gained two seats in the House of Representatives.
 
 Georgia used a statewide at-large method for electing members to Congress.
 

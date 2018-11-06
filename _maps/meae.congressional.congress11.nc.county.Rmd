@@ -1,0 +1,89 @@
+---
+meae-id: meae.congressional.congress11.nc.county
+type: congressional
+level: state
+state: North Carolina
+geography: county
+congressnum: 11
+congressordinal: 11th
+title: '11th Congress: North Carolina 1808'
+year: 1808
+legend: dissrep
+nnv:
+- id: nc.uscongress1.1808
+  name: NC US Congress 1808 District 1
+- id: nc.uscongress2.1808
+  name: NC US Congress 1808 District 2
+- id: nc.uscongress3.1808
+  name: NC US Congress 1808 District 3
+- id: nc.uscongress4.1808
+  name: NC US Congress 1808 District 4
+- id: nc.uscongress5.1808
+  name: NC US Congress 1808 District 5
+- id: nc.uscongress6.1808
+  name: NC US Congress 1808 District 6
+- id: nc.uscongress7.1808
+  name: NC US Congress 1808 District 7
+- id: nc.uscongress8.1808
+  name: NC US Congress 1808 District 8
+- id: nc.uscongress9.1808
+  name: NC US Congress 1808 District 9
+- id: nc.uscongress10.1808
+  name: NC US Congress 1808 District 10
+- id: nc.uscongress11.1808
+  name: NC US Congress 1808 District 11
+- id: nc.uscongress12.1808
+  name: NC US Congress 1808 District 12
+related-maps:
+- id: meae.congressional.congress10.nc.county
+  name: NC 10th Congress
+  type: previous
+- id: meae.congressional.congress12.nc.county
+  name: NC 12th Congress
+  type: next
+#- id: meae.congressional.congress11.national.district
+#  name: National 11th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress11.nc.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "500px", congress = 11)
+```
+
+</div>
+
+North Carolina elected four Federalists and eight Democratic-Republicans to the Eleventh Congress.
+
+North Carolina used the district system for electing members to Congress.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

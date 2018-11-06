@@ -1,0 +1,95 @@
+---
+meae-id: meae.congressional.congress18.nc.county
+type: congressional
+level: state
+state: North Carolina
+geography: county
+congressnum: 18
+congressordinal: 18th
+title: '18th Congress: North Carolina 1823'
+year: 1823
+legend: congress-18-19
+nnv:
+- id: nc.uscongress1.1823
+  name: NC US Congress 1823 District 1
+- id: nc.uscongress2.1823
+  name: NC US Congress 1823 District 2
+- id: nc.uscongress3.1823
+  name: NC US Congress 1823 District 3
+- id: nc.uscongress4.1823
+  name: NC US Congress 1823 District 4
+- id: nc.uscongress5.1823
+  name: NC US Congress 1823 District 5
+- id: nc.uscongress6.1823
+  name: NC US Congress 1823 District 6
+- id: nc.uscongress7.1823
+  name: NC US Congress 1823 District 7
+- id: nc.uscongress8.1823
+  name: NC US Congress 1823 District 8
+- id: nc.uscongress9.1823
+  name: NC US Congress 1823 District 9
+- id: nc.uscongress10.1823
+  name: NC US Congress 1823 District 10
+- id: nc.uscongress11.1823
+  name: NC US Congress 1823 District 11
+- id: nc.uscongress12.1823
+  name: NC US Congress 1823 District 12
+- id: nc.uscongress13.1823
+  name: NC US Congress 1823 District 13
+related-maps:
+- id: meae.congressional.congress17.nc.county
+  name: NC 17th Congress
+  type: previous
+- id: meae.congressional.congress19.nc.county
+  name: NC 19th Congress
+  type: next
+#- id: meae.congressional.congress18.national.district
+#  name: National 18th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress18.nc.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "500px", congress = 18)
+```
+
+</div>
+
+North Carolina elected thirteen Democratic-Republicans to the Eighteenth Congress. Two of those Democratic-Republicans were part of a faction led by Andrew Jackson, one of the Democratic-Republicans was part of a faction led by John Quincy Adams and Henry Clay, and nine of the Democratic-Republicans were part of a faction led by William Crawford.
+
+The map for this election is incomplete due to the lack of returns in many counties.
+
+North Carolina used a district system for electing members to Congress. 
+
+In 1825, a [special election](https://elections.lib.tufts.edu/catalog/tufts:nc.uscongress2.specialelection.1825) was held in which George Outlaw was elected to replace Hutchins G. Burton, who had resigned after being elected Governor. 
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

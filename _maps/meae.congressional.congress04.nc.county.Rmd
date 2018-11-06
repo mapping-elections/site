@@ -64,7 +64,7 @@ map_id <- "meae.congressional.congress04.nc.county"
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>% 
-  map_counties(height = "400px")
+  map_counties(height = "500px")
 ```
 
 </div>

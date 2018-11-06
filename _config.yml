@@ -39,6 +39,7 @@ exclude:
   - ".Rhistory"
   - "site.Rproj"
   - "Makefile"
+  - vendor
 markdown: Pandoc
 excerpt_separator: "<!--more-->"
 collections:

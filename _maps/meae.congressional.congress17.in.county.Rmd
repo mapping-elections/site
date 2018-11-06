@@ -1,0 +1,70 @@
+---
+meae-id: meae.congressional.congress17.in.county
+type: congressional
+level: state
+state: Indiana
+geography: county
+congressnum: 17
+congressordinal: 17th
+title: '17th Congress: Indiana 1820'
+year: 1820
+legend: fed-vs-rep
+nnv:
+- id: in.uscongress.1820
+  name: IN US Congress 1820 At Large
+related-maps:
+- id: meae.congressional.congress16.in.county
+  name: IN 16th Congress
+  type: previous
+- id: meae.congressional.congress18.in.county
+  name: IN 18th Congress
+  type: next
+#- id: meae.congressional.congress17.national.district
+#  name: National 17th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress17.in.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  filter(id != "ins_nca4") %>%
+  map_counties(height = "775px")
+```
+
+</div>
+
+Indiana elected one Democratic-Republican to the Seventeenth Congress. 
+
+Indiana used a statewide at-large system for electing members to Congress.
+
+In 1822, a [special election](https://elections.lib.tufts.edu/catalog/tufts:in.uscongress.special.1822) was held in which Jonathan Jennings was elected to replace William Hendricks, who had resigned from office to become Indiana's Governor.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

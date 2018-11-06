@@ -1,0 +1,115 @@
+---
+meae-id: meae.congressional.congress11.va.county
+type: congressional
+level: state
+state: Virginia
+geography: county
+congressnum: 11
+congressordinal: 11th
+title: '11th Congress: Virginia 1809'
+year: 1809
+legend: dissrep
+nnv:
+- id: va.uscongress.1.1809
+  name: VA US Congress 1809 District 1
+- id: va.uscongress.2.1809
+  name: VA US Congress 1809 District 2
+- id: va.uscongress.3.1809
+  name: VA US Congress 1809 District 3
+- id: va.uscongress.4.1809
+  name: VA US Congress 1809 District 4
+- id: va.uscongress.5.1809
+  name: VA US Congress 1809 District 5
+- id: va.uscongress.6.1809
+  name: VA US Congress 1809 District 6
+- id: va.uscongress.7.1809
+  name: VA US Congress 1809 District 7
+- id: va.uscongress.8.1809
+  name: VA US Congress 1809 District 8
+- id: va.uscongress.9.1809
+  name: VA US Congress 1809 District 9
+- id: va.uscongress.10.1809
+  name: VA US Congress 1809 District 10
+- id: va.uscongress.11.1809
+  name: VA US Congress 1809 District 11
+- id: va.uscongress.12.1809
+  name: VA US Congress 1809 District 12
+- id: va.uscongress.13.1809
+  name: VA US Congress 1809 District 13
+- id: va.uscongress.14.1809
+  name: VA US Congress 1809 District 14
+- id: va.uscongress.15.1809
+  name: VA US Congress 1809 District 15
+- id: va.uscongress.16.1809
+  name: VA US Congress 1809 District 16
+- id: va.uscongress.17.1809
+  name: VA US Congress 1809 District 17
+- id: va.uscongress.18.1809
+  name: VA US Congress 1809 District 18
+- id: va.uscongress.19.1809
+  name: VA US Congress 1809 District 19
+- id: va.uscongress.20.1809
+  name: VA US Congress 1809 District 20
+- id: va.uscongress.21.1809
+  name: VA US Congress 1809 District 21
+- id: va.uscongress.22.1809
+  name: VA US Congress 1809 District 22
+related-maps:
+- id: meae.congressional.congress10.va.county
+  name: VA 10th Congress
+  type: previous
+- id: meae.congressional.congress12.va.county
+  name: VA 12th Congress
+  type: next
+#- id: meae.congressional.congress11.national.district
+#  name: National 11th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress11.va.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "550px", congress = 11)
+```
+
+</div>
+
+Virginia elected six Federalist, fifteen Democratic-Republicans, and one Republican who was part of a faction within the party to the Eleventh Congress. The dissenting Republican in this election was a Tertium Quid (or just Quid), a coalition of Federalists and moderate Democratic-Republicans.
+
+The map for this election is incomplete due to the lack of returns in several counties.
+
+Virginia used the district system for electing members to Congress.
+
+In 1809, a [special election](https://elections.lib.tufts.edu/catalog/tufts:va.uscongress.21.special.1809) was held in which David S. Garland was elected to replace Wilson C. Nicholas, who had resigned from office.
+
+In 1810, a [special election](https://elections.lib.tufts.edu/catalog/tufts:va.uscongress.1.special.1810) was held in which William MacKinley was elected to replace John G. Jackson, who had resigned from office.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

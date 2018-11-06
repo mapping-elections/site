@@ -48,9 +48,9 @@ related-maps:
 - id: meae.congressional.congress09.ma.county
   name: MA 9th Congress
   type: previous
-# - id: meae.congressional.congress11.ma.county
-#   name: MA 11th Congress
-#   type: next
+- id: meae.congressional.congress11.ma.county
+  name: MA 11th Congress
+  type: next
 # - id: meae.congressional.congress10.national.district
 #   name: National 10th Congress
 #   type: national

@@ -1,0 +1,91 @@
+---
+meae-id: meae.congressional.congress17.ky.county
+type: congressional
+level: state
+state: Kentucky
+geography: county
+congressnum: 17
+congressordinal: 17th
+title: '17th Congress: Kentucky 1820'
+year: 1820
+legend: fed-vs-rep
+nnv:
+- id: ky.uscongress1.1820
+  name: KY US Congress 1820 District 1
+- id: ky.uscongress2.1820
+  name: KY US Congress 1820 District 2
+- id: ky.uscongress3.1820
+  name: KY US Congress 1820 District 3
+- id: ky.uscongress4.1820
+  name: KY US Congress 1820 District 4
+- id: ky.uscongress5.1820
+  name: KY US Congress 1820 District 5
+- id: ky.uscongress6.1820
+  name: KY US Congress 1820 District 6
+- id: ky.uscongress7.1820
+  name: KY US Congress 1820 District 7
+- id: ky.uscongress8.1820
+  name: KY US Congress 1820 District 8
+- id: ky.uscongress9.1820
+  name: KY US Congress 1820 District 9
+- id: ky.uscongress10.1820
+  name: KY US Congress 1820 District 10
+related-maps:
+- id: meae.congressional.congress16.ky.county
+  name: KY 16th Congress
+  type: previous
+- id: meae.congressional.congress18.ky.county
+  name: KY 18th Congress
+  type: next
+#- id: meae.congressional.congress17.national.district
+#  name: National 17th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress17.ky.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "450px")
+```
+
+</div>
+
+Kentucky elected ten Democratic-Republicans to the Seventeenth Congress.
+
+The map for this election is incomplete due to the lack of returns at the town or county level.
+
+Kentucky used a district system for electing members to Congress. 
+
+In 1821, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ky.uscongress7.1821) was held in which John Speed Smith was elected to replace George C. Robertson, who had resigned before Congress convened.
+
+In 1821, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ky.uscongress8.1821) was held in which James D. Breckenridge was elected to replace Wingfield Bullock, who had died before Congress convened.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

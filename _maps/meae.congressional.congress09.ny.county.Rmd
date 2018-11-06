@@ -76,14 +76,14 @@ map_id <- "meae.congressional.congress09.ny.county"
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>%
-  map_counties(height = "550px", congress = 9)
+  map_counties(height = "725px", congress = 9)
 ```
 
 </div>
 
 New York elected two Federalists and fifteen Democratic-Republicans to the Ninth Congress.
 
-New York used the district system for electing members to Congress. Districts 2 and 3 (New York City and Brooklyn) voted together as a single district and elected two members to Congress.
+New York used a district system for electing members to Congress. Each district elected one member of Congress, except Districts 2 and 3 (New York City and Brooklyn), which voted together as a single district and elected two members of Congress.
 
 In 1805, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ny.uscongress2and3.special.1805) was held in which George Clinton, Jr. was elected to replace Samuel L. Mitchell, who had resigned from office after his appointment to the Senate.
 

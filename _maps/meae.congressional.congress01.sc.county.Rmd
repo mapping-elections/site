@@ -56,6 +56,8 @@ cities <- tribble(
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>%
+  filter(id != "scs_nca5",
+         id != "scs_nca2") %>% 
   map_counties(cities = FALSE,height = "600px") %>% 
   addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
                fillColor = mappingelections:::poli_chrome(cities),
