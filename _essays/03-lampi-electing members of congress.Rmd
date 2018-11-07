@@ -1,0 +1,27 @@
+---
+title: "Electing Members of Congress in the Early American Republic"
+author: "Philip Lampi"
+date: 2018
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: essay
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+library(mappingelections)
+```
+
+![This is my caption](filename.png)
+
+Sample viz.
+
+```{r}
+ggplot(mtcars, aes(x = wt, y = mpg)) + geom_point()
+```
+
