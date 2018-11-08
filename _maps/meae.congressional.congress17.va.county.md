@@ -656,7 +656,7 @@ Democratic-Republican
 <td style="text-align:center;">
 </td>
 </tr>
-<tr class="district-changed" data-district-type="odd">
+<tr class="district-unchanged" data-district-type="odd">
 <td style="text-align:center;">
 21
 </td>
@@ -671,10 +671,28 @@ Democratic-Republican
 770
 </td>
 <td style="text-align:right;">
-100%
+94.7%
 </td>
 <td style="text-align:center;">
 ✓
+</td>
+</tr>
+<tr class="district-changed" data-district-type="odd">
+<td style="text-align:center;">
+21
+</td>
+<td style="text-align:left;">
+Other candidates
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:right;">
+43
+</td>
+<td style="text-align:right;">
+5.3%
+</td>
+<td style="text-align:center;">
 </td>
 </tr>
 <tr class="district-changed" data-district-type="even">

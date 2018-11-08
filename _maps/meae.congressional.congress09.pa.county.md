@@ -63,7 +63,8 @@ to the Ninth Congress.
 Pennsylvania used a district system for electing members to Congress.
 Each district elected one member of Congress except District 4, which
 elected two members, and Districts 1, 2, and 3, which each elected three
-members.
+members. The votes cast in Erie, Mercer, Venango, and Warren counties
+are included in the Crawford County totals.
 
 In 1805, a [special
 election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress4.specialelection.1805)

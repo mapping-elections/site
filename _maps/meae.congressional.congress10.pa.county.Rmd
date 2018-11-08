@@ -90,7 +90,7 @@ map_id %>%
 
 Pennsylvania elected four Federalists, twelve Democratic-Republicans, and two other Republicans who were part of a faction within the party to the Tenth Congress. The Republican faction in this election was the Tertium Quids (or just Quids), a coalition of Federalists and moderate Democratic-Republicans.
 
-Pennsylvania used a district system for electing members to Congress. Each district elected one member of Congress except District 4, which elected two members, and Districts 1, 2, and 3, which each elected three members.
+Pennsylvania used a district system for electing members to Congress. Each district elected one member of Congress except District 4, which elected two members, and Districts 1, 2, and 3, which each elected three members. The votes cast in Warren County are included in the Venango County totals. The votes cast in Potter County are included in the Lycoming County totals. The votes cast in Clearfield County County are included in the Centre County totals.
 
 In 1808, a [special election](https://elections.lib.tufts.edu/catalog/tufts:pa.uscongress1.specialelection.1808) was held in which Democratic-Republican Benjamin Say was elected to replace Joseph Clay, who had resigned from office.
 
