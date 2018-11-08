@@ -1,0 +1,156 @@
+---
+title: "Congressional Incumbency in the Early Republic"
+author: "Jordan F. Bratt"
+date: "2018"
+output:
+  html_document:
+    theme: default
+  md_document:
+    variant: markdown
+always_allow_html: yes
+layout: essay
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(mappingelections)
+library(dplyr)
+library(readr)
+library(ggplot2)
+library(stringr)
+library(broom)
+library(maptools)
+library(knitr)
+library(scales)
+```
+
+
+```{r}
+candidates <- meae_congress_candidate_totals %>%
+  mutate(state = substr(meae_id, 31, 32),
+         congress = substr(meae_id, 28, 29) %>% as.numeric())
+```
+
+Table illustrating the incumbency/elections for Delaware
+```{r}
+#DE Incumbency Table
+incumbent <- candidates %>%
+  filter(state == "de",
+         winner == TRUE) %>%
+  select(congress, candidate, candidate_id, winner)  %>%
+  spread(congress, winner)
+
+kable(incumbent)
+```
+
+Thomas Newton Jr. incumbency graph
+
+```{r, echo=FALSE, warning=FALSE}
+
+newton_elections <- candidates %>% 
+  filter(candidate_id == "NT0024") %>% 
+  select (election_id)
+
+newton_competition <- newton_elections %>%
+  inner_join(candidates, by=c("election_id" = "election_id")) 
+
+newton_remove <- newton_competition %>%
+  filter(is.na(percent_vote),
+         candidate_id != "NT0024")
+
+newton_elect <- newton_competition %>%
+  anti_join(newton_remove, by=c("election_id", "candidate_id"))
+
+newton_elect$percent_vote[is.na(newton_elect$percent_vote)] <- 1
+
+
+newton_elect <- newton_elect %>% 
+  filter(election_id != "va.uscongress.8.1789",
+         candidate != "scattering",
+         percent_vote >= .10)
+
+newton_elect$percent_vote[9] <- NA
+newton_elect$percent_vote[16] <- NA
+
+newton_elect %>%
+  ggplot(aes(x = congress, y = percent_vote * 100, color = candidate_id))+
+  geom_point(size = 2)+
+  geom_line()+
+  geom_hline(aes(yintercept=50))+
+  scale_x_continuous(name="Congress", breaks = c(7, 9, 11, 13, 15, 17, 19))+
+  scale_y_continuous(name="Percent of popular vote", breaks=c(40, 50, 60, 70, 80, 90, 100))+
+  scale_colour_discrete(name = "Candidates", breaks=c("NT0024", "PJ0725", "TR0086", "WS0229"), labels=c("Thomas Newton, Jr.", "Josiah Parker", "Robert B. Tayler", "Swepson Whitehead"))+
+  labs(title="The elections of Thomas Newton, Jr.", y = "Percent of the vote", x = 'Congress', colour = "Candidates")
+
+```
+
+Visualization of unopposed incumbent elections by state
+
+```{r, echo=FALSE}
+
+total_elections <- candidates %>%
+  count(candidate_id)
+
+total_elect_candidates <- candidates %>%
+  inner_join(total_elections, by=c("candidate_id"="candidate_id"))
+
+#colnames(total_elect_candidates)[14] <- "total_election"
+
+total_elect_candidates <- total_elect_candidates%>%
+  filter(winner==TRUE)
+
+unopposed_candidates <- total_elect_candidates %>%
+  count(candidate_id) %>%
+  filter(nn>=2)
+
+unopposed_incumbents <-unopposed_candidates %>%
+  inner_join(total_elect_candidates, by=c("candidate_id" = "candidate_id"))
+
+#colnames(unopposed_incumbents)[2] <- "total_unopposed"
+
+test <- unopposed_incumbents %>%
+  group_by(candidate_id) %>%
+  mutate(incumbent = congress - lag(congress))
+
+unopposed_inc<- test %>%
+  filter(incumbent == 1,
+         unopposed == TRUE)
+
+state_unopposed <- unopposed_inc %>%
+  ungroup() %>%
+  count(state)
+
+state_unopposed <- state_unopposed %>%
+  mutate(state = str_to_upper(state)) %>% 
+  mutate(total_unopposed_percent = as.double((nnn/240) * 100))
+
+states_1825 <- us_states("1825-01-01")
+
+unopposed_map <- states_1825 %>%
+  left_join(state_unopposed, by=c("state_abbr" = "state"))
+
+unopposed_map <- unopposed_map %>%
+  filter(terr_type != "Territory",
+         terr_type != "Unorganized Territory",
+         terr_type != "Other")
+
+
+#classInt::classIntervals(var = unopposed_map$total_unopposed_percent, n = 4, style = "jenks")
+
+breaks <- c(0, 0.5, 3, 6, 14, 48)
+labels <- c("[0.0 - 0.5%]", "[0.5 - 3.0%]", "[3.0 - 6.0%]", "[6.0 - 14.0%]", "[47.1%]")
+
+unopposed_map$breaks <- cut(unopposed_map$total_unopposed_percent, breaks = breaks, labels = labels)
+
+ggplot() +
+  geom_sf(data = unopposed_map,
+           aes(fill = breaks),
+           color = "black", size = 0.25)+
+  coord_sf(crs = "+proj=aea +lat_1=25 +lat_2=50 +lon_0=-100")+
+  scale_fill_brewer("Percent of Elections", palette = "YlGnBu", na.value = "white")+
+  labs(title = "Unopposed Incumbent Elections (1789-1825)", fill = "Percent of Unopposed Elections")+
+  theme(plot.title = element_text(size=14, family = "Georgia"))
+
+```
