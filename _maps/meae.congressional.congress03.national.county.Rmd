@@ -1,0 +1,48 @@
+---
+meae-id: meae.congressional.congress03.national.county
+type: congressional
+level: national
+geography: county
+congressnum: 3
+congressordinal: 3rd
+title: '2nd Congress: National, 1792-1793'
+year: 1792
+legend: fed-vs-anti
+related-maps:
+- id: meae.congressional.congress04.national.county
+  name: National 4th Congress
+  type: next
+- id: meae.congressional.congress02.national.district
+  name: National 2nd Congress
+  type: previous
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress03.national.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_national_map_data() %>% 
+  map_national()
+```
+
+</div>
+
+<div class="results-table">
+
+</div>
