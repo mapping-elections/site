@@ -1,0 +1,82 @@
+---
+meae-id: meae.congressional.congress18.al.county
+type: congressional
+level: state
+state: Alabama
+geography: county
+congressnum: 18
+congressordinal: 18th
+title: '18th Congress: Alabama 1823'
+year: 1823
+legend: congress-18-19
+nnv:
+- id: al.uscongress.1.1823
+  name: AL US Congress 1823 District 1
+- id: al.uscongress.2.1823
+  name: AL US Congress 1823 District 2
+- id: al.uscongress.3.1823
+  name: AL US Congress 1823 District 3
+related-maps:
+- id: meae.congressional.congress17.al.county
+  name: AL 17th Congress
+  type: previous
+- id: meae.congressional.congress19.al.county
+  name: AL 19th Congress
+  type: next
+#- id: meae.congressional.congress18.national.district
+#  name: National 18th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress18.al.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  filter (id != "als_nca6",
+          id != "als_nca7",
+          id != "als_nca8",
+          id != "als_nca9",
+          id != "als_nca11",
+          id != "als_nca12",
+          id != "als_nca13") %>% 
+  map_counties()
+```
+
+</div>
+
+Alabama elected three Democratic-Republicans to the Eighteenth Congress. All three of the Democratic-Republicans were part of a faction led by Andrew Jackson.
+
+The map for this election is incomplete due to the lack of returns in several counties.
+
+Following the 1820 Census, Alabama gained 2 more seats in the House of Representatives.
+
+Alabama used a statewide at-large system for electing members to Congress. 
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

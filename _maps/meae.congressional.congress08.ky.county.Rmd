@@ -56,14 +56,16 @@ map_id <- "meae.congressional.congress08.ky.county"
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>%
-  map_counties()
+  map_counties(height = "450px")
 ```
 
 </div>
 
 Kentucky elected six Democratic-Republicans to the Eighth Congress.
 
-Kentucky used a district system for electing members to Congress. Kentucky was apportioned four more seats in the House of Representatives.
+Following the 1800 Census, Kentucky gained four seats in the House of Representatives.
+
+Kentucky used a district system for electing members to Congress.
 
 <div class="results-table">
 

@@ -46,15 +46,16 @@ map_id <- "meae.congressional.congress06.tn.county"
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>%
-  map_counties(height = "300px") %>% 
-  setView(lng = -84.85, lat = 36.348, zoom = 8)
+  filter(id != "tns_nca1",
+         id != "tns_nca2") %>% 
+  map_counties(height = "300px")
 ```
 
 </div>
 
 Tennessee elected one Democratic-Republican to the Sixth Congress.
 
-Mapping this election is incomplete because of the lack of returns at the town or county level in many areas.
+The map for this election is incomplete due to the lack of returns in a few counties. 
 
 <div class="results-table">
 

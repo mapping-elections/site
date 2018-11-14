@@ -3,7 +3,7 @@ MAPPAGES := $(patsubst _maps/%.Rmd, _maps/%.md, $(wildcard _maps/*.Rmd))
 build : $(MAPPAGES)
 	bundle exec jekyll build --future --incremental --config _config.yml,_config-preview.yml
 
-serve : clean
+serve : 
 	@echo "Previewing the site locally"
 	bundle exec jekyll serve --watch --future --incremental
 
@@ -24,7 +24,7 @@ deploy : clean $(MAPPAGES)
 
 deploy-production : clean $(MAPPAGES)
 	@echo "Building site ..."
-	bundle exec jekyll build
+	bundle exec jekyll build --future
 	@echo "Deploying to production server ..."
 	rsync --checksum --exclude dev/ --delete -avz _site/* earlyamerican:/websites/earlyamer/www/
 	@echo "Done."

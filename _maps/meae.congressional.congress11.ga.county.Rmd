@@ -1,0 +1,70 @@
+---
+meae-id: meae.congressional.congress11.ga.county
+type: congressional
+level: state
+state: Georgia
+geography: county
+congressnum: 11
+congressordinal: 11th
+title: '11th Congress: Georgia 1808'
+year: 1808
+legend: fed-vs-rep
+nnv:
+- id: ga.uscongress.1808
+  name: GA US Congress 1808 At Large
+related-maps:
+- id: meae.congressional.congress10.ga.county
+  name: GA 10th Congress
+  type: previous
+- id: meae.congressional.congress12.ga.county
+  name: GA 12th Congress
+  type: next
+#- id: meae.congressional.congress11.national.district
+#  name: National 11th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress11.ga.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  filter(id != "gas_nca") %>% 
+  map_counties(height = "525px")
+```
+
+</div>
+
+Georgia elected four Democratic-Republicans to the Eleventh Congress.
+
+Mapping for this election is incomplete because of a lack of returns in several counties.
+
+Georgia used a statewide at-large method for electing members to Congress.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

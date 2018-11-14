@@ -1,0 +1,67 @@
+---
+meae-id: meae.congressional.congress17.nh.county
+type: congressional
+level: state
+state: New Hampshire
+geography: county
+congressnum: 17
+congressordinal: 17th
+title: '17th Congress: New Hampshire 1820'
+year: 1820
+legend: fed-vs-rep
+nnv:
+- id: nh.uscongress.1820
+  name: NH US Congress 1820 At Large
+related-maps:
+- id: meae.congressional.congress16.nh.county
+  name: NH 16th Congress
+  type: previous
+- id: meae.congressional.congress18.nh.county
+  name: NH 18th Congress
+  type: next
+#- id: meae.congressional.congress17.national.district
+#  name: National 17th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress17.nh.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "700px", congress = 17)
+```
+
+</div>
+
+New Hampshire elected six Democratic-Republicans to the Seventeenth Congress.
+
+New Hampshire used a statewide at-large system for electing members to Congress. 
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

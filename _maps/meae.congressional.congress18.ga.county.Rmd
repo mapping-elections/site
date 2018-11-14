@@ -1,0 +1,72 @@
+---
+meae-id: meae.congressional.congress18.ga.county
+type: congressional
+level: state
+state: Georgia
+geography: county
+congressnum: 18
+congressordinal: 18th
+title: '18th Congress: Georgia 1822'
+year: 1822
+legend: dissrep
+nnv:
+- id: ga.uscongress.1822
+  name: GA US Congress 1822 At Large
+related-maps:
+- id: meae.congressional.congress17.ga.county
+  name: GA 17th Congress
+  type: previous
+- id: meae.congressional.congress19.ga.county
+  name: GA 19th Congress
+  type: next
+#- id: meae.congressional.congress18.national.district
+#  name: National 18th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress18.ga.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  filter(id != "gas_nca") %>% 
+  map_counties(height = "550px")
+```
+
+</div>
+
+Georgia elected seven Democratic-Republicans to the Eighteenth Congress. Five of those Democratic-Republicans were part of a faction led by William Crawford.
+
+Following the 1820 Census, Georgia gained 1 seat in the House of Representatives.
+
+Georgia used a statewide at-large system for electing members to Congress.
+
+In 1824, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ga.uscongress.special.1824) was held in which Richard H. Wilde was elected to replace Thomas W. Cobb, who had resigned from office after being elected as a Senator.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

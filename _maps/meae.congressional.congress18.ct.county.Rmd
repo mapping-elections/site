@@ -1,0 +1,69 @@
+---
+meae-id: meae.congressional.congress18.ct.county
+type: congressional
+level: state
+state: Connecticut
+geography: county
+congressnum: 18
+congressordinal: 18th
+title: '18th Congress: Connecticut 1823'
+year: 1823
+legend: fed-vs-rep
+nnv:
+- id: ct.uscongress.1823
+  name: CT US Congress 1823 At Large
+related-maps:
+- id: meae.congressional.congress17.ct.county
+  name: CT 17th Congress
+  type: previous
+- id: meae.congressional.congress19.ct.county
+  name: CT 19th Congress
+  type: next
+#- id: meae.congressional.congress18.national.district
+#  name: National 18th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress18.ct.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "350px", congress = 18)
+```
+
+</div>
+
+Connecticut elected six Democratic-Republicans to the Eighteenth Congress.
+
+Following the 1820 Census, Connecticut lost 1 seat in the House of Representatives.
+
+Connecticut used a statewide at-large system for electing members to Congress. 
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

@@ -1,0 +1,89 @@
+---
+meae-id: meae.congressional.congress19.la.county
+type: congressional
+level: state
+state: Louisiana
+geography: county
+congressnum: 19
+congressordinal: 19th
+title: '19th Congress: Louisiana 1824'
+year: 1824
+legend: congress-18-19
+nnv:
+- id: la.uscongress1.1824
+  name: LA US Congress 1824 District 1
+- id: la.uscongress2.1824
+  name: LA US Congress 1824 District 2
+- id: la.uscongress3.1824
+  name: LA US Congress 1824 District 3
+related-maps:
+- id: meae.congressional.congress18.la.county
+  name: LA 18th Congress
+  type: previous
+#- id: meae.congressional.congress19.national.district
+#  name: National 19th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress19.la.county"
+
+cities <- tribble(
+  ~city, ~lat, ~lng, ~jacksonian_percentage, ~jacksonian_vote, 
+  "New Orleans", 30.0686, -89.9390, 1.0, 928)
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data(election_date = "1824-02-17") %>%
+  filter(!is.na(state_abbr),
+          cross_ref != "New to dataset") %>%
+  arrange(!is.na(federalist_percentage), !is.na(demrep_percentage), 
+          cnty_type == "Parish") %>% 
+  map_counties(cities = FALSE, height = "600px") %>% 
+  addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
+               fillColor = mappingelections:::poli_chrome(cities),
+               opacity = 1, fillOpacity = 0.8, radius = 8, weight = 3,
+                popup = ~paste0("<b>City of ", city, "</b><br/>",
+                                 "Congressional District: 1<br/>",
+                                "Jacksonians: ", jacksonian_percentage * 100,
+                                 "% (", 
+                                 prettyNum(jacksonian_vote, big.mark = ","),
+                                 " votes)"),
+                 label = ~city)
+
+```
+
+</div>
+
+Louisiana elected three Democratic-Republicans to the Nineteenth Congress. Two of those Democratic-Republicans were part of a faction led by John Quincy Adams and Henry Clay, and the other was part of a faction led by Andrew Jackson.
+
+The map for this election is incomplete due to the lack of returns at the town or parish level.
+
+Louisiana used a district system for electing members to Congress. 
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

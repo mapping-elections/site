@@ -1,0 +1,72 @@
+---
+meae-id: meae.congressional.congress12.oh.county
+type: congressional
+level: state
+state: Ohio
+geography: county
+congressnum: 12
+congressordinal: 12th
+title: '12th Congress: Ohio 1810'
+year: 1810
+legend: dissrep
+nnv:
+- id: oh.ushouseofrepresentatives.1810
+  name: OH US Congress 1810 At Large
+related-maps:
+- id: meae.congressional.congress11.oh.county
+  name: OH 11th Congress
+  type: previous
+- id: meae.congressional.congress13.oh.county
+  name: OH 13th Congress
+  type: next
+#- id: meae.congressional.congress12.national.district
+#  name: National 12th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress12.oh.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  filter(id != "ohs_nca3",
+         id != "ohs_nca4",
+         id != "ohs_nca5") %>% 
+  map_counties(height = "650px", congress = 12)
+```
+
+</div>
+
+Ohio elected one Democratic-Republican to the Twelfth Congress. 
+
+The map for this election is incomplete due to the lack of returns in many areas.
+
+Ohio used a statewide at-large method for electing a member to Congress.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

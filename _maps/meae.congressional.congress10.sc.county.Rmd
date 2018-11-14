@@ -30,9 +30,9 @@ related-maps:
 - id: meae.congressional.congress09.sc.county
   name: SC 9th Congress
   type: previous
-# - id: meae.congressional.congress11.sc.county
-#   name: SC 11th Congress
-#   type: next
+- id: meae.congressional.congress11.sc.county
+  name: SC 11th Congress
+  type: next
 # - id: meae.congressional.congress10.national.district
 #   name: National 10th Congress
 #   type: national
@@ -65,6 +65,7 @@ cities <- tribble(
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>%
+  filter(id != "scs_nca5") %>% 
   arrange(!is.na(federalist_percentage), !is.na(demrep_percentage)) %>%
   map_counties(cities = FALSE, height = "600px") %>% 
   addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",

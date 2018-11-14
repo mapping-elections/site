@@ -30,9 +30,9 @@ related-maps:
 - id: meae.congressional.congress09.md.county
   name: MD 9th Congress
   type: previous
-# - id: meae.congressional.congress11.md.county
-#   name: MD 11th Congress
-#   type: next
+- id: meae.congressional.congress11.md.county
+  name: MD 11th Congress
+  type: next
 # - id: meae.congressional.congress10.national.district
 #   name: National 10th Congress
 #   type: national
@@ -65,7 +65,7 @@ cities <- tribble(
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>%
-  map_counties(height = "425px", cities = FALSE) %>% 
+  map_counties(height = "450px", cities = FALSE) %>% 
   addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
                    fillColor = mappingelections:::poli_chrome(cities),
                    opacity = 1, fillOpacity = 0.8, radius = 8, weight = 3,
@@ -89,7 +89,7 @@ map_id %>%
 
 Maryland elected three Federalists and six Democratic-Republicans to the Tenth Congress. The dissenting Republicans who ran in districts 5 and 8 were Tertium Quids.
 
-Maryland used a district system for electing members to Congress. District 5 elected two members.
+Maryland used a district system for electing members to Congress. Each district elected one member of Congress except District 5, which elected two members.
 
 <div class="results-table">
 
