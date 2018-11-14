@@ -46,4 +46,7 @@ collections:
   maps:
     output: true
     permalink: /:collection/:title.html
+  essays:
+    output: true
+    permalink: /:collection/:title.html
 
