@@ -65,8 +65,8 @@ Kentucky used a district system for electing members to Congress.
 In 1815, a [special
 election](https://elections.lib.tufts.edu/catalog/tufts:ky.uscongress2.special.1815)
 was held to confirm the legality of Henry Clay's election to the the
-14th Congress, as he was serving as a foreign minster during the regular
-election. Clay's elected was confirmed without opposition.
+Fourteenth Congress, as he was serving as a foreign minster during the
+regular election. Clay's election was confirmed without opposition.
 
 In 1816, a [special
 election](https://elections.lib.tufts.edu/catalog/tufts:ky.specialuscongress1.1816)
