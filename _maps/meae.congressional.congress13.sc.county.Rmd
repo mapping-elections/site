@@ -57,7 +57,7 @@ library(mappingelections)
 map_id <- "meae.congressional.congress13.sc.county"
 
 cities <- tribble(
-  ~city, ~lat, ~lng, ~demrep_percentage, ~other_percentage, ~demrep_vote, ~other_vote, 
+  ~city, ~lat, ~lng, ~federalist_percentage, ~demrep_percentage, ~federalist_vote, ~demrep_vote, 
   "Charleston", 32.7765, -79.9311, 0.387, 0.613, 752, 1190)
 ```
 
@@ -75,13 +75,13 @@ map_id %>%
                opacity = 1, fillOpacity = 0.8, radius = 8, weight = 3,
                 popup = ~paste0("<b>City of ", city, "</b><br/>",
                                  "Congressional District: 1<br/>",
-                                 "Democratic-Republicans: ", demrep_percentage * 100,
+                                 "Federalists: ", federalist_percentage * 100,
+                                 "% (", 
+                                 prettyNum(federalist_vote, big.mark = ","),
+                                 " votes)<br/>",
+                                "Democratic-Republicans: ", demrep_percentage * 100,
                                  "% (", 
                                  prettyNum(demrep_vote, big.mark = ","),
-                                 " votes)<br/>",
-                                "Unaffiliated or other parties: ", other_percentage * 100,
-                                 "% (", 
-                                 prettyNum(other_vote, big.mark = ","),
                                  " votes)"),
                  label = ~city)
 ```
