@@ -2,7 +2,7 @@
 title: "Electing Members of Congress in the Early American Republic: District
 v. At-Large Elections"
 author: "Philip Lampi"
-date: 2018
+year: 2018
 output:
   md_document:
     variant: markdown

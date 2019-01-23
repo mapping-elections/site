@@ -1,7 +1,7 @@
 ---
 title: "Congressional Incumbency in the Early Republic"
 author: "Jordan F. Bratt"
-date: "2018"
+year: "2018"
 output:
   html_document:
     theme: default

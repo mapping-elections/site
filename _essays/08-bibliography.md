@@ -1,7 +1,7 @@
 ---
 title: "Bibliography"
 author: "text"
-date: 2018
+year: 2018
 output:
   md_document:
     variant: markdown

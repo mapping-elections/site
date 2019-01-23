@@ -1,8 +1,11 @@
 ---
 title: "Political Parties in the Early Republic"
 author: "Rosemarie Zagarri"
-date: 2018-12-15
-layout: page
+year: 2018
+layout: essay
+doi: https://doi.org/10.1093/
+image: "/content-img/nj-women-at-polls.jpg"
+order: 
 ---
 
 The Mapping Early American Elections (MEAE) website is an invaluable

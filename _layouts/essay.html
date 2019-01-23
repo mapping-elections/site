@@ -1,0 +1,17 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+{% include header.html %}
+
+<div class="row">
+    <div class="large-8 large-offset-2 column">
+        <h3>{{ page.title }}</h3>
+        <div class="author">{{ page.author }}</div>
+        <div class="metadata">{{ page.year }} | <a href="{{ page.doi }}">{{ page.doi }}</a></div>
+        <div>{{ content }}</div>
+    </div>
+
+
+</div>
+
+{% include footer.html %}

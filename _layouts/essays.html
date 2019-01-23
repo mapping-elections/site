@@ -1,0 +1,23 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+{% include header.html %}
+
+<div class="row">
+    <div class="large-9 column border-right">
+        {% for page in site.essays %}
+            <div class="large-12 row {% if forloop.first == false %}blog-entry{% endif %}">
+                <div class="large-4 column">
+                    <img src="{{ site.url }}{{ page.image }}" alt="" />
+                </div> 
+                <div class="large-8 column">
+                    <h4><a href="{{site.url }}{{ page.url }}" title="">{{ page.title }}</a></h4>
+                    <p>{{ page.abstract}} <a href="{{site.url}}{{ page.url }}" class="more-link">Read&nbsp;more&nbsp;&rarr;</a></p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    
+</div>
+
+{% include footer.html %}

@@ -1,7 +1,7 @@
 ---
 title: "Democracy and the Importance of Voter Turnout"
 author: "Andrew Robertson"
-date: 2018
+year: 2018
 output:
   md_document:
     variant: markdown
