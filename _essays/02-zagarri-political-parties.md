@@ -5,7 +5,7 @@ year: 2018
 layout: essay
 doi: https://doi.org/10.1093/
 image: "/content-img/nj-women-at-polls.jpg"
-order: 
+order: 1
 ---
 
 The Mapping Early American Elections (MEAE) website is an invaluable

@@ -11,6 +11,7 @@ output:
   pdf_document: default
 layout: essay
 always_allow_html: yes
+order: 2
 ---
 
 ```{r setup, include=FALSE}

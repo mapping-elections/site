@@ -53,6 +53,9 @@ h1,h2,h3,h4,h5 {
 h2, h3, h4, h5, .nav-link a {
   color:$secondary-header-color;
 }
+h3.essay-title {
+  font-size:1.25rem;
+}
 h5 {
   color:#0571b0;
 }

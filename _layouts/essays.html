@@ -5,8 +5,9 @@
 
 <div class="row">
     <div class="large-9 column border-right">
-        {% for page in site.essays %}
-            <div class="large-12 row {% if forloop.first == false %}blog-entry{% endif %}">
+        {% assign sorted_essays = site.essays | sort:"order" %}
+        {% for page in sorted_essays %}
+            <div class="large-12 row">
                 <div class="large-4 column">
                     <img src="{{ site.url }}{{ page.image }}" alt="" />
                 </div> 
