@@ -1,0 +1,52 @@
+---
+meae-id: meae.congressional.congress04.national.county
+type: congressional
+level: national
+geography: county
+congressnum: 4
+congressordinal: 4th
+title: '4th Congress: National, 1794-1795'
+year: 1794
+legend: fed-vs-anti
+related-maps:
+- id: meae.congressional.congress05.national.county
+  name: National 5th Congress
+  type: next
+- id: meae.congressional.congress03.national.county
+  name: National 3rd Congress
+  type: previous
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+map_id <- "meae.congressional.congress04.national.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_national_map_data() %>%
+  filter(id != "cts_wr") %>% 
+  filter(id != "gas_nca") %>% 
+  filter(id != "scs_nca5") %>% 
+  filter(id != "tns_nca1",
+         id != "tns_nca1") %>% 
+  map_national(congress = 4)
+```
+
+</div>
+
+<div class="results-table">
+
+</div>
