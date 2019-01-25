@@ -7,7 +7,7 @@
     <div class="large-9 column">
         <div class="featured">
 
-            {% for page in site.essays %}
+            {% for page in site.essays limit:3 %}
                 <div class="medium-4 column">
                     <h3><a href="{{ site.url }}{{ page.url }}" class="essay-title">{{ page.title }}</a></h3>
                     <img src="{{ site.url }}{{ page.image }}" alt="" />
