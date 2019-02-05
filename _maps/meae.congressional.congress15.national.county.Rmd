@@ -5,7 +5,7 @@ level: national
 geography: county
 congressnum: 15
 congressordinal: 15th
-title: '14th Congress: National, 1816-1817'
+title: '15th Congress: National, 1816-1817'
 year: 1816
 legend: dissrep
 related-maps:
