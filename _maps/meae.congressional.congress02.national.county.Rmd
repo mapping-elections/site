@@ -6,15 +6,15 @@ geography: county
 congressnum: 2
 congressordinal: 2nd
 title: '2nd Congress: National, 1790-1791'
-year: 1789
+year: 1790
 legend: fed-vs-anti
 related-maps:
+- id: meae.congressional.congress01.national.county
+  name: National 1st Congress
+  type: previous
 - id: meae.congressional.congress03.national.county
   name: National 3nd Congress
   type: next
-- id: meae.congressional.congress01.national.district
-  name: National 1st Congress
-  type: previous
 output:
   md_document:
     variant: markdown
@@ -38,7 +38,12 @@ map_id <- "meae.congressional.congress02.national.county"
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_national_map_data() %>%
-  map_national()
+  filter(id != "cts_wr") %>% 
+  filter(id != "gas_nca") %>% 
+  filter(id != "ncs_nca5") %>% 
+  filter(id != "scs_nca5",
+         is.na(demrep_vote)) %>% 
+  map_national(congress = 2)
 ```
 
 </div>
