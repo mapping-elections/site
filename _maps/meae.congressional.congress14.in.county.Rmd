@@ -8,7 +8,7 @@ congressnum: 14
 congressordinal: 14th
 title: '14th Congress: Indiana 1816'
 year: 1816
-legend: dissrep
+legend: fed-vs-rep
 nnv:
 - id: in.uscongress.1816
   name: IN US Congress 1816 At Large
