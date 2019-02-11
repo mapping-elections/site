@@ -4,8 +4,9 @@ author: "Rosemarie Zagarri"
 year: 2018
 layout: essay
 doi: https://doi.org/10.1093/
-image: "/content-img/nj-women-at-polls.jpg"
-order: 1
+image: "/content-img/congressional-pugilists-1789.jpg"
+order: 2
+abstract: Political parties during the early national era were fundamentally different from political parties today. Parties at this time were evolving institutions whose legitimacy and structure were not well-defined—yet which, at the same time, came to occupy a crucial, and unexpected, role in the American political process.
 ---
 
 The Mapping Early American Elections (MEAE) website is an invaluable
@@ -84,9 +85,9 @@ state-to-state. In Maryland, for example, congressional elections for
 the First Congress revisited the debate over the Constitution and pitted
 the Federalists against the Anti-Federalists. In 1790, however,
 candidates from the so-called "Potomac" party challenged those from the
-"Chesapeake" party in a [match]](http://earlyamericanelections.org/maps/meae.congressional.congress02.md.county.html) that highlighted local rather than national divisions and interests.
+"Chesapeake" party in a [match](http://earlyamericanelections.org/maps/meae.congressional.congress02.md.county.html) that highlighted local rather than national divisions and interests.
 
-![Figure 1. The top map, showing North Carolina’s election for the [Tenth Congress](http://earlyamericanelections.org/maps/meae.congressional.congress10.nc.county.html), demonstrates the virtual disappearance of the Federalists (green) in the state between 1798 and 1806. In this election, the Federalists received a majority of the vote in only one district. However, during the War of 1812, the Federalists staged somewhat of a comeback. In North Carolina’s election for the [Fourteenth Congress](http://earlyamericanelections.org/maps/meae.congressional.congress14.nc.county.html), shown in the the bottom map, more than one quarter of the elected representatives were Federalists.](/content-img/nc10-14-maps.png)
+![The top map, showing North Carolina’s election for the [Tenth Congress](http://earlyamericanelections.org/maps/meae.congressional.congress10.nc.county.html), demonstrates the virtual disappearance of the Federalists (green) in the state between 1798 and 1806. In this election, the Federalists received a majority of the vote in only one district. However, during the War of 1812, the Federalists staged somewhat of a comeback. In North Carolina’s election for the [Fourteenth Congress](http://earlyamericanelections.org/maps/meae.congressional.congress14.nc.county.html), shown in the the bottom map, more than one quarter of the elected representatives were Federalists.](/content-img/nc10-14-maps.png)
 
 Splinter factions also emerged, mostly among the Democratic-Republicans,
 that divided the party and created new kinds of alliances. For
@@ -105,9 +106,9 @@ party designations had local significance but not national recognition.
 Nonetheless, elected members from these groups usually voted with the
 Democratic-Republicans in Congress.
 
-![Figure 2. These four maps demonstrate the varied support in several states for the "Tertium Quids” (orange), a Democratic-Republican faction which combined disaffected Republicans with like-minded Federalists. Two Quid candidates were elected for the [Ninth Congress in Virginia](http://earlyamericanelections.org/maps/meae.congressional.congress09.va.county.html) and for the [Tenth Congress in Pennsylvania](http://earlyamericanelections.org/maps/meae.congressional.congress10.pa.county.html). In Ohio’s election for the [Eleventh Congress](http://earlyamericanelections.org/maps/meae.congressional.congress11.oh.county.html) Quid Jeremiah Morrow won the state’s only seat with 71.5% of the vote. In Maryland’s election for the [Tenth Congress](http://earlyamericanelections.org/maps/meae.congressional.congress10.md.county.html) Quid candidates received votes in five out of eight districts, but none were elected to Congress.](/content-img/quids-map.png)
+![These four maps demonstrate the varied support in several states for the "Tertium Quids” (orange/brown), a Democratic-Republican faction which combined disaffected Republicans with like-minded Federalists. Two Quid candidates were elected for the [Ninth Congress](http://earlyamericanelections.org/maps/meae.congressional.congress09.va.county.html) in Virginia and for the [Tenth Congress](http://earlyamericanelections.org/maps/meae.congressional.congress10.pa.county.html) in Pennsylvania. In Ohio’s election for the [Eleventh Congress](http://earlyamericanelections.org/maps/meae.congressional.congress11.oh.county.html) Quid Jeremiah Morrow won the state’s only seat with 71.5% of the vote. In Maryland’s election for the [Tenth Congress](http://earlyamericanelections.org/maps/meae.congressional.congress10.md.county.html) Quid candidates received votes in five out of eight districts, but none were elected to Congress.](/content-img/quids-map.png)
 
-![Figure 3. After becoming the dominant political force in New York in the early 1800s, the Democratic-Republicans (purple) splintered into several competing factions (orange), each centered around a strong leader, and sustained by fierce party loyalty and patronage. The maps for New York’s elections to the [Sixteenth](http://earlyamericanelections.org/maps/meae.congressional.congress16.ny.county.html), [Seventeenth](http://earlyamericanelections.org/maps/meae.congressional.congress17.ny.county.html), [Eighteenth](http://earlyamericanelections.org/maps/meae.congressional.congress18.ny.county.html) and [Nineteenth](http://earlyamericanelections.org/maps/meae.congressional.congress19.ny.county.html) congresses demonstrate the growing support for these various factions, such as the Bucktails, Clintonians, and Quids.](/content-img/ny16-19-map.png)
+![After becoming the dominant political force in New York in the early 1800s, the Democratic-Republicans (purple) splintered into several competing factions (orange/brown), each centered around a strong leader, and was sustained by fierce party loyalty and patronage. These maps for New York’s elections to the [Sixteenth](http://earlyamericanelections.org/maps/meae.congressional.congress16.ny.county.html), [Seventeenth](http://earlyamericanelections.org/maps/meae.congressional.congress17.ny.county.html), [Eighteenth](http://earlyamericanelections.org/maps/meae.congressional.congress18.ny.county.html) and [Nineteenth](http://earlyamericanelections.org/maps/meae.congressional.congress19.ny.county.html) congresses demonstrate the growing support for these various factions, such as the Bucktails, Clintonians, and Quids.](/content-img/ny16-19-map.png)
 
 Beginning with the Election of 1800, the Federalists went into a long
 period of decline. Although they remained competitive in many state and
@@ -121,7 +122,7 @@ England, such Massachusetts and New Hampshire, but also in Pennsylvania
 and Maryland. Even South Carolina saw a brief resurgence of Federalist
 victories.
 
-![Figure 4. After 1800, the Federalist’s influence slowly declined. While they were able to contest local elections, they were no longer able to win the presidency or control Congress. However, as these map show, the Federalist Party (green) experienced a resurgence across the country during the War of 1812. During elections for the Fourteenth Congress, Federalist-leaning states in the north such as [New Hampshire](http://earlyamericanelections.org/maps/meae.congressional.congress14.nh.county.html) elected all Federalist representatives. Federalists also won seats in the Mid-Atlantic in states such as [Maryland](http://earlyamericanelections.org/maps/meae.congressional.congress14.md.county.html) (5 out of 9 seats) and [Pennsylvania](http://earlyamericanelections.org/maps/meae.congressional.congress14.pa.county.html) (7 out of 23 seats). Even voters in [South Carolina](http://earlyamericanelections.org/maps/meae.congressional.congress14.sc.county.html) elected one Federalist to Congress.](/content-img/federalist-resurgence.png)
+![After 1800, the Federalist’s influence slowly declined. While they were able to contest local elections, they were no longer able to win the presidency or control Congress. However, as these map show, the Federalist Party (green) experienced a resurgence across the country during the War of 1812. During elections for the Fourteenth Congress, Federalist-leaning states in the north such as [New Hampshire](http://earlyamericanelections.org/maps/meae.congressional.congress14.nh.county.html) elected all Federalist representatives. Federalists also won seats in the Mid-Atlantic in states such as [Maryland](http://earlyamericanelections.org/maps/meae.congressional.congress14.md.county.html) (5 out of 9 seats) and [Pennsylvania](http://earlyamericanelections.org/maps/meae.congressional.congress14.pa.county.html) (7 out of 23 seats). Even voters in [South Carolina](http://earlyamericanelections.org/maps/meae.congressional.congress14.sc.county.html) elected one Federalist to Congress.](/content-img/federalist-resurgence.png)
 
 Yet the Federalist victories did not continue. By 1820, the First Party
 System, featuring the Federalists and Democratic-Republicans, had
@@ -137,7 +138,7 @@ wings of the party (figure 5). These developments set the stage for the subseque
 "Second Party System"---a new configuration which pit Andrew Jackson's
 Democratic Party against Henry Clay's Whigs during the 1830s.
 
-![Figure 5. After 1820, the Democratic-Republicans splintered into several groups, each supporting a different presidential hopeful. During Kentucky’s election for the [Nineteenth Congress](http://earlyamericanelections.org/maps/meae.congressional.congress19.ky.county.html), voters supported the traditional Democratic-Republican party (purple), a faction led by John Quincy Adams and Henry Clay (red), or a faction led by Andrew Jackson (blue). The Adams/Clay faction won seven seats, while the Jackson faction won five seats.](/content-img/ky19-map.png)
+![After 1820, the Democratic-Republicans splintered into several groups, each supporting a different presidential hopeful. During Kentucky’s election for the [Nineteenth Congress](http://earlyamericanelections.org/maps/meae.congressional.congress19.ky.county.html), voters supported the traditional Democratic-Republican party (purple), a faction led by John Quincy Adams and Henry Clay (red), or a faction led by Andrew Jackson (blue). The Adams/Clay faction won seven seats, while the Jackson faction won five seats.](/content-img/ky19-map.png)
 
 Convoluted though these developments may be, tracking electoral shifts
 in early American political parties reveals larger changes in popular
