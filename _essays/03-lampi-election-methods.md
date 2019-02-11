@@ -1,16 +1,13 @@
 ---
-title: "Electing Members of Congress in the Early American Republic: District
-v. At-Large Elections"
+title: "Electing Members of Congress in the Early American Republic"
+subtitle: "District v. At-Large Elections"
 author: "Philip Lampi"
 year: 2018
-output:
-  md_document:
-    variant: markdown
-  html_document:
-    theme: default
-always_allow_html: yes
 layout: essay
+doi: https://doi.org/10.1093/
+image: "/content-img/county-election.jpg"
 order: 3
+abstract: For the first several decades of the new nation’s existence, the individual states within the United States had virtually unrestricted authority over the time, place, and manner of electing members for the U.S. Congress. Because of this, states developed and experimented with their own creative electoral procedures, such as at-large elections or multiple-member districts. These dynamic electoral methods reflect the period’s ongoing debates about the nature of representation in the new republic.
 ---
 
 Until 1825, the US government did not require that local election
@@ -97,7 +94,7 @@ Congressmen from 1792--1824. A few others alternated from single member
 districts to At-Large, mostly when one party or the other thought that
 the At-Large method would give an advantage to their side.
 
-![Figure 1. During the early republic, the most common method of electing Congressional candidates was the At-Large system, in which candidates who received the most votes in a state-wide election were elected to Congress. In states like Georgia, which used an  At-Large system, all voters cast a single ballot which included the names of several candidates. In Georgia’s [Sixth](http://earlyamericanelections.org/maps/meae.congressional.congress06.ga.county.html) congressional election, voters wrote two names on their ballot. Because the Democratic-Republicans only ran one candidate (a second Republican John Milledge had declined to serve if elected), many Republican voters gave their second vote to either Federalist James Jones or Federalist Benjamin Taliaferro. This produced the unusual result of an entirely Federalist congressional delegation in a predominately Democratic-Republican state.](/content-img/ga6-map.png)
+![During the early republic, the most common method of electing Congressional candidates was the At-Large system, in which candidates who received the most votes in a state-wide election were elected to Congress. In states like Georgia, which used an  At-Large system, all voters cast a single ballot which included the names of several candidates. In Georgia’s [Sixth](http://earlyamericanelections.org/maps/meae.congressional.congress06.ga.county.html) congressional election, voters wrote two names on their ballot. Because the Democratic-Republicans (purple) only ran one candidate (a second Republican John Milledge had declined to serve if elected), many Republican voters gave their second vote to either Federalist (green) James Jones or Federalist Benjamin Taliaferro. This produced the unusual result of an entirely Federalist congressional delegation in a predominately Democratic-Republican state.](/content-img/ga6-map.png)
 
 Although single member districts were by far the most common, a few
 states created what were called multi-member districts. These were
@@ -110,7 +107,7 @@ have been separate districts. Based on how these counties were grouped
 together, evidence suggests these multi-membered districts were created
 mainly for political reasons.
 
-![Figure 2. Muti-member districts were often created and used for political purposes. For example, Pennsylvania contained several Federalist-leaning counties (green) that had large populations and could have been separated into their own single-member districts, each voting for their own Congressman. However, in order to curb the number of Federalists elected to Congress, the Republican-controlled state legislature grouped these Federalist counties into muti-members districts with counties that supported the Democratic-Republicans (purple). This allowed voters in the Republican-supported counties in a muti-member district to out-vote those supporting the Federalists. Pennsylvania’s [Eleventh](http://earlyamericanelections.org/maps/meae.congressional.congress11.pa.county.html) congressional election shows successful results of this strategy. By grouping Delaware County (Federalist majority) with Philadelphia County and the City of Philadelphia (Republican majority), District 1 elected three out of three Democratic-Republican congressmen.](/content-img/pa11-map.png)
+![Muti-member districts were often created and used for political purposes. For example, Pennsylvania contained several Federalist-leaning counties (green) with large populations that could have easily been their own single-member district and voted for their own Congressman. However, in order to curb the number of Federalists elected to Congress, the Republican-controlled state legislature grouped these Federalist counties with counties that heavily supported the Democratic-Republicans (purple) to create enormous Congressional districts which elected more than one member. This arrangement often allowed voters in the Republican-supported counties in a muti-member district to out-vote those supporting the Federalists. Pennsylvania’s [Eleventh](http://earlyamericanelections.org/maps/meae.congressional.congress11.pa.county.html) congressional election shows successful results of this strategy. By grouping Delaware County (Federalist majority) with Philadelphia County and the City of Philadelphia (Republican majority), District 1 elected three out of three Democratic-Republican congressmen.](/content-img/pa11-map.png)
 
 New York started using this method in 1804, establishing one
 multi-member district. This increased to six multi-members districts
