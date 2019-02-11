@@ -7,7 +7,7 @@ congressnum: 4
 congressordinal: 4th
 title: '4th Congress: National, 1794-1795'
 year: 1794
-legend: fed-vs-anti
+legend: fed-vs-rep
 related-maps:
 - id: meae.congressional.congress05.national.county
   name: National 5th Congress

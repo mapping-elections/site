@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+	 id="legend" inkscape:version="0.92.3 (2405546, 2018-03-11)" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="340px" height="175px"
+	 viewBox="0 0 340 175" enable-background="new 0 0 340 175" xml:space="preserve">
+<circle id="circle20_1_" fill="#A50F15" stroke="#888888" cx="312" cy="21" r="8"/>
+<circle id="circle18_1_" fill="#DE2D26" stroke="#888888" cx="264" cy="21" r="8"/>
+<circle id="circle16_1_" fill="#FB6A4A" stroke="#888888" cx="216" cy="21" r="8"/>
+<circle id="circle14_1_" fill="#FCAE91" stroke="#888888" cx="168" cy="21" r="8"/>
+<circle id="circle10_1_" fill="#08519C" stroke="#888888" cx="312" cy="43" r="8"/>
+<circle id="circle8_1_" fill="#3182BD" stroke="#888888" cx="264" cy="43" r="8"/>
+<circle id="circle6_1_" fill="#6BAED6" stroke="#888888" cx="216" cy="43" r="8"/>
+<circle id="circle4_1_" fill="#BDD7E7" stroke="#888888" cx="168" cy="43" r="8"/>
+<sodipodi:namedview  objecttolerance="10" inkscape:pageopacity="0" inkscape:window-width="766" inkscape:window-y="696" inkscape:cy="87.5" guidetolerance="10" inkscape:cx="170" showgrid="false" inkscape:window-height="480" inkscape:zoom="1.2970588" inkscape:window-x="2524" bordercolor="#666666" pagecolor="#ffffff" inkscape:pageshadow="2" inkscape:current-layer="legend" inkscape:window-maximized="0" id="namedview47" gridtolerance="10" borderopacity="1">
+	</sodipodi:namedview>
+<text id="text2" transform="matrix(1 0 0 1 104.3125 24)" font-family="'ArialMT'" font-size="12">Caucus</text>
+<text id="text12" transform="matrix(1 0 0 1 79.6387 46)" font-family="'ArialMT'" font-size="12">Anti-Caucus</text>
+<text id="text22" transform="matrix(1 0 0 1 152.6982 70)" font-family="'ArialMT'" font-size="12">≤40%</text>
+<text id="text24" transform="matrix(1 0 0 1 200.6982 70)" font-family="'ArialMT'" font-size="12">≤60%</text>
+<text id="text26" transform="matrix(1 0 0 1 248.6982 70)" font-family="'ArialMT'" font-size="12">≤80%</text>
+<text id="text28" transform="matrix(1 0 0 1 293.3613 70)" font-family="'ArialMT'" font-size="12">≤100%</text>
+<line id="line30" fill="none" stroke="#BBBBBB" stroke-width="2" stroke-dasharray="5,5" x1="161" y1="93" x2="235" y2="93"/>
+<text id="text32" transform="matrix(1 0 0 1 106.9785 97)" font-family="'ArialMT'" font-size="12">County</text>
+<line id="line34" fill="none" stroke="#222222" stroke-width="3" x1="161" y1="115" x2="235" y2="115"/>
+<text id="text36" transform="matrix(1 0 0 1 30.2852 119)" font-family="'ArialMT'" font-size="12">Congressional district</text>
+<circle id="circle38" fill="#EAF945" stroke="#333333" stroke-width="1.5" cx="168" cy="137" r="5"/>
+<text id="text40" transform="matrix(1 0 0 1 50.9746 139)" font-family="'ArialMT'" font-size="12">Major city or town</text>
+<circle id="circle42" fill="#C7C7C7" stroke="#888888" cx="168" cy="159" r="8"/>
+<text id="text44" transform="matrix(1 0 0 1 52.2695 161)" font-family="'ArialMT'" font-size="12">No data available</text>
+</svg>

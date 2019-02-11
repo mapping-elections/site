@@ -7,7 +7,7 @@ congressnum: 2
 congressordinal: 2nd
 title: '2nd Congress: National, 1790-1791'
 year: 1789
-legend: fed-vs-anti
+legend: congress-2
 related-maps:
 - id: meae.congressional.congress03.national.county
   name: National 3nd Congress

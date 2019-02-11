@@ -7,7 +7,7 @@ congressnum: 3
 congressordinal: 3rd
 title: '2nd Congress: National, 1792-1793'
 year: 1792
-legend: fed-vs-anti
+legend: fed-vs-anti-vs-rep
 related-maps:
 - id: meae.congressional.congress04.national.county
   name: National 4th Congress
