@@ -2,13 +2,11 @@
 title: "Democracy and the Importance of Voter Turnout"
 author: "Andrew Robertson"
 year: 2018
-output:
-  md_document:
-    variant: markdown
-  html_document:
-    theme: default
-always_allow_html: yes
 layout: essay
+doi: https://doi.org/10.1093/
+image: "/content-img/house-of-representatives-1822.jpg"
+order: 4
+abstract: While previous studies have reported fairly low levels of voter participation during the early national era, voter turnout actually increased dramatically during this period, with 50 to 70 percent of the total free male population frequently voting in many states. In contrast with later political systems, substantive issues, rather than party loyalty, galvanized voters during the First Party System and propelled them to the polls.
 ---
 
 When did the United States become a democracy? One of the best measures
@@ -113,39 +111,191 @@ accurate counts of the adult male population. For more specific results
 using the New Nation Votes data, see the table in figure 2 which shows
 the turnout in Maryland congressional elections in 1808, 1810 and 1812.)
 
-![Figure 1. text](/content-img/file)
+![caption text](/content-img/file.jpg)
 
 Figure 2. 
-|                COUNTY                	| 1808 	| 1810 	| 1812 	|
-|-------------------------------------	|:----:	|:----:	|:----:	|
-| DISTRICT 1 SOUTHERN MARYLAND         	|      	|      	|      	|
-| St. Mary's                           	| 54   	| 31   	| 40   	|
-| Calvert                              	| 100  	| 44   	| 47   	|
-| Charles                              	| 67   	| 39   	| 74   	|
-| DISTRICT 2 CENTRAL MARYLAND EAST     	|      	|      	|      	|
-| Anne Arundel                         	| 58   	| 49   	| 75   	|
-| Prince George's                      	| 92   	| 51   	| 100  	|
-| DISTRICT 3 CENTRAL MARYLAND WEST     	|      	|      	|      	|
-| Montgomery                           	| 77   	| 16   	| 77   	|
-| Frederick                            	| 84   	| ***  	| 88   	|
-| DISTRICT 4 WESTERN MARYLAND          	|      	|      	|      	|
-| Washington                           	| 75   	| 21   	| 81   	|
-| Allegany                             	| 72   	| 24   	| 80   	|
-| DISTRICT 5 BALTIMORE COUNTY AND TOWN 	|      	|      	|      	|
-| Baltimore County                     	| 77   	| 32   	| 100  	|
-| Baltimore Town                       	| 47   	| 48   	| 44   	|
-| DISTRICT 6 UPPER CHESAPEAKE          	|      	|      	|      	|
-| Harford                              	| 66   	| 39   	| 55   	|
-| Cecil                                	| 90   	| 40   	| 41   	|
-| Kent                                 	| 93   	| 29   	| 47   	|
-| DISTRICT 7 EASTERN SHORE CENTRAL     	|      	|      	|      	|
-| Queen Anne's                         	| 81   	| 28   	| 68   	|
-| Talbot                               	| 81   	| 37   	| 90   	|
-| Caroline                             	| 78   	| 54   	| 88   	|
-| DISTRICT 8 EASTERN SHORE SOUTH       	|      	|      	|      	|
-| Worcester                            	| 60   	| 71   	| 80   	|
-| Dorchester                           	| 52   	| 34   	| 93   	|
-| Somerset                             	| 52   	| 26   	| 79   	|
+<table>
+<thead>
+<tr class="header">
+<th>COUNTY</th>
+<th style="text-align: center;">1808</th>
+<th style="text-align: center;">1810</th>
+<th style="text-align: center;">1812</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>DISTRICT 1: SOUTHERN MARYLAND</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td>St. Mary’s</td>
+<td style="text-align: center;">54</td>
+<td style="text-align: center;">31</td>
+<td style="text-align: center;">40</td>
+</tr>
+<tr class="odd">
+<td>Calvert</td>
+<td style="text-align: center;">100</td>
+<td style="text-align: center;">44</td>
+<td style="text-align: center;">47</td>
+</tr>
+<tr class="even">
+<td>Charles</td>
+<td style="text-align: center;">67</td>
+<td style="text-align: center;">39</td>
+<td style="text-align: center;">74</td>
+</tr>
+<tr class="odd">
+<td>DISTRICT 2: CENTRAL MARYLAND EAST</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td>Anne Arundel</td>
+<td style="text-align: center;">58</td>
+<td style="text-align: center;">49</td>
+<td style="text-align: center;">75</td>
+</tr>
+<tr class="odd">
+<td>Prince George’s</td>
+<td style="text-align: center;">92</td>
+<td style="text-align: center;">51</td>
+<td style="text-align: center;">100</td>
+</tr>
+<tr class="even">
+<td>DISTRICT 3: CENTRAL MARYLAND WEST</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td>Montgomery</td>
+<td style="text-align: center;">77</td>
+<td style="text-align: center;">16</td>
+<td style="text-align: center;">77</td>
+</tr>
+<tr class="even">
+<td>Frederick</td>
+<td style="text-align: center;">84</td>
+<td style="text-align: center;">**</td>
+<td style="text-align: center;">88</td>
+</tr>
+<tr class="odd">
+<td>DISTRICT 4: WESTERN MARYLAND</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td>Washington</td>
+<td style="text-align: center;">75</td>
+<td style="text-align: center;">21</td>
+<td style="text-align: center;">81</td>
+</tr>
+<tr class="odd">
+<td>Allegany</td>
+<td style="text-align: center;">72</td>
+<td style="text-align: center;">24</td>
+<td style="text-align: center;">80</td>
+</tr>
+<tr class="even">
+<td>DISTRICT 5: BALTIMORE COUNTY AND TOWN</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td>Baltimore County</td>
+<td style="text-align: center;">77</td>
+<td style="text-align: center;">32</td>
+<td style="text-align: center;">100</td>
+</tr>
+<tr class="even">
+<td>Baltimore Town</td>
+<td style="text-align: center;">47</td>
+<td style="text-align: center;">48</td>
+<td style="text-align: center;">44</td>
+</tr>
+<tr class="odd">
+<td>DISTRICT 6: UPPER CHESAPEAKE</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td>Harford</td>
+<td style="text-align: center;">66</td>
+<td style="text-align: center;">39</td>
+<td style="text-align: center;">55</td>
+</tr>
+<tr class="odd">
+<td>Cecil</td>
+<td style="text-align: center;">90</td>
+<td style="text-align: center;">40</td>
+<td style="text-align: center;">41</td>
+</tr>
+<tr class="even">
+<td>Kent</td>
+<td style="text-align: center;">93</td>
+<td style="text-align: center;">29</td>
+<td style="text-align: center;">47</td>
+</tr>
+<tr class="odd">
+<td>DISTRICT 7: EASTERN SHORE CENTRAL</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td>Queen Anne’s</td>
+<td style="text-align: center;">81</td>
+<td style="text-align: center;">28</td>
+<td style="text-align: center;">68</td>
+</tr>
+<tr class="odd">
+<td>Talbot</td>
+<td style="text-align: center;">81</td>
+<td style="text-align: center;">37</td>
+<td style="text-align: center;">90</td>
+</tr>
+<tr class="even">
+<td>Caroline</td>
+<td style="text-align: center;">78</td>
+<td style="text-align: center;">54</td>
+<td style="text-align: center;">88</td>
+</tr>
+<tr class="odd">
+<td>DISTRICT 8: EASTERN SHORE SOUTH</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td>Worcester</td>
+<td style="text-align: center;">60</td>
+<td style="text-align: center;">71</td>
+<td style="text-align: center;">80</td>
+</tr>
+<tr class="odd">
+<td>Dorchester</td>
+<td style="text-align: center;">52</td>
+<td style="text-align: center;">34</td>
+<td style="text-align: center;">93</td>
+</tr>
+<tr class="even">
+<td>Somerset</td>
+<td style="text-align: center;">52</td>
+<td style="text-align: center;">26</td>
+<td style="text-align: center;">79</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
 
 In the congressional elections of 1808, all nineteen counties in
 Maryland registered turnout of fifty percent or more of all adult white
