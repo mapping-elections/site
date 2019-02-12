@@ -6,7 +6,7 @@ geography: county
 congressnum: 1
 congressordinal: 1st
 title: '1st Congress: National, 1788-1789'
-year: 1789
+year: 1788
 legend: fed-vs-anti
 related-maps:
 - id: meae.congressional.congress02.national.county
@@ -35,7 +35,13 @@ map_id <- "meae.congressional.congress01.national.county"
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_national_map_data() %>%
-  map_national()
+  filter(id != "cts_wr") %>% 
+  filter(id != "gas_nca") %>% 
+  filter(id != "tns_nca1",
+         id != "tns_nca2") %>% 
+  filter(id != "scs_nca5",
+         id != "scs_nca2") %>%   
+  map_national(congress = 1)
 ```
 
 </div>
