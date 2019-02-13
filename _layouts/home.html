@@ -9,8 +9,8 @@
 
             {% for page in site.essays limit:3 %}
                 <div class="medium-4 column">
-                    <h3><a href="{{ site.url }}{{ page.url }}" class="essay-title">{{ page.title }}</a></h3>
                     <img src="{{ site.url }}{{ page.image }}" alt="" />
+                    <h3><a href="{{ site.url }}{{ page.url }}" class="essay-title">{{ page.title }}</a></h3>
                     <div class="page-excerpt"><p>{{ page.abstract | remove: '<p>' | remove: '</p>' }}&nbsp;<a href="{{ site.url }}{{ page.url }}">Read More &rarr;</a></p></div>
                 </div>
             {% endfor %}
