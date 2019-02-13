@@ -1,14 +1,11 @@
 ---
 title: "Bibliography"
-author: "text"
 year: 2018
-output:
-  md_document:
-    variant: markdown
-  html_document:
-    theme: default
-always_allow_html: yes
 layout: essay
+doi: https://doi.org/10.1093/
+image: "/content-img/file.jpg"
+order: 8
+abstract: text
 ---
 Banner, James M. *To the Hartford Convention: The Federalists and the
 Origins of Party Politics in Massachusetts, 1789--1815*. New York:
