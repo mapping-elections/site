@@ -1,0 +1,181 @@
+---
+title: "Congressional Incumbency in the Early Republic"
+author: "Jordan F. Bratt"
+year: "2018"
+layout: essay
+doi: https://doi.org/10.1093/
+image: "/content-img/unopposed-incumbent-elections.jpg"
+order: 5
+abstract: High rates of congressional turnover during the new republic’s first decades produced a kind of de facto rotation in office, bringing new members with fresh ideas, but also erasing the knowledge and expertise of experienced members. While some incumbent members did not return to Congress at the wishes of their constituents, others chose to leave their seat voluntarily in order to remain at home with their families, or seek other political or economic opportunities.
+output:
+  md_document:
+    variant: markdown
+    preserve_yaml: true
+  html_document:
+    theme: default
+  pdf_document: default
+always_allow_html: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(mappingelections)
+library(dplyr)
+library(readr)
+library(ggplot2)
+library(stringr)
+library(broom)
+library(maptools)
+library(knitr)
+library(scales)
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+candidates <- meae_congress_candidate_totals %>%
+  mutate(state = substr(meae_id, 31, 32),
+        congress = substr(meae_id, 28, 29) %>% as.numeric())
+```
+
+Unopposed reelections represent an intriguing subsection of incumbency
+in the early republic. Of all the congressional elections in the MEAE
+dataset, 322 or twelve percent are unopposed elections. 160 of those
+elections represent unopposed incumbents. William A. Burwell of Virginia
+participated in the most unopposed elections, winning a seat in the 10th
+through the 16th Congresses. Burwell was hardly the exception for
+Virginia. Nine of the top fifteen representatives with the most
+unopposed elections were from the state of Virginia accounting for
+fifty-nine percent of the total 75 elections among them. Virginia
+accounted for the most unopposed elections and the majority of unopposed
+elections took place in the South (Virginia, Kentucky, South Carolina,
+and North Carolina). The prevalence of unopposed incumbents in Virginia
+illustrates both the district-wide support for the individual, as well
+as the political clout such a person wielded. These elections also
+reflect the persistence of an older form of deferential politics that
+was quickly becoming obsolete in a democratizing nation.
+
+```{r, echo=FALSE}
+## Visualization of unopposed incumbent elections by state
+
+## Table of winning/elected candidates 
+total_elected_candidates <- candidates %>%
+  filter(winner==TRUE)
+
+## Total number of elections won in MEAE dataset 
+total_elections_won <- nrow(total_elected_candidates)
+
+## Table of unopposed elections
+unopposed_candidates <- total_elected_candidates %>%
+  filter(unopposed==TRUE)
+
+## Number of total unopposed elections in MEAE dataset 
+num_elect_unopposed <- nrow(unopposed_candidates)
+
+## Percent of unopposed elections in MEAE dataset 
+percent_elect_unopposed <- ((num_elect_unopposed/total_elections_won) * 100)
+
+## Candidates with most unopposed elections
+unopposed_candidates_top <- unopposed_candidates %>%
+  count(candidate_id)  %>%
+  group_by(candidate_id) %>%
+  arrange(desc(n)) %>%
+  inner_join(unopposed_candidates, by=c("candidate_id" = "candidate_id")) %>%
+  select(candidate_id, candidate, "n_unop_elect_won" = n, state, unopposed) %>%
+  subset(!duplicated(candidate_id))
+
+## Top 15 Candidates with most unopposed elections
+unopposed_candidates_top15 <- unopposed_candidates_top %>% head(15)
+top15 <- sum(unopposed_candidates_top15$n_unop_elect_won)
+
+## Number and Percent of top 15 candidates with most unopposed elections per State (Ex.VA) 
+num_state_15 <- unopposed_candidates_top15 %>% 
+  filter(state == "va")
+
+top15_state <- sum(num_state_15$n_unop_elect_won)
+ 
+percent_top15_state <- ((top15_state/top15) * 100)
+
+## Number of times each candidate was elected 
+number_times_candidate_elected <- total_elected_candidates %>%
+  count(candidate_id)
+  
+## Join for info, filter for candidates elected 2+ times 
+multiple_elections <-number_times_candidate_elected %>%
+  inner_join(total_elected_candidates, by=c("candidate_id" = "candidate_id")) %>%
+  filter(n>=2) 
+
+## Create new col. to indicate incumbency, filter for only incumbents
+incumbency <- multiple_elections %>%
+  group_by(candidate_id) %>%
+  mutate(incumbent = congress - lag(congress)) %>%
+  filter(incumbent == 1)
+
+## Number of incumbent elections in MEAE dataset 
+num_elect_incumbent <- nrow(incumbency)
+
+## Percentage of incumbent elections in MEAE dataset 
+percent_elect_incumbent <- ((num_elect_incumbent/total_elections_won) * 100)
+
+## Filter for only unopposed, incumbent elections
+unopposed_inc<- incumbency %>%
+  filter(incumbent == 1,
+         unopposed == TRUE)
+
+## Number of unopposed incumbent elections
+number_inc_unop <- nrow(unopposed_inc)
+
+## Percent of unopposed incumbent elections
+percent_inc_unop <- ((number_inc_unop/total_elections_won) * 100)
+
+## Number of unopposed incumbent elections per state
+state_unopposed_num <- unopposed_inc %>%
+  ungroup() %>%
+  count(state)
+
+## Percentage of unopposed incumbent elections per state
+state_unopposed_percent <- state_unopposed_num %>%
+  mutate(state = str_to_upper(state)) %>%
+  mutate(total_unopposed_percent = as.double((nn/number_inc_unop) * 100)) 
+
+states_1825 <- us_states("1825-01-01")
+
+unopposed_map <- states_1825 %>%
+  left_join(state_unopposed_percent, by=c("state_abbr" = "state"))
+
+unopposed_map <- unopposed_map %>%
+  filter(terr_type != "Territory",
+         terr_type != "Unorganized Territory",
+         terr_type != "Other")
+
+#classInt::classIntervals(var = unopposed_map$total_unopposed_percent, n = 4, style = "jenks")
+
+##breaks <- c(0, 0.5, 3, 6, 14, 48)
+##labels <- c("[0.0 - 0.5%]", "[0.5 - 3.0%]", "[3.0 - 6.0%]", "[6.0 - 14.0%]", "[47.1%]")
+
+##breaks <- c(0, 0.5, 3, 6, 11, 14, 45, 50)
+##labels <- c("[0 - 0.5%]", "[0.5 - 3%]", "[3 - 6%]", "[6 - 11%]", "[11 - 14%]", "[14 - 45%]", "[45 - 50%]")
+
+breaks <- c(0, 1, 2, 4, 8, 16, 32, 64)
+labels <- c("0-1%", "1-2%", "2-4%", "4-8%", "8-16%", "16-32%", "32-64%")
+
+unopposed_map$breaks <- cut(unopposed_map$total_unopposed_percent, breaks = breaks, labels = labels) 
+
+fig3 <- 
+  ggplot() +
+  geom_sf(data = unopposed_map,
+           aes(fill = breaks),
+           color = "black", size = 0.25) +
+  coord_sf(crs = "+proj=aea +lat_1=25 +lat_2=50 +lon_0=-100") +
+  scale_fill_brewer("Percent of Elections", palette = "YlGnBu", na.value = "white") +
+  labs(title = "Unopposed Incumbent Elections (1789-1825)", fill = "Percent of Unopposed Elections") +
+  theme(plot.title = element_text(size=16),
+        rect = element_blank(),
+        axis.text.x = element_blank(),
+        axis.text.y = element_blank(),
+        axis.ticks = element_blank())
+ggsave("../content-img/unopposed-incumbent-elections.png", fig3, width = 9, height = 8)
+```
+![text](/content-img/unopposed-incumbent-elections.png)
+
+This is a number: `r round(percent_top15_states)`. 

@@ -1,42 +1,28 @@
 ---
-title: "Congressional Incumbency in the Early Republic"
-author: "Jordan F. Bratt"
-year: "2018"
+abstract: |
+    High rates of congressional turnover during the new republic's first
+    decades produced a kind of de facto rotation in office, bringing new
+    members with fresh ideas, but also erasing the knowledge and expertise
+    of experienced members. While some incumbent members did not return to
+    Congress at the wishes of their constituents, others chose to leave
+    their seat voluntarily in order to remain at home with their families,
+    or seek other political or economic opportunities.
+always_allow_html: yes
+author: 'Jordan F. Bratt'
+doi: '<https://doi.org/10.1093/>'
+image: '/content-img/unopposed-incumbent-elections.jpg'
 layout: essay
-doi: https://doi.org/10.1093/
-image: "/content-img/unopposed-incumbent-elections.jpg"
 order: 5
-abstract: High rates of congressional turnover during the new republic’s first decades produced a kind of de facto rotation in office, bringing new members with fresh ideas, but also erasing the knowledge and expertise of experienced members. While some incumbent members did not return to Congress at the wishes of their constituents, others chose to leave their seat voluntarily in order to remain at home with their families, or seek other political or economic opportunities.
 output:
-  md_document:
-    variant: markdown
-    preserve_yaml: true
   html_document:
     theme: default
+  md_document:
+    preserve_yaml: True
+    variant: markdown
   pdf_document: default
-always_allow_html: yes
+title: Congressional Incumbency in the Early Republic
+year: 2018
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-
-library(tidyverse)
-library(mappingelections)
-library(dplyr)
-library(readr)
-library(ggplot2)
-library(stringr)
-library(broom)
-library(maptools)
-library(knitr)
-library(scales)
-```
-
-```{r echo=FALSE, message=FALSE, warning=FALSE}
-candidates <- meae_congress_candidate_totals %>%
-  mutate(state = substr(meae_id, 31, 32),
-        congress = substr(meae_id, 28, 29) %>% as.numeric())
-```
 
 The issue of congressional turnover provides important insights into the
 nature of political representation in Congress. Turnover measures the
@@ -85,19 +71,19 @@ not because they had failed to be reelected, but because they chose to
 leave their seat voluntarily. Serving in Congress thus often imposed
 extreme burdens on the members of Congress as well as their families.
 
-```{r echo=FALSE, message=FALSE, warning=FALSE}
-#DE Incumbency Table (Table illustrating the incumbency/elections for Delaware)
-incumbent <- candidates %>%
-  filter(state == "de",
-         winner == TRUE) %>%
-  select(congress, 
-         Candidate = candidate, 
-         ID = candidate_id, 
-         winner)  %>%
-  spread(congress, winner)
-
-kable(incumbent)
-```
+  Candidate           ID       1      2      3      4      5      6      7      8      9      10     11     12     13     14     15     16     17     18     19
+  ------------------- -------- ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------
+  Caesar A. Rodney    RC0001   NA     NA     NA     NA     NA     NA     NA     TRUE   NA     NA     NA     NA     NA     NA     NA     NA     TRUE   NA     NA
+  Henry M. Ridgely    RH0001   NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     TRUE   TRUE   NA     NA     NA     NA     NA     NA
+  James A. Bayard     BJ0078   NA     NA     NA     NA     TRUE   TRUE   TRUE   NA     TRUE   NA     NA     NA     NA     NA     NA     NA     NA     NA     NA
+  James M. Broom      BJ0090   NA     NA     NA     NA     NA     NA     NA     NA     NA     TRUE   NA     NA     NA     NA     NA     NA     NA     NA     NA
+  John Patten         PJ0032   NA     NA     TRUE   TRUE   NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     NA
+  John Vining         VJ0002   TRUE   TRUE   NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     NA
+  Louis McLane        ML0002   NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     TRUE   TRUE   TRUE   TRUE   TRUE
+  Nicholas Van Dyke   VN0010   NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     TRUE   NA     NA     NA     NA     NA     NA     NA     NA
+  Thomas Clayton      CT0005   NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     TRUE   NA     NA     NA     NA     NA
+  Thomas Cooper       CT0008   NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     TRUE   TRUE   NA     NA     NA     NA     NA
+  Willard Hall        HW0048   NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     NA     TRUE   TRUE   NA     NA     NA
 
 The framers of the Constitution did not include a provision establishing
 a mandatory rotation in office for members of Congress. What may appear
@@ -131,7 +117,7 @@ more rural counties.
 
 While career or professional politicians did not exist in the early
 years of the country, there were a number of individuals who maintained
-a sustained tenure in Congress. Thomas Newton Jr. of Virginia served as
+a sustained tenure in Congress. Thomas Newton Jr. of Virginia served as
 a Representative from the 7th--22nd Congresses. (Note, however, that
 MEAE has election data only for the 7th--19th Congresses.) Representing
 the area surrounding Norfolk, Newton remained a popular candidate,
@@ -148,58 +134,6 @@ Congresses 9--12. Twice he ran unopposed, even after becoming a Tertium
 Quid. Newton and Randolph represent a large group of incumbents who
 continued to be reelected and maintained their voice and influence
 within Congress over long periods of time.
-
-```{r, echo=FALSE, warning=FALSE}
-## Thomas Newton Jr. incumbency graph 3
-
-newton_elections <- candidates %>% 
-  filter(candidate_id == "NT0024") %>% 
-  select (election_id)
-
-newton_competition <- newton_elections %>%
-  inner_join(candidates, by=c("election_id" = "election_id")) 
-
-newton_remove <- newton_competition %>%
-  filter(is.na(percent_vote),
-         candidate_id != "NT0024") 
-
-newton_elect <- newton_competition %>%
-  anti_join(newton_remove, by=c("election_id", "candidate_id")) 
-
-newton_elect$percent_vote[is.na(newton_elect$percent_vote)] <- 1
-
-newton_elect <- newton_elect %>% 
-  filter(election_id != "va.uscongress.8.1789",
-         candidate != "scattering",
-         percent_vote >= .10) 
-
-newton_elect$percent_vote[9] <- NA
-newton_elect$percent_vote[16] <- NA
-
-fig2 <- 
-  newton_elect %>%
-  ggplot(aes(x = congress, y = percent_vote * 100))+
-  geom_point(aes(color = candidate_id))+
-  geom_line(aes(color = candidate_id)) +
-  geom_rect(xmin=11.8, xmax=12.2, ymin=50, ymax=100, alpha=.03, fill="#756BB1") +
-  geom_rect(xmin=17.8, xmax=18.2, ymin=50, ymax=100, alpha=.03, fill="#756BB1") +
-  annotate(geom="text", x=7.5, y=56.5, label="Josiah Parker",
-              color="black") +
-  annotate(geom="text", x=12.6, y=40, label="Robert B. Tayler",
-              color="black") +
-  annotate(geom="text", x=14.9, y=35, label="Swepson Whitehead",
-              color="black") +
-  annotate(geom="text", x=7.9, y=44, label="Thomas Newton, Jr.",
-              color="black") +
-  theme_minimal(base_size = 11) +
-  geom_hline(aes(yintercept=50))+
-  scale_x_continuous(name="Congress", breaks = c(7, 9, 11, 13, 15, 17, 19))+
-  scale_y_continuous(name="Percent of Popular Vote", breaks=c(40, 50, 60, 70, 80, 90, 100))+
-  scale_colour_manual(name="Candidates (Party)", breaks=c("NT0024", "PJ0725", "TR0086", "WS0229"), labels=c("Thomas Newton, Jr. (Dem-Rep)", "Josiah Parker (Fed.)", "Robert B. Tayler (Fed.)", "Swepson Whitehead (Fed.)"), values=c("#756BB1", "#31A354", "#31A354", "#31A354"))+
-  labs(title="The Elections of Thomas Newton, Jr.")
-
-ggsave("../content-img/newton-incumbency.png", fig2, width = 9, height = 6)
-```
 
 ![text](/content-img/newton-incumbency.png)
 
@@ -220,83 +154,6 @@ as the political clout such a person wielded. These elections also
 reflect the persistence of an older form of deferential politics that
 was quickly becoming obsolete in a democratizing nation.
 
-```{r, echo=FALSE}
-## Visualization of unopposed incumbent elections by state
-
-total_elections <- candidates %>%
-  count(candidate_id) 
-
-total_elect_candidates <- candidates %>%
-  inner_join(total_elections, by=c("candidate_id"="candidate_id")) 
-
-#colnames(total_elect_candidates)[14] <- "total_election"
-
-total_elect_candidates <- total_elect_candidates %>%
-  filter(winner==TRUE)
-
-unopposed_candidates <- total_elect_candidates %>%
-  count(candidate_id) %>%
-  filter(nn>=2) 
-
-unopposed_incumbents <-unopposed_candidates %>%
-  inner_join(total_elect_candidates, by=c("candidate_id" = "candidate_id"))
-
-#colnames(unopposed_incumbents)[2] <- "total_unopposed"
-
-test <- unopposed_incumbents %>%
-  group_by(candidate_id) %>%
-  mutate(incumbent = congress - lag(congress)) 
-
-unopposed_inc<- test %>%
-  filter(incumbent == 1,
-         unopposed == TRUE)
-
-state_unopposed <- unopposed_inc %>%
-  ungroup() %>%
-  count(state)
-
-state_unopposed <- state_unopposed %>%
-  mutate(state = str_to_upper(state)) %>%
-  mutate(total_unopposed_percent = as.double((nnn/240) * 100)) 
-
-states_1825 <- us_states("1825-01-01")
-
-unopposed_map <- states_1825 %>%
-  left_join(state_unopposed, by=c("state_abbr" = "state"))
-
-unopposed_map <- unopposed_map %>%
-  filter(terr_type != "Territory",
-         terr_type != "Unorganized Territory",
-         terr_type != "Other")
-
-#classInt::classIntervals(var = unopposed_map$total_unopposed_percent, n = 4, style = "jenks")
-
-##breaks <- c(0, 0.5, 3, 6, 14, 48)
-##labels <- c("[0.0 - 0.5%]", "[0.5 - 3.0%]", "[3.0 - 6.0%]", "[6.0 - 14.0%]", "[47.1%]")
-
-##breaks <- c(0, 0.5, 3, 6, 11, 14, 45, 50)
-##labels <- c("[0 - 0.5%]", "[0.5 - 3%]", "[3 - 6%]", "[6 - 11%]", "[11 - 14%]", "[14 - 45%]", "[45 - 50%]")
-
-breaks <- c(0, 1, 2, 4, 8, 16, 32, 64)
-labels <- c("0-1%", "1-2%", "2-4%", "4-8%", "8-16%", "16-32%", "32-64%")
-
-unopposed_map$breaks <- cut(unopposed_map$total_unopposed_percent, breaks = breaks, labels = labels) 
-
-fig3 <- 
-  ggplot() +
-  geom_sf(data = unopposed_map,
-           aes(fill = breaks),
-           color = "black", size = 0.25) +
-  coord_sf(crs = "+proj=aea +lat_1=25 +lat_2=50 +lon_0=-100") +
-  scale_fill_brewer("Percent of Elections", palette = "YlGnBu", na.value = "white") +
-  labs(title = "Unopposed Incumbent Elections (1789-1825)", fill = "Percent of Unopposed Elections") +
-  theme(plot.title = element_text(size=16),
-        rect = element_blank(),
-        axis.text.x = element_blank(),
-        axis.text.y = element_blank(),
-        axis.ticks = element_blank())
-ggsave("../content-img/unopposed-incumbent-elections.png", fig3, width = 9, height = 8)
-```
 ![text](/content-img/unopposed-incumbent-elections.png)
 
 Both in the early republic and today, high turnover can result from a
