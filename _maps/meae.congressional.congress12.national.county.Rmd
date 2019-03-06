@@ -7,7 +7,7 @@ congressnum: 12
 congressordinal: 12th
 title: '12th Congress: National, 1810-1811'
 year: 1810
-legend: dissrep
+legend: 'dissrep'
 related-maps:
 - id: meae.congressional.congress11.national.county
   name: National 11th Congress

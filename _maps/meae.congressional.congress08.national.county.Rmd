@@ -7,7 +7,7 @@ congressnum: 8
 congressordinal: 8th
 title: '8th Congress: National, 1802-1803'
 year: 1802
-legend: fed-vs-rep
+legend: 'fed-vs-rep'
 related-maps:
 - id: meae.congressional.congress07.national.county
   name: National 7th Congress

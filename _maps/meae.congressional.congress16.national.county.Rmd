@@ -7,7 +7,7 @@ congressnum: 16
 congressordinal: 16th
 title: '16th Congress: National, 1818-1819'
 year: 1818
-legend: dissrep
+legend: 'dissrep'
 related-maps:
 - id: meae.congressional.congress15.national.county
   name: National 15th Congress

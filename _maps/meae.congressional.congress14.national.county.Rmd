@@ -7,7 +7,7 @@ congressnum: 14
 congressordinal: 14th
 title: '14th Congress: National, 1814-1815'
 year: 1814
-legend: fed-vs-rep
+legend: 'fed-vs-rep'
 related-maps:
 - id: meae.congressional.congress13.national.county
   name: National 13th Congress

@@ -7,7 +7,7 @@ congressnum: 19
 congressordinal: 19th
 title: '19th Congress: National, 1824-1825'
 year: 1824
-legend: congress-18-19
+legend: 'congress-18-19'
 related-maps:
 - id: meae.congressional.congress18.national.county
   name: National 18th Congress

@@ -7,7 +7,7 @@ congressnum: 10
 congressordinal: 10th
 title: '10th Congress: National, 1806-1807'
 year: 1806
-legend: dissrep
+legend: 'dissrep'
 related-maps:
 - id: meae.congressional.congress09.national.county
   name: National 9th Congress

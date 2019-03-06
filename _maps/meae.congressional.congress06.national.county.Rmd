@@ -7,7 +7,7 @@ congressnum: 6
 congressordinal: 6th
 title: '6th Congress: National, 1798-1799'
 year: 1798
-legend: fed-vs-rep
+legend: 'fed-vs-rep'
 related-maps:
 - id: meae.congressional.congress07.national.county
   name: National 7th Congress

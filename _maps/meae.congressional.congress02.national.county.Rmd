@@ -7,7 +7,7 @@ congressnum: 2
 congressordinal: 2nd
 title: '2nd Congress: National, 1790-1791'
 year: 1789
-legend: congress-2
+legend: 'congress-2'
 related-maps:
 - id: meae.congressional.congress01.national.county
   name: National 1st Congress

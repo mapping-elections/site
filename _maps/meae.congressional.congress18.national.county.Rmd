@@ -7,7 +7,7 @@ congressnum: 18
 congressordinal: 18th
 title: '18th Congress: National, 1822-1823'
 year: 1822
-legend: congress-18-19
+legend: 'congress-18-19'
 related-maps:
 - id: meae.congressional.congress17.national.county
   name: National 17th Congress

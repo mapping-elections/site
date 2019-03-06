@@ -7,7 +7,7 @@ congressnum: 1
 congressordinal: 1st
 title: '1st Congress: National, 1788-1789'
 year: 1788
-legend: fed-vs-anti
+legend: 'fed-vs-anti'
 related-maps:
 - id: meae.congressional.congress02.national.county
   name: National 2nd Congress
