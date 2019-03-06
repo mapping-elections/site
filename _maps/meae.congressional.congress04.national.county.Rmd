@@ -9,12 +9,12 @@ title: '4th Congress: National, 1794-1795'
 year: 1794
 legend: fed-vs-rep
 related-maps:
-- id: meae.congressional.congress05.national.county
-  name: National 5th Congress
-  type: next
 - id: meae.congressional.congress03.national.county
   name: National 3rd Congress
   type: previous
+- id: meae.congressional.congress05.national.county
+  name: National 5th Congress
+  type: next
 output:
   md_document:
     variant: markdown

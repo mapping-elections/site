@@ -13,7 +13,7 @@ related-maps:
   name: National 1st Congress
   type: previous
 - id: meae.congressional.congress03.national.county
-  name: National 3nd Congress
+  name: National 3rd Congress
   type: next
 output:
   md_document:

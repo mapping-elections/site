@@ -9,12 +9,12 @@ title: '5th Congress: National, 1796-1797'
 year: 1796
 legend: fed-vs-rep
 related-maps:
-- id: meae.congressional.congress06.national.county
-  name: National 6th Congress
-  type: next
 - id: meae.congressional.congress04.national.county
   name: National 4th Congress
   type: previous
+- id: meae.congressional.congress06.national.county
+  name: National 6th Congress
+  type: next
 output:
   md_document:
     variant: markdown
