@@ -29,9 +29,9 @@ related-maps:
 - id: meae.congressional.congress10.ky.county
   name: KY 10th Congress
   type: next
-# - id: meae.congressional.congress09.national.district
-#   name: National 9th Congress
-#   type: national
+- id: meae.congressional.congress09.national.county
+  name: National 9th Congress
+  type: national
 output:
   md_document:
     variant: markdown

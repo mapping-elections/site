@@ -58,9 +58,9 @@ related-maps:
 - id: meae.congressional.congress04.va.county
   name: VA 4th Congress
   type: next
-# - id: meae.congressional.congress03.national.district
-#   name: National 3rd Congress
-#   type: national
+- id: meae.congressional.congress03.national.county
+  name: National 3rd Congress
+  type: national
 state: Virginia
 always_allow_html: yes
 type: congressional

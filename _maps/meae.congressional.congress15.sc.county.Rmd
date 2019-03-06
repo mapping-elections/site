@@ -35,9 +35,9 @@ related-maps:
 - id: meae.congressional.congress16.sc.county
   name: SC 16th Congress
   type: next
-#- id: meae.congressional.congress15.national.district
-#  name: National 15th Congress
-#  type: national
+- id: meae.congressional.congress15.national.county
+  name: National 15th Congress
+  type: national
 output:
   md_document:
     variant: markdown

@@ -19,9 +19,9 @@ related-maps:
 - id: meae.congressional.congress18.ga.county
   name: GA 18th Congress
   type: next
-#- id: meae.congressional.congress17.national.district
-#  name: National 17th Congress
-#  type: national
+- id: meae.congressional.congress17.national.county
+  name: National 17th Congress
+  type: national
 output:
   md_document:
     variant: markdown

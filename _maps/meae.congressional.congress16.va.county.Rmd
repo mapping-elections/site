@@ -63,9 +63,9 @@ related-maps:
 - id: meae.congressional.congress17.va.county
   name: VA 17th Congress
   type: next
-#- id: meae.congressional.congress16.national.district
-#  name: National 16th Congress
-#  type: national
+- id: meae.congressional.congress16.national.county
+  name: National 16th Congress
+  type: national
 output:
   md_document:
     variant: markdown

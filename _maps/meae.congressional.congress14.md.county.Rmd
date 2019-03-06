@@ -33,9 +33,9 @@ related-maps:
 - id: meae.congressional.congress15.md.county
   name: MD 15th Congress
   type: next
-#- id: meae.congressional.congress14.national.district
-#  name: National 14th Congress
-#  type: national
+- id: meae.congressional.congress14.national.county
+  name: National 14th Congress
+  type: national
 output:
   md_document:
     variant: markdown

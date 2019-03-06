@@ -23,9 +23,9 @@ related-maps:
 - id: meae.congressional.congress19.al.county
   name: AL 19th Congress
   type: next
-#- id: meae.congressional.congress18.national.district
-#  name: National 18th Congress
-#  type: national
+- id: meae.congressional.congress18.national.county
+  name: National 18th Congress
+  type: national
 output:
   md_document:
     variant: markdown
