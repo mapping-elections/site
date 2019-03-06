@@ -1,0 +1,55 @@
+---
+meae-id: meae.congressional.congress12.national.county
+type: congressional
+level: national
+geography: county
+congressnum: 12
+congressordinal: 12th
+title: '12th Congress: National, 1810-1811'
+year: 1810
+legend: 'dissrep'
+related-maps:
+- id: meae.congressional.congress11.national.county
+  name: National 11th Congress
+  type: previous
+- id: meae.congressional.congress13.national.county
+  name: National 13th Congress
+  type: next
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+map_id <- "meae.congressional.congress12.national.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_national_map_data() %>%
+  filter(id != "gas_nca") %>% 
+  filter(id != "ohs_nca3",
+         id != "ohs_nca4",
+         id != "ohs_nca5") %>% 
+  filter(id != "scs_nca5") %>% 
+  arrange(!is.na(federalist_percentage), !is.na(demrep_percentage)) %>%
+  filter(id != "tns_nca4",
+         id != "tns_nca7") %>% 
+  map_national(congress = 12)
+```
+
+</div>
+
+<div class="results-table">
+
+</div>

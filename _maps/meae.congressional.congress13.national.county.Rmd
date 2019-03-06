@@ -1,0 +1,59 @@
+---
+meae-id: meae.congressional.congress13.national.county
+type: congressional
+level: national
+geography: county
+congressnum: 13
+congressordinal: 13th
+title: '13th Congress: National, 1812-1813'
+year: 1812
+legend: 'fed-vs-rep'
+related-maps:
+- id: meae.congressional.congress12.national.county
+  name: National 12th Congress
+  type: previous
+- id: meae.congressional.congress14.national.county
+  name: National 14th Congress
+  type: next
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+map_id <- "meae.congressional.congress13.national.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_national_map_data() %>%
+  filter(id != "gas_nca") %>% 
+  filter(!is.na(state_abbr),
+          cross_ref != "New to dataset") %>%
+  arrange(!is.na(federalist_percentage), !is.na(demrep_percentage), 
+          cnty_type == "Parish") %>% 
+  filter(id != "ohs_nca4",
+         id != "ohs_nca5") %>% 
+  arrange(!is.na(federalist_percentage), !is.na(demrep_percentage), 
+          cnty_type == "District") %>%
+  filter(id != "scs_nca5") %>% 
+  filter(id != "tns_nca4",
+         id != "tns_nca7") %>% 
+  map_national(congress = 13)
+```
+
+</div>
+
+<div class="results-table">
+
+</div>

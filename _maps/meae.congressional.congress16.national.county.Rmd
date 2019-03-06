@@ -1,0 +1,68 @@
+---
+meae-id: meae.congressional.congress16.national.county
+type: congressional
+level: national
+geography: county
+congressnum: 16
+congressordinal: 16th
+title: '16th Congress: National, 1818-1819'
+year: 1818
+legend: 'dissrep'
+related-maps:
+- id: meae.congressional.congress15.national.county
+  name: National 15th Congress
+  type: previous
+- id: meae.congressional.congress17.national.county
+  name: National 17th Congress
+  type: next
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+map_id <- "meae.congressional.congress16.national.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_national_map_data() %>%
+  filter(id != "als_nca6",
+         id != "als_nca7",
+         id != "als_nca8",
+         id != "als_nca9") %>% 
+  filter(id != "gas_nca") %>% 
+  filter(id != "ils_nca1") %>% 
+  filter(id != "ins_nca4") %>%
+  filter(!is.na(state_abbr),
+          cross_ref != "New to dataset") %>%
+  arrange(!is.na(federalist_percentage), !is.na(demrep_percentage), 
+          cnty_type == "Parish") %>% 
+  filter(id != "mss_nca1") %>% 
+  filter(id != "ohs_nca5",
+         id != "ohs_nca6",
+         id != "ohs_nca7",
+         id != "ohs_nca8") %>% 
+  filter(id != "scs_nca5") %>% 
+  arrange(!is.na(federalist_percentage), !is.na(demrep_percentage), 
+          cnty_type == "District") %>%
+  filter(id != "tns_nca4",
+         id != "tns_nca8") %>% 
+  map_national(congress = 16)
+```
+
+</div>
+
+<div class="results-table">
+
+</div>

@@ -1,0 +1,80 @@
+---
+meae-id: meae.congressional.congress18.national.county
+type: congressional
+level: national
+geography: county
+congressnum: 18
+congressordinal: 18th
+title: '18th Congress: National, 1822-1823'
+year: 1822
+legend: 'congress-18-19'
+related-maps:
+- id: meae.congressional.congress17.national.county
+  name: National 17th Congress
+  type: previous
+- id: meae.congressional.congress19.national.county
+  name: National 19th Congress
+  type: next
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+map_id <- "meae.congressional.congress18.national.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_national_map_data() %>%
+  filter(id != "als_nca6",
+         id != "als_nca7",
+         id != "als_nca8",
+         id != "als_nca9",
+         id != "als_nca11",
+         id != "als_nca12",
+         id != "als_nca13") %>%
+  filter(id != "gas_nca") %>% 
+  filter(id != "ils_nca2") %>% 
+  filter(id != "ins_nca4",
+         id != "ins_nca6") %>%
+  filter(!is.na(state_abbr),
+          cross_ref != "New to dataset") %>%
+  arrange(!is.na(federalist_percentage), !is.na(demrep_percentage), 
+          cnty_type == "Parish") %>% 
+  filter(id != "mos_nca1",
+         id != "mos_nca3",
+         id != "mos_nca4",
+         id != "mos_nca5",
+         id != "mos_nca6",
+         id != "mos_nca7",
+         id != "mos_nca8",
+         id != "mos_nca9") %>%         
+  filter(id != "mss_nca1") %>% 
+  filter(id != "scs_nca5") %>% 
+  arrange(!is.na(federalist_percentage), !is.na(demrep_percentage), 
+          !is.na(jacksonian_percentage), cnty_type == "District") %>%
+  filter(id != "tns_nca9",
+         id != "tns_nca10",
+         id != "tns_nca11",
+         id != "tns_nca12",
+         id != "tns_nca13",
+         id != "tns_nca14") %>%
+  map_national(congress = 18)
+```
+
+</div>
+
+<div class="results-table">
+
+</div>
