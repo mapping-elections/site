@@ -1,0 +1,122 @@
+---
+meae-id: meae.congressional.congress19.ny.county
+type: congressional
+level: state
+state: New York
+geography: county
+congressnum: 19
+congressordinal: 19th
+title: '19th Congress: New York 1824'
+year: 1824
+legend: dissrep
+nnv:
+- id: ny.uscongress1.1824
+  name: NY US Congress 1824 District 1
+- id: ny.uscongress2.1824
+  name: NY US Congress 1824 District 2
+- id: ny.uscongress3.1824
+  name: NY US Congress 1824 District 3
+- id: ny.uscongress4.1824
+  name: NY US Congress 1824 District 4
+- id: ny.uscongress5.1824
+  name: NY US Congress 1824 District 5
+- id: ny.uscongress6.1824
+  name: NY US Congress 1824 District 6
+- id: ny.uscongress7.1824
+  name: NY US Congress 1824 District 7
+- id: ny.uscongress8.1824
+  name: NY US Congress 1824 District 8
+- id: ny.uscongress9.1824
+  name: NY US Congress 1824 District 9
+- id: ny.uscongress10.1824
+  name: NY US Congress 1824 District 10
+- id: ny.uscongress11.1824
+  name: NY US Congress 1824 District 11
+- id: ny.uscongress12.1824
+  name: NY US Congress 1824 District 12
+- id: ny.uscongress13.1824
+  name: NY US Congress 1824 District 13
+- id: ny.uscongress14.1824
+  name: NY US Congress 1824 District 14
+- id: ny.uscongress15.1824
+  name: NY US Congress 1824 District 15
+- id: ny.uscongress16.1824
+  name: NY US Congress 1824 District 16
+- id: ny.uscongress17.1824
+  name: NY US Congress 1824 District 17
+- id: ny.uscongress18.1824
+  name: NY US Congress 1824 District 18
+- id: ny.uscongress19.1824
+  name: NY US Congress 1824 District 19
+- id: ny.uscongress20.1824
+  name: NY US Congress 1824 District 20
+- id: ny.uscongress21.1824
+  name: NY US Congress 1824 District 21
+- id: ny.uscongress22.1824
+  name: NY US Congress 1824 District 22
+- id: ny.uscongress23.1824
+  name: NY US Congress 1824 District 23
+- id: ny.uscongress24.1824
+  name: NY US Congress 1824 District 24
+- id: ny.uscongress25.1824
+  name: NY US Congress 1824 District 25
+- id: ny.uscongress26.1824
+  name: NY US Congress 1824 District 26
+- id: ny.uscongress27.1824
+  name: NY US Congress 1824 District 27
+- id: ny.uscongress28.1824
+  name: NY US Congress 1824 District 28
+- id: ny.uscongress29.1824
+  name: NY US Congress 1824 District 29
+- id: ny.uscongress30.1824
+  name: NY US Congress 1824 District 30
+related-maps:
+- id: meae.congressional.congress18.ny.county
+  name: NY 18th Congress
+  type: previous
+#- id: meae.congressional.congress19.national.district
+#  name: National 19th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress19.ny.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "725px", congress = 19)
+```
+
+</div>
+
+New York elected thirty-four Democratic-Republicans to the Nineteenth Congress. Twenty-four of the Democratic-Republicans were part of an identifiable faction within the party. In New York, some candidates ran as Clintonians who supported internal improvements and soft money. 
+
+New York used a district system for electing members to Congress. Each district elected one member of Congress, except Districts 20 and 26, which each elected two members, and District 3, which elected three members.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

@@ -1,0 +1,115 @@
+---
+meae-id: meae.congressional.congress15.va.county
+type: congressional
+level: state
+state: Virginia
+geography: county
+congressnum: 15
+congressordinal: 15th
+title: '15th Congress: Virginia 1817'
+year: 1817
+legend: fed-vs-rep
+nnv:
+- id: va.uscongress.1.1817
+  name: VA US Congress 1817 District 1
+- id: va.uscongress.2.1817
+  name: VA US Congress 1817 District 2
+- id: va.uscongress.3.1817
+  name: VA US Congress 1817 District 3
+- id: va.uscongress.4.1817
+  name: VA US Congress 1817 District 4
+- id: va.uscongress.5.1817
+  name: VA US Congress 1817 District 5
+- id: va.uscongress.6.1817
+  name: VA US Congress 1817 District 6
+- id: va.uscongress.7.1817
+  name: VA US Congress 1817 District 7
+- id: va.uscongress.8.1817
+  name: VA US Congress 1817 District 8
+- id: va.uscongress.9.1817
+  name: VA US Congress 1817 District 9
+- id: va.uscongress.10.1817
+  name: VA US Congress 1817 District 10
+- id: va.uscongress.11.1817
+  name: VA US Congress 1817 District 11
+- id: va.uscongress.12.1817
+  name: VA US Congress 1817 District 12
+- id: va.uscongress.13.1817
+  name: VA US Congress 1817 District 13
+- id: va.uscongress.14.1817
+  name: VA US Congress 1817 District 14
+- id: va.uscongress.15.1817
+  name: VA US Congress 1817 District 15
+- id: va.uscongress.16.1817
+  name: VA US Congress 1817 District 16
+- id: va.uscongress.17.1817
+  name: VA US Congress 1817 District 17
+- id: va.uscongress.18.1817
+  name: VA US Congress 1817 District 18
+- id: va.uscongress.19.1817
+  name: VA US Congress 1817 District 19
+- id: va.uscongress.20.1817
+  name: VA US Congress 1817 District 20
+- id: va.uscongress.21.1817
+  name: VA US Congress 1817 District 21
+- id: va.uscongress.22.1817
+  name: VA US Congress 1817 District 22
+- id: va.uscongress.23.1817
+  name: VA US Congress 1817 District 23
+related-maps:
+- id: meae.congressional.congress14.va.county
+  name: VA 14th Congress
+  type: previous
+- id: meae.congressional.congress16.va.county
+  name: VA 16th Congress
+  type: next
+#- id: meae.congressional.congress15.national.district
+#  name: National 15th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress15.va.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "550px", congress = 15)
+```
+
+</div>
+
+Virginia elected three Federalist and twenty Democratic-Republicans to the Fifteenth Congress.
+
+The map for this election is incomplete due to the lack of returns in several counties.
+
+Virginia used a district system for electing members to Congress.
+
+In 1818, a [special election](https://elections.lib.tufts.edu/catalog/tufts:va.special.uscongress.19.1818) was held in which John Pegram was elected to replace Peterson Goodwyn, who had died.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

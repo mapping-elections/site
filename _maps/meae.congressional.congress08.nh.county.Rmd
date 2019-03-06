@@ -46,14 +46,16 @@ map_id <- "meae.congressional.congress08.nh.county"
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>%
-  map_counties(height = "500px", congress = 8)
+  map_counties(height = "700px", congress = 8)
 ```
 
 </div>
 
 New Hampshire elected five Federalists to the Eighth Congress.
 
-New Hampshire used a statewide at-large method for electing members to Congress. New Hampshire was apportioned one more seat in the House of Representatives.
+Following the 1800 Census, South Carolina gained one seat in the House of Representatives.
+
+New Hampshire used a statewide at-large method for electing members to Congress.
 
 <div class="results-table">
 

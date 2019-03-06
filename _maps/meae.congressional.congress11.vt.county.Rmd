@@ -1,0 +1,75 @@
+---
+meae-id: meae.congressional.congress11.vt.county
+type: congressional
+level: state
+state: Vermont
+geography: county
+congressnum: 11
+congressordinal: 11th
+title: '11th Congress: Vermont 1808'
+year: 1808
+legend: fed-vs-rep
+nnv:
+- id: vt.uscongress.southwest.1808
+  name: VT US Congress 1808 District 1
+- id: vt.uscongress.southeast.secondballot.1808
+  name: VT US Congress 1808 District 2
+- id: vt.uscongress.northeast.2.1808
+  name: VT US Congress 1808 District 3
+- id: vt.uscongress.northwest.1808
+  name: VT US Congress 1808 District 4
+related-maps:
+- id: meae.congressional.congress10.vt.county
+  name: VT 10th Congress
+  type: previous
+- id: meae.congressional.congress12.vt.county
+  name: VT 12th Congress
+  type: next
+#- id: meae.congressional.congress11.national.district
+#  name: National 11th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress11.vt.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data()  %>%
+  map_counties(height = "600px", congress = 11)
+```
+
+</div>
+
+Vermont elected three Federalists and one Democratic-Republican to the Eleventh Congress.
+
+The map for this election is incomplete due to the lack of returns at the town or county level.
+
+Vermont used the district system for electing members to Congress.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

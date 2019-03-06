@@ -1,0 +1,90 @@
+---
+meae-id: meae.congressional.congress19.nc.county
+type: congressional
+level: state
+state: North Carolina
+geography: county
+congressnum: 19
+congressordinal: 19th
+title: '19th Congress: North Carolina 1825'
+year: 1825
+legend: caucus
+nnv:
+- id: nc.uscongress1.1825
+  name: NC US Congress 1825 District 1
+- id: nc.uscongress2.1825
+  name: NC US Congress 1825 District 2
+- id: nc.uscongress3.1825
+  name: NC US Congress 1825 District 3
+- id: nc.uscongress4.1825
+  name: NC US Congress 1825 District 4
+- id: nc.uscongress5.1825
+  name: NC US Congress 1825 District 5
+- id: nc.uscongress6.1825
+  name: NC US Congress 1825 District 6
+- id: nc.uscongress7.1825
+  name: NC US Congress 1825 District 7
+- id: nc.uscongress8.1825
+  name: NC US Congress 1825 District 8
+- id: nc.uscongress9.1825
+  name: NC US Congress 1825 District 9
+- id: nc.uscongress10.1825
+  name: NC US Congress 1825 District 10
+- id: nc.uscongress11.1825
+  name: NC US Congress 1825 District 11
+- id: nc.uscongress12.1825
+  name: NC US Congress 1825 District 12
+- id: nc.uscongress13.1825
+  name: NC US Congress 1825 District 13
+related-maps:
+- id: meae.congressional.congress18.nc.county
+  name: NC 18th Congress
+  type: previous
+#- id: meae.congressional.congress19.national.district
+#  name: National 19th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress19.nc.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "500px", congress = 19)
+```
+
+</div>
+
+North Carolina’s elections to the nineteenth Congress featured the brief rise of two regional factions within the Democratic-Republican party, the Caucus and Anti-Caucus factions. Some Democratic Republicans dissented from their party’s nomination process of closed meetings, conventions, and caucuses and ran against incumbents as part of the Anti-Caucus faction. With a few exceptions, in the nineteenth congress, supporters of William Crawford became Caucus candidates, while Andrew Jackson’s supporters ran for the Anti-Caucus faction. In the nineteenth congressional election, voters elected five Caucus and eight Anti-Caucus congressmen.
+
+North Carolina used a district system for electing members to Congress. 
+
+In 1826, a [special election](https://elections.lib.tufts.edu/catalog/tufts:nc.uscongress8.special.1826) was held in which Daniel L. Barringer was elected to replace Willie P. Mangum, who had resigned from office. 
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

@@ -1,0 +1,85 @@
+---
+meae-id: meae.congressional.congress13.tn.county
+type: congressional
+level: state
+state: Tennessee
+geography: county
+congressnum: 13
+congressordinal: 13th
+title: '13th Congress: Tennessee 1813'
+year: 1813
+legend: fed-vs-rep
+nnv:
+- id: tn.congress.1.1813
+  name: TN US Congress 1813 District 1
+- id: tn.congress.2.1813
+  name: TN US Congress 1813 District 2
+- id: tn.congress.3.1813
+  name: TN US Congress 1813 District 3
+- id: tn.congress.4.1813
+  name: TN US Congress 1813 District 4
+- id: tn.congress.5.1813
+  name: TN US Congress 1813 District 5
+- id: tn.congress.6.1813
+  name: TN US Congress 1813 District 6
+related-maps:
+- id: meae.congressional.congress12.tn.county
+  name: TN 12th Congress
+  type: previous
+- id: meae.congressional.congress14.tn.county
+  name: TN 14th Congress
+  type: next
+#- id: meae.congressional.congress13.national.district
+#  name: National 13th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress13.tn.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>% 
+  filter(id != "tns_nca4",
+         id != "tns_nca7") %>% 
+  map_counties(height = "300px", congress = 13)
+```
+
+</div>
+
+Tennessee elected six Democratic-Republicans to the Thirteenth Congress.
+
+The map for this election is incomplete due to the lack of returns at the town or county level.
+
+Following the 1810 Census, Tennessee gained three more seats in the House of Representatives.
+
+Tennessee used a district system for electing members to Congress. 
+
+In 1814, a [special election](https://elections.lib.tufts.edu/catalog/tufts:tn.special.congress.5.1814) was held in which Newton Cannon was elected to replace Felix Grundy, who had resigned. 
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

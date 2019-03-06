@@ -16,9 +16,9 @@ related-maps:
 - id: meae.congressional.congress09.oh.county
   name: OH 9th Congress
   type: previous
-# - id: meae.congressional.congress11.oh.county
-#   name: OH 11th Congress
-#   type: next
+- id: meae.congressional.congress11.oh.county
+  name: OH 11th Congress
+  type: next
 # - id: meae.congressional.congress10.national.district
 #   name: National 10th Congress
 #   type: national
@@ -46,14 +46,15 @@ map_id <- "meae.congressional.congress10.oh.county"
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>%
-  map_counties(height = "450px", congress = 10)
+  filter(id != "ohs_nca2") %>% 
+  map_counties(height = "650px", congress = 10)
 ```
 
 </div>
 
-Ohio elected one Democratic-Republican to the Tenth Congress.
+Ohio elected one Democratic-Republican to the Tenth Congress. The Republican faction in this election was the Tertium Quids (or just Quids), a coalition of Federalists and moderate Democratic-Republicans.
 
-Mapping this election is incomplete because of the lack of local returns in many areas.
+The map for this election is incomplete due to the lack of returns in some areas.
 
 Ohio used a statewide at-large method for electing a member to Congress.
 

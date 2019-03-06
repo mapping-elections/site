@@ -1,0 +1,94 @@
+---
+meae-id: meae.congressional.congress13.nc.county
+type: congressional
+level: state
+state: North Carolina
+geography: county
+congressnum: 13
+congressordinal: 13th
+title: '13th Congress: North Carolina 1813'
+year: 1813
+legend: fed-vs-rep
+nnv:
+- id: nc.uscongress1.1813
+  name: NC US Congress 1813 District 1
+- id: nc.uscongress2.1813
+  name: NC US Congress 1813 District 2
+- id: nc.uscongress3.1813
+  name: NC US Congress 1813 District 3
+- id: nc.uscongress4.1813
+  name: NC US Congress 1813 District 4
+- id: nc.uscongress5.1813
+  name: NC US Congress 1813 District 5
+- id: nc.uscongress6.1813
+  name: NC US Congress 1813 District 6
+- id: nc.uscongress7.1813
+  name: NC US Congress 1813 District 7
+- id: nc.uscongress8.1813
+  name: NC US Congress 1813 District 8
+- id: nc.uscongress9.1813
+  name: NC US Congress 1813 District 9
+- id: nc.uscongress10.1813
+  name: NC US Congress 1813 District 10
+- id: nc.uscongress11.1813
+  name: NC US Congress 1813 District 11
+- id: nc.uscongress12.1813
+  name: NC US Congress 1813 District 12
+- id: nc.uscongress13.1813
+  name: NC US Congress 1813 District 13
+related-maps:
+- id: meae.congressional.congress12.nc.county
+  name: NC 12th Congress
+  type: previous
+- id: meae.congressional.congress14.nc.county
+  name: NC 14th Congress
+  type: next
+#- id: meae.congressional.congress13.national.district
+#  name: National 13th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress13.nc.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "500px", congress = 13)
+```
+
+</div>
+
+North Carolina elected four Federalists and nine Democratic-Republicans to the Thirteenth Congress.
+
+The map for this election is incomplete due to the lack of returns at the county level.
+
+Following the 1810 Census, North Carolina gained one more seat in the House of Representatives.
+
+North Carolina used a district system for electing members to Congress.
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

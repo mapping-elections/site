@@ -1,0 +1,69 @@
+---
+meae-id: meae.congressional.congress14.in.county
+type: congressional
+level: state
+state: Indiana
+geography: county
+congressnum: 14
+congressordinal: 14th
+title: '14th Congress: Indiana 1816'
+year: 1816
+legend: fed-vs-rep
+nnv:
+- id: in.uscongress.1816
+  name: IN US Congress 1816 At Large
+related-maps:
+- id: meae.congressional.congress15.in.county
+  name: IN 15th Congress
+  type: next
+#- id: meae.congressional.congress14.national.district
+#  name: National 14th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress14.in.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data(election_date = "1816-12-15") %>%
+  filter(id != "ins_nca1",
+         id != "ins_nca2",
+         id != "ins_nca3") %>%
+  map_counties(height = "850px")
+```
+
+</div>
+
+Indiana elected one Democratic-Republican to the Fourteenth Congress. 
+
+The map for this election is incomplete due to the lack of returns in many counties.
+
+Indiana used a statewide at-large system for electing members to Congress.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

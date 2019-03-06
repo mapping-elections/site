@@ -1,0 +1,108 @@
+---
+meae-id: meae.congressional.congress15.ma.county
+type: congressional
+level: state
+state: Massachusetts
+geography: county
+congressnum: 15
+congressordinal: 15th
+title: '15th Congress: Massachusetts 1817'
+year: 1817
+legend: fed-vs-rep
+nnv:
+- id: ma.uscongress.suffolk.1816
+  name: MA US Congress 1816 District 1
+- id: ma.uscongress.essexsouth.1816
+  name: MA US Congress 1816 District 2
+- id: ma.uscongress.essexnorth.ballot3.1817
+  name: MA US Congress 1817 District 3
+- id: ma.uscongress.middlesex.1816
+  name: MA US Congress 1816 District 4
+- id: ma.uscongress.hampshiresouth.1816
+  name: MA US Congress 1816 District 5
+- id: ma.uscongress.hampshirenorth.1816
+  name: MA US Congress 1816 District 6
+- id: ma.uscongress.berkshire.1816
+  name: MA US Congress 1816 District 7
+- id: ma.uscongress.plymouth.ballot2.1817
+  name: MA US Congress 1817 District 8
+- id: ma.uscongress.barnstable.ballot3.1817
+  name: MA US Congress 1817 District 9
+- id: ma.uscongress.bristol.1816
+  name: MA US Congress 1816 District 10
+- id: ma.uscongress.worcestersouth.1816
+  name: MA US Congress 1816 District 11
+- id: ma.uscongress.worcesternorth.1816
+  name: MA US Congress 1816 District 12
+- id: ma.uscongress.norfolk.1816
+  name: MA US Congress 1816 District 13
+- id: ma.uscongress.eastern1.1816
+  name: MA US Congress 1816 District 14
+- id: ma.uscongress.eastern2.1816
+  name: MA US Congress 1816 District 15
+- id: ma.uscongress.eastern3.1816
+  name: MA US Congress 1816 District 16
+- id: ma.uscongress.eastern4.1816
+  name: MA US Congress 1816 District 17
+- id: ma.uscongress.eastern5.ballot5.1817
+  name: MA US Congress 1817 District 18
+- id: ma.uscongress.eastern6.ballot6.1817
+  name: MA US Congress 1817 District 19
+- id: ma.uscongress.eastern7.1816
+  name: MA US Congress 1816 District 20
+related-maps:
+- id: meae.congressional.congress14.ma.county
+  name: MA 14th Congress
+  type: previous
+- id: meae.congressional.congress16.ma.county
+  name: MA 16th Congress
+  type: next
+#- id: meae.congressional.congress15.national.district
+#  name: National 15th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress15.ma.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties() %>% 
+  fitBounds(-73.508, 41.186, -69.861, 43.75)
+```
+
+</div>
+
+Massachusetts elected eleven Federalists and nine Democratic-Republicans to the Fifteenth Congress.
+
+Massachusetts used a district system for electing members to Congress. 
+
+In 1818, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ma.uscongress.eastern7.special.1818) was held in which Enoch Lincoln was elected to replace Albion K. Parris, who had resigned his office. 
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

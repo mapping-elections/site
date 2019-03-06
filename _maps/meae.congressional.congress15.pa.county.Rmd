@@ -1,0 +1,125 @@
+---
+meae-id: meae.congressional.congress15.pa.county
+type: congressional
+level: state
+state: Pennsylvania
+geography: county
+congressnum: 15
+congressordinal: 15th
+title: '15th Congress: Pennsylvania 1816'
+year: 1816
+legend: dissrep
+nnv:
+- id: pa.uscongress1.1816
+  name: PA US Congress 1816 District 1
+- id: pa.uscongress2.1816
+  name: PA US Congress 1816 District 2
+- id: pa.uscongress3.1816
+  name: PA US Congress 1816 District 3
+- id: pa.uscongress4.1816
+  name: PA US Congress 1816 District 4
+- id: pa.uscongress5.1816
+  name: PA US Congress 1816 District 5
+- id: pa.uscongress6.1816
+  name: PA US Congress 1816 District 6
+- id: pa.uscongress7.1816
+  name: PA US Congress 1816 District 7
+- id: pa.uscongress8.1816
+  name: PA US Congress 1816 District 8
+- id: pa.uscongress9.1816
+  name: PA US Congress 1816 District 9
+- id: pa.uscongress10.1816
+  name: PA US Congress 1816 District 10
+- id: pa.uscongress11.1816
+  name: PA US Congress 1816 District 11
+- id: pa.uscongress12.1816
+  name: PA US Congress 1816 District 12
+- id: pa.uscongress13.1816
+  name: PA US Congress 1816 District 13
+- id: pa.uscongress14.1816
+  name: PA US Congress 1816 District 14
+- id: pa.uscongress15.1816
+  name: PA US Congress 1816 District 15
+related-maps:
+- id: meae.congressional.congress14.pa.county
+  name: PA 14th Congress
+  type: previous
+- id: meae.congressional.congress16.pa.county
+  name: PA 16th Congress
+  type: next
+#- id: meae.congressional.congress15.national.district
+#  name: National 15th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress15.pa.county"
+
+cities <- tribble(
+  ~city, ~lat, ~lng, ~federalist_percentage, ~demrep_percentage, ~repfac_percentage, ~federalist_vote, ~demrep_vote, ~repfac_vote,
+    "Philadelphia", 39.9526, -75.1652, 0.568, 0.212, 0.219, 10602, 3963, 4086)
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "500px", cities = 0, congress = 15) %>% 
+  addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
+                 fillColor = mappingelections:::poli_chrome(cities),
+                 opacity = 1, fillOpacity = 0.8, radius = 8, weight = 3,
+                 popup = ~paste0("<b>City of ", city, "</b><br/>",
+                                 "Congressional District: 1<br/>",
+                                 "Federalists: ", federalist_percentage * 100, "% (", 
+                                 prettyNum(federalist_vote, big.mark = ","), 
+                                 " votes)<br/>",
+                                 "Democratic-Republicans: ", demrep_percentage * 100,
+                                 "% (", 
+                                 prettyNum(demrep_vote, big.mark = ","),
+                                 " votes)<br/>",
+                                 "Republican Factions: ", repfac_percentage * 100, "% (", 
+                                 prettyNum(repfac_vote, big.mark = ","),
+                                 " votes)"),
+                 label = ~city) 
+```
+
+</div>
+
+Pennsylvania elected five Federalists and eighteen Democratic-Republicans to the Fifteenth Congress. Three of the Republicans elected were members of an identifiable faction within the party. In Pennsylvania some candidates ran as Old School or New School Republicans, and were divided by disputes over banking, credit, and paper currency.
+
+The map for this election is incomplete due to the lack of returns for several counties.
+
+Pennsylvania used a district system for electing members to Congress. Each district elected one member of Congress except District 1, which elected four members, and Districts 2, 3, 5, 6, and 10, which each elected two members. The votes cast in Warren County are included in the Venango County totals. The votes cast in Jefferson County are included in the Indiana County totals. 
+
+In 1817, a [special election](https://elections.lib.tufts.edu/catalog/tufts:pa.special.congress.1817) was held in which John Murray was elected to replace David Scott, who had resigned his office. 
+
+In 1818, a [special election](https://elections.lib.tufts.edu/catalog/tufts:pa.congress.4.special.1818) was held in which Jacob Hostetter was elected to replace Jacob Spengler, who had resigned from office. 
+
+In 1818, a [special election](https://elections.lib.tufts.edu/catalog/tufts:pa.congress.6.specialelection2.1818) was held in which Thomas J. Rogers was elected to replace John Ross, who had resigned from office. 
+
+In 1818, a [special election](https://elections.lib.tufts.edu/catalog/tufts:pa.congress.6.specialelection.1818) was held in which Samuel Moore was elected to replace Samuel D. Ingham, who had resigned from office. 
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

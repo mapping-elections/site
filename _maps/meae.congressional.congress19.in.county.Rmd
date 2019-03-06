@@ -1,0 +1,70 @@
+---
+meae-id: meae.congressional.congress19.in.county
+type: congressional
+level: state
+state: Indiana
+geography: county
+congressnum: 19
+congressordinal: 19th
+title: '19th Congress: Indiana 1824'
+year: 1824
+legend: congress-18-19
+nnv:
+- id: in.usrepresentative.1st.1824
+  name: IN US Congress 1824 District 1
+- id: in.usrepresentative.2nd.1824
+  name: IN US Congress 1824 District 2
+- id: in.usrepresentative.3rd.1824
+  name: IN US Congress 1824 District 3
+related-maps:
+- id: meae.congressional.congress18.in.county
+  name: IN 18th Congress
+  type: previous
+#- id: meae.congressional.congress19.national.district
+#  name: National 19th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress19.in.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  filter(id != "ins_nca4",
+         id != "ins_nca6") %>%
+  map_counties(height = "775px")
+```
+
+</div>
+
+Indiana elected three Democratic-Republicans to the Nineteenth Congress. Two of those Democratic-Republicans were part of a faction led by John Quincy Adams and Henry Clay, and the other Democratic-Republican was part of a faction led by Andrew Jackson.
+
+Indiana used a district system for electing members to Congress.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

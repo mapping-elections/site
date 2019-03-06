@@ -46,9 +46,9 @@ related-maps:
 - id: meae.congressional.congress09.ny.county
   name: NY 9th Congress
   type: previous
-# - id: meae.congressional.congress11.ny.county
-#   name: NY 11th Congress
-#   type: next
+- id: meae.congressional.congress11.ny.county
+  name: NY 11th Congress
+  type: next
 # - id: meae.congressional.congress10.national.district
 #   name: National 10th Congress
 #   type: national
@@ -76,14 +76,14 @@ map_id <- "meae.congressional.congress10.ny.county"
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_county_map_data() %>%
-  map_counties(height = "550px", congress = 10)
+  map_counties(height = "725px", congress = 10)
 ```
 
 </div>
 
-New York elected two Federalists, fourteen Democratic-Republicans, and one Dissenting Republican to the Tenth Congress. The dissenting Republicans in this election were Tertium Quids (or just Quids), a coalition of Federalists and moderate Democratic-Republicans.
+New York elected two Federalists, fourteen Democratic-Republicans, and one other Republican who was part of a faction within the party to the Tenth Congress. The Republican faction in this election was the Tertium Quids (or just Quids), a coalition of Federalists and moderate Democratic-Republicans.
 
-New York used the district system for electing members to Congress. Districts 2 and 3 (New York City and Brooklyn) voted together as a single district and elected two members to Congress.
+New York used a district system for electing members to Congress. Each district elected one member of Congress, except Districts 2 and 3 (New York City and Brooklyn), which voted together as a single district and elected two members of Congress.
 
 In 1808, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ny.uscongress12.special.1808) was held in which Democratic-Republican Nathan Wilson was elected to replace David Thomas, who had resigned from office.
 

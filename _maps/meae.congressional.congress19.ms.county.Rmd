@@ -1,0 +1,69 @@
+---
+meae-id: meae.congressional.congress19.ms.county
+type: congressional
+level: state
+state: Mississippi
+geography: county
+congressnum: 19
+congressordinal: 19th
+title: '19th Congress: Mississippi 1824'
+year: 1824
+legend: congress-18-19
+nnv:
+- id: ms.uscongress.1824
+  name: MS US Congress 1824 At Large
+related-maps:
+- id: meae.congressional.congress18.ms.county
+  name: MS 18th Congress
+  type: previous
+#- id: meae.congressional.congress19.national.district
+#  name: National 19th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress19.ms.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data(election_date="1824-01-22") %>%
+  filter(id != "mss_nca1") %>% 
+  map_counties()
+```
+
+</div>
+
+Mississippi elected one Democratic-Republican to the Nineteenth Congress. The Democratic-Republican was part of a faction led by Andrew Jackson.
+
+The map for this election is incomplete due to the lack of returns in two counties.
+
+Mississippi used a statewide at-large system for electing members to Congress. 
+
+In 1826, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ms.uscongress.special.1826) was held in which William Haile was elected to replace Christopher Rankin, who had died. 
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

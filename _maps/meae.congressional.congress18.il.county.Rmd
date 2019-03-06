@@ -1,0 +1,68 @@
+---
+meae-id: meae.congressional.congress18.il.county
+type: congressional
+level: state
+state: Illinois
+geography: county
+congressnum: 18
+congressordinal: 18th
+title: '18th Congress: Illinois 1822'
+year: 1822
+legend: congress-18-19
+nnv:
+- id: il.uscongress.1822
+  name: IL US Congress 1822 At Large
+related-maps:
+- id: meae.congressional.congress17.il.county
+  name: IL 17th Congress
+  type: previous
+- id: meae.congressional.congress19.il.county
+  name: IL 19th Congress
+  type: next
+#- id: meae.congressional.congress18.national.district
+#  name: National 18th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress18.il.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  filter(id != "ils_nca2") %>% 
+  map_counties(height = "650px")
+```
+
+</div>
+
+Illinois elected one Democratic-Republican to the Eighteenth Congress. The Democratic-Republican was part of a faction led by John Quincy Adams and Henry Clay.
+
+Illinois used a statewide at-large system for electing members to Congress. 
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

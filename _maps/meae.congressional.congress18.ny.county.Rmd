@@ -1,0 +1,129 @@
+---
+meae-id: meae.congressional.congress18.ny.county
+type: congressional
+level: state
+state: New York
+geography: county
+congressnum: 18
+congressordinal: 18th
+title: '18th Congress: New York 1822'
+year: 1822
+legend: dissrep
+nnv:
+- id: ny.uscongress1.1822
+  name: NY US Congress 1822 District 1
+- id: ny.uscongress2.1822
+  name: NY US Congress 1822 District 2
+- id: ny.uscongress3.1822
+  name: NY US Congress 1822 District 3
+- id: ny.uscongress4.1822
+  name: NY US Congress 1822 District 4
+- id: ny.uscongress5.1822
+  name: NY US Congress 1822 District 5
+- id: ny.uscongress6.1822
+  name: NY US Congress 1822 District 6
+- id: ny.uscongress7.1822
+  name: NY US Congress 1822 District 7
+- id: ny.uscongress8.1822
+  name: NY US Congress 1822 District 8
+- id: ny.uscongress9.1822
+  name: NY US Congress 1822 District 9
+- id: ny.uscongress10.1822
+  name: NY US Congress 1822 District 10
+- id: ny.uscongress11.1822
+  name: NY US Congress 1822 District 11
+- id: ny.uscongress12.1822
+  name: NY US Congress 1822 District 12
+- id: ny.uscongress13.1822
+  name: NY US Congress 1822 District 13
+- id: ny.uscongress14.1822
+  name: NY US Congress 1822 District 14
+- id: ny.uscongress15.1822
+  name: NY US Congress 1822 District 15
+- id: ny.uscongress16.1822
+  name: NY US Congress 1822 District 16
+- id: ny.uscongress17.1822
+  name: NY US Congress 1822 District 17
+- id: ny.uscongress18.1822
+  name: NY US Congress 1822 District 18
+- id: ny.uscongress19.1822
+  name: NY US Congress 1822 District 19
+- id: ny.uscongress20.1822
+  name: NY US Congress 1822 District 20
+- id: ny.uscongress21.1822
+  name: NY US Congress 1822 District 21
+- id: ny.uscongress22.1822
+  name: NY US Congress 1822 District 22
+- id: ny.uscongress23.1822
+  name: NY US Congress 1822 District 23
+- id: ny.uscongress24.1822
+  name: NY US Congress 1822 District 24
+- id: ny.uscongress25.1822
+  name: NY US Congress 1822 District 25
+- id: ny.uscongress26.1822
+  name: NY US Congress 1822 District 26
+- id: ny.uscongress27.1822
+  name: NY US Congress 1822 District 27
+- id: ny.uscongress28.1822
+  name: NY US Congress 1822 District 28
+- id: ny.uscongress29.1822
+  name: NY US Congress 1822 District 29
+- id: ny.uscongress30.1822
+  name: NY US Congress 1822 District 30
+related-maps:
+- id: meae.congressional.congress17.ny.county
+  name: NY 17th Congress
+  type: previous
+- id: meae.congressional.congress19.ny.county
+  name: NY 19th Congress
+  type: next
+#- id: meae.congressional.congress18.national.district
+#  name: National 18th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress18.ny.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  map_counties(height = "725px", congress = 18)
+```
+
+</div>
+
+New York elected thirty-four Democratic-Republicans to the Eighteenth Congress. Twelve of the Democratic-Republicans were part of an identifiable faction within the party. In New York, some candidates ran as Clintonians who supported internal improvements and soft money. 
+
+Following the 1820 Census, New York gained seven seats in the House of Representatives. 
+
+New York used a district system for electing members to Congress. Each district elected one member of Congress, except Districts 20 and 26, which each elected two members, and District 3, which elected three members.
+
+In 1823, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ny.congress.1823) was held in which William Woods was elected to replace William B. Rochester, who had resigned from office.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

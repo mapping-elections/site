@@ -1,0 +1,91 @@
+---
+meae-id: meae.congressional.congress18.la.county
+type: congressional
+level: state
+state: Louisiana
+geography: county
+congressnum: 18
+congressordinal: 18th
+title: '18th Congress: Louisiana 1822'
+year: 1822
+legend: congress-18-19
+nnv:
+- id: la.uscongress1.1822
+  name: LA US Congress 1822 District 1
+- id: la.uscongress2.1822
+  name: LA US Congress 1822 District 2
+- id: la.uscongress3.1822
+  name: LA US Congress 1822 District 3
+related-maps:
+- id: meae.congressional.congress17.la.county
+  name: LA 17th Congress
+  type: previous
+- id: meae.congressional.congress19.la.county
+  name: LA 19th Congress
+  type: next
+#- id: meae.congressional.congress18.national.district
+#  name: National 18th Congress
+#  type: national
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress18.la.county"
+
+cities <- tribble(
+  ~city, ~lat, ~lng, ~jacksonian_percentage, ~jacksonian_vote, 
+  "New Orleans", 30.0686, -89.9390, 1.0, 645)
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data() %>%
+  filter(!is.na(state_abbr),
+          cross_ref != "New to dataset") %>%
+  arrange(!is.na(federalist_percentage), !is.na(demrep_percentage), 
+          cnty_type == "Parish") %>% 
+  map_counties(cities = FALSE, height = "600px") %>% 
+  addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
+               fillColor = mappingelections:::poli_chrome(cities),
+               opacity = 1, fillOpacity = 0.8, radius = 8, weight = 3,
+                popup = ~paste0("<b>City of ", city, "</b><br/>",
+                                 "Congressional District: 1<br/>",
+                                "Jacksonians: ", jacksonian_percentage * 100,
+                                 "% (", 
+                                 prettyNum(jacksonian_vote, big.mark = ","),
+                                 " votes)"),
+                 label = ~city)
+```
+
+</div>
+
+Louisiana elected three Democratic-Republicans to the Eighteenth Congress. Two of those Democratic-Republicans were part of a faction led by John Quincy Adams and Henry Clay, and the other Democratic-Republican was part of a faction led by Andrew Jackson.
+
+Following the 1820 Census, Louisiana gained two seats in the House of Representatives.
+
+For the first time, Louisiana used a district system for electing members to Congress.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>
