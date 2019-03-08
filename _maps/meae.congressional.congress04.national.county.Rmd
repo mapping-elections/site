@@ -36,12 +36,17 @@ map_id <- "meae.congressional.congress04.national.county"
 
 ```{r election-map, echo = FALSE}
 map_id %>%
-  get_national_map_data() %>%
+  get_national_map_data() %>% 
   filter(id != "cts_wr") %>% 
   filter(id != "gas_nca") %>% 
   filter(id != "scs_nca5") %>% 
   filter(id != "tns_nca1",
-         id != "tns_nca1") %>% 
+         id != "tns_nca2") %>%
+  filter(id != "ohs_washington",
+         id != "ohs_hamilton") %>%
+  filter(id != "ins_knox") %>%
+  filter(id != "ils_stclair") %>%
+  filter(id != "nwt") %>%
   map_national(congress = 4)
 ```
 

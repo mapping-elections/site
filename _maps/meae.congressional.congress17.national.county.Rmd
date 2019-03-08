@@ -49,14 +49,6 @@ map_id %>%
           cross_ref != "New to dataset") %>%
   arrange(!is.na(federalist_percentage), !is.na(demrep_percentage), 
           cnty_type == "Parish") %>% 
-  filter(id != "mos_nca1",
-         id != "mos_nca3",
-         id != "mos_nca4",
-         id != "mos_nca5",
-         id != "mos_nca6",
-         id != "mos_nca7",
-         id != "mos_nca8",
-         id != "mos_nca9") %>%  
   filter(id != "mss_nca1") %>% 
   filter(id != "ohs_nca5",
          id != "ohs_nca6",
@@ -69,7 +61,14 @@ map_id %>%
   filter(id != "tns_nca4",
          id != "tns_nca9",
          id != "tns_hardin",
-         id != "tns_shelby") %>%  
+         id != "tns_shelby") %>%
+  filter(id != "flt_sef",
+         id != "flt_swf")  %>%
+  filter(!str_detect(id, "ars_"),
+           id != "art") %>%
+  filter(!str_detect(id, "mis_"),
+         !str_detect(id, "wis_"),
+         !str_detect(id, "mos_nc")) %>%
   map_national(congress = 17)
 ```
 

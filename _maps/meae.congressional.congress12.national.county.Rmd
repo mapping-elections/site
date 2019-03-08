@@ -44,7 +44,17 @@ map_id %>%
   filter(id != "scs_nca5") %>% 
   arrange(!is.na(federalist_percentage), !is.na(demrep_percentage)) %>%
   filter(id != "tns_nca4",
-         id != "tns_nca7") %>% 
+         id != "tns_nca7") %>%
+  filter(!str_detect(id, "als_"),
+         !str_detect(id, "ils_"),
+         !str_detect(id, "ins_"),
+         !str_detect(id, "mit_"),
+         !str_detect(id, "mos_"),
+         !str_detect(id, "mss_")) %>%
+  filter(id != "olt_dispute") %>% 
+  filter(id != "int",
+         id != "ort",
+         id != "uba") %>%
   map_national(congress = 12)
 ```
 

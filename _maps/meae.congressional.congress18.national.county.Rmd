@@ -37,13 +37,7 @@ map_id <- "meae.congressional.congress18.national.county"
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_national_map_data() %>%
-  filter(id != "als_nca6",
-         id != "als_nca7",
-         id != "als_nca8",
-         id != "als_nca9",
-         id != "als_nca11",
-         id != "als_nca12",
-         id != "als_nca13") %>%
+  filter(!str_detect(id, "als_nca")) %>%
   filter(id != "gas_nca") %>% 
   filter(id != "ils_nca2") %>% 
   filter(id != "ins_nca4",
@@ -70,6 +64,12 @@ map_id %>%
          id != "tns_nca12",
          id != "tns_nca13",
          id != "tns_nca14") %>%
+  filter(id != "fls_escambia",
+         id != "fls_stjohns")  %>%
+  filter(!str_detect(id, "ars_"),
+           id != "art") %>%
+  filter(!str_detect(id, "mis_"),
+         !str_detect(id, "wis_")) %>%
   map_national(congress = 18)
 ```
 

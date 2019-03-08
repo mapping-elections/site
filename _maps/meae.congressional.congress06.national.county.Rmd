@@ -43,6 +43,15 @@ map_id %>%
   arrange(!is.na(federalist_percentage), !is.na(demrep_percentage)) %>% 
   filter(id != "tns_nca1",
          id != "tns_nca2") %>% 
+  filter(id != "ohs_washington",
+         id != "ohs_hamilton",
+         id != "ohs_jefferson",
+         id != "ohs_adams") %>%
+  filter(id != "ins_knox") %>%
+  filter(id != "ils_stclair",
+         id != "ils_randolph") %>%
+  filter(id != "nwt",
+         id != "nwt_wayne") %>%
   map_national(congress = 6)
 ```
 

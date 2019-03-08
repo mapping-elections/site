@@ -62,7 +62,12 @@ map_id %>%
          id != "mos_nca10") %>% 
   filter(id != "mss_nca1") %>% 
   arrange(!is.na(federalist_percentage), !is.na(demrep_percentage), 
-          !is.na(jacksonian_percentage), cnty_type == "District") %>%         
+          !is.na(jacksonian_percentage), cnty_type == "District") %>% 
+  filter(!str_detect(id, "ars_"),
+           id != "art") %>%
+  filter(!str_detect(id, "mis_"),
+         !str_detect(id, "fls_"),
+         !str_detect(id, "wis_")) %>%
   map_national(congress = 19)
 ```
 

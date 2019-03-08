@@ -37,10 +37,7 @@ map_id <- "meae.congressional.congress16.national.county"
 ```{r election-map, echo = FALSE}
 map_id %>%
   get_national_map_data() %>%
-  filter(id != "als_nca6",
-         id != "als_nca7",
-         id != "als_nca8",
-         id != "als_nca9") %>% 
+  filter(!str_detect(id, "als_nca")) %>%
   filter(id != "gas_nca") %>% 
   filter(id != "ils_nca1") %>% 
   filter(id != "ins_nca4") %>%
@@ -57,7 +54,11 @@ map_id %>%
   arrange(!is.na(federalist_percentage), !is.na(demrep_percentage), 
           cnty_type == "District") %>%
   filter(id != "tns_nca4",
-         id != "tns_nca8") %>% 
+         id != "tns_nca8") %>%
+  filter(!str_detect(id, "ars_"),
+         !str_detect(id, "mit_"),
+         !str_detect(id, "mis_"),
+         !str_detect(id, "mos_")) %>%
   map_national(congress = 16)
 ```
 

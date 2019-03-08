@@ -40,7 +40,9 @@ map_id %>%
   filter(id != "tns_nca1",
          id != "tns_nca2") %>% 
   filter(id != "scs_nca5",
-         id != "scs_nca2") %>%   
+         id != "scs_nca2") %>%
+  filter(id != "ohs_washington") %>%
+  filter(id != "nwt") %>%
   map_national(congress = 1)
 ```
 

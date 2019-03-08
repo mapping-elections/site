@@ -42,7 +42,18 @@ map_id %>%
   filter(id != "gas_nca") %>% 
   filter(id != "ncs_nca5") %>% 
   filter(id != "scs_nca5",
-         is.na(demrep_vote)) %>% 
+         is.na(demrep_vote)) %>%
+  filter(id != "tns_nca1",
+         id != "tns_nca2",
+         id != "tns_washington",
+         id != "tns_sullivan",
+         id != "tns_greene",
+         id != "tns_hawkins",
+         id != "tns_sumner",
+         id != "tns_davidson",
+         id != "tns_tennessee") %>% 
+  filter(id != "ohs_washington") %>%
+  filter(id != "nwt") %>%
   map_national(congress = 2)
 ```
 
