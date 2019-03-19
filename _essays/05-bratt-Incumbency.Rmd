@@ -33,9 +33,98 @@ library(scales)
 ```
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
+## Get candidates data
 candidates <- meae_congress_candidate_totals %>%
   mutate(state = substr(meae_id, 31, 32),
         congress = substr(meae_id, 28, 29) %>% as.numeric())
+
+## Table of winning/elected candidates 
+total_elected_candidates <- candidates %>%
+  filter(winner==TRUE)
+
+## Total number of elections won in MEAE dataset 
+total_elections_won <- nrow(total_elected_candidates)
+
+## Table of unopposed elections
+unopposed_candidates <- total_elected_candidates %>%
+  filter(unopposed==TRUE)
+
+## Number of total unopposed elections in MEAE dataset 
+num_elect_unopposed <- nrow(unopposed_candidates)
+
+## Percent of unopposed elections in MEAE dataset 
+percent_elect_unopposed <- ((num_elect_unopposed/total_elections_won) * 100)
+
+## Candidates with most unopposed elections
+unopposed_candidates_top <- unopposed_candidates %>%
+  count(candidate_id)  %>%
+  group_by(candidate_id) %>%
+  arrange(desc(n)) %>%
+  inner_join(unopposed_candidates, by=c("candidate_id" = "candidate_id")) %>%
+  select(candidate_id, candidate, "n_unop_elect_won" = n, state, unopposed) %>%
+  subset(!duplicated(candidate_id))
+
+## Top 15 Candidates with most unopposed elections
+unopposed_candidates_top15 <- unopposed_candidates_top %>% head(15)
+top15 <- sum(unopposed_candidates_top15$n_unop_elect_won)
+
+## Number and Percent of top 15 candidates with most unopposed elections per State (Ex.VA) 
+num_state_15 <- unopposed_candidates_top15 %>% 
+  filter(state == "va")
+
+top15_state <- sum(num_state_15$n_unop_elect_won)
+ 
+percent_top15_state <- ((top15_state/top15) * 100)
+
+## Number of times each candidate was elected 
+number_times_candidate_elected <- total_elected_candidates %>%
+  count(candidate_id)
+  
+## Join for info, filter for candidates elected 2+ times 
+multiple_elections <-number_times_candidate_elected %>%
+  inner_join(total_elected_candidates, by=c("candidate_id" = "candidate_id")) %>%
+  filter(n>=2) 
+
+## Create new col. to indicate incumbency, filter for only incumbents
+incumbency <- multiple_elections %>%
+  group_by(candidate_id) %>%
+  mutate(incumbent = congress - lag(congress)) %>%
+  filter(incumbent == 1)
+
+## Number of incumbent elections in MEAE dataset 
+num_elect_incumbent <- nrow(incumbency)
+
+## Percentage of incumbent elections in MEAE dataset 
+percent_elect_incumbent <- ((num_elect_incumbent/total_elections_won) * 100)
+
+## Percent of winning candidates that were incumbents (per Congress) 
+selected_cong <- 2
+total_elect_can_per_cong <- total_elected_candidates %>% filter(congress == selected_cong)
+elect_inc_can_per_cong <- incumbency %>% filter(congress == selected_cong)
+num_total_elect_can_per_cong <-nrow(total_elect_can_per_cong)
+num_elect_unop_can_per_cong <-nrow(elect_inc_can_per_cong)
+percent_elect_unop_can_per_cong <- ((nrow(elect_inc_can_per_cong)/nrow(total_elect_can_per_cong)) * 100)
+
+## Filter for only unopposed, incumbent elections
+unopposed_inc<- incumbency %>%
+  filter(incumbent == 1,
+         unopposed == TRUE)
+
+## Number of unopposed incumbent elections
+num_elect_unop_inc <- nrow(unopposed_inc)
+
+## Percent of unopposed incumbent elections
+percent_elect_unop_inc <- ((num_elect_unop_inc/total_elections_won) * 100)
+
+## Number of unopposed incumbent elections per state
+num_unop_inc_state <- unopposed_inc %>%
+  ungroup() %>%
+  count(state)
+
+## Percentage of unopposed incumbent elections per state
+percent_unop_inc_state <- num_unop_inc_state %>%
+  mutate(state = str_to_upper(state)) %>%
+  mutate(total_inc_unop_percent = as.double((n/num_elect_unop_inc) * 100)) 
 ```
 
 The issue of congressional turnover provides important insights into the
@@ -145,7 +234,7 @@ because his party allegiance changes over the course of his political
 life. Initially a Democratic-Republican, Randolph split from the party
 and joined coalition of politicians known as Tertium Quids for
 Congresses 9--12. Twice he ran unopposed, even after becoming a Tertium
-Quid. Newton and Randolph represent a large group of incumbents who
+Quid. Newton and Randolph represent a group of Virginia incumbents who
 continued to be reelected and maintained their voice and influence
 within Congress over long periods of time.
 
@@ -201,11 +290,11 @@ fig2 <-
 ggsave("../content-img/newton-incumbency.png", fig2, width = 9, height = 6)
 ```
 
-![text](/content-img/newton-incumbency.png)
+![While most early Congressmen did not sustain a long tenure in Congress, Thomas Newton Jr. of Virginia---elected to sixteen consecutive Congresses from 1801--1833---was an exception. This chart shows the percentage of the vote received by Newton and his opponents from the Sixth through Nineteenth Congresses (elections for which MEAE has data). Newton’s extended stint of successful elections (shown in purple) not only demonstrates legislator incumbency---Newton as an individual continued to be re-elected---but also party incumbency---the Democratic-Republican party, of which Newton was a part, had sustained victories over several different candidates all of whom represented the Federalist Party. Note: Newton was elected to the <a href="http://earlyamericanelections.org/maps/meae.congressional.congress12.va.county.html">Twelfth </a> and <a href="http://earlyamericanelections.org/maps/meae.congressional.congress18.va.county.html">Eighteenth </a> Congresses. However, complete data giving exact vote counts for these elections does not survive. Therefore, victories in theses elections are shown with a shaded purple box.](/content-img/newton-incumbency.png)
 
 Unopposed reelections represent an intriguing subsection of incumbency
 in the early republic. Of all the congressional elections in the MEAE
-dataset, 322 or twelve percent are unopposed elections. 160 of those
+dataset, 322 or twelve percent are unopposed elections. 250 of those
 elections represent unopposed incumbents. William A. Burwell of Virginia
 participated in the most unopposed elections, winning a seat in the 10th
 through the 16th Congresses. Burwell was hardly the exception for
@@ -222,74 +311,29 @@ was quickly becoming obsolete in a democratizing nation.
 
 ```{r, echo=FALSE}
 ## Visualization of unopposed incumbent elections by state
-
-total_elections <- candidates %>%
-  count(candidate_id) 
-
-total_elect_candidates <- candidates %>%
-  inner_join(total_elections, by=c("candidate_id"="candidate_id")) 
-
-#colnames(total_elect_candidates)[14] <- "total_election"
-
-total_elect_candidates <- total_elect_candidates %>%
-  filter(winner==TRUE)
-
-unopposed_candidates <- total_elect_candidates %>%
-  count(candidate_id) %>%
-  filter(nn>=2) 
-
-unopposed_incumbents <-unopposed_candidates %>%
-  inner_join(total_elect_candidates, by=c("candidate_id" = "candidate_id"))
-
-#colnames(unopposed_incumbents)[2] <- "total_unopposed"
-
-test <- unopposed_incumbents %>%
-  group_by(candidate_id) %>%
-  mutate(incumbent = congress - lag(congress)) 
-
-unopposed_inc<- test %>%
-  filter(incumbent == 1,
-         unopposed == TRUE)
-
-state_unopposed <- unopposed_inc %>%
-  ungroup() %>%
-  count(state)
-
-state_unopposed <- state_unopposed %>%
-  mutate(state = str_to_upper(state)) %>%
-  mutate(total_unopposed_percent = as.double((nnn/240) * 100)) 
-
 states_1825 <- us_states("1825-01-01")
 
-unopposed_map <- states_1825 %>%
-  left_join(state_unopposed, by=c("state_abbr" = "state"))
+unopposed_inc_map <- states_1825 %>%
+  left_join(percent_unop_inc_state, by=c("state_abbr" = "state"))
 
-unopposed_map <- unopposed_map %>%
+unopposed_inc_map <- unopposed_inc_map %>%
   filter(terr_type != "Territory",
          terr_type != "Unorganized Territory",
          terr_type != "Other")
 
-#classInt::classIntervals(var = unopposed_map$total_unopposed_percent, n = 4, style = "jenks")
-
-##breaks <- c(0, 0.5, 3, 6, 14, 48)
-##labels <- c("[0.0 - 0.5%]", "[0.5 - 3.0%]", "[3.0 - 6.0%]", "[6.0 - 14.0%]", "[47.1%]")
-
-##breaks <- c(0, 0.5, 3, 6, 11, 14, 45, 50)
-##labels <- c("[0 - 0.5%]", "[0.5 - 3%]", "[3 - 6%]", "[6 - 11%]", "[11 - 14%]", "[14 - 45%]", "[45 - 50%]")
-
 breaks <- c(0, 1, 2, 4, 8, 16, 32, 64)
 labels <- c("0-1%", "1-2%", "2-4%", "4-8%", "8-16%", "16-32%", "32-64%")
 
-unopposed_map$breaks <- cut(unopposed_map$total_unopposed_percent, breaks = breaks, labels = labels) 
+unopposed_inc_map$breaks <- cut(unopposed_inc_map$total_inc_unop_percent, breaks = breaks, labels = labels) 
 
 fig3 <- 
   ggplot() +
-  geom_sf(data = unopposed_map,
+  geom_sf(data = unopposed_inc_map,
            aes(fill = breaks),
            color = "black", size = 0.25) +
   coord_sf(crs = "+proj=aea +lat_1=25 +lat_2=50 +lon_0=-100") +
   scale_fill_brewer("Percent of Elections", palette = "YlGnBu", na.value = "white") +
-  labs(title = "Unopposed Incumbent Elections (1789-1825)", fill = "Percent of Unopposed Elections") +
+  labs(title = "Unopposed Incumbent Elections (1789-1825)") +
   theme(plot.title = element_text(size=16),
         rect = element_blank(),
         axis.text.x = element_blank(),
@@ -297,7 +341,7 @@ fig3 <-
         axis.ticks = element_blank())
 ggsave("../content-img/unopposed-incumbent-elections.png", fig3, width = 9, height = 8)
 ```
-![text](/content-img/unopposed-incumbent-elections.png)
+![In a little over nine percent of all US congressional elections held from 1789--1825, incumbent candidates (current office holders) faced no political rivals and were re-elected without opposition. This map breaks down these elections by state, showing the percentage of elections held in each state that were won by unopposed incumbents. As the map shows, the largest percentage of unopposed incumbent elections were won in southern states such as Kentucky, South Carolina, North Carolina, and Virginia---the later having the highest percentage, with 45.2% of its elections won by unopposed incumbents. This suggests that despite the new language of "democratic" politics, an older style of deferential politics was still the accepted practice in the South for at least the first thirty years of US Congressional elections.](/content-img/unopposed-incumbent-elections.png)
 
 Both in the early republic and today, high turnover can result from a
 number of causes. Voters may turn their representatives out of office at

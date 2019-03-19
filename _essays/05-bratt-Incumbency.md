@@ -131,15 +131,32 @@ because his party allegiance changes over the course of his political
 life. Initially a Democratic-Republican, Randolph split from the party
 and joined coalition of politicians known as Tertium Quids for
 Congresses 9--12. Twice he ran unopposed, even after becoming a Tertium
-Quid. Newton and Randolph represent a large group of incumbents who
+Quid. Newton and Randolph represent a group of Virginia incumbents who
 continued to be reelected and maintained their voice and influence
 within Congress over long periods of time.
 
-![text](/content-img/newton-incumbency.png)
+![While most early Congressmen did not sustain a long tenure in
+Congress, Thomas Newton Jr. of Virginia---elected to sixteen consecutive
+Congresses from 1801--1833---was an exception. This chart shows the
+percentage of the vote received by Newton and his opponents from the
+Sixth through Nineteenth Congresses (elections for which MEAE has data).
+Newton's extended stint of successful elections (shown in purple) not
+only demonstrates legislator incumbency---Newton as an individual
+continued to be re-elected---but also party incumbency---the
+Democratic-Republican party, of which Newton was a part, had sustained
+victories over several different candidates all of whom represented the
+Federalist Party. Note: Newton was elected to the
+<a href="http://earlyamericanelections.org/maps/meae.congressional.congress12.va.county.html">Twelfth
+</a> and
+<a href="http://earlyamericanelections.org/maps/meae.congressional.congress18.va.county.html">Eighteenth
+</a> Congresses. However, complete data giving exact vote counts for
+these elections does not survive. Therefore, victories in theses
+elections are shown with a shaded purple
+box.](/content-img/newton-incumbency.png)
 
 Unopposed reelections represent an intriguing subsection of incumbency
 in the early republic. Of all the congressional elections in the MEAE
-dataset, 322 or twelve percent are unopposed elections. 160 of those
+dataset, 322 or twelve percent are unopposed elections. 250 of those
 elections represent unopposed incumbents. William A. Burwell of Virginia
 participated in the most unopposed elections, winning a seat in the 10th
 through the 16th Congresses. Burwell was hardly the exception for
@@ -154,7 +171,19 @@ as the political clout such a person wielded. These elections also
 reflect the persistence of an older form of deferential politics that
 was quickly becoming obsolete in a democratizing nation.
 
-![text](/content-img/unopposed-incumbent-elections.png)
+![In a little over nine percent of all US congressional elections held
+from 1789--1825, incumbent candidates (current office holders) faced no
+political rivals and were re-elected without opposition. This map breaks
+down these elections by state, showing the percentage of elections held
+in each state that were won by unopposed incumbents. As the map shows,
+the largest percentage of unopposed incumbent elections were won in
+southern states such as Kentucky, South Carolina, North Carolina, and
+Virginia---the later having the highest percentage, with 45.2% of its
+elections won by unopposed incumbents. This suggests that despite the
+new language of "democratic" politics, an older style of deferential
+politics was still the accepted practice in the South for at least the
+first thirty years of US Congressional
+elections.](/content-img/unopposed-incumbent-elections.png)
 
 Both in the early republic and today, high turnover can result from a
 number of causes. Voters may turn their representatives out of office at
