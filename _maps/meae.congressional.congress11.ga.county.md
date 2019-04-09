@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 11
 congressordinal: 11th
 geography: county
@@ -22,6 +22,9 @@ related-maps:
 - id: 'meae.congressional.congress12.ga.county'
   name: GA 12th Congress
   type: next
+- id: 'meae.congressional.congress11.national.county'
+  name: National 11th Congress
+  type: national
 state: Georgia
 title: '11th Congress: Georgia 1808'
 type: congressional
@@ -30,6 +33,7 @@ year: 1808
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-59f4b1e32ea1fd2154dd .leaflet .html-widget style="width:100%;height:525px;"}
 :::
 

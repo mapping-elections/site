@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 19
 congressordinal: 19th
 geography: county
@@ -19,6 +19,9 @@ related-maps:
 - id: 'meae.congressional.congress18.ct.county'
   name: CT 18th Congress
   type: previous
+- id: 'meae.congressional.congress19.national.county'
+  name: National 19th Congress
+  type: national
 state: Connecticut
 title: '19th Congress: Connecticut 1825'
 type: congressional
@@ -27,6 +30,7 @@ year: 1825
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-4e418d0e777bcf5e8b2b .leaflet .html-widget style="width:100%;height:350px;"}
 :::
 

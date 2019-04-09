@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 19
 congressordinal: 19th
 geography: county
@@ -19,6 +19,9 @@ related-maps:
 - id: 'meae.congressional.congress18.mo.county'
   name: MO 18th Congress
   type: previous
+- id: 'meae.congressional.congress19.national.county'
+  name: National 19th Congress
+  type: national
 state: Missouri
 title: '19th Congress: Missouri 1824'
 type: congressional
@@ -27,6 +30,7 @@ year: 1824
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-d0917a29162906b5c2db .leaflet .html-widget style="width:100%;height:650px;"}
 :::
 

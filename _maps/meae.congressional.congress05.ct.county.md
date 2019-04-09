@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 5
 congressordinal: 5th
 geography: county
@@ -22,6 +22,9 @@ related-maps:
 - id: 'meae.congressional.congress06.ct.county'
   name: CT 6th Congress
   type: next
+- id: 'meae.congressional.congress05.national.county'
+  name: National 5th Congress
+  type: national
 state: Connecticut
 title: '5th Congress: Connecticut 1796'
 type: congressional
@@ -30,6 +33,7 @@ year: 1796
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-7599ebfb0993bb3f4cbb .leaflet .html-widget style="width:100%;height:350px;"}
 :::
 

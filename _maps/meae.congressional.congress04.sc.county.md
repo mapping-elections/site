@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 4
 congressordinal: 4th
 geography: county
@@ -24,6 +24,9 @@ related-maps:
 - id: 'meae.congressional.congress05.sc.county'
   name: SC 5th Congress
   type: next
+- id: 'meae.congressional.congress04.national.county'
+  name: National 4th Congress
+  type: national
 state: South Carolina
 title: '4th Congress: South Carolina 1794'
 type: congressional
@@ -32,6 +35,7 @@ year: 1794
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-e482bfed177f32fe0937 .leaflet .html-widget style="width:100%;height:600px;"}
 :::
 

@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 8
 congressordinal: 8th
 geography: county
@@ -42,6 +42,9 @@ related-maps:
 - id: 'meae.congressional.congress09.pa.county'
   name: PA 9th Congress
   type: next
+- id: 'meae.congressional.congress08.national.county'
+  name: National 8th Congress
+  type: national
 state: Pennsylvania
 title: '8th Congress: Pennsylvania 1802'
 type: congressional
@@ -50,6 +53,7 @@ year: 1802
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-4697401f3a983676a5f5 .leaflet .html-widget style="width:100%;height:500px;"}
 :::
 
@@ -693,7 +697,7 @@ Democratic-Republican
 11
 </td>
 <td style="text-align:left;">
-John Wilkins, Jr.
+John Wilkins, Jr. 
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist

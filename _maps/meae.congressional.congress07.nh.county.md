@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 7
 congressordinal: 7th
 geography: county
@@ -22,6 +22,9 @@ related-maps:
 - id: 'meae.congressional.congress08.nh.county'
   name: NH 8th Congress
   type: next
+- id: 'meae.congressional.congress07.national.county'
+  name: National 7th Congress
+  type: national
 state: New Hampshire
 title: '7th Congress: New Hampshire 1800'
 type: congressional
@@ -30,6 +33,7 @@ year: 1800
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-4e418d0e777bcf5e8b2b .leaflet .html-widget style="width:100%;height:700px;"}
 :::
 
@@ -218,7 +222,7 @@ Other candidates
 At-large
 </td>
 <td style="text-align:left;">
-Joseph Badger, Jr.
+Joseph Badger, Jr. 
 </td>
 <td style="text-align:left;">
 </td>

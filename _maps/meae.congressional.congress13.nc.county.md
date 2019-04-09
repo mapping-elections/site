@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 13
 congressordinal: 13th
 geography: county
@@ -46,6 +46,9 @@ related-maps:
 - id: 'meae.congressional.congress14.nc.county'
   name: NC 14th Congress
   type: next
+- id: 'meae.congressional.congress13.national.county'
+  name: National 13th Congress
+  type: national
 state: North Carolina
 title: '13th Congress: North Carolina 1813'
 type: congressional
@@ -54,6 +57,7 @@ year: 1813
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-54323c4697401f3a9836 .leaflet .html-widget style="width:100%;height:500px;"}
 :::
 

@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 14
 congressordinal: 14th
 geography: county
@@ -66,6 +66,9 @@ related-maps:
 - id: 'meae.congressional.congress15.va.county'
   name: VA 15th Congress
   type: next
+- id: 'meae.congressional.congress14.national.county'
+  name: National 14th Congress
+  type: national
 state: Virginia
 title: '14th Congress: Virginia 1815'
 type: congressional
@@ -74,6 +77,7 @@ year: 1815
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-3281ed232b9bd0d7c904 .leaflet .html-widget style="width:100%;height:550px;"}
 :::
 

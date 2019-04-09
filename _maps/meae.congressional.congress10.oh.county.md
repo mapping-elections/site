@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 10
 congressordinal: 10th
 geography: county
@@ -22,6 +22,9 @@ related-maps:
 - id: 'meae.congressional.congress11.oh.county'
   name: OH 11th Congress
   type: next
+- id: 'meae.congressional.congress10.national.county'
+  name: National 10th Congress
+  type: national
 state: Ohio
 title: '10th Congress: Ohio 1806'
 type: congressional
@@ -30,6 +33,7 @@ year: 1806
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-3a983676a5f5ad715b74 .leaflet .html-widget style="width:100%;height:650px;"}
 :::
 

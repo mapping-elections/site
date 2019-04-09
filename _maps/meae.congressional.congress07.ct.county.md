@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 7
 congressordinal: 7th
 geography: county
@@ -22,6 +22,9 @@ related-maps:
 - id: 'meae.congressional.congress08.ct.county'
   name: CT 8th Congress
   type: next
+- id: 'meae.congressional.congress07.national.county'
+  name: National 7th Congress
+  type: national
 state: Connecticut
 title: '7th Congress: Connecticut 1800'
 type: congressional
@@ -30,6 +33,7 @@ year: 1800
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-7599ebfb0993bb3f4cbb .leaflet .html-widget style="width:100%;height:350px;"}
 :::
 
@@ -269,7 +273,7 @@ Democratic-Republican
 At-large
 </td>
 <td style="text-align:left;">
-Gideon Granger, Jr.
+Gideon Granger, Jr. 
 </td>
 <td class="party-demrep" data-party="demrep">
 Democratic-Republican

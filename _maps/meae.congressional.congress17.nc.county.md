@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 17
 congressordinal: 17th
 geography: county
@@ -46,6 +46,9 @@ related-maps:
 - id: 'meae.congressional.congress18.nc.county'
   name: NC 18th Congress
   type: next
+- id: 'meae.congressional.congress17.national.county'
+  name: National 17th Congress
+  type: national
 state: North Carolina
 title: '17th Congress: North Carolina 1821'
 type: congressional
@@ -54,6 +57,7 @@ year: 1821
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-a99fdbc6d5177599ebfb .leaflet .html-widget style="width:100%;height:500px;"}
 :::
 

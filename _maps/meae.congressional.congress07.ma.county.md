@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 7
 congressordinal: 7th
 geography: county
@@ -48,6 +48,9 @@ related-maps:
 - id: 'meae.congressional.congress08.ma.county'
   name: MA 8th Congress
   type: next
+- id: 'meae.congressional.congress07.national.county'
+  name: National 7th Congress
+  type: national
 state: Massachusetts
 title: '7th Congress: Massachusetts 1800'
 type: congressional
@@ -56,6 +59,7 @@ year: 1800
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-9fe14766c3ab345b5cb0 .leaflet .html-widget style="width:100%;height:600px;"}
 :::
 

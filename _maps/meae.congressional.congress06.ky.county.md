@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 6
 congressordinal: 6th
 geography: county
@@ -24,6 +24,9 @@ related-maps:
 - id: 'meae.congressional.congress07.ky.county'
   name: KY 7th Congress
   type: next
+- id: 'meae.congressional.congress06.national.county'
+  name: National 6th Congress
+  type: national
 state: Kentucky
 title: '6th Congress: Kentucky 1799'
 type: congressional
@@ -32,6 +35,7 @@ year: 1799
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-c5e18c477ded59f4b1e3 .leaflet .html-widget style="width:100%;height:450px;"}
 :::
 

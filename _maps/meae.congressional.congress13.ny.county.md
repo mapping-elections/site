@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 13
 congressordinal: 13th
 geography: county
@@ -62,6 +62,9 @@ related-maps:
 - id: 'meae.congressional.congress14.ny.county'
   name: NY 14th Congress
   type: next
+- id: 'meae.congressional.congress13.national.county'
+  name: National 13th Congress
+  type: national
 state: New York
 title: '13th Congress: New York 1812'
 type: congressional
@@ -70,6 +73,7 @@ year: 1812
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-9fe14766c3ab345b5cb0 .leaflet .html-widget style="width:100%;height:725px;"}
 :::
 

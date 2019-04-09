@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 17
 congressordinal: 17th
 geography: county
@@ -22,6 +22,9 @@ related-maps:
 - id: 'meae.congressional.congress18.ms.county'
   name: MS 18th Congress
   type: next
+- id: 'meae.congressional.congress17.national.county'
+  name: National 17th Congress
+  type: national
 state: Mississippi
 title: '17th Congress: Mississippi 1820'
 type: congressional
@@ -30,6 +33,7 @@ year: 1820
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-c7d39a7dc7e2354e5432 .leaflet .html-widget style="width:100%;height:600px;"}
 :::
 

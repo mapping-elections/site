@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 3
 congressordinal: 3rd
 geography: county
@@ -58,6 +58,9 @@ related-maps:
 - id: 'meae.congressional.congress04.va.county'
   name: VA 4th Congress
   type: next
+- id: 'meae.congressional.congress03.national.county'
+  name: National 3rd Congress
+  type: national
 state: Virginia
 title: '3rd Congress: Virginia 1793'
 type: congressional
@@ -66,6 +69,7 @@ year: 1793
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-876592f8a65554f16190 .leaflet .html-widget style="width:100%;height:550px;"}
 :::
 

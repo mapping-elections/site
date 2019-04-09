@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 15
 congressordinal: 15th
 geography: county
@@ -19,6 +19,9 @@ related-maps:
 - id: 'meae.congressional.congress16.ms.county'
   name: MS 16th Congress
   type: next
+- id: 'meae.congressional.congress15.national.county'
+  name: National 15th Congress
+  type: national
 state: Mississippi
 title: '15th Congress: Mississippi 1817'
 type: congressional
@@ -27,6 +30,7 @@ year: 1817
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-bf6b2bc5e18c477ded59 .leaflet .html-widget style="width:100%;height:600px;"}
 :::
 

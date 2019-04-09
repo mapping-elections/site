@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 12
 congressordinal: 12th
 geography: county
@@ -36,6 +36,9 @@ related-maps:
 - id: 'meae.congressional.congress13.sc.county'
   name: SC 13th Congress
   type: next
+- id: 'meae.congressional.congress12.national.county'
+  name: National 12th Congress
+  type: national
 state: South Carolina
 title: '12th Congress: South Carolina 1810'
 type: congressional
@@ -44,6 +47,7 @@ year: 1810
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-eb61da0e415d5c476359 .leaflet .html-widget style="width:100%;height:600px;"}
 :::
 

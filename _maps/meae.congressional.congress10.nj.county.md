@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 10
 congressordinal: 10th
 geography: county
@@ -22,6 +22,9 @@ related-maps:
 - id: 'meae.congressional.congress11.nj.county'
   name: NJ 11th Congress
   type: next
+- id: 'meae.congressional.congress10.national.county'
+  name: National 10th Congress
+  type: national
 state: New Jersey
 title: '10th Congress: New Jersey 1806'
 type: congressional
@@ -30,6 +33,7 @@ year: 1806
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-b589bf6b2bc5e18c477d .leaflet .html-widget style="width:100%;height:700px;"}
 :::
 

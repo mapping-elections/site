@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 6
 congressordinal: 6th
 geography: county
@@ -22,6 +22,9 @@ related-maps:
 - id: 'meae.congressional.congress07.tn.county'
   name: TN 7th Congress
   type: next
+- id: 'meae.congressional.congress06.national.county'
+  name: National 6th Congress
+  type: national
 state: Tennessee
 title: '6th Congress: Tennessee 1799'
 type: congressional
@@ -30,6 +33,7 @@ year: 1799
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-ab345b5cb089b589bf6b .leaflet .html-widget style="width:100%;height:300px;"}
 :::
 

@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 5
 congressordinal: 5th
 geography: county
@@ -22,6 +22,9 @@ related-maps:
 - id: 'meae.congressional.congress06.nj.county'
   name: NJ 6th Congress
   type: next
+- id: 'meae.congressional.congress05.national.county'
+  name: National 5th Congress
+  type: national
 state: New Jersey
 title: '5th Congress: New Jersey 1797'
 type: congressional
@@ -30,6 +33,7 @@ year: 1797
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-89b589bf6b2bc5e18c47 .leaflet .html-widget style="width:100%;height:700px;"}
 :::
 

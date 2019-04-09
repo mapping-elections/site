@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 17
 congressordinal: 17th
 geography: county
@@ -22,6 +22,9 @@ related-maps:
 - id: 'meae.congressional.congress18.ga.county'
   name: GA 18th Congress
   type: next
+- id: 'meae.congressional.congress17.national.county'
+  name: National 17th Congress
+  type: national
 state: Georgia
 title: '17th Congress: Georgia 1820'
 type: congressional
@@ -30,6 +33,7 @@ year: 1820
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-fb0993bb3f4cbbe8355b .leaflet .html-widget style="width:100%;height:525px;"}
 :::
 

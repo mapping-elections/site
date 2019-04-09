@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 8
 congressordinal: 8th
 geography: county
@@ -32,6 +32,9 @@ related-maps:
 - id: 'meae.congressional.congress09.ky.county'
   name: KY 9th Congress
   type: next
+- id: 'meae.congressional.congress08.national.county'
+  name: National 8th Congress
+  type: national
 state: Kentucky
 title: '8th Congress: Kentucky 1803'
 type: congressional
@@ -40,6 +43,7 @@ year: 1803
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-2ea1fd2154ddc7d39a7d .leaflet .html-widget style="width:100%;height:450px;"}
 :::
 

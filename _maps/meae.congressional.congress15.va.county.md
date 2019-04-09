@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 15
 congressordinal: 15th
 geography: county
@@ -66,6 +66,9 @@ related-maps:
 - id: 'meae.congressional.congress16.va.county'
   name: VA 16th Congress
   type: next
+- id: 'meae.congressional.congress15.national.county'
+  name: National 15th Congress
+  type: national
 state: Virginia
 title: '15th Congress: Virginia 1817'
 type: congressional
@@ -74,6 +77,7 @@ year: 1817
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-95d3cb53f5a7759b49b7 .leaflet .html-widget style="width:100%;height:550px;"}
 :::
 
@@ -424,7 +428,7 @@ Federalist
 9
 </td>
 <td style="text-align:left;">
-Henry Lee Jr.
+Henry Lee Jr. 
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist

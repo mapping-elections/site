@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 15
 congressordinal: 15th
 geography: county
@@ -38,6 +38,9 @@ related-maps:
 - id: 'meae.congressional.congress16.sc.county'
   name: SC 16th Congress
   type: next
+- id: 'meae.congressional.congress15.national.county'
+  name: National 15th Congress
+  type: national
 state: South Carolina
 title: '15th Congress: South Carolina 1816'
 type: congressional
@@ -46,6 +49,7 @@ year: 1816
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-b5a1c5e482bfed177f32 .leaflet .html-widget style="width:100%;height:600px;"}
 :::
 
@@ -117,7 +121,7 @@ Democratic-Republican
 1
 </td>
 <td style="text-align:left;">
-William Crafts, Jr.
+William Crafts, Jr. 
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist

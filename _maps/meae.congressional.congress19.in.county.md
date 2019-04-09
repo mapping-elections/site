@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 19
 congressordinal: 19th
 geography: county
@@ -23,6 +23,9 @@ related-maps:
 - id: 'meae.congressional.congress18.in.county'
   name: IN 18th Congress
   type: previous
+- id: 'meae.congressional.congress19.national.county'
+  name: National 19th Congress
+  type: national
 state: Indiana
 title: '19th Congress: Indiana 1824'
 type: congressional
@@ -31,6 +34,7 @@ year: 1824
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-abbe701dacbb7b2bad43 .leaflet .html-widget style="width:100%;height:775px;"}
 :::
 

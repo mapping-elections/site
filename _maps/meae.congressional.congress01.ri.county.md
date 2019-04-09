@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 1
 congressordinal: 1st
 geography: county
@@ -19,6 +19,9 @@ related-maps:
 - id: 'meae.congressional.congress02.ri.county'
   name: RI 2nd Congress
   type: next
+- id: 'meae.congressional.congress01.national.county'
+  name: National 1st Congress
+  type: national
 state: Rhode Island
 title: '1st Congress: Rhode Island 1790'
 type: congressional
@@ -27,6 +30,7 @@ year: 1790
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-54323c4697401f3a9836 .leaflet .html-widget style="width:100%;height:500px;"}
 :::
 

@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 9
 congressordinal: 9th
 geography: county
@@ -32,6 +32,9 @@ related-maps:
 - id: 'meae.congressional.congress10.ky.county'
   name: KY 10th Congress
   type: next
+- id: 'meae.congressional.congress09.national.county'
+  name: National 9th Congress
+  type: national
 state: Kentucky
 title: '9th Congress: Kentucky 1804'
 type: congressional
@@ -40,6 +43,7 @@ year: 1804
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-bbe8355b72e863842007 .leaflet .html-widget style="width:100%;height:450px;"}
 :::
 

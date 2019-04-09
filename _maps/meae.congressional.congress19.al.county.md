@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 19
 congressordinal: 19th
 geography: county
@@ -23,6 +23,9 @@ related-maps:
 - id: 'meae.congressional.congress18.al.county'
   name: AL 18th Congress
   type: previous
+- id: 'meae.congressional.congress19.national.county'
+  name: National 19th Congress
+  type: national
 state: Alabama
 title: '19th Congress: Alabama 1825'
 type: congressional
@@ -31,6 +34,7 @@ year: 1825
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-5216e9f4abbe701dacbb .leaflet .html-widget style="width:100%;height:600px;"}
 :::
 

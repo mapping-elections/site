@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 7
 congressordinal: 7th
 geography: county
@@ -24,6 +24,9 @@ related-maps:
 - id: 'meae.congressional.congress08.ky.county'
   name: KY 8th Congress
   type: next
+- id: 'meae.congressional.congress07.national.county'
+  name: National 7th Congress
+  type: national
 state: Kentucky
 title: '7th Congress: Kentucky 1801'
 type: congressional
@@ -32,6 +35,7 @@ year: 1801
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-e18c477ded59f4b1e32e .leaflet .html-widget style="width:100%;height:450px;"}
 :::
 

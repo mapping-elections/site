@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 12
 congressordinal: 12th
 geography: county
@@ -42,6 +42,9 @@ related-maps:
 - id: 'meae.congressional.congress13.pa.county'
   name: PA 13th Congress
   type: next
+- id: 'meae.congressional.congress12.national.county'
+  name: National 12th Congress
+  type: national
 state: Pennsylvania
 title: '12th Congress: Pennsylvania 1810'
 type: congressional
@@ -50,6 +53,7 @@ year: 1810
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-a5f5ad715b74723eb169 .leaflet .html-widget style="width:100%;height:500px;"}
 :::
 

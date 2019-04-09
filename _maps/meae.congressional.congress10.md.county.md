@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 10
 congressordinal: 10th
 geography: county
@@ -36,6 +36,9 @@ related-maps:
 - id: 'meae.congressional.congress11.md.county'
   name: MD 11th Congress
   type: next
+- id: 'meae.congressional.congress10.national.county'
+  name: National 10th Congress
+  type: national
 state: Maryland
 title: '10th Congress: Maryland 1806'
 type: congressional
@@ -44,6 +47,7 @@ year: 1806
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-8b2b9fe14766c3ab345b .leaflet .html-widget style="width:100%;height:450px;"}
 :::
 

@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 11
 congressordinal: 11th
 geography: county
@@ -42,6 +42,9 @@ related-maps:
 - id: 'meae.congressional.congress12.pa.county'
   name: PA 12th Congress
   type: next
+- id: 'meae.congressional.congress11.national.county'
+  name: National 11th Congress
+  type: national
 state: Pennsylvania
 title: '11th Congress: Pennsylvania 1808'
 type: congressional
@@ -50,6 +53,7 @@ year: 1808
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-b589bf6b2bc5e18c477d .leaflet .html-widget style="width:100%;height:500px;"}
 :::
 
@@ -531,7 +535,7 @@ Federalist
 4
 </td>
 <td style="text-align:left;">
-William Alexander, Sr.
+William Alexander, Sr. 
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist

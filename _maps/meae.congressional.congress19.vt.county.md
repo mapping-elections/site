@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 19
 congressordinal: 19th
 geography: county
@@ -27,6 +27,9 @@ related-maps:
 - id: 'meae.congressional.congress18.vt.county'
   name: VT 18th Congress
   type: previous
+- id: 'meae.congressional.congress19.national.county'
+  name: National 19th Congress
+  type: national
 state: Vermont
 title: '19th Congress: Vermont 1824'
 type: congressional
@@ -35,6 +38,7 @@ year: 1824
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-bf6b2bc5e18c477ded59 .leaflet .html-widget style="width:100%;height:600px;"}
 :::
 
@@ -242,7 +246,7 @@ Democratic-Republican
 4
 </td>
 <td style="text-align:left;">
-Stephen Royce, Jr.
+Stephen Royce, Jr. 
 </td>
 <td class="party-demrep" data-party="demrep">
 Democratic-Republican

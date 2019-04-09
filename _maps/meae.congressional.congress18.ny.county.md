@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 18
 congressordinal: 18th
 geography: county
@@ -80,6 +80,9 @@ related-maps:
 - id: 'meae.congressional.congress19.ny.county'
   name: NY 19th Congress
   type: next
+- id: 'meae.congressional.congress18.national.county'
+  name: National 18th Congress
+  type: national
 state: New York
 title: '18th Congress: New York 1822'
 type: congressional
@@ -88,6 +91,7 @@ year: 1822
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-9fdbc6d5177599ebfb09 .leaflet .html-widget style="width:100%;height:725px;"}
 :::
 

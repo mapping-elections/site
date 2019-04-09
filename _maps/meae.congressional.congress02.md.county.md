@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 2
 congressordinal: 2nd
 geography: county
@@ -23,6 +23,9 @@ related-maps:
 - id: 'meae.congressional.congress03.md.county'
   name: MD 3rd Congress
   type: next
+- id: 'meae.congressional.congress02.national.county'
+  name: National 2nd Congress
+  type: national
 state: Maryland
 title: '2nd Congress: Maryland 1790'
 type: congressional
@@ -31,6 +34,7 @@ year: 1790
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-fd2154ddc7d39a7dc7e2 .leaflet .html-widget style="width:100%;height:450px;"}
 :::
 

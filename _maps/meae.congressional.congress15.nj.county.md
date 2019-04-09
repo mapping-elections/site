@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 15
 congressordinal: 15th
 geography: county
@@ -22,6 +22,9 @@ related-maps:
 - id: 'meae.congressional.congress16.nj.county'
   name: NJ 16th Congress
   type: next
+- id: 'meae.congressional.congress15.national.county'
+  name: National 15th Congress
+  type: national
 state: New Jersey
 title: '15th Congress: New Jersey 1816'
 type: congressional
@@ -30,6 +33,7 @@ year: 1816
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-695392f7a99fdbc6d517 .leaflet .html-widget style="width:100%;height:700px;"}
 :::
 
