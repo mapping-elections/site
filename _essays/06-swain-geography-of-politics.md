@@ -9,8 +9,7 @@ abstract: |
     "Chesapeake" and "Potomac" parties only appeared in one election, the
     two regionally-based voting blocs they represented continued to
     influence voting patterns throughout the state for almost two decades.
-summary:
-"Maryland’s geography and economy created a unique political culture informed by an extreme aura of localism."
+summary: "Maryland’s geography and economy created a unique political culture informed by an extreme aura of localism."
 always_allow_html: yes
 author: Greta Swain
 doi: https://doi.org/10.31835/meae.essays.06
