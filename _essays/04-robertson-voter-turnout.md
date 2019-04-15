@@ -1,7 +1,7 @@
 ---
 title: "Democracy and the Importance of Voter Turnout"
 author: "Andrew Robertson"
-year: 2018
+year: 2019
 layout: essay
 doi: https://doi.org/10.1093/
 image: "/content-img/house-of-representatives-1822.jpg"

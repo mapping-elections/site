@@ -1,7 +1,7 @@
 ---
 title: "Political Parties in the Early Republic"
 author: "Rosemarie Zagarri"
-year: 2018
+year: 2019
 layout: essay
 doi: https://doi.org/10.1093/
 image: "/content-img/congressional-pugilists-1789.jpg"
@@ -9,15 +9,15 @@ order: 2
 abstract: Political parties during the early national era were fundamentally different from political parties today. Parties at this time were evolving institutions whose legitimacy and structure were not well-defined—yet which, at the same time, came to occupy a crucial, and unexpected, role in the American political process.
 ---
 
-The Mapping Early American Elections (MEAE) website is an invaluable
+The Mapping Early American Elections (MEAE) website is a valuable
 resource for visualizing the development of party politics in the early
 United States. This information, however, must be interpreted within the
 context of the times. Political parties during the early national era
 were fundamentally different from political parties today, and even
-significantly from the parties that developed later in the nineteenth
+significantly different from the parties that developed later in the nineteenth
 century.
 
-The framers of the US Constitution had not anticipated the development
+The framers of the federal Constitution had not anticipated the development
 of permanent political parties. Parties were considered factions,
 dangerous and illegitimate alliances that pursued their own
 self-interest at the expense of the common good. National leaders were
@@ -37,8 +37,10 @@ groups the "Federalists" and the "Democratic-Republicans." (Note that
 despite having the same name, the Federalists of the 1790s represented a
 very different coalition from the Federalists of the ratification
 period. Similarly, although "Democratic-Republicans" during this era
-were sometimes simply called "Republicans," the two parties are not
-related.) This was a period of great experimentation and change in the
+were sometimes simply called "Republicans," they were not related to the
+Republican party that formed in 1854 and which continues to the present.)
+
+This was a period of great experimentation and change in the
 development of political parties. In general, Federalists and
 Democratic-Republicans espoused competing, and often contradictory,
 visions of the nation's future. Federalists, for example, tended to

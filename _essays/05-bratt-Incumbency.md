@@ -21,7 +21,7 @@ output:
     variant: markdown
   pdf_document: default
 title: Congressional Incumbency in the Early Republic
-year: 2018
+year: 2019
 ---
 
 The issue of congressional turnover provides important insights into the

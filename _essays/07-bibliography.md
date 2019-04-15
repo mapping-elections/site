@@ -1,12 +1,14 @@
 ---
 title: "Bibliography"
-year: 2018
+year: 2019
 layout: essay
 doi: https://doi.org/10.1093/
-image: "/content-img/file.jpg"
-order: 8
-abstract: text
+image: "/content-img/election-day-1815.jpg"
+order: 7
+abstract: |
+    Sources for further reading about early American politics and elections. 
 ---
+
 Banner, James M. *To the Hartford Convention: The Federalists and the
 Origins of Party Politics in Massachusetts, 1789--1815*. New York:
 Knopf, 1970.

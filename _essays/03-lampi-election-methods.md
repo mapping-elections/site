@@ -1,8 +1,8 @@
 ---
-title: "Electing Members of Congress in the Early American Republic"
+title: "Electing Members of Congress in the Early Republic"
 subtitle: "District v. At-Large Elections"
 author: "Philip Lampi"
-year: 2018
+year: 2019
 layout: essay
 doi: https://doi.org/10.1093/
 image: "/content-img/county-election.jpg"

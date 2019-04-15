@@ -1,9 +1,9 @@
 ---
-title: "Exploring the Geography of Politics in Early Republic Maryland"
+title: "The Geography of Politics in Early Republican Maryland"
 author: "Greta Swain"
 year: "2018"
 layout: essay
-doi: https://doi.org/10.1093/
+doi: "https://doi.org/10.1093/"
 image: "/content-img/maryland-map-1795.jpg"
 order: 6
 abstract: Throughout the first years of the new nation’s existence, geographic considerations and local issues often played a significant role in determining party allegiances and political preferences. During Maryland’s second congressional election, political leaders discarded their national party affiliations and instead embraced local party labels to represent their stance on a local matter. While the “Chesapeake” and “Potomac” parties only appeared in one election, the two regionally-based voting blocs they represented continued to influence voting patterns throughout the state for almost two decades.
