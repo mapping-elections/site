@@ -8,9 +8,9 @@ abstract: |
     their seat voluntarily in order to remain at home with their families,
     or seek other political or economic opportunities.
 always_allow_html: yes
-author: 'Jordan F. Bratt'
-doi: '<https://doi.org/10.1093/>'
-image: '/content-img/unopposed-incumbent-elections.jpg'
+author: "Jordan F. Bratt"
+doi: https://doi.org/10.31835/meae.essays.05
+image: "/content-img/unopposed-incumbent-elections.jpg"
 layout: essay
 order: 5
 output:
@@ -20,7 +20,7 @@ output:
     preserve_yaml: True
     variant: markdown
   pdf_document: default
-title: Congressional Incumbency in the Early Republic
+title: "Congressional Incumbency in the Early Republic"
 year: 2019
 ---
 

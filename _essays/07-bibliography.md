@@ -2,8 +2,8 @@
 title: "Bibliography"
 year: 2019
 layout: essay
-doi: https://doi.org/10.1093/
-image: "/content-img/election-day-1815.jpg"
+doi: https://doi.org/10.31835/meae.essays.07
+image: "/content-img/gerrymander.jpg"
 order: 7
 abstract: |
     Sources for further reading about early American politics and elections. 

@@ -4,7 +4,7 @@ subtitle: "District v. At-Large Elections"
 author: "Philip Lampi"
 year: 2019
 layout: essay
-doi: https://doi.org/10.1093/
+doi: https://doi.org/10.31835/meae.essays.03
 image: "/content-img/county-election.jpg"
 order: 3
 abstract: For the first several decades of the new nation’s existence, the individual states within the United States had virtually unrestricted authority over the time, place, and manner of electing members for the U.S. Congress. Because of this, states developed and experimented with their own creative electoral procedures, such as at-large elections or multiple-member districts. These dynamic electoral methods reflect the period’s ongoing debates about the nature of representation in the new republic.

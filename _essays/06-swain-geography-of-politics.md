@@ -11,8 +11,8 @@ abstract: |
     influence voting patterns throughout the state for almost two decades.
 always_allow_html: yes
 author: Greta Swain
-doi: '<https://doi.org/10.1093/>'
-image: '/content-img/maryland-map-1795.jpg'
+doi: https://doi.org/10.31835/meae.essays.06
+image: "/content-img/maryland-map-1795.jpg"
 layout: essay
 order: 6
 output:
@@ -22,8 +22,8 @@ output:
     preserve_yaml: True
     variant: markdown
   pdf_document: default
-title: The Geography of Politics in Early Republican Maryland
-year: 2018
+title: "Maryland's Geography of Politics in the Early Republic"
+year: 2019
 ---
 
 The Mapping Early American Elections (MEAE) project presents

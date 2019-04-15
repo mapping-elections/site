@@ -3,7 +3,7 @@ title: "Political Parties in the Early Republic"
 author: "Rosemarie Zagarri"
 year: 2019
 layout: essay
-doi: https://doi.org/10.1093/
+doi: https://doi.org/10.31835/meae.essays.02
 image: "/content-img/congressional-pugilists-1789.jpg"
 order: 2
 abstract: Political parties during the early national era were fundamentally different from political parties today. Parties at this time were evolving institutions whose legitimacy and structure were not well-defined—yet which, at the same time, came to occupy a crucial, and unexpected, role in the American political process.

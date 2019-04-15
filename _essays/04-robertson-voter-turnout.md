@@ -3,7 +3,7 @@ title: "Democracy and the Importance of Voter Turnout"
 author: "Andrew Robertson"
 year: 2019
 layout: essay
-doi: https://doi.org/10.1093/
+doi: https://doi.org/10.31835/meae.essays.04
 image: "/content-img/house-of-representatives-1822.jpg"
 order: 4
 abstract: While previous studies have reported fairly low levels of voter participation during the early national era, voter turnout actually increased dramatically during this period, with 50 to 70 percent of the total free male population frequently voting in many states. In contrast with later political systems, substantive issues, rather than party loyalty, galvanized voters during the First Party System and propelled them to the polls.
