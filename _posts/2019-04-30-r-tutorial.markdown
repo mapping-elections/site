@@ -2,7 +2,7 @@
 title: "R Tutorial"
 author: Greta Swain
 layout: post
-image: "/content-img/text.png"
+image: "/content-img/tutorial-r.png"
 date: 2019-04-30
 toc: true
 ---
