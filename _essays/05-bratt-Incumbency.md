@@ -7,6 +7,7 @@ abstract: |
     Congress at the wishes of their constituents, others chose to leave
     their seat voluntarily in order to remain at home with their families,
     or seek other political or economic opportunities.
+summary: "Early congresses featured high turnover rates due to the republic’s political culture and personal hardships."    
 always_allow_html: yes
 author: "Jordan F. Bratt"
 doi: https://doi.org/10.31835/meae.essays.05
