@@ -6,6 +6,7 @@ layout: essay
 doi: "https://doi.org/10.31835/meae.essays.05"
 image: "/content-img/unopposed-incumbent-elections.jpg"
 order: 5
+summary: "Early congresses featured high turnover rates due to the republic’s political culture and personal hardships." 
 abstract: High rates of congressional turnover during the new republic’s first decades produced a kind of de facto rotation in office, bringing new members with fresh ideas, but also erasing the knowledge and expertise of experienced members. While some incumbent members did not return to Congress at the wishes of their constituents, others chose to leave their seat voluntarily in order to remain at home with their families, or seek other political or economic opportunities.
 output:
   md_document:
