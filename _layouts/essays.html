@@ -1,0 +1,28 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+{% include header.html %}
+
+<div class="row">
+    <div class="large-9 column border-right">
+        {% assign sorted_essays = site.essays | sort:"order" %}
+        {% for page in sorted_essays %}
+            <div class="large-12 row">
+                <div class="large-4 column">
+                    <img src="{{ site.url }}{{ page.image }}" alt="" />
+                </div> 
+                <div class="large-8 column">
+                    <h4><a href="{{site.url }}{{ page.url }}" title="">{{ page.title }}</a></h4>
+                    <p>{{ page.abstract}} <a href="{{site.url}}{{ page.url }}" class="more-link">Read&nbsp;more&nbsp;&rarr;</a></p>
+                </div>
+            </div>
+            {% endfor %}
+    </div>        
+      
+    <hr class="hide-for-large"> 
+    <div class="large-3 column sidebar">
+        {% include sidebar.html %}  
+    </div>   
+</div>
+
+{% include footer.html %}
