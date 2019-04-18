@@ -5,6 +5,7 @@ year: 2019
 layout: essay
 doi: https://doi.org/10.31835/meae.essays.02
 image: "/content-img/congressional-pugilists-1789.jpg"
+attribution: "text"
 order: 2
 summary: "The early republic’s nascent political parties evolved and coalesced around differing visons of America."
 abstract: Political parties during the early national era were fundamentally different from political parties today. Parties at this time were evolving institutions whose legitimacy and structure were not well-defined—yet which, at the same time, came to occupy a crucial, and unexpected, role in the American political process.

@@ -12,6 +12,7 @@ always_allow_html: yes
 author: "Jordan F. Bratt"
 doi: https://doi.org/10.31835/meae.essays.05
 image: "/content-img/unopposed-incumbent-elections.jpg"
+attribution: "text"
 layout: essay
 order: 5
 output:
