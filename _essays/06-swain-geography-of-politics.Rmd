@@ -5,8 +5,9 @@ year: "2019"
 layout: essay
 doi: "https://doi.org/10.31835/meae.essays.06"
 image: "/content-img/maryland-map-1795.jpg"
+attribution: "text"
 order: 6
-summary: "Maryland’s geography and economy created a unique political culture informed by an extreme aura of localism."
+summary: "Maryland’s geography created a unique political culture informed by an extreme aura of localism."
 abstract: Throughout the first years of the new nation’s existence, geographic considerations and local issues often played a significant role in determining party allegiances and political preferences. During Maryland’s second congressional election, political leaders discarded their national party affiliations and instead embraced local party labels to represent their stance on a local matter. While the “Chesapeake” and “Potomac” parties only appeared in one election, the two regionally-based voting blocs they represented continued to influence voting patterns throughout the state for almost two decades.
 output:
   md_document:

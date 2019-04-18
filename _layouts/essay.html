@@ -9,6 +9,11 @@
         <h4> {{ page.subtitle }}</h4>
         <div class="author">{{ page.author }}</div>
         <div class="metadata">{{ page.year }} | <a href="{{ page.doi }}">{{ page.doi }}</a></div>
+        <figure>
+            <p><img src="{{ site.url }}{{ page.image }}"
+              alt="">
+            <figcaption>{{ page.attribution }}</figcaption>
+          </figure>
         <div>{{ content }}</div>
     </div>
 

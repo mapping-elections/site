@@ -6,6 +6,7 @@ year: 2019
 layout: essay
 doi: https://doi.org/10.31835/meae.essays.03
 image: "/content-img/county-election.jpg"
+attribution: "text"
 order: 3
 summary: "Early American elections saw disparate and often questionable electoral practices."
 abstract: For the first several decades of the new nation’s existence, the individual states within the United States had virtually unrestricted authority over the time, place, and manner of electing members for the U.S. Congress. Because of this, states developed and experimented with their own creative electoral procedures, such as at-large elections or multiple-member districts. These dynamic electoral methods reflect the period’s ongoing debates about the nature of representation in the new republic.

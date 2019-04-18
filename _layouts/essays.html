@@ -16,9 +16,13 @@
                     <p>{{ page.abstract}} <a href="{{site.url}}{{ page.url }}" class="more-link">Read&nbsp;more&nbsp;&rarr;</a></p>
                 </div>
             </div>
-        {% endfor %}
-    </div>
-    
+            {% endfor %}
+    </div>        
+      
+    <hr class="hide-for-large"> 
+    <div class="large-3 column sidebar">
+        {% include sidebar.html %}  
+    </div>   
 </div>
 
 {% include footer.html %}

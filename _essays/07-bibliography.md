@@ -4,6 +4,7 @@ year: 2019
 layout: essay
 doi: https://doi.org/10.31835/meae.essays.07
 image: "/content-img/gerrymander.jpg"
+attribution: "text"
 order: 7
 abstract: |
     Sources for further reading about early American politics and elections. 
