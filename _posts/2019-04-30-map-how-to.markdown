@@ -1,0 +1,21 @@
+---
+title: How To Use Our Maps
+author: Greta Swain
+image: "/content-img/huntingdon-pa1.png"
+layout: post
+date: 2019-04-30
+---
+
+Exploring maps on the Early American Elections site is simple! <!--more--> Here are four steps to get you started:
+
+1. On the [Maps]({{site.url}}/maps/) page, select a Congressional session from 1788 to 1825. The National map provides a view of results for congressional elections for the entire country for that congress. For individual states, click on the state's name. State maps provide granular detail about voting at the county level (if available).
+
+2. Navigate the map in several ways: *Double click* to zoom in and out so that you can see the map in more or less detail. *Hover* over a particular county to see the county's name. Then *click* on a county to see specific county-level details, such as the district number and the number/percent of votes cast for each party. 
+
+3. Inspect the text and table below the map to find out who was elected, party affiliations, and the electoral system used. At a time when electoral methods were in flux and sometimes changed from election to election, this information is essential for accurately interpreting the election results. 
+
+4. Use the “Related Maps” links to look at results from the preceding or succeeding elections.
+
+
+
+
