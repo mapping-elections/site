@@ -2,7 +2,7 @@
 title: "R Tutorial"
 author: Greta Swain
 layout: post
-image: "/content-img/tutorial-r.png"
+image: "{{site.url}}/content-img/tutorial-r.png"
 date: 2019-04-30
 toc: true
 ---
@@ -13,7 +13,11 @@ your own maps, but are not sure how to get started? You're in luck! The
 following tutorial will teach you how to combine MEAE data with
 historical geospatial data to create basic choropleth maps (maps which
 show geographic regions colored or shaded according to some variable) in
-R. <!--more-->While we are going to demonstrate how to make maps for Maryland's
+R. 
+
+<!--more-->
+
+While we are going to demonstrate how to make maps for Maryland's
 First Congressional election, these steps can easily be replicated to
 create maps for different Congressional elections and for different
 states. By the end of this tutorial, you will have learned how to make a
@@ -132,7 +136,7 @@ stringsAsFactors = FALSE)
 We should now have two data objects loaded that represent our two types
 of MEAE data.
 
-![](/content-img/r-read-in-data.png) 
+![]({{site.url}}/content-img/r-read-in-data.png) 
 
 Let's take a closer look at both data objects to make sure that our data
 was read in correctly, and that we understand the different variables
@@ -148,14 +152,14 @@ columns in the data. `md1_candidates` should have 324 observations of
 variables. Clicking on the blue arrow beside the name of a data object
 allows you to preview the variables and some of the observations.
 
-![](/content-img/r-preview-data.png) 
+![]({{site.url}}/content-img/r-preview-data.png) 
 
 Clicking on the name of a data object in the Global Environment opens it
 the Source Editor so that you can view or inspect all of the data. Open
 `md1_parties` by clicking its name in the Global Environment. This should open a
 spreadsheet-like view with a familiar column and row layout.
 
-![](/content-img/r-md1-parties.png) 
+![]({{site.url}}/content-img/r-md1-parties.png) 
 
 Let's take a closer look at the data in `md1_parties`. This data
 object should contains data for the vote and percentage of the vote all
@@ -188,7 +192,7 @@ for these variables should appear as "NA."
 Now, let's take a closer look at the data in `md1_candidates` by
 clicking the data object's name in the Global Environment.
 
-![](/content-img/r-md1-candidates.png)
+![]({{site.url}}/content-img/r-md1-candidates.png)
 
 We notice that this data object contains data for all the candidates
 that received votes in this election in Maryland. The first variable
@@ -236,12 +240,12 @@ is exactly equal (`==`) to `"SJ0183"`.
 md1_single_candidate <- md1_candidates %>%
   filter(candidate_id == "SJ0183")
 ```
-<br>
+
 Double check that the new data object `md1_single_candidate` has
 appeared in your Global Environment, and that it contains eighteen rows
 of data, all for candidate Joshua Seney, with the ID: SJ0183.
 
-![](/content-img/r-md1-single-candidate.png)
+![]({{site.url}}/content-img/r-md1-single-candidate.png)
 
 At this point, you should have your data read in to R Studio as data
 objects, filtered the candidates data to show results for a single
@@ -279,13 +283,13 @@ md1_counties <- us_counties(map_date = "1789-01-01",
 A new data object of this name should be appear in your Global
 Environment.
 
-![](/content-img/r-md1-counties.png)
+![]({{site.url}}/content-img/r-md1-counties.png)
 
 Just like we did with the MEAE data, let's take a closer look at the
 data in "md1_counties" by clicking on its name in the Global
 Environment.
 
-![](/content-img/r-md1-counties-inspect.png)
+![]({{site.url}}/content-img/r-md1-counties-inspect.png)
 
 Let's first look at the second through fifth variables. Compare the
 observation in these columns to those in either of the MEAE data
@@ -329,7 +333,7 @@ longitude data to place the map in a larger geographic context.
 plot(md1_counties$geometry,axes=TRUE)
 ```
 <br>
-![](/content-img/r-md1-counties-plot.png)
+![]({{site.url}}/content-img/r-md1-counties-plot.png)
 
 Since the map that R produced looks like Maryland and contains eighteen
 counties, we know that we have successfully retrieved accurate spatial
@@ -365,7 +369,7 @@ the right/second data object `md1_parties`.
 ```
 md1_counties_parties <- left_join(md1_counties, md1_parties)
 ```
-<br>
+
 However, we are not done yet. If you run this command, you will get an
 error message telling you that "the data sources have no common
 variables."
@@ -403,6 +407,7 @@ function we used is below.
 md1_counties_parties <- left_join(md1_counties, md1_parties,
 by=c("id" = "county_ahcb"))
 ```
+
 <br>
 Now that you have created `md1_counties_parties`, open it in the
 Source Editor by clicking on its name in the Global Environment. We want
@@ -415,7 +420,7 @@ variable `state_code`, the next variables are `meae_id`,
 all variables that were not a part of `md1_counties` and have been
 placed here by the join.
 
-![](/content-img/r-md1-counties-parties.png)
+![]({{site.url}}/content-img/r-md1-counties-parties.png)
 
 Another way to check that the join worked correctly is to check the
 number of observations and variables listed in the Global Environment.
@@ -425,7 +430,7 @@ objects together and subtract one (to account for the one common
 variable that was used to join the data) we get 47, the exact number of
 variables that `md1_counties_parties` now contains.
 
-![](/content-img/r-md1-counties-parties-ge.png)
+![]({{site.url}}/content-img/r-md1-counties-parties-ge.png)
 
 <h3>Joining Candidate Data to Spatial Data</h3>
 
@@ -440,7 +445,8 @@ is below.
 md1_counties_single_candidate <- left_join(md1_counties,
 md1_single_candidate, by=c("id" = "county_ahcb"))
 ```
-<br>
+
+
 Congratulations! You have now successfully read-in all the MEAE data,
 obtained the spatial data, and joined the data to create two new data
 objects that each have elections and spatial data. We are now ready to
@@ -481,7 +487,7 @@ MEAE data for party percentages.
 ```
 ggplot(md1_counties_parties)
 ```
-<br>
+
 Next, we need to add what is called a "geom" or geometry in `ggplot2`. You can think of this like telling R to create a layer of shapes or
 dots. We will use `geom_sf` which provides several "simple features"
 (sf) or tools to help manipulate spatial data. In our case, `geom_sf` will create outlines of each county in Maryland like we saw with our
@@ -526,8 +532,8 @@ ggplot(md1_counties_parties) +
                          direction = 1, 
                          labels = scales::percent) 
 ```
-<br>
-![](/content-img/r-parties-map1-fed-ggplot2.png)
+
+![]({{site.url}}/content-img/r-parties-map1-fed-ggplot2.png)
 
 Good job! You have just made you first choropleth map with MEAE
 elections data. Now that the actual map part is created, you can play
@@ -551,8 +557,9 @@ ggplot(md1_counties_parties) +
         panel.background = element_blank(),
         panel.border = element_blank())
 ```
-<br>
-![](/content-img/r-parties-map2-fed-ggplot2.png)
+
+
+![]({{site.url}}/content-img/r-parties-map2-fed-ggplot2.png)
 
 <h3>Going Further with Party Percentages - ggplot2</h3>
 
@@ -589,8 +596,9 @@ ggplot(md1_counties_parties) +
         panel.background = element_blank(),
         panel.border = element_blank())
 ```
-<br>
-![](/content-img/r-parties-map-antifed-ggplot2.png)
+
+
+![]({{site.url}}/content-img/r-parties-map-antifed-ggplot2.png)
 
 Or, you could create a map of Federalist vote totals (instead of
 percentages) by slightly modifying the above code:
@@ -617,8 +625,8 @@ ggplot(md1_counties_parties) +
         panel.background = element_blank(),
         panel.border = element_blank())
 ```
-<br>
-![](/content-img/r-parties-map-fed-vote-ggplot2.png)
+
+![]({{site.url}}/content-img/r-parties-map-fed-vote-ggplot2.png)
 
 Of course, if you are using a state other than Maryland or a Congress
 other than the First, the parties will be different, giving you a world
@@ -708,8 +716,8 @@ number. The code we used to build our legend is below.
     title = "Percentange of Vote", opacity = 1,
     labFormat = labelFormat(suffix = "%", transform = function(x) { x*100 })
 ```
-<br>
-![](/content-img/r-parties-map1-leaflet.png)
+
+![]({{site.url}}/content-img/r-parties-map1-leaflet.png)
 
 <h3>Going Further with Party Percentages - leaflet</h3>
 
@@ -748,8 +756,8 @@ leaflet(md1_counties_parties) %>%
     title = "Percentange of Vote", opacity = 1,
     labFormat = labelFormat(suffix = "%", transform = function(x) { x*100 }))
 ```
-<br>
-![](/content-img/r-parties-map2-leaflet.png)
+
+![]({{site.url}}/content-img/r-parties-map2-leaflet.png)
 
 Bravo! You have successfully created choropleth maps of MEAE parties
 data using two different packages, `ggplot2` and `leaflet`. You
@@ -806,8 +814,8 @@ ggplot(md1_counties_single_candidate) +
         panel.background = element_blank(),
         panel.border = element_blank())
 ```
-<br>
-![](/content-img/r-candidate-map-ggplot2.png)
+
+![]({{site.url}}/content-img/r-candidate-map-ggplot2.png)
 
 Great job in creating yet another map with `ggplot2`! Notice that
 Joshua Seney received more votes in the west than the east, even though
@@ -868,8 +876,8 @@ leaflet(md1_counties_single_candidate) %>%
  addLegend(position = "bottomright", pal = colors_candidate, 
            values = ~vote, title = "Number of Votes", opacity = 1)
 ```
-<br>
-![](/content-img/r-candidate-map-leaflet.png)
+
+![]({{site.url}}/content-img/r-candidate-map-leaflet.png)
 
 <h2>Conclusion</h2>
 

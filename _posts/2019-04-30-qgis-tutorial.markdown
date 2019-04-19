@@ -2,7 +2,7 @@
 title: "QGIS Tutorial"
 author: Brandan P. Buck
 layout: post
-image: "/content-img/tutorial-qgis.png"
+image: "{{site.url}}/content-img/tutorial-qgis.png"
 date: 2019-04-30
 ---
 
@@ -11,7 +11,11 @@ Elections (MEAE) site? Wish you could utilize the MEAE dataset to make
 your own maps, but are not sure how to get started? You're in luck! The
 following tutorial will teach you how to combine MEAE data with
 historical geospatial data in QGIS to create basic choropleth maps (maps which
-show geographic regions colored or shaded according to some variable). <!--more-->While we are going to demonstrate how to make maps for Maryland's
+show geographic regions colored or shaded according to some variable). 
+
+<!--more-->
+
+While we are going to demonstrate how to make maps for Maryland's
 First Congressional election, these steps can easily be replicated to
 create maps for different Congressional elections and for different
 states. By the end of this tutorial, you will have learned how to make a
@@ -131,7 +135,7 @@ allow you to complete the maps.
     'String','String','String','String','Integer','Real','Integer','Real'
     (See Figure 1)
 
-    ![](/content-img/qgis_csvt.jpg)
+    ![]({{site.url}}/content-img/qgis_csvt.jpg)
 
     c.  Save file as md-1-parties.csvt in the same folder as
     md-1-parties.csv.
@@ -212,7 +216,7 @@ data.
 
     `canidate_id` = `CD0030`
 
-    ![](/content-img/qgis_canidate_filter.jpg)
+    ![]({{site.url}}/content-img/qgis_canidate_filter.jpg)
 
     b.  Click ok.
 
@@ -259,7 +263,7 @@ While we won’t examine every variable in `md1_counties`, the last variable `ge
 
     'START_DATE' < '1789-01-01' AND 'END_DATE' > '1789-01-01'.
 
-    ![](/content-img/qgis_county_sql_filter.jpg)
+    ![]({{site.url}}/content-img/qgis_county_sql_filter.jpg)
 
     You should have 18 returns.
 
@@ -317,7 +321,7 @@ e.  For simplicity, you may want to join only the needed information
     sections data will appear at the end of the 1789 Maryland county
     spatial data spatial file
 
-    ![](/content-img/qgis_party_join.jpg)
+    ![]({{site.url}}/content-img/qgis_party_join.jpg)
 
 
 <h3>Joining Individual Candidate Data to Geospatial Data</h3>
@@ -332,7 +336,7 @@ e.  For simplicity, you may want to join only the needed information
     c.  Choose  `county_ahcb` as `Join Field` and `ID` as target field,
     under `Choose which fields are joined` select `vote` (Figure 5).
 
-    ![](/content-img/qgis_canidate_join.jpg)
+    ![]({{site.url}}/content-img/qgis_canidate_join.jpg)
 
     d.  Your joined Carroll Daniel vote tallies will appear at the end of
     the 1789 Maryland county spatial data spatial file.
@@ -369,14 +373,14 @@ Choropleth map.
     from the `classes` drop down menu on the right side of the window.
     Different election results will demand a more nuanced color scale
 
-    ![](/content-img/qgis_federalist_graduated.jpg)
+    ![]({{site.url}}/content-img/qgis_federalist_graduated.jpg)
 
     f.  Hit ok
 
 2.  Export the map either via a screen grab or Project -> Save as
     Image. Your result should look similar to Figure 7
 
-    ![](/content-img/qgis_federalist_map.jpg)
+    ![]({{site.url}}/content-img/qgis_federalist_map.jpg)
 
 3.  To create a map for the Antifederalist returns, repeat step one but
     change `md1-parties_antifederalist_percentage` to your input.
@@ -405,7 +409,7 @@ Choropleth map.
 4.  Export the map either via a screen grab or Project -> Save as
     Image. Your result should look similar to map seen in Figure 8.
 
-    ![](/content-img/qgis_antifederalist_map.jpg)
+    ![]({{site.url}}/content-img/qgis_antifederalist_map.jpg)
 
 Now you have maps for both the Federalist and Antifederalist party
 results for the 1st Maryland Congressional election. Both maps are
@@ -442,7 +446,7 @@ the only difference will be the input for QGIS' `graduated` function.
 
 8.  Hit ok, your result should look similar to Figure 9
 
-![](/content-img/qgis_daniel_map.jpg)
+![]({{site.url}}/content-img/qgis_daniel_map.jpg)
 
 9.  Export the map either via a screen grab or Project -> Save as
     Image.
