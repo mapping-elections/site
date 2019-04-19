@@ -2,7 +2,7 @@
 title: "R Tutorial"
 author: Greta Swain
 layout: post
-image: "{{site.url}}/content-img/tutorial-r.png"
+image: "/content-img/tutorial-r.png"
 date: 2019-04-30
 toc: true
 ---

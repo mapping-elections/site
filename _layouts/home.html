@@ -11,7 +11,7 @@
                 <div class="medium-4 column">
                     <img src="{{ site.url }}{{ page.image }}" alt="" />
                     <h3><a href="{{ site.url }}{{ page.url }}" class="essay-title">{{ page.title }}</a></h3>
-                    <div class="page-excerpt"><p>{{ page.summary | remove: '<p>' | remove: '</p>' }}&nbsp;<a href="{{ site.url }}{{ page.url }}">Read More &rarr;</a></p></div>
+                    <div class="page-excerpt"><p>{{ page.summary | remove: '<p>' | remove: '</p>' }} <a href="{{ site.url }}{{ page.url }}" class="more-link">Read&nbsp;more&nbsp;&rarr;</a></p></div>
                 </div>
             {% endfor %}
 

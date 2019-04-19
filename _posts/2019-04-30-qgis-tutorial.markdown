@@ -2,7 +2,7 @@
 title: "QGIS Tutorial"
 author: Brandan P. Buck
 layout: post
-image: "{{site.url}}/content-img/tutorial-qgis.png"
+image: "/content-img/tutorial-qgis.png"
 date: 2019-04-30
 ---
 
