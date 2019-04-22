@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 2
 congressordinal: 2nd
 geography: county
@@ -22,6 +22,9 @@ related-maps:
 - id: 'meae.congressional.congress03.ct.county'
   name: CT 3rd Congress
   type: next
+- id: 'meae.congressional.congress02.national.county'
+  name: National 2nd Congress
+  type: national
 state: Connecticut
 title: '2nd Congress: Connecticut 1790'
 type: congressional
@@ -30,6 +33,7 @@ year: 1790
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-7599ebfb0993bb3f4cbb .leaflet .html-widget style="width:100%;height:350px;"}
 :::
 

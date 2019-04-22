@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 7
 congressordinal: 7th
 geography: county
@@ -36,6 +36,9 @@ related-maps:
 - id: 'meae.congressional.congress08.md.county'
   name: MD 8th Congress
   type: next
+- id: 'meae.congressional.congress07.national.county'
+  name: National 7th Congress
+  type: national
 state: Maryland
 title: '7th Congress: Maryland 1801'
 type: congressional
@@ -44,6 +47,7 @@ year: 1801
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-0e777bcf5e8b2b9fe147 .leaflet .html-widget style="width:100%;height:450px;"}
 :::
 

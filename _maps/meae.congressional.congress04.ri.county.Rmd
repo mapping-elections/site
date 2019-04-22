@@ -21,9 +21,9 @@ related-maps:
 - id: meae.congressional.congress05.ri.county
   name: RI 5th Congress
   type: next
-# - id: meae.congressional.congress04.national.district
-#   name: National 4th Congress
-#   type: national
+- id: meae.congressional.congress04.national.county
+  name: National 4th Congress
+  type: national
 output:
   md_document:
     variant: markdown

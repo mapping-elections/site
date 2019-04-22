@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 14
 congressordinal: 14th
 geography: county
@@ -22,6 +22,9 @@ related-maps:
 - id: 'meae.congressional.congress15.ct.county'
   name: CT 15th Congress
   type: next
+- id: 'meae.congressional.congress14.national.county'
+  name: National 14th Congress
+  type: national
 state: Connecticut
 title: '14th Congress: Connecticut 1814'
 type: congressional
@@ -30,6 +33,7 @@ year: 1814
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-7599ebfb0993bb3f4cbb .leaflet .html-widget style="width:100%;height:350px;"}
 :::
 

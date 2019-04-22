@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 6
 congressordinal: 6th
 geography: county
@@ -22,6 +22,9 @@ related-maps:
 - id: 'meae.congressional.congress07.ct.county'
   name: CT 7th Congress
   type: next
+- id: 'meae.congressional.congress06.national.county'
+  name: National 6th Congress
+  type: national
 state: Connecticut
 title: '6th Congress: Connecticut 1798'
 type: congressional
@@ -30,6 +33,7 @@ year: 1798
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-7599ebfb0993bb3f4cbb .leaflet .html-widget style="width:100%;height:350px;"}
 :::
 

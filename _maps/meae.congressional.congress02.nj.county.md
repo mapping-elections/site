@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 2
 congressordinal: 2nd
 geography: county
@@ -22,6 +22,9 @@ related-maps:
 - id: 'meae.congressional.congress03.nj.county'
   name: NJ 3rd Congress
   type: next
+- id: 'meae.congressional.congress02.national.county'
+  name: National 2nd Congress
+  type: national
 state: New Jersey
 title: '2nd Congress: New Jersey 1791'
 type: congressional
@@ -30,6 +33,7 @@ year: 1791
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-54ddc7d39a7dc7e2354e .leaflet .html-widget style="width:100%;height:700px;"}
 :::
 

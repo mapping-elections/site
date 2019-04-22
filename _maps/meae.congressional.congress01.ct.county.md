@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 1
 congressordinal: 1st
 geography: county
@@ -16,6 +16,9 @@ related-maps:
 - id: 'meae.congressional.congress02.ct.county'
   name: CT 2nd Congress
   type: next
+- id: 'meae.congressional.congress01.national.county'
+  name: National 1st Congress
+  type: national
 state: Connecticut
 title: '1st Congress: Connecticut 1788'
 type: congressional
@@ -24,6 +27,7 @@ year: 1788
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-7599ebfb0993bb3f4cbb .leaflet .html-widget style="width:100%;height:350px;"}
 :::
 

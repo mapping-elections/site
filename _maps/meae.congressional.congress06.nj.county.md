@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 6
 congressordinal: 6th
 geography: county
@@ -30,6 +30,9 @@ related-maps:
 - id: 'meae.congressional.congress07.nj.county'
   name: NJ 7th Congress
   type: next
+- id: 'meae.congressional.congress06.national.county'
+  name: National 6th Congress
+  type: national
 state: New Jersey
 title: '6th Congress: New Jersey 1798'
 type: congressional
@@ -38,6 +41,7 @@ year: 1798
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-4e418d0e777bcf5e8b2b .leaflet .html-widget style="width:100%;height:700px;"}
 :::
 

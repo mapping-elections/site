@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 18
 congressordinal: 18th
 geography: county
@@ -22,6 +22,9 @@ related-maps:
 - id: 'meae.congressional.congress19.ga.county'
   name: GA 19th Congress
   type: next
+- id: 'meae.congressional.congress18.national.county'
+  name: National 18th Congress
+  type: national
 state: Georgia
 title: '18th Congress: Georgia 1822'
 type: congressional
@@ -30,6 +33,7 @@ year: 1822
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-4697401f3a983676a5f5 .leaflet .html-widget style="width:100%;height:550px;"}
 :::
 

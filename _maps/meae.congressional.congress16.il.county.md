@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 16
 congressordinal: 16th
 geography: county
@@ -22,6 +22,9 @@ related-maps:
 - id: 'meae.congressional.congress17.il.county'
   name: IL 17th Congress
   type: next
+- id: 'meae.congressional.congress16.national.county'
+  name: National 16th Congress
+  type: national
 state: Illinois
 title: '16th Congress: Illinois 1819'
 type: congressional
@@ -30,6 +33,7 @@ year: 1819
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-ab345b5cb089b589bf6b .leaflet .html-widget style="width:100%;height:650px;"}
 :::
 

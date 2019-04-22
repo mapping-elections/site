@@ -21,9 +21,9 @@ related-maps:
 - id: meae.congressional.congress06.vt.county
   name: VT 6th Congress
   type: next
-# - id: meae.congressional.congress05.national.district
-#   name: National 5th Congress
-#   type: national
+- id: meae.congressional.congress05.national.county
+  name: National 5th Congress
+  type: national
 output:
   md_document:
     variant: markdown

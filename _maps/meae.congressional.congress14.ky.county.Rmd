@@ -37,9 +37,9 @@ related-maps:
 - id: meae.congressional.congress15.ky.county
   name: KY 15th Congress
   type: next
-#- id: meae.congressional.congress14.national.district
-#  name: National 14th Congress
-#  type: national
+- id: meae.congressional.congress14.national.county
+  name: National 14th Congress
+  type: national
 output:
   md_document:
     variant: markdown
@@ -75,7 +75,7 @@ The map for this election is incomplete due to the lack of returns at the town o
 
 Kentucky used a district system for electing members to Congress. 
 
-In 1815, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ky.uscongress2.special.1815) was held to confirm the legality of Henry Clay’s election to the the 14th Congress, as he was serving as a foreign minster during the regular election. Clay’s elected was confirmed without opposition.
+In 1815, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ky.uscongress2.special.1815) was held to confirm the legality of Henry Clay’s election to the the Fourteenth Congress, as he was serving as a foreign minster during the regular election. Clay’s election was confirmed without opposition.
 
 In 1816, a [special election](https://elections.lib.tufts.edu/catalog/tufts:ky.specialuscongress1.1816) was held in which Thomas Fletcher was elected to replace James Clarke, who had resigned. 
 

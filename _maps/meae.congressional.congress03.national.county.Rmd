@@ -1,0 +1,67 @@
+---
+meae-id: meae.congressional.congress03.national.county
+type: congressional
+level: national
+geography: county
+congressnum: 3
+congressordinal: 3rd
+title: '3rd Congress: National, 1792-1793'
+year: 1792
+legend: 'fed-vs-anti-vs-rep'
+related-maps:
+- id: meae.congressional.congress02.national.county
+  name: National 2nd Congress
+  type: previous
+- id: meae.congressional.congress04.national.county
+  name: National 4th Congress
+  type: next
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.congressional.congress03.national.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_national_map_data() %>% 
+  filter(id != "cts_wr") %>% 
+  filter(id != "gas_nca") %>% 
+  filter(id != "scs_nca5") %>%
+   filter(id != "tns_nca1",
+         id != "tns_nca2",
+         id != "tns_washington",
+         id != "tns_sullivan",
+         id != "tns_greene",
+         id != "tns_hawkins",
+         id != "tns_sumner",
+         id != "tns_davidson",
+         id != "tns_tennessee",
+         id != "tns_knox",
+         id != "tns_jefferson") %>% 
+  filter(id != "ohs_washington",
+         id != "ohs_hamilton") %>%
+  filter(id != "ins_knox") %>%
+  filter(id != "ils_stclair") %>%
+  filter(id != "nwt") %>%
+  map_national(congress = 3)
+```
+
+</div>
+
+<div class="results-table">
+
+</div>

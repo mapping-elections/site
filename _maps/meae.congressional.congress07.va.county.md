@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 7
 congressordinal: 7th
 geography: county
@@ -58,6 +58,9 @@ related-maps:
 - id: 'meae.congressional.congress08.va.county'
   name: VA 8th Congress
   type: next
+- id: 'meae.congressional.congress07.national.county'
+  name: National 7th Congress
+  type: national
 state: Virginia
 title: '7th Congress: Virginia 1801'
 type: congressional
@@ -66,6 +69,7 @@ year: 1801
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-cd85b2d9d86427a349ed .leaflet .html-widget style="width:100%;height:550px;"}
 :::
 

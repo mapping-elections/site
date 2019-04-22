@@ -35,9 +35,9 @@ related-maps:
 - id: meae.congressional.congress15.sc.county
   name: SC 15th Congress
   type: next
-#- id: meae.congressional.congress14.national.district
-#  name: National 14th Congress
-#  type: national
+- id: meae.congressional.congress14.national.county
+  name: National 14th Congress
+  type: national
 output:
   md_document:
     variant: markdown
@@ -57,7 +57,7 @@ library(mappingelections)
 map_id <- "meae.congressional.congress14.sc.county"
 
 cities <- tribble(
-  ~city, ~lat, ~lng, ~demrep_percentage, ~other_percentage, ~demrep_vote, ~other_vote, 
+  ~city, ~lat, ~lng, ~federalist_percentage, ~demrep_percentage, ~federalist_vote, ~demrep_vote,
   "Charleston", 32.7765, -79.9311, 0.382, 0.618, 751, 1216)
 ```
 
@@ -75,13 +75,13 @@ map_id %>%
                opacity = 1, fillOpacity = 0.8, radius = 8, weight = 3,
                 popup = ~paste0("<b>City of ", city, "</b><br/>",
                                  "Congressional District: 1<br/>",
+                                 "Federalists: ", federalist_percentage * 100,
+                                 "% (", 
+                                 prettyNum(federalist_vote, big.mark = ","),
+                                 " votes)<br/>",
                                  "Democratic-Republicans: ", demrep_percentage * 100,
                                  "% (", 
                                  prettyNum(demrep_vote, big.mark = ","),
-                                 " votes)<br/>",
-                                "Unaffiliated or other parties: ", other_percentage * 100,
-                                 "% (", 
-                                 prettyNum(other_vote, big.mark = ","),
                                  " votes)"),
                  label = ~city)
 ```

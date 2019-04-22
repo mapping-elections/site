@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 12
 congressordinal: 12th
 geography: county
@@ -22,6 +22,9 @@ related-maps:
 - id: 'meae.congressional.congress13.oh.county'
   name: OH 13th Congress
   type: next
+- id: 'meae.congressional.congress12.national.county'
+  name: National 12th Congress
+  type: national
 state: Ohio
 title: '12th Congress: Ohio 1810'
 type: congressional
@@ -30,6 +33,7 @@ year: 1810
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-43573504608faebef329 .leaflet .html-widget style="width:100%;height:650px;"}
 :::
 

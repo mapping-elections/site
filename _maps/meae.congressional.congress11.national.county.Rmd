@@ -1,0 +1,65 @@
+---
+meae-id: meae.congressional.congress11.national.county
+type: congressional
+level: national
+geography: county
+congressnum: 11
+congressordinal: 11th
+title: '11th Congress: National, 1808-1809'
+year: 1808
+legend: 'dissrep'
+related-maps:
+- id: meae.congressional.congress10.national.county
+  name: National 10th Congress
+  type: previous
+- id: meae.congressional.congress12.national.county
+  name: National 12th Congress
+  type: next
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+map_id <- "meae.congressional.congress11.national.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_national_map_data() %>%
+  filter(id != "gas_nca") %>% 
+  filter(id != "ohs_nca2") %>%
+  filter(id != "scs_nca5") %>% 
+  arrange(!is.na(federalist_percentage), !is.na(demrep_percentage)) %>%
+  filter(id != "tns_nca3",
+         id != "tns_nca4",
+         id != "tns_nca7") %>%
+  filter(!str_detect(id, "als_"),
+         !str_detect(id, "ils_"),
+         !str_detect(id, "ins_"),
+         !str_detect(id, "las_"),
+         !str_detect(id, "mit_"),
+         !str_detect(id, "mos_"),
+         !str_detect(id, "mss_"),
+         !str_detect(id, "olt_")) %>%
+  filter(id != "int",
+         id != "ort",
+         id != "uba") %>%
+  map_national(congress = 11)
+```
+
+</div>
+
+<div class="results-table">
+
+</div>

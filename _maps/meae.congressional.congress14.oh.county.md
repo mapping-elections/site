@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 14
 congressordinal: 14th
 geography: county
@@ -32,6 +32,9 @@ related-maps:
 - id: 'meae.congressional.congress15.oh.county'
   name: OH 15th Congress
   type: next
+- id: 'meae.congressional.congress14.national.county'
+  name: National 14th Congress
+  type: national
 state: Ohio
 title: '14th Congress: Ohio 1814'
 type: congressional
@@ -40,6 +43,7 @@ year: 1814
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-f6a94c1e991ec95ef4e9 .leaflet .html-widget style="width:100%;height:650px;"}
 :::
 

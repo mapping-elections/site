@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 19
 congressordinal: 19th
 geography: county
@@ -77,6 +77,9 @@ related-maps:
 - id: 'meae.congressional.congress18.ny.county'
   name: NY 18th Congress
   type: previous
+- id: 'meae.congressional.congress19.national.county'
+  name: National 19th Congress
+  type: national
 state: New York
 title: '19th Congress: New York 1824'
 type: congressional
@@ -85,6 +88,7 @@ year: 1824
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-c6d5177599ebfb0993bb .leaflet .html-widget style="width:100%;height:725px;"}
 :::
 
@@ -275,7 +279,7 @@ Democratic-Republican
 3
 </td>
 <td style="text-align:left;">
-John Rathbone, Jr.
+John Rathbone, Jr. 
 </td>
 <td style="text-align:left;">
 Republican Faction

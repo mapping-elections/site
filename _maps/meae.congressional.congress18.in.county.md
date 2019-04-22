@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 18
 congressordinal: 18th
 geography: county
@@ -26,6 +26,9 @@ related-maps:
 - id: 'meae.congressional.congress19.in.county'
   name: IN 19th Congress
   type: next
+- id: 'meae.congressional.congress18.national.county'
+  name: National 18th Congress
+  type: national
 state: Indiana
 title: '18th Congress: Indiana 1822'
 type: congressional
@@ -34,6 +37,7 @@ year: 1822
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-d0d7c904b2d0917a2916 .leaflet .html-widget style="width:100%;height:775px;"}
 :::
 

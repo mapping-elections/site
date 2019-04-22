@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 14
 congressordinal: 14th
 geography: county
@@ -40,6 +40,9 @@ related-maps:
 - id: 'meae.congressional.congress15.ky.county'
   name: KY 15th Congress
   type: next
+- id: 'meae.congressional.congress14.national.county'
+  name: National 14th Congress
+  type: national
 state: Kentucky
 title: '14th Congress: Kentucky 1814'
 type: congressional
@@ -48,6 +51,7 @@ year: 1814
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-8d1a3cdcbc7f9404780a .leaflet .html-widget style="width:100%;height:450px;"}
 :::
 
@@ -65,8 +69,8 @@ Kentucky used a district system for electing members to Congress.
 In 1815, a [special
 election](https://elections.lib.tufts.edu/catalog/tufts:ky.uscongress2.special.1815)
 was held to confirm the legality of Henry Clay's election to the the
-14th Congress, as he was serving as a foreign minster during the regular
-election. Clay's elected was confirmed without opposition.
+Fourteenth Congress, as he was serving as a foreign minster during the
+regular election. Clay's election was confirmed without opposition.
 
 In 1816, a [special
 election](https://elections.lib.tufts.edu/catalog/tufts:ky.specialuscongress1.1816)

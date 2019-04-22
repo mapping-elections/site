@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 3
 congressordinal: 3rd
 geography: county
@@ -40,6 +40,9 @@ related-maps:
 - id: 'meae.congressional.congress04.ny.county'
   name: NY 4th Congress
   type: next
+- id: 'meae.congressional.congress03.national.county'
+  name: National 3rd Congress
+  type: national
 state: New York
 title: '3rd Congress: New York 1793'
 type: congressional
@@ -48,6 +51,7 @@ year: 1793
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-4e418d0e777bcf5e8b2b .leaflet .html-widget style="width:100%;height:725px;"}
 :::
 

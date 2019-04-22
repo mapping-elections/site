@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 14
 congressordinal: 14th
 geography: county
@@ -46,6 +46,9 @@ related-maps:
 - id: 'meae.congressional.congress15.nc.county'
   name: NC 15th Congress
   type: next
+- id: 'meae.congressional.congress14.national.county'
+  name: National 14th Congress
+  type: national
 state: North Carolina
 title: '14th Congress: North Carolina 1815'
 type: congressional
@@ -54,6 +57,7 @@ year: 1815
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-5cb089b589bf6b2bc5e1 .leaflet .html-widget style="width:100%;height:500px;"}
 :::
 

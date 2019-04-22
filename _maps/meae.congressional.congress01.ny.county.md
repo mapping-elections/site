@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 1
 congressordinal: 1st
 geography: county
@@ -29,6 +29,9 @@ related-maps:
 - id: 'meae.congressional.congress02.ny.county'
   name: NY 2nd Congress
   type: next
+- id: 'meae.congressional.congress01.national.county'
+  name: National 1st Congress
+  type: national
 state: New York
 title: '1st Congress: New York 1789'
 type: congressional
@@ -37,6 +40,7 @@ year: 1789
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-4e418d0e777bcf5e8b2b .leaflet .html-widget style="width:100%;height:725px;"}
 :::
 

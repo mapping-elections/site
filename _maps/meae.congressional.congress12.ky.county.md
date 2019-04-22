@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 12
 congressordinal: 12th
 geography: county
@@ -32,6 +32,9 @@ related-maps:
 - id: 'meae.congressional.congress13.ky.county'
   name: KY 13th Congress
   type: next
+- id: 'meae.congressional.congress12.national.county'
+  name: National 12th Congress
+  type: national
 state: Kentucky
 title: '12th Congress: Kentucky 1810'
 type: congressional
@@ -40,6 +43,7 @@ year: 1810
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-4c1e991ec95ef4e9d251 .leaflet .html-widget style="width:100%;height:450px;"}
 :::
 

@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 17
 congressordinal: 17th
 geography: county
@@ -66,6 +66,9 @@ related-maps:
 - id: 'meae.congressional.congress18.va.county'
   name: VA 18th Congress
   type: next
+- id: 'meae.congressional.congress17.national.county'
+  name: National 17th Congress
+  type: national
 state: Virginia
 title: '17th Congress: Virginia 1821'
 type: congressional
@@ -74,6 +77,7 @@ year: 1821
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-d0917a29162906b5c2db .leaflet .html-widget style="width:100%;height:550px;"}
 :::
 

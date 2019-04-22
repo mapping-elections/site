@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 13
 congressordinal: 13th
 geography: county
@@ -22,6 +22,9 @@ related-maps:
 - id: 'meae.congressional.congress14.ct.county'
   name: CT 14th Congress
   type: next
+- id: 'meae.congressional.congress13.national.county'
+  name: National 13th Congress
+  type: national
 state: Connecticut
 title: '13th Congress: Connecticut 1812'
 type: congressional
@@ -30,6 +33,7 @@ year: 1812
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-7599ebfb0993bb3f4cbb .leaflet .html-widget style="width:100%;height:350px;"}
 :::
 

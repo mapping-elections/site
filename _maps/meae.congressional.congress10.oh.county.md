@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 10
 congressordinal: 10th
 geography: county
@@ -22,6 +22,9 @@ related-maps:
 - id: 'meae.congressional.congress11.oh.county'
   name: OH 11th Congress
   type: next
+- id: 'meae.congressional.congress10.national.county'
+  name: National 10th Congress
+  type: national
 state: Ohio
 title: '10th Congress: Ohio 1806'
 type: congressional
@@ -30,6 +33,7 @@ year: 1806
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-3a983676a5f5ad715b74 .leaflet .html-widget style="width:100%;height:650px;"}
 :::
 
@@ -37,10 +41,12 @@ year: 1806
 <!--/html_preserve-->
 :::
 
-Ohio elected one Democratic-Republican to the Tenth Congress.
+Ohio elected one Democratic-Republican to the Tenth Congress. The
+Republican faction in this election was the Tertium Quids (or just
+Quids), a coalition of Federalists and moderate Democratic-Republicans.
 
-Mapping this election is incomplete because of the lack of local returns
-in many areas.
+The map for this election is incomplete due to the lack of returns in
+some areas.
 
 Ohio used a statewide at-large method for electing a member to Congress.
 

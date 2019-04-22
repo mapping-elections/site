@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 9
 congressordinal: 9th
 geography: county
@@ -42,6 +42,9 @@ related-maps:
 - id: 'meae.congressional.congress10.pa.county'
   name: PA 10th Congress
   type: next
+- id: 'meae.congressional.congress09.national.county'
+  name: National 9th Congress
+  type: national
 state: Pennsylvania
 title: '9th Congress: Pennsylvania 1804'
 type: congressional
@@ -50,6 +53,7 @@ year: 1804
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-b589bf6b2bc5e18c477d .leaflet .html-widget style="width:100%;height:500px;"}
 :::
 

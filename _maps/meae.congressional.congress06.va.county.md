@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 6
 congressordinal: 6th
 geography: county
@@ -58,6 +58,9 @@ related-maps:
 - id: 'meae.congressional.congress07.va.county'
   name: VA 7th Congress
   type: next
+- id: 'meae.congressional.congress06.national.county'
+  name: National 6th Congress
+  type: national
 state: Virginia
 title: '6th Congress: Virginia 1799'
 type: congressional
@@ -66,6 +69,7 @@ year: 1799
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-4cd6fe6f33f6a94c1e99 .leaflet .html-widget style="width:100%;height:550px;"}
 :::
 

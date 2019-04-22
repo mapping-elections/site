@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 9
 congressordinal: 9th
 geography: county
@@ -44,6 +44,9 @@ related-maps:
 - id: 'meae.congressional.congress10.nc.county'
   name: NC 10th Congress
   type: next
+- id: 'meae.congressional.congress09.national.county'
+  name: National 9th Congress
+  type: national
 state: North Carolina
 title: '9th Congress: North Carolina 1804'
 type: congressional
@@ -52,6 +55,7 @@ year: 1804
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-d7c904b2d0917a291629 .leaflet .html-widget style="width:100%;height:500px;"}
 :::
 

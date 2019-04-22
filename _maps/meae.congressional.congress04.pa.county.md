@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 4
 congressordinal: 4th
 geography: county
@@ -44,6 +44,9 @@ related-maps:
 - id: 'meae.congressional.congress05.pa.county'
   name: PA 5th Congress
   type: next
+- id: 'meae.congressional.congress04.national.county'
+  name: National 4th Congress
+  type: national
 state: Pennsylvania
 title: '4th Congress: Pennsylvania 1794'
 type: congressional
@@ -52,6 +55,7 @@ year: 1794
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-d39a7dc7e2354e54323c .leaflet .html-widget style="width:100%;height:500px;"}
 :::
 

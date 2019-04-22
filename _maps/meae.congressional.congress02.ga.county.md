@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 2
 congressordinal: 2nd
 geography: county
@@ -26,6 +26,9 @@ related-maps:
 - id: 'meae.congressional.congress03.ga.county'
   name: GA 3rd Congress
   type: next
+- id: 'meae.congressional.congress02.national.county'
+  name: National 2nd Congress
+  type: national
 state: Georgia
 title: '2nd Congress: Georgia 1791'
 type: congressional
@@ -34,6 +37,7 @@ year: 1791
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-89b589bf6b2bc5e18c47 .leaflet .html-widget style="width:100%;height:525px;"}
 :::
 

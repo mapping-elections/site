@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 15
 congressordinal: 15th
 geography: county
@@ -62,6 +62,9 @@ related-maps:
 - id: 'meae.congressional.congress16.ny.county'
   name: NY 16th Congress
   type: next
+- id: 'meae.congressional.congress15.national.county'
+  name: National 15th Congress
+  type: national
 state: New York
 title: '15th Congress: New York 1816'
 type: congressional
@@ -70,6 +73,7 @@ year: 1816
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-9fe14766c3ab345b5cb0 .leaflet .html-widget style="width:100%;height:725px;"}
 :::
 
@@ -180,7 +184,7 @@ Federalist
 1
 </td>
 <td style="text-align:left;">
-Samuel Jones, Jr.
+Samuel Jones, Jr. 
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist

@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 4
 congressordinal: 4th
 geography: county
@@ -19,6 +19,9 @@ related-maps:
 - id: 'meae.congressional.congress05.ky.county'
   name: KY 5th Congress
   type: next
+- id: 'meae.congressional.congress03.national.county'
+  name: National 3rd Congress
+  type: national
 state: Kentucky
 title: '4th Congress: Kentucky 1794'
 type: congressional
@@ -27,6 +30,7 @@ year: 1794
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-6f6a95d3cb53f5a7759b .leaflet .html-widget style="width:100%;height:450px;"}
 :::
 

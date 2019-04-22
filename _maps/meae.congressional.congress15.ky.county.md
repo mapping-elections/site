@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 15
 congressordinal: 15th
 geography: county
@@ -40,6 +40,9 @@ related-maps:
 - id: 'meae.congressional.congress16.ky.county'
   name: KY 16th Congress
   type: next
+- id: 'meae.congressional.congress15.national.county'
+  name: National 15th Congress
+  type: national
 state: Kentucky
 title: '15th Congress: Kentucky 1816'
 type: congressional
@@ -48,6 +51,7 @@ year: 1816
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-3a983676a5f5ad715b74 .leaflet .html-widget style="width:100%;height:450px;"}
 :::
 

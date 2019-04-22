@@ -8,7 +8,7 @@ congressnum: 16
 congressordinal: 16th
 title: '16th Congress: Louisiana 1818'
 year: 1818
-legend: fed-vs-anti
+legend: fed-vs-rep
 related-maps:
 - id: meae.congressional.congress15.la.county
   name: LA 15th Congress
@@ -16,9 +16,9 @@ related-maps:
 - id: meae.congressional.congress17.la.county
   name: LA 17th Congress
   type: next
-#- id: meae.congressional.congress16.national.district
-#  name: National 16th Congress
-#  type: national
+- id: meae.congressional.congress16.national.county
+  name: National 16th Congress
+  type: national
 output:
   md_document:
     variant: markdown

@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 10
 congressordinal: 10th
 geography: county
@@ -52,6 +52,9 @@ related-maps:
 - id: 'meae.congressional.congress11.ny.county'
   name: NY 11th Congress
   type: next
+- id: 'meae.congressional.congress10.national.county'
+  name: National 10th Congress
+  type: national
 state: New York
 title: '10th Congress: New York 1806'
 type: congressional
@@ -60,6 +63,7 @@ year: 1806
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-ab345b5cb089b589bf6b .leaflet .html-widget style="width:100%;height:725px;"}
 :::
 

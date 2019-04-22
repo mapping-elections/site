@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 8
 congressordinal: 8th
 geography: county
@@ -22,6 +22,9 @@ related-maps:
 - id: 'meae.congressional.congress09.tn.county'
   name: TN 9th Congress
   type: next
+- id: 'meae.congressional.congress08.national.county'
+  name: National 8th Congress
+  type: national
 state: Tennessee
 title: '8th Congress: Tennessee 1803'
 type: congressional
@@ -30,6 +33,7 @@ year: 1803
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-a1ac1624e81fbaf30b05 .leaflet .html-widget style="width:100%;height:300px;"}
 :::
 

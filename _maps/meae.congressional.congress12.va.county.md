@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 12
 congressordinal: 12th
 geography: county
@@ -64,6 +64,9 @@ related-maps:
 - id: 'meae.congressional.congress13.va.county'
   name: VA 13th Congress
   type: next
+- id: 'meae.congressional.congress12.national.county'
+  name: National 12th Congress
+  type: national
 state: Virginia
 title: '12th Congress: Virginia 1811'
 type: congressional
@@ -72,6 +75,7 @@ year: 1811
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-c538b7aab447b6a90a0f .leaflet .html-widget style="width:100%;height:550px;"}
 :::
 

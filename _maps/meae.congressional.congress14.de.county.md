@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 14
 congressordinal: 14th
 geography: county
@@ -22,6 +22,9 @@ related-maps:
 - id: 'meae.congressional.congress15.de.county'
   name: DE 15th Congress
   type: next
+- id: 'meae.congressional.congress14.national.county'
+  name: National 14th Congress
+  type: national
 state: Delaware
 title: '14th Congress: Delaware 1814'
 type: congressional
@@ -30,6 +33,7 @@ year: 1814
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-4e418d0e777bcf5e8b2b .leaflet .html-widget style="width:100%;height:450px;"}
 :::
 

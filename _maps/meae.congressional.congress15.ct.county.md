@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 15
 congressordinal: 15th
 geography: county
@@ -22,6 +22,9 @@ related-maps:
 - id: 'meae.congressional.congress16.ct.county'
   name: CT 16th Congress
   type: next
+- id: 'meae.congressional.congress15.national.county'
+  name: National 15th Congress
+  type: national
 state: Connecticut
 title: '15th Congress: Connecticut 1816'
 type: congressional
@@ -30,6 +33,7 @@ year: 1816
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-7599ebfb0993bb3f4cbb .leaflet .html-widget style="width:100%;height:350px;"}
 :::
 
@@ -319,7 +323,7 @@ Federalist
 At-large
 </td>
 <td style="text-align:left;">
-Asa Bacon, Jr.
+Asa Bacon, Jr. 
 </td>
 <td class="party-federalist" data-party="federalist">
 Federalist

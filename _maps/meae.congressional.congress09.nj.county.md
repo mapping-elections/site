@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 9
 congressordinal: 9th
 geography: county
@@ -22,6 +22,9 @@ related-maps:
 - id: 'meae.congressional.congress10.nj.county'
   name: NJ 10th Congress
   type: next
+- id: 'meae.congressional.congress09.national.county'
+  name: National 9th Congress
+  type: national
 state: New Jersey
 title: '9th Congress: New Jersey 1804'
 type: congressional
@@ -30,6 +33,7 @@ year: 1804
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-4697401f3a983676a5f5 .leaflet .html-widget style="width:100%;height:700px;"}
 :::
 

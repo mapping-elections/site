@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 11
 congressordinal: 11th
 geography: county
@@ -36,6 +36,9 @@ related-maps:
 - id: 'meae.congressional.congress12.md.county'
   name: MD 12th Congress
   type: next
+- id: 'meae.congressional.congress11.national.county'
+  name: National 11th Congress
+  type: national
 state: Maryland
 title: '11th Congress: Maryland 1808'
 type: congressional
@@ -44,6 +47,7 @@ year: 1808
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-4e418d0e777bcf5e8b2b .leaflet .html-widget style="width:100%;height:450px;"}
 :::
 

@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 15
 congressordinal: 15th
 geography: county
@@ -22,6 +22,9 @@ related-maps:
 - id: 'meae.congressional.congress16.in.county'
   name: IN 16th Congress
   type: next
+- id: 'meae.congressional.congress15.national.county'
+  name: National 15th Congress
+  type: national
 state: Indiana
 title: '15th Congress: Indiana 1817'
 type: congressional
@@ -30,6 +33,7 @@ year: 1817
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-f4b1e32ea1fd2154ddc7 .leaflet .html-widget style="width:100%;height:850px;"}
 :::
 

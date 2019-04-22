@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 19
 congressordinal: 19th
 geography: county
@@ -43,6 +43,9 @@ related-maps:
 - id: 'meae.congressional.congress18.ma.county'
   name: MA 18th Congress
   type: previous
+- id: 'meae.congressional.congress19.national.county'
+  name: National 19th Congress
+  type: national
 state: Massachusetts
 title: '19th Congress: Massachusetts 1824'
 type: congressional
@@ -51,6 +54,7 @@ year: 1824
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-8b2b9fe14766c3ab345b .leaflet .html-widget style="width:100%;height:450px;"}
 :::
 
@@ -399,7 +403,7 @@ Adams/Clay
 7
 </td>
 <td style="text-align:left;">
-George Grennall, Jr.
+George Grennall, Jr. 
 </td>
 <td class="party-demrep" data-party="demrep">
 Democratic-Republican

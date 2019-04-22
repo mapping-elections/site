@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 18
 congressordinal: 18th
 geography: county
@@ -38,6 +38,9 @@ related-maps:
 - id: 'meae.congressional.congress19.sc.county'
   name: SC 19th Congress
   type: next
+- id: 'meae.congressional.congress18.national.county'
+  name: National 18th Congress
+  type: national
 state: South Carolina
 title: '18th Congress: South Carolina 1823'
 type: congressional
@@ -46,6 +49,7 @@ year: 1823
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-be4e666470c535bf9553 .leaflet .html-widget style="width:100%;height:600px;"}
 :::
 

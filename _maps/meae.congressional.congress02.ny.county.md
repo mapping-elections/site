@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 2
 congressordinal: 2nd
 geography: county
@@ -32,6 +32,9 @@ related-maps:
 - id: 'meae.congressional.congress03.ny.county'
   name: NY 3rd Congress
   type: next
+- id: 'meae.congressional.congress02.national.county'
+  name: National 2nd Congress
+  type: national
 state: New York
 title: '2nd Congress: New York 1790'
 type: congressional
@@ -40,6 +43,7 @@ year: 1790
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-89b589bf6b2bc5e18c47 .leaflet .html-widget style="width:100%;height:725px;"}
 :::
 

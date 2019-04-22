@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 8
 congressordinal: 8th
 geography: county
@@ -44,6 +44,9 @@ related-maps:
 - id: 'meae.congressional.congress09.nc.county'
   name: NC 9th Congress
   type: next
+- id: 'meae.congressional.congress08.national.county'
+  name: National 8th Congress
+  type: national
 state: North Carolina
 title: '8th Congress: North Carolina 1803'
 type: congressional
@@ -52,6 +55,7 @@ year: 1803
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-89b589bf6b2bc5e18c47 .leaflet .html-widget style="width:100%;height:500px;"}
 :::
 

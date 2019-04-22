@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 4
 congressordinal: 4th
 geography: county
@@ -22,6 +22,9 @@ related-maps:
 - id: 'meae.congressional.congress05.de.county'
   name: DE 5th Congress
   type: next
+- id: 'meae.congressional.congress04.national.county'
+  name: National 4th Congress
+  type: national
 state: Delaware
 title: '4th Congress: Delaware 1794'
 type: congressional
@@ -30,6 +33,7 @@ year: 1794
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-4e418d0e777bcf5e8b2b .leaflet .html-widget style="width:100%;height:450px;"}
 :::
 

@@ -10,9 +10,9 @@ title: '10th Congress: South Carolina 1806'
 year: 1806
 legend: fed-vs-rep
 nnv:
-- id: sc.uscongress.beaufort.1806
-  name: SC US Congress 1806 District 2
 - id: sc.uscongress.charleston.1806
+  name: SC US Congress 1806 District 1
+- id: sc.uscongress.beaufort.1806
   name: SC US Congress 1806 District 2
 - id: sc.uscongress.georgetown.1806
   name: SC US Congress 1806 District 3
@@ -33,9 +33,9 @@ related-maps:
 - id: meae.congressional.congress11.sc.county
   name: SC 11th Congress
   type: next
-# - id: meae.congressional.congress10.national.district
-#   name: National 10th Congress
-#   type: national
+- id: meae.congressional.congress10.national.county
+  name: National 10th Congress
+  type: national
 output:
   md_document:
     variant: markdown
@@ -93,7 +93,7 @@ South Carolina elected eight Democratic-Republicans to the Tenth Congress.
 
 South Carolina used the district system for electing members to Congress.
 
-In 1807, a [special election](https://elections.lib.tufts.edu/catalog/tufts:sc.uscongress.newberry.specialelection.1807) was held in which Joseph C. Colhoun was elected to replace Levi Casey, who died while in office.
+In 1807, a [special election](https://elections.lib.tufts.edu/catalog/tufts:sc.uscongress.newberry.specialelection.1807) was held in which Joseph C. Calhoun was elected to replace Levi Casey, who died while in office.
 
 <div class="results-table">
 

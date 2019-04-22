@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 10
 congressordinal: 10th
 geography: county
@@ -64,6 +64,9 @@ related-maps:
 - id: 'meae.congressional.congress11.va.county'
   name: VA 11th Congress
   type: next
+- id: 'meae.congressional.congress10.national.county'
+  name: National 10th Congress
+  type: national
 state: Virginia
 title: '10th Congress: Virginia 1807'
 type: congressional
@@ -72,6 +75,7 @@ year: 1807
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-295321a354a64d12a9c2 .leaflet .html-widget style="width:100%;height:550px;"}
 :::
 

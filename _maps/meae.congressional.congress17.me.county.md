@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 17
 congressordinal: 17th
 geography: county
@@ -34,6 +34,9 @@ related-maps:
 - id: 'meae.congressional.congress18.me.county'
   name: ME 18th Congress
   type: next
+- id: 'meae.congressional.congress17.national.county'
+  name: National 17th Congress
+  type: national
 state: Maine
 title: '17th Congress: Maine 1820'
 type: congressional
@@ -42,6 +45,7 @@ year: 1820
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-bf6b2bc5e18c477ded59 .leaflet .html-widget style="width:100%;height:600px;"}
 :::
 
@@ -211,7 +215,7 @@ Democratic-Republican
 3
 </td>
 <td style="text-align:left;">
-Joshua Wingate, Jr.
+Joshua Wingate, Jr. 
 </td>
 <td class="party-demrep" data-party="demrep">
 Democratic-Republican

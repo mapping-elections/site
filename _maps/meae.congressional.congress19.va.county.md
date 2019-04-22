@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 19
 congressordinal: 19th
 geography: county
@@ -61,6 +61,9 @@ related-maps:
 - id: 'meae.congressional.congress18.va.county'
   name: VA 18th Congress
   type: previous
+- id: 'meae.congressional.congress19.national.county'
+  name: National 19th Congress
+  type: national
 state: Virginia
 title: '19th Congress: Virginia 1825'
 type: congressional
@@ -69,6 +72,7 @@ year: 1825
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-5a2fe53cfc051b3eb808 .leaflet .html-widget style="width:100%;height:550px;"}
 :::
 

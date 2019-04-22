@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 18
 congressordinal: 18th
 geography: county
@@ -46,6 +46,9 @@ related-maps:
 - id: 'meae.congressional.congress19.nc.county'
   name: NC 19th Congress
   type: next
+- id: 'meae.congressional.congress18.national.county'
+  name: National 18th Congress
+  type: national
 state: North Carolina
 title: '18th Congress: North Carolina 1823'
 type: congressional
@@ -54,6 +57,7 @@ year: 1823
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-747f759e9ac98ec46782 .leaflet .html-widget style="width:100%;height:500px;"}
 :::
 

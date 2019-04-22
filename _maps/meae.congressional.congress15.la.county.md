@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 15
 congressordinal: 15th
 geography: county
@@ -22,6 +22,9 @@ related-maps:
 - id: 'meae.congressional.congress16.la.county'
   name: LA 16th Congress
   type: next
+- id: 'meae.congressional.congress15.national.county'
+  name: National 15th Congress
+  type: national
 state: Louisiana
 title: '15th Congress: Louisiana 1816'
 type: congressional
@@ -30,6 +33,7 @@ year: 1816
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-2ea1fd2154ddc7d39a7d .leaflet .html-widget style="width:100%;height:600px;"}
 :::
 

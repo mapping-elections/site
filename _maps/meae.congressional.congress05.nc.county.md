@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 5
 congressordinal: 5th
 geography: county
@@ -40,6 +40,9 @@ related-maps:
 - id: 'meae.congressional.congress06.nc.county'
   name: NC 6th Congress
   type: next
+- id: 'meae.congressional.congress05.national.county'
+  name: National 5th Congress
+  type: national
 state: North Carolina
 title: '5th Congress: North Carolina 1796'
 type: congressional
@@ -48,6 +51,7 @@ year: 1796
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-9dca56e732cbc1e95216 .leaflet .html-widget style="width:100%;height:500px;"}
 :::
 

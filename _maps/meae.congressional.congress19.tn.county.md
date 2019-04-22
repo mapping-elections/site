@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 19
 congressordinal: 19th
 geography: county
@@ -35,6 +35,9 @@ related-maps:
 - id: 'meae.congressional.congress18.tn.county'
   name: TN 18th Congress
   type: previous
+- id: 'meae.congressional.congress19.national.county'
+  name: National 19th Congress
+  type: national
 state: Tennessee
 title: '19th Congress: Tennessee 1825'
 type: congressional
@@ -43,6 +46,7 @@ year: 1825
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-236344b468436632d487 .leaflet .html-widget style="width:100%;height:600px;"}
 :::
 

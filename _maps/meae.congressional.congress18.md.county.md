@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 18
 congressordinal: 18th
 geography: county
@@ -36,6 +36,9 @@ related-maps:
 - id: 'meae.congressional.congress19.md.county'
   name: MD 19th Congress
   type: next
+- id: 'meae.congressional.congress18.national.county'
+  name: National 18th Congress
+  type: national
 state: Maryland
 title: '18th Congress: Maryland 1822'
 type: congressional
@@ -44,6 +47,7 @@ year: 1822
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-cf5e8b2b9fe14766c3ab .leaflet .html-widget style="width:100%;height:450px;"}
 :::
 

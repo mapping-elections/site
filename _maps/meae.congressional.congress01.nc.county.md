@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 1
 congressordinal: 1st
 geography: county
@@ -27,6 +27,9 @@ related-maps:
 - id: 'meae.congressional.congress02.nc.county'
   name: NC 2nd Congress
   type: next
+- id: 'meae.congressional.congress01.national.county'
+  name: National 1st Congress
+  type: national
 state: North Carolina
 title: '1st Congress: North Carolina 1790'
 type: congressional
@@ -35,6 +38,7 @@ year: 1790
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-4e418d0e777bcf5e8b2b .leaflet .html-widget style="width:100%;height:400px;"}
 :::
 

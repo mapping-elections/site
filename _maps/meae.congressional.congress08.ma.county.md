@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 8
 congressordinal: 8th
 geography: county
@@ -54,6 +54,9 @@ related-maps:
 - id: 'meae.congressional.congress09.ma.county'
   name: MA 9th Congress
   type: next
+- id: 'meae.congressional.congress08.national.county'
+  name: National 8th Congress
+  type: national
 state: Massachusetts
 title: '8th Congress: Massachusetts 1802'
 type: congressional
@@ -62,6 +65,7 @@ year: 1802
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-4e418d0e777bcf5e8b2b .leaflet .html-widget style="width:100%;height:600px;"}
 :::
 
@@ -332,7 +336,7 @@ Other candidates
 5
 </td>
 <td style="text-align:left;">
-Jonathan Smith, Jr.
+Jonathan Smith, Jr. 
 </td>
 <td class="party-demrep" data-party="demrep">
 Democratic-Republican

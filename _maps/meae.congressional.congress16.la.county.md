@@ -1,10 +1,10 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 16
 congressordinal: 16th
 geography: county
 layout: 'maps-show'
-legend: 'fed-vs-anti'
+legend: 'fed-vs-rep'
 level: state
 meae-id: 'meae.congressional.congress16.la.county'
 output:
@@ -19,6 +19,9 @@ related-maps:
 - id: 'meae.congressional.congress17.la.county'
   name: LA 17th Congress
   type: next
+- id: 'meae.congressional.congress16.national.county'
+  name: National 16th Congress
+  type: national
 state: Louisiana
 title: '16th Congress: Louisiana 1818'
 type: congressional
@@ -27,6 +30,7 @@ year: 1818
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-abbe701dacbb7b2bad43 .leaflet .html-widget style="width:100%;height:600px;"}
 :::
 

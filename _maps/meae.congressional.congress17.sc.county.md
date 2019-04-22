@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 17
 congressordinal: 17th
 geography: county
@@ -38,6 +38,9 @@ related-maps:
 - id: 'meae.congressional.congress18.sc.county'
   name: SC 18th Congress
   type: next
+- id: 'meae.congressional.congress17.national.county'
+  name: National 17th Congress
+  type: national
 state: South Carolina
 title: '17th Congress: South Carolina 1820'
 type: congressional
@@ -46,6 +49,7 @@ year: 1820
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-0e415d5c47635947cdfe .leaflet .html-widget style="width:100%;height:600px;"}
 :::
 

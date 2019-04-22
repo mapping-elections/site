@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 7
 congressordinal: 7th
 geography: county
@@ -40,6 +40,9 @@ related-maps:
 - id: 'meae.congressional.congress08.nc.county'
   name: NC 8th Congress
   type: next
+- id: 'meae.congressional.congress07.national.county'
+  name: National 7th Congress
+  type: national
 state: North Carolina
 title: '7th Congress: North Carolina 1800'
 type: congressional
@@ -48,6 +51,7 @@ year: 1800
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-3f4cbbe8355b72e86384 .leaflet .html-widget style="width:100%;height:500px;"}
 :::
 

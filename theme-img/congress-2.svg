@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+	 id="legend" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" inkscape:version="0.92.3 (2405546, 2018-03-11)" xmlns:cc="http://creativecommons.org/ns#" sodipodi:docname="congress-18-19.svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:dc="http://purl.org/dc/elements/1.1/"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="360px" height="250px"
+	 viewBox="0 0 360 250" enable-background="new 0 0 360 250" xml:space="preserve">
+<circle id="circle20" fill="#A50F15" stroke="#888888" cx="332.034" cy="101.881" r="8"/>
+<circle id="circle18" fill="#DE2D26" stroke="#888888" cx="284.033" cy="101.881" r="8"/>
+<circle id="circle16" fill="#FB6A4A" stroke="#888888" cx="236.033" cy="101.881" r="8"/>
+<circle id="circle14" fill="#FCAE91" stroke="#888888" cx="188" cy="101.881" r="8"/>
+<circle id="circle20_2_" fill="#A63603" stroke="#888888" cx="332.034" cy="36" r="8"/>
+<circle id="circle18_2_" fill="#E6550D" stroke="#888888" cx="284.033" cy="36" r="8"/>
+<circle id="circle16_2_" fill="#FD8D3C" stroke="#888888" cx="236.033" cy="36" r="8"/>
+<circle id="circle14_2_" fill="#FDBE85" stroke="#888888" cx="188" cy="36" r="8"/>
+<circle id="circle20_1_" fill="#54278F" stroke="#888888" cx="332.034" cy="58" r="8"/>
+<circle id="circle18_1_" fill="#756BB1" stroke="#888888" cx="284.033" cy="58" r="8"/>
+<circle id="circle16_1_" fill="#9E9AC8" stroke="#888888" cx="236.033" cy="58" r="8"/>
+<sodipodi:namedview  objecttolerance="10" inkscape:pageopacity="0" inkscape:window-width="3064" inkscape:window-y="296" inkscape:cy="115.73396" guidetolerance="10" showgrid="false" inkscape:window-height="1632" inkscape:zoom="4.4319249" inkscape:window-x="1914" inkscape:cx="233.32189" bordercolor="#666666" pagecolor="#ffffff" inkscape:pageshadow="2" inkscape:current-layer="legend" inkscape:window-maximized="0" id="namedview67" gridtolerance="10" borderopacity="1">
+	</sodipodi:namedview>
+<text id="text2" transform="matrix(1 0 0 1 109.3125 17)" font-family="'ArialMT'" font-size="12">Federalist</text>
+<circle id="circle4" fill="#BAE4B3" stroke="#888888" cx="188" cy="14" r="8"/>
+<circle id="circle6" fill="#74C476" stroke="#888888" cx="236.033" cy="14" r="8"/>
+<circle id="circle8" fill="#31A354" stroke="#888888" cx="284.033" cy="14" r="8"/>
+<circle id="circle10" fill="#006D2C" stroke="#888888" cx="332.034" cy="14" r="8"/>
+<text transform="matrix(1 0 0 1 84.9766 39)" font-family="'ArialMT'" font-size="12">Anti-Federalist</text>
+<circle id="circle14_1_" fill="#CBC9E2" stroke="#888888" cx="188" cy="58" r="8"/>
+<text transform="matrix(1 0 0 1 74.2695 61)" font-family="'ArialMT'" font-size="12">Democratic-Rep.</text>
+<text id="text32" transform="matrix(1 0 0 1 57.4922 127)" font-family="'ArialMT'" font-size="12">Unaffiliated or other</text>
+<circle id="circle34" fill="#FBB4B9" stroke="#888888" cx="188" cy="124" r="8"/>
+<circle id="circle36" fill="#F768A1" stroke="#888888" cx="236.033" cy="124" r="8"/>
+<circle id="circle38" fill="#C51B8A" stroke="#888888" cx="284.033" cy="124" r="8"/>
+<circle id="circle40" fill="#7A0177" stroke="#888888" cx="332.034" cy="124" r="8"/>
+<text id="text42" transform="matrix(1 0 0 1 172.6982 151)" font-family="'ArialMT'" font-size="12">≤40%</text>
+<text id="text44" transform="matrix(1 0 0 1 220.6982 151)" font-family="'ArialMT'" font-size="12">≤60%</text>
+<text id="text46" transform="matrix(1 0 0 1 268.6982 151)" font-family="'ArialMT'" font-size="12">≤80%</text>
+<text id="text48" transform="matrix(1 0 0 1 313.3613 151)" font-family="'ArialMT'" font-size="12">≤100%</text>
+<line id="line50" fill="none" stroke="#BBBBBB" stroke-width="2" stroke-dasharray="5" x1="181" y1="172" x2="255" y2="172"/>
+<text id="text52" transform="matrix(1 0 0 1 126.9785 176)" font-family="'ArialMT'" font-size="12">County</text>
+<line id="line54" fill="none" stroke="#222222" stroke-width="3" x1="181" y1="194" x2="255" y2="194"/>
+<text id="text56" transform="matrix(1 0 0 1 50.2852 198)" font-family="'ArialMT'" font-size="12">Congressional district</text>
+<circle id="circle58" fill="#EAF945" stroke="#333333" stroke-width="1.5" cx="188" cy="216" r="5"/>
+<text id="text60" transform="matrix(1 0 0 1 70.9746 220)" font-family="'ArialMT'" font-size="12">Major city or town</text>
+<circle id="circle62" fill="#C7C7C7" stroke="#888888" cx="188" cy="238" r="8"/>
+<text id="text64" transform="matrix(1 0 0 1 72.2695 242)" font-family="'ArialMT'" font-size="12">No data available</text>
+<text transform="matrix(1 0 0 1 92.686 104.8809)" font-family="'ArialMT'" font-size="12">Chesapeake</text>
+<text transform="matrix(1 0 0 1 112.9956 83.0137)" font-family="'ArialMT'" font-size="12">Potomac</text>
+<circle id="circle24-7-9" fill="#BDD7E7" stroke="#888888" cx="188" cy="80.014" r="8"/>
+<circle id="circle26-5-1" fill="#6BAED6" stroke="#888888" cx="236.033" cy="80.014" r="8"/>
+<circle id="circle28-3-2" fill="#3182BD" stroke="#888888" cx="284.033" cy="80.014" r="8"/>
+<circle id="circle30-5-7" fill="#08519C" stroke="#888888" cx="332.034" cy="80.014" r="8"/>
+</svg>

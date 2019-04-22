@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 3
 congressordinal: 3rd
 geography: county
@@ -22,6 +22,9 @@ related-maps:
 - id: 'meae.congressional.congress04.ct.county'
   name: CT 4th Congress
   type: next
+- id: 'meae.congressional.congress03.national.county'
+  name: National 3rd Congress
+  type: national
 state: Connecticut
 title: '3rd Congress: Connecticut 1792'
 type: congressional
@@ -30,6 +33,7 @@ year: 1792
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-7599ebfb0993bb3f4cbb .leaflet .html-widget style="width:100%;height:350px;"}
 :::
 

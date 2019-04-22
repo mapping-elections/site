@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 10
 congressordinal: 10th
 geography: county
@@ -8,9 +8,9 @@ legend: 'fed-vs-rep'
 level: state
 meae-id: 'meae.congressional.congress10.sc.county'
 nnv:
-- id: 'sc.uscongress.beaufort.1806'
-  name: SC US Congress 1806 District 2
 - id: 'sc.uscongress.charleston.1806'
+  name: SC US Congress 1806 District 1
+- id: 'sc.uscongress.beaufort.1806'
   name: SC US Congress 1806 District 2
 - id: 'sc.uscongress.georgetown.1806'
   name: SC US Congress 1806 District 3
@@ -36,6 +36,9 @@ related-maps:
 - id: 'meae.congressional.congress11.sc.county'
   name: SC 11th Congress
   type: next
+- id: 'meae.congressional.congress10.national.county'
+  name: National 10th Congress
+  type: national
 state: South Carolina
 title: '10th Congress: South Carolina 1806'
 type: congressional
@@ -44,6 +47,7 @@ year: 1806
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-49ed27f600b5a1c5e482 .leaflet .html-widget style="width:100%;height:600px;"}
 :::
 
@@ -59,7 +63,7 @@ Congress.
 
 In 1807, a [special
 election](https://elections.lib.tufts.edu/catalog/tufts:sc.uscongress.newberry.specialelection.1807)
-was held in which Joseph C. Colhoun was elected to replace Levi Casey,
+was held in which Joseph C. Calhoun was elected to replace Levi Casey,
 who died while in office.
 
 ::: {.results-table}

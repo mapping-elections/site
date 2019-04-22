@@ -29,9 +29,9 @@ related-maps:
 - id: meae.congressional.congress08.sc.county
   name: SC 8th Congress
   type: next
-# - id: meae.congressional.congress07.national.district
-#   name: National 7th Congress
-#  type: national
+- id: meae.congressional.congress07.national.county
+  name: National 7th Congress
+  type: national
 output:
   md_document:
     variant: markdown

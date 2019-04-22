@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 1
 congressordinal: 1st
 editor_options:
@@ -35,6 +35,9 @@ related-maps:
 - id: 'meae.congressional.congress02.ma.county'
   name: MA 2nd Congress
   type: next
+- id: 'meae.congressional.congress01.national.county'
+  name: National 1st Congress
+  type: national
 state: Massachusetts
 title: '1st Congress: Massachusetts 1788'
 type: congressional
@@ -43,6 +46,7 @@ year: 1788
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-4e418d0e777bcf5e8b2b .leaflet .html-widget style="width:100%;height:600px;"}
 :::
 

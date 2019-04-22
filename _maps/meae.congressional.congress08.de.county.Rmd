@@ -19,9 +19,9 @@ related-maps:
 - id: meae.congressional.congress09.de.county
   name: DE 9th Congress
   type: next
-# - id: meae.congressional.congress08.national.district
-#   name: National 8th Congress
-#   type: national
+- id: meae.congressional.congress08.national.county
+  name: National 8th Congress
+  type: national
 output:
   md_document:
     variant: markdown

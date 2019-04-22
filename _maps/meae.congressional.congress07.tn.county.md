@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 7
 congressordinal: 7th
 geography: county
@@ -22,6 +22,9 @@ related-maps:
 - id: 'meae.congressional.congress08.tn.county'
   name: TN 8th Congress
   type: next
+- id: 'meae.congressional.congress07.national.county'
+  name: National 7th Congress
+  type: national
 state: Tennessee
 title: '7th Congress: Tennessee 1801'
 type: congressional
@@ -30,6 +33,7 @@ year: 1801
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-49b7ecac2f591f1b4cd6 .leaflet .html-widget style="width:100%;height:300px;"}
 :::
 

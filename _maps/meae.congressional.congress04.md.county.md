@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 4
 congressordinal: 4th
 geography: county
@@ -36,6 +36,9 @@ related-maps:
 - id: 'meae.congressional.congress05.md.county'
   name: MD 5th Congress
   type: next
+- id: 'meae.congressional.congress04.national.county'
+  name: National 4th Congress
+  type: national
 state: Maryland
 title: '4th Congress: Maryland 1794'
 type: congressional
@@ -44,6 +47,7 @@ year: 1794
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-418d0e777bcf5e8b2b9f .leaflet .html-widget style="width:100%;height:450px;"}
 :::
 

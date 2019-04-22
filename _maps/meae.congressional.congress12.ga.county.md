@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 12
 congressordinal: 12th
 geography: county
@@ -22,6 +22,9 @@ related-maps:
 - id: 'meae.congressional.congress13.ga.county'
   name: GA 13th Congress
   type: next
+- id: 'meae.congressional.congress12.national.county'
+  name: National 12th Congress
+  type: national
 state: Georgia
 title: '12th Congress: Georgia 1810'
 type: congressional
@@ -30,6 +33,7 @@ year: 1810
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-418d0e777bcf5e8b2b9f .leaflet .html-widget style="width:100%;height:525px;"}
 :::
 

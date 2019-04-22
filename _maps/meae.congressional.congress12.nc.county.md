@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 12
 congressordinal: 12th
 geography: county
@@ -44,6 +44,9 @@ related-maps:
 - id: 'meae.congressional.congress13.nc.county'
   name: NC 13th Congress
   type: next
+- id: 'meae.congressional.congress12.national.county'
+  name: National 12th Congress
+  type: national
 state: North Carolina
 title: '12th Congress: North Carolina 1810'
 type: congressional
@@ -52,6 +55,7 @@ year: 1810
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-e32ea1fd2154ddc7d39a .leaflet .html-widget style="width:100%;height:500px;"}
 :::
 

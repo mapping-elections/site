@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 12
 congressordinal: 12th
 geography: county
@@ -22,6 +22,9 @@ related-maps:
 - id: 'meae.congressional.congress13.nj.county'
   name: NJ 13th Congress
   type: next
+- id: 'meae.congressional.congress12.national.county'
+  name: National 12th Congress
+  type: national
 state: New Jersey
 title: '12th Congress: New Jersey 1810'
 type: congressional
@@ -30,6 +33,7 @@ year: 1810
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-5e8b2b9fe14766c3ab34 .leaflet .html-widget style="width:100%;height:700px;"}
 :::
 

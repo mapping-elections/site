@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 6
 congressordinal: 6th
 geography: county
@@ -24,6 +24,9 @@ related-maps:
 - id: 'meae.congressional.congress07.vt.county'
   name: VT 7th Congress
   type: next
+- id: 'meae.congressional.congress06.national.county'
+  name: National 6th Congress
+  type: national
 state: Vermont
 title: '6th Congress: Vermont 1798'
 type: congressional
@@ -32,6 +35,7 @@ year: 1798
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-89b589bf6b2bc5e18c47 .leaflet .html-widget style="width:100%;height:600px;"}
 :::
 

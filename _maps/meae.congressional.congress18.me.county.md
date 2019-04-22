@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 18
 congressordinal: 18th
 geography: county
@@ -34,6 +34,9 @@ related-maps:
 - id: 'meae.congressional.congress19.me.county'
   name: ME 19th Congress
   type: next
+- id: 'meae.congressional.congress18.national.county'
+  name: National 18th Congress
+  type: national
 state: Maine
 title: '18th Congress: Maine 1823'
 type: congressional
@@ -42,6 +45,7 @@ year: 1823
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-89b589bf6b2bc5e18c47 .leaflet .html-widget style="width:100%;height:600px;"}
 :::
 
@@ -307,7 +311,7 @@ Adams/Clay
 6
 </td>
 <td style="text-align:left;">
-Alfred Johnson, Jr.
+Alfred Johnson, Jr. 
 </td>
 <td style="text-align:left;">
 Adams/Clay

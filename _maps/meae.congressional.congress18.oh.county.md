@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 18
 congressordinal: 18th
 geography: county
@@ -48,6 +48,9 @@ related-maps:
 - id: 'meae.congressional.congress19.oh.county'
   name: OH 19th Congress
   type: next
+- id: 'meae.congressional.congress18.national.county'
+  name: National 18th Congress
+  type: national
 state: Ohio
 title: '18th Congress: Ohio 1822'
 type: congressional
@@ -56,6 +59,7 @@ year: 1822
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-052ba32a5a2fe53cfc05 .leaflet .html-widget style="width:100%;height:650px;"}
 :::
 

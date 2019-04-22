@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 9
 congressordinal: 9th
 geography: county
@@ -22,6 +22,9 @@ related-maps:
 - id: 'meae.congressional.congress10.nh.county'
   name: NH 10th Congress
   type: next
+- id: 'meae.congressional.congress09.national.county'
+  name: National 9th Congress
+  type: national
 state: New Hampshire
 title: '9th Congress: New Hampshire 1804'
 type: congressional
@@ -30,6 +33,7 @@ year: 1804
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-4e418d0e777bcf5e8b2b .leaflet .html-widget style="width:100%;height:700px;"}
 :::
 

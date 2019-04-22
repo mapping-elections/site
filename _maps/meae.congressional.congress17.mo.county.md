@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 17
 congressordinal: 17th
 geography: county
@@ -19,6 +19,9 @@ related-maps:
 - id: 'meae.congressional.congress18.mo.county'
   name: MO 18th Congress
   type: next
+- id: 'meae.congressional.congress17.national.county'
+  name: National 17th Congress
+  type: national
 state: Missouri
 title: '17th Congress: Missouri 1820'
 type: congressional
@@ -27,6 +30,7 @@ year: 1820
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-4cd6fe6f33f6a94c1e99 .leaflet .html-widget style="width:100%;height:650px;"}
 :::
 

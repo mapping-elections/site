@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 15
 congressordinal: 15th
 geography: county
@@ -50,6 +50,9 @@ related-maps:
 - id: 'meae.congressional.congress16.pa.county'
   name: PA 16th Congress
   type: next
+- id: 'meae.congressional.congress15.national.county'
+  name: National 15th Congress
+  type: national
 state: Pennsylvania
 title: '15th Congress: Pennsylvania 1816'
 type: congressional
@@ -58,6 +61,7 @@ year: 1816
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-53630a5c92aff8b30289 .leaflet .html-widget style="width:100%;height:500px;"}
 :::
 
@@ -642,7 +646,7 @@ Republican Faction
 7
 </td>
 <td style="text-align:left;">
-Charles Shoemaker, Jr.
+Charles Shoemaker, Jr. 
 </td>
 <td style="text-align:left;">
 Republican Faction

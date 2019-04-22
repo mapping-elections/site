@@ -22,6 +22,9 @@ related-maps:
 - id: meae.congressional.congress04.pa.county
   name: PA 4th Congress
   type: next
+- id: meae.congressional.congress03.national.county
+  name: National 3rd Congress
+  type: national
 state: Pennsylvania
 always_allow_html: yes
 type: congressional

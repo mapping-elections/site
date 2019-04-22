@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 2
 congressordinal: 2nd
 geography: county
@@ -40,6 +40,9 @@ related-maps:
 - id: 'meae.congressional.congress03.va.county'
   name: VA 3rd Congress
   type: next
+- id: 'meae.congressional.congress02.national.county'
+  name: National 2nd Congress
+  type: national
 state: Virginia
 title: '2nd Congress: Virginia 1790'
 type: congressional
@@ -48,6 +51,7 @@ year: 1790
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-82475c70cd85b2d9d864 .leaflet .html-widget style="width:100%;height:450px;"}
 :::
 

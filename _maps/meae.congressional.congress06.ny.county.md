@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 6
 congressordinal: 6th
 geography: county
@@ -40,6 +40,9 @@ related-maps:
 - id: 'meae.congressional.congress07.ny.county'
   name: NY 7th Congress
   type: next
+- id: 'meae.congressional.congress06.national.county'
+  name: National 6th Congress
+  type: national
 state: New York
 title: '6th Congress: New York 1798'
 type: congressional
@@ -48,6 +51,7 @@ year: 1798
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-418d0e777bcf5e8b2b9f .leaflet .html-widget style="width:100%;height:725px;"}
 :::
 

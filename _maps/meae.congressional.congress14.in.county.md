@@ -1,10 +1,10 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 14
 congressordinal: 14th
 geography: county
 layout: 'maps-show'
-legend: dissrep
+legend: 'fed-vs-rep'
 level: state
 meae-id: 'meae.congressional.congress14.in.county'
 nnv:
@@ -19,6 +19,9 @@ related-maps:
 - id: 'meae.congressional.congress15.in.county'
   name: IN 15th Congress
   type: next
+- id: 'meae.congressional.congress14.national.county'
+  name: National 14th Congress
+  type: national
 state: Indiana
 title: '14th Congress: Indiana 1816'
 type: congressional
@@ -27,6 +30,7 @@ year: 1816
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-aff8b30289d6ce143df7 .leaflet .html-widget style="width:100%;height:850px;"}
 :::
 

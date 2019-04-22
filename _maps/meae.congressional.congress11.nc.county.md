@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 11
 congressordinal: 11th
 geography: county
@@ -44,6 +44,9 @@ related-maps:
 - id: 'meae.congressional.congress12.nc.county'
   name: NC 12th Congress
   type: next
+- id: 'meae.congressional.congress11.national.county'
+  name: National 11th Congress
+  type: national
 state: North Carolina
 title: '11th Congress: North Carolina 1808'
 type: congressional
@@ -52,6 +55,7 @@ year: 1808
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-8c477ded59f4b1e32ea1 .leaflet .html-widget style="width:100%;height:500px;"}
 :::
 

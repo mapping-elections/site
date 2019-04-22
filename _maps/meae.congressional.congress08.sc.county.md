@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 8
 congressordinal: 8th
 geography: county
@@ -36,6 +36,9 @@ related-maps:
 - id: 'meae.congressional.congress09.sc.county'
   name: SC 9th Congress
   type: next
+- id: 'meae.congressional.congress08.national.county'
+  name: National 8th Congress
+  type: national
 state: South Carolina
 title: '8th Congress: South Carolina 1803'
 type: congressional
@@ -44,6 +47,7 @@ year: 1803
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-27a349ed27f600b5a1c5 .leaflet .html-widget style="width:100%;height:600px;"}
 :::
 

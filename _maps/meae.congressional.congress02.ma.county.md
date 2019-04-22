@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 2
 congressordinal: 2nd
 geography: county
@@ -36,6 +36,9 @@ related-maps:
 - id: 'meae.congressional.congress03.ma.county'
   name: MA 3rd Congress
   type: next
+- id: 'meae.congressional.congress02.national.county'
+  name: National 2nd Congress
+  type: national
 state: Massachusetts
 title: '2nd Congress: Massachusetts 1790'
 type: congressional
@@ -44,6 +47,7 @@ year: 1790
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-4e418d0e777bcf5e8b2b .leaflet .html-widget style="width:100%;height:600px;"}
 :::
 
@@ -110,7 +114,7 @@ Federalist
 1
 </td>
 <td style="text-align:left;">
-Benjamin Austin, Jr.
+Benjamin Austin, Jr. 
 </td>
 <td style="text-align:left;">
 Anti-Federalist
@@ -129,7 +133,7 @@ Anti-Federalist
 1
 </td>
 <td style="text-align:left;">
-Thomas Dawes, Jr.
+Thomas Dawes, Jr. 
 </td>
 <td style="text-align:left;">
 Anti-Federalist
@@ -486,7 +490,7 @@ Federalist
 8
 </td>
 <td style="text-align:left;">
-William Lithgow, Jr.
+William Lithgow, Jr. 
 </td>
 <td style="text-align:left;">
 </td>

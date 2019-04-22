@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 8
 congressordinal: 8th
 geography: county
@@ -22,6 +22,9 @@ related-maps:
 - id: 'meae.congressional.congress09.ga.county'
   name: GA 9th Congress
   type: next
+- id: 'meae.congressional.congress08.national.county'
+  name: National 8th Congress
+  type: national
 state: Georgia
 title: '8th Congress: Georgia 1802'
 type: congressional
@@ -30,6 +33,7 @@ year: 1802
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-9fe14766c3ab345b5cb0 .leaflet .html-widget style="width:100%;height:525px;"}
 :::
 

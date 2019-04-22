@@ -1,5 +1,5 @@
 ---
-always_allow_html: True
+always_allow_html: yes
 congressnum: 7
 congressordinal: 7th
 geography: county
@@ -44,6 +44,9 @@ related-maps:
 - id: 'meae.congressional.congress08.pa.county'
   name: PA 8th Congress
   type: next
+- id: 'meae.congressional.congress07.national.county'
+  name: National 7th Congress
+  type: national
 state: Pennsylvania
 title: '7th Congress: Pennsylvania 1800'
 type: congressional
@@ -52,6 +55,7 @@ year: 1800
 
 ::: {.map}
 <!--html_preserve-->
+
 ::: {#htmlwidget-0e777bcf5e8b2b9fe147 .leaflet .html-widget style="width:100%;height:500px;"}
 :::
 
