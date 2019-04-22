@@ -7,11 +7,10 @@
     <div class="large-8 large-offset-2 column">
         <h3>{{ page.title }}</h3> 
         <h4> {{ page.subtitle }}</h4>
-        <div class="author">{{ page.author }}</div>
-        <div class="metadata">{{ page.year }} | <a href="{{ page.doi }}">{{ page.doi }}</a></div>
+        <div class="author">{{ page.author }} ({{ page.year }})</div>
+        <div class="metadata"><a href="{{ page.doi }}">{{ page.doi }}</a></div>
         <figure>
-            <p><img src="{{ site.url }}{{ page.image }}"
-              alt="">
+            <p><img src="{{ site.url }}{{ page.image }}" alt="{{page.image-alt}}">
             <figcaption>{{ page.attribution | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>
           </figure>
         <div>{{ content }}</div>
