@@ -154,7 +154,7 @@ Federalist Party. Note: Newton was elected to the
 </a> Congresses. However, complete data giving exact vote counts for
 these elections does not survive. Therefore, victories in theses
 elections are shown with a shaded purple
-box.](/content-img/newton-incumbency.png)
+box.]({{site.url}}/content-img/newton-incumbency.png)
 
 Unopposed reelections represent an intriguing subsection of incumbency
 in the early republic. Of all the congressional elections in the MEAE
@@ -185,7 +185,7 @@ elections won by unopposed incumbents. This suggests that despite the
 new language of "democratic" politics, an older style of deferential
 politics was still the accepted practice in the South for at least the
 first thirty years of US Congressional
-elections.](/content-img/unopposed-incumbent-elections.png)
+elections.]({{site.url}}/content-img/unopposed-incumbent-elections.png)
 
 Both in the early republic and today, high turnover can result from a
 number of causes. Voters may turn their representatives out of office at

@@ -113,8 +113,6 @@ accurate counts of the adult male population. For more specific results
 using the New Nation Votes data, see the table in figure 2 which shows
 the turnout in Maryland congressional elections in 1808, 1810 and 1812.)
 
-![caption text](/content-img/file.jpg)
-
 Figure 2. 
 <table>
 <thead>
