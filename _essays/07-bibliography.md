@@ -4,7 +4,7 @@ year: 2019
 layout: essay
 doi: https://doi.org/10.31835/meae.essays.07
 image: "/content-img/gerrymander.jpg"
-attribution: "text"
+attribution: "“The Gerry-Mander, or Essex South District Formed Into a Monster!” (April 2, 1813) by Elkanah Tisdale in Salem Gazette, Salem, MA ([Cornell University Library](https://digital.library.cornell.edu/catalog/ss:3293783)).  In 1812, the Massachusetts legislature, dominated by Democratic-Republicans, attempted to minimize the election of Federalists to the state’s upper house by drawing an election district whose convoluted shape resembled, at least to some, a salamander. Outraged Federalists labeled the misshapen district a “gerrymander”—a term that combined Massachusetts governor Elbridge Gerry’s last name with the final syllables of “salamander.” Although this was not the first time a legislature attempted to influence the outcome of an election by manipulating electoral boundaries, it is the first time the process acquired a name. The term stuck, and remains in use to the present."
 order: 7
 abstract: |
     Sources for further reading about early American politics and elections. 

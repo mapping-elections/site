@@ -5,7 +5,7 @@ year: 2019
 layout: essay
 doi: https://doi.org/10.31835/meae.essays.04
 image: "/content-img/house-of-representatives-1822.jpg"
-attribution: "text"
+attribution: "The House of Representatives (1822) by Samuel F.B. Morse ([National Gallery of Art](https://www.nga.gov/collection/art-object-page.166463.html)). The image depicts the members of the Seventeenth Congress as a sober group of gentlemen who politely debated the issues of the day. In reality, political conflict and turmoil were as commonplace as rational deliberation. Pawnee Indian Chief Petalasharo sits in the Visitors’ Gallery (upper right), presumably to witness discussions over Indian affairs. Morse hoped that this portrait would make the law-making process more vivid for the many Americans who would never be able to travel to Washington, DC, themselves."
 order: 4
 summary: "Voter turnout in early elections was sizeable and motivated by substantive debates on key issues."
 abstract: While previous studies have reported fairly low levels of voter participation during the early national era, voter turnout actually increased dramatically during this period, with 50 to 70 percent of the total free male population frequently voting in many states. In contrast with later political systems, substantive issues, rather than party loyalty, galvanized voters during the First Party System and propelled them to the polls.

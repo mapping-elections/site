@@ -5,7 +5,7 @@ year: 2019
 layout: essay
 doi: https://doi.org/10.31835/meae.essays.02
 image: "/content-img/congressional-pugilists-1789.jpg"
-attribution: "text"
+attribution: "Congressional Pugilists (1798) Philadelphia, PA ([Library of Congress](https://www.loc.gov/item/2008661719/)). In 1798, after a bitter personal exchange on the floor of the US House of Representatives, Federalist Roger Griswold of Connecticut grabbed a cane and attacked Democratic-Republican Matthew Lyon of Vermont. Lyon grabbed a nearby pair of fireplace tongs and lashed out against his adversary. This image reflects the heightened nature of political antagonisms that erupted in the 1790s with the emergence of the country’s first political parties."
 order: 2
 summary: "The early republic’s nascent political parties evolved and coalesced around differing visions of America."
 abstract: Political parties during the early national era were fundamentally different from political parties today. Parties at this time were evolving institutions whose legitimacy and structure were not well-defined—yet which, at the same time, came to occupy a crucial, and unexpected, role in the American political process.
