@@ -5,7 +5,7 @@ year: 2019
 layout: essay
 doi: https://doi.org/10.31835/meae.essays.01
 image: "/content-img/election-day-1815.jpg"
-attribution: "text"
+attribution: "Election at the State House (c. 1815) by John Lewis Krimmel (The Historical Society of Pennsylvania). This is one of the existing images of an election scene from the era of the early American republic. Set in Philadelphia in 1815, the image shows a wide range of people, including women, children, and lower-class white men, engaged a variety of activities in front of the State House. The election has an almost carnivalesque atmosphere, typical for elections at the time."
 order: 1
 summary: "The <em>Mapping Elections</em> project turns records of electoral returns into maps of voting patterns."
 abstract: "The historical records for the results of elections during the early American republic are scattered and fragmentary. After these election returns were gathered by the <em>A New Nation Votes</em> project, we turned them into a spatial dataset. Understanding this process will help scholars to interpret these maps and data."

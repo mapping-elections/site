@@ -10,9 +10,8 @@
         <div class="author">{{ page.author }} ({{ page.year }})</div>
         <div class="metadata"><a href="{{ page.doi }}">{{ page.doi }}</a></div>
         <figure>
-            <p><img src="{{ site.url }}{{ page.image }}"
-              alt="{{page.image-alt}}">
-            <figcaption>{{ page.attribution }}</figcaption>
+            <p><img src="{{ site.url }}{{ page.image }}" alt="{{page.image-alt}}">
+            <figcaption>{{ page.attribution | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>
           </figure>
         <div>{{ content }}</div>
     </div>

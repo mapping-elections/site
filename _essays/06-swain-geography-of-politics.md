@@ -14,7 +14,7 @@ always_allow_html: yes
 author: Greta Swain
 doi: https://doi.org/10.31835/meae.essays.06
 image: "/content-img/maryland-map-1795.jpg"
-attribution: "text"
+attribution: "Maryland (1795) by Joseph Scott, printed by Francis & Robert Bailey, Philadelphia, PA ([Library of Congress](https://www.loc.gov/item/76695375/)). Philadelphia engraver Joseph Scott’s 1795 “Gazetteer of the United States” contains some of the earliest American-made maps of the United States, and is particularly known for its maps of each individual state. Scott’s map of Maryland quite accurately presents Maryland’s topography and geography—dominated by its abundant waterways—which played a crucial role in shaping the state’s early political development."
 layout: essay
 order: 6
 output:

@@ -4,8 +4,8 @@ author: "Jordan F. Bratt"
 year: 2019
 layout: essay
 doi: "https://doi.org/10.31835/meae.essays.05"
-image: "/content-img/unopposed-incumbent-elections.jpg"
-attribution: "text"
+image: "/content-img/john-randolph.jpg"
+attribution: "John Randolph (1811) by John Wesley Jarvis ([Smithsonian National Portrait Gallery](https://npg.si.edu/object/npg_NPG.70.46)). John Randolph of Roanoke, VA, (1773-1833) served in the House of Representatives almost continuously from 1799 to 1825. Eccentric and argumentative, in 1806 he split from his fellow Democratic-Republicans to become the leader of the “Tertium Quids,” a group that advocated states’ rights and a highly restricted role for the federal government. His career demonstrates both the power of incumbency in facilitating reelection and the ability of an individual to foment division within the nation’s early political parties."
 order: 5
 summary: "Early congresses featured high turnover rates due to the republic’s political culture and personal hardships." 
 abstract: High rates of congressional turnover during the new republic’s first decades produced a kind of de facto rotation in office, bringing new members with fresh ideas, but also erasing the knowledge and expertise of experienced members. While some incumbent members did not return to Congress at the wishes of their constituents, others chose to leave their seat voluntarily in order to remain at home with their families, or seek other political or economic opportunities.

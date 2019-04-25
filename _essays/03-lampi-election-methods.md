@@ -6,7 +6,7 @@ year: 2019
 layout: essay
 doi: https://doi.org/10.31835/meae.essays.03
 image: "/content-img/county-election.jpg"
-attribution: "text"
+attribution: "The County Election (1852) by George Caleb Bingham ([St. Louis Art Museum](https://www.slam.org/collection/objects/29775/)). While taking place in a later period than the elections explored in this project, Bingham’s portrait of a rural Missouri election scene in the 1850s depicts several aspects of the electoral process that were also common during the First Party System: a raucous assembly of white men (notice the lack of women or African Americans) of varying social classes (by 1800 around 80% of all adult white males were eligible to vote) playing games, reading a newspaper, debating the issues, or chatting with friends—in addition to voting; a vote being bought by “treating” a voter to liquor (a common but illegal practice); and votes cast through oral voting (viva voce), in which a voter called out his choice to the election clerk behind the judge, who openly recorded it in a ledger."
 order: 3
 summary: "Early American elections saw disparate and often questionable electoral practices."
 abstract: For the first several decades of the new nation’s existence, the individual states within the United States had virtually unrestricted authority over the time, place, and manner of electing members for the U.S. Congress. Because of this, states developed and experimented with their own creative electoral procedures, such as at-large elections or multiple-member districts. These dynamic electoral methods reflect the period’s ongoing debates about the nature of representation in the new republic.
