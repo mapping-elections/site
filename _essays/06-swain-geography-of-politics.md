@@ -9,12 +9,20 @@ abstract: |
     "Chesapeake" and "Potomac" parties only appeared in one election, the
     two regionally-based voting blocs they represented continued to
     influence voting patterns throughout the state for almost two decades.
-summary: "Maryland’s geography created a unique political culture informed by an extreme aura of localism."
 always_allow_html: yes
+attribution: |
+    Maryland (1795) by Joseph Scott, printed by Francis & Robert Bailey,
+    Philadelphia, PA ([Library of
+    Congress](https://www.loc.gov/item/76695375/)). Philadelphia engraver
+    Joseph Scott's 1795 "Gazetteer of the United States" contains some of
+    the earliest American-made maps of the United States, and is
+    particularly known for its maps of each individual state. Scott's map of
+    Maryland quite accurately presents Maryland's topography and
+    geography---dominated by its abundant waterways---which played a crucial
+    role in shaping the state's early political development.
 author: Greta Swain
-doi: https://doi.org/10.31835/meae.essays.06
-image: "/content-img/maryland-map-1795.jpg"
-attribution: "Maryland (1795) by Joseph Scott, printed by Francis & Robert Bailey, Philadelphia, PA ([Library of Congress](https://www.loc.gov/item/76695375/)). Philadelphia engraver Joseph Scott’s 1795 “Gazetteer of the United States” contains some of the earliest American-made maps of the United States, and is particularly known for its maps of each individual state. Scott’s map of Maryland quite accurately presents Maryland’s topography and geography—dominated by its abundant waterways—which played a crucial role in shaping the state’s early political development."
+doi: '<https://doi.org/10.31835/meae.essays.06>'
+image: '/content-img/maryland-map-1795.jpg'
 layout: essay
 order: 6
 output:
@@ -24,27 +32,31 @@ output:
     preserve_yaml: True
     variant: markdown
   pdf_document: default
-title: "Maryland's Geography of Politics in the Early Republic"
+summary: |
+    Maryland's geography created a unique political culture informed by an
+    extreme aura of localism.
+title: 'Maryland''s Political Geography in the Early Republic'
 year: 2019
 ---
 
-The Mapping Early American Elections (MEAE) project presents
-visualizations of the election returns contained in the New Nation Votes
-(NNV) database. These visualizations, presented in the form of maps,
-afford researchers an ideal opportunity to examine the role of geography
-in shaping the outcome of the state's early political contests. Unlike
-many other states, whose election returns are scattered or incomplete,
-Maryland has an almost complete set of election data for the period from
-1789 to 1824. At the same time, Maryland's topography and physical
-features---especially its two major waterways---created a situation in
-which geography played a determinative role in shaping the state's
-political development. While the political history of the early American
-republic has traditionally been told as a contest between two emerging
-parties---first, between the Federalist and Anti-Federalists, and later,
-between the Federalists and Democratic-Republicans---Maryland offers a
-bracing counter-example which complicates this conventional narrative.
+The *Mapping Early American Elections* (MEAE) project presents
+visualizations of the election returns contained in the *New Nation
+Votes* (NNV) collection of election returns. These visualizations,
+presented in the form of maps, afford researchers an ideal opportunity
+to examine the role of geography in shaping the outcome of the state's
+early political contests. Unlike many other states, whose election
+returns are scattered or incomplete, Maryland has an almost complete set
+of election data for the period from 1789 to 1824. At the same time,
+Maryland's topography and physical features---especially its two major
+waterways---created a situation in which geography played a
+determinative role in shaping the state's political development. While
+the political history of the early American republic has traditionally
+been told as a contest between two emerging parties---first, between the
+Federalist and Anti-Federalists, and later, between the Federalists and
+Democratic-Republicans---Maryland offers a bracing counter-example which
+complicates this conventional narrative.
 
-At the time of the ratification of the US Constitution, state-level
+At the time of the ratification of the U.S. Constitution, state-level
 politics in Maryland had already split into two distinct voting blocs.
 There was a creditor bloc that primarily represented wealthy landowners
 and planters, who favored higher taxes. These taxes, collected in hard
@@ -183,7 +195,7 @@ by voting for Potomac candidates, while counties at the top of
 Chesapeake Bay and along the Eastern Shore made their outrage at the
 Compromise of 1790 known by voting for Chesapeake candidates. Counties
 located between the two waterways generally split their votes among both
-parties.]({{site.url}}/content-img/md2-map.png)
+parties.](%7B%7Bsite.url%7D%7D/content-img/md2-map.png)
 
 Despite the formation of these two cohesive, regionally-based voting
 blocs, the Potomac and Chesapeake parties appear as clearly identified
@@ -201,14 +213,14 @@ The continuation of these regional divisions can be seen in the maps and
 charts depicting Maryland's third through seventeenth Congressional
 elections (figures 2 and 3). From 1792-1820, distinct voting patterns
 emerged in three geographical areas: consistent support for the
-Democratic-Republicans in the Upper Chesapeake (Districts 5, 6 and 7),
+Democratic-Republicans in the Upper Chesapeake (Districts 5, 6, and 7),
 in places which had supported the Chesapeake party; consistent support
 for the Federalists in southern Maryland (Districts 1 and 8), from areas
 that had supported the Potomac party; and consistently mixed voting
-patterns in Maryland's western and middle areas (Districts 2, 3 and 4).
+patterns in Maryland's western and middle areas (Districts 2, 3, and 4).
 
-![The regional divisions established during Maryland's Second
-congressional election formed the basis for voting patterns from
+![The regional divisions established during Maryland's second
+Congressional election formed the basis for voting patterns from
 1792-1820. Generally, the counties in the Upper Chesapeake, who had
 supported the Chesapeake party, became a bastion of
 Democratic-Republican (purple) support. At the same time, counties in
@@ -217,24 +229,24 @@ gave consistent support to the Federalists (green). This allowed the
 Federalists to remain competitive in elections across the state of
 Maryland until 1824. Finally, in the middle and western parts of the
 state, voting was mixed and elections were often highly
-contested.]({{site.url}}/content-img/Maryland-animation-03-17.gif)
+contested.](%7B%7Bsite.url%7D%7D/content-img/Maryland-animation-03-17.gif)
 
-![Tracking party completion in Maryland from the Third through
-Seventeenth congresses can help identify voting patterns in the state
+![Tracking party completion in Maryland from the third through
+seventeenth Congresses can help identify voting patterns in the state
 over time. These graphs revels that the Democratic-Republicans
 consistently received a high percentages of the vote in Districts 5, 6
 and 7 (U-shaped area at the top of Chesapeake Bay). Conversely, in
 Districts 1 and 8 (southern part of the state) the Federalists
 consistently received a high percentages of the vote. Early on in
-Districts 3 and 4 the Federalist Party received a high percentage of the
+Districts 3 and 4 the Federalist party received a high percentage of the
 vote. However, by the Sixth congressional election, Republicans had
 begun to receive substantial support in these areas, and both parties
 competed for votes. Finally, elections in District 2, which lay between
 the Chesapeake and Potomac regions, were highly contested. In the
-<a href="http://earlyamericanelections.org/maps/meae.congressional.congress15.md.county.html">Fifteenth
+<a href="http://earlyamericanelections.org/maps/meae.congressional.congress15.md.county.html">fifteenth
 </a> Congressional election in Prince George's County, Federalist John
 C. Herbert was elected over Republican Joshua Barney by only 46
-votes.]({{site.url}}/content-img/md-party-competition.png)
+votes.](%7B%7Bsite.url%7D%7D/content-img/md-party-competition.png)
 
 The voting patterns of these three regions continued into the 1820s.
 However, the 1824 presidential election altered these long-entrenched
