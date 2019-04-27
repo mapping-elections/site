@@ -11,16 +11,16 @@ summary: "The early republic’s nascent political parties evolved and coalesced
 abstract: Political parties during the early national era were fundamentally different from political parties today. Parties at this time were evolving institutions whose legitimacy and structure were not well-defined—yet which, at the same time, came to occupy a crucial, and unexpected, role in the American political process.
 ---
 
-The Mapping Early American Elections (MEAE) website is a valuable
+The *Mapping Early American Elections* (MEAE) website is a valuable
 resource for visualizing the development of party politics in the early
 United States. This information, however, must be interpreted within the
 context of the times. Political parties during the early national era
-were fundamentally different from political parties today, and even
-significantly different from the parties that developed later in the nineteenth
+were fundamentally different from political parties today, and
+significantly different even from the parties that developed later in the nineteenth
 century.
 
 The framers of the federal Constitution had not anticipated the development
-of permanent political parties. Parties were considered factions,
+of permanent political parties. Parties were considered "factions,"
 dangerous and illegitimate alliances that pursued their own
 self-interest at the expense of the common good. National leaders were
 expected to serve the interests of the entire nation, not to cater to
