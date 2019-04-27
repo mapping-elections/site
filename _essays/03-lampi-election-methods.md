@@ -1,6 +1,6 @@
 ---
 title: "Electing Members of Congress in the Early Republic"
-subtitle: "District v. At-Large Elections"
+subtitle: "District vs. At-Large Elections"
 author: "Philip Lampi"
 year: 2019
 layout: essay
@@ -8,11 +8,11 @@ doi: https://doi.org/10.31835/meae.essays.03
 image: "/content-img/county-election.jpg"
 attribution: "The County Election (1852) by George Caleb Bingham ([St. Louis Art Museum](https://www.slam.org/collection/objects/29775/)). While taking place in a later period than the elections explored in this project, Bingham’s portrait of a rural Missouri election scene in the 1850s depicts several aspects of the electoral process that were also common during the First Party System: a raucous assembly of white men (notice the lack of women or African Americans) of varying social classes (by 1800 around 80% of all adult white males were eligible to vote) playing games, reading a newspaper, debating the issues, or chatting with friends—in addition to voting; a vote being bought by “treating” a voter to liquor (a common but illegal practice); and votes cast through oral voting (viva voce), in which a voter called out his choice to the election clerk behind the judge, who openly recorded it in a ledger."
 order: 3
-summary: "Early American elections saw disparate and often questionable electoral practices."
+summary: "Early American elections featured widely varying and often questionable electoral practices."
 abstract: For the first several decades of the new nation’s existence, the individual states within the United States had virtually unrestricted authority over the time, place, and manner of electing members for the U.S. Congress. Because of this, states developed and experimented with their own creative electoral procedures, such as at-large elections or multiple-member districts. These dynamic electoral methods reflect the period’s ongoing debates about the nature of representation in the new republic.
 ---
 
-Until 1825, the US government did not require that local election
+Until 1825, the U.S. government did not require that local election
 officials formally report the results of their contests to any state or
 federal officials. Without official sources of election returns,
 research into the development of early American electoral politics has
@@ -20,21 +20,20 @@ been severely hampered, or based on fragmentary data. Yet returns for
 local, state, and federal elections have been found in a variety of
 other sources, including, newspapers, state archives, local
 repositories, and private archives. Drawing together the results of
-years of research, the New Nation Votes (NNV) database reports the raw
+years of research, the *New Nation Votes* (NNV) database reports the raw
 data for over 60,000 local, state, and federal elections for the period
 before 1825, and is the most comprehensive set of election returns for
 the early national era available.
 
-The Mapping Early American Elections (MEAE) project builds on the
-election results reported in the NNV database. Although town, county,
+The *Mapping Early American Elections* (MEAE) project builds on the
+election results reported in the NNV transcriptions of elections returns.
+Although town, county,
 and district-level information may be available in the NNV, the MEAE
 website maps only county-level results. An original dataset has been
 created that regularizes the election results as well as accounts for
 the kind of historical variation in election laws and procedures in each
 state that will be described below. This approach allows for comparison
 of the results over time and across states.
-
-\*\*\*\*\*\*\*\*
 
 Procedures for electing members of Congress in the early republic
 greatly differed from the single-district system that is in use today.
@@ -48,7 +47,7 @@ prescribing everything from voting requirements, to the composition of
 the state legislature, to the way in which its legislatures would be
 elected.
 
-The US Constitution, ratified in 1789, gave the states another task: to
+The U.S. Constitution, ratified in 1789, gave the states another task: to
 determine "the Times, Places and Manner of holding elections for
 Senators and Representatives" (Article 1, Section 4). Each state
 legislature thus had the responsibility to define the specific
@@ -66,12 +65,12 @@ uniformity in how---or when---the states within the United States
 elected their members to Congress. States held elections at various
 times from March through November of the year preceding the opening of a
 new session of Congress. There was a wide variation from state to state.
-Election procedures also varied, and changed over time. Mapping the
+Election procedures also varied and changed over time. Mapping the
 results of congressional elections thus requires knowledge of a state's
 election laws at the time of a particular election. This information is
 embedded in the maps that are presented in the MEAE website.
 
-In deciding how to elect their members to the US House of
+In deciding how to elect their members to the U.S. House of
 Representatives, state legislatures used the geographic units typical
 for their region as the basis for their efforts. In New England, towns
 were the main political unit, and voting took place in their
