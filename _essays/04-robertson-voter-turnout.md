@@ -20,10 +20,9 @@ engagement with their representative government. Due to the lack of
 comprehensive voter returns for the period before 1825, it has been
 difficult for historians to determine with accuracy the levels of voter
 turnout in the decades immediately following the ratification of the US
-Constitution. The Mapping Early American Elections (MEAE) project
+Constitution. The *Mapping Early American Elections* (MEAE) project
 contains the data that makes it possible to depict visualizations of
-turnout. This essay will provide examples of maps of turnout from a few
-specific elections
+turnout.
 
 Contrary to the prevailing myth, a large proportion of the white male
 population in colonial British North America was actually eligible to
@@ -45,12 +44,12 @@ the candidates presented sharply different political alternatives. In
 general, however, voters tended to defer to the elite members of society
 in matters of governance.
 
-The MEAE project presents visual evidence that challenges the
+The MEAE project presents evidence that challenges the
 conventional narrative of early American history: that "democratic"
 elections only really began with the election of Andrew Jackson in 1828.
 Until the emergence of the so-called "Second Party System," it has been
 said that voter participation levels remained relatively low. Evidence
-from the New Nation Votes project suggests otherwise. Voter turnout
+from the *New Nation Votes* project suggests otherwise. Voter turnout
 actually increased dramatically during the era of the First Party
 System. In fact, the highest turnout levels in the age of Federalists
 and Democratic Republicans often equaled or even exceeded Jacksonian
@@ -107,13 +106,13 @@ and Federalist newspapers, more than any other southern state. Moreover,
 Baltimore and Philadelphia party newspapers had wide circulation in
 adjacent areas of Maryland. The Embargo and the War of 1812 were also
 important issues in Maryland. All of these contributed to the increased
-voter turnout in that state. (See the accompanying maps in figure 1 for
-turnout in 1800, 1810, and 1820. These were census years that provide
+voter turnout in that state. (These were census years that provide
 accurate counts of the adult male population. For more specific results
 using the New Nation Votes data, see the table in figure 2 which shows
 the turnout in Maryland congressional elections in 1808, 1810 and 1812.)
 
-Figure 2. 
+<figure><figcaption>Voter turnout in Maryland Congressional elections as a percentage of adult males. See the maps for Maryland elections to the [11th Congress (1808)]({{site.url}}/maps/meae.congressional.congress11.md.county.html), [12th Congress(1810)]({{site.url}}/maps/meae.congressional.congress12.md.county.html), and [13th Congress (1812)]({{site.url}}/maps/meae.congressional.congress13.md.county.html).</figcaption></figure>
+
 <table>
 <thead>
 <tr class="header">
@@ -304,7 +303,7 @@ to vote on the same basis as whites, eliminated free black suffrage in
 1801.) Only Baltimore Town registered less than fifty percent turnout. In
 1810, however, no compelling issues came before the electorate. Only
 three congressional districts (five counties and Baltimore Town) had
-contested congressional elections and turnout plummeted. In 1812, the
+contested Congressional elections and turnout plummeted. In 1812, the
 two parties fielded opposing candidates in six of the eight
 congressional districts. Fifteen of the nineteen counties had turnout
 over fifty percent.
