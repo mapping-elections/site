@@ -145,15 +145,15 @@ failed to return to their seat in the next Congress.
 Another way to think about turnover is through the concept of
 incumbency. Incumbency measures the percentage of members who remain in
 office rather than the proportion of those who rotate out of office.
-Incumbency can take two different forms: *party* incumbency and
-*legislator* incumbency. The primary difference is between what is
+Incumbency can take two different forms: party incumbency and
+legislator incumbency. The primary difference is between what is
 measured. Whereas "legislator" incumbency focuses on whether or not a
-*particular individual* remains in office, "party" incumbency focuses on
-which *political party* remains in office, even if specific
+particular individual remains in office, "party" incumbency focuses on
+which political party remains in office, even if specific
 representatives themselves are different. This approach has the
 advantage of highlighting the persistence of particular parties in
-various geographic regions. The Mapping Early American Elections (MEAE)
-project provides a nuanced lens through which to explore reelection and
+various geographic regions. The *Mapping Early American Elections* (MEAE)
+project provides a lens through which to explore reelection and
 incumbency during the nation's formative years.
 
 In the early republic, the political scene was quite different from that
@@ -166,7 +166,7 @@ Congress, in Philadelphia. Then, in the 1801, the federal government
 moved from Philadelphia to the newly built capital in Washington D.C.
 The new federal city did not offer the comfortable services, amenities,
 and cultural life that Philadelphia and New York City had provided. Even
-more important, Congress met at a far distance from where most Americans
+more important, Congress met far from where most Americans
 lived. Representatives had to spend long periods of time away from their
 families and homes while Congress was in session. This isolation put a
 strain on marriages, family relationships, and personal finances,
@@ -176,6 +176,10 @@ not because they had failed to be reelected, but because they chose to
 leave their seat voluntarily. Serving in Congress thus often imposed
 extreme burdens on the members of Congress as well as their families.
 
+<div class="incumbent-table" style="display:block;">
+
+<figure><figcaption>This table shows which candidates won elections to Congress from Delaware. Contiguous check marks means that a candidate was elected in several elections in a row. Of the eleven candidates who were elected to the first nineteen Congresses from Delaware, only two (Louis McLane and James A. Bayard) stayed in the House of Representatives for more than two elections.</figcaption></figure>
+
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 #DE Incumbency Table (Table illustrating the incumbency/elections for Delaware)
 incumbent <- candidates %>%
@@ -183,12 +187,14 @@ incumbent <- candidates %>%
          winner == TRUE) %>%
   select(congress, 
          Candidate = candidate, 
-         ID = candidate_id, 
-         winner)  %>%
-  spread(congress, winner)
+         winner)  %>% 
+  mutate(winner = if_else(winner, "✔", "")) %>% 
+  spread(congress, winner, fill = "")
 
 kable(incumbent)
 ```
+
+</div>
 
 The framers of the Constitution did not include a provision establishing
 a mandatory rotation in office for members of Congress. What may appear
@@ -292,7 +298,9 @@ fig2 <-
 ggsave("../content-img/newton-incumbency.png", fig2, width = 9, height = 6)
 ```
 
-![While most early Congressmen did not sustain a long tenure in Congress, Thomas Newton Jr. of Virginia---elected to sixteen consecutive Congresses from 1801--1833---was an exception. This chart shows the percentage of the vote received by Newton and his opponents from the Sixth through Nineteenth Congresses (elections for which MEAE has data). Newton’s extended stint of successful elections (shown in purple) not only demonstrates legislator incumbency---Newton as an individual continued to be re-elected---but also party incumbency---the Democratic-Republican party, of which Newton was a part, had sustained victories over several different candidates all of whom represented the Federalist Party. Note: Newton was elected to the <a href="http://earlyamericanelections.org/maps/meae.congressional.congress12.va.county.html">Twelfth </a> and <a href="http://earlyamericanelections.org/maps/meae.congressional.congress18.va.county.html">Eighteenth </a> Congresses. However, complete data giving exact vote counts for these elections does not survive. Therefore, victories in theses elections are shown with a shaded purple box.]({{site.url}}/content-img/newton-incumbency.png)
+
+![While most early Congressmen did not sustain a long tenure in Congress, Thomas Newton Jr. of Virginia---elected to sixteen consecutive Congresses from 1801--1833---was an exception. This chart shows the percentage of the vote received by Newton and his opponents from the sixth through nineteenth Congresses. Newton’s extended stint of successful elections (shown in purple) not only demonstrates legislator incumbency---Newton as an individual continued to be re-elected---but also party incumbency---the Democratic-Republican party, of which Newton was a part, had sustained victories over several different candidates all of whom represented the Federalist Party. Note: Newton was elected to the <a href="http://earlyamericanelections.org/maps/meae.congressional.congress12.va.county.html">Twelfth </a> and <a href="http://earlyamericanelections.org/maps/meae.congressional.congress18.va.county.html">Eighteenth </a> Congresses. However, complete data giving exact vote counts for these elections does not survive. Therefore, victories in theses elections are shown with a shaded purple box.](/content-img/newton-incumbency.png)
+
 
 Unopposed reelections represent an intriguing subsection of incumbency
 in the early republic. Of all the congressional elections in the MEAE
@@ -316,26 +324,27 @@ was quickly becoming obsolete in a democratizing nation.
 states_1825 <- us_states("1825-01-01")
 
 unopposed_inc_map <- states_1825 %>%
-  left_join(percent_unop_inc_state, by=c("state_abbr" = "state"))
+  left_join(percent_unop_inc_state, by=c("state_abbr" = "state")) %>% 
+  mutate(total_inc_unop_percent = if_else(is.na(total_inc_unop_percent), 0, total_inc_unop_percent))
 
 unopposed_inc_map <- unopposed_inc_map %>%
   filter(terr_type != "Territory",
          terr_type != "Unorganized Territory",
          terr_type != "Other")
 
-breaks <- c(0, 1, 2, 4, 8, 16, 32, 64)
-labels <- c("0-1%", "1-2%", "2-4%", "4-8%", "8-16%", "16-32%", "32-64%")
+breaks <- c(0, 0.01, 2, 4, 8, 16, 32, 64)
+labels <- c("0%", "< 2%", "< 4%", "< 8%", "< 16%", "< 32%", "< 64%")
 
-unopposed_inc_map$breaks <- cut(unopposed_inc_map$total_inc_unop_percent, breaks = breaks, labels = labels) 
-
+unopposed_inc_map$breaks <- cut(unopposed_inc_map$total_inc_unop_percent, breaks = breaks, labels = labels, include.lowest = TRUE) 
+pal <- c("#FFFFFF", RColorBrewer::brewer.pal(6, "YlGnBu"))
 fig3 <- 
   ggplot() +
   geom_sf(data = unopposed_inc_map,
            aes(fill = breaks),
            color = "black", size = 0.25) +
   coord_sf(crs = "+proj=aea +lat_1=25 +lat_2=50 +lon_0=-100") +
-  scale_fill_brewer("Percent of Elections", palette = "YlGnBu", na.value = "white") +
-  labs(title = "Unopposed Incumbent Elections (1789-1825)") +
+  scale_fill_manual("Percentage of\nunopposed elections", values = pal) +
+  labs(title = "Unopposed Incumbents in Congressional Elections (1789–1825)") +
   theme(plot.title = element_text(size=16),
         rect = element_blank(),
         axis.text.x = element_blank(),
@@ -343,7 +352,7 @@ fig3 <-
         axis.ticks = element_blank())
 ggsave("../content-img/unopposed-incumbent-elections.png", fig3, width = 9, height = 8)
 ```
-![In a little over nine percent of all US congressional elections held from 1789--1825, incumbent candidates (current office holders) faced no political rivals and were re-elected without opposition. This map breaks down these elections by state, showing the percentage of elections held in each state that were won by unopposed incumbents. As the map shows, the largest percentage of unopposed incumbent elections were won in southern states such as Kentucky, South Carolina, North Carolina, and Virginia---the later having the highest percentage, with 45.2% of its elections won by unopposed incumbents. This suggests that despite the new language of "democratic" politics, an older style of deferential politics was still the accepted practice in the South for at least the first thirty years of US Congressional elections.]({{site.url}}/content-img/unopposed-incumbent-elections.png)
+![In a little over nine percent of all US congressional elections held from 1789--1825, incumbent candidates (current office holders) faced no political rivals and were re-elected without opposition. This map breaks down these elections by state, showing the percentage of elections held in each state that were won by unopposed incumbents. As the map shows, the largest percentage of unopposed incumbent elections were won in southern states such as Kentucky, South Carolina, North Carolina, and Virginia---the later having the highest percentage, with 45.2% of its elections won by unopposed incumbents. This suggests that despite the new language of "democratic" politics, an older style of deferential politics was still the accepted practice in the South for at least the first thirty years of US Congressional elections.](/content-img/unopposed-incumbent-elections.png)
 
 Both in the early republic and today, high turnover can result from a
 number of causes. Voters may turn their representatives out of office at
