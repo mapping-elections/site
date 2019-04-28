@@ -85,7 +85,6 @@ not because they had failed to be reelected, but because they chose to
 leave their seat voluntarily. Serving in Congress thus often imposed
 extreme burdens on the members of Congress as well as their families.
 
-::: {.incumbent-table style="display:block;"}
 <figure>
 <figcaption>
 This table shows which candidates won elections to Congress from
@@ -110,7 +109,6 @@ two elections.
   Thomas Clayton                                                              ✔                        
   Thomas Cooper                                                          ✔    ✔                        
   Willard Hall                                                                     ✔    ✔              
-:::
 
 The framers of the Constitution did not include a provision establishing
 a mandatory rotation in office for members of Congress. What may appear
