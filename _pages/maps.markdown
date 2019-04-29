@@ -5,7 +5,7 @@ layout: maps-browse
 bodyclass: maps-browse
 ---
 
-### Maps
+### U.S. Congressional Maps (1788-1825)
 
 <div data-equalizer data-equalize-on="medium" class="large-up-4">
 
@@ -18,7 +18,7 @@ bodyclass: maps-browse
 {% assign items = group.items | sort: 'state' %}
 {% for item in items %}
 {% if item.level=='national' %}
-<li>[{{'National'}}]({{site.url}}{{item.url}})</li>
+<li class="national">[{{'National'}}]({{site.url}}{{item.url}})</li>
 {% elsif item.level=='state' %}
 <li>[{{item.state}}{% if item.geography == 'town' %} (town){% endif %}]({{site.url}}{{item.url}}){% endif %}</li>
 {%endfor%}
