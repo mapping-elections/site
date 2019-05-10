@@ -328,7 +328,7 @@ e.  For simplicity, you may want to join only the needed information
     c.  Choose  `county_ahcb` as `Join Field` and `ID` as target field,
     under "Choose which fields are joined" select `vote` (see Figure 5).
 
-![]({{site.url}}/content-img/qgis_canidate_join.jpg)
+    ![]({{site.url}}/content-img/qgis_canidate_join.jpg)
 
     d.  Your joined Carroll Daniel vote tallies will appear at the end of
     the 1789 Maryland county spatial data spatial file.
