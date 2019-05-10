@@ -96,10 +96,10 @@ the winning candidates were affiliated with the Federalist faction.
 
 The MEAE elections data we will be using in this tutorial, once
 downloaded, is structured as two separate .csv files (spreadsheets), and
-is recorded at the county level. "md1-parties.csv" has eighteen rows of
+is recorded at the county level. "congressional-parties-meae.congressional.congress01.md.county.csv" has eighteen rows of
 data and records the number of votes and percentage of vote received by
 each "party" or faction in each of Maryland's eighteen counties.
-"md1_candidates.csv" has 324 rows of data, with each row showing the
+"congressional-candidates-meae.congressional.congress01.md.county.csv" has 324 rows of data, with each row showing the
 number of votes a single candidate received in one of Maryland's
 eighteen counties. We will look more closely at the elections data and
 the variables in each file after we read the files into R Studio.
@@ -126,7 +126,7 @@ repeat this process with the candidates data, creating the variable
 `md1_candidates`.
 
 ```
-md1_parties <- read.csv(file = "md1-parties.csv", stringsAsFactors =
+md1_parties <- read.csv(file = "congressional-parties-meae.congressional.congress01.md.county.csv", stringsAsFactors =
 FALSE)
 
 md1_candidates <- read.csv(file = "md1-candidates.csv",
