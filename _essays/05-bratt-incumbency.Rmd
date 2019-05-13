@@ -1,0 +1,379 @@
+---
+title: "Congressional Incumbency in the Early Republic"
+author: "Jordan F. Bratt"
+year: 2019
+layout: essay
+doi: "https://doi.org/10.31835/meae.essays.05"
+image: "/content-img/john-randolph.jpg"
+attribution: "John Randolph (1811) by John Wesley Jarvis ([Smithsonian National Portrait Gallery](https://npg.si.edu/object/npg_NPG.70.46)). John Randolph of Roanoke, VA, (1773-1833) served in the House of Representatives almost continuously from 1799 to 1825. Eccentric and argumentative, in 1806 he split from his fellow Democratic-Republicans to become the leader of the “Tertium Quids,” a group that advocated states’ rights and a highly restricted role for the federal government. His career demonstrates both the power of incumbency in facilitating reelection and the ability of an individual to foment division within the nation’s early political parties."
+order: 5
+summary: "Early congresses featured high turnover rates due to the republic’s political culture and personal hardships." 
+abstract: High rates of congressional turnover during the new republic’s first decades produced a kind of de facto rotation in office, bringing new members with fresh ideas, but also erasing the knowledge and expertise of experienced members. While some incumbent members did not return to Congress at the wishes of their constituents, others chose to leave their seat voluntarily in order to remain at home with their families, or seek other political or economic opportunities.
+output:
+  md_document:
+    variant: markdown
+    preserve_yaml: true
+  html_document:
+    theme: default
+  pdf_document: default
+always_allow_html: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(mappingelections)
+library(dplyr)
+library(readr)
+library(ggplot2)
+library(stringr)
+library(broom)
+library(maptools)
+library(knitr)
+library(scales)
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+## Get candidates data
+candidates <- meae_congress_candidate_totals %>%
+  mutate(state = substr(meae_id, 31, 32),
+        congress = substr(meae_id, 28, 29) %>% as.numeric())
+
+## Table of winning/elected candidates 
+total_elected_candidates <- candidates %>%
+  filter(winner==TRUE)
+
+## Total number of elections won in MEAE dataset 
+total_elections_won <- nrow(total_elected_candidates)
+
+## Table of unopposed elections
+unopposed_candidates <- total_elected_candidates %>%
+  filter(unopposed==TRUE)
+
+## Number of total unopposed elections in MEAE dataset 
+num_elect_unopposed <- nrow(unopposed_candidates)
+
+## Percent of unopposed elections in MEAE dataset 
+percent_elect_unopposed <- ((num_elect_unopposed/total_elections_won) * 100)
+
+## Candidates with most unopposed elections
+unopposed_candidates_top <- unopposed_candidates %>%
+  count(candidate_id)  %>%
+  group_by(candidate_id) %>%
+  arrange(desc(n)) %>%
+  inner_join(unopposed_candidates, by=c("candidate_id" = "candidate_id")) %>%
+  select(candidate_id, candidate, "n_unop_elect_won" = n, state, unopposed) %>%
+  subset(!duplicated(candidate_id))
+
+## Top 15 Candidates with most unopposed elections
+unopposed_candidates_top15 <- unopposed_candidates_top %>% head(15)
+top15 <- sum(unopposed_candidates_top15$n_unop_elect_won)
+
+## Number and Percent of top 15 candidates with most unopposed elections per State (Ex.VA) 
+num_state_15 <- unopposed_candidates_top15 %>% 
+  filter(state == "va")
+
+top15_state <- sum(num_state_15$n_unop_elect_won)
+ 
+percent_top15_state <- ((top15_state/top15) * 100)
+
+## Number of times each candidate was elected 
+number_times_candidate_elected <- total_elected_candidates %>%
+  count(candidate_id)
+  
+## Join for info, filter for candidates elected 2+ times 
+multiple_elections <-number_times_candidate_elected %>%
+  inner_join(total_elected_candidates, by=c("candidate_id" = "candidate_id")) %>%
+  filter(n>=2) 
+
+## Create new col. to indicate incumbency, filter for only incumbents
+incumbency <- multiple_elections %>%
+  group_by(candidate_id) %>%
+  mutate(incumbent = congress - lag(congress)) %>%
+  filter(incumbent == 1)
+
+## Number of incumbent elections in MEAE dataset 
+num_elect_incumbent <- nrow(incumbency)
+
+## Percentage of incumbent elections in MEAE dataset 
+percent_elect_incumbent <- ((num_elect_incumbent/total_elections_won) * 100)
+
+## Percent of winning candidates that were incumbents (per Congress) 
+selected_cong <- 2
+total_elect_can_per_cong <- total_elected_candidates %>% filter(congress == selected_cong)
+elect_inc_can_per_cong <- incumbency %>% filter(congress == selected_cong)
+num_total_elect_can_per_cong <-nrow(total_elect_can_per_cong)
+num_elect_unop_can_per_cong <-nrow(elect_inc_can_per_cong)
+percent_elect_unop_can_per_cong <- ((nrow(elect_inc_can_per_cong)/nrow(total_elect_can_per_cong)) * 100)
+
+## Filter for only unopposed, incumbent elections
+unopposed_inc<- incumbency %>%
+  filter(incumbent == 1,
+         unopposed == TRUE)
+
+## Number of unopposed incumbent elections
+num_elect_unop_inc <- nrow(unopposed_inc)
+
+## Percent of unopposed incumbent elections
+percent_elect_unop_inc <- ((num_elect_unop_inc/total_elections_won) * 100)
+
+## Number of unopposed incumbent elections per state
+num_unop_inc_state <- unopposed_inc %>%
+  ungroup() %>%
+  count(state)
+
+## Percentage of unopposed incumbent elections per state
+percent_unop_inc_state <- num_unop_inc_state %>%
+  mutate(state = str_to_upper(state)) %>%
+  mutate(total_inc_unop_percent = as.double((n/num_elect_unop_inc) * 100)) 
+```
+
+The issue of congressional turnover provides important insights into the
+nature of political representation in Congress. Turnover measures the
+number of representatives who fail to return to the next session of
+Congress, either through a failure to be reelected or voluntary
+retirement from office. Turnover has changed dramatically over time. In
+recent Congresses, no more than ten percent of the membership has left,
+or been replaced, during a typical election cycle. In one recent
+Congress---the 115th, elected in 2016---only three percent of the
+sitting members of Congress failed to be reelected. (In other words, 380
+of the 393 members who sought reelection were successful.) In the early
+Congresses, however, thirty percent or more of the membership typically
+failed to return to their seat in the next Congress.
+
+Another way to think about turnover is through the concept of
+incumbency. Incumbency measures the percentage of members who remain in
+office rather than the proportion of those who rotate out of office.
+Incumbency can take two different forms: party incumbency and
+legislator incumbency. The primary difference is between what is
+measured. Whereas "legislator" incumbency focuses on whether or not a
+particular individual remains in office, "party" incumbency focuses on
+which political party remains in office, even if specific
+representatives themselves are different. This approach has the
+advantage of highlighting the persistence of particular parties in
+various geographic regions. The *Mapping Early American Elections* (MEAE)
+project provides a lens through which to explore reelection and
+incumbency during the nation's formative years.
+
+In the early republic, the political scene was quite different from that
+of today. State legislators elected the Senate. Either state legislators
+or the voters in a state elected the presidential electors who, in turn,
+elected the president. The House of Representatives was the only part of
+the federal government in which officials were directly elected by the
+people. The first Congress in 1789 met in New York City; the Second
+Congress, in Philadelphia. Then, in the 1801, the federal government
+moved from Philadelphia to the newly built capital in Washington D.C.
+The new federal city did not offer the comfortable services, amenities,
+and cultural life that Philadelphia and New York City had provided. Even
+more important, Congress met far from where most Americans
+lived. Representatives had to spend long periods of time away from their
+families and homes while Congress was in session. This isolation put a
+strain on marriages, family relationships, and personal finances,
+contributing to a high rate of voluntary retirements. In fact, about
+one-third of those who did not return to the next Congress had done so
+not because they had failed to be reelected, but because they chose to
+leave their seat voluntarily. Serving in Congress thus often imposed
+extreme burdens on the members of Congress as well as their families.
+
+<div class="incumbent-table" style="display:block;">
+
+<figure><figcaption>This table shows which candidates won elections to Congress from Delaware. Contiguous check marks means that a candidate was elected in several elections in a row. Of the eleven candidates who were elected to the first nineteen Congresses from Delaware, only two (Louis McLane and James A. Bayard) stayed in the House of Representatives for more than two elections.</figcaption></figure>
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+#DE Incumbency Table (Table illustrating the incumbency/elections for Delaware)
+incumbent <- candidates %>%
+  filter(state == "de",
+         winner == TRUE) %>%
+  select(congress, 
+         Candidate = candidate, 
+         winner)  %>% 
+  mutate(winner = if_else(winner, "✔", "")) %>% 
+  spread(congress, winner, fill = "")
+
+kable(incumbent)
+```
+
+</div>
+
+The framers of the Constitution did not include a provision establishing
+a mandatory rotation in office for members of Congress. What may appear
+to be a critical oversight was more accurately a point of debate. James
+Madison, George Mason, and Thomas Jefferson supported such a provision
+and many state constitutions included mandatory rotation of office for
+their governors and legislatures. However, those who opposed the
+provision thought that the weaknesses of the Articles of Confederation
+highlighted the need for a stronger federal government, one in which
+those elected did so on their merit and reputation. In the end, instead
+of dictating how many terms members of Congress could serve, they left
+it to the voters to decide who should be elected or reelected. The
+framers did not, however, anticipate the emergence of political parties.
+
+The emergence of political parties meant that voters could elect members
+to Congress from the same political party (who presumably shared similar
+basic party ideology), while electing different individuals to serve in
+that position. The MEAE project enables us to visually track party
+incumbency, or party persistence, over time. For example, beginning in
+the 3rd Congress, Maryland's 1st, 3rd, and 8th districts (representing
+the southern and western part of the state) continued to reelect
+Federalists until the 18th Congress. During this time span, although
+sixteen different candidates were elected, all were members of the
+Federalist party in some form. Similarly, Maryland's 5th district,
+encompassing the city of Baltimore and the surrounding area, remained
+solidly Democratic-Republican. Maryland's remaining districts oscillated
+between Federalist and Democratic-Republican. This persistence of these
+patterns of incumbency highlight the regional differences within the
+state as well as demonstrate the differences between an urban center and
+more rural counties.
+
+While career or professional politicians did not exist in the early
+years of the country, there were a number of individuals who maintained
+a sustained tenure in Congress. Thomas Newton Jr. of Virginia served as
+a Representative from the 7th--22nd Congresses. (Note, however, that
+MEAE has election data only for the 7th--19th Congresses.) Representing
+the area surrounding Norfolk, Newton remained a popular candidate,
+winning the majority of his elections in landslides. Even more
+surprising is Newton's support of John Quincy Adams in the hotly
+contested 1824 Presidential election. Newton represented one of only
+seven Adams-Clay supporters in his entire state. Another Virginia
+representative who had a long career was John Randolph who served in
+twelve Congresses from 1800 to 1827. Randolph is of particular interest
+because his party allegiance changes over the course of his political
+life. Initially a Democratic-Republican, Randolph split from the party
+and joined coalition of politicians known as Tertium Quids for
+Congresses 9--12. Twice he ran unopposed, even after becoming a Tertium
+Quid. Newton and Randolph represent a group of Virginia incumbents who
+continued to be reelected and maintained their voice and influence
+within Congress over long periods of time.
+
+```{r, echo=FALSE, warning=FALSE}
+## Thomas Newton Jr. incumbency graph 3
+
+newton_elections <- candidates %>% 
+  filter(candidate_id == "NT0024") %>% 
+  select (election_id)
+
+newton_competition <- newton_elections %>%
+  inner_join(candidates, by=c("election_id" = "election_id")) 
+
+newton_remove <- newton_competition %>%
+  filter(is.na(percent_vote),
+         candidate_id != "NT0024") 
+
+newton_elect <- newton_competition %>%
+  anti_join(newton_remove, by=c("election_id", "candidate_id")) 
+
+newton_elect$percent_vote[is.na(newton_elect$percent_vote)] <- 1
+
+newton_elect <- newton_elect %>% 
+  filter(election_id != "va.uscongress.8.1789",
+         candidate != "scattering",
+         percent_vote >= .10) 
+
+newton_elect$percent_vote[9] <- NA
+newton_elect$percent_vote[16] <- NA
+
+fig2 <- 
+  newton_elect %>%
+  ggplot(aes(x = congress, y = percent_vote * 100))+
+  geom_point(aes(color = candidate_id))+
+  geom_line(aes(color = candidate_id)) +
+  geom_rect(xmin=11.8, xmax=12.2, ymin=50, ymax=100, alpha=.03, fill="#756BB1") +
+  geom_rect(xmin=17.8, xmax=18.2, ymin=50, ymax=100, alpha=.03, fill="#756BB1") +
+  annotate(geom="text", x=7.5, y=56.5, label="Josiah Parker",
+              color="black") +
+  annotate(geom="text", x=12.6, y=40, label="Robert B. Tayler",
+              color="black") +
+  annotate(geom="text", x=14.9, y=35, label="Swepson Whitehead",
+              color="black") +
+  annotate(geom="text", x=7.9, y=44, label="Thomas Newton, Jr.",
+              color="black") +
+  theme_minimal(base_size = 11) +
+  geom_hline(aes(yintercept=50))+
+  scale_x_continuous(name="Congress", breaks = c(7, 9, 11, 13, 15, 17, 19))+
+  scale_y_continuous(name="Percent of Popular Vote", breaks=c(40, 50, 60, 70, 80, 90, 100))+
+  scale_colour_manual(name="Candidates (Party)", breaks=c("NT0024", "PJ0725", "TR0086", "WS0229"), labels=c("Thomas Newton, Jr. (Dem-Rep)", "Josiah Parker (Fed.)", "Robert B. Tayler (Fed.)", "Swepson Whitehead (Fed.)"), values=c("#756BB1", "#31A354", "#31A354", "#31A354"))+
+  labs(title="The Elections of Thomas Newton, Jr.")
+
+ggsave("../content-img/newton-incumbency.png", fig2, width = 9, height = 6)
+```
+
+
+![While most early Congressmen did not sustain a long tenure in Congress, Thomas Newton Jr. of Virginia---elected to sixteen consecutive Congresses from 1801--1833---was an exception. This chart shows the percentage of the vote received by Newton and his opponents from the sixth through nineteenth Congresses. Newton’s extended stint of successful elections (shown in purple) not only demonstrates legislator incumbency---Newton as an individual continued to be re-elected---but also party incumbency---the Democratic-Republican party, of which Newton was a part, had sustained victories over several different candidates all of whom represented the Federalist Party. Note: Newton was elected to the <a href="http://earlyamericanelections.org/maps/meae.congressional.congress12.va.county.html">Twelfth </a> and <a href="http://earlyamericanelections.org/maps/meae.congressional.congress18.va.county.html">Eighteenth </a> Congresses. However, complete data giving exact vote counts for these elections does not survive. Therefore, victories in theses elections are shown with a shaded purple box.](/content-img/newton-incumbency.png)
+
+
+Unopposed reelections represent an intriguing subsection of incumbency
+in the early republic. Of all the congressional elections in the MEAE
+dataset, 322 or twelve percent are unopposed elections. 250 of those
+elections represent unopposed incumbents. William A. Burwell of Virginia
+participated in the most unopposed elections, winning a seat in the 10th
+through the 16th Congresses. Burwell was hardly the exception for
+Virginia. Nine of the top fifteen representatives with the most
+unopposed elections were from the state of Virginia accounting for
+fifty-nine percent of the total 75 elections among them. Virginia
+accounted for the most unopposed elections and the majority of unopposed
+elections took place in the South (Virginia, Kentucky, South Carolina,
+and North Carolina). The prevalence of unopposed incumbents in Virginia
+illustrates both the district-wide support for the individual, as well
+as the political clout such a person wielded. These elections also
+reflect the persistence of an older form of deferential politics that
+was quickly becoming obsolete in a democratizing nation.
+
+```{r, echo=FALSE}
+## Visualization of unopposed incumbent elections by state
+states_1825 <- us_states("1825-01-01")
+
+unopposed_inc_map <- states_1825 %>%
+  left_join(percent_unop_inc_state, by=c("state_abbr" = "state")) %>% 
+  mutate(total_inc_unop_percent = if_else(is.na(total_inc_unop_percent), 0, total_inc_unop_percent))
+
+unopposed_inc_map <- unopposed_inc_map %>%
+  filter(terr_type != "Territory",
+         terr_type != "Unorganized Territory",
+         terr_type != "Other")
+
+breaks <- c(0, 0.01, 2, 4, 8, 16, 32, 64)
+labels <- c("0%", "< 2%", "< 4%", "< 8%", "< 16%", "< 32%", "< 64%")
+
+unopposed_inc_map$breaks <- cut(unopposed_inc_map$total_inc_unop_percent, breaks = breaks, labels = labels, include.lowest = TRUE) 
+pal <- c("#FFFFFF", RColorBrewer::brewer.pal(6, "YlGnBu"))
+fig3 <- 
+  ggplot() +
+  geom_sf(data = unopposed_inc_map,
+           aes(fill = breaks),
+           color = "black", size = 0.25) +
+  coord_sf(crs = "+proj=aea +lat_1=25 +lat_2=50 +lon_0=-100") +
+  scale_fill_manual("Percentage of\nunopposed elections", values = pal) +
+  labs(title = "Unopposed Incumbents in Congressional Elections (1789–1825)") +
+  theme(plot.title = element_text(size=16),
+        rect = element_blank(),
+        axis.text.x = element_blank(),
+        axis.text.y = element_blank(),
+        axis.ticks = element_blank())
+ggsave("../content-img/unopposed-incumbent-elections.png", fig3, width = 9, height = 8)
+```
+![In a little over nine percent of all US congressional elections held from 1789--1825, incumbent candidates (current office holders) faced no political rivals and were re-elected without opposition. This map breaks down these elections by state, showing the percentage of elections held in each state that were won by unopposed incumbents. As the map shows, the largest percentage of unopposed incumbent elections were won in southern states such as Kentucky, South Carolina, North Carolina, and Virginia---the later having the highest percentage, with 45.2% of its elections won by unopposed incumbents. This suggests that despite the new language of "democratic" politics, an older style of deferential politics was still the accepted practice in the South for at least the first thirty years of US Congressional elections.](/content-img/unopposed-incumbent-elections.png)
+
+Both in the early republic and today, high turnover can result from a
+number of causes. Voters may turn their representatives out of office at
+a high rate because of dissatisfaction with their member's views or
+character, or from a desire to have a fresh face in Congress.
+Alternatively, high turnover may result from representatives themselves
+refusing to seek reelection, either because they fear losing their seat,
+desire to remain at home with their families, or choose to seek other
+political or economic opportunities. Turnover can be a healthy
+development, by bringing new members to Congress who revitalize the
+institution. Turnover can also be disadvantageous because it removes
+experienced members from Congress, thus depriving the institution of
+their knowledge and expertise. Despite the lack of formal restriction on
+congressional terms, high turnover in the early congresses produced a
+kind of de facto rotation in office during the new republic's first
+decades. At the same time, incumbency rates tell a slightly different
+story. During the first decades of the new nation, incumbency rates
+reveal how and when different regions of the country, and different
+areas within the states, chose to support one party or the other. The
+maps in the MEAE project reveal the shifting fates of the Federalists
+and Democratic-Republicans as well as emergence at different times of
+splinter factions and new political parties. These maps then, illustrate
+the story of the country's complex and uneven path toward a two-party
+political system.

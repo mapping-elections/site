@@ -1,0 +1,78 @@
+---
+meae-id: meae.congressional.congress19.national.county
+type: congressional
+level: national
+geography: county
+congressnum: 19
+congressordinal: 19th
+title: '19th Congress: National, 1824-1825'
+year: 1824
+legend: 'congress-18-19'
+related-maps:
+- id: meae.congressional.congress18.national.county
+  name: National 18th Congress
+  type: previous
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+map_id <- "meae.congressional.congress19.national.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_national_map_data() %>%
+  filter(id != "als_nca6",
+         id != "als_nca7",
+         id != "als_nca8",
+         id != "als_nca9",
+         id != "als_nca11",
+         id != "als_nca12",
+         id != "als_nca13") %>% 
+  filter(id != "gas_nca") %>%
+  filter(id != "ils_nca2",
+         id != "ils_nca3",
+         id != "ils_nca4",
+         id != "ils_nca5") %>% 
+  filter(id != "ins_nca4",
+         id != "ins_nca6") %>%
+  filter(!is.na(state_abbr),
+          cross_ref != "New to dataset") %>%
+  arrange(!is.na(federalist_percentage), !is.na(demrep_percentage), 
+          cnty_type == "Parish") %>%         
+  filter(id != "mos_nca1",
+         id != "mos_nca3",
+         id != "mos_nca4",
+         id != "mos_nca6",
+         id != "mos_nca7",
+         id != "mos_nca8",
+         id != "mos_nca9",
+         id != "mos_nca10") %>% 
+  filter(id != "mss_nca1") %>% 
+  arrange(!is.na(federalist_percentage), !is.na(demrep_percentage), 
+          !is.na(jacksonian_percentage), cnty_type == "District") %>% 
+  filter(!str_detect(id, "ars_"),
+           id != "art") %>%
+  filter(!str_detect(id, "mis_"),
+         !str_detect(id, "fls_"),
+         !str_detect(id, "wis_")) %>%
+  map_national(congress = 19)
+```
+
+</div>
+
+<div class="results-table">
+
+</div>

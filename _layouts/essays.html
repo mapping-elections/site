@@ -1,0 +1,32 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+{% include header.html %}
+
+<div class="row">
+    <div class="large-9 column border-right">
+        {% assign sorted_essays = site.essays | sort:"order" %}
+        {% for page in sorted_essays %}
+            <div class="large-12 row essay-browse">
+                <div class="large-4 column">
+                    <a href="{{site.url }}{{ page.url }}" title=""><img src="{{ site.url }}{{ page.image }}" alt="{{page.image-alt}}" /></a>
+                </div> 
+                <div class="large-8 column">
+                    <h4><a href="{{site.url }}{{ page.url }}" title="">{{ page.title }}</a></h4>
+                    <span class="author">{{ page.author }}</span>
+                    <p>{{ page.abstract}}</p>
+                </div>
+            </div>
+            {% if forloop.last == false %}
+              <hr>
+            {% endif %}
+            {% endfor %}
+    </div>        
+      
+    <hr class="hide-for-large"> 
+    <div class="large-3 column sidebar">
+        {% include sidebar.html %}  
+    </div>   
+</div>
+
+{% include footer.html %}

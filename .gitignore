@@ -2,5 +2,10 @@ _site
 .sass-cache
 .jekyll-metadata
 .Rproj.user
+.Rhistory
+.DS_Store
 vendor
 .bundle/config
+.DS_Store
+.RData
+.Rhistory

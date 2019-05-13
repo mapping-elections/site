@@ -49,9 +49,9 @@ related-maps:
 - id: meae.congressional.congress11.ny.county
   name: NY 11th Congress
   type: next
-# - id: meae.congressional.congress10.national.district
-#   name: National 10th Congress
-#   type: national
+- id: meae.congressional.congress10.national.county
+  name: National 10th Congress
+  type: national
 output:
   md_document:
     variant: markdown

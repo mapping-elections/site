@@ -4,7 +4,7 @@
 {% include header.html %}
 
 <div class="row">
-    <div class="large-9 column">
+    <div class="large-9 column border-right">
         <div class="large-12">
             {{ content }}
         </div>
@@ -12,9 +12,7 @@
 
     <hr class="hide-for-large">
     <div class="large-3 column sidebar">
-        <h5>Ready to Dive into the Data?</h5>
-          <p class="box-bg"><a href="{{site.url}}/data/" class="graf-link">Our data is available for download.</a></p>
-          <p>Explore how Americans voted for their legislators, 1787&ndash;1825. <em>Mapping Early American Elections</em> is a work in progress, and we’re writing about the project’s process on <a href="{{site.url}}/blog/">the blog</a>. Read more about us on the <a href="{{site.url}}/about/" title="About">about page</a>.</p>
+        {% include sidebar.html %}  
     </div>
 
 </div>

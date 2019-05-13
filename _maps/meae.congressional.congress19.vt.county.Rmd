@@ -24,9 +24,9 @@ related-maps:
 - id: meae.congressional.congress18.vt.county
   name: VT 18th Congress
   type: previous
-#- id: meae.congressional.congress19.national.district
-#  name: National 19th Congress
-#  type: national
+- id: meae.congressional.congress19.national.county
+  name: National 19th Congress
+  type: national
 output:
   md_document:
     variant: markdown

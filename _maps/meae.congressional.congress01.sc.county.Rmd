@@ -24,9 +24,9 @@ related-maps:
 - id: meae.congressional.congress02.sc.county
   name: SC 2nd Congress
   type: next
-# - id: meae.congressional.congress01.national.district
-#   name: National 1st Congress
-#   type: national
+- id: meae.congressional.congress01.national.county
+  name: National 1st Congress
+  type: national
 output:
   md_document:
     variant: markdown
@@ -64,6 +64,14 @@ map_id %>%
                opacity = 1, fillOpacity = 0.8, radius = 8, weight = 3,
                popup = ~paste0("<b>City of ", city, "</b><br/>",
                                "Congressional District: 1<br/>",
+                               "Federalists: ", federalist_percentage * 100,
+                                 "% (", 
+                                prettyNum(federalist_vote, big.mark = ","),
+                                 " votes)<br/>",
+                               "Anti-Federalists: ", antifederalist_percentage * 100,
+                                 "% (", 
+                               prettyNum(antifederalist_vote, big.mark = ","),
+                                 " votes)<br/>",
                                "Unaffiliated or other parties: ", other_percentage * 100,
                                "% (", 
                                prettyNum(other_vote, big.mark = ","), 

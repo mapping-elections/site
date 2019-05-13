@@ -23,9 +23,9 @@ related-maps:
 - id: meae.congressional.congress14.nj.county
   name: NJ 14th Congress
   type: next
-#- id: meae.congressional.congress13.national.district
-#  name: National 13th Congress
-#  type: national
+- id: meae.congressional.congress13.national.county
+  name: National 13th Congress
+  type: national
 output:
   md_document:
     variant: markdown

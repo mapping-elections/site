@@ -19,9 +19,9 @@ related-maps:
 - id: meae.congressional.congress13.ct.county
   name: CT 13th Congress
   type: next
-#- id: meae.congressional.congress12.national.district
-#  name: National 12th Congress
-#  type: national
+- id: meae.congressional.congress12.national.county
+  name: National 12th Congress
+  type: national
 output:
   md_document:
     variant: markdown

@@ -1,209 +1,32 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   id="legend"
-   width="340px"
-   height="175px"
-   version="1.1"
-   style="height:175px;width:340px;perspective-origin:170px 87.5px;transform-origin:170px 87.5px;"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)">
-  <metadata
-     id="metadata51">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <defs
-     id="defs49" />
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="766"
-     inkscape:window-height="480"
-     id="namedview47"
-     showgrid="false"
-     inkscape:zoom="1.2970588"
-     inkscape:cx="170"
-     inkscape:cy="87.5"
-     inkscape:window-x="2524"
-     inkscape:window-y="696"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="legend" />
-  <text
-     alignment-baseline="middle"
-     x="145"
-     y="24"
-     style="text-anchor:end;white-space:nowrap;display:block"
-     id="text2">Caucus</text>
-  <circle
-     cx="168"
-     cy="21"
-     r="8"
-     fill="#bdd7e7"
-     stroke="#888"
-     style="height:auto;overflow-x:visible;overflow-y:visible;width:auto;perspective-origin:0px 0px;transform-origin:0px 0px;fill:rgb(189, 215, 231);stroke:rgb(136, 136, 136);cx:168px;cy:21px;r:8px;"
-     id="circle4" />
-  <circle
-     cx="216"
-     cy="21"
-     r="8"
-     fill="#6baed6"
-     stroke="#888"
-     style="height:auto;overflow-x:visible;overflow-y:visible;width:auto;perspective-origin:0px 0px;transform-origin:0px 0px;fill:rgb(107, 174, 214);stroke:rgb(136, 136, 136);cx:216px;cy:21px;r:8px;"
-     id="circle6" />
-  <circle
-     cx="264"
-     cy="21"
-     r="8"
-     fill="#3182bd"
-     stroke="#888"
-     style="height:auto;overflow-x:visible;overflow-y:visible;width:auto;perspective-origin:0px 0px;transform-origin:0px 0px;fill:rgb(49, 130, 189);stroke:rgb(136, 136, 136);cx:264px;cy:21px;r:8px;"
-     id="circle8" />
-  <circle
-     cx="312"
-     cy="21"
-     r="8"
-     fill="#08519c"
-     stroke="#888"
-     style="height:auto;overflow-x:visible;overflow-y:visible;width:auto;perspective-origin:0px 0px;transform-origin:0px 0px;fill:rgb(8, 81, 156);stroke:rgb(136, 136, 136);cx:312px;cy:21px;r:8px;"
-     id="circle10" />
-  <text
-     alignment-baseline="middle"
-     x="145"
-     y="46"
-     style="text-anchor:end;white-space:nowrap;display:block"
-     id="text12">Anti-Caucus</text>
-  <circle
-     cx="168"
-     cy="43"
-     r="8"
-     fill="#fcae91"
-     stroke="#888"
-     style="height:auto;overflow-x:visible;overflow-y:visible;width:auto;perspective-origin:0px 0px;transform-origin:0px 0px;fill:rgb(252, 174, 145);stroke:rgb(136, 136, 136);cx:168px;cy:43px;r:8px;"
-     id="circle14" />
-  <circle
-     cx="216"
-     cy="43"
-     r="8"
-     fill="#fb6a4a"
-     stroke="#888"
-     style="height:auto;overflow-x:visible;overflow-y:visible;width:auto;perspective-origin:0px 0px;transform-origin:0px 0px;fill:rgb(251, 106, 74);stroke:rgb(136, 136, 136);cx:216px;cy:43px;r:8px;"
-     id="circle16" />
-  <circle
-     cx="264"
-     cy="43"
-     r="8"
-     fill="#de2d26"
-     stroke="#888"
-     style="height:auto;overflow-x:visible;overflow-y:visible;width:auto;perspective-origin:0px 0px;transform-origin:0px 0px;fill:rgb(222, 45, 38);stroke:rgb(136, 136, 136);cx:264px;cy:43px;r:8px;"
-     id="circle18" />
-  <circle
-     cx="312"
-     cy="43"
-     r="8"
-     fill="#a50f15"
-     stroke="#888"
-     style="height:auto;overflow-x:visible;overflow-y:visible;width:auto;perspective-origin:0px 0px;transform-origin:0px 0px;fill:rgb(165, 15, 21);stroke:rgb(136, 136, 136);cx:312px;cy:43px;r:8px;"
-     id="circle20" />
-  <text
-     x="168"
-     y="70"
-     text-anchor="middle"
-     style="display:block;height:auto;overflow-x:visible;overflow-y:visible;white-space:nowrap;width:auto;perspective-origin:167.984px 0px;transform-origin:0px 0px;text-anchor:middle;"
-     id="text22">≤40%</text>
-  <text
-     x="216"
-     y="70"
-     text-anchor="middle"
-     style="display:block;height:auto;overflow-x:visible;overflow-y:visible;white-space:nowrap;width:auto;perspective-origin:215.984px 0px;transform-origin:0px 0px;text-anchor:middle;"
-     id="text24">≤60%</text>
-  <text
-     x="264"
-     y="70"
-     text-anchor="middle"
-     style="display:block;height:auto;overflow-x:visible;overflow-y:visible;white-space:nowrap;width:auto;perspective-origin:263.984px 0px;transform-origin:0px 0px;text-anchor:middle;"
-     id="text26">≤80%</text>
-  <text
-     x="312"
-     y="70"
-     text-anchor="middle"
-     style="display:block;height:auto;overflow-x:visible;overflow-y:visible;white-space:nowrap;width:auto;perspective-origin:311.984px 0px;transform-origin:0px 0px;text-anchor:middle;"
-     id="text28">≤100%</text>
-  <line
-     stroke-dasharray="5, 5"
-     x1="161"
-     x2="235"
-     y1="93"
-     y2="93"
-     stroke="#bbb"
-     stroke-width="2"
-     style="height:auto;overflow-x:visible;overflow-y:visible;width:auto;perspective-origin:0px 0px;transform-origin:0px 0px;stroke:rgb(187, 187, 187);stroke-dasharray:5px, 5px;stroke-width:2px;"
-     id="line30" />
-  <text
-     alignment-baseline="middle"
-     x="145"
-     y="97"
-     style="text-anchor:end;white-space:nowrap;display:block"
-     id="text32">County</text>
-  <line
-     x1="161"
-     x2="235"
-     y1="115"
-     y2="115"
-     stroke="#222"
-     stroke-width="3"
-     style="height:auto;overflow-x:visible;overflow-y:visible;width:auto;perspective-origin:0px 0px;transform-origin:0px 0px;stroke:rgb(34, 34, 34);stroke-width:3px;"
-     id="line34" />
-  <text
-     alignment-baseline="middle"
-     x="145"
-     y="119"
-     style="text-anchor:end;white-space:nowrap;display:block"
-     id="text36">Congressional district</text>
-  <circle
-     cx="168"
-     cy="137"
-     r="5"
-     fill="#eaf945"
-     stroke="#333"
-     stroke-width="1.5"
-     style="height:auto;overflow-x:visible;overflow-y:visible;width:auto;perspective-origin:0px 0px;transform-origin:0px 0px;fill:rgb(234, 249, 69);stroke:rgb(51, 51, 51);stroke-width:1.5px;cx:168px;cy:137px;r:5px;"
-     id="circle38" />
-  <text
-     alignment-baseline="middle"
-     x="145"
-     y="139"
-     style="text-anchor:end;white-space:nowrap;display:block"
-     id="text40">Major city or town</text>
-  <circle
-     cx="168"
-     cy="159"
-     r="8"
-     fill="rgb(199, 199, 199)"
-     stroke="#888"
-     style="height:auto;overflow-x:visible;overflow-y:visible;width:auto;perspective-origin:0px 0px;transform-origin:0px 0px;fill:rgb(199, 199, 199);stroke:rgb(136, 136, 136);cx:168px;cy:159px;r:8px;"
-     id="circle42" />
-  <text
-     alignment-baseline="middle"
-     x="145"
-     y="161"
-     style="text-anchor:end;white-space:nowrap;display:block"
-     id="text44">No data available</text>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+	 id="legend" inkscape:version="0.92.3 (2405546, 2018-03-11)" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="340px" height="175px"
+	 viewBox="0 0 340 175" enable-background="new 0 0 340 175" xml:space="preserve">
+<circle id="circle20_1_" fill="#A50F15" stroke="#888888" cx="312" cy="21" r="8"/>
+<circle id="circle18_1_" fill="#DE2D26" stroke="#888888" cx="264" cy="21" r="8"/>
+<circle id="circle16_1_" fill="#FB6A4A" stroke="#888888" cx="216" cy="21" r="8"/>
+<circle id="circle14_1_" fill="#FCAE91" stroke="#888888" cx="168" cy="21" r="8"/>
+<circle id="circle10_1_" fill="#08519C" stroke="#888888" cx="312" cy="43" r="8"/>
+<circle id="circle8_1_" fill="#3182BD" stroke="#888888" cx="264" cy="43" r="8"/>
+<circle id="circle6_1_" fill="#6BAED6" stroke="#888888" cx="216" cy="43" r="8"/>
+<circle id="circle4_1_" fill="#BDD7E7" stroke="#888888" cx="168" cy="43" r="8"/>
+<sodipodi:namedview  objecttolerance="10" inkscape:pageopacity="0" inkscape:window-width="766" inkscape:window-y="696" inkscape:cy="87.5" guidetolerance="10" inkscape:cx="170" showgrid="false" inkscape:window-height="480" inkscape:zoom="1.2970588" inkscape:window-x="2524" bordercolor="#666666" pagecolor="#ffffff" inkscape:pageshadow="2" inkscape:current-layer="legend" inkscape:window-maximized="0" id="namedview47" gridtolerance="10" borderopacity="1">
+	</sodipodi:namedview>
+<text id="text2" transform="matrix(1 0 0 1 104.3125 24)" font-family="'ArialMT'" font-size="12">Caucus</text>
+<text id="text12" transform="matrix(1 0 0 1 79.6387 46)" font-family="'ArialMT'" font-size="12">Anti-Caucus</text>
+<text id="text22" transform="matrix(1 0 0 1 152.6982 70)" font-family="'ArialMT'" font-size="12">≤40%</text>
+<text id="text24" transform="matrix(1 0 0 1 200.6982 70)" font-family="'ArialMT'" font-size="12">≤60%</text>
+<text id="text26" transform="matrix(1 0 0 1 248.6982 70)" font-family="'ArialMT'" font-size="12">≤80%</text>
+<text id="text28" transform="matrix(1 0 0 1 293.3613 70)" font-family="'ArialMT'" font-size="12">≤100%</text>
+<line id="line30" fill="none" stroke="#BBBBBB" stroke-width="2" stroke-dasharray="5,5" x1="161" y1="93" x2="235" y2="93"/>
+<text id="text32" transform="matrix(1 0 0 1 106.9785 97)" font-family="'ArialMT'" font-size="12">County</text>
+<line id="line34" fill="none" stroke="#222222" stroke-width="3" x1="161" y1="115" x2="235" y2="115"/>
+<text id="text36" transform="matrix(1 0 0 1 30.2852 119)" font-family="'ArialMT'" font-size="12">Congressional district</text>
+<circle id="circle38" fill="#EAF945" stroke="#333333" stroke-width="1.5" cx="168" cy="137" r="5"/>
+<text id="text40" transform="matrix(1 0 0 1 50.9746 139)" font-family="'ArialMT'" font-size="12">Major city or town</text>
+<circle id="circle42" fill="#C7C7C7" stroke="#888888" cx="168" cy="159" r="8"/>
+<text id="text44" transform="matrix(1 0 0 1 52.2695 161)" font-family="'ArialMT'" font-size="12">No data available</text>
 </svg>

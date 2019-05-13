@@ -48,10 +48,13 @@ body {
 }
 
 h1,h2,h3,h4,h5 {
-  font-family: 'Share', cursive;
+  font-family: 'Share', sans-serif;
 }
 h2, h3, h4, h5, .nav-link a {
   color:$secondary-header-color;
+}
+h3.essay-title {
+  font-size:1.25rem;
 }
 h5 {
   color:#0571b0;
@@ -192,7 +195,7 @@ li.inactive-link a {
   margin-bottom: 0;
 }
 
-.blogdate, .author {
+.blogdate, .author, .metadata {
   float:left;
   clear:both;
   width:100%;
@@ -200,9 +203,10 @@ li.inactive-link a {
   font-size:0.9rem;
 }
 
-.blogdate {
+.blogdate, .metadata {
   margin-bottom:0.75rem;
 }
+
 
 a.rss-link {
   padding:.25rem .5rem;
@@ -265,6 +269,10 @@ code {
 
 .maps-browse h4 {
   color:$h1-color;
+}
+
+.national {
+  font-weight:bold;
 }
 
 .map-caption {
@@ -370,3 +378,19 @@ div.leaflet svg, .leaflet-container { background: white !important; }
   width: 100%;
   margin-bottom: 0;
 }
+
+// Essay Browse
+
+.essay-browse img {
+  margin-top:.5rem;
+}
+
+.essay-browse h4 {
+  margin-bottom:0;
+}
+
+.essay-browse .author {
+  margin-bottom:.5rem;
+}
+
+
