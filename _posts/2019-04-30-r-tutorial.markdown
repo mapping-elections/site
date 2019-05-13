@@ -7,8 +7,8 @@ date: 2019-04-30
 toc: true
 ---
 
-Enjoyed looking at the maps featured on the Mapping Early American
-Elections (MEAE) site? Wish you could utilize the MEAE dataset to make
+Enjoyed looking at the maps featured on the *Mapping Early American
+Elections* (MEAE) site? Wish you could utilize the MEAE dataset to make
 your own maps, but are not sure how to get started? You're in luck! The
 following tutorial will teach you how to combine MEAE data with
 historical geospatial data to create basic choropleth maps (maps which
@@ -25,10 +25,9 @@ map similar the MEAE map for [Maryland's 1st Congress](http://earlyamericanelect
 
 <h2>Tutorial Overview and Goals</h2>
 
-In this tutorial, we will be using R (an open-source programming
-language used by data scientists, statisticians and other researchers)
-and R Studio (an "integrated development environment" or application
-that helps one use R) to manipulate MEAE elections data for Maryland's
+In this tutorial, we will be using [R](https://www.r-project.org/), an open-source programming
+language used by data scientists, statisticians and other researchers
+and [R Studio](https://www.rstudio.com/products/rstudio/), an "integrated development environment" or application that helps one use R. We will use R to manipulate MEAE elections data for Maryland's
 First US Congressional election and create two visualizations in the
 form of choropleth maps. By the end of this tutorial you will have
 learned how to:
@@ -44,10 +43,9 @@ learned how to:
 <h2>Getting Started</h2>
 
 This tutorial will assume that you already have set up R and R Studio,
-and have a basic knowledge of how these tools work. *(If not, R can be
-downloaded [here](https://www.r-project.org/) and R Studio can be downloaded [here](https://www.rstudio.com/products/rstudio/download/).
-An introduction to R from the Programming Historian can be found
-[here](https://programminghistorian.org/en/lessons/r-basics-with-tabular-data).)*
+and have a basic knowledge of how these tools work. (If not, R can be
+downloaded [here](https://www.r-project.org/) and R Studio can be downloaded [here](https://www.rstudio.com/products/rstudio/download/). An introduction to R from the Programming Historian can be found
+[here](https://programminghistorian.org/en/lessons/r-basics-with-tabular-data).)
 We are using R and R Studio in this tutorial because both are widely
 used, open-source tools that will allow us to manipulate and visualize
 our data. Once setup is complete, open R Studio. We recommend creating a
@@ -88,32 +86,32 @@ to reside in a different district. At the end of the election, the votes
 were tallied state-wide. The six candidates with the most total votes
 across the state were elected, regardless of their residential district.
 While political parties as we know them did not yet exist, the
-candidates had split into two competing factions know as the Federalists
-(in favor of Washington, Hamilton and the U.S. Constitution) or the
+candidates had split into two competing factions known as the Federalists
+(in favor of Washington, Hamilton and the U.S. Constitution) and the
 Anti-Federalists (who opposed the ratification of the U.S.
 Constitution). In Maryland's First Congressional election, all six of
 the winning candidates were affiliated with the Federalist faction.
 
 The MEAE elections data we will be using in this tutorial, once
-downloaded, is structured as two separate .csv files (spreadsheets), and
-is recorded at the county level. "congressional-parties-meae.congressional.congress01.md.county.csv" has eighteen rows of
+downloaded, is structured as two separate `.csv` files (which are like spreadsheets). The data
+is recorded at the county level. The file `congressional-parties-meae.congressional.congress01.md.county.csv` ([download here](https://github.com/mapping-elections/elections-data/tree/master/congressional-parties-by-state)) has eighteen rows of
 data and records the number of votes and percentage of vote received by
 each "party" or faction in each of Maryland's eighteen counties.
-"congressional-candidates-meae.congressional.congress01.md.county.csv" has 324 rows of data, with each row showing the
+The file `congressional-candidate-counties-meae.congressional.congress01.md.county.csv` ([download here](https://github.com/mapping-elections/elections-data/tree/master/congressional-candidate-counties-by-state))  has 324 rows of data, with each row showing the
 number of votes a single candidate received in one of Maryland's
 eighteen counties. We will look more closely at the elections data and
 the variables in each file after we read the files into R Studio.
 
 We will be joining our MEAE data to county-level historical spatial data
-from the [USAboundries](https://cran.r-project.org/web/packages/USAboundaries/index.html) R package, which draws its data from the [U.S. Census Bureau](https://www.census.gov/geo/maps-data) and the [Atlas of Historical County Boundaries](https://publications.newberry.org/ahcbp/).
+from the [USAboundries](https://cran.r-project.org/web/packages/USAboundaries/index.html) R package, which draws its data from the U.S. Census Bureau and the [Atlas of Historical County Boundaries](https://publications.newberry.org/ahcbp/).
 
 <h2>Readying Elections Data for Analysis</h2>
 
 <h3>Reading In the MEAE Data</h3>
 
 First we start by loading the MEAE data into R Studio. The data needed
-for this tutorial can be downloaded [here](LINK). Once the data has be
-been downloaded, move the two .csv files into your working directory.
+for this tutorial is available from the MEAE GitHub repository. The data for party results by county is stored in [this directory](https://github.com/mapping-elections/elections-data/tree/master/congressional-parties-by-state). You will want to select the `.csv` file for Maryland's First Congressional election.  You should also download the file for individual candidate results by county from [this directory](https://github.com/mapping-elections/elections-data/tree/master/congressional-candidate-counties-by-state), which you will use later in this tutorial. Once the data has be
+been downloaded, move the two `.csv` files into your working directory.
 
 Next, in R studio we will create a variable for our first type of data
 (parties) and read in our data into the variable called
@@ -126,10 +124,10 @@ repeat this process with the candidates data, creating the variable
 `md1_candidates`.
 
 ```
-md1_parties <- read.csv(file = "congressional-parties-meae.congressional.congress01.md.county.csv", stringsAsFactors =
-FALSE)
+md1_parties <- read.csv(file = "congressional-parties-meae.congressional.congress01.md.county.csv", 
+stringsAsFactors = FALSE)
 
-md1_candidates <- read.csv(file = "md1-candidates.csv",
+md1_candidates <- read.csv(file = "congressional-candidate-counties-meae.congressional.congress01.md.county.csv",
 stringsAsFactors = FALSE)
 ```
 <br>
@@ -147,8 +145,8 @@ your screen. You should see the two data objects we created:
 object, you should see a number of "obs." (observations) and a number of
 variables. The number of observations corresponds with the number of
 rows of data, while the number of variables corresponds to the number of
-columns in the data. `md1_candidates` should have 324 observations of
-9 variables while and `md1_parties` should have 18 observations of 27
+columns in the data. The data object `md1_candidates` should have 324 observations of
+14 variables while `md1_parties` should have 18 observations of 27
 variables. Clicking on the blue arrow beside the name of a data object
 allows you to preview the variables and some of the observations.
 
@@ -166,7 +164,7 @@ object should contains data for the vote and percentage of the vote all
 parties received in this election. The first variable (column) is called
 `meae_id`. This variable contains a unique name that identifies this
 election in the MEAE data. You will notice that all eighteen rows have
-the same `meae_id`: meae.congressional.congress01.md.county. This
+the same `meae_id`: `meae.congressional.congress01.md.county`. This
 tells us that all the data here is county-level data from Maryland's
 First U.S. Congressional election. The variables `county_ahcb` and
 `county_fips` each contain a unique code for each county. Notice that
@@ -180,8 +178,8 @@ combination of an at-large and a district system. But to keep things
 simple, this election is listed as "At-Large" because voters elected six
 candidates that represented all voters of the state (instead of just a
 district or subset). Finally, the last type of variable lists the total
-number of votes (ex. `federalist_vote`) and percentage (ex.
-`federalist_percentage`) of the vote achieved by each party or
+number of votes (ex. `federalist_vote`) and percentage (
+ex. `federalist_percentage`) of the vote achieved by each party or
 faction. Notice that the data in the percentage columns is written as a
 decimal with a range of zero to one. In Maryland's first Congressional
 election, only the Federalist and Anti-Federalist factions received
@@ -196,9 +194,8 @@ clicking the data object's name in the Global Environment.
 
 We notice that this data object contains data for all the candidates
 that received votes in this election in Maryland. The first variable
-(column) is called `election_id`. Similar to the `meae_id` in the
-previous set of data, the `election_id` is an unique name that
-identifies this election. You will notice that all 324 rows have the
+(column) should look familiar: `meae_id`. From the next five variables 
+We learn that this is a congressional election (U.S. House of Representatives) for the First Congress in the State of Maryland. The data is at given at the county level, and the election was conducted at the state level. Next, similar to the `meae_id`, the `election_id` is an unique name that identifies this election. You will notice that all 324 rows have the
 same `election_id` "md.uscongress.1789", telling us that all of this
 data represents the U.S. Congressional election taking place in Maryland
 in 1789. Again, the `county_ahcb` and `county_fips` variables used
@@ -219,7 +216,7 @@ filter our data. At first, we might consider using the variable
 `candidate`, which gives the candidate's name. However, in early
 America, spelling wasn't standardized. Sometimes the first or last name
 of a candidate would be recorded differently in each county. Therefore,
-we created a variable called `candidate_id` which is a unique code of
+it is better to `filter` by a variable called `candidate_id`. This is a unique code of
 letters and numbers identifying each candidate in the MEAE dataset,
 regardless of the spelling variations of his name. If we filtered using
 a specific candidate's name, we might risk not obtaining all the data
@@ -240,10 +237,10 @@ is exactly equal (`==`) to `"SJ0183"`.
 md1_single_candidate <- md1_candidates %>%
   filter(candidate_id == "SJ0183")
 ```
-
+<br>
 Double check that the new data object `md1_single_candidate` has
 appeared in your Global Environment, and that it contains eighteen rows
-of data, all for candidate Joshua Seney, with the ID: SJ0183.
+of data, all for candidate Joshua Seney, with the `candidate_id` SJ0183.
 
 ![]({{site.url}}/content-img/r-md1-single-candidate.png)
 
@@ -286,7 +283,7 @@ Environment.
 ![]({{site.url}}/content-img/r-md1-counties.png)
 
 Just like we did with the MEAE data, let's take a closer look at the
-data in "md1_counties" by clicking on its name in the Global
+data in `md1_counties` by clicking on its name in the Global
 Environment.
 
 ![]({{site.url}}/content-img/r-md1-counties-inspect.png)
@@ -369,7 +366,7 @@ the right/second data object `md1_parties`.
 ```
 md1_counties_parties <- left_join(md1_counties, md1_parties)
 ```
-
+<br>
 However, we are not done yet. If you run this command, you will get an
 error message telling you that "the data sources have no common
 variables."
@@ -424,7 +421,7 @@ placed here by the join.
 
 Another way to check that the join worked correctly is to check the
 number of observations and variables listed in the Global Environment.
-`md1_counties` has 21 variables while `md1_parties` has 27
+The data object `md1_counties` has 21 variables while `md1_parties` has 27
 variables. If we add the number of variables from the two original data
 objects together and subtract one (to account for the one common
 variable that was used to join the data) we get 47, the exact number of
@@ -438,14 +435,14 @@ Now that we have successfully joined our MEAE parties data and
 county-level spatial data into `md1_counties_parties`, repeat the
 steps above to join the MEAE candidates data with the county-level
 spatial data to make `md1_counties_single_candidate`. This data
-object should have 18 observation of 29 variables. The function we used
+object should have 18 observation of 34 variables. The function we used
 is below.
 
 ```
 md1_counties_single_candidate <- left_join(md1_counties,
 md1_single_candidate, by=c("id" = "county_ahcb"))
 ```
-
+<br>
 
 Congratulations! You have now successfully read-in all the MEAE data,
 obtained the spatial data, and joined the data to create two new data
@@ -456,7 +453,7 @@ visualize our data by creating choropleth maps!
 
 When creating geographic visualizations in R, you have many options.
 There are several different packages and functions that you can use.
-We've already used one of the most basic `plot()` to check our spatial
+We've already used one of the most basic functions `plot()` to check our spatial
 data earlier. For this tutorial, we are going to demonstrate how to use
 two different packages, `ggplot2` (part of the `tidyverse` package)
 and `leaftlet` to make choropleth maps---maps which show geographic
@@ -487,7 +484,7 @@ MEAE data for party percentages.
 ```
 ggplot(md1_counties_parties)
 ```
-
+<br>
 Next, we need to add what is called a "geom" or geometry in `ggplot2`. You can think of this like telling R to create a layer of shapes or
 dots. We will use `geom_sf` which provides several "simple features"
 (sf) or tools to help manipulate spatial data. In our case, `geom_sf` will create outlines of each county in Maryland like we saw with our
@@ -570,9 +567,9 @@ you can use the same steps to make different kinds of party maps.
 For example, you could create a map of the Anti-Federalist (instead of
 Federalist) vote percentages by slightly modifying the above code:
 
-1. change the variable name in the `geom_sf` from `federalist_percentage` to `antifederalist_percentage_vote`
+1. change the variable name in the `geom_sf` from `federalist_percentage` to `antifederalist_percentage`
 
-2. change the color of the palette in `scale_fill\_distiller` to
+2. change the color of the palette in `scale_fill_distiller` to
 something else. We recommend `"Oranges"`, as this is the color MEAE
 uses to represent Anti-Federalists
 
@@ -643,12 +640,12 @@ function that tells leaflet how to create the scale we want. We store
 this function as `federalist_percent_colors` and use the function
 `colorNumeric` to tell `leaflet` that we want to create a color
 scale based on numbers. We specify the palette we want to use is
-`"Greens"` (again in MEAE, Federalists are represented by green, but
-you can make this a color of your choosing). Finally, we have to define
-a domain for this scale. `leaflet` wants to now the lowest and highest
+`"Greens"`. (Again in MEAE, Federalists are represented by green, but
+you can make this a color of your choosing.) Finally, we have to define
+a domain for this scale. `leaflet` wants to know the lowest and highest
 values (numbers) in our scale. Remember that we are mapping the
 Federalist percentage of the vote and our votes percentages are stored
-as decimals ranging from zero to one. Because if this, we use `domain = 0:1`.
+as decimals ranging from zero to one. Because of this, we use `domain = 0:1`.
 
 ```
 federalist_percent_colors <- colorNumeric(palette = "Greens", domain = 0:1)
@@ -716,7 +713,7 @@ number. The code we used to build our legend is below.
     title = "Percentange of Vote", opacity = 1,
     labFormat = labelFormat(suffix = "%", transform = function(x) { x*100 })
 ```
-
+<br>
 ![]({{site.url}}/content-img/r-parties-map1-leaflet.png)
 
 <h3>Going Further with Party Percentages - leaflet</h3>
@@ -727,15 +724,14 @@ clicks on data. For example, we might want to add a label that would
 appear when you hovered your mouse over each county, giving the county
 name and the exact percentage of the vote received by the Federalist
 party. We would do this by adding a line of code inside of our
-`addPolygons()` function. We might use the code: `label = ~paste(name, " County,", federalist_percentage,"%"))`.
+`addPolygons()` function. We might use the code: `label = ~paste(name, " County,", (federalist_percentage*100),"%"))`.
 
 In this code, `name` and `federalist_percentage` are two variables
 from `md1_counties_parties` that gives the county name and percent
 of the Federalist vote respectively. This means that when leaflet is
 creating a label for each county, we want it to go find the data in the
 `name` and `federalist_percentage` variables for that county and
-paste it in the label. The word "county" and symbol "%" literally mean,
-paste the word county and the percent sign in each label.
+paste it in the label. Remember that we have to multiply the data from the the `federalist_percentage` column by one hundred to transform it from a decimal to a percent. Finally, the word "county" and symbol "%" literally mean, paste the word county and the percent sign in each label.
 
 The code below creates a leaflet map with all of the options we have
 discussed. Notice that when you hover over county, you can now see the
@@ -750,13 +746,13 @@ leaflet(md1_counties_parties) %>%
              fillOpacity = 1,
              color = "black", 
              weight = 1,
-             label = ~paste(name, " County,", federalist_percentage,"%")) %>% 
+             label = ~paste(name, " County,", (federalist_percentage*100),"%")) %>%  
  addLegend(position = "bottomright", pal = federalist_percent_colors, 
     values = ~federalist_percentage,
     title = "Percentange of Vote", opacity = 1,
     labFormat = labelFormat(suffix = "%", transform = function(x) { x*100 }))
 ```
-
+<br>
 ![]({{site.url}}/content-img/r-parties-map2-leaflet.png)
 
 Bravo! You have successfully created choropleth maps of MEAE parties
@@ -772,7 +768,7 @@ While we have now created maps that show the number of votes or
 percentage of the vote received by a single party or faction, wouldn't
 it be great to see how a particular candidate from that party faired in
 the election? In what counties did a particular candidate do well? Where
-did he not do so well? We can now use the skills you learned building
+did a candidate not do so well? We can now use the skills you learned building
 maps of party percentages to do just that.
 
 First, let's remind ourselves about the variables and observation in our
@@ -850,10 +846,10 @@ colors_candidate <- colorNumeric(palette = "Greens",
                                  domain = md1_counties_single_candidate$vote)
 ```
 <br>
-Next, make a few modifications to the leaflet map code. This time, we
+Next, we'll make a few modifications to the leaflet code we used previously. This time, we
 want to use `md1_counties_single_candidate` as the data for our map
 by placing it inside the `leaflet()` function. Next we want to use our
-function \`colors\_candidate\` followed by the the variable `vote`
+function `colors_candidate` followed by the the variable `vote`
 (representing the number of votes the candidate received) as the
 `fillColor`. We change the table so that it uses the variables
 `county` (for the county name), and `vote` (for the number of
@@ -876,23 +872,23 @@ leaflet(md1_counties_single_candidate) %>%
  addLegend(position = "bottomright", pal = colors_candidate, 
            values = ~vote, title = "Number of Votes", opacity = 1)
 ```
-
+<br>
 ![]({{site.url}}/content-img/r-candidate-map-leaflet.png)
 
 <h2>Conclusion</h2>
 
-Congratulations! You have done and learned a lot in this tutorial. Just
-to recap, we've learned how to read-in and inspect our MEAE our data,
+Congratulations! You have accomplished a lot in this tutorial. Just
+to recap, you've learned how to read-in and inspect our MEAE data,
 how to obtain historical county-level spatial data, how to join the MEAE
 data to the spatial data, how to create party percentage maps in gglopt2
 and leaflet, and how to create a map of an individual candidate's votes
 in gglopt2 and leaflet.
 
 Most importantly, this tutorial should have provided you with a basic
-template on how to take MEAE data and begin using geospatial analysis to
+template for taking MEAE data and using geospatial analysis to
 analyze phenomenons such a candidate's votes, a party's votes, or a
 party's percentage of the vote. However, this is just the beginning of
-the possible kinds of maps or means of inquiry you can carryout using
+the possible kinds of maps or means of inquiry you can carry out using
 the MEAE dataset. Using the methods outline above, you can continue to
-investigate by creating choropleths with other variables, and for other
-Congresses or other states in the MEAE dataset.
+investigate by creating choropleths with other variables, for other
+Congresses, or for other states in the MEAE dataset.
