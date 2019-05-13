@@ -123,14 +123,15 @@ allow you to complete the maps.
 
     ![]({{site.url}}/content-img/qgis_csvt.jpg)
 
-    c.  Save file as `congressional-parties-meae.congressional.congress01.md.county.csvt` (note the changed file extension) in the same folder as
+    c.  Save file as `congressional-parties-meae.congressional.congress01.md.county.csvt` (note the changed file extension) in the same folder as the corresponding `.csv` file.
 
 3.  Create a `.csvt` file for the `congressional-candidates-counties-meae.congressional.congress01.md.county.csv` data set using Notepad for PC or TextEdit program for Mac or similar programs.
 
     a.  Open another window for your text editing program.
 
     b.  Write:
-    `'String','String','String','String','String','String','String','String','String','String','String','String','String','Integer'`
+    `'String','String','String','String','String','String','String',`<br>
+    `'String','String','String','String','String','String','Integer'`. Note that this should on one line; there is a line break here only for display purposes.)
 
     c.  Save file as `congressional-candidates-counties-meae.congressional.congress01.md.county.csvt` in the same folder. 
 
