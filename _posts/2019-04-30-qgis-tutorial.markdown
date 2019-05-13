@@ -84,7 +84,7 @@ downloaded, is structured as two separate `.csv` files (which are like spreadshe
 it is recorded at the county level. The file `congressional-parties-meae.congressional.congress01.md.county.csv` ([download here](https://github.com/mapping-elections/elections-data/tree/master/congressional-parties-by-state)) has eighteen rows of
 data and records the number of votes and percentage of vote received by
 each "party" or faction in each of Maryland's eighteen counties.
-The file `congressional-candidates-meae.congressional.congress01.md.county.csv` ([download here](https://github.com/mapping-elections/elections-data/tree/master/congressional-candidate-counties-by-state)) has 324 rows of data, with each row showing the
+The file `congressional-candidates-counties-meae.congressional.congress01.md.county.csv` ([download here](https://github.com/mapping-elections/elections-data/tree/master/congressional-candidate-counties-by-state)) has 324 rows of data, with each row showing the
 number of votes a single candidate received in one of Maryland's
 eighteen counties. We will look more closely at the elections data and
 the variables in each file after we import the files into QGIS.
@@ -125,14 +125,14 @@ allow you to complete the maps.
 
     c.  Save file as `congressional-parties-meae.congressional.congress01.md.county.csvt` (note the changed file extension) in the same folder as
 
-3.  Create a `.csvt` file for the `congressional-candidates-meae.congressional.congress01.md.county.csv` data set using Notepad for PC or TextEdit program for Mac or similar programs.
+3.  Create a `.csvt` file for the `congressional-candidates-counties-meae.congressional.congress01.md.county.csv` data set using Notepad for PC or TextEdit program for Mac or similar programs.
 
     a.  Open another window for your text editing program.
 
     b.  Write:
     `'String','String','String','String','String','String','String','String','String','String','String','String','String','Integer'`
 
-    c.  Save file as `congressional-candidates-meae.congressional.congress01.md.county.csvt` in the same folder. 
+    c.  Save file as `congressional-candidates-counties-meae.congressional.congress01.md.county.csvt` in the same folder. 
 
 4.  Open your QGIS project.
 
@@ -152,7 +152,7 @@ contain. Look at the Layers Panel on the left
 side of your screen. You should see the two `.csv` files you imported.
 The number of observations corresponds with the number 
 of rows of data, while the number of variables corresponds to the number 
-of columns in the data. `congressional-candidates-meae.congressional.congress01.md.county.csv` should have 324 observations 
+of columns in the data. `congressional-candidates-counties-meae.congressional.congress01.md.county.csv` should have 324 observations 
 while and `congressional-parties-meae.congressional.congress01.md.county.csv` should have 18 rows. Right click
 on a `.csv` in your Layers Panel and select `Open Attribute Table` to inspect your data.
 
@@ -197,7 +197,7 @@ For this tutorial we will use the vote tallies for candidate Daniel Carroll. Car
 will allow you to append only the necessary records to your special
 data.
 
-1.  Right click on the `congressional-candidates-meae.congressional.congress01.md.county.csv` and select filter
+1.  Right click on the `congressional-candidates-counties-meae.congressional.congress01.md.county.csv` and select filter
 
 2.  Select `candidate_id` and `=`
 
@@ -323,7 +323,7 @@ e.  For simplicity, you may want to join only the needed information
 
     a.  Select the `+` function on the bottom of the window.
 
-    b.  Choose congressional-candidates-meae.congressional.congress01.md.county.csv from the dropdown window.
+    b.  Choose congressional-candidates-counties-meae.congressional.congress01.md.county.csv from the dropdown window.
 
     c.  Choose  `county_ahcb` as `Join Field` and `ID` as target field,
     under "Choose which fields are joined" select `vote` (see Figure 5).
