@@ -1,5 +1,5 @@
 ---
-title: "Final Release of the Mapping Early American Elections Project"
+title: "Essays, Maps, Data and Tutorials from the Mapping Early American Elections Project"
 author: Lincoln Mullen
 layout: post
 image: /content-img/house-of-representatives-1822.jpg
