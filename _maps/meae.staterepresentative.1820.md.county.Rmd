@@ -1,0 +1,117 @@
+---
+meae-id: meae.staterepresentative.1820.md.county
+type: state-rep
+level: state
+state: Maryland
+geography: county
+title: 'Maryland House of Delegates, 1820'
+year: 1820
+legend: fed-vs-rep
+nnv:
+- id: md.assembly.allegany.county.1820
+  name: MD House of Delegates 1820, Allegany County 
+- id: md.assembly.annapolis.city.1820
+  name: MD House of Delegates 1820, City of Annapolis
+- id: md.assembly.anne.arundel.county.1820
+  name: MD House of Delegates 1820, Anne Arundel County
+- id: md.assembly.baltimore.city.1820
+  name: MD House of Delegates 1820, City of Baltimore
+- id: md.assembly.baltimore.county.1820
+  name: MD House of Delegates 1820, Baltimore County
+- id: md.assembly.calvert.county.1820
+  name: MD House of Delegates 1820, Calvert County
+- id: md.assembly.caroline.county.1820
+  name: MD House of Delegates 1820, Caroline County
+- id: md.assembly.cecil.county.1820
+  name: MD House of Delegates 1820, Cecil County 
+- id: md.assembly.dorchester.county.1820
+  name: MD House of Delegates 1820, Dorchester County 
+- id: md.assembly.frederick.county.1820
+  name: MD House of Delegates 1820, Frederick County
+- id: md.assembly.harford.county.1820
+  name: MD House of Delegates 1820, Harford County
+- id: md.assembly.kent.county.1820
+  name: MD House of Delegates 1820, Kent County
+- id: md.assembly.montgomery.county.1820
+  name: MD House of Delegates 1820, Montgomery County
+- id: md.assembly.prince.georges.county.1820
+  name: MD House of Delegates 1820, Prince George's County
+- id: md.assembly.queen.annes.county.1820
+  name: MD House of Delegates 1820, Queen Anne's County
+- id: md.assembly.saint.marys.county.1820
+  name: MD House of Delegates 1820, Saint Mary's County
+- id: md.assembly.somerset.county.1820
+  name: MD House of Delegates 1820, Somerset County
+- id: md.assembly.talbot.county.1820
+  name: MD House of Delegates 1820, Talbot County
+- id: md.assembly.washington.county.1820
+  name: MD House of Delegates 1820, Washington County
+- id: md.assembly.worcester.county.1820
+  name: MD House of Delegates 1820 Worcester County
+related-maps:
+- id: meae.staterepresentative.1819.md.county  
+  name: MD 1819 House of Delegates
+  type: previous
+- id: meae.staterepresentative.1821.md.county
+  name: MD 1821 House of Delegates
+  type: next
+- id: meae.congressional.congress17.md.county
+  name: MD 17th Congress
+  type: congressional
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.staterepresentative.1820.md.county"
+
+cities <- tribble(
+  ~city, ~lat, ~lng, ~federalist_percentage, ~demrep_percentage, ~federalist_vote, ~demrep_vote,
+  "Baltimore", 39.30021, -76.61052, 0, 1.0, 0, 6211)
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data(election_date = "1820-10-01") %>%
+  map_counties(height = "450px", cities = FALSE) %>%
+  addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
+                   fillColor = mappingelections:::poli_chrome(cities),
+                   opacity = 1, fillOpacity = 0.8, radius = 8, weight = 3,
+                   popup = ~paste0("<b>City of ", city, "</b><br/>",
+                                   "Federalists: ", federalist_percentage * 100, "% (", 
+                                   prettyNum(federalist_vote, big.mark = ","), 
+                                   " votes)<br/>",
+                                   "Democratic-Republicans: ", demrep_percentage * 100,
+                                 "% (", 
+                                 prettyNum(demrep_vote, big.mark = ","),
+                                 " votes)"),
+                   label = ~city) 
+```
+
+</div>
+
+Map Text
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

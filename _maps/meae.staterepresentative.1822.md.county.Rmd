@@ -1,0 +1,114 @@
+---
+meae-id: meae.staterepresentative.1822.md.county
+type: state-rep
+level: state
+state: Maryland
+geography: county
+title: 'Maryland House of Delegates, 1822'
+year: 1822
+legend: caucus-full
+nnv:
+- id: md.assembly.allegany.county.1822
+  name: MD House of Delegates 1822, Allegany County 
+- id: md.assembly.annapolis.city.1822
+  name: MD House of Delegates 1822, City of Annapolis
+- id: md.assembly.anne.arundel.county.1822
+  name: MD House of Delegates 1822, Anne Arundel County
+- id: md.assembly.baltimore.city.1822
+  name: MD House of Delegates 1822, City of Baltimore
+- id: md.assembly.baltimore.county.1822
+  name: MD House of Delegates 1822, Baltimore County
+- id: md.assembly.calvert.county.1822
+  name: MD House of Delegates 1822, Calvert County
+- id: md.assembly.caroline.county.1822
+  name: MD House of Delegates 1822, Caroline County
+- id: md.assembly.cecil.county.1822
+  name: MD House of Delegates 1822, Cecil County 
+- id: md.assembly.dorchester.county.1822
+  name: MD House of Delegates 1822, Dorchester County 
+- id: md.assembly.frederick.county.1822
+  name: MD House of Delegates 1822, Frederick County
+- id: md.assembly.harford.county.1822
+  name: MD House of Delegates 1822, Harford County
+- id: md.assembly.kent.county.1822
+  name: MD House of Delegates 1822, Kent County
+- id: md.assembly.montgomery.county.1822
+  name: MD House of Delegates 1822, Montgomery County
+- id: md.assembly.prince.georges.county.1822
+  name: MD House of Delegates 1822, Prince George's County
+- id: md.assembly.queen.annes.county.1822
+  name: MD House of Delegates 1822, Queen Anne's County
+- id: md.assembly.saint.marys.county.1822
+  name: MD House of Delegates 1822, Saint Mary's County
+- id: md.assembly.somerset.county.1822
+  name: MD House of Delegates 1822, Somerset County
+- id: md.assembly.talbot.county.1822
+  name: MD House of Delegates 1822, Talbot County
+- id: md.assembly.washington.county.1822
+  name: MD House of Delegates 1822, Washington County
+- id: md.assembly.worcester.county.1822
+  name: MD House of Delegates 1822 Worcester County
+related-maps:
+- id: meae.staterepresentative.1821.md.county  
+  name: MD 1821 House of Delegates
+  type: previous
+- id: meae.congressional.congress18.md.county
+  name: MD 18th Congress
+  type: congressional
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.staterepresentative.1822.md.county"
+
+cities <- tribble(
+  ~city, ~lat, ~lng, ~federalist_percentage, ~demrep_percentage, ~federalist_vote, ~demrep_vote,
+  "Baltimore", 39.30021, -76.61052, 0, 1.0, 0, 6211)
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data(election_date = "1822-10-01") %>%
+  map_counties(height = "450px", cities = FALSE) %>%
+  addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
+                   fillColor = mappingelections:::poli_chrome(cities),
+                   opacity = 1, fillOpacity = 0.8, radius = 8, weight = 3,
+                   popup = ~paste0("<b>City of ", city, "</b><br/>",
+                                   "Federalists: ", federalist_percentage * 100, "% (", 
+                                   prettyNum(federalist_vote, big.mark = ","), 
+                                   " votes)<br/>",
+                                   "Democratic-Republicans: ", demrep_percentage * 100,
+                                 "% (", 
+                                 prettyNum(demrep_vote, big.mark = ","),
+                                 " votes)"),
+                   label = ~city) 
+```
+
+</div>
+
+Map Text
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

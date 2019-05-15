@@ -1,0 +1,82 @@
+---
+meae-id: meae.staterepresentative.1801.nj.county
+type: state-rep
+level: state
+state: New Jersey
+geography: county
+title: 'New Jersey General Assembly, 1801'
+year: 1801
+legend: fed-vs-rep
+nnv:
+- id: nj.assemblybergen.1801
+  name: NJ General Assembly 1801, Bergen County
+- id: nj.assemblyburlington.1801
+  name: NJ General Assembly 1801, Burlington County
+- id: nj.assemblycumberland.1801
+  name: NJ General Assembly 1801, Cumberland County
+- id: nj.assemblyessex.1801
+  name: NJ General Assembly 1801, Essex County
+- id: nj.assemblygloucester.1801
+  name: NJ General Assembly 1801, Gloucester County
+- id: nj.assemblyhunterdon.1801
+  name: NJ General Assembly 1801, Hunterdon County
+- id: nj.assemblymiddlesex.1801
+  name: NJ General Assembly 1801, Middlesex County
+- id: nj.assemblymonmouth.1801
+  name: NJ General Assembly 1801, Monmouth County            
+- id: nj.assemblymorris.1801
+  name: NJ General Assembly 1801, Morris County
+- id: nj.assemblysomerset.1801
+  name: NJ General Assembly 1801, Somerset County
+- id: nj.assemblysussex.1801
+  name: NJ General Assembly 1801, Sussex County        
+related-maps:
+- id: meae.staterepresentative.1800.nj.county
+  name: NJ 1800 General Assembly 
+  type: previous
+- id: meae.staterepresentative.1802.nj.county
+  name: NJ 1802 General Assembly
+  type: next
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.staterepresentative.1801.nj.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data(election_date = "1801-10-01") %>%
+  map_counties(height = "700px")
+```
+
+</div>
+
+Map Text
+
+In 1801, a [special election](https://elections.lib.tufts.edu/catalog/tufts:nj.assemblymorris.specialelection.1801) was held in Morris County due to a tie vote for the third Assembly seat. Cornelius Voorhees was elected to fill the third seat. 
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

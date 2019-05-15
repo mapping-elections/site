@@ -1,0 +1,81 @@
+---
+meae-id: meae.staterepresentative.1802.nj.county
+type: state-rep
+level: state
+state: New Jersey
+geography: county
+title: 'New Jersey General Assembly, 1802'
+year: 1802
+legend: dissrep
+nnv:
+- id: nj.assemblybergen.1802
+  name: NJ General Assembly 1802, Bergen County
+- id: nj.assemblyburlington.1802
+  name: NJ General Assembly 1802, Burlington County
+- id: nj.assemblycapemay.1802
+  name: NJ General Assembly 1802, Cape May County
+- id: nj.assemblycumberland.1802
+  name: NJ General Assembly 1802, Cumberland County
+- id: nj.assemblyessex.1802
+  name: NJ General Assembly 1802, Essex County
+- id: nj.assemblygloucester.1802
+  name: NJ General Assembly 1802, Gloucester County
+- id: nj.assemblyhunterdon.1802
+  name: NJ General Assembly 1802, Hunterdon County
+- id: nj.assemblymiddlesex.1802
+  name: NJ General Assembly 1802, Middlesex County
+- id: nj.assemblymonmouth.1802
+  name: NJ General Assembly 1802, Monmouth County            
+- id: nj.assemblymorris.1802
+  name: NJ General Assembly 1802, Morris County
+- id: nj.assemblysalem.1802
+  name: NJ General Assembly 1802, Salem County
+- id: nj.assemblysomerset.1802
+  name: NJ General Assembly 1802, Somerset County
+- id: nj.assemblysussex.1802
+  name: NJ General Assembly 1802, Sussex County        
+related-maps:
+- id: meae.staterepresentative.1801.nj.county
+  name: NJ 1801 General Assembly 
+  type: previous
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.staterepresentative.1802.nj.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data(election_date = "1802-10-01") %>%
+  map_counties(height = "700px")
+```
+
+</div>
+
+Map Text
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

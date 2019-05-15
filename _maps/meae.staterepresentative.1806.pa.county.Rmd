@@ -1,0 +1,132 @@
+---
+meae-id: meae.staterepresentative.1806.pa.county
+type: state-rep
+level: state
+state: Pennsylvania
+geography: county
+title: 'Pennsylvania House of Representatives, 1806'
+year: 1806
+legend: dissrep
+nnv:
+- id: pa.assembly.adams.1806
+  name: PA House of Representatives 1806, Adams County
+- id: pa.assembly.alleghenybeaverbutler.1806
+  name: PA House of Representatives 1806, Allegheny, Beaver, and Butler Counties
+- id: pa.assembly.armstrongindianajeffersonwestmoreland.1806
+  name: PA House of Representatives 1806, Armstrong, Indiana, and Westmoreland Counties
+- id: pa.assembly.bedford.1806
+  name: PA House of Representatives 1806, Bedford County
+- id: pa.assembly.berks.1806
+  name: PA House of Representatives 1806, Berks County
+- id: pa.assembly.bucks.1806
+  name: PA House of Representatives 1806, Bucks County
+- id: pa.assembly.centre.1806
+  name: PA House of Representatives 1806, Centre County
+- id: pa.assembly.chester.1806
+  name: PA House of Representatives 1806, Chester County
+- id: pa.assembly.crawforderiemercervenangowarren.1806
+  name: PA House of Representatives 1806, Crawford, Erie, Mercer, and Venango Counties
+- id: pa.assembly.cumberland.1806
+  name: PA House of Representatives 1806, Cumberland County
+- id: pa.assembly.dauphin.1806
+  name: PA House of Representatives 1806, Dauphin County
+- id: pa.assembly.delaware.1806
+  name: PA House of Representatives 1806, Delaware County
+- id: pa.assembly.fayette.1806
+  name: PA House of Representatives 1806, Fayette County
+- id: pa.assembly.franklin.1806
+  name: PA House of Representatives 1806, Franklin County 
+- id: pa.assembly.huntingdon.1806
+  name: PA House of Representatives 1806, Huntingdon County
+- id: pa.assembly.lancaster.1806
+  name: PA House of Representatives 1806, Lancaster County
+- id: pa.assembly.luzerne.1806
+  name: PA House of Representatives 1806, Luzerne County
+- id: pa.assembly.lycoming.1806
+  name: PA House of Representatives 1806, Lycoming County
+- id: pa.assembly.mifflin.1806
+  name: PA House of Representatives 1806, Mifflin County
+- id: pa.assembly.montgomery.1806
+  name: PA House of Representatives 1806, Montgomery County
+- id: pa.assembly.northamptonwayne.1806
+  name: PA House of Representatives 1806, Northamption and Wayne Counties
+- id: pa.assembly.northumberland.1806
+  name: PA House of Representatives 1806, Northumberland County
+- id: pa.assembly.philadelphia.1806
+  name: PA House of Representatives 1806, Philadelphia County
+- id: pa.assembly.philadelphiacity.1806
+  name: PA House of Representatives 1806, City of Philadelphia
+- id: pa.assembly.somerset.1806
+  name: PA House of Representatives 1806, Somerset County
+- id: pa.assembly.washington.1806
+  name: PA House of Representatives 1806, Washington County
+- id: pa.assembly.york.1806
+  name: PA House of Representatives 1806, York County
+related-maps:
+- id: meae.staterepresentative.1805.pa.county
+  name: PA 1805 House of Representatives
+  type: previous
+- id: meae.congressional.congress10.pa.county
+  name: PA 10th Congress
+  type: congressional  
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.staterepresentative.1806.pa.county"
+
+cities <- tribble(
+  ~city, ~lat, ~lng, ~federalist_percentage, ~demrep_percentage, ~repfac_percentage, ~federalist_vote, ~demrep_vote, ~repfac_vote,
+    "Philadelphia", 39.9526, -75.1652, 0.170, 0.830, 1535, 7507)
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data(election_date = "1806-10-01") %>%
+  map_counties(height = "500px", cities = 0, congress = 9) %>% 
+  addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
+                 fillColor = mappingelections:::poli_chrome(cities),
+                 opacity = 1, fillOpacity = 0.8, radius = 8, weight = 3,
+                 popup = ~paste0("<b>City of ", city, "</b><br/>",
+                                 "Federalists: ", federalist_percentage * 100, "% (", 
+                                 prettyNum(federalist_vote, big.mark = ","), 
+                                 " votes)<br/>",
+                                 "Democratic-Republicans: ", demrep_percentage * 100,
+                                 "% (", 
+                                 prettyNum(demrep_vote, big.mark = ","),
+                                 " votes)"),
+                                "Republican faction: ", repfac_percentage * 100,
+                                 "% (", 
+                                 prettyNum(repfac_vote, big.mark = ","),
+                                 " votes)"),
+                 label = ~city) 
+```
+
+</div>
+
+Map Text 
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>

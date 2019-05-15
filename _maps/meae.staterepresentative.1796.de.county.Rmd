@@ -1,0 +1,61 @@
+---
+meae-id: meae.staterepresentative.1796.de.county
+type: state-rep
+level: state
+state: Delaware
+geography: county
+title: 'Delaware House of Representatives, 1796'
+year: 1796
+legend: fed-vs-rep
+nnv:
+- id: de.stateassembly.kent.1796
+  name: DE House of Representatives 1796, Kent County 
+- id: de.stateassembly.newcastle.1796
+  name: DE House of Representatives 1796, New Castle County   
+- id: de.stateassembly.sussex.1796
+  name: DE House of Representatives 1796, Sussex County  
+related-maps:
+- id: meae.congressional.congress05.de.county
+  name: DE 5th Congress
+  type: congressional
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.staterepresentative.1796.de.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_county_map_data(election_date = "1796-10-01") %>%
+  map_counties(height = "450px")
+```
+
+</div>
+
+Map Text
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results() %>%
+  results_to_table() %>%
+  cat()
+```
+
+</div>
