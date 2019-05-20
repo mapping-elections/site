@@ -195,7 +195,7 @@ by voting for Potomac candidates, while counties at the top of
 Chesapeake Bay and along the Eastern Shore made their outrage at the
 Compromise of 1790 known by voting for Chesapeake candidates. Counties
 located between the two waterways generally split their votes among both
-parties.](%7B%7Bsite.url%7D%7D/content-img/md2-map.png)
+parties.](/content-img/md2-map.png)
 
 Despite the formation of these two cohesive, regionally-based voting
 blocs, the Potomac and Chesapeake parties appear as clearly identified
@@ -229,7 +229,7 @@ gave consistent support to the Federalists (green). This allowed the
 Federalists to remain competitive in elections across the state of
 Maryland until 1824. Finally, in the middle and western parts of the
 state, voting was mixed and elections were often highly
-contested.](%7B%7Bsite.url%7D%7D/content-img/Maryland-animation-03-17.gif)
+contested.](/content-img/Maryland-animation-03-17.gif)
 
 ![Tracking party completion in Maryland from the third through
 seventeenth Congresses can help identify voting patterns in the state
@@ -246,7 +246,7 @@ the Chesapeake and Potomac regions, were highly contested. In the
 <a href="http://earlyamericanelections.org/maps/meae.congressional.congress15.md.county.html">fifteenth
 </a> Congressional election in Prince George's County, Federalist John
 C. Herbert was elected over Republican Joshua Barney by only 46
-votes.](%7B%7Bsite.url%7D%7D/content-img/md-party-competition.png)
+votes.](/content-img/md-party-competition.png)
 
 The voting patterns of these three regions continued into the 1820s.
 However, the 1824 presidential election altered these long-entrenched
