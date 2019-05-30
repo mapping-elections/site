@@ -103,7 +103,7 @@ like-minded Federalists. These partisans were especially active in New
 York, Pennsylvania, Maryland, Virginia and Ohio from 1804 to 1808 (figure 2),
 before they were re-absorbed into the Democratic-Republican party.
 New York was in a category of its own, nurturing a huge array of
-splinter groups. As John Brooke explains in his essay, New York included
+splinter groups. New York included
 factions such as the Bucktails, Clintonians, Lewisites, Opposition
 Republicans, and the aptly named Division versus Anti-Division factions (figure 3). Such
 party designations had local significance but not national recognition.
