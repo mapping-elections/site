@@ -89,15 +89,15 @@ map_id <- "meae.staterepresentative.1806.pa.county"
 
 cities <- tribble(
   ~city, ~lat, ~lng, ~federalist_percentage, ~demrep_percentage, ~repfac_percentage, ~federalist_vote, ~demrep_vote, ~repfac_vote,
-    "Philadelphia", 39.9526, -75.1652, 0.170, 0.830, 1535, 7507)
+    "Philadelphia", 39.9526, -75.1652, 0.522, 0.468, 0, 10023, 8998, 0)
 ```
 
 <div class="map">
 
 ```{r election-map, echo = FALSE}
 map_id %>%
-  get_county_map_data(election_date = "1806-10-01") %>%
-  map_counties(height = "500px", cities = 0, congress = 9) %>% 
+  get_staterep_map_data(state = "PA", election_date = "1806-10-01") %>%
+  map_counties(height = "500px", cities = 0) %>%
   addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
                  fillColor = mappingelections:::poli_chrome(cities),
                  opacity = 1, fillOpacity = 0.8, radius = 8, weight = 3,
@@ -109,23 +109,27 @@ map_id %>%
                                  "% (", 
                                  prettyNum(demrep_vote, big.mark = ","),
                                  " votes)"),
-                                "Republican faction: ", repfac_percentage * 100,
-                                 "% (", 
-                                 prettyNum(repfac_vote, big.mark = ","),
-                                 " votes)"),
                  label = ~city) 
 ```
 
 </div>
 
-Map Text 
+In 1806, Pennsylvania elected at least fourteen Federalists, forty Democratic-Republicans, and twenty-five Republicans who were part of a faction within the party to Pennsylvania’s House of Representatives. In this election, the Republican faction was a coalition of Federalists and moderate Democratic-Republicans (Constitutionalists). This group of candidates was often referred to as Quids. Democratic-Republicans and Quids clashed over impeachments, the governor's appointment powers, and reforms of the constitution and the court system.
+
+While Pennsylvania’s state legislature started out as a unicameral assembly, in 1791, the Pennsylvania General Assembly became a bicameral legislature, with a House of Representatives whose members were elected annually in October and a state Senate whose members were elected to four-year terms.
+
+Pennsylvania used a district system for electing members to Pennsylvania House of Representatives. Districts elected various numbers of Representatives (based on population), and were normally made up of a single county. However, during the early 1800s, numerous new counties were organized, especially in the sparsely settled western and northern part of the state. These new counties, for periods of time, voted with their parent county, and returns were rarely reported for them individually. This resulted in several multiple-county districts. 
+
+In this election the following counties voted together in a single district: Allegheny, Beaver, and Butler Counties. Armstrong, Indiana, Jefferson and Westmoreland Counties voted together. Crawford, Erie, Mercer, Venango, and Warren Counties voted together. The votes cast in Warren County are included in the Venango County totals. Centre and Clearfield Counties voted together. Lycoming, Tioga, and Potter Counties voted together. Northampton and Wayne Counties voted together. The votes cast in Cambria County are included in the Somerset County totals.
+
+In October 1806, elections where held simultaneously for Pennsylvania’s House of Representatives and for Pennsylvania’s delegation to the [Tenth U.S. Congress](http://earlyamericanelections.org/maps/meae.congressional.congress10.pa.county.html). Federalist, Democratic-Republican, and Quid candidates were elected in both contests.
 
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
 map_id %>%
-  candidate_results() %>%
-  results_to_table() %>%
+  candidate_results_state_rep() %>%
+  results_to_table_state_rep() %>%
   cat()
 ```
 

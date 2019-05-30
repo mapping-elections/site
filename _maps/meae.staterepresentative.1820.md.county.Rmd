@@ -78,14 +78,15 @@ map_id <- "meae.staterepresentative.1820.md.county"
 
 cities <- tribble(
   ~city, ~lat, ~lng, ~federalist_percentage, ~demrep_percentage, ~federalist_vote, ~demrep_vote,
-  "Baltimore", 39.30021, -76.61052, 0, 1.0, 0, 6211)
+  "Baltimore", 39.30021, -76.61052, 0.147, 0.853, 1564, 9070,
+  "Annapolis", 38.9784, -76.4922, 0.417, 0.583, 215, 301)
 ```
 
 <div class="map">
 
 ```{r election-map, echo = FALSE}
 map_id %>%
-  get_county_map_data(election_date = "1820-10-01") %>%
+  get_staterep_map_data(state = "MD", election_date = "1820-10-01") %>%
   map_counties(height = "450px", cities = FALSE) %>%
   addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
                    fillColor = mappingelections:::poli_chrome(cities),
@@ -103,14 +104,21 @@ map_id %>%
 
 </div>
 
-Map Text
+In 1820, Maryland elected eighty representatives to the state’s House of Delegates. At least twenty-seven of them were Federalists, and at least forty-eight of them were Democratic-Republicans.
+
+Members of Maryland’s House of Delegates were chosen through popular elections.
+Each of Maryland’s nineteen counties elected four members using a county-level at-large method. Annapolis and the City of Baltimore each elected two members. 
+
+In the 1820 legislative election, the Democratic-Republicans maintained their majority in Maryland’s House of Delegates. Maryland’s election for the [Seventeenth U.S. Congress](http://earlyamericanelections.org/maps/meae.congressional.congress17.md.county.html) was also held the same year, and shows similar party voting patterns. In both elections, the Democratic-Republicans maintained their majority, but party competition between the Democratic-Republicans and the Federalists was intense, especially in the eastern half of the state, such as in Cecil, Kent, Caroline, Talbot and Dorchester counties.  
+
+Maryland had three legislative bodies: The House of Delegates, which was elected annually in October and had eighty members; a State Senate, comprised of fifteen members, chosen every five years in early September; and a Governor’s Council made up of five members chosen yearly by the Legislature.
 
 <div class="results-table">
 
 ```{r election-results, echo = FALSE, results='asis'}
 map_id %>%
-  candidate_results() %>%
-  results_to_table() %>%
+  candidate_results_state_rep() %>%
+  results_to_table_state_rep() %>%
   cat()
 ```
 
