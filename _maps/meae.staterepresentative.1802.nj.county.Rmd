@@ -1,0 +1,87 @@
+---
+meae-id: meae.staterepresentative.1802.nj.county
+type: state-rep
+level: state
+state: New Jersey
+geography: county
+title: 'New Jersey General Assembly, 1802'
+year: 1802
+legend: dissrep
+nnv:
+- id: nj.assemblybergen.1802
+  name: NJ General Assembly 1802, Bergen County
+- id: nj.assemblyburlington.1802
+  name: NJ General Assembly 1802, Burlington County
+- id: nj.assemblycapemay.1802
+  name: NJ General Assembly 1802, Cape May County
+- id: nj.assemblycumberland.1802
+  name: NJ General Assembly 1802, Cumberland County
+- id: nj.assemblyessex.1802
+  name: NJ General Assembly 1802, Essex County
+- id: nj.assemblygloucester.1802
+  name: NJ General Assembly 1802, Gloucester County
+- id: nj.assemblyhunterdon.1802
+  name: NJ General Assembly 1802, Hunterdon County
+- id: nj.assemblymiddlesex.1802
+  name: NJ General Assembly 1802, Middlesex County
+- id: nj.assemblymonmouth.1802
+  name: NJ General Assembly 1802, Monmouth County            
+- id: nj.assemblymorris.1802
+  name: NJ General Assembly 1802, Morris County
+- id: nj.assemblysalem.1802
+  name: NJ General Assembly 1802, Salem County
+- id: nj.assemblysomerset.1802
+  name: NJ General Assembly 1802, Somerset County
+- id: nj.assemblysussex.1802
+  name: NJ General Assembly 1802, Sussex County        
+related-maps:
+- id: meae.staterepresentative.1801.nj.county
+  name: NJ 1801 General Assembly 
+  type: previous
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.staterepresentative.1802.nj.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_staterep_map_data(state = "NJ", election_date = "1802-10-01") %>%
+  map_counties(height = "700px")
+```
+
+</div>
+
+In 1802, New Jersey elected thirty-nine assemblymen to the state’s General Assembly. Twenty were Federalists, and at least nineteen were Democratic-Republicans.
+
+New Jersey’s state legislature was comprised of an upper house called the Legislative Council and a lower house called the General Assembly. Each of the state's thirteen counties elected one councilor and three assemblymen to the legislature. Elections for both houses were held annually. 
+
+In 1802, New Jersey allowed unmarried women (single and widowed) and free blacks (who met the property requirement) to vote. New Jersey was the only state to allow women to vote, and one of a few that allowed African Americans to vote. However, this unique makeup of the electorate only lasted a short time. An 1807 law did away with property restrictions, but also limited the franchise to white males. 
+
+This era of New Jersey politics was marked by intense party competition between the Federalists and the Democratic-Republicans. New Jersey’s 1802 General Assembly election helps illustrate a shift in party control in New Jersey’s state and federal offices. During the 1790s, New Jersey almost exclusively elected Federalist candidates to state and federal office. However after 1800, New Jersey Republicans gained control of the state legislature, the governorship, and the congressional delegation.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results_state_rep() %>%
+  results_to_table_state_rep() %>%
+  cat()
+```
+
+</div>

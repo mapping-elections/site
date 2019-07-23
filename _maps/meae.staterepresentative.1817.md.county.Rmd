@@ -1,0 +1,103 @@
+---
+meae-id: meae.staterepresentative.1817.md.county
+type: state-rep
+level: state
+state: Maryland
+geography: county
+title: 'Maryland House of Delegates, 1817'
+year: 1817
+legend: fed-vs-rep
+nnv:
+- id: md.assembly.annapolis.city.1817
+  name: MD House of Delegates 1817, City of Annapolis
+- id: md.assembly.baltimore.city.1817
+  name: MD House of Delegates 1817, City of Baltimore
+- id: md.assembly.baltimore.county.1817
+  name: MD House of Delegates 1817, Baltimore County
+- id: md.assembly.calvert.county.1817
+  name: MD House of Delegates 1817, Calvert County
+- id: md.assembly.caroline.county.1817
+  name: MD House of Delegates 1817, Caroline County
+- id: md.assembly.cecil.county.1817
+  name: MD House of Delegates 1817, Cecil County 
+- id: md.assembly.dorchester.county.1817
+  name: MD House of Delegates 1817, Dorchester County 
+- id: md.assembly.frederick.county.1817
+  name: MD House of Delegates 1817, Frederick County
+- id: md.assembly.harford.county.1817
+  name: MD House of Delegates 1817, Harford County
+- id: md.assembly.kent.county.1817
+  name: MD House of Delegates 1817, Kent County
+- id: md.assembly.somerset.county.1817
+  name: MD House of Delegates 1817, Somerset County
+- id: md.assembly.talbot.county.1817
+  name: MD House of Delegates 1817, Talbot County
+related-maps:
+- id: meae.staterepresentative.1818.md.county
+  name: MD 1818 House of Delegates
+  type: next
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.staterepresentative.1817.md.county"
+
+cities <- tribble(
+  ~city, ~lat, ~lng, ~federalist_percentage, ~demrep_percentage, ~federalist_vote, ~demrep_vote,
+  "Baltimore", 39.30021, -76.61052, 0, 1.0, "No reported", "No reported",
+  "Annapolis", 38.9784, -76.4922, 0.289, 0.711, 101, 249)
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_staterep_map_data(state = "MD", election_date = "1817-10-01") %>%
+  map_counties(height = "450px", cities = FALSE) %>%
+  addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
+                   fillColor = mappingelections:::poli_chrome(cities),
+                   opacity = 1, fillOpacity = 0.8, radius = 8, weight = 3,
+                   popup = ~paste0("<b>City of ", city, "</b><br/>",
+                                   "Federalists: ", federalist_percentage * 100, "% (", 
+                                   prettyNum(federalist_vote, big.mark = ","), 
+                                   " votes)<br/>",
+                                   "Democratic-Republicans: ", demrep_percentage * 100,
+                                 "% (", 
+                                 prettyNum(demrep_vote, big.mark = ","),
+                                 " votes)"),
+                   label = ~city) 
+```
+
+</div>
+
+In 1817, Maryland elected eighty representatives to the state’s House of Delegates. At least nine of them were Federalists, and at least twenty of them were Democratic-Republicans.
+
+The map for this election is incomplete due to the lack of returns at the county level.
+
+Members of Maryland’s House of Delegates were chosen through popular elections.
+Each of Maryland’s nineteen counties elected four members using a county-level at-large method. Annapolis and the City of Baltimore each elected two members. 
+
+Maryland had three legislative bodies: The House of Delegates, which was elected annually in October and had eighty members; a State Senate, comprised of fifteen members, chosen every five years in early September; and a Governor’s Council made up of five members chosen yearly by the Legislature. 
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results_state_rep() %>%
+  results_to_table_state_rep() %>%
+  cat()
+```
+
+</div>

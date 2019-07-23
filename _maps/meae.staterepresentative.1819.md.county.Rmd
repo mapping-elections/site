@@ -1,0 +1,123 @@
+---
+meae-id: meae.staterepresentative.1819.md.county
+type: state-rep
+level: state
+state: Maryland
+geography: county
+title: 'Maryland House of Delegates, 1819'
+year: 1819
+legend: fed-vs-rep
+nnv:
+- id: md.assembly.allegany.county.1819
+  name: MD House of Delegates 1819, Allegany County 
+- id: md.assembly.annapolis.city.1819
+  name: MD House of Delegates 1819, City of Annapolis
+- id: md.assembly.anne.arundel.county.1819
+  name: MD House of Delegates 1819, Anne Arundel County
+- id: md.assembly.baltimore.city.1819
+  name: MD House of Delegates 1819, City of Baltimore
+- id: md.assembly.baltimore.county.1819
+  name: MD House of Delegates 1819, Baltimore County
+- id: md.assembly.calvert.county.1819
+  name: MD House of Delegates 1819, Calvert County
+- id: md.assembly.caroline.county.1819
+  name: MD House of Delegates 1819, Caroline County
+- id: md.assembly.cecil.county.1819
+  name: MD House of Delegates 1819, Cecil County 
+- id: md.assembly.dorchester.county.1819
+  name: MD House of Delegates 1819, Dorchester County 
+- id: md.assembly.frederick.county.1819
+  name: MD House of Delegates 1819, Frederick County
+- id: md.assembly.harford.county.1819
+  name: MD House of Delegates 1819, Harford County
+- id: md.assembly.kent.county.1819
+  name: MD House of Delegates 1819, Kent County
+- id: md.assembly.montgomery.county.1819
+  name: MD House of Delegates 1819, Montgomery County
+- id: md.assembly.prince.georges.county.1819
+  name: MD House of Delegates 1819, Prince George's County
+- id: md.assembly.queen.annes.county.1819
+  name: MD House of Delegates 1819, Queen Anne's County
+- id: md.assembly.somerset.county.1819
+  name: MD House of Delegates 1819, Somerset County
+- id: md.assembly.talbot.county.1819
+  name: MD House of Delegates 1819, Talbot County
+- id: md.assembly.washington.county.1819
+  name: MD House of Delegates 1819, Washington County
+- id: md.assembly.worcester.county.1819
+  name: MD House of Delegates 1819, Worcester County
+related-maps:
+- id: meae.staterepresentative.1818.md.county  
+  name: MD 1818 House of Delegates
+  type: previous
+- id: meae.staterepresentative.1820.md.county
+  name: MD 1820 House of Delegates
+  type: next
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.staterepresentative.1819.md.county"
+
+cities <- tribble(
+  ~city, ~lat, ~lng, ~federalist_percentage, ~demrep_percentage, ~other_percentage, ~federalist_vote, ~demrep_vote, ~other_vote,
+  "Baltimore", 39.30021, -76.61052, 0, 0, 1.0, 0, 0, 233,
+  "Annapolis", 38.9784, -76.4922, 0.15, 0.85, 0, 1209, 6875, 0)
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_staterep_map_data(state = "MD", election_date = "1819-10-01") %>%
+  map_counties(height = "450px", cities = FALSE) %>%
+  addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
+                   fillColor = mappingelections:::poli_chrome(cities),
+                   opacity = 1, fillOpacity = 0.8, radius = 8, weight = 3,
+                   popup = ~paste0("<b>City of ", city, "</b><br/>",
+                                   "Federalists: ", federalist_percentage * 100, "% (", 
+                                   prettyNum(federalist_vote, big.mark = ","), 
+                                   " votes)<br/>",
+                                   "Democratic-Republicans: ", demrep_percentage * 100,
+                                 "% (", 
+                                 prettyNum(demrep_vote, big.mark = ","),
+                                 " votes)<br/>",
+                                 "Unaffiliated or other parties: ", other_percentage * 100, "% (", 
+                                   prettyNum(other_vote, big.mark = ","), 
+                                   " votes)"),
+                   label = ~city) 
+```
+
+</div>
+
+In 1819, Maryland elected eighty representatives to the state’s House of Delegates. At least twenty-one of them were Federalists, and at least forty-eight of them were Democratic-Republicans.
+
+Members of Maryland’s House of Delegates were chosen through popular elections.
+Each of Maryland’s nineteen counties elected four members using a county-level at-large method. Annapolis and the City of Baltimore each elected two members. 
+
+In Maryland’s 1819 state legislative election, the Democratic-Republicans gained an even greater majority in Maryland’s House of Delegates than they had the year before.
+
+Maryland had three legislative bodies: The House of Delegates, which was elected annually in October and had eighty members; a State Senate, comprised of fifteen members, chosen every five years in early September; and a Governor’s Council made up of five members chosen yearly by the Legislature.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results_state_rep() %>%
+  results_to_table_state_rep() %>%
+  cat()
+```
+
+</div>

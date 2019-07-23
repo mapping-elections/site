@@ -1,0 +1,136 @@
+---
+meae-id: meae.staterepresentative.1805.pa.county
+type: state-rep
+level: state
+state: Pennsylvania
+geography: county
+title: 'Pennsylvania House of Representatives, 1805'
+year: 1805
+legend: dissrep
+nnv:
+- id: pa.assembly.adams.1805
+  name: PA House of Representatives 1805, Adams County
+- id: pa.assembly.alleghenybeaverbutler.1805
+  name: PA House of Representatives 1805, Allegheny, Beaver, and Butler Counties
+- id: pa.assembly.armstrongindianajeffersonwestmoreland.1805
+  name: PA House of Representatives 1805, Armstrong, Indiana, Jefferson, and Westmoreland Counties
+- id: pa.assembly.bedford.1805
+  name: PA House of Representatives 1805, Bedford County
+- id: pa.assembly.berks.1805
+  name: PA House of Representatives 1805, Berks County
+- id: pa.assembly.bucks.1805
+  name: PA House of Representatives 1805, Bucks County
+- id: pa.assembly.chester.1805
+  name: PA House of Representatives 1805, Chester County
+- id: pa.assembly.crawforderiemercervenangowarren.1805
+  name: PA House of Representatives 1805, Crawford, Erie, Mercer, Venango, and Warren Counties
+- id: pa.assembly.cumberland.1805
+  name: PA House of Representatives 1805, Cumberland County
+- id: pa.assembly.dauphin.1805
+  name: PA House of Representatives 1805, Dauphin County
+- id: pa.assembly.delaware.1805
+  name: PA House of Representatives 1805, Delaware County
+- id: pa.assembly.fayette.1805
+  name: PA House of Representatives 1805, Fayette County
+- id: pa.assembly.franklin.1805
+  name: PA House of Representatives 1805, Franklin County 
+- id: pa.assembly.greene.1805
+  name: PA House of Representatives 1805, Greene County
+- id: pa.assembly.huntingdon.1805
+  name: PA House of Representatives 1805, Huntingdon County
+- id: pa.assembly.lancaster.1805
+  name: PA House of Representatives 1805, Lancaster County
+- id: pa.assembly.luzerne.1805
+  name: PA House of Representatives 1805, Luzerne County
+- id: pa.assembly.lycoming.1805
+  name: PA House of Representatives 1805, Lycoming County
+- id: pa.assembly.mifflin.1805
+  name: PA House of Representatives 1805, Mifflin County
+- id: pa.assembly.montgomery.1805
+  name: PA House of Representatives 1805, Montgomery County
+- id: pa.assembly.northamptonwayne.1805
+  name: PA House of Representatives 1805, Northamption and Wayne Counties
+- id: pa.assembly.northumberland.1805
+  name: PA House of Representatives 1805, Northumberland County
+- id: pa.assembly.philadelphia.1805
+  name: PA House of Representatives 1805, Philadelphia County
+- id: pa.assembly.philadelphiacity.1805
+  name: PA House of Representatives 1805, City of Philadelphia
+- id: pa.assembly.somerset.1805
+  name: PA House of Representatives 1805, Somerset County
+- id: pa.assembly.tioga.1805
+  name: PA House of Representatives 1805, Tioga County
+- id: pa.assembly.washington.1805
+  name: PA House of Representatives 1805, Washington County
+- id: pa.assembly.york.1805
+  name: PA House of Representatives 1805, York County
+related-maps:
+- id: meae.staterepresentative.1806.pa.county
+  name: PA 1806 House of Representatives
+  type: next
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.staterepresentative.1805.pa.county"
+
+cities <- tribble(
+  ~city, ~lat, ~lng, ~federalist_percentage, ~demrep_percentage, ~repfac_percentage, ~federalist_vote, ~demrep_vote, ~repfac_vote,
+    "Philadelphia", 39.9526, -75.1652, 0, 0.404, 0.596, 0, 7117, 10512)
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_staterep_map_data(state = "PA", election_date = "1805-10-01") %>%
+  map_counties(height = "500px", cities = 0) %>% 
+  addCircleMarkers(data = cities, lat = ~lat, lng = ~lng, color = "black",
+                 fillColor = mappingelections:::poli_chrome(cities),
+                 opacity = 1, fillOpacity = 0.8, radius = 8, weight = 3,
+                 popup = ~paste0("<b>City of ", city, "</b><br/>",
+                                 "Democratic-Republicans: ", demrep_percentage * 100,
+                                 "% (", 
+                                 prettyNum(demrep_vote, big.mark = ","),
+                                 " votes)<br/>",
+                                "Republican faction: ", repfac_percentage * 100,
+                                 "% (", 
+                                 prettyNum(repfac_vote, big.mark = ","),
+                                 " votes)"),
+                 label = ~city) 
+```
+
+</div>
+
+In 1805, Pennsylvania elected at least twenty-three Federalists, thirty-three Democratic-Republicans, and thirty-one Republicans who were part of a faction within the party to Pennsylvania’s House of Representatives. In this election, the Republican faction was a coalition of Federalists and moderate Democratic-Republicans (Constitutionalists). This group of candidates was often referred to as Quids. Democratic-Republicans and Quids clashed over impeachments, the governor's appointment powers, and reforms of the constitution and the court system.
+
+While Pennsylvania’s state legislature started out as a unicameral assembly, in 1791, the Pennsylvania General Assembly became a bicameral legislature with a House of Representatives whose members were elected annually in October and a state Senate whose members were elected to four-year terms.
+
+Pennsylvania used a district system for electing members to Pennsylvania House of Representatives. Districts elected various numbers of Representatives (based on population), and were normally made up of a single county. However, during the early 1800s, numerous new counties were organized, especially in the sparsely settled western and northern part of the state. These new counties, for periods of time, voted with their parent county, and returns were rarely reported for them individually. This resulted in several multiple-county districts. 
+
+In this election the following counties voted together in a single district: Allegheny, Beaver, and Butler Counties. Armstrong, Indiana, Jefferson, and Westmoreland Counties voted together. The votes cast in Indiana County are included in the Westmoreland County totals. Crawford, Erie, Mercer, Venango, and Warren Counties voted together. The votes cast in Warren County are included in the Venango County totals. Lycoming, Tioga, and Potter Counties voted together. The votes cast in Potter County are included in the Lycoming County totals. Northampton and Wayne Counties voted together. 
+
+On January 21, 1806, a [special election](https://elections.lib.tufts.edu/catalog/sx61dn35h) was held in which Constitutionalist Samuel Henderson was elected to replace Federalist Samuel Miles, who had died.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results_state_rep() %>%
+  results_to_table_state_rep() %>%
+  cat()
+```
+
+</div>
