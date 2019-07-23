@@ -1,0 +1,88 @@
+---
+meae-id: meae.staterepresentative.1801.nj.county
+type: state-rep
+level: state
+state: New Jersey
+geography: county
+title: 'New Jersey General Assembly, 1801'
+year: 1801
+legend: fed-vs-rep
+nnv:
+- id: nj.assemblybergen.1801
+  name: NJ General Assembly 1801, Bergen County
+- id: nj.assemblyburlington.1801
+  name: NJ General Assembly 1801, Burlington County
+- id: nj.assemblycumberland.1801
+  name: NJ General Assembly 1801, Cumberland County
+- id: nj.assemblyessex.1801
+  name: NJ General Assembly 1801, Essex County
+- id: nj.assemblygloucester.1801
+  name: NJ General Assembly 1801, Gloucester County
+- id: nj.assemblyhunterdon.1801
+  name: NJ General Assembly 1801, Hunterdon County
+- id: nj.assemblymiddlesex.1801
+  name: NJ General Assembly 1801, Middlesex County
+- id: nj.assemblymonmouth.1801
+  name: NJ General Assembly 1801, Monmouth County            
+- id: nj.assemblymorris.1801
+  name: NJ General Assembly 1801, Morris County
+- id: nj.assemblysomerset.1801
+  name: NJ General Assembly 1801, Somerset County
+- id: nj.assemblysussex.1801
+  name: NJ General Assembly 1801, Sussex County        
+related-maps:
+- id: meae.staterepresentative.1800.nj.county
+  name: NJ 1800 General Assembly 
+  type: previous
+- id: meae.staterepresentative.1802.nj.county
+  name: NJ 1802 General Assembly
+  type: next
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.staterepresentative.1801.nj.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_staterep_map_data(state = "NJ", election_date = "1801-10-01") %>%
+  map_counties(height = "700px")
+```
+
+</div>
+
+In 1801, New Jersey elected thirty-nine assemblymen to the state’s General Assembly. At least sixteen were Federalists, and at least sixteen were Democratic-Republicans.
+
+New Jersey’s state legislature was comprised of an upper house called the Legislative Council and a lower house called the General Assembly. Each of the state's thirteen counties elected one councilor and three assemblymen to the legislature. Elections for both houses were held annually. 
+
+In 1801, New Jersey allowed unmarried women (single and widowed) and free blacks (who met the property requirement) to vote. New Jersey was the only state to allow women to vote, and one of a few that allowed African Americans to vote. However, this unique makeup of the electorate only lasted a short time. An 1807 law did away with property restrictions, but also limited the franchise to white males. 
+
+This era of New Jersey politics was marked by intense party competition between the Federalists and the Democratic-Republicans. New Jersey’s 1801 General Assembly election helps illustrate a shift in party control in New Jersey’s state and federal offices. During the 1790s, New Jersey almost exclusively elected Federalist candidates to state and federal office. However after 1800, New Jersey Republicans gained control of the state legislature, the governorship, and the congressional delegation. On October 20, 1801, following the state’s annual elections, Trenton newspaper *The True American* noted that “the Federal Ticket has succeeded, by majorities much less than last year,” especially in several traditionally Federalist counties like Middlesex, Gloucester, and Burlington. Other counties such as Hunterdon, who had elected Federalists by a large majority of the vote the previous year, now elected “the Republican ticket for Members of the State Legislature.”
+
+In December 1801, a [special election](https://elections.lib.tufts.edu/catalog/tufts:nj.assemblymorris.specialelection.1801) was held in Morris County due to a tie vote for the third Assembly seat. Cornelius Voorhees was elected to fill the third seat.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results_state_rep() %>%
+  results_to_table_state_rep() %>%
+  cat()
+```
+
+</div>

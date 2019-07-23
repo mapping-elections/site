@@ -1,0 +1,86 @@
+---
+meae-id: meae.staterepresentative.1800.nj.county
+type: state-rep
+level: state
+state: New Jersey
+geography: county
+title: 'New Jersey General Assembly, 1800'
+year: 1800
+legend: fed-vs-rep
+nnv:
+- id: nj.generalassembly.bergen.1800
+  name: NJ General Assembly 1800, Bergen County
+- id: nj.generalassembly.cumberland.1800
+  name: NJ General Assembly 1800, Cumberland County
+- id: nj.generalassembly.essex.1800
+  name: NJ General Assembly 1800, Essex County
+- id: nj.generalassembly.gloucester.1800
+  name: NJ General Assembly 1800, Gloucester County
+- id: nj.generalassembly.hunterdon.1800
+  name: NJ General Assembly 1800, Hunterdon County
+- id: nj.generalassembly.middlesex.1800
+  name: NJ General Assembly 1800, Middlesex County
+- id: nj.generalassembly.monmouth.1800
+  name: NJ General Assembly 1800, Monmouth County            
+- id: nj.generalassembly.morris.1800
+  name: NJ General Assembly 1800, Morris County
+- id: nj.generalassembly.salem.1800
+  name: NJ General Assembly 1800, Salem County
+- id: nj.generalassembly.somerset.1800
+  name: NJ General Assembly 1800, Somerset County
+- id: nj.generalassembly.sussex.1800
+  name: NJ General Assembly 1800, Sussex County        
+related-maps:
+- id: meae.staterepresentative.1801.nj.county
+  name: NJ 1801 General Assembly
+  type: next
+- id: meae.congressional.congress07.nj.county
+  name: NJ 7th Congress
+  type: congressional
+output:
+  md_document:
+    variant: markdown
+  html_document:
+    theme: default
+always_allow_html: yes
+layout: maps-show
+
+---
+
+```{r setup, include = FALSE}
+library(leaflet)
+library(tidyverse)
+library(USAboundaries)
+library(mappingelections)
+
+map_id <- "meae.staterepresentative.1800.nj.county"
+```
+
+<div class="map">
+
+```{r election-map, echo = FALSE}
+map_id %>%
+  get_staterep_map_data(state = "NJ", election_date = "1800-10-01") %>%
+  map_counties(height = "700px")
+```
+
+</div>
+
+In 1800, New Jersey elected thirty-nine assemblymen to the state’s General Assembly. At least twenty-three were Federalists, and at least nine were Democratic-Republicans.
+
+New Jersey’s state legislature was comprised of an upper house called the Legislative Council and a lower house called the General Assembly. Each of the state's thirteen counties elected one councilor and three assemblymen to the legislature. Elections for both houses were held annually. 
+
+In 1800, New Jersey allowed unmarried women (single and widowed) and free blacks (who met the property requirement) to vote. New Jersey was the only state to allow women to vote, and one of a few that allowed African Americans to vote. However, this unique makeup of the electorate only lasted a short time. An 1807 law did away with property restrictions, but also limited the franchise to white males. 
+
+This era of New Jersey politics was marked by intense party competition between the Federalists and the Democratic-Republicans. In 1800, elections for New Jersey’s General Assembly and for New Jersey’s delegation to the [Seventh U.S. Congress](http://earlyamericanelections.org/maps/meae.congressional.congress07.nj.county.html) show the beginning of a shift in party control in New Jersey’s state and federal elections. During the 1790s, New Jersey almost exclusively elected Federalist candidates to state and federal office. However after 1800, New Jersey Republicans gained control of the state legislature, the governorship, and the congressional delegation.
+
+<div class="results-table">
+
+```{r election-results, echo = FALSE, results='asis'}
+map_id %>%
+  candidate_results_state_rep() %>%
+  results_to_table_state_rep() %>%
+  cat()
+```
+
+</div>

@@ -9,7 +9,7 @@ bodyclass: maps-browse
 
 <div data-equalizer data-equalize-on="medium" class="large-up-4">
 
-{% assign groups = site.maps | group_by: "congressordinal" | sort: "congressnum" %}
+{% assign groups = site.maps | where:"type","congressional" | group_by: "congressordinal" | sort: "congressnum" %}
 
 {% for group in groups %}
 <div class="medium-3 column column-block">
@@ -28,4 +28,15 @@ bodyclass: maps-browse
 
 </div>
 
+<div class="large-12 column">
+
+### Selected State Legislative Maps
+
+{% assign staterepmaps = site.maps | where:"type","state-rep" | sort: "year" %}
+<ul>
+{% for staterepmap in staterepmaps %}
+<li>[{{staterepmap.title}}]({{site.url}}{{staterepmap.url}})</li>
+{%endfor%}
+</ul>
+</div>
 
