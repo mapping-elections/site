@@ -17,7 +17,7 @@ title: Mapping Early American Elections
 # email: your-email@domain.com
 description: Early American Elections offers a window into the formative era of American politics by producing interactive maps and visualizations of Congressional and state legislative elections from 1787 to 1825.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://earlyamericanelections.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://earlyamericanelections.org" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username:
 # github_username:
 permalink: /blog/:year/:month/:day/:title.html

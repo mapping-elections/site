@@ -1,2 +1,2 @@
 # Configuration for dev site
-url: "http://earlyamericanelections.org/dev" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://earlyamericanelections.org/dev" # the base hostname & protocol for your site, e.g. http://example.com
