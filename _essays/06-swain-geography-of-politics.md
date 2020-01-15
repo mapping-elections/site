@@ -182,7 +182,7 @@ Ann Arundel County, the results were 48.3% for the Chesapeake party to
 the Chesapeake party while 50.9% voted for the Potomac party.
 
 ![Maryland's election for the
-<a href="http://earlyamericanelections.org/maps/meae.congressional.congress02.md.county.html">Second
+<a href="https://earlyamericanelections.org/maps/meae.congressional.congress02.md.county.html">Second
 Congress</a> demonstrates how topography and physical features played a
 determinative role in shaping the state's political development. After
 mixed reactions to Congress's decision to place the nation's capital on
@@ -243,7 +243,7 @@ vote. However, by the Sixth congressional election, Republicans had
 begun to receive substantial support in these areas, and both parties
 competed for votes. Finally, elections in District 2, which lay between
 the Chesapeake and Potomac regions, were highly contested. In the
-<a href="http://earlyamericanelections.org/maps/meae.congressional.congress15.md.county.html">fifteenth
+<a href="https://earlyamericanelections.org/maps/meae.congressional.congress15.md.county.html">fifteenth
 </a> Congressional election in Prince George's County, Federalist John
 C. Herbert was elected over Republican Joshua Barney by only 46
 votes.](/content-img/md-party-competition.png)

@@ -59,7 +59,7 @@ U.S. House of Representatives occurred during the same year, as it did
 in 1796, the county-level party percentages in both elections closely
 matched. For example, in Delaware's 1796 House of Representatives
 election and Delaware's [Fifth
-Congressional](http://earlyamericanelections.org/maps/meae.congressional.congress05.de.county.html)
+Congressional](https://earlyamericanelections.org/maps/meae.congressional.congress05.de.county.html)
 election, the party percentages in each county only varied by about one
 or two percent.
 
@@ -70,9 +70,9 @@ Caesar Rodney (signer of the Declaration of Independence) would go on to
 become a leader in the Democratic-Republican party, serve six terms as a
 Delaware State Representative (1797-1802), two terms in the U.S. House
 of Representatives (the
-[Eighth](http://earlyamericanelections.org/maps/meae.congressional.congress08.de.county.html)
+[Eighth](https://earlyamericanelections.org/maps/meae.congressional.congress08.de.county.html)
 and
-[Seventeenth](http://earlyamericanelections.org/maps/meae.congressional.congress17.de.county.html)
+[Seventeenth](https://earlyamericanelections.org/maps/meae.congressional.congress17.de.county.html)
 congresses), and serve as the Attorney General of the United States
 under presidents Thomas Jefferson and James Madison.
 

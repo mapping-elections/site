@@ -88,7 +88,7 @@ Baltimore each elected two members.
 In the 1820 legislative election, the Democratic-Republicans maintained
 their majority in Maryland's House of Delegates. Maryland's election for
 the [Seventeenth U.S.
-Congress](http://earlyamericanelections.org/maps/meae.congressional.congress17.md.county.html)
+Congress](https://earlyamericanelections.org/maps/meae.congressional.congress17.md.county.html)
 was also held the same year, and shows similar party voting patterns. In
 both elections, the Democratic-Republicans maintained their majority,
 but party competition between the Democratic-Republicans and the

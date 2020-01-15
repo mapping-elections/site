@@ -127,7 +127,7 @@ cast in Cambria County are included in the Somerset County totals.
 In October 1806, elections where held simultaneously for Pennsylvania's
 House of Representatives and for Pennsylvania's delegation to the [Tenth
 U.S.
-Congress](http://earlyamericanelections.org/maps/meae.congressional.congress10.pa.county.html).
+Congress](https://earlyamericanelections.org/maps/meae.congressional.congress10.pa.county.html).
 Federalist, Democratic-Republican, and Quid candidates were elected in
 both contests.
 

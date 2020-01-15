@@ -1,6 +1,6 @@
 # Website for Mapping Early American Elections
 
-This is the repository for [Mapping Early American Elections](http://earlyamericanelections.org/).
+This is the repository for [Mapping Early American Elections](https://earlyamericanelections.org/).
 
 ## Deploying
 

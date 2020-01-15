@@ -19,7 +19,7 @@ While we are going to demonstrate how to make maps for Maryland's
 First Congressional election, these steps can easily be replicated to
 create maps for different Congressional elections and for different
 states. By the end of this tutorial, you will have learned how to make a
-map similar the MEAE map for [Maryland's 1st Congress](http://earlyamericanelections.org/maps/meae.congressional.congress01.md.county.html).
+map similar the MEAE map for [Maryland's 1st Congress](https://earlyamericanelections.org/maps/meae.congressional.congress01.md.county.html).
 
 <h2>Tutorial Overview and Goals</h2>
 

@@ -91,7 +91,7 @@ After losing control of the state legislature in the 1801 to the
 Democratic-Republicans, the Federalists recaptured the Maryland House of
 Delegates with the 1808 election. Maryland's election for the [Eleventh
 U.S.
-Congress](http://earlyamericanelections.org/maps/meae.congressional.congress11.md.county.html)
+Congress](https://earlyamericanelections.org/maps/meae.congressional.congress11.md.county.html)
 was also held the same year, and shows similar party voting patterns. In
 both elections, Federalists received a majority of the vote in the
 southern and Potomac areas of the state, while the

@@ -84,7 +84,7 @@ using a county-level at-large method. Annapolis and the City of
 Baltimore each elected two members.
 
 Maryland's election for the [Eighteenth U.S.
-Congress](http://earlyamericanelections.org/maps/meae.congressional.congress18.md.county.html)
+Congress](https://earlyamericanelections.org/maps/meae.congressional.congress18.md.county.html)
 was also held in 1822, resulting in a high voter turnout for both
 elections.
 

@@ -106,7 +106,7 @@ In 1822, Maryland elected eighty representatives to the state’s House of Deleg
 Members of Maryland’s House of Delegates were chosen through popular elections.
 Each of Maryland’s nineteen counties elected four members using a county-level at-large method. Annapolis and the City of Baltimore each elected two members. 
 
-Maryland’s election for the [Eighteenth U.S. Congress](http://earlyamericanelections.org/maps/meae.congressional.congress18.md.county.html) was also held in 1822, resulting in a high voter turnout for both elections.
+Maryland’s election for the [Eighteenth U.S. Congress](https://earlyamericanelections.org/maps/meae.congressional.congress18.md.county.html) was also held in 1822, resulting in a high voter turnout for both elections.
 
 Like elsewhere in the country, the declining power of the Federalists in the 1820s caused a splintering of Maryland’s Democratic-Republicans into various factions. In Annapolis and Ann Arundel County, caucus and anti-caucus factions vied for control. Many former Federalists and disillusioned Republicans who disapproved of the Democratic-Republicans’ caucus method of choosing candidates for election, joined together to oppose the Republican machine with their own ballot of anti-caucus candidates. The 1822 state legislative election in Ann Arundel County was a close contest, and resulted in the election of two caucus and two anti-caucus members to the House of Delegates. 
 

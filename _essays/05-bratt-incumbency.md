@@ -171,9 +171,9 @@ also party incumbency---the Democratic-Republican party, of which Newton
 was a part, had sustained victories over several different candidates
 all of whom represented the Federalist Party. Note: Newton was elected
 to the
-<a href="http://earlyamericanelections.org/maps/meae.congressional.congress12.va.county.html">Twelfth
+<a href="https://earlyamericanelections.org/maps/meae.congressional.congress12.va.county.html">Twelfth
 </a> and
-<a href="http://earlyamericanelections.org/maps/meae.congressional.congress18.va.county.html">Eighteenth
+<a href="https://earlyamericanelections.org/maps/meae.congressional.congress18.va.county.html">Eighteenth
 </a> Congresses. However, complete data giving exact vote counts for
 these elections does not survive. Therefore, victories in theses
 elections are shown with a shaded purple

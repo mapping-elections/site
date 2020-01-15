@@ -11,7 +11,7 @@ bodyclass: about
 
 If you use this project, please use the following citation or something like it:
 
-Mapping Early American Elections project team, *Mapping Early American Elections*, Roy Rosenzweig Center for History and New Media, George Mason University (2019): <http://earlyamericanelections.org>, <https://doi.org/10.31835/meae>.
+Mapping Early American Elections project team, *Mapping Early American Elections*, Roy Rosenzweig Center for History and New Media, George Mason University (2019): <https://earlyamericanelections.org>, <https://doi.org/10.31835/meae>.
 
 The [Roy Rosenzweig Center for History and New Media](https://rrchnm.org/) received funding from the [National Endowment for the Humanities](http://www.neh.gov/) in 2016 to offer enhanced access to the early American election returns in the *[New Nation Votes](http://elections.lib.tufts.edu/)* collection at Tufts University. The *New Nation Votes* dataset is the only comprehensive record of elections in existence for the early American republic. Scattered in newspapers, state archives, and local repositories around the country, the election returns have been painstakingly gathered over the past forty-five years by [Philip J. Lampi](http://www.neh.gov/humanities/2008/januaryfebruary/feature/the-orphan-scholar) of the [American Antiquarian Society](http://www.americanantiquarian.org/).
 

@@ -76,7 +76,7 @@ This era of New Jersey politics was marked by intense party competition
 between the Federalists and the Democratic-Republicans. In 1800,
 elections for New Jersey's General Assembly and for New Jersey's
 delegation to the [Seventh U.S.
-Congress](http://earlyamericanelections.org/maps/meae.congressional.congress07.nj.county.html)
+Congress](https://earlyamericanelections.org/maps/meae.congressional.congress07.nj.county.html)
 show the beginning of a shift in party control in New Jersey's state and
 federal elections. During the 1790s, New Jersey almost exclusively
 elected Federalist candidates to state and federal office. However after

@@ -87,7 +87,7 @@ While the Federalists had been in control of Maryland's state
 legislature for several years, the Democratic-Republicans regained a
 majority in the Maryland House of Delegates with the 1818 election.
 Maryland's election for the [Sixteenth U.S.
-Congress](http://earlyamericanelections.org/maps/meae.congressional.congress16.md.county.html)
+Congress](https://earlyamericanelections.org/maps/meae.congressional.congress16.md.county.html)
 was also held the same year, and also resulted in a
 Democratic-Republican majority.
 
