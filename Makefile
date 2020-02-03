@@ -19,14 +19,14 @@ deploy : clean $(MAPPAGES)
 	@echo "Building dev site ..."
 	bundle exec jekyll build --config _config.yml,_config-dev.yml --future
 	@echo "Deploying to dev server ..."
-	rsync --checksum --delete -avz _site/* earlyamerican:/websites/earlyamer/www/dev/
+	rsync --checksum -avz _site/* arata:/websites/earlyamer/www/dev/
 	@echo "Done."
 
 deploy-production : clean $(MAPPAGES)
 	@echo "Building site ..."
 	bundle exec jekyll build --future
 	@echo "Deploying to production server ..."
-	rsync --checksum --exclude dev/ --delete -avz _site/* earlyamerican:/websites/earlyamer/www/
+	rsync --checksum --exclude dev/ -avz _site/* arata:/websites/earlyamer/www/
 	@echo "Done."
 
 maps : $(MAPPAGES)
