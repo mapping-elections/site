@@ -24,7 +24,7 @@ deploy : clean $(MAPPAGES)
 
 deploy-production : clean $(MAPPAGES)
 	@echo "Building site ..."
-	bundle exec jekyll build --future
+	bundle exec jekyll build
 	@echo "Deploying to production server ..."
 	rsync --checksum --exclude dev/ -avz _site/* arata:/websites/earlyamer/www/
 	@echo "Done."
